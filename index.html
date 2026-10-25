@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dodo's Apps</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#16181d;--muted:#5d6370;--line:#e2e0d8;--accent:#1f6f78}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1015;--card:#171a21;--ink:#eceef3;--muted:#9aa1b0;--line:#272b35;--accent:#5cc3cc}}
+:root[data-theme="dark"]{--bg:#0e1015;--card:#171a21;--ink:#eceef3;--muted:#9aa1b0;--line:#272b35;--accent:#5cc3cc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;padding:0 16px}
+main{max-width:760px;margin:0 auto;padding:40px 0 64px}
+h1{font:600 30px/1.2 Georgia,"Times New Roman",serif;margin:0 0 6px}
+p.lede{color:var(--muted);margin:0 0 28px;max-width:60ch}
+.grid{display:grid;gap:12px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;color:inherit;text-decoration:none}
+a.card:hover{border-color:var(--accent)}
+a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card h2{margin:0 0 4px;font:600 19px/1.3 Georgia,"Times New Roman",serif}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.tag{display:inline-block;margin-top:10px;font:12px ui-monospace,Menlo,monospace;color:var(--accent)}
+footer{margin-top:32px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Dodo's Apps</h1>
+  <p class="lede">Every study app we built together on Claude, in one place. Tap an app to open it. Each one saves your progress in the browser you use it in.</p>
+  <div class="grid">
+    <a class="card" href="psychiatry-mastery/index.html">
+      <h2>Psychiatry Mastery</h2>
+      <p>Board-level psychiatry: 2,425 questions across psychopharmacology, neuroscience, disorders, psychodynamics and psychotherapy, with spaced repetition, memory hooks, a receptor atlas, interview simulations and the Interview Playbook.</p>
+      <span class="tag">formerly Praxis</span>
+    </a>
+    <a class="card" href="clinical-judgment-trainer/index.html">
+      <h2>Clinical Judgment Trainer</h2>
+      <p>What to say next and what you are seeing: therapist responses, bedside pattern recognition (delirium, catatonia, serotonin toxicity and more) and case simulations, with a 40-year "clinical eye" meter.</p>
+      <span class="tag">formerly Praxis Clinic</span>
+    </a>
+    <a class="card" href="psychiatric-drug-reference/index.html">
+      <h2>Psychiatric Drug Reference</h2>
+      <p>Psychopharmacology by drug class: dosing tables, clinical pearls, warnings and interactions, plus a 15-question board-level quiz. The AI assistant and patient advisor work only in the Claude version.</p>
+      <span class="tag">formerly PsychRx</span>
+    </a>
+    <a class="card" href="lu-m1-clinical-psychology/index.html">
+      <h2>LU M1 Clinical Psychology</h2>
+      <p>The Lebanese University M1 courses on your semester timetable: cognitive tests, interviews, special cases, tools &amp; strategies, research methods, SPSS and the clinical internship, as MCQ practice with concept ladders.</p>
+      <span class="tag">formerly LUPRAX</span>
+    </a>
+    <a class="card" href="chemistry-physics-foundations/index.html">
+      <h2>Chemistry &amp; Physics Foundations</h2>
+      <p>Chemistry and physics from zero to tutor level, lesson by lesson, with etymology hooks, common misconceptions and questions that recycle until you get them right.</p>
+      <span class="tag">formerly Foundations</span>
+    </a>
+  </div>
+  <footer>Built by Charles (Dodo) Hachem with Claude.</footer>
+</main>
+</body>
+</html>

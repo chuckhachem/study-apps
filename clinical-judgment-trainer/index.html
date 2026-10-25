@@ -1,0 +1,745 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Clinical Judgment Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow reading column, like a case file. Header meter, mode tabs, one item at a time. */
+:root{
+  --bg:#EDF0EE; --surface:#F8FAF8; --fg:#18211E; --muted:#5B6A65; --rule:#CBD4D0;
+  --accent:#7A2E3A; --accent-ink:#FFFFFF; --good:#2F6B4F; --bad:#A33A2B; --note:#E6EBE8;
+  --f-display:'Fraunces',Georgia,'Times New Roman',serif;
+  --f-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121816; --surface:#1A2321; --fg:#E3E9E5; --muted:#93A39C; --rule:#2D3A36;
+  --accent:#E09AA3; --accent-ink:#1A1012; --good:#7CC4A0; --bad:#E7907F; --note:#222D2A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --surface:#1A2321; --fg:#E3E9E5; --muted:#93A39C; --rule:#2D3A36;
+  --accent:#E09AA3; --accent-ink:#1A1012; --good:#7CC4A0; --bad:#E7907F; --note:#222D2A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.app{max-width:720px;margin-inline:auto;padding-inline:16px;padding-block:20px 56px}
+header.top{display:flex;flex-direction:column;gap:14px;padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.brand{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.brand h1{font-family:var(--f-display);font-weight:600;font-size:1.7rem;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.brand small{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.years{display:flex;flex-direction:column;gap:6px}
+.years .row{display:flex;justify-content:space-between;gap:12px;font-family:var(--f-mono);font-size:.78rem;color:var(--muted);flex-wrap:wrap}
+.years .row b{color:var(--fg);font-weight:500}
+.track{position:relative;height:10px;border-radius:2px;background:var(--note);border:1px solid var(--rule);overflow:hidden}
+.track i{position:absolute;inset:0 auto 0 0;background:var(--accent);width:0;transition:width .5s}
+.ticks{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:.64rem;color:var(--muted)}
+nav.tabs{display:flex;gap:4px;margin-top:16px;flex-wrap:wrap}
+nav.tabs button{flex:1 1 0;min-width:84px;font:500 .85rem var(--f-body);padding:10px 8px;background:transparent;color:var(--muted);border:1px solid var(--rule);border-radius:4px;cursor:pointer}
+nav.tabs button[aria-selected="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+nav.tabs button:focus-visible,.opt:focus-visible,.btn:focus-visible,.case:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{display:flex;flex-direction:column;gap:18px;margin-top:20px;min-width:0}
+.meta{display:flex;gap:8px;flex-wrap:wrap;font-family:var(--f-mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.meta span{padding:2px 8px;border:1px solid var(--rule);border-radius:3px}
+.setup{font-family:var(--f-display);font-size:1.12rem;line-height:1.55;padding:16px 18px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;overflow-wrap:anywhere}
+.setup em{color:var(--muted)}
+.q{font-weight:600;font-size:1.02rem;text-wrap:balance}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:12px;text-align:left;width:100%;padding:12px 14px;background:var(--surface);color:var(--fg);border:1px solid var(--rule);border-radius:4px;font:inherit;cursor:pointer;min-width:0}
+.opt:hover:not([disabled]){border-color:var(--accent)}
+.opt .k{font-family:var(--f-mono);color:var(--muted);flex:none;width:1.4em}
+.opt .t{min-width:0;overflow-wrap:anywhere}
+.opt.right{border-color:var(--good);box-shadow:inset 3px 0 0 var(--good)}
+.opt.wrong{border-color:var(--bad);box-shadow:inset 3px 0 0 var(--bad)}
+.opt[disabled]{cursor:default}
+.explain{display:flex;flex-direction:column;gap:12px;padding:16px 18px;border:1px solid var(--rule);border-radius:4px;background:var(--surface)}
+.verdict{font-family:var(--f-display);font-size:1.15rem;font-weight:600}
+.verdict.ok{color:var(--good)} .verdict.no{color:var(--bad)}
+.blk h3{margin:0 0 4px;font-family:var(--f-mono);font-size:.7rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.blk p{margin:0;overflow-wrap:anywhere}
+.blk ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:6px}
+.blk.vet{padding:12px 14px;background:var(--note);border-left:3px solid var(--accent);border-radius:0 4px 4px 0}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:600 .9rem var(--f-body);padding:11px 18px;border-radius:4px;border:1px solid var(--fg);background:var(--fg);color:var(--bg);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--rule)}
+.btn.acc{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.cases{display:flex;flex-direction:column;gap:8px}
+.case{display:flex;flex-direction:column;gap:4px;text-align:left;width:100%;padding:14px 16px;background:var(--surface);border:1px solid var(--rule);border-radius:4px;font:inherit;color:var(--fg);cursor:pointer}
+.case strong{font-family:var(--f-display);font-size:1.05rem}
+.case span{color:var(--muted);font-size:.85rem}
+.patient{font-family:var(--f-display);font-style:italic;font-size:1.08rem;padding:12px 16px;border-left:3px solid var(--accent);background:var(--surface);overflow-wrap:anywhere}
+.stepbar{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);letter-spacing:.06em}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.stat{padding:12px 14px;border:1px solid var(--rule);border-radius:4px;background:var(--surface)}
+.stat b{display:block;font-family:var(--f-display);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.stat span{font-family:var(--f-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bars .b{display:grid;grid-template-columns:minmax(90px,150px) 1fr 44px;gap:10px;align-items:center;font-size:.85rem}
+.bars .bt{height:8px;background:var(--note);border-radius:2px;overflow:hidden}
+.bars .bt i{display:block;height:100%;background:var(--accent)}
+.bars .n{font-family:var(--f-mono);font-size:.75rem;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.empty{color:var(--muted);padding:18px;border:1px dashed var(--rule);border-radius:4px}
+.themebtn{font:500 .72rem var(--f-mono);background:transparent;color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:3px 8px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.track i{transition:none}}
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>Clinical Judgment Trainer</h1>
+      <small>Clinical eye &middot; interviewing &middot; technique <button class="themebtn" id="themebtn" type="button">theme</button></small>
+    </div>
+    <div class="years" aria-live="polite">
+      <div class="row"><span>Clinical eye: <b id="yrs">0.0</b> of 40 years</span><span id="rank">Intern</span></div>
+      <div class="track" role="progressbar" aria-valuemin="0" aria-valuemax="40" id="track"><i id="fill"></i></div>
+      <div class="ticks"><span>0</span><span>5</span><span>10</span><span>20</span><span>30</span><span>40</span></div>
+    </div>
+  </header>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Training mode">
+    <button role="tab" data-m="say" type="button">Say</button>
+    <button role="tab" data-m="eye" type="button">Eye</button>
+    <button role="tab" data-m="room" type="button">Room</button>
+    <button role="tab" data-m="record" type="button">Record</button>
+  </nav>
+  <main id="view"></main>
+</div>
+<script>
+/* SAY bank. Source order: option 0 is correct; the engine shuffles at serve time and remaps. */
+const SAY=[
+{id:'s01',lvl:1,tag:'Motivational interviewing',
+ setup:'Second visit. A 46-year-old man, referred by his employer after a drink-driving charge, folds his arms: <em>“You’re going to tell me I have to stop drinking, like everybody else. Save it.”</em>',
+ q:'Which response best serves the next ten minutes?',
+ opts:[
+ {t:'“You’ve heard that from a lot of people and it hasn’t helped. I’m not here to tell you what to do. What would you want to be different?”',why:'Rolls with the discord instead of meeting it. It names his experience, gives autonomy back, and invites change talk with an open question. Resistance in MI is a signal about the relationship, so the therapist moves, not the patient.'},
+ {t:'“I can see you’re angry, but the charge means we need to look closely at how much you drink and set a goal today.”',why:'Validates for one clause, then takes the expert role and sets the agenda. That is the righting reflex, and it predictably raises sustain talk. It would be right only after he has asked for direction.'},
+ {t:'“Many people in your position feel defensive at first. Can I share some facts about alcohol and driving risk?”',why:'Asking permission is correct MI technique, but the timing is wrong. Information before engagement lands as the lecture he predicted. Right once he signals curiosity (“what does the research say?”).'},
+ {t:'“Okay, you’re right to be annoyed. Let’s skip the drinking and talk about your work stress for now.”',why:'Avoids the rupture by dropping the agenda entirely. It is kind, but it abandons the focus the visit exists for. Right only if the alliance is so fragile that any mention of alcohol would end treatment.'}],
+ hook:'Rolling with resistance = a boulder rolling down the hill: you step aside, you do not stand in its way.',
+ vet:'Forty years teaches you that the sentence the patient says to push you away is usually a map of how everyone has treated him. Notice that he said “like everybody else”. He expects to be one more person who knows better.'},
+
+{id:'s02',lvl:1,tag:'Suicide inquiry',
+ setup:'A 31-year-old woman, three sessions into treatment for depression, looks at the floor: <em>“Sometimes I think everyone would be better off without me.”</em>',
+ q:'What is the best next sentence?',
+ opts:[
+ {t:'“When you say that, are you having thoughts of killing yourself?”',why:'Direct, plain, non-euphemistic. It does not plant the idea (the evidence is clear on that) and it tells her this room can hold the answer. Everything else in risk assessment (plan, intent, means, protective factors) opens from here.'},
+ {t:'“That sounds really painful. You wouldn’t do anything to hurt yourself, would you?”',why:'The tag question is leading: it is built to receive a “no”. Patients read the therapist’s anxiety and give the answer that relieves it. Right never; keep the validation, drop the tag.'},
+ {t:'“I’m sure that isn’t true. People who love you would be devastated, and we can work on that thought together.”',why:'Reassurance and cognitive disputation before assessment. It closes the topic and leaves her feeling unheard. Cognitive work on perceived burdensomeness comes after the risk picture is clear.'},
+ {t:'“Let’s make a safety agreement: promise you’ll call me or go to the ER before acting on any thought like that.”',why:'No-suicide contracts have no evidence of benefit and can substitute for assessment. A collaborative safety plan is valuable, but only after you have asked what you are planning for.'}],
+ hook:'Ask it as a verb, not a euphemism: “killing yourself”. Euphemisms leave the patient alone with the real words.',
+ vet:'Veterans ask in the first minute and in the same calm voice they use for sleep. The voice carries the message that the answer will not frighten you.'},
+
+{id:'s03',lvl:2,tag:'Psychodynamic technique',
+ setup:'Ten minutes before the end of a long-term session, a patient who has circled safe topics all hour says, with her coat already on: <em>“Oh, by the way, my mother’s biopsy is Thursday.”</em>',
+ q:'Which move is best?',
+ opts:[
+ {t:'Stop and sit: “That matters a great deal. I notice it came now, with little time left. Let’s take a few minutes with it, and begin there next time.”',why:'Honors the content, names the timing (doorknob communication: the weightiest material appears when the frame makes it safest to say and hardest to use), and contains rather than interprets. It also commits to the next session so the disclosure is not lost.'},
+ {t:'“I’m sorry, we have to stop in a minute. Please bring this up first thing next week.”',why:'Preserves the frame but is dismissive of an acute stressor. Biopsies have a date. Right only if the patient is stable and the content is chronic.'},
+ {t:'“I wonder why you waited until the end to tell me. What does it say about how you feel with me?”',why:'Interpretation of the timing is useful, but delivered first and this way it reads as accusation. The patient has just said something frightening. Content before process; the timing comment comes second and gently.'},
+ {t:'Extend the session by twenty minutes to talk it through fully.',why:'A generous impulse that rewards the pattern of delayed disclosure, and breaks the frame for an urgent matter that is not an emergency. Right when there is a genuine safety concern.'}],
+ hook:'Doorknob = the hand is on the knob, the heart is on the table. The last sentence is often the first true one.',
+ vet:'A patient who delays the real subject is telling you how safe the first fifty minutes felt. After forty years you stop being annoyed by doorknob comments and start planning for them.'},
+
+{id:'s04',lvl:2,tag:'Psychosis / relational',
+ setup:'A 27-year-old man, acutely ill, leans in: <em>“The neighbors are putting thoughts in my head through the vents. You can hear it too, right?”</em>',
+ q:'Which reply is best?',
+ opts:[
+ {t:'“I don’t hear it, and I’m not going to pretend to. But I can see how frightening it is. Tell me what it’s like for you right now.”',why:'Honest, non-collusive, and empathic toward the experience without endorsing the content. It keeps the alliance, which is the main therapeutic asset in psychosis. Fromm-Reichmann’s principle: take the person seriously, not the delusion literally.'},
+ {t:'“Yes, I can understand why you would believe that. Let’s figure out how to block the vents.”',why:'Collusion. It confirms the delusion, and the patient later discovers you lied. Right never in therapy, even if environmental steps (earplugs, a quiet room) can be offered without agreeing.'},
+ {t:'“That isn’t possible. Thoughts can’t be put into your head through vents, and it’s a symptom of your illness.”',why:'Factually right and therapeutically useless. Direct confrontation of a fixed belief increases fear and isolation. Insight work belongs to a later phase.'},
+ {t:'“How long have the neighbors been doing this? What exactly do they say? Which vent is it?”',why:'Elaborating detail can feel like interest, but a string of questions about content feeds the system. A single open question about distress is better than three about mechanism.'}],
+ hook:'Empathize with the feeling, not the belief: “I believe that you believe it.” Your face agrees; your words don’t.',
+ vet:'You are the only person in the room who is not afraid. The patient reads that in the first thirty seconds and either relaxes or escalates.'},
+
+{id:'s05',lvl:3,tag:'Transference / Gill',
+ setup:'A patient in the second year of analytic therapy snaps: <em>“You’re just like my father. You sit there and you don’t actually listen to me.”</em>',
+ q:'Which intervention best respects both reality and transference?',
+ opts:[
+ {t:'“Something I did or didn’t do just now felt like not listening. Tell me what you picked up, and then let’s see what it reminds you of.”',why:'Gill’s principle: explore the here-and-now plausibility (the patient’s observation may contain a grain of truth) before linking to the past. It avoids both defensiveness and a premature genetic interpretation, and it keeps the patient as co-investigator.'},
+ {t:'“I think you’re experiencing me as your father. Your anger at him is coming out toward me.”',why:'A correct formulation delivered as a verdict. Immediate transference interpretation can sound like “your perception is not real”, which repeats the original invalidation. Right later, once the here-and-now has been taken seriously.'},
+ {t:'“I’m sorry you feel that way. I was listening, and I can repeat what you said if that helps.”',why:'Defensive and a little pleading. It argues the point at the level of facts and misses what the accusation is for. Right only if there really was a lapse and you owe an acknowledgment.'},
+ {t:'Say nothing and let the silence hold her anger.',why:'Silence can be a good container, but after an accusation of not listening it will be heard as proof. Technique has to fit the relational moment, not the manual.'}],
+ hook:'Grain of truth: before you call it a projection, check the harvest for a real grain.',
+ vet:'Experienced analysts accept first that they may have drifted. The transference interpretation lands only because the patient saw you check yourself.'},
+
+{id:'s06',lvl:1,tag:'CBT / guided discovery',
+ setup:'A graduate student after failing one exam: <em>“I failed. So I’m a complete failure and I’ll never get through this program.”</em>',
+ q:'Which therapist response is the strongest CBT move at this point?',
+ opts:[
+ {t:'“Let’s look at this together. What would the evidence be on each side of ‘I’m a complete failure’, and has there been a time you passed something hard?”',why:'Guided discovery: the patient generates the evidence, so the new belief is hers. It examines the global label and the prediction separately and invites counter-data without arguing.'},
+ {t:'“That’s all-or-nothing thinking and catastrophizing. One exam doesn’t make a failure.”',why:'Correct names for the distortions, delivered as a verdict. Labeling and reassuring is less effective than eliciting. Right once the patient knows the model and is using the vocabulary herself.'},
+ {t:'“It’s understandable to feel that way. Most students fail an exam at some point.”',why:'Normalizing is useful, but alone it dilutes the emotion without testing the thought. A good second sentence, not a first one.'},
+ {t:'“How did that make you feel, and how did you feel as a child when you failed at things?”',why:'Pulls toward affect and developmental history, which is useful in other models, but skips the hot cognition in front of you. Right in a schema-focused phase.'}],
+ hook:'Socratic = “So-crates” sounds like “so, create”: you do not hand over the answer, you help them create it.',
+ vet:'The skill is the pause after the question. Forty years teaches you to let the patient’s evidence be wrong for a while before it becomes right.'},
+
+{id:'s07',lvl:2,tag:'Trauma / pacing',
+ setup:'First session. A 39-year-old woman begins describing an assault in graphic detail without pausing; her voice flattens and her eyes fix on the wall.',
+ q:'What do you do?',
+ opts:[
+ {t:'Gently interrupt: “I’m going to slow us down. Look around the room with me and feel your feet. You don’t have to tell me everything today.”',why:'She is dissociating. Uncontrolled narrative at this point re-traumatizes rather than heals. Titrate, ground, and restore choice. The alliance and stabilization precede trauma processing.'},
+ {t:'Stay silent and listen. “Letting it out” is therapeutic, and interrupting may feel like rejection.',why:'Appealing and common, but catharsis without regulation does not reduce PTSD. Right in a prepared phase of exposure work with a window of tolerance, not in a flat-voiced first session.'},
+ {t:'Reflect continuously: “That sounds terrifying. And then what happened?”',why:'The reflection is warm but the prompt drives deeper into the narrative, accelerating dissociation.'},
+ {t:'“Let’s pause. Tell me about your childhood, so we can understand why this affected you so strongly.”',why:'A sudden pivot to history can feel like blame, and it leaves the physiological state unaddressed. History matters, but regulation comes first.'}],
+ hook:'Window of tolerance: stay between the two panes: not hyper (panic) and not hypo (shutdown). Your job is to be the window cleaner.',
+ vet:'The eyes go first. By the time her voice flattens she has been gone for a minute. Watch for the shift, not the words.'}
+];
+SAY.push(
+{id:'s08',lvl:3,tag:'Borderline / idealization',
+ setup:'A patient with long-standing instability, three weeks into treatment: <em>“You’re the only one who’s ever understood me. You’re completely different from my last three therapists.”</em>',
+ q:'Which response best holds the frame?',
+ opts:[
+ {t:'“I’m glad it feels understood here. I’d also be wary of any therapist who was only ever good. I expect I’ll disappoint you at some point, and I’d want us to be able to talk about it.”',why:'Accepts the warmth without taking the throne, and names the future devaluation in advance. This is the stance of transference-focused and mentalization-based work: tolerate idealization, keep the whole object in view.'},
+ {t:'“Thank you. It means a lot that you feel that way, and I’ll always be here for you.”',why:'Gratifying and dangerous. “Always” is a promise no therapist can keep, and the patient’s fall from pedestal will be steep. Right never.'},
+ {t:'“Let’s be careful. Idealizing someone is a defense called splitting, and it usually ends in anger.”',why:'Technically right, delivered as a diagnosis. The patient hears “you are a diagnosis”, which feeds the shame the idealization was protecting against.'},
+ {t:'“What did your previous therapists do wrong? I want to avoid the same mistakes.”',why:'Seems curious but invites the patient to build the black list, and positions you as the exception. Past ruptures matter, but this question co-signs the split.'}],
+ hook:'Pedestal rule: whoever stands on a pedestal can only fall. Offer a chair at the table instead.',
+ vet:'Warmth shown at week three is a loan, and the interest comes due at week twelve. The veteran thanks the patient and quietly prepares for it.'},
+
+{id:'s09',lvl:2,tag:'Alliance rupture',
+ setup:'A depressed man, eight months in: <em>“What’s the point of coming here? Nothing changes. I don’t think this is working.”</em>',
+ q:'Which reply best repairs?',
+ opts:[
+ {t:'“It sounds like it hasn’t felt like it’s going anywhere, and part of that may be on me. What have I missed or gotten wrong?”',why:'A withdrawal rupture met with metacommunication (Safran and Muran): own your part, invite the criticism, and treat the rupture as the work. Often the repair is the first honest conversation in the treatment.'},
+ {t:'“It may seem that way, but you’ve actually improved in several areas. Your sleep and work attendance are better.”',why:'Counters feelings with data. Might be true, but it invalidates the experience and goes defensive. Right as a second move after the feeling has been heard.'},
+ {t:'“That’s the hopelessness talking. It’s a symptom of the depression.”',why:'Explains the complaint away. It also tells him that any criticism will be pathologized. Right when you are also assessing suicide risk, never as the main reply.'},
+ {t:'“If you’d like, we could try a different approach, or I can refer you to a colleague.”',why:'Responsive but premature. Offering the exit before understanding the complaint abandons the opportunity. Right after a genuine attempt at repair has failed.'}],
+ hook:'Rupture and repair: like a bone, it heals stronger at the break.',
+ vet:'Forty years in, you hear the complaint “nothing changes” as a bid: someone who has truly left does not announce it.'},
+
+{id:'s10',lvl:2,tag:'Grief',
+ setup:'Four months after her husband’s death from a cancer found late, a widow says: <em>“I should have noticed he was sick. I saw him losing weight and said nothing.”</em>',
+ q:'Which response is best?',
+ opts:[
+ {t:'“It sounds like part of the grief is searching for the moment when things might have gone differently. Tell me about when you noticed the weight loss.”',why:'Names the function of guilt (a way to feel some control over the uncontrollable) and invites the story rather than ruling on it. Absolution is something she can only reach by telling it.'},
+ {t:'“There was nothing you could have done. Hindsight is always twenty-twenty.”',why:'Well meant, often true, and closes the conversation. Reassurance is heard as “stop talking about this”. Right as a short closing line after the story has been told.'},
+ {t:'“Feeling guilty is a normal stage of grief. Everyone goes through it.”',why:'Normalizing with the stage model, which is not an accurate description of grief, and which flattens the specifics. Her guilt has an object: the weight loss.'},
+ {t:'“Maybe you could have caught it earlier, but you can’t change that now. What can you do going forward?”',why:'Honest to the point of cruelty and pivots to problem-solving too soon. The truth can be held without being delivered as a verdict.'}],
+ hook:'Guilt in grief = a bargaining chip: “if I was at fault, I once had power”. Ask about the chip.',
+ vet:'The veteran never argues with grief logic. You listen to the story three times and the fourth telling is a different story.'},
+
+{id:'s11',lvl:2,tag:'Bipolar / adherence',
+ setup:'A 34-year-old man with bipolar I, bright and rapid, says: <em>“I’ve never felt better. I’m sleeping four hours and I’m writing a business plan. I don’t need the lithium anymore.”</em>',
+ q:'Which approach is best?',
+ opts:[
+ {t:'Collaborative inquiry: “Tell me about the last few weeks. How is the four hours of sleep feeling? What would you want to protect if this tipped?”',why:'Elicits his own account and warning signs without a fight, links the medication to his goals, and quietly assesses for hypomania (sleep, speed, grandiosity). The alliance is the only tool that works with a patient who experiences symptoms as health.'},
+ {t:'“You are likely becoming hypomanic. Stopping lithium now is dangerous, so please keep taking it.”',why:'Medically right and delivered as a command to a patient who feels powerful. Predictably increases defiance. Right in tone if there is imminent danger and he lacks capacity.'},
+ {t:'“Let’s bring your family in so they can tell you how you have been acting.”',why:'Collateral is valuable, but arriving as a surprise ambush destroys trust. Right with his consent, framed as a shared plan he agreed to when well.'},
+ {t:'“It’s your decision. I’ll note it and we can review at the next visit in three weeks.”',why:'Respects autonomy as an abstraction while ignoring that the illness impairs the very judgment being exercised. Three weeks is too long. Right in a stable patient with capacity and a low-risk history.'}],
+ hook:'Four hours, feeling flush: the Hypo-Hero, who feels fine because he is. “Less sleep, more speed” is the tell.',
+ vet:'Ask how sleep feels, not how much. A tired person sleeping four hours complains; a manic one is delighted.'},
+
+{id:'s12',lvl:1,tag:'Adolescent engagement',
+ setup:'A 15-year-old slumps into the chair: <em>“I’m only here because my mom made me.”</em>',
+ q:'Which opening serves the alliance?',
+ opts:[
+ {t:'“That makes sense. Nobody likes being sent. I’m curious what would make this hour not a waste for you.”',why:'Accepts the reality without taking it personally, grants a sliver of agency, and moves toward his goals. With teenagers, legitimate power is the currency.'},
+ {t:'“I’m glad you’re here anyway. Your mom is very worried about you, and I want to help.”',why:'Positions you with the parent’s agenda in the first thirty seconds. The adolescent hears an ally of the adult.'},
+ {t:'“Then let’s use the time. Tell me what’s been happening that made your mom bring you.”',why:'Efficient and obedient to the adult’s framing. It makes him recite the charge sheet.'},
+ {t:'“Totally fair. We can just play a game and I won’t ask anything.”',why:'Disarms, but it sets up an empty hour and implies therapy is something to be avoided. Right with a younger child, or as a first-session tactic with a very guarded teen if goals follow soon after.'}],
+ hook:'Teen rule: ally with the autonomy, not the authority.',
+ vet:'You are auditioning for a role he has been refusing for months. The audition is won by giving him a choice he thinks is small.'},
+
+{id:'s13',lvl:3,tag:'Countertransference',
+ setup:'A patient has spent forty minutes recounting complaints about colleagues. You notice a heaviness, a drift in attention, and a quiet pressure to find something helpful to say.',
+ q:'How do you best use what you are feeling?',
+ opts:[
+ {t:'Offer a tentative, shared observation: “I notice I keep searching for something useful to say, and I wonder whether you sometimes feel that way with people, that they have to fix you or leave.”',why:'Treats the countertransference as data about the patient’s relational pull (induced helplessness, a request to rescue), and offers it as a hypothesis, not a verdict. Own it first, then wonder.'},
+ {t:'Interrupt with advice about the colleagues, since the patient is clearly stuck and wants help.',why:'This is the enactment: taking the pressure to rescue literally. Advice here would be accepted and then fail, confirming the pattern.'},
+ {t:'“I’m finding it hard to stay engaged with what you’re telling me. Can you say why you keep repeating this?”',why:'Honest in content but shifts the problem onto the patient. Disclosure without ownership reads as criticism.'},
+ {t:'Say nothing and silently use the feeling as a private diagnostic clue, saving it for supervision.',why:'Wise as a first step, and supervision is essential. But when the pressure persists across sessions, silence becomes an enactment of its own. Right for the first occurrence.'}],
+ hook:'Countertransference is a thermometer in your own mouth: you read the patient’s temperature from your own.',
+ vet:'Veterans trust their drowsiness more than their theory. The body registers what the patient cannot say.'},
+
+{id:'s14',lvl:2,tag:'Self-disclosure',
+ setup:'Early in treatment, a 38-year-old woman who recently lost a pregnancy asks: <em>“Do you have children?”</em>',
+ q:'Which reply is best?',
+ opts:[
+ {t:'“I’m glad you asked. I’d like to understand what’s behind the question today, and then I’ll tell you what I think is useful for our work.”',why:'Welcomes the question, explores its meaning given her loss, and keeps the decision about disclosure clinical. Neither stonewalls nor answers reflexively.'},
+ {t:'“I don’t share personal information in sessions, and I find it more useful to keep the focus on you.”',why:'Rigid and cold, and it risks a rupture with a woman who just asked something vulnerable. Right when the question is clearly an attempt to deflect or the therapist’s disclosure would harm the work.'},
+ {t:'“Yes, I have two. So I have some idea what you’re going through.”',why:'Answers, then claims an understanding the facts cannot bear. Disclosure should serve the patient’s need, not the therapist’s wish to be close. Dangerous with a recent pregnancy loss.'},
+ {t:'“Why do you ask?”',why:'The classic reflex and sounds like a trap here. The words are reasonable, but without warmth the question reads as evasion.'}],
+ hook:'Before you answer the question, answer the person who is asking it.',
+ vet:'There is no rule about disclosure, only a judgment about who the answer is for. Forty years makes that judgment fast.'}
+);
+/* EYE bank: pattern recognition. Option 0 is correct; the engine shuffles at serve time. */
+const EYE=[
+{id:'e01',lvl:1,tag:'Delirium',
+ setup:'A 78-year-old woman, admitted for a urinary infection, was lucid at breakfast. By evening she is picking at the sheets, says there are children at the foot of the bed, and cannot repeat three digits. Her daughter says <em>“she was fine this morning.”</em>',
+ q:'Which single feature most strongly points to the diagnosis?',
+ opts:[
+ {t:'Acute onset with fluctuating attention over hours',why:'Inattention with an acute, fluctuating course is the core of delirium (CAM). Visual hallucinations, sleep-wake disturbance and a medical trigger all fit, but the fluctuation in attention is the anchor.'},
+ {t:'Visual hallucinations of children',why:'Common in delirium but also in Lewy body dementia, alcohol withdrawal and Charles Bonnet syndrome. Alone it does not discriminate. It would point to DLB if recurrent, well-formed, and present when she is otherwise clear.'},
+ {t:'Picking at the sheets (carphologia)',why:'A classic bedside sign of delirium, but nonspecific and sometimes absent in hypoactive delirium. A good tell, not the best discriminator.'},
+ {t:'Age over 75',why:'Age is a risk factor for delirium, not a diagnostic feature. Using it as the reason is a base-rate shortcut, and it would also fit dementia or depression.'}],
+ hook:'Delirium = “Delirious, day-to-night”: it dips with the sun. Attention is the first thing to break and the last thing the family notices.',
+ vet:'Ask the family: “was there a day when she was different?” The date is the diagnosis. Dementia has a year; delirium has an afternoon.'},
+
+{id:'e02',lvl:2,tag:'Catatonia',
+ setup:'A 24-year-old woman, three weeks postpartum, is brought in mute. She lies with eyes open, does not respond to questions, holds her arm in the air where the nurse placed it, and has refused food for two days.',
+ q:'What is the most appropriate next step?',
+ opts:[
+ {t:'Bush-Francis assessment and a lorazepam challenge, while ruling out medical causes',why:'Mutism, staring, posturing, waxy flexibility and food refusal define catatonia. Benzodiazepine challenge is both diagnostic and therapeutic; ECT follows if there is no response or malignant features. Exclude delirium, NMS, encephalitis.'},
+ {t:'Start an antipsychotic for presumed postpartum psychosis',why:'The label may be right, but antipsychotics can worsen catatonia and precipitate NMS. Treat the catatonia first. Right after catatonia resolves, if psychosis remains.'},
+ {t:'Begin an SSRI for postpartum depression with psychomotor retardation',why:'Retardation in depression is slowed but responsive. This patient is mute, posturing and unresponsive. SSRIs are slow, and she is not eating. Right only for a depressed patient who is able to eat and speak.'},
+ {t:'Observe for 48 hours before intervening, to see if the mutism lifts',why:'Waiting risks dehydration, DVT, aspiration and malignant progression. Catatonia is a medical urgency. Observation is right for a patient who is eating and drinking.'}],
+ hook:'Cat-atonic: the cat freezes, then you place the paw and it stays. Treat the cat with a Lor-a-zepam (“Lori, calm the cat”).',
+ vet:'Check the arm before the story. Waxy flexibility takes ten seconds and saves a week of wrong diagnoses.'},
+
+{id:'e03',lvl:2,tag:'Akathisia',
+ setup:'Three days after a dose increase of haloperidol, a 31-year-old man with schizophrenia paces the corridor, shifts from foot to foot while seated, and says <em>“I can’t stand it, I feel like jumping out of my skin.”</em> The team suspects his psychosis is worsening.',
+ q:'What is the best response?',
+ opts:[
+ {t:'Treat as akathisia: reduce the dose or switch, and consider propranolol or a low-dose benzodiazepine',why:'Subjective inner restlessness plus motor restlessness, temporally linked to a dose increase, is akathisia. Escalating the antipsychotic worsens it and raises suicide and non-adherence risk. First-line options include dose reduction, propranolol, mirtazapine 15 mg.'},
+ {t:'Increase the haloperidol further to control agitation',why:'The reflex of a team reading the pacing as psychotic agitation. It makes the symptom worse. Right only if the restlessness is clearly accompanied by new psychotic content and no subjective distress about it.'},
+ {t:'Add benztropine for extrapyramidal side effects',why:'Anticholinergics help dystonia and parkinsonism and are less reliable for akathisia. Reasonable if there are also rigidity or tremor.'},
+ {t:'Start an antidepressant for agitated depression',why:'Misattributes a drug effect to a mood disorder and risks adding an activating drug to a suffering patient.'}],
+ hook:'A-kath-isia = “a cat that can’t sit”: Greek a- (not) + kathisis (sitting). Not-sitting.',
+ vet:'Ask “is the restlessness inside you or outside?” Akathisia patients answer with distress. Agitated psychotic patients rarely say it feels like skin.'},
+
+{id:'e04',lvl:2,tag:'Serotonin toxicity',
+ setup:'A 45-year-old man on sertraline and recently started on tramadol arrives with agitation, diaphoresis, diarrhea and tremor. His temperature is 38.6°C, pupils are dilated, and reflexes are brisk with inducible ankle clonus. Onset was within hours.',
+ q:'Which feature best separates this from neuroleptic malignant syndrome?',
+ opts:[
+ {t:'Hyperreflexia and clonus with rapid onset, rather than lead-pipe rigidity with bradyreflexia over days',why:'Serotonin syndrome: neuromuscular excitation (clonus, hyperreflexia, tremor, mydriasis, diarrhea) within hours of an offending agent. NMS: dopamine blockade with rigidity, slowed reflexes, evolving over days.'},
+ {t:'The presence of fever',why:'Both conditions can cause fever. It cannot discriminate.'},
+ {t:'The patient’s agitation',why:'Common in serotonin syndrome and possible early in NMS. Mental status changes do not separate them.'},
+ {t:'Elevated creatine kinase',why:'May be elevated in both. Higher in NMS but not reliable at the bedside.'}],
+ hook:'Serotonin = “Shaking, Sweating, Stools” (diarrhea) with Clonus. NMS = “Neuro stops”: slow, stiff, lead-pipe.',
+ vet:'Examine the ankles first. Beating the foot back with the hand and feeling the rhythm confirms in thirty seconds what a lab panel takes hours to suggest.'},
+
+{id:'e05',lvl:3,tag:'Suicide risk',
+ setup:'A severely depressed man in the hospital for six days, agitated and tearful, is suddenly calm on day seven. He thanks the team warmly, asks to go for a walk alone, and tells his wife <em>“everything is going to be fine.”</em>',
+ q:'How should this change be read?',
+ opts:[
+ {t:'As a possible warning sign: a sudden calm after a decision, with farewell behavior, requires urgent reassessment',why:'Abrupt relief after prolonged agitation can mean the person has decided on a plan. The warm thanks and wish to be alone are consistent with that. Reassess directly, tighten observation, and do not discharge or grant unsupervised leave.'},
+ {t:'As clinical improvement from the antidepressant, supporting step-down to unsupervised leave',why:'Tempting because it is the outcome everyone wants. Genuine improvement is gradual, usually starting with energy and sleep. A single-day switch deserves skepticism.'},
+ {t:'As a sign of reduced anxiety, confirming the medication dose is correct',why:'Possible, but absence of agitation is not absence of risk. The question is whether insight and hope increased or only distress has gone quiet.'},
+ {t:'As a normal good-day fluctuation in major depression',why:'Diurnal and daily fluctuations exist, but here the change is abrupt and paired with behaviors that look like closing business.'}],
+ hook:'Calm before the cliff: relief that arrives faster than the treatment can explain.',
+ vet:'Ask “what changed?” and watch whether the answer has a cause. People who have improved can say why. People who have decided cannot.'},
+
+{id:'e06',lvl:3,tag:'Nihilistic delusion',
+ setup:'A 62-year-old woman says: <em>“My stomach is gone, my heart has stopped. I am already dead and I cannot die.”</em> She has not eaten in a week and sits motionless.',
+ q:'What is the most useful way to understand this?',
+ opts:[
+ {t:'Cotard syndrome, usually occurring in severe psychotic depression, with a high risk of starvation and suicide; ECT is a strong consideration',why:'Nihilistic delusions of body or existence in a melancholic picture. The belief is mood-congruent and the stakes are physical: food refusal and, paradoxically, suicidal behavior despite “cannot die”. ECT is highly effective.'},
+ {t:'Schizophrenia with bizarre delusions, requiring an antipsychotic alone',why:'The delusion is bizarre, but the context (age, retardation, food refusal, guilt) points to mood disorder with psychotic features. Antidepressant plus antipsychotic or ECT is the standard approach, not antipsychotic alone.'},
+ {t:'Somatic symptom disorder with anxiety about illness',why:'Health anxiety carries doubt (“I might have”). Here, the belief is fixed and absolute (“I am dead”).'},
+ {t:'Depersonalization disorder, managed with psychotherapy',why:'Depersonalization patients feel unreal but retain insight (“it is as if I am dead”). This patient has no “as if”.'}],
+ hook:'Cotard = “Cut-heart”: the heart is gone, the body is gone. The phrase to listen for is “as if” (depersonalization) versus “is” (delusion).',
+ vet:'Insight lives in the small word. “I feel like” and “I am” are 20 years of training apart.'},
+
+{id:'e07',lvl:1,tag:'Medical mimics',
+ setup:'A 52-year-old woman has her first panic attacks over the past two months, with palpitations, heat intolerance, tremor and a 6 kg weight loss despite a good appetite. She has no prior psychiatric history.',
+ q:'What is the most important next step?',
+ opts:[
+ {t:'Check TSH and free T4 before labeling this a primary anxiety disorder',why:'New-onset panic after 50 with weight loss, tremor, heat intolerance: hyperthyroidism until proven otherwise. Anxiety disorders rarely begin at this age, and treating them would miss a curable cause.'},
+ {t:'Start an SSRI and refer for CBT',why:'Standard for panic disorder, which this may not be. SSRIs can transiently increase jitteriness, and the cause remains untreated.'},
+ {t:'Prescribe a benzodiazepine for rapid symptom control',why:'Reasonable as a bridge in acute distress but treats the symptom and delays diagnosis. Right as a short bridge after the workup is started.'},
+ {t:'Ask about childhood trauma to explore the root of the anxiety',why:'Valuable for formulation but the physical picture comes first. Right after the medical causes are excluded.'}],
+ hook:'Late first panic = think “thyroid, pheo, arrhythmia, stimulants”: the T-P-A-S rule (TSH, Pheochromocytoma, Arrhythmia, Substances).',
+ vet:'First episode after 40 is a medical question wearing a psychological costume.'},
+
+{id:'e08',lvl:3,tag:'Dissociation vs psychosis',
+ setup:'A 29-year-old woman reports voices since age eight. They have names, argue with one another, comment on her, and she hears them <em>“inside my head, like another person talking”</em>. She has no thought disorder, her affect is appropriate, and there is a history of severe childhood abuse. Her previous diagnosis was schizophrenia.',
+ q:'Which observation most challenges that diagnosis?',
+ opts:[
+ {t:'Childhood-onset, inside-the-head, named, interacting voices in an organized patient with an abuse history, suggesting a dissociative disorder',why:'Schneiderian first-rank symptoms are common in dissociative identity disorder and do not by themselves indicate schizophrenia. Early onset, internal location, personified voices, trauma, and intact organization all point to a dissociative origin. Assess with the SCID-D or DES.'},
+ {t:'The voices comment on her actions',why:'Running commentary is a first-rank symptom, but it appears in dissociative disorders too. Not discriminating.'},
+ {t:'The absence of medication response in previous trials',why:'Suggestive, but treatment resistance in schizophrenia is common. Weaker than the phenomenology.'},
+ {t:'The patient’s age of 29',why:'Within the typical range for schizophrenia. Age is not the problem; the age at which the voices began is.'}],
+ hook:'Voices “inside the head with names” = a house with many rooms (dissociative). Voices “outside, strangers” = a street with many strangers (psychotic).',
+ vet:'Do not count the voices, interview them. A patient who can tell you who speaks and when has a structure, and structure is a trauma finding.'}
+];
+EYE.push(
+{id:'e09',lvl:2,tag:'Mood differential',
+ setup:'A 26-year-old woman describes “mood swings”: furious in the morning, elated by noon, in tears by evening. Shifts follow arguments with her partner and last a few hours. Between episodes she sleeps normally, with no change in energy or goals.',
+ q:'What does the temporal pattern most suggest?',
+ opts:[
+ {t:'Affective instability reactive to interpersonal triggers, typical of borderline personality organization rather than a bipolar episode',why:'Hours-long, trigger-linked shifts with preserved sleep and goals describe affective lability of borderline organization. Hypomania needs at least four days of sustained elevated or irritable mood with decreased need for sleep and increased energy.'},
+ {t:'Rapid-cycling bipolar II disorder',why:'Rapid cycling requires four or more discrete episodes per year, each lasting days (hypomania at least four days). Hour-scale shifts do not qualify.'},
+ {t:'Cyclothymic disorder',why:'Requires two years of numerous hypomanic and depressive periods that fall short of full episodes. The reactivity argues against, but cyclothymia is the closest bipolar-spectrum alternative.'},
+ {t:'Premenstrual dysphoric disorder',why:'Would show a luteal-phase pattern across cycles with remission after menses. Nothing here tracks the calendar.'}],
+ hook:'Hours with reasons = borderline. Days without reasons = bipolar. “Hours and Hurt”, “Days and Drive”.',
+ vet:'Ask “what happened right before?” for three swings. A borderline patient names three triggers. A bipolar patient shrugs.'},
+
+{id:'e10',lvl:2,tag:'OCD vs OCPD',
+ setup:'Patient A washes her hands until they bleed and says <em>“I hate it, I know it is irrational, but I cannot stop.”</em> Patient B reorganizes his files nightly, insists his methods are correct, finds colleagues sloppy, and says <em>“I see nothing wrong with how I do things.”</em>',
+ q:'What is the key distinguishing principle?',
+ opts:[
+ {t:'Ego-dystonic obsessions and compulsions with distress in OCD, against ego-syntonic perfectionism in OCPD',why:'OCD symptoms are experienced as unwanted intrusions; OCPD traits are experienced as correct, even virtuous, so the patient rarely seeks treatment for them. Insight and subjective distress separate the two.'},
+ {t:'OCPD patients never have compulsions',why:'Rigid routines exist in OCPD, but they are justified by values rather than driven by anxiety reduction.'},
+ {t:'OCD is a personality disorder with a worse prognosis',why:'OCD is an anxiety-spectrum disorder in DSM-5 (an obsessive-compulsive and related category); OCPD is the personality disorder.'},
+ {t:'OCD responds to SSRIs and OCPD does not, which defines the difference',why:'A pharmacologic response pattern can support the distinction, but it does not define it. The definition rests on phenomenology.'}],
+ hook:'Dystonic = “dis-tonic”, a bad taste. Syntonic = “in tune”. OCD hears a clash; OCPD hears music.',
+ vet:'Whoever suffers is rarely the one who brought the problem. OCPD patients often arrive because someone else is suffering.'},
+
+{id:'e11',lvl:2,tag:'Late-onset psychosis',
+ setup:'A 63-year-old retired teacher, no psychiatric history or family history, has developed over three months a fixed belief that her neighbors are poisoning her food. She also has new clumsiness and a recent fall.',
+ q:'What should shape the workup?',
+ opts:[
+ {t:'Treat as secondary psychosis until proven otherwise: neuroimaging, B12, thyroid, metabolic panel, infection, medications, and cognitive screening',why:'First-onset psychosis after 50 without history is usually organic: neurodegeneration (Lewy body, frontotemporal), tumor, stroke, autoimmune encephalitis, B12 deficiency, medications. Neurologic signs raise the stakes further.'},
+ {t:'Diagnose very-late-onset schizophrenia-like psychosis and start an antipsychotic',why:'This entity exists but is a diagnosis of exclusion. Early antipsychotic in an unrecognized Lewy body disease can cause severe sensitivity reactions.'},
+ {t:'Diagnose delusional disorder and refer to psychotherapy',why:'Delusional disorder is non-bizarre and functionally preserved; the new motor signs argue against a purely psychiatric cause.'},
+ {t:'Attribute the belief to normal aging and observe',why:'Persecutory delusions are never normal aging. Observation delays a workup that may find something treatable.'}],
+ hook:'Rule of fifties: first psychosis after 50 means look at the body before the mind. “Fifty and fresh, scan the flesh.”',
+ vet:'The new clumsiness was not in the referral letter. Ask about falls, gait, smell, sleep and dreams in every older psychotic patient.'},
+
+{id:'e12',lvl:3,tag:'Factitious disorder',
+ setup:'A 34-year-old nurse is admitted repeatedly to different hospitals with dramatic, textbook-perfect presentations. Symptoms emerge after being observed, tests are normal, the history is vivid but changes between interviews, and she welcomes invasive procedures. Records from previous hospitals are hard to obtain.',
+ q:'Which feature best supports factitious disorder over malingering?',
+ opts:[
+ {t:'The goal appears to be the sick role itself, with no clear external gain, and a willingness to undergo painful tests',why:'Factitious disorder: deliberate falsification or induction of illness with an internal motive of being a patient. Malingering has an identifiable external incentive (compensation, avoiding duty, drugs).'},
+ {t:'The presence of dramatic and fluent symptom reporting',why:'Both malingerers and factitious patients can be fluent. Not discriminating.'},
+ {t:'Normal investigations despite severe claimed illness',why:'Expected in both and in somatic symptom disorders; cannot separate them.'},
+ {t:'A medical background',why:'Raises suspicion and is overrepresented in factitious disorder, but is a risk factor, not a discriminator.'}],
+ hook:'Factitious = “fact-itch-ious”: an itch to be a patient. Malingering = “mal-lingering” for a prize.',
+ vet:'Ask what she would do if the tests are normal. A malingerer is annoyed that the plan fails. A factitious patient is quietly relieved there is more to investigate.'},
+
+{id:'e13',lvl:3,tag:'Functional neurological disorder',
+ setup:'A 28-year-old woman presents with sudden weakness of her right arm after a workplace argument. She describes it calmly and smiles. A colleague says <em>“la belle indifférence, it must be conversion.”</em> Examination shows Hoover’s sign.',
+ q:'What is the best interpretation of her calm?',
+ opts:[
+ {t:'La belle indifférence has poor discriminating value; the positive sign (Hoover’s) is what supports a functional diagnosis',why:'Studies show indifference is seen as often in organic disease. Modern diagnosis rests on positive signs of internal inconsistency (Hoover’s, hip abductor sign, drift without pronation), not on affect or on the stressor.'},
+ {t:'It confirms conversion because genuine paralysis would cause distress',why:'The belief the textbook once taught. It is neither sensitive nor specific, and it has led to missed neurological disease.'},
+ {t:'It suggests malingering, since she feels no concern',why:'Calm affect does not indicate feigning. In functional disorder the weakness is not under voluntary control.'},
+ {t:'It is irrelevant because only imaging can diagnose functional weakness',why:'Imaging excludes structural disease, but the diagnosis is made on positive clinical signs and is not a diagnosis of exclusion.'}],
+ hook:'Hoover’s sign: the leg that cannot lift on command pushes down when the other leg lifts. Look for the hidden strength, not the smile.',
+ vet:'Stop collecting stressors. Forty years of functional patients teaches that the stressor is sometimes absent and the diagnosis is still right.'},
+
+{id:'e14',lvl:1,tag:'Wernicke',
+ setup:'A 55-year-old man with heavy alcohol use arrives confused and unsteady. He has horizontal nystagmus, a wide-based gait, and cannot give the date. Blood glucose is borderline low and the team prepares a glucose infusion.',
+ q:'What is the correct order of action?',
+ opts:[
+ {t:'Give parenteral thiamine before or with the glucose',why:'Glucose can precipitate or worsen Wernicke’s encephalopathy in thiamine-depleted patients. The triad of confusion, ataxia and ophthalmoplegia (often incomplete) is a treatable emergency; high-dose IV thiamine.'},
+ {t:'Give glucose first, then thiamine once he is stable',why:'The intuitive order that does harm. Right only if profound life-threatening hypoglycemia is present and thiamine follows immediately.'},
+ {t:'Order CT head and wait for the result before treating',why:'Imaging is reasonable for trauma and confusion, but treatment must not wait.'},
+ {t:'Give oral thiamine and a benzodiazepine for withdrawal',why:'Oral absorption is poor in alcohol use disorder. Benzodiazepines may be needed for withdrawal, but they do not address the cause.'}],
+ hook:'“Thiamine before the sweet”: B1 first, then dextrose. Wernicke = the Wobbly, Wacky, Wet-brain (W-W-W).',
+ vet:'Give it on suspicion. Nobody was ever harmed by an extra ampoule, and many were harmed by waiting for the full triad.'},
+
+{id:'e15',lvl:3,tag:'Lewy body dementia',
+ setup:'A 72-year-old man has fluctuating confusion, well-formed visual hallucinations of small animals, and acts out his dreams at night. After one dose of haloperidol for agitation, he becomes rigid, mute and febrile-looking.',
+ q:'What does his reaction most suggest, and what follows?',
+ opts:[
+ {t:'Severe neuroleptic sensitivity of dementia with Lewy bodies; stop haloperidol and use cholinesterase inhibitors, with low-dose quetiapine or clozapine only if needed',why:'Up to half of DLB patients have severe sensitivity to D2 blockers. Core features (fluctuation, visual hallucinations, REM sleep behavior disorder) are all present. Rivastigmine or donepezil often reduces hallucinations.'},
+ {t:'Alzheimer disease with behavioral disturbance; increase the antipsychotic dose',why:'Alzheimer disease usually shows early memory loss rather than prominent fluctuation and vivid hallucinations. Increasing the dose compounds a dangerous reaction.'},
+ {t:'Delirium due to infection; treat with a higher dose of haloperidol',why:'Delirium can overlap, but this clinical picture and dream enactment argue for DLB, and haloperidol is the worst choice.'},
+ {t:'Frontotemporal dementia; start an SSRI',why:'FTD shows early behavioral or language change and preserved memory. Not this constellation.'}],
+ hook:'DLB = “Dreams, Lucid fluctuation, Beasts (small animals)”: act out Dreams, fluctuate, see Beasts. And never feed it D2 blockers.',
+ vet:'Always ask the wife how he sleeps. She will tell you the diagnosis before you ask about memory.'}
+);
+/* ROOM bank: interview simulations. Each option carries a score (2 best, 1 acceptable, 0 costly) and the patient's reply. */
+const ROOMS=[
+{id:'r1',lvl:1,title:'The man his wife brought in',blurb:'Irritable, tired, minimizing. A first interview where the chief complaint is somebody else’s.',
+ intro:'Mr. Haddad, 58, a contractor, sits down with his arms crossed. His wife phoned ahead to say he has stopped going to work, sleeps badly and snaps at the grandchildren. He has said nothing yet.',
+ steps:[
+ {patient:'“My wife thinks I need a doctor. I’m fine. I’m just tired.”',q:'How do you open?',
+  opts:[
+  {t:'“Thanks for coming even though you don’t think you need it. Tell me about the tired. What does a day look like at the moment?”',score:2,reply:'He uncrosses his arms slightly. “It’s nothing, I wake at four and I just lie there. Then the day is long.”',why:'Thanks him for the sacrifice, accepts his word (“tired”), and asks for a day in concrete terms. Early waking surfaces unprompted.'},
+  {t:'“Your wife is worried you may be depressed. Let me ask you a few questions about your mood.”',score:0,reply:'His jaw tightens. “So she told you what to say. I’m not depressed.”',why:'Opens as the wife’s proxy and uses the label he has already refused. He now has to defend himself against two people.'},
+  {t:'“What brought you in today?”',score:1,reply:'“I told you, my wife.” A shrug. “It’s nothing.”',why:'A neutral standard opener, but it gives him a chance to repeat the dismissal. Acceptable, not efficient.'}]},
+ {patient:'“I wake at four and just lie there. Then the day is long. I can’t be bothered with anything.”',q:'What next?',
+  opts:[
+  {t:'“Four in the morning is a hard hour. What goes through your mind while you lie there?”',score:2,reply:'A long pause. “That I’ve let people down. The business. My son.” He looks away.',why:'Empathic, open, and invites the guilt cognitions that sit behind early-morning waking. You learn content and affect at once.'},
+  {t:'“Have you lost your appetite or weight? Any loss of interest in things you used to enjoy?”',score:1,reply:'“Yes, a bit. I don’t eat.” He answers but does not elaborate.',why:'A valid screen that gets yes/no answers. Better after the human question.'},
+  {t:'“Early morning waking is a classic sign of depression. Have you considered an antidepressant?”',score:0,reply:'“I don’t take pills for being tired.” He leans back.',why:'Jumps to the label and treatment before the story. Predictably meets resistance.'}]},
+ {patient:'“I’ve let people down. The business. My son.” He rubs his face. “It would be easier if I weren’t around.”',q:'What do you say?',
+  opts:[
+  {t:'“That sounds like a heavy thing to carry. When you say it would be easier if you weren’t around, do you mean you’ve thought about ending your life?”',score:2,reply:'He is quiet. “Sometimes. I wouldn’t do it. The grandchildren.” He looks at you. “I haven’t told anyone that.”',why:'Acknowledges, then asks directly. He discloses passive ideation and a protective factor, and the room changes: someone finally asked.'},
+  {t:'“I’m sure things are not that bad. You have a family who loves you.”',score:0,reply:'“Right.” He closes down and the hour ends there.',why:'Reassurance silences the disclosure. You will never learn the answer you needed.'},
+  {t:'“Let’s not go to a dark place. Tell me about your plans for the weekend.”',score:0,reply:'He stares at you for a moment. “Sure.” The subject does not come back.',why:'Avoidance. He took a risk and the room could not hold it.'}]},
+ {patient:'“I wouldn’t do it. The grandchildren. But some days I think about it.”',q:'How do you continue the assessment?',
+  opts:[
+  {t:'“Thank you for telling me. Has there been a plan or anything you’ve thought of doing? And what keeps you here on the bad days?”',score:2,reply:'“No plan. I don’t have a gun or anything like that. It’s just the thought.” He adds, “my daughter calls every Sunday.”',why:'Assesses plan, means and protective factors in a gentle sequence and invites reasons for living. The picture is passive ideation with strong protection; the plan is outpatient treatment with a follow-up.'},
+  {t:'“I need you to promise me you won’t hurt yourself before we meet again.”',score:0,reply:'“Sure, I promise.” It is said too easily.',why:'A promise replaces assessment and teaches him the cheap answer.'},
+  {t:'“I’m going to admit you to the hospital for your own safety.”',score:0,reply:'He bristles. “I knew this was a mistake.”',why:'Disproportionate to the information so far, and it punishes disclosure. Admission is right if intent, plan or means emerge.'}]}],
+ debrief:'The case turns on two things: not arguing with “I’m just tired” and asking the suicide question in the same register as the sleep question. Forty years teaches that the patient tests you for several minutes before telling you the thing he came for, and that the test is whether you flinch.'},
+
+{id:'r2',lvl:2,title:'The bandage',blurb:'A guarded young woman says everything is fine. A forearm tells you otherwise.',
+ intro:'Lina, 19, a university student, was sent by the campus health service. She answers in single words. She wears a long-sleeved sweater, and when she reaches for a tissue you see a fresh bandage on her forearm.',
+ steps:[
+ {patient:'“I’m fine. I don’t know why they sent me.”',q:'What is your first move?',
+  opts:[
+  {t:'“I can tell this isn’t easy to walk into. We don’t have to cover everything today. What would make this hour feel safe enough?”',score:2,reply:'She shrugs, then: “Not being pushed, I guess.” Her shoulders drop a few millimeters.',why:'Names the discomfort, gives control, and asks a question she can answer. Trust is the first treatment.'},
+  {t:'“I notice the bandage on your arm. Can you tell me what happened?”',score:1,reply:'She pulls her sleeve down. “It’s nothing.”',why:'Noticing is right; the timing is early. The question is direct before any alliance exists, and she retreats.'},
+  {t:'“The health service says you’ve been missing classes. Let’s talk about that.”',score:0,reply:'“Of course.” She looks at the window.',why:'Leads with the institution’s agenda and confirms that this is another authority.'}]},
+ {patient:'“Not being pushed, I guess.” She hesitates. “People always make a big deal.”',q:'You return to the arm. How?',
+  opts:[
+  {t:'“I noticed the bandage earlier and I haven’t wanted to rush past it. If you’re willing, I’d like to understand it. If not today, that’s okay.”',score:2,reply:'A long silence. “I hurt myself. Last night.” She does not look up.',why:'Transparent, unhurried, and gives her a choice. Disclosure follows because she was offered the door rather than pushed through it.'},
+  {t:'“Did you cut yourself? Were you trying to kill yourself?”',score:1,reply:'“No!” She flinches. “It’s not like that.”',why:'The risk question is necessary. Asked as a double-barreled first question, it sounds like accusation. Same content, better sequence.'},
+  {t:'“I have to ask about that. If you’re harming yourself, I may have to report it.”',score:0,reply:'“Then I’m not saying anything.”',why:'Leading with the limit of confidentiality when no information has yet been offered closes the door. Explain limits plainly, but after hearing her.'}]},
+ {patient:'“I hurt myself. Last night. I just needed it to stop.”',q:'What do you ask?',
+  opts:[
+  {t:'“Thank you for telling me. Stop what? What was happening before?”',score:2,reply:'“I had a fight with my roommate. I felt like I was going to explode.” She exhales. “It helps for a while, then I feel worse.”',why:'Treats the behavior as communication about an unbearable state. Understanding function (affect regulation) precedes any plan.'},
+  {t:'“What did you use, and how deep was it?”',score:0,reply:'She withdraws. “Why does that matter?”',why:'Method detail is not the priority here and can read as voyeuristic. Medical need can be assessed by looking at the wound with consent.'},
+  {t:'“That’s very dangerous. Promise me you won’t do it again.”',score:0,reply:'“Okay.” It is mechanical.',why:'Alarm plus a promise. She learns to hide it from you.'}]},
+ {patient:'“It helps for a while, then I feel worse. And then I do it again.”',q:'How do you establish risk and the next step?',
+  opts:[
+  {t:'“That cycle sounds exhausting. Have you had thoughts of ending your life, now or in the last few weeks? And who in your life knows about this?”',score:2,reply:'“No, I don’t want to die. I just want it to stop.” She adds, “my sister knows.” You agree to see her next week, with a plan for what to do before then.',why:'Separates non-suicidal self-injury from suicidal intent explicitly, and finds support. This lets you tailor the next step: a collaborative safety plan, skills (DBT-informed), and a follow-up.'},
+  {t:'“I’ll refer you for urgent psychiatric admission today.”',score:0,reply:'She freezes. “I knew it.”',why:'Disproportionate when intent is not established. Admission is for acute risk, not for self-harm alone.'},
+  {t:'“Self-harm often stems from childhood trauma. Did something happen to you when you were young?”',score:1,reply:'“I don’t want to talk about that.”',why:'A valid hypothesis put too early. Hear the present before the past.'}]}],
+ debrief:'Look at the first and second steps: the gap between “seeing the bandage” and “asking about it” was twelve minutes. The veteran lets the room get safe before the exam of the arm. The final distinction, between self-harm and suicidal intent, determines whether the plan is outpatient skills or an emergency.'},
+
+{id:'r3',lvl:3,title:'The request',blurb:'A fluent, likable man asks for a stimulant by name. Hold the alliance and the discrepancy at once.',
+ intro:'Mr. Karam, 32, a consultant, arrives with a printed list of symptoms. He is articulate, warm, slightly rushed. He says in the first minute that he thinks he has ADHD and that <em>“the thing that worked for my friend was Adderall.”</em>',
+ steps:[
+ {patient:'“I just can’t focus. I read about it online and it’s all me. My friend takes Adderall and it changed his life.”',q:'How do you respond?',
+  opts:[
+  {t:'“It sounds like focus has become a real problem. I’ll take a careful history, and I’d like to hear what a day looks like when it goes badly.”',score:2,reply:'“Right. Mornings are fine, then by afternoon I’m gone.” He seems reassured to be taken seriously.',why:'Takes the complaint seriously without accepting the diagnosis or the drug. Sets the expectation of a full evaluation.'},
+  {t:'“Adderall is a controlled substance. I can’t just prescribe it because someone asks.”',score:0,reply:'His face closes. “I’m not asking you to just prescribe. I’m asking for help.”',why:'Gets the policy right and the person wrong. He now feels suspected before he has said anything.'},
+  {t:'“Okay, let’s start you on a low dose and see how it goes.”',score:0,reply:'“Great.” He leaves with a prescription and no history.',why:'Skips the evaluation. ADHD requires childhood onset, cross-situational impairment, and exclusion of mimics (sleep, mood, anxiety, substances).'}]},
+ {patient:'“Mornings are fine, then by afternoon I’m gone. Since the start of this year. Work is stressful.”',q:'You need onset. What do you ask?',
+  opts:[
+  {t:'“What were school years like for you? Report cards, teachers’ comments, how you did in subjects you didn’t like?”',score:2,reply:'“I was top of my class. Never any trouble.” He pauses. “It started when the job got heavy.”',why:'ADHD requires symptoms before age 12. Onset this year with excellent school history argues against it, and he supplies this himself.'},
+  {t:'“Are you sure it’s ADHD? It could just be burnout.”',score:1,reply:'“Maybe. But my friend...” He circles back.',why:'The hypothesis is plausible but delivered as dismissal. Show him the reasoning by asking the questions that test it.'},
+  {t:'“Do you use caffeine or other stimulants?”',score:1,reply:'“Coffee, five or six cups. Nothing else.” He answers quickly.',why:'A good question, asked in isolation. It does not yet elicit sleep, anxiety, or mood.'}]},
+ {patient:'“It started when the job got heavy. I’m not sleeping well either, maybe five hours.”',q:'He mentions sleep in passing. How do you use it?',
+  opts:[
+  {t:'“Five hours is short, and poor sleep alone can wreck attention by mid-afternoon. How long has it been like this, and is it trouble falling asleep, staying asleep, or no time?”',score:2,reply:'“I lie awake going over work. I wake at three.” He frowns. “I hadn’t put the two together.”',why:'Links the symptom he reports to a mimic he did not mention. Early waking and rumination open mood and anxiety screens.'},
+  {t:'“We’ll deal with sleep later. Let’s stay on the attention issue.”',score:0,reply:'He nods, relieved to return to his theory.',why:'You ignore the best clue because it does not fit the question he asked.'},
+  {t:'“Sleep problems aren’t relevant to ADHD.”',score:0,reply:'“Okay.” He looks puzzled.',why:'Inaccurate and discards a differential feature: sleep deprivation is a common mimic and comorbidity.'}]},
+ {patient:'“I hadn’t put the two together. So… could I still try the Adderall? Just to see?”',q:'How do you close?',
+  opts:[
+  {t:'“I can’t say yes to that, and I’d rather tell you why than hide behind a rule. Your history points to sleep loss and stress, and a stimulant could worsen both. What I can offer is a plan for sleep, a mood and anxiety screen, and a recheck in three weeks. If attention is still a problem then, we’ll look again.”',score:2,reply:'He is quiet. “That’s fair. I expected you to either hand it over or throw me out.” He takes the appointment.',why:'Declines clearly, explains the clinical reasoning, offers a real alternative, and leaves the door open. The alliance survives the refusal, which is the whole task.'},
+  {t:'“No. I can’t prescribe it based on this.”',score:1,reply:'“I see.” He gathers his coat. He may not return.',why:'Correct decision, bare delivery. A refusal without a plan feels like rejection.'},
+  {t:'“Let’s try a short course, since you’re clearly suffering, and monitor you closely.”',score:0,reply:'“Thank you!” The question of why he has five hours of sleep is never asked again.',why:'Yields to the request and treats a mimic with a drug that can worsen it. Compassion is not the same as agreement.'}]}],
+ debrief:'Two skills: staying curious under pressure of a specific request, and treating the passing remark about sleep as the main finding. The patient gave you the case in step three. Veterans refuse in a way that sounds like care, because it is.'}
+];
+/* Length-balance pass: option texts rewritten so the key cannot be spotted by size. Order matches each item (0 = key). */
+const FIX={
+s02:['“When you say that, I want to ask plainly: are you having thoughts of killing yourself?”','“That sounds really painful. You wouldn’t do anything to hurt yourself, would you?”','“I’m sure that isn’t true. The people who love you would be devastated, so let’s work on that thought.”','“Let’s make a safety agreement: promise me you’ll call or go to the ER before acting on any thought.”'],
+s03:['Sit back down: “That matters a lot. I notice it came now. Let’s take a few minutes with it and start there next time.”','“I’m sorry, we have to stop in a minute and I want to protect the time. Please bring this up first thing next week.”','“I wonder why you waited until the very end to tell me this. What does it say about how you feel with me?”','Extend the session by twenty minutes so the two of you can talk it through fully while it is fresh.'],
+s05:['“Something I did just now felt like not listening. Tell me what you picked up, then let’s see what it reminds you of.”','“I think you’re experiencing me as your father right now, and your anger at him is coming out toward me.”','“I’m sorry you feel that way. I was listening, and I can repeat back what you said if that would help.”','Say nothing for a long moment and let the silence hold her anger before offering any comment at all.'],
+s06:['“Let’s look at it together. What is the evidence on each side of ‘complete failure’, and have you passed something hard before?”','“That’s all-or-nothing thinking and catastrophizing. One exam doesn’t make you a failure, and you can get through this.”','“It’s understandable to feel that way, and most students fail an exam at some point in their program.”','“How did that make you feel, and how did you feel as a child when you failed at things that mattered?”'],
+s07:['Gently interrupt: “I’m going to slow us down. Feel your feet on the floor with me. You don’t have to tell me everything today.”','Stay silent and keep listening, since letting it out is healing and interrupting could feel like another rejection.','Keep reflecting warmly: “That sounds terrifying. And then what happened next, what do you remember?”','“Let’s pause there. Tell me about your childhood, so we can understand why this affected you so strongly.”'],
+s08:['“I’m glad it feels understood here. I’d also expect to disappoint you at some point, and I’d want us to be able to talk about it.”','“Thank you, that means a great deal to me. I’ll always be here for you, whatever happens between us.”','“Let’s be careful. Idealizing someone is a defense called splitting, and it usually ends in anger and disappointment.”','“What did your previous therapists do wrong? I want to be sure I avoid making the same mistakes they made.”'],
+s09:['“It sounds like it hasn’t felt like it’s going anywhere, and part of that may be on me. What have I missed?”','“It may seem that way, but you’ve improved in several areas. Your sleep and work attendance are both better.”','“That’s the hopelessness talking. It’s a symptom of the depression and it will lift as treatment continues.”','“If you’d like, we could try a different approach, or I can refer you to a colleague who may suit you better.”'],
+s10:['“It sounds like part of the grief is searching for the moment things might have gone differently. Tell me about it.”','“There was nothing you could have done. Hindsight is always twenty-twenty, and you must not blame yourself.”','“Feeling guilty is a normal stage of grief. Nearly everyone goes through it, and it passes with time.”','“Maybe you could have caught it earlier, but you can’t change that now. What can you do going forward?”'],
+s11:['Collaborative inquiry: “Tell me about the last few weeks. How does the four hours of sleep feel? What would you want to protect?”','“You are likely becoming hypomanic. Stopping lithium now is dangerous, so please keep taking it as prescribed.”','“Let’s bring your family in today so they can tell you directly how you have been acting lately.”','“It’s your decision. I’ll note it in the chart and we can review it at your next visit in three weeks.”'],
+s13:['Offer a tentative observation: “I notice I keep searching for something useful to say. I wonder if people sometimes feel they must fix you.”','Interrupt with practical advice about the colleagues, since the patient is clearly stuck and plainly wants help.','“I’m finding it hard to stay engaged with what you’re telling me. Can you say why you keep repeating this?”','Say nothing and quietly use the feeling as a private clue, saving it for discussion in supervision.'],
+s14:['“I’m glad you asked. What’s behind the question today? Then I’ll say what I think is useful for our work.”','“I don’t share personal information in sessions, and I find it more useful to keep the focus on you.”','“Yes, I have two. So I have some idea what you’re going through right now with your own loss.”','“Why do you ask? What do you imagine my answer would tell you about me, and about this?”'],
+e01:['Acute onset with fluctuating attention across the day','Well-formed visual hallucinations of children at the bed','Picking at the sheets, a motor sign seen at the bedside','Advanced age in an acutely hospitalized older woman'],
+e03:['Treat as akathisia: lower the dose and consider propranolol','Increase the haloperidol to control the agitation more firmly','Add benztropine for presumed extrapyramidal side effects now','Start an antidepressant for agitation within a mood disorder'],
+e04:['Clonus and hyperreflexia within hours, not rigidity over days','Fever above 38.5°C, which appears in only one condition','Agitation and altered mental status at first presentation','A markedly raised creatine kinase on the first panel'],
+e05:['A possible warning sign: abrupt calm with farewell behavior needs urgent reassessment','Clinical improvement from the antidepressant, supporting a step-down to unsupervised leave','Reduced anxiety, which confirms the current antidepressant dose is now adequate','A normal good-day fluctuation of the kind often seen in major depression'],
+e06:['Cotard syndrome in psychotic depression, with starvation and suicide risk; consider ECT','Schizophrenia with bizarre delusions, treated with an antipsychotic alone, as first line','Somatic symptom disorder with severe health anxiety about her organs failing','Depersonalization disorder, with unreality feelings managed by psychotherapy alone'],
+e07:['Check TSH and free T4 before labeling this a primary anxiety disorder','Start an SSRI and refer for CBT as for a primary panic disorder','Prescribe a benzodiazepine for rapid control of the panic symptoms','Explore childhood trauma to find the root of the anxiety first'],
+e08:['Early-onset, internal, named voices in an abuse survivor point to dissociation','The voices comment on her actions, a first-rank symptom of schizophrenia','The absence of any response to earlier antipsychotic medication trials','Her age of 29, which is late for a first presentation of this kind'],
+e09:['Trigger-linked shifts lasting hours suggest borderline organization, not bipolar','Rapid-cycling bipolar II disorder with several brief mood episodes weekly','Cyclothymic disorder with chronic subthreshold hypomanic and depressive swings','Premenstrual dysphoric disorder with luteal-phase mood changes each cycle'],
+e10:['Ego-dystonic symptoms with distress in OCD, against ego-syntonic perfectionism in OCPD','OCPD patients never have rigid routines, whereas OCD patients always have them','OCD is a personality disorder, and OCPD an anxiety disorder with better prognosis','Only OCD responds to SSRIs, and that response pattern defines the distinction'],
+e11:['Presume secondary psychosis: neuroimaging, B12, thyroid, metabolic panel and cognitive screen','Diagnose very-late-onset schizophrenia and start an antipsychotic without delay','Diagnose delusional disorder and refer for supportive psychotherapy alone, no workup','Attribute the new belief to normal aging and review in six months'],
+e12:['The sick role itself is the goal, with no external gain and willingness to bear painful tests','Fluent, dramatic symptom reporting that is convincing to the whole clinical team','Normal investigations despite the severity of her claimed illness and distress','A professional medical background that gives her access to the knowledge'],
+e13:['Indifference has poor discriminating value; positive signs like Hoover’s support the diagnosis','It confirms conversion, because a genuinely paralysed patient would be distressed','It suggests malingering, because she shows so little concern about the weakness','It is irrelevant, since only imaging can establish a functional diagnosis here'],
+e15:['Neuroleptic sensitivity of Lewy body dementia: stop haloperidol, start a cholinesterase inhibitor','Alzheimer disease with behavioral disturbance, managed by raising the antipsychotic dose','Delirium from a hidden infection, treated with a higher dose of haloperidol','Frontotemporal dementia with disinhibition; start an SSRI for the behavior']
+};
+[...SAY,...EYE].forEach(it=>{const f=FIX[it.id];if(f)f.forEach((t,i)=>{it.opts[i].t=t;});});
+/* Length-balance pass for Room options (same order as the bank). */
+const ROOMFIX={
+r1:[
+ ['“Thanks for coming even though you don’t think you need it. What does a day look like at the moment?”','“Your wife is worried you may be depressed. Let me ask you a few questions about your mood and sleep.”','“So what brought you in to see me today? Tell me what has been going on lately.”'],
+ ['“Four in the morning is a hard hour. What goes through your mind while you lie there?”','“Have you lost your appetite or weight? Any loss of interest in things you used to enjoy?”','“Early waking is a classic sign of depression. Have you thought about trying an antidepressant?”'],
+ ['“That sounds heavy. When you say it would be easier if you weren’t around, do you mean ending your life?”','“I’m sure things are not that bad. You have a family who loves you and plenty to live for.”','“Let’s not go to such a dark place today. Tell me instead about your plans for the weekend.”'],
+ ['“Thank you for telling me. Have you thought of a plan? And what keeps you here on the bad days?”','“I need you to promise me you won’t hurt yourself before we meet again, whatever happens.”','“I’m going to admit you to the hospital for your own safety, starting this afternoon.”']],
+r2:[
+ ['“This can’t be easy to walk into. We don’t have to cover everything today. What would make this hour feel safe?”','“I notice the bandage on your arm, and I’d like to ask what happened to it before we go any further.”','“The health service says you’ve been missing classes. Let’s start with that and work backwards from there.”'],
+ ['“I noticed the bandage earlier and didn’t want to rush past it. I’d like to understand, whenever you’re ready.”','“Did you cut yourself? Were you trying to kill yourself? I have to ask you both questions straight away.”','“I have to ask about that. If you’re harming yourself, I may be obliged to report it to someone.”'],
+ ['“Thank you for telling me. Stop what? What was happening for you in the hours before last night?”','“What did you use, how deep was it, and have you needed any medical attention for it?”','“That’s very dangerous. I need you to promise me you will not do it again, starting today.”'],
+ ['“That cycle sounds exhausting. Have you had thoughts of ending your life, and who in your life knows about this?”','“I’ll refer you for urgent psychiatric admission today so that you are kept safe from yourself tonight.”','“Self-harm often comes from childhood trauma. Did something happen to you when you were younger?”']],
+r3:[
+ ['“Focus has clearly become a real problem. I’ll take a careful history first. What does a bad day look like?”','“Adderall is a controlled substance. I can’t simply prescribe it because someone asks me to.”','“Okay, let’s start you on a low dose and see how it goes over the next few weeks.”'],
+ ['“What were school years like for you? Report cards, teachers’ comments, subjects you found boring?”','“Are you sure it’s ADHD? It could just as easily be plain burnout from the new job.”','“Do you use caffeine or other stimulants? How much coffee do you drink on a typical day?”'],
+ ['“Five hours is short, and poor sleep alone can wreck attention by mid-afternoon. What is it like at night?”','“We’ll deal with the sleep later. For now let’s stay on the attention problem you came about.”','“Sleep problems aren’t relevant to ADHD, so let’s set that aside and look at your concentration.”'],
+ ['“I can’t say yes, and I’d rather tell you why. Sleep loss and stress fit best, and a stimulant could worsen both. Let’s work on sleep and recheck in three weeks.”','“No. I can’t prescribe it on the basis of what you’ve told me today, and I would be going against my own clinical judgment if I did.”','“Let’s try a short course, since you’re clearly suffering, and I will monitor you closely for side effects and for any signs of misuse.”']]
+};
+ROOMS.forEach(r=>r.steps.forEach((s,i)=>s.opts.forEach((o,j)=>{o.t=ROOMFIX[r.id][i][j];})));
+/* Engine: state, adaptive serving, rendering. */
+const KEY='praxis-clinic-v1';
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let S={pts:0,seen:{},hist:{say:[],eye:[]},lvl:{say:1,eye:1},rooms:{},mode:'say',theme:'auto',n:0,right:0};
+try{const raw=localStorage.getItem(KEY);if(raw){const p=JSON.parse(raw);S=Object.assign(S,p);}}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}};
+const BANK={say:SAY,eye:EYE};
+const MODE_NAME={say:'Say',eye:'Eye',room:'Room',record:'Record'};
+const PTS={1:2,2:4,3:7};
+const RANKS=[[2,'Intern'],[6,'Resident'],[15,'Attending'],[30,'Senior attending'],[41,'Master clinician']];
+let cur=null,confirmReset=false,roomRun=null;
+
+function applyTheme(){
+  const r=document.documentElement;
+  if(S.theme==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',S.theme);
+  $('#themebtn').textContent='theme: '+S.theme;
+}
+function shuffle(n){const a=[...Array(n).keys()];for(let i=n-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function years(){return Math.min(40,S.pts/10);}
+function rankOf(y){for(const [m,n] of RANKS)if(y<m)return n;return RANKS[RANKS.length-1][1];}
+function header(){
+  const y=years();
+  $('#yrs').textContent=y.toFixed(1);
+  $('#rank').textContent=rankOf(y);
+  $('#fill').style.width=(y/40*100)+'%';
+  $('#track').setAttribute('aria-valuenow',y.toFixed(1));
+}
+function pick(mode){
+  const L=S.lvl[mode],pool=BANK[mode];
+  const recent=S.hist[mode+'_ids']||[];
+  const scored=pool.map(it=>{
+    const s=S.seen[it.id];let sc=0;
+    if(!s)sc+=2;
+    if(it.lvl===L)sc+=2;else if(Math.abs(it.lvl-L)===1)sc+=1;
+    if(s&&s.w>s.r)sc+=2;
+    if(recent.slice(-3).includes(it.id))sc-=10;
+    return {it,sc:sc+Math.random()*1.5};
+  }).sort((a,b)=>b.sc-a.sc);
+  return scored[0].it;
+}
+function setMode(m){
+  S.mode=m;save();roomRun=null;confirmReset=false;
+  document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.m===m));
+  if(m==='say'||m==='eye')showItem(pick(m),m);
+  else if(m==='room')showRooms();
+  else showRecord();
+  window.scrollTo({top:0});
+}
+function lvlName(l){return ['','Foundation','Working','Senior'][l];}
+
+/* ---- Say / Eye ---- */
+function showItem(it,mode){
+  const order=shuffle(it.opts.length);
+  cur={it,mode,order,done:false};
+  const letters='ABCD';
+  $('#view').innerHTML=
+   '<div class="meta"><span>'+MODE_NAME[mode]+'</span><span>'+esc(it.tag)+'</span><span>'+lvlName(it.lvl)+'</span></div>'+
+   '<div class="setup">'+it.setup+'</div>'+
+   '<div class="q">'+esc(it.q)+'</div>'+
+   '<div class="opts" id="opts">'+order.map((oi,pos)=>
+     '<button class="opt" type="button" data-pos="'+pos+'"><span class="k">'+letters[pos]+'</span><span class="t">'+esc(it.opts[oi].t)+'</span></button>').join('')+
+   '</div><div id="fb"></div>';
+  document.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>answer(+b.dataset.pos)));
+}
+function answer(pos){
+  if(!cur||cur.done)return;
+  cur.done=true;
+  const {it,mode,order}=cur;
+  const chosen=order[pos],ok=chosen===0,keyPos=order.indexOf(0);
+  const letters='ABCD';
+  document.querySelectorAll('.opt').forEach((b,i)=>{
+    b.disabled=true;
+    if(i===keyPos)b.classList.add('right');
+    else if(i===pos)b.classList.add('wrong');
+  });
+  const prev=S.seen[it.id]||{r:0,w:0};
+  const first=!S.seen[it.id]||prev.r===0;
+  if(ok){prev.r++;S.right++;S.pts+=first?PTS[it.lvl]:PTS[it.lvl]*0.25;}else prev.w++;
+  S.seen[it.id]=prev;S.n++;
+  const h=S.hist[mode];h.push(ok);if(h.length>6)h.shift();
+  const ids=S.hist[mode+'_ids']=(S.hist[mode+'_ids']||[]);ids.push(it.id);if(ids.length>8)ids.shift();
+  const last4=h.slice(-4);
+  if(last4.length===4&&last4.every(Boolean)&&S.lvl[mode]<3){S.lvl[mode]++;S.hist[mode]=[];}
+  else if(h.length>=4&&h.slice(-4).filter(x=>!x).length>=3&&S.lvl[mode]>1){S.lvl[mode]--;S.hist[mode]=[];}
+  save();header();
+  const others=order.map((oi,p)=>({oi,p})).filter(x=>x.p!==pos&&x.oi!==0);
+  let html='<div class="explain">'+
+   '<div class="verdict '+(ok?'ok':'no')+'">'+(ok?'Correct.':'Not this one.')+'</div>'+
+   '<div class="blk"><h3>Your choice, '+letters[pos]+'</h3><p>'+esc(it.opts[chosen].why)+'</p></div>';
+  if(!ok)html+='<div class="blk"><h3>The best answer, '+letters[keyPos]+'</h3><p>'+esc(it.opts[0].why)+'</p></div>';
+  html+='<div class="blk"><h3>The other options</h3><ul>'+others.map(x=>'<li><b>'+letters[x.p]+'.</b> '+esc(it.opts[x.oi].why)+'</li>').join('')+'</ul></div>'+
+   '<div class="blk"><h3>Memory hook</h3><p>'+esc(it.hook)+'</p></div>'+
+   '<div class="blk vet"><h3>What forty years sees</h3><p>'+esc(it.vet)+'</p></div>'+
+   '<div class="actions"><button class="btn acc" type="button" id="nextbtn">Next case</button></div></div>';
+  $('#fb').innerHTML=html;
+  $('#nextbtn').addEventListener('click',()=>{showItem(pick(mode),mode);window.scrollTo({top:0});});
+  $('#nextbtn').focus({preventScroll:true});
+  $('#fb').scrollIntoView({behavior:'auto',block:'nearest'});
+}
+
+/* ---- Room ---- */
+function showRooms(){
+  $('#view').innerHTML='<div class="meta"><span>Room</span><span>Interview simulations</span></div>'+
+   '<p style="margin:0;color:var(--muted)">Each case is a live interview. Choose what you would say at every step. The patient answers in character, so a poor opening changes what you hear next.</p>'+
+   '<div class="cases">'+ROOMS.map(r=>{
+     const b=S.rooms[r.id];
+     return '<button class="case" type="button" data-id="'+r.id+'"><strong>'+esc(r.title)+'</strong><span>'+esc(r.blurb)+'</span><span class="stepbar">'+lvlName(r.lvl).toUpperCase()+' &middot; '+r.steps.length+' STEPS &middot; '+(b?('BEST '+b.best+'/'+b.max):'NOT YET RUN')+'</span></button>';
+   }).join('')+'</div>';
+  document.querySelectorAll('.case').forEach(b=>b.addEventListener('click',()=>startRoom(b.dataset.id)));
+}
+function startRoom(id){
+  const r=ROOMS.find(x=>x.id===id);
+  roomRun={r,i:0,score:0,max:r.steps.length*2,log:[]};
+  showStep();window.scrollTo({top:0});
+}
+function showStep(){
+  const {r,i}=roomRun,st=r.steps[i],order=shuffle(st.opts.length);
+  roomRun.order=order;roomRun.done=false;
+  $('#view').innerHTML='<div class="meta"><span>Room</span><span>'+esc(r.title)+'</span></div>'+
+   (i===0?'<div class="setup">'+r.intro+'</div>':'')+
+   '<div class="stepbar">STEP '+(i+1)+' OF '+r.steps.length+'</div>'+
+   '<div class="patient">'+st.patient+'</div>'+
+   '<div class="q">'+esc(st.q)+'</div>'+
+   '<div class="opts">'+order.map((oi,pos)=>'<button class="opt" type="button" data-pos="'+pos+'"><span class="k">'+'ABC'[pos]+'</span><span class="t">'+esc(st.opts[oi].t)+'</span></button>').join('')+'</div><div id="fb"></div>';
+  document.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>stepAnswer(+b.dataset.pos)));
+}
+function stepAnswer(pos){
+  if(roomRun.done)return;roomRun.done=true;
+  const {r,i,order}=roomRun,st=r.steps[i],o=st.opts[order[pos]];
+  const best=Math.max(...st.opts.map(x=>x.score));
+  roomRun.score+=o.score;
+  document.querySelectorAll('.opt').forEach((b,p)=>{
+    b.disabled=true;
+    const sc=st.opts[order[p]].score;
+    if(p===pos&&o.score!==1)b.classList.add(o.score===2?'right':'wrong');
+    if(sc===best&&p!==pos)b.classList.add('right');
+  });
+  const tag=o.score===2?'Strong move':(o.score===1?'Acceptable, not ideal':'Costly move');
+  const last=i===r.steps.length-1;
+  $('#fb').innerHTML='<div class="patient">'+o.reply+'</div><div class="explain"><div class="verdict '+(o.score===2?'ok':(o.score===0?'no':''))+'">'+tag+'</div>'+
+   '<div class="blk"><h3>Why</h3><p>'+esc(o.why)+'</p></div>'+
+   (o.score<best?'<div class="blk"><h3>The strongest move</h3><p>'+esc(st.opts.find(x=>x.score===best).why)+'</p></div>':'')+
+   '<div class="actions"><button class="btn acc" type="button" id="nx">'+(last?'See debrief':'Continue the interview')+'</button></div></div>';
+  $('#nx').addEventListener('click',()=>{if(last)endRoom();else{roomRun.i++;showStep();window.scrollTo({top:0});}});
+  $('#fb').scrollIntoView({behavior:'auto',block:'nearest'});
+}
+function endRoom(){
+  const {r,score,max}=roomRun;
+  const prev=S.rooms[r.id];
+  const gain=Math.max(0,score-(prev?prev.best:0));
+  S.pts+=gain*r.lvl*1.5;
+  S.rooms[r.id]={best:Math.max(score,prev?prev.best:0),max};
+  save();header();
+  const pct=score/max,grade=pct>=.85?'Close to a senior reading of the room.':(pct>=.6?'Sound instincts with a few costly moments.':'Replay it: the early steps decide what you hear later.');
+  $('#view').innerHTML='<div class="meta"><span>Room</span><span>Debrief</span></div>'+
+   '<div class="explain"><div class="verdict">'+score+' of '+max+' &middot; '+grade+'</div>'+
+   '<div class="blk vet"><h3>What forty years sees</h3><p>'+esc(r.debrief)+'</p></div>'+
+   '<div class="actions"><button class="btn" type="button" id="again">Run it again</button><button class="btn ghost" type="button" id="back">All cases</button></div></div>';
+  $('#again').addEventListener('click',()=>startRoom(r.id));
+  $('#back').addEventListener('click',()=>{roomRun=null;showRooms();});
+  window.scrollTo({top:0});
+}
+
+/* ---- Record ---- */
+function showRecord(){
+  const acc=S.n?Math.round(S.right/S.n*100):0;
+  const tags={};
+  [...SAY,...EYE].forEach(it=>{const s=S.seen[it.id];if(!s)return;const t=tags[it.tag]||(tags[it.tag]={r:0,w:0});t.r+=s.r;t.w+=s.w;});
+  const rows=Object.entries(tags).map(([k,v])=>({k,n:v.r+v.w,p:Math.round(v.r/(v.r+v.w)*100)})).sort((a,b)=>a.p-b.p);
+  const done=Object.keys(S.seen).length,total=SAY.length+EYE.length;
+  $('#view').innerHTML='<div class="meta"><span>Record</span></div>'+
+   '<div class="stats"><div class="stat"><b>'+years().toFixed(1)+'</b><span>Years of eye</span></div>'+
+   '<div class="stat"><b>'+acc+'%</b><span>Accuracy ('+S.n+' answers)</span></div>'+
+   '<div class="stat"><b>'+done+'/'+total+'</b><span>Items met</span></div>'+
+   '<div class="stat"><b>'+lvlName(S.lvl.say)+'</b><span>Say level</span></div>'+
+   '<div class="stat"><b>'+lvlName(S.lvl.eye)+'</b><span>Eye level</span></div></div>'+
+   '<div class="blk"><h3>Accuracy by topic, weakest first</h3>'+(rows.length?'<div class="bars">'+rows.map(r=>'<div class="b"><span>'+esc(r.k)+'</span><div class="bt"><i style="width:'+r.p+'%"></i></div><span class="n">'+r.p+'%</span></div>').join('')+'</div>':'<div class="empty">Answer a few Say or Eye items and your weak spots will appear here.</div>')+'</div>'+
+   '<div class="blk"><h3>Interview simulations</h3>'+(Object.keys(S.rooms).length?'<div class="bars">'+ROOMS.filter(r=>S.rooms[r.id]).map(r=>'<div class="b"><span>'+esc(r.title)+'</span><div class="bt"><i style="width:'+(S.rooms[r.id].best/S.rooms[r.id].max*100)+'%"></i></div><span class="n">'+S.rooms[r.id].best+'/'+S.rooms[r.id].max+'</span></div>').join('')+'</div>':'<div class="empty">No interview run yet. Open Room and begin with the first case.</div>')+'</div>'+
+   '<div class="actions" id="rs">'+(confirmReset?'<span>Erase all progress on this device?</span><button class="btn acc" type="button" id="yes">Yes, erase</button><button class="btn ghost" type="button" id="no">Cancel</button>':'<button class="btn ghost" type="button" id="rst">Reset progress</button>')+'</div>';
+  const rst=$('#rst');if(rst)rst.addEventListener('click',()=>{confirmReset=true;showRecord();});
+  const no=$('#no');if(no)no.addEventListener('click',()=>{confirmReset=false;showRecord();});
+  const yes=$('#yes');if(yes)yes.addEventListener('click',()=>{
+    S={pts:0,seen:{},hist:{say:[],eye:[]},lvl:{say:1,eye:1},rooms:{},mode:'record',theme:S.theme,n:0,right:0};
+    confirmReset=false;save();header();showRecord();});
+}
+
+document.querySelectorAll('#tabs button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.m)));
+$('#themebtn').addEventListener('click',()=>{S.theme={auto:'light',light:'dark',dark:'auto'}[S.theme]||'auto';applyTheme();save();});
+applyTheme();header();setMode(S.mode&&MODE_NAME[S.mode]?S.mode:'say');
+</script>
+
+</body></html>
