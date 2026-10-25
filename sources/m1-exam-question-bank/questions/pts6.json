@@ -1,0 +1,402 @@
+[
+  {
+    "t": "Social anxiety disorder",
+    "d": 2,
+    "q": "According to the course, where does social anxiety disorder rank among psychiatric disorders in frequency?",
+    "o": [
+      "Fourth, after major depressive disorder, alcohol abuse and specific phobia",
+      "First, ahead of every other disorder in the population",
+      "Last, as one of the rarest anxiety disorders known",
+      "Second, just behind generalized anxiety disorder"
+    ],
+    "e": "Social anxiety disorder, the excessive fear of being humiliated and embarrassed in social situations, is the fourth most common psychiatric disorder after major depressive disorder, alcohol abuse and specific phobia. It has an early onset, with reliable diagnoses as early as age 6. Those affected report moderate impairment in personal and professional life due to fear of negative evaluation and rate their quality of life significantly lower than people without social anxiety.",
+    "w": [
+      "It is common, but three disorders are more frequent.",
+      "It is one of the most common disorders, not one of the rarest.",
+      "The course does not rank it second or compare it with GAD."
+    ],
+    "k": "Social anxiety disorder: 4th most common (after MDD, alcohol abuse, specific phobia); onset can be as early as age 6.",
+    "h": "Four on the list, six years old at onset.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Social anxiety disorder"
+  },
+  {
+    "t": "Social anxiety disorder",
+    "d": 2,
+    "q": "Why do most people with social anxiety disorder come to treatment, according to the course?",
+    "o": [
+      "Usually only after developing another disorder; 63–90% have a comorbid diagnosis",
+      "Usually as soon as the first symptoms appear in childhood",
+      "Mainly because teachers refer them in primary school",
+      "Mainly because medication side effects push them to consult"
+    ],
+    "e": "Despite high prevalence and impairment, most people with social anxiety disorder do not seek treatment unless they have developed another disorder. Approximately 63–90% meet criteria for at least one other diagnosis, and social anxiety tends to begin earlier than the comorbid conditions. In community samples, the most common comorbid diagnoses are other anxiety disorders, followed by mood disorders and alcohol or substance use disorders.",
+    "w": [
+      "The course says most do not seek treatment early.",
+      "Teacher referral is not described as the usual route.",
+      "Medication side effects are not mentioned."
+    ],
+    "k": "Social anxiety: most seek help only after a comorbid disorder appears (63–90% comorbidity: anxiety > mood > substance).",
+    "h": "They come for the second problem.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Social anxiety disorder"
+  },
+  {
+    "t": "Andy: assessment",
+    "d": 2,
+    "q": "Andy initially sought help for anger. How did the course reformulate his anger?",
+    "o": [
+      "A reaction to feared embarrassment in social situations he could not escape",
+      "The primary disorder, separate from and unrelated to his anxiety",
+      "A personality trait inherited from his father's temperament",
+      "A side effect of the medication he had been prescribed"
+    ],
+    "e": "Andy, 38, first contacted a university clinic about anger, being easily angered around large groups, with pounding heart, sweating and hyperventilating. Further evaluation revealed long-standing social anxiety and panic. Anger was not seen as the primary problem: his outbursts and irritability resulted from intense fears of embarrassing himself. The underlying concern was social fear, and anger was the response elicited when a situation was perceived as threatening but unavoidable.",
+    "w": [
+      "Assessment showed anxiety underneath the anger.",
+      "Heredity is not the course's formulation.",
+      "Andy was not taking any medication when he came to the clinic."
+    ],
+    "k": "Presenting complaint ≠ core problem: Andy's anger was a fight response to inescapable social threat.",
+    "h": "Cornered fear looks like anger.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 The story of Andy"
+  },
+  {
+    "t": "Andy: assessment",
+    "d": 2,
+    "q": "On the ADIS-5, what does a Clinician Severity Rating (CSR) of 4 or above indicate?",
+    "o": [
+      "The clinical threshold for a DSM diagnosis is met",
+      "The client has no symptoms worth noting",
+      "The client should be hospitalized at once",
+      "The interview must be repeated by the therapist"
+    ],
+    "e": "The ADIS-5 is a semi-structured, clinician-administered interview assessing anxiety, mood, substance use and somatoform disorders. Besides a DSM-5-TR diagnostic impression, the interviewer gives a Clinician Severity Rating for each diagnosis, reflecting impairment and distress, on a scale from 0 (none) to 8 (very severe); a score of 4 or above meets the clinical threshold. Andy's ADIS-5 was conducted before and after treatment by a trained clinician who did not act as his therapist.",
+    "w": [
+      "A CSR of 4 or more indicates clinical significance.",
+      "The CSR does not dictate hospitalization.",
+      "The ADIS-5 was given by a clinician other than the therapist."
+    ],
+    "k": "ADIS-5 CSR: 0–8; ≥ 4 = clinical diagnosis; ideally administered by an independent clinician pre and post.",
+    "h": "Four or more counts.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: assessment strategy"
+  },
+  {
+    "t": "Andy: assessment",
+    "d": 3,
+    "q": "Andy received co-principal diagnoses of social anxiety disorder and panic disorder with agoraphobia. Why was his panic presentation unusual?",
+    "o": [
+      "Uncued panic is clinically significant in only about 3% of social anxiety",
+      "People with social anxiety never experience any panic attacks at all",
+      "His panic attacks occurred only during sleep, never while awake",
+      "His panic attacks were caused by a diagnosed heart condition"
+    ],
+    "e": "The ADIS-5 gave Andy co-principal (equally severe) diagnoses of generalized social anxiety disorder and panic disorder with agoraphobia, both with a CSR of 6. Cued panics in social situations are common in social anxiety, but clinically significant uncued panics are less common, occurring in only 3% of individuals with social anxiety disorder in one study (Brown et al., 2001). Andy reported 4–5 full and 12–15 limited-symptom attacks in the previous month, including unexpected ones while driving or at home.",
+    "w": [
+      "Cued panic in social situations is common in social anxiety.",
+      "His unexpected attacks happened while awake, in many places.",
+      "His fears about the heart were cognitions about panic, not a cardiac diagnosis."
+    ],
+    "k": "Cued panic is common in social anxiety; uncued panic (as in Andy) is rare (~3%) → separate PDA diagnosis.",
+    "h": "Cued is typical; out of the blue is rare.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: assessment strategy"
+  },
+  {
+    "t": "Andy: assessment",
+    "d": 2,
+    "q": "What do the BFNE and the ASI measure in Andy's assessment?",
+    "o": [
+      "Fear of negative evaluation; fear of anxiety-related sensations",
+      "Intelligence; academic achievement in school subjects",
+      "Depression; current suicidal ideation and intent",
+      "Personality traits; vocational and career interests"
+    ],
+    "e": "Andy completed three questionnaires before treatment and every other session. The Brief Fear of Negative Evaluation has 12 items rated 1–5 (total 12–60); his score of 46 showed moderately elevated fear, somewhat lower than expected. The Anxiety Sensitivity Index has 16 items (0–64) measuring discomfort with anxiety-related symptoms and beliefs about their somatic or dangerous consequences; his 37 confirmed apprehension about panic-like symptoms. The BDI-II (21 items, 0–63, past two weeks) gave 25, consistent with persistent depressive disorder.",
+    "w": [
+      "Neither is an ability or achievement test.",
+      "Depression was measured with the BDI-II.",
+      "Neither is a personality or interest inventory."
+    ],
+    "k": "BFNE = fear of negative evaluation (12–60); ASI = anxiety sensitivity (0–64); BDI-II = depression (0–63).",
+    "h": "BFNE: judged by others; ASI: scared of sensations.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: assessment strategy"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Why were Andy's first three sessions devoted to developing a shared rationale?",
+    "o": [
+      "Shared rationale and agreed goals predict good outcomes, and Andy first framed his problem as anger",
+      "The protocol requires three sessions of testing before any discussion",
+      "Andy refused to talk about anxiety at all",
+      "The therapist needed time to choose medication"
+    ],
+    "e": "Given the case's complexity, the first three sessions developed a shared rationale and agreement on the tasks and goals of therapy, both associated with positive outcomes. Andy needed to make an informed decision, since he came for anger but the ADIS-5 revealed significant anxiety. A functional analysis showed he became angry when unable to leave a social event or when pressured to attend one. The course notes this extended the usual one session for collaborative planning to three.",
+    "w": [
+      "The protocol does not impose three testing sessions.",
+      "Andy engaged once the link was explored together.",
+      "Medication was not part of his treatment."
+    ],
+    "k": "Build a shared rationale first, especially when the client's view (anger) differs from the formulation (anxiety).",
+    "h": "Agree on the map before the journey.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: intervention model"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Andy struggled to tell panic from social anxiety. How did therapist and client decide what to target first?",
+    "o": [
+      "By which symptoms were more distressing daily; they began with panic in a hybrid approach",
+      "By flipping a coin between the two protocols",
+      "By always treating the disorder with the earliest onset first",
+      "By letting the therapist choose without consulting Andy"
+    ],
+    "e": "Self-monitoring examples were used to explore Andy's fears, but because most panics occurred in social settings he could not tell whether the threat was social evaluation or physical sensations. Rather than deciding which treatment to do first, the therapist focused on which symptoms were more distressing to Andy daily. Although his ultimate goal was reducing social anxiety, he wanted to start with panic; this fit the plan, so they used a hybrid of both treatments, first reducing panic frequency and worry.",
+    "w": [
+      "The choice was collaborative and reasoned.",
+      "Social anxiety began earlier, yet panic was targeted first.",
+      "The decision was made together with Andy."
+    ],
+    "k": "Prioritize collaboratively by daily distress; a hybrid protocol can start with the most disabling symptoms.",
+    "h": "Treat what hurts most first.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: intervention model"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "How was a panic attack distinguished from anxiety in Andy's psychoeducation?",
+    "o": [
+      "Panic is a sudden rush of intense fear; anxiety is slow-building worry about a future event",
+      "Panic is slow-building worry; anxiety is a sudden rush of fear",
+      "Panic and anxiety are identical and need no distinction",
+      "Panic involves only thoughts; anxiety involves only the body"
+    ],
+    "e": "Sessions 4–7 provided psychoeducation about anxiety disorders, including the three components of anxiety: physical sensations, thoughts and behaviors. Self-monitoring was introduced, with the difference between subjective and objective monitoring. Because Andy had both social anxiety and unexpected panic, it was important to distinguish a panic attack (a sudden rush of intense fear and discomfort) from anxiety (slow-building worry or anticipation of a future event). He practiced a Panic Attack Record rating maximum fear 0–10.",
+    "w": [
+      "This reverses the definitions of panic and anxiety.",
+      "The course stresses the importance of distinguishing them.",
+      "Both involve sensations, thoughts and behaviors."
+    ],
+    "k": "Panic = sudden surge of intense fear; anxiety = gradual, anticipatory worry; both have physical, cognitive, behavioral components.",
+    "h": "Panic spikes; anxiety simmers.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: sessions 4–7"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 3,
+    "q": "Andy repeatedly 'forgot' his monitoring forms. What did exploring this reveal, and how was it solved?",
+    "o": [
+      "Fear of being judged; forms shown in session, handed over at the end",
+      "Laziness; the therapist ended treatment as a consequence",
+      "Illiteracy; the therapist filled in the forms on his behalf",
+      "Lack of time; all homework was dropped from the treatment"
+    ],
+    "e": "The therapist returned to the homework rationale and explored barriers. Andy revealed heightened anxiety, described with the three-component model: thoughts ('I will get it wrong and my therapist will think badly of me', 'My writing is bad and my therapist will laugh at me'), sensations (racing heart, sweating, breathlessness) and behavior (not completing homework). Problem solving led to presenting the homework in session and handing forms over only at the end. This allowed some avoidance, accepted for now, and confirmed social anxiety needed treatment.",
+    "w": [
+      "Treatment continued; the barrier was anxiety.",
+      "Literacy was not the issue; fear of judgment was.",
+      "Homework continued with a workable compromise."
+    ],
+    "k": "Explore homework noncompliance nonjudgmentally; it may itself express the disorder; accept a short-term workable solution.",
+    "h": "The missing homework was the symptom.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Strategies for handling homework noncompliance"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 3,
+    "q": "Why was diaphragmatic breathing discontinued in Andy's treatment?",
+    "o": [
+      "It had become a safety signal for escaping sensations he feared",
+      "It caused hyperventilation and triggered new panic attacks",
+      "Andy was never able to learn the breathing technique",
+      "The treatment protocol forbids any breathing exercise"
+    ],
+    "e": "Session 11 addressed unhelpful ways of dealing with anxiety. Andy's safety signals were being with familiar people, having his car and carrying a cell phone; safety behaviors included waiting for friends before entering a restaurant, acting busy in stores and looking for exits, plus distraction. These help short-term but prevent corrective learning. Diaphragmatic breathing had become a safety signal, used to escape sensations he still believed harmful, so they agreed to stop it so he could learn the feared outcome would not happen.",
+    "w": [
+      "It was dropped because of its function, not because it caused panic.",
+      "He learned it; the problem was how he used it.",
+      "Breathing retraining is part of MAP-5."
+    ],
+    "k": "Any coping skill used to escape feared sensations becomes a safety behavior and blocks corrective learning; drop it.",
+    "h": "A crutch can keep the leg weak.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: session 11"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Which question is typical of the downward arrow technique used with Andy?",
+    "o": [
+      "'And what does that mean? What does that say about you?'",
+      "'Why did you do that?'",
+      "'How many hours did you sleep last night?'",
+      "'On a scale of 0–8, how anxious are you?'"
+    ],
+    "e": "Sessions 12–17 taught cognitive restructuring. Automatic thoughts were explored with the downward arrow technique: identifying what Andy feared in a situation, then carefully questioning what he pictured happening next, and so on. Steps: get to know the patient (after a preliminary case formulation), prepare by picking the right starter thought, and inquire with purpose using questions such as 'And what does that mean?', 'What does that say about you?', 'And so what, if that were true?', 'What does that suggest?'",
+    "w": [
+      "'Why' questions are discouraged as accusatory.",
+      "Sleep questions are not downward arrow probes.",
+      "This is a rating question, not a probe for deeper beliefs."
+    ],
+    "k": "Downward arrow: follow a thought with 'what does that mean / say about you / so what?' to reach core beliefs.",
+    "h": "Keep asking 'and then what?' until you hit bedrock.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 How to use the downward arrow technique"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Andy reported automatic thoughts as questions ('What will my friends think of me?'). What did the therapist do?",
+    "o": [
+      "Turned them into statements of the feared answer ('They will think I'm an idiot')",
+      "Accepted the questions as they were and skipped disputing",
+      "Told Andy that questions cannot be anxious thoughts",
+      "Stopped cognitive work immediately"
+    ],
+    "e": "Andy understood how thoughts affect emotions but struggled to identify automatic thoughts and often reported them as questions. The therapist helped him change questions into statements of how he feared they would be answered ('They will laugh at me and think I'm an idiot') to aid restructuring. His most common thinking errors were mind-reading, catastrophizing, fortune-telling and disqualifying the positive. Disputing questions included 'Do I know for certain that will happen?' and 'What's the worst that can happen? How can I cope?'",
+    "w": [
+      "Questions were converted so they could be disputed.",
+      "Question-form thoughts can carry feared predictions.",
+      "Cognitive work continued, later in simplified form."
+    ],
+    "k": "Convert question-form thoughts into feared-answer statements so they can be disputed; Andy's errors: mind-reading, catastrophizing, fortune-telling, disqualifying the positive.",
+    "h": "Answer the question the fear is asking.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: sessions 12–17"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Andy could not use cognitive restructuring on his own. What did the therapist decide?",
+    "o": [
+      "Use it one last time to create generic coping self-statements for exposures",
+      "Insist on daily thought records until he succeeded",
+      "Stop therapy because CBT had failed",
+      "Replace it with medication"
+    ],
+    "e": "Andy could generate rational responses in session ('Even if I'm nervous, I can still talk to people'; 'I have never had a heart attack') but could not do it alone and stopped practicing. After trying unsuccessfully to resolve this, the therapist de-emphasized the cognitive component and used the restructuring procedures one last time to generate generic coping self-statements for exposures: 'I can survive an embarrassing situation' and 'A panic attack will not kill me.'",
+    "w": [
+      "The therapist adapted rather than insisting.",
+      "Therapy continued and ended with a positive outcome.",
+      "Medication was considered only as an alternative strategy."
+    ],
+    "k": "If formal cognitive restructuring doesn't transfer, distill it into portable coping statements for exposure.",
+    "h": "Shrink the lesson to a pocket card.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: sessions 12–17"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Before Andy's darts tournament exposure, what goal was emphasized?",
+    "o": [
+      "Tolerate anxiety to learn the feared outcome won't happen",
+      "Win the tournament to prove his worth to his friends",
+      "Use breathing to make the anxiety disappear at once",
+      "Leave the venue as soon as his anxiety began to rise"
+    ],
+    "e": "Sessions 19–23 focused on exposure. Andy registered for a darts tournament he had previously avoided. The purpose of exposure was reviewed: learning something new, that what he feared most was not likely to happen. The emphasis was on tolerating anxiety and fear rather than immediate symptom reduction, which would come with repeated practice; avoidance and distraction were discussed as unhelpful. He used the statement 'Even if we lose, it's not the end of the world' and stayed despite considering escape.",
+    "w": [
+      "The goal was staying in the situation, not winning.",
+      "Breathing had been dropped as a safety behavior.",
+      "Escaping would prevent the corrective learning exposure aims for."
+    ],
+    "k": "Exposure goal: stay with anxiety to learn that feared outcomes don't occur; relief follows repetition.",
+    "h": "Stay to learn, not to feel better now.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: sessions 19–23"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "Which interoceptive exposures were used to target Andy's dizziness and lightheadedness?",
+    "o": [
+      "Mirror staring, spinning while standing, straw breathing",
+      "Cold showers, fasting and a night of sleep deprivation",
+      "Listening to music, reading quietly and walking outdoors",
+      "Hypnosis, guided imagery and mindfulness meditation"
+    ],
+    "e": "Andy worried less about panic but still found the physical symptoms distressing. Since dizziness led to fears of fainting and dying at the tournament and social gatherings, in-session interoceptive exposures were chosen to produce dizziness and lightheadedness: staring at himself in a mirror, spinning while standing and straw breathing, followed by daily homework. Interoceptive exposure intentionally elicits feared bodily sensations in a safe, controlled environment so that fear decreases through repeated experience without negative consequences.",
+    "w": [
+      "These were not the exercises used.",
+      "These do not elicit feared sensations.",
+      "These are not interoceptive exposure exercises."
+    ],
+    "k": "Interoceptive exposure: deliberately provoke feared sensations (mirror staring, spinning, straw breathing for dizziness) safely and repeatedly.",
+    "h": "Spin, stare, straw.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Andy: interoceptive exposure"
+  },
+  {
+    "t": "Andy: treatment",
+    "d": 2,
+    "q": "After Andy missed five weeks and his symptoms worsened, which steps did the therapist follow to address non-adherence?",
+    "o": [
+      "Assess, conceptualize, intervene, with gentle questioning",
+      "Confront him, assign blame, then discharge him",
+      "Ignore the absence and simply continue the protocol",
+      "Refer him immediately to a different clinic"
+    ],
+    "e": "Sessions 24–27 explored the break and restarted treatment, since questionnaires showed social anxiety, panic worry and depression had risen. The therapist followed three steps for non-adherence: assess, conceptualize and intervene. Gentle questioning, without judgment or blame, revealed stressors (relationship problems, taxes, workload, finances). The relapse was used to show how avoidance had raised anxiety and depression, Andy resumed exposures with immediate improvement, and the importance of continuing exposure after termination was stressed.",
+    "w": [
+      "Blame and discharge are not part of the approach.",
+      "The worsening was explored, not ignored.",
+      "Treatment resumed in the same clinic."
+    ],
+    "k": "Non-adherence: assess → conceptualize → intervene, nonjudgmentally; use the setback to teach avoidance's cost.",
+    "h": "Ask, understand, act.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Strategies for handling poor attendance and partial relapse"
+  },
+  {
+    "t": "Andy: principles",
+    "d": 3,
+    "q": "Which was NOT one of the protocol adaptations the course lists as avoiding common mistakes in Andy's case?",
+    "o": [
+      "Running extensive in-session exposures for social anxiety",
+      "Taking time to build a shared rationale",
+      "Dropping breathing retraining when it became a safety behavior",
+      "Curtailing formal cognitive restructuring"
+    ],
+    "e": "The course lists modifications that avoided inflexible protocol use: building a shared rationale first; addressing homework noncompliance early and accepting a short-term solution; dropping breathing retraining when it became a safety behavior; conducting NO in-session exposures for social anxiety, because Andy self-initiated successful in vivo exposures, so sessions planned and debriefed them; curtailing formal cognitive restructuring; and addressing life stressors such as his relationship in session 28.",
+    "w": [
+      "Building a shared rationale is on the list.",
+      "Dropping breathing retraining is on the list.",
+      "Curtailing formal restructuring is on the list."
+    ],
+    "k": "Andy's adaptations: shared rationale, early homework fix, drop safety-behavior breathing, use self-initiated in vivo exposure, simplify cognitive work, address stressors.",
+    "h": "Flex the protocol to the person.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 Avoiding common mistakes"
+  },
+  {
+    "t": "Andy: principles",
+    "d": 2,
+    "q": "According to the course, what shared vulnerability underlies the anxiety disorders and supports transdiagnostic treatment?",
+    "o": [
+      "Negative affectivity, even without any stressor present",
+      "High intelligence, which tends to increase rumination",
+      "Low rates of comorbidity between the anxiety disorders",
+      "A single gene identified for each anxiety disorder"
+    ],
+    "e": "The treatment also reduced Andy's depressive symptoms although they were not targeted; CBT for a primary anxiety disorder often reduces comorbid anxiety or mood symptoms. Beyond high comorbidity, the anxiety disorders share a core vulnerability, negative affectivity: a sensitivity to experiencing negative emotions even without aversive events or stressors. This has inspired transdiagnostic protocols across anxiety disorders and broader emotional problems.",
+    "w": [
+      "Intelligence is not the shared vulnerability named.",
+      "Comorbidity among these disorders is high.",
+      "The course does not propose a single-gene explanation."
+    ],
+    "k": "Negative affectivity = shared vulnerability across anxiety (and mood) disorders → transdiagnostic CBT.",
+    "h": "One root, many branches.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 The 'art of therapy', conclusions"
+  },
+  {
+    "t": "Andy: principles",
+    "d": 2,
+    "q": "How does the course define the idiographic approach illustrated by Andy's treatment?",
+    "o": [
+      "Studying the individual as unique, in depth, not general laws",
+      "Comparing individuals to norms to establish general laws",
+      "Treating every client with one identical fixed protocol",
+      "Choosing interventions from group statistics alone"
+    ],
+    "e": "The idiographic approach focuses on studying individuals as unique entities, emphasizing the specific, qualitative aspects of their experience and behavior rather than establishing general laws or comparing them to others. It seeks to understand the individual's perspective and context, often through case studies and interviews. The course stresses that Andy's idiographic treatment was nonetheless grounded in science, using evidence-based approaches plus ongoing assessment of adherence and progress.",
+    "w": [
+      "Comparison to norms describes the nomothetic approach.",
+      "Identical fixed protocols ignore individual case formulation.",
+      "Group statistics alone are not idiographic."
+    ],
+    "k": "Idiographic = the unique individual in context; Andy's case: idiographic formulation built on evidence-based methods.",
+    "h": "Idio = one's own.",
+    "r": "Psychological Tools & Strategies course – Ch. 6 The idiographic approach"
+  }
+]

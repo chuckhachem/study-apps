@@ -1,0 +1,582 @@
+[
+  {
+    "t": "Ch11 Model",
+    "d": 2,
+    "q": "Which four central constructs make up Depue and Lenzenweger's model?",
+    "o": [
+      "Agentic extraversion, affiliation, neuroticism/harm avoidance, nonaffective constraint",
+      "Openness, conscientiousness, extraversion, agreeableness and neuroticism",
+      "Negative affect, effortful control, identity diffusion and attachment style",
+      "Alerting, orienting, conflict resolution and working memory"
+    ],
+    "e": "Depue and Lenzenweger linked personality traits to mammalian behaviour patterns and their neural and neurochemical bases, arriving at four constructs: agentic extraversion, affiliation, neuroticism (anxiety) with harm avoidance (fear), and nonaffective constraint. In this model, borderline patients show diminished incentive motivation (positive emotion) relative to increased anxiety (negative emotion), diminished activity of the modulatory nonaffective constraint system, and exaggerated fear reactivity within affiliation. The model translates BPD into brain-based systems rather than DSM criteria.",
+    "w": [
+      "Openness through neuroticism is the Big Five, not this neurobehavioral model.",
+      "Negative affect, effortful control, identity diffusion and attachment belong to the authors' own working model.",
+      "Alerting, orienting and conflict are Posner's attention networks."
+    ],
+    "k": "Depue & Lenzenweger: agentic extraversion, affiliation, neuroticism/harm avoidance, nonaffective constraint; BPD = low incentive, low constraint, high fear in affiliation.",
+    "h": "Go, Bond, Fear, Brake: extraversion, affiliation, anxiety, constraint.",
+    "r": "Clarkin Ch11 – Working model"
+  },
+  {
+    "t": "Ch11 Model",
+    "d": 2,
+    "q": "The authors' working model of BPD posits an interaction of:",
+    "o": [
+      "Negative > positive affect, low effortful control, incoherent self/other, insecure attachment",
+      "High IQ with low empathy, producing manipulative interpersonal behavior and shallow attachment",
+      "Psychotic vulnerability combined with recurrent major depressive episodes",
+      "Childhood trauma alone, with temperament playing no significant role"
+    ],
+    "e": "The authors' working model of BPD is a dynamic interaction of temperament (especially more negative than positive affect), low effortful control, and the absence of a coherent sense of self and others (identity diffusion), set in a nonsecure, anxious attachment. Similar models exist (Trull), but unique to their work is measuring temperament, neurocognitive attention and conflict resolution, identity diffusion and attachment style together, linking brain, temperament and object relations.",
+    "w": [
+      "Intelligence and empathy are not the model's components.",
+      "Psychotic vulnerability and recurrent major depression are not part of the model.",
+      "Temperament is central to the model; trauma alone is not."
+    ],
+    "k": "Authors' BPD model: negative > positive affect, low effortful control, incoherent self/other, insecure attachment.",
+    "h": "Hot temper, weak brakes, blurry self, shaky bonds.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Heterogeneity",
+    "d": 3,
+    "q": "Q-factor analysis of 92 BPD patients yielded which three prototypes?",
+    "o": [
+      "BPD + paranoid (A), BPD + narcissistic (B), BPD + avoidant (C)",
+      "BPD + OCD (A), BPD + schizoid (B), BPD + dependent (C)",
+      "BPD + bipolar (A), BPD + PTSD (B), BPD + ADHD (C)",
+      "High-level, middle-level and low-level BPO"
+    ],
+    "e": "In 92 BPD patients assessed with the IPDE, Q-factoring of Axis II profiles gave a three-factor solution explaining 75% of variance, with prototypes defined by paranoid, histrionic/narcissistic and avoidant features: Cluster A (BPD + paranoid, n=10), Cluster B (BPD + narcissistic, n=28) and Cluster C (BPD + avoidant, n=23), mirroring the DSM clusters. Five were tied to more than one prototype, and 24 remained unclassified, underscoring how heterogeneous BPD comorbidity is.",
+    "w": [
+      "OCD, schizoid and dependent are not the prototypes found.",
+      "Bipolar, PTSD and ADHD are Axis I conditions, not Axis II prototypes.",
+      "High-, middle- and low-level BPO are Kernberg's levels, not these empirical prototypes."
+    ],
+    "k": "BPD prototypes: A = + paranoid, B = + narcissistic, C = + avoidant; 75% variance; 24 unclassified.",
+    "h": "A for Alarm (paranoid), B for Bravado (narcissistic), C for Cringe (avoidant).",
+    "r": "Clarkin Ch11 – Heterogeneity"
+  },
+  {
+    "t": "Ch11 Heterogeneity",
+    "d": 3,
+    "q": "The principal components analysis produced which two dimensions?",
+    "o": [
+      "External–internal orientation, and Quality of Object Relations",
+      "Neuroticism (anxiety), and extraversion–introversion (social energy)",
+      "Positive affect, and negative affect",
+      "Impulsivity, and aggression"
+    ],
+    "e": "A principal components analysis of Axis II criteria (excluding BPD, severity removed) gave two factors explaining 47% of variance. The first ran from histrionic and narcissistic to avoidant and schizoid features: an external versus internal orientation. The second ran from paranoid, schizotypal and antisocial to obsessive-compulsive and dependent features, interpreted through object relations theory as Quality of Object Relations (QOR), from hostile opposition and disengagement to friendlier but conflicted enmeshment.",
+    "w": [
+      "Neuroticism and extraversion are general trait dimensions, not the factors found.",
+      "Positive and negative affect are temperament dimensions, not these factors.",
+      "Impulsivity and aggression are separate factors studied elsewhere, not these two."
+    ],
+    "k": "PCA dimensions: external–internal orientation, and Quality of Object Relations (hostile disengagement → conflicted enmeshment); 47% variance.",
+    "h": "Which way you face (out/in), and how you hold others (fist or tangled embrace).",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Heterogeneity",
+    "d": 2,
+    "q": "Clinically, which BPD subgroup is hypothesized to respond most rapidly to treatment?",
+    "o": [
+      "Cluster C (BPD + avoidant)",
+      "Cluster B (BPD + narcissistic)",
+      "Cluster A (BPD + paranoid)",
+      "Unclassified"
+    ],
+    "e": "The authors hypothesize that Cluster C (BPD + avoidant) patients would respond more rapidly and thoroughly to treatment. Cluster B (BPD + narcissistic) patients may be more symptomatic and harder to treat, and Cluster A (BPD + paranoid) patients may avoid treatment or drop out prematurely. These are explicitly clinical hypotheses still to be tested empirically, but they fit TFP theory: narcissistic and paranoid features are major obstacles to progress.",
+    "w": [
+      "Cluster B is expected to be more symptomatic and harder to treat.",
+      "Cluster A is expected to avoid treatment or drop out.",
+      "No prediction is made for the unclassified group."
+    ],
+    "k": "Hypothesis: Cluster C (avoidant) responds fastest; B (narcissistic) harder; A (paranoid) may drop out.",
+    "h": "C for Cooperative: the avoidant group moves fastest.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Temperament",
+    "d": 2,
+    "q": "On the Adult Temperament Questionnaire, BPD patients were:",
+    "o": [
+      "Higher negative affect, lower effortful control",
+      "Lower negative affect, higher effortful control",
+      "Higher negative affect, higher effortful control",
+      "No different from controls on either scale"
+    ],
+    "e": "Because BPD criteria include dysregulated negative emotions in relationships, the authors hypothesized high negative affect and low effortful control, measured with Rothbart's Adult Temperament Questionnaire (built on widely used child measures). BPD patients described themselves as higher than normal in negative affect and lower in effortful control. A temperament high in negative emotionality, including anger, and low in effortful control provides a basis for poor interpersonal relations, a central BPD difficulty.",
+    "w": [
+      "This reverses both findings: BPD patients reported more negative affect and less effortful control than normal.",
+      "Negative affect was higher, but effortful control was lower than normal, not higher.",
+      "BPD patients differed from normal on both scales, exactly as the authors hypothesized."
+    ],
+    "k": "ATQ: BPD = higher negative affect, lower effortful control.",
+    "h": "More fuel, fewer brakes.",
+    "r": "Clarkin Ch11 – Temperament"
+  },
+  {
+    "t": "Ch11 Temperament",
+    "d": 2,
+    "q": "Patients with BPD vs affective disorders differ in dysregulation of:",
+    "o": [
+      "BPD: negative affect; affective disorders: positive affect",
+      "BPD: positive affect; affective disorders: negative affect",
+      "Both: dysregulation of positive affectivity",
+      "Neither shows any affect dysregulation"
+    ],
+    "e": "Affect dysregulation involves unpredictable responses, increased baseline lability, unusually intense and unusual responses (Spoont), all signs of a poorly constrained biobehavioral system. Patients with affective disorders have dysregulation of positive affectivity (Depue and Spoont), whereas BPD patients have dysregulation of negative affect (Spoont). This helps distinguish BPD instability from mood disorders such as bipolar illness.",
+    "w": [
+      "This swaps them: BPD is dysregulated negative affect (Spoont), affective disorders dysregulated positive affectivity (Depue & Spoont).",
+      "Only affective disorders involve positive-affect dysregulation; BPD involves dysregulated negative affect.",
+      "Both groups show affect dysregulation; they differ in its valence, negative in BPD and positive in affective disorders."
+    ],
+    "k": "BPD = dysregulated negative affect; affective disorders = dysregulated positive affectivity.",
+    "h": "BPD storms are dark; mood-disorder storms swing the bright side.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Temperament",
+    "d": 2,
+    "q": "Borderline patients with the HIGHEST effortful control scores were:",
+    "o": [
+      "Least symptomatic, least identity diffusion",
+      "Most symptomatic, most identity diffusion",
+      "Most suicidal, least identity diffusion",
+      "No different from the other clusters"
+    ],
+    "e": "Hoermann and colleagues (2005) grouped borderline patients by effortful control and compared symptoms, interpersonal behaviour and identity diffusion. The cluster with the highest effortful control was the least symptomatic and had the least identity diffusion compared with the two lower-control groups. Effortful control, which by age 3 lets some children choose efficiently in conflict and suppress dominant responses, is linked to empathy and conscience, and appears protective within BPD.",
+    "w": [
+      "This reverses the finding: low effortful control, not high, went with more symptoms and identity diffusion.",
+      "Suicidality isn't the reported contrast; they were least symptomatic overall.",
+      "The clusters did differ: the high-control group had the fewest symptoms and least identity diffusion."
+    ],
+    "k": "Within BPD, highest effortful control = least symptomatic and least identity diffusion.",
+    "h": "Stronger brakes, steadier self.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Neurocognition",
+    "d": 3,
+    "q": "On the Attention Network Task, BPD patients differed from average controls in which network?",
+    "o": [
+      "Conflict network only",
+      "Alerting network only",
+      "Orienting network only",
+      "All three networks"
+    ],
+    "e": "Using the Attention Network Task (alerting, orienting, conflict resolution), Posner and colleagues found that BPD patients differed in the conflict network only, not in alerting, orienting, overall reaction time or errors. Patients differed from average controls but not from temperamentally matched controls, who also had elevated (non-significant) conflict scores. Conclusion: temperament may predispose to BPD, but another environmental or temperament factor must also be involved.",
+    "w": [
+      "Alerting (readiness to respond) was intact in BPD; no difference from controls was found there.",
+      "Orienting (directing attention to a location) was intact in BPD; only conflict resolution differed.",
+      "Two of the three networks were normal; the deficit was specific to the conflict network."
+    ],
+    "k": "ANT: BPD differs only in the conflict network; temperament may predispose, but other factors are needed.",
+    "h": "The traffic controller, not the lookout or the spotlight, is off.",
+    "r": "Clarkin Ch11 – Neurocognition"
+  },
+  {
+    "t": "Ch11 Neurocognition",
+    "d": 2,
+    "q": "On the Wisconsin Card Sort Test, borderline patients showed:",
+    "o": [
+      "More perseverative responses and errors (disinhibition)",
+      "Better performance than controls on set shifting",
+      "Deficits limited to spatial working memory",
+      "No differences from healthy controls"
+    ],
+    "e": "On the Wisconsin Card Sort Test, borderline patients had higher percentages of perseverative responses, perseverative errors and errors than controls, deficits suggesting a disinhibitory process consistent with Depue and Lenzenweger's model. They did not differ on sustained attention or spatial working memory. Greater BPD pathology went with greater impairment, and WCST deficits were inversely related to Constraint on Tellegen's MPQ.",
+    "w": [
+      "BPD patients did worse, with more perseverative responses and errors, so set shifting was impaired, not better.",
+      "Spatial working memory and sustained attention were not impaired; the deficit was perseveration on the WCST.",
+      "They differed clearly, with more perseverative responses, perseverative errors and errors overall."
+    ],
+    "k": "WCST: more perseverative responses and errors in BPD (disinhibition), inversely tied to Constraint.",
+    "h": "Stuck on the old rule: perseveration.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Neurocognition",
+    "d": 3,
+    "q": "The fMRI emotional go/no-go study found in BPD:",
+    "o": [
+      "Decreased ventromedial prefrontal activation during inhibition with negative emotion",
+      "Increased ventromedial prefrontal activation during inhibition with negative emotion",
+      "No differences in prefrontal activation during the emotional go/no-go task",
+      "Decreased amygdala activation to negative words compared with neutral words"
+    ],
+    "e": "Using an emotional linguistic go/no-go paradigm in fMRI, the authors tested decreased prefrontal inhibition in processing negative emotion. They found decreased ventromedial prefrontal activation when behavioural inhibition and negative emotion interacted, in BPD patients compared with healthy individuals. This suggests plausible neural substrates for the core clinical features of emotional and behavioural dyscontrol in BPD.",
+    "w": [
+      "Ventromedial activation decreased, not increased, which is why it suggests weakened prefrontal inhibition.",
+      "The study did find a difference: decreased ventromedial prefrontal activation under inhibition with negative emotion.",
+      "The finding concerned ventromedial prefrontal activation, not decreased amygdala activation."
+    ],
+    "k": "Emotional go/no-go fMRI: decreased ventromedial prefrontal activation during inhibition under negative emotion in BPD.",
+    "h": "Under negative emotion, the brain's brake pedal (vmPFC) goes soft.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Identity",
+    "d": 2,
+    "q": "Which is a clinical characteristic of identity diffusion?",
+    "o": [
+      "Immature judgment of relationships; trouble committing to intimacy and work",
+      "Psychotic hallucinations and fixed delusions about one's identity and body",
+      "High conscientiousness and rigid adherence to rules",
+      "A stable career but chaotic friendships"
+    ],
+    "e": "Identity diffusion, the lack of integration of the concept of self and significant others, comes from excessive splitting (dichotomous thinking) between positive and negative affective investments of self and others, causing chronic deficiency in assessing self and others' motivations. Its clinical characteristics are chronic immaturity in judging emotional relationships, difficulty committing to intimate relations, disturbed sexual and love life, and problems committing to work or a profession.",
+    "w": [
+      "Hallucinations and delusions indicate psychosis, not identity diffusion.",
+      "Rigid conscientiousness is closer to obsessive-compulsive traits; identity diffusion means failing to commit to work at all.",
+      "Identity diffusion affects work commitment too, so a stable career doesn't fit."
+    ],
+    "k": "Identity diffusion: immature judgement of relationships, trouble committing to intimacy, love and work.",
+    "h": "Can't read people, can't commit to people or work.",
+    "r": "Clarkin Ch11 – Identity"
+  },
+  {
+    "t": "Ch11 Sexuality",
+    "d": 3,
+    "q": "In Hull et al.'s study of women with BPD, what was found about HIV risk?",
+    "o": [
+      "Half at high risk (risky sex), half at little risk (no sex); the sexually active were warmer",
+      "All were at high risk because of impulsive, unprotected sexual behavior with many partners",
+      "None were at risk, because most women with BPD avoided sexual contact",
+      "Risk was equal to the general population, with no link to warmth"
+    ],
+    "e": "Hull et al. hypothesized that women with BPD would be at high HIV risk from impulsive sex. Half were at high risk (multiple partners, unprotected sex, sex under the influence), but the other half were at little risk because there was no sexual behaviour in their lives. Those with sexual behaviour, however chaotic, were healthier on traits such as warmth. This fits the view that an active sexual life, even if self-destructive, is more favourable than total inhibition.",
+    "w": [
+      "Only half were at high risk; the other half had no sexual behaviour and so little risk.",
+      "Half the sample was at high HIV risk from multiple partners, unprotected sex and substance use.",
+      "Risk was split in half, and warmth differed."
+    ],
+    "k": "Hull: half of BPD women at high HIV risk, half at none (no sex); sexually active ones were warmer.",
+    "h": "Risky sex beats no sex, prognostically.",
+    "r": "Clarkin Ch11 – Investments in relations and work"
+  },
+  {
+    "t": "Ch11 Attachment",
+    "d": 2,
+    "q": "In Levy et al. (2005), what attachment distribution did carefully diagnosed BPD patients show?",
+    "o": [
+      "44% preoccupied, 32% dismissing, 8% secure",
+      "75% secure, 15% dismissing, 10% preoccupied",
+      "50% secure, 50% dismissing, 0% preoccupied",
+      "100% disorganized, 0% secure"
+    ],
+    "e": "In carefully diagnosed BPD patients, Levy et al. (2005) found 44% preoccupied, 32% dismissing, 8% secure, and 4% unclassifiable. Fonagy et al. (1996) found 75% preoccupied and 47% fearfully preoccupied in inpatients. Overall, borderline patients tend to be preoccupied or dismissing and often unresolved regarding trauma. Attachment status shapes how patients use therapy and the alliance.",
+    "w": [
+      "Mostly secure would be a normal sample, not BPD.",
+      "Preoccupied was the largest group (44%), and secure was only 8%, not 50%.",
+      "Secure was 8%, not 0%, and disorganization wasn't universal."
+    ],
+    "k": "Levy 2005: 44% preoccupied, 32% dismissing, 8% secure; BPD is mostly preoccupied or dismissing.",
+    "h": "44-32-8: mostly entangled, many distant, few secure.",
+    "r": "Clarkin Ch11 – Attachment"
+  },
+  {
+    "t": "Ch11 Course",
+    "d": 2,
+    "q": "Longitudinal studies show which aspect of BPD to be most stable and chronically poor?",
+    "o": [
+      "Social and work functioning",
+      "Depressive and anxiety symptoms",
+      "Suicidal and self-harming behavior",
+      "The number of DSM criteria met"
+    ],
+    "e": "Treatment studies emphasize change in BPD criteria, symptoms and suicidal behaviour. Longitudinal studies, however, show that symptoms fluctuate over time, while functioning in social relations and work is the most stable and chronically poor. This discrepancy argues for targeting love and work in treatment, which TFP does through personality change.",
+    "w": [
+      "Depressive and anxiety symptoms fluctuate over time; they are what treatment studies mostly measure.",
+      "Suicidal and self-harming behaviour varies across time; it is not the stable feature.",
+      "The number of BPD criteria met fluctuates, which is why remission rates on criteria look high."
+    ],
+    "k": "Longitudinally, BPD symptoms fluctuate, but social and work functioning stay stable and poor.",
+    "h": "Symptoms come and go; loneliness and joblessness stay.",
+    "r": "Clarkin Ch11 – Course"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 2,
+    "q": "Perry et al.'s meta-analysis suggested psychotherapy may produce recovery up to how many times faster than natural history?",
+    "o": [
+      "Sevenfold",
+      "Twofold",
+      "Tenfold",
+      "No difference"
+    ],
+    "e": "A meta-analysis by Perry et al. (1999) suggests psychotherapy is effective for personality disorder and may be associated with up to a sevenfold faster rate of recovery compared with natural history. Psychotherapy is the recommended primary treatment for BPD (American Psychiatric Association 2001), though few studies have examined particular treatments.",
+    "w": [
+      "Twofold understates the figure; Perry's meta-analysis reported up to a sevenfold faster recovery.",
+      "Tenfold overstates the figure; the reported maximum was sevenfold.",
+      "The meta-analysis found psychotherapy effective, with recovery up to seven times faster than natural history."
+    ],
+    "k": "Perry meta-analysis: psychotherapy up to sevenfold faster recovery than natural history.",
+    "h": "Seven times faster: the 'lucky seven' of psychotherapy.",
+    "r": "Clarkin Ch11 – Psychotherapy research"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 2,
+    "q": "Before the TFP trials, which treatments had shown acute efficacy in RCTs for BPD?",
+    "o": [
+      "A psychodynamic day hospital program (Bateman & Fonagy) and DBT",
+      "Cognitive therapy combined with SSRI medication in outpatient settings",
+      "Psychoanalysis and group psychotherapy",
+      "Schema therapy and mood stabilizers"
+    ],
+    "e": "Reviewing RCTs, the authors found only two treatments with acute efficacy for BPD: Bateman and Fonagy's psychodynamic (mentalization-based) day hospital program and Linehan's DBT. Neither study assessed therapist adherence and competence, and neither compared against another active treatment. DBT reduced suicide attempts and inpatient length versus treatment as usual; the day hospital improved depression, social functioning and self-harm, with effects maintained at 18-month follow-up.",
+    "w": [
+      "Cognitive therapy with SSRIs had not been shown in RCTs here.",
+      "Psychoanalysis and group therapy are not the treatments named.",
+      "Schema therapy and mood stabilizers are not named."
+    ],
+    "k": "Pre-TFP RCT evidence: Bateman & Fonagy's day hospital and Linehan's DBT, both lacking adherence measures.",
+    "h": "Two early winners: the day hospital and DBT.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 3,
+    "q": "What is the 'most parsimonious conclusion' from BPD treatment studies?",
+    "o": [
+      "Structured beats unstructured, but mechanisms are hard to separate from structure",
+      "DBT is clearly superior to all other treatments on every outcome measured so far",
+      "TFP is clearly superior to all other treatments on every outcome",
+      "No psychotherapy has shown any benefit for BPD so far"
+    ],
+    "e": "BPD treatment studies are few, small and low-powered; they focus mostly on symptoms, rarely test mechanisms (mediators), and use heterogeneous DSM-selected samples, so sites are hard to compare. The most parsimonious conclusion (Roth and Fonagy) is that structured treatments outperform unstructured ones, but it's hard to empirically separate their hypothesized mechanisms from the structure itself.",
+    "w": [
+      "No single treatment is shown superior on all outcomes.",
+      "TFP is not shown superior on all outcomes.",
+      "Several psychotherapies, including DBT, the day hospital program and TFP, have shown benefit."
+    ],
+    "k": "Parsimonious conclusion: structured beats unstructured, but mechanisms are hard to separate from structure.",
+    "h": "The scaffold may matter as much as the building plan.",
+    "r": "Clarkin Ch11 – Limitations"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 2,
+    "q": "What is the inner-life goal of TFP according to Ch11?",
+    "o": [
+      "Not insight, but self-reflection and integration of split self/other images",
+      "Insight into the childhood origins of current symptoms and relationship problems",
+      "Symptom removal, regardless of personality change",
+      "Acquisition of emotion-regulation and coping skills"
+    ],
+    "e": "For the patient's inner life, TFP's goal is not insight, as is often assumed for dynamic treatments, but an increased capacity for self-reflection, acceptance and integration of split-off conceptions of self and others, richer, more nuanced views, and the ability to understand interactions in depth. It aims to shift from fragmented, extreme, unrealistic images to integrated ones, incorporating previously split-off love and aggression and allowing mastery over overwhelming affects.",
+    "w": [
+      "Insight is explicitly not the goal; integration and self-reflection are.",
+      "TFP targets personality change, not just symptom removal.",
+      "Emotion-regulation and coping skills are DBT's targets; TFP aims at integration of self and other images."
+    ],
+    "k": "TFP's inner-life goal: not insight, but self-reflection and integration of split self/other images.",
+    "h": "Not 'aha', but 'both/and'.",
+    "r": "Clarkin Ch11 – Research on TFP"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 3,
+    "q": "In the 1-year TFP pre/post study, hospitalizations dropped from an average of:",
+    "o": [
+      "1.24 to 0.35 per patient",
+      "3.0 to 2.0 per patient",
+      "0.35 to 1.24 per patient",
+      "5.0 to 0.0 per patient"
+    ],
+    "e": "In the 1-year TFP study using each patient as her own control, symptoms and the percentage making suicide attempts decreased significantly. Hospitalizations dropped from an average of 1.24 to 0.35 per patient, and days hospitalized fell from 39.21 to 4.5 (p = 0.06, approaching significance). Nonsuicidal self-injury frequency did not decrease significantly, but its medical risk did. Dropout was low (19%), and no patient committed suicide or deteriorated.",
+    "w": [
+      "3.0 to 2.0 are not the reported figures.",
+      "This reverses the direction: it was a decrease.",
+      "5.0 to 0.0 are not the reported figures."
+    ],
+    "k": "1-year TFP: hospitalizations 1.24 → 0.35; days 39.21 → 4.5; dropout 19%.",
+    "h": "From over one to about a third of a hospitalization each.",
+    "r": "Clarkin Ch11 – Macrochanges"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 2,
+    "q": "In the 3-arm RCT (TFP, DBT, supportive), which treatments significantly changed suicidality?",
+    "o": [
+      "TFP and DBT, but not supportive therapy",
+      "DBT only, not TFP or supportive therapy",
+      "Supportive therapy only, not TFP or DBT",
+      "All three equally, with no differences"
+    ],
+    "e": "In the randomized trial of TFP, DBT and supportive psychodynamic therapy, all three were effective, with changes across domains significantly different from zero. There were no differences in anxiety, depression or global functioning. In suicidality, however, the two treatments organized to target suicidal behaviour, TFP and DBT, produced significant change, while supportive therapy did not.",
+    "w": [
+      "TFP changed suicidality as well as DBT; both are organized to target suicidal behaviour.",
+      "Supportive therapy was the only arm that did not significantly change suicidality.",
+      "All three improved overall, but only TFP and DBT significantly changed suicidality."
+    ],
+    "k": "3-arm RCT: all improved; only TFP and DBT changed suicidality.",
+    "h": "The two with contracts about suicide cut suicidality.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Research",
+    "d": 2,
+    "q": "Describe the sample in the 3-arm RCT.",
+    "o": [
+      "90 patients, 92% female, mean age 31, mean GAF 50",
+      "20 male inpatients, mean age 25, mean GAF 30",
+      "500 adolescents, 50% female, mean age 16, mean GAF 60",
+      "45 patients, 70% male, mean age 40, mean GAF 70"
+    ],
+    "e": "The randomized trial included 90 BPD patients, ethnically diverse and predominantly female (92%), with a mean age of 31 and first psychiatric contact at a mean age of 17. Mean GAF at admission was 50, indicating substantial symptoms and disrupted functioning. 57% had prior suicidal behaviour, 64% prior parasuicidal behaviour, and 17% neither. They were heterogeneous in comorbid personality disorders and Axis I conditions.",
+    "w": [
+      "The sample was 90 mostly female outpatients, not 20 male inpatients.",
+      "The sample was 90 adults (mean age 31) with 92% women, not 500 adolescents.",
+      "45 mostly male patients with GAF 70 doesn't match."
+    ],
+    "k": "3-arm RCT sample: 90 patients, 92% female, mean age 31, GAF 50.",
+    "h": "90 people, nearly all women, around 31, GAF halfway (50).",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Mechanism",
+    "d": 2,
+    "q": "Which change was SPECIFIC to TFP in the RCT?",
+    "o": [
+      "Reflective functioning on the AAI",
+      "Coherence of discourse on the AAI",
+      "Anxiety symptom scores",
+      "Depression symptom scores"
+    ],
+    "e": "Comparing pre- and post-treatment Adult Attachment Interviews, patients in all three treatments significantly improved in coherence of discourse. But only TFP patients improved in reflective functioning. This fits TFP's constant clarification, confrontation and interpretation of the here-and-now relationship, supporting improvement in identity formation: a richer capacity to reflect on self and others.",
+    "w": [
+      "Narrative coherence on the AAI improved in all three treatments, so it wasn't specific to TFP.",
+      "Anxiety improved without differences between the three treatments.",
+      "Depression improved without differences between the three treatments."
+    ],
+    "k": "Only TFP improved reflective functioning; all three improved AAI narrative coherence.",
+    "h": "Everyone told a clearer story; only TFP learned to read minds.",
+    "r": "Clarkin Ch11 – Mechanisms of change"
+  },
+  {
+    "t": "Ch11 Mechanism",
+    "d": 2,
+    "q": "Reflective functioning is defined as:",
+    "o": [
+      "Articulating mental processes (feelings, beliefs, intentions, motives) of self and others",
+      "General intelligence as measured by standard IQ tests and verbal reasoning scales",
+      "Memory capacity for emotionally charged autobiographical events",
+      "The ability to suppress emotions in stressful interpersonal situations"
+    ],
+    "e": "Reflective functioning is the functional capacity to articulate a conceptualization of mental processes in both self and others: feelings, beliefs, intentions, conflicts and motivations. It may mediate between current adjustment and the impact of an early abusive environment (Fonagy). Since identity diffusion is BPD's central pathology, successful TFP should enhance this ability, measured from patients' verbalizations on the AAI.",
+    "w": [
+      "IQ measures general intelligence; reflective functioning is about understanding mental states, which IQ doesn't capture.",
+      "Autobiographical memory is a different capacity; reflective functioning is articulating minds, not recalling events.",
+      "Suppressing emotion is a regulation strategy; reflective functioning means thinking about and naming mental states."
+    ],
+    "k": "Reflective functioning: articulating the mental states (feelings, beliefs, intentions, motives) of self and others.",
+    "h": "Reflect = bend back: thinking about minds, yours and theirs.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Patients A and B",
+    "d": 3,
+    "q": "Patient A's reflective functioning changed from:",
+    "o": [
+      "1 to 5, with attachment becoming secure (F5)",
+      "5 to 1, with attachment becoming unresolved",
+      "1 to 1, with attachment staying dismissing",
+      "3 to 4, with attachment staying preoccupied"
+    ],
+    "e": "Before treatment, Patient A was classified on the AAI as unresolved for trauma, secondarily preoccupied (fearfully preoccupied E3, angry and conflicted E2), with reflective functioning of 1 (very low, rudimentary). After 1 year of TFP, she was secure (F5: coherent and autonomous but at the preoccupied end), and her reflective functioning rose from 1 to 5, an ordinary, average level. Patient B moved from dismissing (D2) to secure (F1A), but her reflective functioning stayed at 1.",
+    "w": [
+      "This reverses her course: she went from 1 to 5 and became secure, not unresolved.",
+      "Her score changed; Patient B's stayed at 1.",
+      "She started at 1, not 3, and became secure."
+    ],
+    "k": "Patient A: RF 1 → 5, attachment unresolved/preoccupied → secure (F5). Patient B: RF stayed 1.",
+    "h": "A for Advanced: 1 to 5.",
+    "r": "Clarkin Ch11 – Comparison of two patients"
+  },
+  {
+    "t": "Ch11 Patients A and B",
+    "d": 3,
+    "q": "Although more disturbed initially, Patient A improved more. Her therapist described sessions as:",
+    "o": [
+      "A Noël Coward play on top, a Stephen King novel beneath",
+      "A polite tea party on the surface, with nothing underneath",
+      "A courtroom drama with constant accusations",
+      "A boring lecture with no emotional content"
+    ],
+    "e": "Patient A's therapist described sessions as a Noël Coward play, with sophisticated charm and humour on the surface, and a Stephen King novel lurking underneath. He found her engaging and seductive but was neither overwhelmed nor lulled into false security, tolerating her aggression and helping her understand it through here-and-now interpretation. She described him as a steadying influence, 'the way a home would ideally feel', finding a secure base (Bowlby).",
+    "w": [
+      "A tea party with nothing underneath fits Patient B's formality.",
+      "A courtroom drama isn't the image used; the therapist chose a Noël Coward play over a Stephen King novel.",
+      "A boring lecture would mean no emotion; her sessions were charming on top and frightening beneath."
+    ],
+    "k": "Patient A's sessions: Noël Coward charm on top, Stephen King horror beneath; the therapist tolerated both.",
+    "h": "Witty drawing-room comedy over a horror basement.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Patients A and B",
+    "d": 3,
+    "q": "How did the authors interpret Patient B's lack of change?",
+    "o": [
+      "A refusal to reveal her inner world, not an inability to symbolize",
+      "An inability to symbolize emotional experience, as MBT assumes",
+      "A psychotic withdrawal that blocked any reflective capacity",
+      "Low intelligence that limited her understanding of interpretations"
+    ],
+    "e": "Patient B remained distant, formal and proper, as if at a tea party, discussing work minutiae, with little affect toward the therapist and little reaction to separations. The therapist felt the relationship was cold and superficial. The authors saw this not as an inability to symbolize, as Bateman and Fonagy might suggest, but as a refusal to reveal her inner world and an effort to keep things superficial. Her symptoms improved, but her reflective functioning stayed at 1.",
+    "w": [
+      "The authors explicitly contrast their view with the inability-to-symbolize (mentalization) view.",
+      "She was not psychotic; she was formal, distant and in control, keeping things superficial.",
+      "Intelligence wasn't the issue; the authors saw an unwillingness to reveal her inner world."
+    ],
+    "k": "Patient B's lack of change = refusal to reveal her inner world, not an inability to symbolize.",
+    "h": "Won't, not can't.",
+    "r": "Clarkin Ch11"
+  },
+  {
+    "t": "Ch11 Applications",
+    "d": 2,
+    "q": "Which TFP principle is listed as broadly applicable in other settings?",
+    "o": [
+      "Regular consultation with colleagues, even when experienced",
+      "Always exactly two individual sessions per week",
+      "Never using group formats, which dilute the transference",
+      "Never combining TFP with medication or skills groups"
+    ],
+    "e": "TFP principles broadly applicable beyond twice-weekly individual therapy include: structural assessment of personality organization, symptoms and dysfunction; regular consultation with colleagues, even for trained, experienced therapists (as in DBT), given intense affect, primitive defenses and suicidality; a focus on internalized object relations; combination with other treatments such as medication, skills groups or 12-step programs; and group formats to reach more patients.",
+    "w": [
+      "Many systems can't offer two individual sessions a week; this is not listed as generalizable.",
+      "Group formats are listed as an application, not forbidden.",
+      "Combination with medication and skills groups is endorsed."
+    ],
+    "k": "Generalizable TFP principles: structural assessment, colleague consultation, object relations focus, combined treatments, group formats.",
+    "h": "Even experts need a second pair of eyes.",
+    "r": "Clarkin Ch11 – Principles in other settings"
+  },
+  {
+    "t": "Ch11 Applications",
+    "d": 3,
+    "q": "How do the authors view cognitive approaches (Ryle's CAT, Beck, Young) to self–other schemas?",
+    "o": [
+      "They recognize object relations but assume awareness is easy, ignoring resistance",
+      "They are essentially identical to TFP and differ only in their names and vocabulary",
+      "They are useless because they do not address the transference",
+      "They are superior to TFP because they avoid interpretation"
+    ],
+    "e": "Ryle's cognitive analytic therapy, Beck's interaction schemas and Young's schema therapy all emphasize cognitive renditions of what TFP calls internalized object relations. The authors see this as growing recognition of the need to address patients' conceptions of self and others, linked to powerful affects. But these approaches seem to assume patients can easily be made aware of their dominant object relations, without much attention to the motivations for resistance to awareness.",
+    "w": [
+      "They are similar in focus but differ in how they treat resistance.",
+      "The authors don't dismiss them; they see them as a welcome recognition of self-other schemas.",
+      "The authors don't call them superior; their criticism is that they underestimate resistance to awareness."
+    ],
+    "k": "Cognitive schema therapies recognize object relations but underestimate resistance to awareness.",
+    "h": "They found the map but forgot the guard at the gate.",
+    "r": "Clarkin Ch11"
+  }
+]

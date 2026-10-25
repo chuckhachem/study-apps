@@ -1,0 +1,742 @@
+[
+  {
+    "t": "Questionnaire: definition",
+    "d": 1,
+    "q": "How do the notes define a questionnaire?",
+    "o": [
+      "A set of questions in a precise order, collecting opinions, feelings, beliefs and conduct in a standardized situation",
+      "An unstructured conversation in which the clinician follows the client's associations",
+      "A grid for ticking the presence or absence of behaviors observed in class",
+      "A set of tasks scored against norms to measure intelligence only"
+    ],
+    "e": "A questionnaire is a set of questions written and presented in a precise order, orally or in writing, to collect opinions, feelings, beliefs and conduct in a standardized situation. It can itself be a test, such as the MMPI, or part of a survey: a descriptive survey describing a population, or an explanatory survey verifying hypotheses. It can be administered individually or to a group.",
+    "w": [
+      "A questionnaire is ordered and standardized, not free conversation.",
+      "Ticking observed behaviors describes a checklist or observation grid.",
+      "Questionnaires collect opinions and conduct, not only intelligence."
+    ],
+    "k": "Questionnaire: ordered questions, oral or written, in a standardized situation (opinions, feelings, beliefs, conduct).",
+    "h": "Quest + ion: a fixed quest, the same road for everyone.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: definition"
+  },
+  {
+    "t": "Questionnaire: definition",
+    "d": 2,
+    "q": "What are the two objectives of a questionnaire according to the notes?",
+    "o": [
+      "Translating research goals into specific questions, and motivating respondents",
+      "Diagnosing every respondent, and prescribing a treatment plan",
+      "Replacing observation entirely, and avoiding any statistics",
+      "Collecting as many questions as possible, and keeping goals hidden"
+    ],
+    "e": "The questionnaire has two objectives. First, it translates the research goals into specific questions directly related to the objectives, so that answers provide data to test hypotheses and explore psychological or social aspects. Second, it must motivate respondents, which is why it opens with a short introduction explaining its purpose.",
+    "w": [
+      "Diagnosis and treatment are one category of questionnaires, not their objectives.",
+      "Questionnaire answers are coded and processed statistically.",
+      "Useless questions are excluded and the purpose is explained."
+    ],
+    "k": "Questionnaire objectives: (1) research goals → specific questions; (2) motivate respondents (short introduction).",
+    "h": "Translate and motivate.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: objectives"
+  },
+  {
+    "t": "Questionnaire: question types",
+    "d": 2,
+    "q": "When writing a closed yes/no question, what do the notes say must be added to the answer options?",
+    "o": [
+      "'Don't know' (DK) and 'No response' (NR)",
+      "A free-text box for the respondent's name",
+      "A third option meaning 'maybe yes'",
+      "Nothing: yes and no are enough"
+    ],
+    "e": "Closed questions with a single answer include yes/no, true/false and agree/disagree formats, like checklists. The notes instruct adding 'DK' (don't know) and 'NR' (no response) to these. Alternatively, the respondent chooses one answer from a list that ends with 'other, specify', has at most 6 answers and is complete and homogeneous. Closed questions are easy and quick to process.",
+    "w": [
+      "A name field is not part of a closed answer format.",
+      "The notes add DK and NR, not an intermediate 'maybe'.",
+      "The notes explicitly require DK and NR options."
+    ],
+    "k": "Closed yes/no questions: add DK and NR; answer lists: ≤6 options, complete, homogeneous, end with 'other, specify'.",
+    "h": "Don't Know, No Reply: two doors out of every yes/no room.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: closed questions"
+  },
+  {
+    "t": "Questionnaire: question types",
+    "d": 2,
+    "q": "A closed question asks the respondent to choose one answer from a list. What rules apply to the list?",
+    "o": [
+      "At most 6 answers, complete and homogeneous, ending with 'other, specify'",
+      "At least 12 answers so that every possibility is printed in full",
+      "Answers in random order with no 'other' option",
+      "Only two answers, so that processing is quick"
+    ],
+    "e": "For a single choice from a list, the notes require a maximum of 6 answers, a list that is complete and homogeneous, and a final 'other, specify' option, which keeps the question easy and quick to process. Other closed formats are multiple choice (several answers, such as languages spoken or sports practiced), ordered questions (ranking chosen answers by preference) and scale questions (degree of agreement, frequency or satisfaction).",
+    "w": [
+      "The notes cap the list at 6 answers.",
+      "An 'other, specify' option is required to complete the list.",
+      "Lists offer several choices, not just two."
+    ],
+    "k": "Answer list: ≤6 options, complete, homogeneous, 'other, specify' at the end.",
+    "h": "Six and a spare door.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: closed questions"
+  },
+  {
+    "t": "Questionnaire: question types",
+    "d": 2,
+    "q": "In which situations do the notes recommend open questions?",
+    "o": [
+      "Complex variables, exploratory studies, delicate problems and relaxing the respondent",
+      "Identity data such as age, sex and marital status",
+      "Attitude and opinion measurement on graded scales",
+      "Any question that must be processed quickly by computer"
+    ],
+    "e": "Open questions allow a free numeric or text answer. They are used for complex variables (freedom, justice, personality), exploratory studies where diversity of answers matters, delicate problems (religious fanaticism, sexual problems) and to relax the respondent. They allow finer deductions about the respondent's psychology and cultural level and richer qualitative information, but are harder to code.",
+    "w": [
+      "Identity questions are always closed in the notes.",
+      "Attitude and opinion questions are always closed scales.",
+      "Open questions are painful and slow to process."
+    ],
+    "k": "Open questions: complex variables, exploratory studies, delicate topics, relaxing respondents; rich but hard to code.",
+    "h": "Open the door for the deep, the new, the delicate and the tense.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: open questions"
+  },
+  {
+    "t": "Questionnaire: question types",
+    "d": 2,
+    "q": "Which is a disadvantage of open questions listed in the notes?",
+    "o": [
+      "Information may be dispersed or uncodable, with many non-responses",
+      "They prevent any qualitative information from emerging",
+      "They give no insight into the respondent's cultural level",
+      "They are the fastest questions to code and analyze"
+    ],
+    "e": "The disadvantages of open questions are: the interviewer may summarize the answer and lose precious indications; information may be dispersed, unusable or uncodable; processing and coding are painful; and there is a risk of many non-responses. Their advantages are finer deductions about the respondent's psychology and cultural level and richer qualitative information.",
+    "w": [
+      "Qualitative richness is their main advantage.",
+      "They reveal psychology and cultural level more finely.",
+      "Coding open answers is described as painful."
+    ],
+    "k": "Open-question drawbacks: interviewer summarizing, dispersed/uncodable data, painful coding, many non-responses.",
+    "h": "Open answers spill everywhere.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: open questions"
+  },
+  {
+    "t": "Questionnaire: question types",
+    "d": 2,
+    "q": "'Do you exercise to lose weight? No / Yes, which exercise?' is an example of which question type?",
+    "o": [
+      "Mixed question",
+      "Ordered question",
+      "Pure open question",
+      "Scale question"
+    ],
+    "e": "A mixed question combines a closed part with an open part, for example 'Do you exercise to lose weight? No / Yes, which?' Another form follows a closed answer with 'Can you tell me a bit more what that means to you?' Ordered questions ask respondents to rank chosen answers, pure open questions offer no preset answers, and scale questions measure degree on graded steps.",
+    "w": [
+      "Ordered questions ask for ranking by preference.",
+      "A pure open question has no closed part.",
+      "Scale questions grade agreement, frequency or satisfaction."
+    ],
+    "k": "Mixed question = closed part + open follow-up ('Yes, which?' / 'Tell me more').",
+    "h": "Mixed = a closed door with a window.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: mixed questions"
+  },
+  {
+    "t": "Questionnaire: preparation",
+    "d": 3,
+    "q": "How does the empirical method of choosing questions differ from the speculative method?",
+    "o": [
+      "It runs pilot interviews with about 12 people and notes their own language",
+      "It relies only on the researcher's reflection and literature reading",
+      "It copies an existing published questionnaire without change",
+      "It sends the final questionnaire first and revises it afterwards"
+    ],
+    "e": "To define central notions and choose questions, the notes describe two methods. The speculative method relies on reflection, group discussion and reading the literature, yielding an a priori problem, hypotheses and sample. The empirical method conducts a pre-survey by interview with a limited sample of about 12 people, a pilot test, noting what they say, how they say it and the language they use, which then yields the theoretical questionnaire.",
+    "w": [
+      "Reflection and reading define the speculative method.",
+      "Neither method copies an existing questionnaire.",
+      "Testing comes before, not after, the final administration."
+    ],
+    "k": "Speculative = reflection, discussion, literature; empirical = pilot interviews (~12 people) capturing respondents' language.",
+    "h": "Speculate in the library; go empirical in the field.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: preparation"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "Why do the notes advise against asking 'What is your age?' directly in some questionnaires, and what do they propose?",
+    "o": [
+      "Age is listed as an abstract word; ask for the date of birth instead",
+      "Age is too sensitive; never ask it at all",
+      "Age is technical jargon; ask about life stage",
+      "Age must be guessed by the interviewer"
+    ],
+    "e": "On vocabulary, the notes require simple, precise, everyday words understood in all social milieus. They warn against imprecise adverbs (often, always, a lot, little, rarely), learned or technical words (claustrophobia, libido), abstract or general words (honour, justice, courage, and age, for which one should ask the date of birth) and double-meaning words ('young': child or adolescent?). Elsewhere age may be asked in brackets of 5 or 10 years.",
+    "w": [
+      "Age is part of the identity section, not forbidden.",
+      "Technical words are things like 'claustrophobia' or 'libido'.",
+      "The respondent provides the information, not the interviewer."
+    ],
+    "k": "Avoid imprecise adverbs, technical, abstract (age → date of birth) and double-meaning words.",
+    "h": "Ask the birthday, not the age.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: vocabulary"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "How should 'You don't think civil servants are privileged?' be rewritten according to the notes?",
+    "o": [
+      "'Do you think civil servants are privileged?'",
+      "'Don't you think civil servants are privileged?'",
+      "'You surely agree civil servants are privileged?'",
+      "'Civil servants are privileged, aren't they?'"
+    ],
+    "e": "Grammatical rules require simple, clear, unambiguous questions and the avoidance of negations, interro-negative forms ('Don't you think…') and double negation. The notes' own correction of 'You don't think civil servants are privileged?' is 'Do you think civil servants are privileged?' The other forms are either interro-negative or suggestive, pushing the respondent toward an answer.",
+    "w": [
+      "This is an interro-negative form, also to avoid.",
+      "This strongly suggests the expected answer.",
+      "A tag question suggests the expected answer."
+    ],
+    "k": "Avoid negations, interro-negatives and double negatives; ask in plain positive form.",
+    "h": "Ask straight, not crooked.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: grammatical form"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "What fault does 'Who in your family uses the internet?' contain when asked first?",
+    "o": [
+      "A gratuitous assumption: it presumes the family has internet access",
+      "A double negation that confuses respondents",
+      "A technical word that few people understand",
+      "An abbreviation that must be spelled out"
+    ],
+    "e": "The notes list gratuitous assumptions among wording faults: asking 'Who in your family uses the internet?' before checking whether the family has it. The same fault appears in the exercises: 'How many times a day do you use the computer?' must be preceded by 'Do you own a computer?' before asking about frequency. Other faults are abbreviations, double questions and strong suggestions.",
+    "w": [
+      "The question contains no negation at all.",
+      "'Internet' is an everyday word, not jargon.",
+      "There is no abbreviation in the question."
+    ],
+    "k": "Gratuitous assumption: check the precondition first (own a computer? have internet?) before asking about use.",
+    "h": "Ask 'do you have it?' before 'how often?'.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: grammatical form; exercises"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "How should 'Do you prefer math or English?' be handled, according to the notes?",
+    "o": [
+      "Split it into separate questions, since it is a double question",
+      "Keep it, since two subjects make answering easier",
+      "Add a third subject so the list is complete",
+      "Turn it into a negative question"
+    ],
+    "e": "Double questions combine two questions in one and must be split; the notes' example is 'Do you like math or English?' The same rule appears in the exercises: 'Do you prefer to stay home or go out?' and 'Are you optimistic or pessimistic? And why?' are double questions to split. Questions should also avoid more than one adverb or adjective.",
+    "w": [
+      "A double question blurs which part is being answered.",
+      "Adding items does not fix a double question.",
+      "Negations must be avoided, not added."
+    ],
+    "k": "Double questions (X or Y? and why?) must be split into separate questions.",
+    "h": "One question, one target.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: grammatical form"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "Which introductory wording do the notes reject for opinion questions?",
+    "o": [
+      "'Would you say that…'",
+      "'Do you think that…'",
+      "'Do you estimate that…'",
+      "'Do you consider that…'"
+    ],
+    "e": "The notes recommend introducing opinion questions with 'Do you think…', 'Do you estimate…' or 'Do you consider that…', but not with 'Would you say that…'. They also advise a response continuum for opinion or attitude questions, offering double or triple answers (multiple choice), and avoiding strong suggestions such as 'It's not fair to cheat, is it?', which must be reworded neutrally.",
+    "w": [
+      "'Do you think' is an accepted introduction.",
+      "'Do you estimate' is an accepted introduction.",
+      "'Do you consider' is an accepted introduction."
+    ],
+    "k": "Use 'Do you think/estimate/consider…'; avoid 'Would you say that…'; avoid suggestive tags.",
+    "h": "Think, Estimate, Consider: yes; 'Would you say': no.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: grammatical form"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "What is the purpose of filter or trap questions in a questionnaire?",
+    "o": [
+      "To validate information given earlier in the questionnaire",
+      "To catch respondents lying so that they can be excluded publicly",
+      "To lengthen the questionnaire beyond 30 questions",
+      "To introduce technical vocabulary gradually"
+    ],
+    "e": "The notes recommend filter or trap questions to validate earlier information. They are particularly useful against social desirability bias: respondents tend to choose the socially favoured answer on risky topics such as income, occupation, social or family milieu, education, desires, prestige and intimate questions, so trap answers help detect it. The interviewer must master filter questions, especially when there are many.",
+    "w": [
+      "Anonymity is respected; trap questions verify consistency.",
+      "The notes cap length at about 30 questions for 30 minutes.",
+      "Technical vocabulary must be avoided altogether."
+    ],
+    "k": "Filter/trap questions cross-check earlier answers, especially against social desirability bias.",
+    "h": "A trap catches inconsistency, not people.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: wording; bias"
+  },
+  {
+    "t": "Questionnaire: wording",
+    "d": 2,
+    "q": "What maximum length do the notes set for a questionnaire?",
+    "o": [
+      "About 30 questions for 30 minutes, fewer if the problem is difficult",
+      "About 100 questions for 30 minutes, more if respondents are at home",
+      "Exactly 10 questions, regardless of the topic",
+      "No limit, as long as each question is short"
+    ],
+    "e": "Questions should be short, since long questions are misunderstood and lead to random answers. The number is limited to a maximum of 30 questions for 30 minutes, fewer if the problem is difficult. At home a questionnaire can be longer than in a public place. Questions must respect respondents' language, information level and social milieu and be socially acceptable and homogeneous.",
+    "w": [
+      "100 questions far exceeds the 30-question limit.",
+      "The limit depends on difficulty and setting, not a fixed 10.",
+      "The notes do set a maximum number of questions."
+    ],
+    "k": "Length: short questions; ≤30 questions per 30 minutes; fewer if difficult; longer possible at home.",
+    "h": "Thirty for thirty.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: length and number"
+  },
+  {
+    "t": "Questionnaire: structure",
+    "d": 2,
+    "q": "What is the 'funnel' method for ordering questions in the body of a questionnaire?",
+    "o": [
+      "From general to particular and from least to most sensitive",
+      "From most sensitive to least, to get difficult answers early",
+      "Random order, to avoid any influence between questions",
+      "Opinion questions first, then factual questions"
+    ],
+    "e": "The questionnaire has an introduction (presenting oneself, the theme, guarantees of discretion and instructions), a body and a conclusion. In the body, the funnel method moves from general to particular and from least to most sensitive. Factual and behavioral questions come first, then attitude and opinion questions, grouped by theme in logical order. Delicate questions are placed at the end.",
+    "w": [
+      "Sensitive questions are placed at the end, not the start.",
+      "Questions are grouped by theme in logical order.",
+      "Factual and behavioral questions come before opinions."
+    ],
+    "k": "Funnel: general → particular, least → most sensitive; facts/behavior before attitudes/opinions.",
+    "h": "Wide mouth, narrow spout.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: structure"
+  },
+  {
+    "t": "Questionnaire: structure",
+    "d": 3,
+    "q": "Which statement about the format of questionnaire sections is correct, according to the notes?",
+    "o": [
+      "Identity questions are always closed; attitude and opinion questions are always closed scales",
+      "Identity questions are always open, so respondents can describe themselves",
+      "Attitude and opinion questions are always open, to capture nuance",
+      "Delicate questions are always closed and placed first"
+    ],
+    "e": "The notes structure the body into sections: (1) identity questions, always closed (date of birth or age bracket, sex, marital status, socio-professional category, education, habitat, religion including 'no answer', income brackets); (2) behavior and fact questions; (3) attitude and opinion questions, always closed scale questions; (4) intention and anticipation questions, closed or open; (5) difficult or delicate questions, mostly open and placed at the end. The conclusion is always thanks.",
+    "w": [
+      "Identity questions are always closed, never open.",
+      "Attitude and opinion questions are closed scales.",
+      "Delicate questions are mostly open and placed at the end."
+    ],
+    "k": "Identity: closed; behavior/facts; attitudes/opinions: closed scales; intentions: either; delicate: mostly open, at the end; conclusion: thanks.",
+    "h": "ID card is fixed, opinions on a ladder, secrets last.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: structure"
+  },
+  {
+    "t": "Questionnaire: structure",
+    "d": 2,
+    "q": "How many precise questions do the notes recommend per hypothesis?",
+    "o": [
+      "4 to 6",
+      "1",
+      "10 to 15",
+      "30"
+    ],
+    "e": "The notes advise that, after formulating the main and secondary hypotheses, the questionnaire should include 4 to 6 precise questions per hypothesis. This keeps every question linked to the research goal while giving enough items to test each hypothesis. A student insomnia questionnaire in the notes follows this logic, with 3 to 4 questions per hypothesis, an anonymity statement and a closing thanks.",
+    "w": [
+      "A single question per hypothesis gives too little evidence.",
+      "10 to 15 per hypothesis would exceed the length limit.",
+      "30 is the maximum for the whole questionnaire."
+    ],
+    "k": "Aim for 4–6 precise questions per (main or secondary) hypothesis.",
+    "h": "Four to six legs hold up each hypothesis.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: structure"
+  },
+  {
+    "t": "Questionnaire: structure",
+    "d": 1,
+    "q": "How do the notes say a questionnaire's conclusion should always end?",
+    "o": [
+      "With thanks to the respondent",
+      "With the most delicate open question",
+      "With the respondent's full name and address",
+      "With the hypotheses explained in detail"
+    ],
+    "e": "The questionnaire is structured as introduction, body and conclusion. The body ends with simple questions that leave an impression of ease, after the delicate ones. The conclusion is always thanks. In the student insomnia questionnaire, for example, the final lines ask 'Did you like the questionnaire?' and thank the respondent.",
+    "w": [
+      "Delicate questions come at the end of the body, not the conclusion.",
+      "Names are optional and avoided in intimate surveys.",
+      "Hypotheses are not explained to respondents at the end."
+    ],
+    "k": "Questionnaire conclusion = thanks; end the body with easy questions.",
+    "h": "End with a thank-you note.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: structure"
+  },
+  {
+    "t": "Questionnaire: structure",
+    "d": 2,
+    "q": "How should answer checkboxes be laid out on the page, according to the notes?",
+    "o": [
+      "Vertically, not horizontally",
+      "Horizontally, in a single line",
+      "In a circle around the question",
+      "Without boxes; respondents write freely"
+    ],
+    "e": "The notes pay attention to typography: font, layout, spacing, tables and checkboxes, which should be arranged vertically rather than horizontally. The introduction gives instructions such as 'tick the box', presents the researcher and the theme, and guarantees discretion. This fits the general advice that the questionnaire be attractive, brief and easy.",
+    "w": [
+      "The notes specify vertical, not horizontal, boxes.",
+      "No circular layout is described in the notes.",
+      "Closed questions use checkboxes for the answers."
+    ],
+    "k": "Typography matters: checkboxes vertical, clear spacing, instructions such as 'tick the box'.",
+    "h": "Boxes stack like floors of a building.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: typography"
+  },
+  {
+    "t": "Questionnaire: testing",
+    "d": 2,
+    "q": "On whom should a questionnaire be tested before distribution, according to the notes?",
+    "o": [
+      "About 12 people from the sample who will not be questioned again",
+      "The whole final sample, twice, a week apart",
+      "Only the researcher's supervisor and colleagues",
+      "People who will later answer the final version too"
+    ],
+    "e": "Before distribution, the questionnaire is tried on part of the sample that will not be questioned again: 12 people. The pretest evaluates the relevance, clarity and utility of questions, their capacity to bring information, comprehension level and acceptability, and the average administration time, and can give a first idea of results. Respondents of the pretest must not answer the final version.",
+    "w": [
+      "Testing the whole sample would replace the real survey.",
+      "Colleagues do not represent the target respondents.",
+      "Pretest respondents must not be questioned again."
+    ],
+    "k": "Pretest: ~12 people from the sample, not re-questioned; checks relevance, clarity, comprehension, acceptability, time.",
+    "h": "A dozen tasters who never come back to dinner.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: test"
+  },
+  {
+    "t": "Questionnaire: administration",
+    "d": 2,
+    "q": "During a standardized administration, a respondent asks what a question means. What should the interviewer say?",
+    "o": [
+      "'It's as you understand it' / 'Answer as you spontaneously understand it'",
+      "A personal example of how the interviewer would answer",
+      "A reworded version of the question with added explanations",
+      "'Skip it; it isn't important'"
+    ],
+    "e": "Administration requires standardization. Interviewers are trained to make contact, ask, note answers and clarify incomplete answers, using an administration guide if difficulties are expected. Questions are read slowly and attentively, always in the same terms, never modifying wording or adding explanations. If the subject asks for clarification, the interviewer says 'It's as you understand it' or 'Answer as you spontaneously understand it.'",
+    "w": [
+      "A personal example would suggest an answer.",
+      "Rewording or explaining a question breaks standardization.",
+      "Every question must be presented to every respondent."
+    ],
+    "k": "Standardized administration: same wording, no explanations; reply 'as you understand it'.",
+    "h": "Same words, every time; meaning is theirs.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: administration"
+  },
+  {
+    "t": "Questionnaire: processing",
+    "d": 2,
+    "q": "Of 50 respondents, 25 own a car, 15 do not and 10 did not answer. What is this table called, and what is the 'yes' percentage?",
+    "o": [
+      "A flat sort; 50%",
+      "A cross sort; 25%",
+      "A flat sort; 62.5%",
+      "A cross sort; 60%"
+    ],
+    "e": "A flat sort (tri à plat) is the distribution of answers to one variable or question. Non-responses are also coded: car yes 25 = 50%, no 15 = 30%, NR 10 = 20%, each computed as frequency × 100 ÷ 50. Excluding the non-responses would wrongly give 25 ÷ 40 = 62.5%. A cross sort confronts two variables in a double-entry table.",
+    "w": [
+      "One variable is a flat sort; 25 is a count, not a percentage.",
+      "Non-responses are coded and kept in the total of 50.",
+      "Only one variable is involved, so it is not a cross sort."
+    ],
+    "k": "Flat sort = one-variable distribution, NR included: 25/50 = 50%.",
+    "h": "Flat = one layer; keep the silent ones in the denominator.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: data processing"
+  },
+  {
+    "t": "Questionnaire: processing",
+    "d": 2,
+    "q": "What do the notes conclude when non-responses to a question exceed 70%?",
+    "o": [
+      "The results cannot be generalized",
+      "The question is automatically valid",
+      "Non-responses should be deleted from the total",
+      "The answers should be counted as 'yes'"
+    ],
+    "e": "During data processing, non-responses are coded like other answers. If non-responses exceed 70%, the results of that question cannot be generalized. The notes also show grouping modalities, for example combining 'always' as strong, 'often' as medium and 'sometimes, rarely, never' as weak, to simplify analysis.",
+    "w": [
+      "High non-response weakens, not confirms, a question.",
+      "Non-responses are coded and kept, not deleted.",
+      "Recoding non-responses as answers would falsify data."
+    ],
+    "k": "NR > 70% → results cannot be generalized; code non-responses.",
+    "h": "Seventy silent → no general verdict.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: data processing"
+  },
+  {
+    "t": "Questionnaire: processing",
+    "d": 3,
+    "q": "In a cross sort of sex by car ownership, how should the table be arranged and analyzed?",
+    "o": [
+      "Independent variable (sex) in rows, dependent variable (car) in columns, then χ²",
+      "Dependent variable in rows, independent variable in columns, then a t-test",
+      "Both variables in one column, then a mean",
+      "Each variable in its own flat table, never combined"
+    ],
+    "e": "A cross sort (tri croisé) processes generally two questions to confront two variables in a double-entry table: rows are the modalities of the independent variable and columns the modalities of the dependent variable. A χ² test then shows whether differences are significant. The method extends to several variables, such as sex × habitat × car ownership. Reading rules: underline the highest percentage in each column and compare vertically.",
+    "w": [
+      "The notes place the IV in rows and use χ².",
+      "A cross sort is a double-entry table, not one column.",
+      "Combining two variables is the point of a cross sort."
+    ],
+    "k": "Cross sort: IV rows × DV columns (double entry), then χ²; extendable to several variables.",
+    "h": "Cause on the left, effect across the top.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: cross sort"
+  },
+  {
+    "t": "Questionnaire: processing",
+    "d": 3,
+    "q": "After coding open answers, how do the notes distinguish the validity test from the reliability test?",
+    "o": [
+      "Validity: two or more coders reach the same results; reliability: one coder recodes later",
+      "Validity: the same coder recodes later; reliability: two coders compare",
+      "Validity: respondents check their answers; reliability: a χ² test",
+      "Both mean asking respondents the same questions again"
+    ],
+    "e": "Closed questions are pre-coded and easy to process; open questions need a coding sheet and content analysis. After processing, the validity test requires two or more coders to analyze the same answers and reach the same results. The reliability (fidélité) test has the same coder double-code all answers after a few days or weeks and compare. In both, a strong correlation is sought before psychological analysis.",
+    "w": [
+      "This reverses the two definitions given in the notes.",
+      "Neither test involves respondents or a χ² test.",
+      "Both tests concern coders, not re-questioning respondents."
+    ],
+    "k": "Coding validity = several coders agree; coding reliability = same coder recodes days/weeks later; seek strong correlation.",
+    "h": "Validity = Various coders; reliability = Repeat by one.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: validity and reliability of coding"
+  },
+  {
+    "t": "Questionnaire: processing",
+    "d": 2,
+    "q": "When reading a results table, when do the notes treat two percentages as equivalent?",
+    "o": [
+      "When the gap between them is 5 points or less",
+      "When the gap between them is 20 points or less",
+      "Only when they are exactly equal",
+      "Whenever both exceed 50%"
+    ],
+    "e": "The notes' rules for reading a table to show the action of the independent variable on the dependent one: put the IV in rows and the DV in columns; underline the highest percentage in each column; treat two numbers as equivalent if the gap is 5 or less, then apply significance tests; write statements with 'more than' or 'less than', reading vertically (city women 28% vs village women 12%); do not generalize hastily; in multivariate analysis, examine the IV's effect for each modality.",
+    "w": [
+      "20 points is far larger than the threshold in the notes.",
+      "Small gaps up to 5 are already treated as equivalent.",
+      "The threshold concerns the gap, not the level."
+    ],
+    "k": "Table reading: IV rows, DV columns; underline highest % per column; gap ≤ 5 = equivalent; compare vertically.",
+    "h": "Five or fewer, call it a tie.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 3 Questionnaire: how to read a table"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 2,
+    "q": "How do the notes correct the item 'Are you xenophobic?'",
+    "o": [
+      "'Are you afraid of foreigners? Yes / No / NR': it used a technical word and had no answer list",
+      "'Are you not xenophobic? Yes / No': it needed a negative form",
+      "'Explain your xenophobia': it needed to become open",
+      "It is correct as written and needs no change"
+    ],
+    "e": "In the exercise corrections, 'Are you xenophobic?' is faulty because it uses a technical or learned word and offers no answer list. The corrected version is 'Are you afraid of foreigners? Yes / No / NR'. Similarly, 'Does your child have phobias at bedtime?' becomes 'Is your child afraid at bedtime?' with a frequency scale, because 'phobia' is technical.",
+    "w": [
+      "Negative forms are themselves a fault to avoid.",
+      "The correction keeps a closed format with a list.",
+      "The item contains two faults the notes correct."
+    ],
+    "k": "Replace technical words with everyday ones and add answer options: 'xenophobic' → 'afraid of foreigners? Yes/No/NR'.",
+    "h": "Xeno-phobia = 'stranger-fear': say it in plain words.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 2,
+    "q": "An item offers age brackets 30–39, 40–48, 49–59. What is the notes' correction?",
+    "o": [
+      "Use 10-year brackets: under 30, 30–39, 40–49, 50–59, over 59",
+      "Ask for the exact age in months",
+      "Remove the question since age is sensitive",
+      "Keep the brackets but add 'don't know'"
+    ],
+    "e": "The brackets 30–39, 40–48, 49–59 are incomplete and incorrect: they are unequal and do not cover ages below 30 or above 59. The notes correct them into 10-year steps: under 30, 30–39, 40–49, 50–59, over 59. The general rule is that age, and only age, is asked in steps of 5 or 10 years. Income brackets are corrected similarly into a complete scale (none, <100, 100–499, 500–899, ≥900).",
+    "w": [
+      "Brackets are the recommended format for age.",
+      "Age is part of the identity questions.",
+      "The flaw is unequal, incomplete brackets."
+    ],
+    "k": "Age brackets: equal 5- or 10-year steps covering the full range (<30 … >59).",
+    "h": "Even steps, no gaps, both ends open.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 3,
+    "q": "The French item 'Ne vous arrive-t-il pas de ne pas tenir en place?' (roughly 'Doesn't it happen to you not to be able to sit still?') is faulty. Why, and what is the correction?",
+    "o": [
+      "Double negation and interro-negative form; 'Do you happen to be restless? Yes / No / NR'",
+      "Too many answer options; reduce them to yes and no only",
+      "It is an open question; add a scale of 1 to 10",
+      "It uses an abbreviation; spell it out in full"
+    ],
+    "e": "The item combines a double negation ('ne… pas de ne pas') with an interro-negative form, both of which break the rule that questions be simple, clear and unambiguous. The notes' correction is 'Do you happen to be restless? Yes / No / NR'. Similar exercise corrections remove suggestive tags such as 'don't you' from 'Do you feel like crying from time to time, don't you?'",
+    "w": [
+      "The item offers no answer options at all.",
+      "It is a closed yes/no question, not an open one.",
+      "No abbreviation appears in the item."
+    ],
+    "k": "Remove double negations and interro-negatives: 'Do you happen to be restless? Yes/No/NR'.",
+    "h": "Two 'nots' tie a knot.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 2,
+    "q": "What is wrong with 'Is your child a brilliant, sociable and kind pupil?'",
+    "o": [
+      "It contains three questions in one; split it, one adjective per question",
+      "It uses a technical word that parents cannot understand",
+      "It is an open question that cannot be coded",
+      "It contains a double negation"
+    ],
+    "e": "The item asks three questions through three adjectives, so a single answer cannot show which quality is being rated. The notes correct it by splitting it into separate questions, one adjective per question. This applies the grammatical rule against more than one adverb or adjective and against double questions. Other corrections in the exercise set add missing response options, such as 'retired' and 'other' for current occupation.",
+    "w": [
+      "The adjectives are everyday words, not jargon.",
+      "It is a closed question in form.",
+      "There is no negation in the item."
+    ],
+    "k": "One adjective per question: split items that rate several qualities at once.",
+    "h": "Three adjectives, three questions.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 2,
+    "q": "The item 'Do you help your family with housework? Rarely / Often' is faulty. What is the correction?",
+    "o": [
+      "A complete frequency scale: never, rarely, sometimes, often, always",
+      "Only 'yes' and 'no' as answer options",
+      "An open box asking for the number of minutes",
+      "Removing the question as too personal"
+    ],
+    "e": "With only 'rarely' and 'often', the answer set is incomplete. The notes correct it with a full frequency scale: never, rarely, sometimes, often, always. The same logic applies to 'Satisfied with your financial situation?', corrected to a 4-point satisfaction scale, and 'Does the past preoccupy you a lot?', where the vague 'a lot' is removed and a scale (not at all, a little, moderately, a lot) is added. The notes distinguish a response list (yes/no) from a response scale (graded).",
+    "w": [
+      "Yes/no would lose the information about frequency.",
+      "The correction keeps a closed, graded format.",
+      "Housework is not a delicate topic in the notes."
+    ],
+    "k": "Incomplete frequency options → full scale (never, rarely, sometimes, often, always).",
+    "h": "Never to always: fill every rung.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Questionnaire: exercises",
+    "d": 2,
+    "q": "How do the notes correct 'It's not normal that people can smoke in the waiting room'?",
+    "o": [
+      "'Do you think people can smoke in the waiting room? Yes / No / NR'",
+      "'Smoking in the waiting room is wrong, isn't it?'",
+      "'Don't you agree smoking should be banned?'",
+      "Leave it unchanged, since it states a fact"
+    ],
+    "e": "The item is suggestive (it pushes toward disapproval) and incomplete (no answer options). The notes rewrite it neutrally as 'Do you think people can smoke in the waiting room? Yes / No / NR'. This applies the rules against strong suggestions and the requirement to add DK or NR options to closed questions.",
+    "w": [
+      "A tag question ('isn't it?') remains suggestive.",
+      "An interro-negative form is also a fault.",
+      "The original statement suggests the expected answer."
+    ],
+    "k": "Suggestive statements → neutral question + options (Yes/No/NR).",
+    "h": "Neutral question, open door.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Exercises: faulty questions and corrections"
+  },
+  {
+    "t": "Case study",
+    "d": 2,
+    "q": "How do the notes define a case study?",
+    "o": [
+      "The sum of all information on a particular case, giving a panoramic view of the patient",
+      "A questionnaire administered to a large representative sample",
+      "A single observation session in the laboratory",
+      "A statistical comparison of two groups"
+    ],
+    "e": "A case study is the sum of all information about a particular case: case history, schooling, family and family status, socio-cultural level, lifestyle, health history, professional experience, interests, tendencies and inclinations. It gives a panoramic 'bird's-eye view' of the patient's case. Success factors are organization, precision, note-taking and economy of time and money. It draws on observation, semi-directive or directive interviews, psychometric tests, scales and questionnaires.",
+    "w": [
+      "Large samples are the domain of surveys.",
+      "A case study gathers information from many sources and sessions.",
+      "Group comparison is a statistical method, not a case study."
+    ],
+    "k": "Case study: all information on one case, a panoramic bird's-eye view, using multiple methods.",
+    "h": "A bird's-eye view of one life.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Case study: definition"
+  },
+  {
+    "t": "Case study",
+    "d": 3,
+    "q": "In the case-study template in the notes, which element comes right after 'history of the disorders'?",
+    "o": [
+      "Semiology (study of signs)",
+      "Reason for consultation",
+      "Presentation of the client",
+      "Personal and family history"
+    ],
+    "e": "The template has nine steps: (1) presentation of the client; (2) reason for consultation (was the person brought by someone?); (3) personal and family history (antecedents); (4) anamnesis; (5) history of the disorders; (6) semiology, the study of signs; (7) defense mechanisms used; (8) medical elements; (9) diagnostic orientation and differential diagnosis. The notes add that this outline is only an aid.",
+    "w": [
+      "Reason for consultation is the second step.",
+      "Presentation of the client is the first step.",
+      "Personal and family history is the third step."
+    ],
+    "k": "Template: client, reason, history, anamnesis, disorder history, semiology, defenses, medical, diagnosis/differential.",
+    "h": "Semeion is Greek for 'sign': semiology reads the signs.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Case study: template"
+  },
+  {
+    "t": "Case study",
+    "d": 2,
+    "q": "According to Dr Denise Ghoul's checklist sheet in the notes, which features must a checklist have?",
+    "o": [
+      "A title, group administration and yes/no items showing presence of a behavior",
+      "A 7-point rating scale completed by a single respondent alone",
+      "Open questions answered freely and timed with a stopwatch",
+      "Antecedents and consequences recorded for each behavior"
+    ],
+    "e": "The checklist sheet shows the presence of a behavior, must have a title, is done with a group of people and uses yes/no answers. Its example checks the presence or absence of smoking among middle and secondary school pupils: Do you smoke? Do you have a box of cigarettes? Matches? Fatigue during sport? Do friends smoke? Do parents forbid it? Does the smell bother you? Do you smoke under stress?",
+    "w": [
+      "Graded ratings define rating scales, not checklists.",
+      "A checklist uses closed yes/no items, not timing.",
+      "Antecedents and consequences belong to a different grid."
+    ],
+    "k": "Checklist sheet: title, group administration, yes/no items showing presence/absence of a behavior.",
+    "h": "Title, team, tick.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Checklist sheet (Dr Denise Ghoul)"
+  },
+  {
+    "t": "Case study",
+    "d": 2,
+    "q": "Why do the notes include the ADHD Rating Scale (ADHD-RS)?",
+    "o": [
+      "To confirm a diagnosis, rating 18 items from 0 (never) to 3 (very often)",
+      "To replace all observation with a single interview",
+      "To measure intelligence on a 1-to-6 scale",
+      "To record the duration of crying episodes"
+    ],
+    "e": "The notes include the ADHD-RS, an 18-item scale scored 0 (never), 1 (sometimes), 2 (often) and 3 (very often), given to confirm a diagnosis. This fits the case-study principle of combining diverse tools: in the student project, for instance, an observation grid suggested depression, to be confirmed with other tools such as scales, tests and interviews.",
+    "w": [
+      "It complements observation rather than replacing it.",
+      "It rates ADHD symptoms, not intelligence.",
+      "Durations are recorded with observation grids."
+    ],
+    "k": "ADHD-RS: 18 items, 0–3 (never → very often), used to confirm the diagnosis.",
+    "h": "Eighteen items, four rungs (0–3).",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – ADHD-RS"
+  }
+]

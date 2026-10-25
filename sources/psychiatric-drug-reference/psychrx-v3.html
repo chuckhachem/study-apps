@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PsychRx</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #080c12;
+  --surface: #0e1420;
+  --surface2: #141c2c;
+  --surface3: #1a2438;
+  --border: #1e2d45;
+  --border2: #253450;
+  --accent: #4d9fff;
+  --accent-dim: rgba(77,159,255,0.12);
+  --accent-glow: rgba(77,159,255,0.25);
+  --green: #34d399;
+  --green-dim: rgba(52,211,153,0.1);
+  --amber: #fbbf24;
+  --amber-dim: rgba(251,191,36,0.1);
+  --red: #f87171;
+  --red-dim: rgba(248,113,113,0.1);
+  --purple: #a78bfa;
+  --purple-dim: rgba(167,139,250,0.1);
+  --text: #e8eef8;
+  --text2: #8899b4;
+  --text3: #4a5a78;
+  --mono: 'JetBrains Mono', monospace;
+  --serif: 'Playfair Display', Georgia, serif;
+  --sans: 'Inter', system-ui, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body { font-family: var(--sans); background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+/* ── LAYOUT ── */
+#app { display: grid; grid-template-rows: 52px 1fr; height: 100vh; }
+#layout { display: grid; grid-template-columns: 240px 1fr; overflow: hidden; }
+#main { overflow-y: auto; }
+
+/* ── HEADER ── */
+#header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 0;
+  position: relative;
+  z-index: 10;
+}
+#logo {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  margin-right: 24px;
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+  flex-shrink: 0;
+}
+#logo em { color: var(--accent); font-style: italic; }
+#logo sup { font-size: 0.45rem; font-family: var(--mono); color: var(--text3); letter-spacing: 0.15em; text-transform: uppercase; margin-left: 6px; vertical-align: super; }
+#nav {
+  display: flex;
+  gap: 1px;
+  background: var(--bg);
+  border-radius: 8px;
+  padding: 3px;
+  border: 1px solid var(--border);
+}
+.nav-btn {
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 16px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text3);
+  cursor: pointer;
+  transition: all 0.18s;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.nav-btn:hover { color: var(--text2); background: var(--surface2); }
+.nav-btn.active { background: var(--surface3); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,0.4); }
+#header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.header-tag {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text3);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+/* ── SIDEBAR ── */
+#sidebar {
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#search-wrap {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--border);
+  position: relative;
+}
+#search-wrap svg { position: absolute; left: 21px; top: 50%; transform: translateY(-50%); color: var(--text3); pointer-events: none; }
+#search-input {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 7px 10px 7px 32px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+#search-input:focus { border-color: var(--accent); }
+#search-input::placeholder { color: var(--text3); }
+#drug-list { overflow-y: auto; flex: 1; padding: 8px 0 16px; }
+.cat-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 14px 5px;
+}
+.cat-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+.cat-label-text {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text3);
+}
+.drug-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 6px 14px 6px 28px;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--text2);
+  cursor: pointer;
+  transition: all 0.15s;
+  border-left: 2px solid transparent;
+  gap: 8px;
+}
+.drug-item:hover { color: var(--text); background: var(--surface2); }
+.drug-item.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-dim); font-weight: 500; }
+.drug-item-brand { font-size: 0.68rem; color: var(--text3); margin-left: auto; font-style: italic; white-space: nowrap; }
+.drug-item.active .drug-item-brand { color: var(--accent); opacity: 0.6; }
+
+/* ── GROUP COLORS ── */
+.g0 .cat-dot { background: #4d9fff; }
+.g1 .cat-dot { background: #a78bfa; }
+.g2 .cat-dot { background: #34d399; }
+.g3 .cat-dot { background: #fbbf24; }
+.g4 .cat-dot { background: #f87171; }
+
+/* ── MAIN PANEL ── */
+.panel { display: none; padding: 32px 36px; max-width: 900px; animation: fadeUp 0.2s ease; }
+.panel.active { display: block; }
+.panel-full { display: none; padding: 0; height: 100%; animation: fadeUp 0.2s ease; }
+.panel-full.active { display: flex; flex-direction: column; }
+@keyframes fadeUp { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+
+/* ── EMPTY STATE ── */
+#empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 12px;
+  color: var(--text3);
+  text-align: center;
+  padding: 40px;
+}
+#empty .icon { font-size: 2.5rem; opacity: 0.2; margin-bottom: 4px; }
+#empty h3 { font-family: var(--serif); font-size: 1.2rem; color: var(--text2); font-weight: 600; }
+#empty p { font-size: 0.82rem; max-width: 240px; }
+
+/* ── DRUG HEADER ── */
+.drug-header { margin-bottom: 28px; }
+.drug-name { font-family: var(--serif); font-size: 2.1rem; color: var(--text); line-height: 1.1; letter-spacing: -0.02em; }
+.drug-brand-row { display: flex; align-items: center; gap: 10px; margin-top: 5px; }
+.drug-brand { font-size: 0.85rem; color: var(--text3); font-style: italic; }
+.drug-class-pill {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  border: 1px solid rgba(77,159,255,0.2);
+}
+.drug-ind-wrap { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
+.ind-tag {
+  font-size: 0.72rem;
+  padding: 3px 9px;
+  border-radius: 5px;
+  background: var(--surface3);
+  color: var(--text2);
+  border: 1px solid var(--border2);
+}
+
+/* ── SECTIONS ── */
+.section { margin-bottom: 14px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--surface2);
+  border-bottom: 1px solid var(--border);
+}
+.section-icon { font-size: 0.9rem; }
+.section-title { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text3); }
+
+/* Dosing table */
+.dose-table { width: 100%; border-collapse: collapse; }
+.dose-table th { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text3); padding: 9px 16px; text-align: left; border-bottom: 1px solid var(--border); background: rgba(255,255,255,0.015); }
+.dose-table td { padding: 9px 16px; border-bottom: 1px solid rgba(255,255,255,0.03); font-size: 0.83rem; color: var(--text); line-height: 1.4; }
+.dose-table tr:last-child td { border-bottom: none; }
+.dose-table tr:hover td { background: rgba(255,255,255,0.015); }
+.td-ind { color: var(--text2); }
+.td-val { font-family: var(--mono); font-size: 0.78rem; color: var(--accent); }
+
+/* Notes */
+.notes-inner { padding: 14px 16px; display: flex; flex-direction: column; gap: 7px; }
+.note-item { display: flex; gap: 10px; font-size: 0.83rem; color: var(--text2); line-height: 1.55; }
+.note-bullet { color: var(--accent); flex-shrink: 0; margin-top: 1px; font-size: 1rem; line-height: 1.55; }
+
+/* Warning */
+.warn-inner { display: flex; gap: 12px; padding: 14px 16px; }
+.warn-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+.warn-text { font-size: 0.83rem; color: var(--amber); line-height: 1.55; }
+
+/* Disclaimer */
+.disclaimer {
+  margin-top: 20px;
+  padding: 11px 15px;
+  background: var(--red-dim);
+  border: 1px solid rgba(248,113,113,0.15);
+  border-radius: 8px;
+  font-size: 0.74rem;
+  color: var(--text3);
+  line-height: 1.6;
+}
+.disclaimer strong { color: var(--red); }
+
+/* ── CHAT ── */
+#chat-wrap { display: flex; flex-direction: column; height: 100%; }
+#chat-header {
+  padding: 16px 24px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+#chat-header h2 { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+#chat-header p { font-size: 0.78rem; color: var(--text3); }
+#chat-suggestions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.suggest-chip {
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.74rem;
+  color: var(--text2);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--sans);
+}
+.suggest-chip:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+#chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.msg { display: flex; gap: 10px; max-width: 88%; }
+.msg-ai { align-self: flex-start; }
+.msg-user { align-self: flex-end; flex-direction: row-reverse; }
+.msg-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--mono);
+  margin-top: 2px;
+}
+.avatar-ai { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(77,159,255,0.2); }
+.avatar-user { background: var(--purple-dim); color: var(--purple); border: 1px solid rgba(167,139,250,0.2); }
+.msg-bubble {
+  padding: 11px 15px;
+  border-radius: 12px;
+  font-size: 0.84rem;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.bubble-ai { background: var(--surface2); border: 1px solid var(--border); border-radius: 4px 12px 12px 12px; color: var(--text); }
+.bubble-user { background: linear-gradient(135deg, #1e4080, #162d5e); border: 1px solid #2a4a8a; border-radius: 12px 4px 12px 12px; color: var(--text); }
+.typing-dots span { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); margin: 0 2px; animation: bounce 1.2s infinite; }
+.typing-dots span:nth-child(2) { animation-delay: 0.2s; }
+.typing-dots span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes bounce { 0%,60%,100%{transform:translateY(0)} 30%{transform:translateY(-5px)} }
+#chat-input-area {
+  padding: 14px 24px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  flex-shrink: 0;
+}
+#chat-input-row { display: flex; gap: 10px; align-items: flex-end; }
+#chat-input {
+  flex: 1;
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 10px;
+  padding: 10px 14px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  outline: none;
+  resize: none;
+  max-height: 120px;
+  line-height: 1.5;
+  transition: border-color 0.2s;
+}
+#chat-input:focus { border-color: var(--accent); }
+#chat-input::placeholder { color: var(--text3); }
+#send-btn {
+  background: var(--accent);
+  border: none;
+  border-radius: 9px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.15s;
+  color: var(--bg);
+}
+#send-btn:hover { background: #6ab2ff; transform: translateY(-1px); }
+#send-btn:disabled { opacity: 0.4; cursor: default; transform: none; }
+
+/* ── PATIENT ── */
+#patient-wrap { padding: 28px 32px; max-width: 760px; }
+.patient-title { font-family: var(--serif); font-size: 1.3rem; margin-bottom: 4px; }
+.patient-sub { font-size: 0.79rem; color: var(--text3); margin-bottom: 22px; }
+.form-section { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-bottom: 14px; }
+.form-section-head { padding: 10px 16px; background: var(--surface2); border-bottom: 1px solid var(--border); font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text3); }
+.form-body { padding: 16px; }
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.form-field { display: flex; flex-direction: column; gap: 5px; }
+.form-label { font-size: 0.7rem; font-weight: 500; color: var(--text3); letter-spacing: 0.03em; }
+.form-input {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 8px 12px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.83rem;
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+.form-input:focus { border-color: var(--accent); }
+.form-input::placeholder { color: var(--text3); }
+textarea.form-input { resize: vertical; min-height: 72px; }
+.submit-btn {
+  background: linear-gradient(135deg, #2a6ecc, #1a4d99);
+  border: 1px solid #2a6ecc;
+  border-radius: 9px;
+  padding: 11px 26px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.submit-btn:hover { background: linear-gradient(135deg, #3a7edc, #2a5daa); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(42,110,204,0.3); }
+.submit-btn:disabled { opacity: 0.5; cursor: default; transform: none; box-shadow: none; }
+.result-box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-top: 16px; }
+.result-head { padding: 10px 16px; background: var(--surface2); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; }
+.result-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+.result-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text3); }
+.result-content { padding: 18px; font-size: 0.84rem; line-height: 1.7; color: var(--text2); white-space: pre-wrap; }
+
+/* ── QUIZ ── */
+#quiz-wrap { padding: 28px 32px; max-width: 720px; }
+.quiz-title { font-family: var(--serif); font-size: 1.3rem; margin-bottom: 4px; }
+.quiz-sub { font-size: 0.79rem; color: var(--text3); margin-bottom: 22px; }
+.quiz-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 26px; }
+.quiz-topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.quiz-counter { font-family: var(--mono); font-size: 0.68rem; color: var(--text3); }
+.quiz-score { font-family: var(--mono); font-size: 0.68rem; color: var(--green); }
+.quiz-track { height: 2px; background: var(--border); border-radius: 2px; margin-bottom: 22px; }
+.quiz-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--green)); border-radius: 2px; transition: width 0.5s ease; }
+.quiz-question { font-size: 0.97rem; font-weight: 500; color: var(--text); line-height: 1.6; margin-bottom: 20px; }
+.quiz-options { display: flex; flex-direction: column; gap: 8px; }
+.quiz-opt {
+  text-align: left;
+  padding: 11px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border2);
+  background: var(--surface2);
+  color: var(--text2);
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  cursor: pointer;
+  transition: all 0.18s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.quiz-opt::before { content:''; width:16px; height:16px; border-radius:50%; border:1px solid var(--border2); flex-shrink:0; transition:all 0.18s; }
+.quiz-opt:hover:not([disabled]) { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.quiz-opt:hover:not([disabled])::before { border-color: var(--accent); }
+.quiz-opt.correct { background: var(--green-dim); border-color: var(--green); color: var(--green); cursor: default; }
+.quiz-opt.correct::before { background: var(--green); border-color: var(--green); }
+.quiz-opt.wrong { background: var(--red-dim); border-color: var(--red); color: var(--red); cursor: default; }
+.quiz-opt.wrong::before { background: var(--red); border-color: var(--red); }
+.quiz-opt.dim { color: var(--text3); cursor: default; }
+.quiz-explain {
+  margin-top: 16px;
+  padding: 12px 15px;
+  background: var(--accent-dim);
+  border: 1px solid rgba(77,159,255,0.15);
+  border-radius: 8px;
+  font-size: 0.81rem;
+  color: var(--text2);
+  line-height: 1.6;
+  display: none;
+}
+.quiz-explain strong { color: var(--accent); }
+.quiz-next {
+  margin-top: 16px;
+  background: var(--surface3);
+  border: 1px solid var(--border2);
+  border-radius: 8px;
+  padding: 10px 22px;
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.83rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: none;
+  transition: all 0.15s;
+}
+.quiz-next:hover { border-color: var(--accent); color: var(--accent); }
+/* Results */
+.results-header { text-align: center; padding: 20px 0 24px; }
+.results-score { font-size: 3rem; font-weight: 700; color: var(--accent); line-height: 1; }
+.results-sub { font-size: 0.82rem; color: var(--text3); margin-top: 6px; }
+.result-item { display: flex; gap: 10px; padding: 10px 12px; border-radius: 8px; margin-bottom: 7px; font-size: 0.8rem; border: 1px solid; }
+.r-ok { background: var(--green-dim); border-color: rgba(52,211,153,0.2); }
+.r-fail { background: var(--red-dim); border-color: rgba(248,113,113,0.2); }
+.r-icon { flex-shrink: 0; font-weight: 600; }
+.retry-btn {
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  color: var(--bg);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: all 0.15s;
+}
+.retry-btn:hover { background: #6ab2ff; transform: translateY(-1px); }
+</style>
+</head>
+<body>
+<div id="app">
+  <!-- HEADER -->
+  <div id="header">
+    <div id="logo">Psych<em>Rx</em><sup>v2</sup></div>
+    <div id="nav">
+      <button class="nav-btn active" onclick="switchTab('ref')">Reference</button>
+      <button class="nav-btn" onclick="switchTab('ai')">AI Assistant</button>
+      <button class="nav-btn" onclick="switchTab('patient')">Patient Advisor</button>
+      <button class="nav-btn" onclick="switchTab('quiz')">Quiz</button>
+    </div>
+    <div id="header-right">
+      <span class="header-tag">Psychiatry · Psychopharmacology</span>
+    </div>
+  </div>
+
+  <div id="layout">
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+      <div id="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input id="search-input" placeholder="Search drug, class, indication…" oninput="filterDrugs(this.value)">
+      </div>
+      <div id="drug-list"></div>
+    </div>
+
+    <!-- MAIN -->
+    <div id="main">
+
+      <!-- REFERENCE -->
+      <div id="tab-ref" class="panel active">
+        <div id="empty">
+          <div class="icon">⚕</div>
+          <h3>Select a medication</h3>
+          <p>Browse by pharmacological class or search by name, indication, or drug class</p>
+        </div>
+        <div id="drug-card" style="display:none"></div>
+      </div>
+
+      <!-- AI ASSISTANT -->
+      <div id="tab-ai" class="panel-full">
+        <div id="chat-wrap">
+          <div id="chat-header">
+            <h2>AI Pharmacology Assistant</h2>
+            <p>Expert-level answers on mechanisms, dosing, interactions, comparisons, and clinical scenarios</p>
+            <div id="chat-suggestions">
+              <button class="suggest-chip" onclick="quickAsk('Compare SSRIs vs SNRIs for anxiety disorders — mechanisms, efficacy, and key clinical differences')">SSRIs vs SNRIs for anxiety</button>
+              <button class="suggest-chip" onclick="quickAsk('How do I optimize clozapine in treatment-resistant schizophrenia? Include augmentation strategies.')">Clozapine optimization</button>
+              <button class="suggest-chip" onclick="quickAsk('Explain the mirtazapine dose-sedation paradox and its clinical implications')">Mirtazapine paradox</button>
+              <button class="suggest-chip" onclick="quickAsk('What are the key lithium-drug interactions and how do they affect levels?')">Lithium interactions</button>
+              <button class="suggest-chip" onclick="quickAsk('Walk me through lamotrigine titration schedules and Stevens-Johnson risk management')">Lamotrigine titration</button>
+            </div>
+          </div>
+          <div id="chat-messages">
+            <div class="msg msg-ai">
+              <div class="msg-avatar avatar-ai">Rx</div>
+              <div class="msg-bubble bubble-ai">Welcome to PsychRx AI. I'm your expert psychopharmacology consultant — ask me anything about mechanisms, dosing, drug interactions, augmentation strategies, or complex clinical scenarios. I'll give you direct, clinical-grade answers.</div>
+            </div>
+          </div>
+          <div id="chat-input-area">
+            <div id="chat-input-row">
+              <textarea id="chat-input" rows="1" placeholder="Ask about any psychiatric medication… (Enter to send)"></textarea>
+              <button id="send-btn" onclick="sendChat()" title="Send">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m22 2-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PATIENT ADVISOR -->
+      <div id="tab-patient" class="panel">
+        <div id="patient-wrap">
+          <div class="patient-title">Patient Medication Advisor</div>
+          <div class="patient-sub">Enter the full clinical profile to receive a tailored, structured recommendation</div>
+
+          <div class="form-section">
+            <div class="form-section-head">Demographics</div>
+            <div class="form-body">
+              <div class="form-grid">
+                <div class="form-field"><label class="form-label">Age</label><input class="form-input" id="p-age" placeholder="e.g. 34"></div>
+                <div class="form-field"><label class="form-label">Sex</label><select class="form-input" id="p-sex"><option value="">Select</option><option>Male</option><option>Female</option><option>Other / Not specified</option></select></div>
+                <div class="form-field"><label class="form-label">Weight (kg)</label><input class="form-input" id="p-weight" placeholder="e.g. 72"></div>
+                <div class="form-field"><label class="form-label">Renal / Hepatic Status</label><input class="form-input" id="p-organ" placeholder="e.g. CKD stage 2, normal LFTs"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-head">Clinical Presentation</div>
+            <div class="form-body">
+              <div class="form-field" style="margin-bottom:10px"><label class="form-label">Primary Diagnosis *</label><input class="form-input" id="p-dx" placeholder="e.g. Treatment-resistant MDD with melancholic features"></div>
+              <div class="form-field"><label class="form-label">Comorbidities</label><input class="form-input" id="p-comorbid" placeholder="e.g. GAD, Type 2 DM, Hypertension, obesity"></div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-head">Medication History</div>
+            <div class="form-body">
+              <div class="form-field" style="margin-bottom:10px"><label class="form-label">Current Medications</label><input class="form-input" id="p-meds" placeholder="e.g. Metformin 500 mg BID, Amlodipine 5 mg, Aspirin 81 mg"></div>
+              <div class="form-field" style="margin-bottom:10px"><label class="form-label">Prior Psychiatric Medications (responses / failures)</label><textarea class="form-input" id="p-prior" placeholder="e.g. Failed fluoxetine (GI intolerance), sertraline 200 mg 8 weeks (partial response), escitalopram (no response)"></textarea></div>
+              <div class="form-field"><label class="form-label">Allergies / Prior Adverse Drug Reactions</label><input class="form-input" id="p-allergy" placeholder="e.g. Rash with fluoxetine, akathisia with haloperidol, lithium toxicity at 1.1 mEq/L"></div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <div class="form-section-head">Constraints & Special Considerations</div>
+            <div class="form-body">
+              <div class="form-field" style="margin-bottom:10px"><label class="form-label">Contraindications / Safety Flags</label><input class="form-input" id="p-contra" placeholder="e.g. Seizure history, pregnancy, cardiac arrhythmia, falls risk"></div>
+              <div class="form-field"><label class="form-label">Additional Clinical Notes</label><textarea class="form-input" id="p-notes" placeholder="e.g. Prominent insomnia, high suicidal ideation, motivational interviewing ongoing, patient prefers non-sedating options, Lebanon formulary only…"></textarea></div>
+            </div>
+          </div>
+
+          <button class="submit-btn" id="patient-btn" onclick="getPatientRec()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Generate Recommendation
+          </button>
+
+          <div id="patient-result" style="display:none" class="result-box">
+            <div class="result-head">
+              <div class="result-dot"></div>
+              <span class="result-label">AI Clinical Recommendation</span>
+            </div>
+            <div class="result-content" id="patient-result-text"></div>
+            <div class="disclaimer" style="margin:0 18px 18px;border-radius:8px">
+              <strong>Advisory only.</strong> AI-generated recommendations must be verified against current clinical guidelines, product monographs, and individual patient assessment before prescribing.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUIZ -->
+      <div id="tab-quiz" class="panel">
+        <div id="quiz-wrap">
+          <div class="quiz-title">Pharmacology Quiz</div>
+          <div class="quiz-sub">Board-level questions on psychiatric medications with detailed explanations</div>
+          <div id="quiz-area"></div>
+        </div>
+      </div>
+
+    </div><!-- /main -->
+  </div><!-- /layout -->
+</div><!-- /app -->
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────────────
+const DRUGS = [
+  {name:"Sertraline",brand:"Zoloft",cls:"SSRI",group:"Antidepressants",ind:["MDD","OCD","Panic disorder","PTSD","Social anxiety","GAD"],doses:[{ind:"Depression / Anxiety",start:"25–50 mg/day",target:"50–200 mg/day",max:"200 mg/day",freq:"Once daily"},{ind:"OCD",start:"50 mg/day",target:"100–200 mg/day",max:"200 mg/day",freq:"Once daily"}],notes:["<b>Titrate</b> 25–50 mg every 1–2 weeks to response","Onset 2–4 weeks; full antidepressant effect 6–8 weeks","Lowest CYP DDI burden among SSRIs — preferred in polypharmacy","Safe post-MI and in cardiac disease","Taper slowly — risk of discontinuation syndrome (short half-life)"],warn:"Serotonin syndrome risk with MAOIs, tramadol, triptans, linezolid. Hyponatremia in elderly (SIADH). QTc prolongation at very high doses."},
+  {name:"Fluoxetine",brand:"Prozac",cls:"SSRI",group:"Antidepressants",ind:["MDD","OCD","Bulimia","Panic disorder","PMDD"],doses:[{ind:"Depression",start:"10–20 mg/day",target:"20–40 mg/day",max:"80 mg/day",freq:"Once daily (AM)"},{ind:"OCD",start:"20 mg/day",target:"40–60 mg/day",max:"80 mg/day",freq:"Once daily"},{ind:"Bulimia nervosa",start:"10 mg/day",target:"60 mg/day",max:"60 mg/day",freq:"Once daily"}],notes:["<b>Half-life</b> ~4–6 days (norfluoxetine ~4–16 days) — lowest discontinuation syndrome risk among SSRIs","Strong <b>CYP2D6 inhibitor</b> — significant DDIs with TCAs, risperidone, codeine, tamoxifen","Activating: administer in AM; ideal for fatigue/hypersomnia subtype","Weekly formulation (90 mg) available for maintenance","No MAOIs within 5 weeks of stopping (washout)"],warn:"Strong CYP2D6 inhibition raises TCA and risperidone levels to toxic range. 5-week washout before MAOI. Serotonin syndrome risk."},
+  {name:"Escitalopram",brand:"Lexapro",cls:"SSRI",group:"Antidepressants",ind:["MDD","GAD"],doses:[{ind:"Depression / GAD",start:"5–10 mg/day",target:"10–20 mg/day",max:"20 mg/day",freq:"Once daily"},{ind:"Elderly",start:"5 mg/day",target:"10 mg/day",max:"10 mg/day",freq:"Once daily"}],notes:["Best tolerability and lowest DDI profile among SSRIs","Pure S-enantiomer of citalopram — more selective 5-HT reuptake inhibition","<b>QTc prolongation</b> is dose-dependent — avoid >20 mg/day; ECG in cardiac patients","First-line in elderly, cardiac patients, and polypharmacy settings"],warn:"QTc prolongation at doses >20 mg/day. SIADH/hyponatremia in elderly. Concomitant QT-prolonging drugs — use caution."},
+  {name:"Venlafaxine",brand:"Effexor XR",cls:"SNRI",group:"Antidepressants",ind:["MDD","GAD","Panic disorder","Social anxiety","PTSD","Neuropathic pain"],doses:[{ind:"Depression",start:"37.5–75 mg/day",target:"150–225 mg/day",max:"375 mg/day",freq:"Once daily XR"},{ind:"Anxiety disorders",start:"37.5 mg/day",target:"75–150 mg/day",max:"225 mg/day",freq:"Once daily"}],notes:["<b>Dose-dependent mechanism:</b> SSRI-like ≤150 mg · SNRI ≥150 mg · NE dominant ≥225 mg","Efficacious for neuropathic pain, hot flashes, migraine prophylaxis","<b>Mandatory BP monitoring</b> — dose-dependent hypertension","Short half-life: high discontinuation syndrome risk — taper slowly and consider bridge with fluoxetine"],warn:"Dose-dependent hypertension. Severe discontinuation syndrome — abrupt cessation dangerous. Serotonin syndrome risk."},
+  {name:"Duloxetine",brand:"Cymbalta",cls:"SNRI",group:"Antidepressants",ind:["MDD","GAD","Diabetic neuropathy","Fibromyalgia","Musculoskeletal pain"],doses:[{ind:"Depression / GAD",start:"30 mg/day",target:"60 mg/day",max:"120 mg/day",freq:"Once daily"},{ind:"Pain syndromes",start:"30 mg/day",target:"60–120 mg/day",max:"120 mg/day",freq:"Once daily"}],notes:["Optimal choice when depression co-occurs with chronic pain or somatic symptoms","Moderate CYP2D6 inhibitor — check DDIs","<b>Hepatotoxicity risk</b> — avoid in heavy alcohol use, hepatic impairment","Nausea on initiation — take with food; start at 30 mg"],warn:"Hepatotoxicity — contraindicated in significant hepatic impairment. Avoid with heavy alcohol use. Hypertension possible."},
+  {name:"Mirtazapine",brand:"Remeron",cls:"NaSSA",group:"Antidepressants",ind:["MDD","Insomnia","Poor appetite","PTSD adjunct","Nausea"],doses:[{ind:"Depression / Insomnia",start:"7.5–15 mg at bedtime",target:"15–45 mg at bedtime",max:"45 mg/day",freq:"Bedtime"}],notes:["<b>Dose paradox:</b> 7.5–15 mg MORE sedating than 30–45 mg (H1 blockade dominates at low doses; NE activity increases at higher doses counteracts sedation)","Weight gain and appetite stimulation — clinically valuable in underweight, cancer, or anorexic patients","No sexual side effects; no GI side effects — high tolerability","Antiemetic properties via 5-HT3 antagonism — useful in nausea comorbidity","<b>'California rocket fuel':</b> mirtazapine + venlafaxine = potent augmentation strategy"],warn:"Significant weight gain (H1 + 5-HT2C antagonism). Rare agranulocytosis. Contraindicated with MAOIs. Sedation may impair driving."},
+  {name:"Bupropion",brand:"Wellbutrin XL",cls:"NDRI",group:"Antidepressants",ind:["MDD","Smoking cessation","ADHD adjunct","Sexual dysfunction (SSRI-induced)","Seasonal affective disorder"],doses:[{ind:"Depression (XL)",start:"150 mg once daily",target:"300 mg/day",max:"450 mg/day",freq:"Once daily"},{ind:"Smoking cessation",start:"150 mg × 3 days",target:"150 mg BID",max:"300 mg/day",freq:"BID"},{ind:"ADHD adjunct",start:"75–100 mg BID",target:"150–300 mg/day",max:"450 mg/day",freq:"BID–TID"}],notes:["No sexual side effects — ideal for SSRI-induced sexual dysfunction","No weight gain; may promote modest weight loss","Activating profile — useful in fatigue, hypersomnia, and low-energy depression","<b>Lowers seizure threshold</b> — contraindicated in eating disorders, seizure history","CYP2D6 inhibitor — check DDIs with antipsychotics and TCAs"],warn:"Contraindicated in bulimia, anorexia, seizure disorders, abrupt alcohol/benzo withdrawal. Seizure risk dose-dependent — max 450 mg/day; individual doses ≤150 mg IR."},
+  {name:"Olanzapine",brand:"Zyprexa",cls:"Atypical antipsychotic",group:"Antipsychotics",ind:["Schizophrenia","Bipolar I mania","Bipolar depression (+ fluoxetine)","Acute agitation","TRD augmentation"],doses:[{ind:"Schizophrenia",start:"5–10 mg/day",target:"10–20 mg/day",max:"20 mg/day",freq:"Once daily"},{ind:"Bipolar mania",start:"10–15 mg/day",target:"10–20 mg/day",max:"20 mg/day",freq:"Once daily"},{ind:"Acute agitation (IM)",start:"5–10 mg IM",target:"—",max:"30 mg/24h",freq:"PRN q2h"}],notes:["<b>Highest metabolic risk</b> among atypical antipsychotics — weight gain, dyslipidemia, new-onset diabetes","Broad receptor antagonism: D1–4, 5-HT2A/2C, H1, M1, α1","Sedation useful for agitation and insomnia comorbidity","<b>Critical DDI:</b> IM olanzapine + IM benzodiazepine → respiratory depression and death","Symbyax (olanzapine + fluoxetine) FDA-approved for bipolar depression","Monthly LAI (Relprevv): post-injection delirium/sedation syndrome — 3-hour monitoring required"],warn:"Metabolic syndrome — mandatory monitoring (weight, glucose, lipids). IM + IM benzo → fatal respiratory depression. Post-injection syndrome with LAI (Relprevv)."},
+  {name:"Risperidone",brand:"Risperdal",cls:"Atypical antipsychotic",group:"Antipsychotics",ind:["Schizophrenia","Bipolar I mania","Autism irritability","Delusional disorder","Tourette's"],doses:[{ind:"Schizophrenia",start:"1–2 mg/day",target:"4–6 mg/day",max:"16 mg/day",freq:"Once or twice daily"},{ind:"Elderly / low-dose",start:"0.25–0.5 mg/day",target:"0.5–1.5 mg/day",max:"2 mg/day",freq:"Once daily"}],notes:["Dose-dependent EPS — atypical at low doses, approaches typical at high doses","<b>Highest prolactin elevation</b> of any atypical (D2 blockade in tuberoinfundibular pathway) — monitor galactorrhea, amenorrhea, sexual dysfunction, osteoporosis","Consta LAI: 25–50 mg IM every 2 weeks; <b>overlap oral ×3 weeks before Consta onset</b>","Active metabolite: paliperidone (9-hydroxy-risperidone)"],warn:"Dose-dependent EPS and hyperprolactinemia. Metabolic effects (less than olanzapine). QTc prolongation at high doses. NMS risk."},
+  {name:"Quetiapine",brand:"Seroquel",cls:"Atypical antipsychotic",group:"Antipsychotics",ind:["Schizophrenia","Bipolar I mania","Bipolar depression","MDD adjunct","Insomnia (off-label)"],doses:[{ind:"Schizophrenia",start:"25–50 mg BID",target:"300–800 mg/day",max:"800 mg/day",freq:"BID or XR once daily"},{ind:"Bipolar depression",start:"50 mg at bedtime",target:"300 mg at bedtime",max:"600 mg/day",freq:"Once daily (XR)"},{ind:"MDD adjunct",start:"50 mg at bedtime",target:"150–300 mg at bedtime",max:"300 mg/day",freq:"Once daily"}],notes:["<b>FDA-approved for bipolar depression</b> — one of few antipsychotics with this specific indication","Low EPS risk; low prolactin elevation — favorable tolerability profile","Sedation from H1 antagonism — useful for comorbid insomnia","XR preferred for once-daily dosing and improved tolerability","<b>Cataract monitoring:</b> ophthalmology exam at baseline, then every 6 months"],warn:"Metabolic risk. Orthostatic hypotension (α1 blockade). Mandatory cataract monitoring. QTc prolongation. Sedation — impaired driving."},
+  {name:"Aripiprazole",brand:"Abilify",cls:"Atypical AP / D2 partial agonist",group:"Antipsychotics",ind:["Schizophrenia","Bipolar I mania / maintenance","MDD adjunct","Tourette's","Autism irritability"],doses:[{ind:"Schizophrenia",start:"10–15 mg/day",target:"15–30 mg/day",max:"30 mg/day",freq:"Once daily"},{ind:"MDD adjunct",start:"2–5 mg/day",target:"5–15 mg/day",max:"15 mg/day",freq:"Once daily"},{ind:"LAI (Maintena)",start:"400 mg IM monthly",target:"400 mg IM monthly",max:"400 mg/month",freq:"Monthly"}],notes:["Unique mechanism: <b>partial D2 agonist</b> — functional antagonist in high-dopamine (limbic) regions, agonist in low-dopamine (prefrontal) regions","Weight-neutral or minimal gain — best metabolic profile among antipsychotics","<b>Activating</b> — may worsen insomnia, agitation, or anxiety in susceptible patients","Useful augmentation in TRS alongside clozapine (reduces clozapine metabolic burden)","<b>No prolactin elevation</b> — may reverse hyperprolactinemia from other antipsychotics"],warn:"Akathisia is common and frequently mistaken for anxiety — can worsen outcomes if misidentified. Compulsive behaviors (gambling, hypersexuality) — rare but important. Monitor for impulse control."},
+  {name:"Clozapine",brand:"Clozaril",cls:"Atypical AP — TRS gold standard",group:"Antipsychotics",ind:["Treatment-resistant schizophrenia","Suicidal behavior in schizophrenia / schizoaffective"],doses:[{ind:"TRS — target dose",start:"12.5–25 mg/day",target:"300–600 mg/day",max:"900 mg/day",freq:"BID or TID"},{ind:"Plasma level (trough)",start:"—",target:"350–600 ng/mL",max:"≤1000 ng/mL",freq:"12h post-dose"},{ind:"Titration rate",start:"—",target:"25 mg/day increases",max:"—",freq:"Every 1–2 days"}],notes:["<b>Mandatory REMS ANC monitoring:</b> weekly ×6mo → biweekly ×6mo → monthly thereafter","Titrate slowly: 25 mg/day increments — minimizes orthostasis and seizure risk","<b>Seizure risk</b> above 600 mg/day — consider prophylactic lamotrigine or valproate","Sialorrhea (most common side effect): manage with hyoscine (scopolamine) patch or sublingual atropine drops","<b>Myocarditis:</b> monitor troponin, CRP, ECG, and temperature during first 4–8 weeks","Clozapine levels significantly altered by: smoking (↓40%), caffeine, infection/CRP, CYP1A2 inhibitors","<b>Aripiprazole augmentation:</b> reduces clozapine-induced metabolic effects; often allows clozapine dose reduction"],warn:"Agranulocytosis 1–2% — REMS hematologic monitoring is mandatory and non-negotiable. Myocarditis (potentially fatal) in first 4–8 weeks. Seizures >600 mg/day. Severe metabolic syndrome. Constipation → bowel obstruction."},
+  {name:"Haloperidol",brand:"Haldol",cls:"Typical AP — high potency",group:"Antipsychotics",ind:["Schizophrenia","Acute psychosis","Delirium (ICU)","Acute agitation","Tourette's","Antiemetic"],doses:[{ind:"Schizophrenia (oral)",start:"0.5–5 mg BID",target:"5–15 mg/day",max:"30 mg/day",freq:"BID–TID"},{ind:"Acute agitation (IM)",start:"5 mg IM",target:"—",max:"20 mg/24h",freq:"PRN q1–4h"},{ind:"ICU delirium (IV)",start:"0.5–2 mg IV",target:"—",max:"Titrate to effect",freq:"Q2–4h PRN"},{ind:"Decanoate LAI",start:"10–15× oral dose",target:"Monthly IM",max:"450 mg/month",freq:"Every 4 weeks"}],notes:["<b>Highest EPS risk</b> among antipsychotics — akathisia, acute dystonia, parkinsonism, tardive dyskinesia","IV administration: QTc monitoring mandatory; preferred route for ICU delirium","Minimal sedation; very high antipsychotic potency (CPZ equivalent ratio ~2)","<b>IV route preferred</b> over IM in ICU setting — faster onset, titratable"],warn:"High EPS risk. QTc prolongation with IV administration. NMS risk. Tardive dyskinesia with long-term use. Hyperprolactinemia."},
+  {name:"Lithium",brand:"Eskalith / Lithobid",cls:"Mood stabilizer",group:"Mood Stabilizers",ind:["Bipolar I/II — mania and maintenance","Suicide risk reduction","TRD augmentation","Cluster headache prophylaxis"],doses:[{ind:"Acute mania",start:"300 mg TID",target:"900–1800 mg/day",max:"2400 mg/day",freq:"TID or BID (ER)"},{ind:"Maintenance",start:"300 mg BID",target:"600–1200 mg/day",max:"1800 mg/day",freq:"BID"},{ind:"Level — acute mania",start:"—",target:"0.8–1.2 mEq/L",max:"1.5 mEq/L",freq:"12h post-dose"},{ind:"Level — maintenance",start:"—",target:"0.6–0.8 mEq/L",max:"1.0 mEq/L",freq:"12h post-dose"}],notes:["<b>Narrow therapeutic index</b> — levels >1.5 mEq/L risk toxicity; >2.0 mEq/L potentially fatal","Toxicity signs: coarse tremor, ataxia, confusion, nystagmus, vomiting → check levels + eGFR immediately","<b>DDIs that RAISE lithium levels:</b> NSAIDs, ACE inhibitors, thiazides, dehydration/sodium depletion","Monitoring: renal function (eGFR), thyroid (hypothyroidism ~20%), calcium (hyperparathyroidism), ECG, urine concentrating ability","<b>Strongest evidence for suicide reduction</b> of any psychiatric agent","Teratogenic: Ebstein's anomaly (small absolute risk ~1/2000); counsel women of reproductive age"],warn:"Narrow therapeutic index — requires regular level monitoring. Chronic nephropathy. Hypothyroidism. NSAIDs and ACE inhibitors → lithium toxicity. Ebstein's anomaly (teratogenic)."},
+  {name:"Valproate",brand:"Depakote / Depakene",cls:"Mood stabilizer / Anticonvulsant",group:"Mood Stabilizers",ind:["Bipolar I — mania","Epilepsy (partial, absence, generalized)","Migraine prophylaxis","Impulsivity and agitation"],doses:[{ind:"Bipolar mania",start:"250 mg TID",target:"750–2000 mg/day",max:"60 mg/kg/day",freq:"BID–TID"},{ind:"Rapid loading (mania)",start:"20–30 mg/kg/day",target:"Titrate to level",max:"—",freq:"BID–TID"},{ind:"Level target",start:"—",target:"50–125 μg/mL",max:"125 μg/mL",freq:"Trough"}],notes:["Loading strategy (20–30 mg/kg/day) allows rapid antimanic effect within 2–3 days","Monitor: LFTs, CBC with platelets, ammonia (encephalopathy)","Weight gain common; hair loss (telogen effluvium) at higher doses — biotin supplementation may help","<b>HIGHLY teratogenic:</b> neural tube defects (~2–3%), fetal valproate syndrome (cognitive deficits, ADHD), PCOS — <b>avoid in women of childbearing age if at all possible</b>","<b>Halves lamotrigine clearance</b> — halve lamotrigine dose when adding valproate to prevent SJS"],warn:"Major teratogen — neural tube defects, fetal valproate syndrome. Hepatotoxicity (especially children <2y). Pancreatitis. Thrombocytopenia. Doubles lamotrigine exposure → SJS risk."},
+  {name:"Lamotrigine",brand:"Lamictal",cls:"Mood stabilizer / Anticonvulsant",group:"Mood Stabilizers",ind:["Bipolar I/II — maintenance","Bipolar depression","Epilepsy (adjunct)"],doses:[{ind:"Monotherapy",start:"25 mg/day ×2 wk, then 50 mg/day ×2 wk",target:"200 mg/day",max:"500 mg/day",freq:"Once or twice daily"},{ind:"+ Valproate (halve doses)",start:"12.5 mg every other day ×2 wk, then 25 mg/day ×2 wk",target:"100 mg/day",max:"150 mg/day",freq:"Once daily"},{ind:"+ Enzyme inducer (CBZ/phenytoin)",start:"50 mg/day ×2 wk, then 100 mg/day ×2 wk",target:"300–500 mg/day",max:"700 mg/day",freq:"BID"}],notes:["<b>Mandatory slow titration</b> — SJS/TEN risk increases dramatically with rapid dose escalation","<b>Best evidence for bipolar depression maintenance</b> — FDA-approved for prevention of depressive episodes","Weight-neutral; no cognitive blunting; no sedation — excellent tolerability","<b>Critical rule:</b> if >5 consecutive days missed → restart titration from scratch","Valproate doubles levels (→ halve dose); carbamazepine halves levels (→ double dose)"],warn:"Stevens-Johnson Syndrome / Toxic Epidermal Necrolysis — risk is highest with rapid titration, concurrent valproate, and skin rash. Never rush titration. Restart schedule if >5 days missed."},
+  {name:"Clonazepam",brand:"Klonopin / Rivotril",cls:"Benzodiazepine",group:"Anxiolytics / Sedatives",ind:["Panic disorder","GAD","Seizure disorders","Akathisia (short-term)","REM sleep behavior disorder"],doses:[{ind:"Panic disorder",start:"0.25 mg BID",target:"0.5–2 mg/day",max:"4 mg/day",freq:"BID–TID"},{ind:"Acute anxiety / akathisia",start:"0.5–1 mg",target:"—",max:"2 mg/dose",freq:"PRN"}],notes:["Long-acting (t½ 18–50h) — less interdose anxiety and withdrawal risk than short-acting benzos","Preferred for akathisia management and panic disorder","Dependence risk — define duration upfront; limit continuous use","Taper 5–10% per 1–2 weeks to minimize withdrawal symptoms"],warn:"Physical dependence and withdrawal seizures with abrupt cessation. CNS depression with alcohol, opioids. Respiratory depression in overdose. Cognitive impairment in elderly (Beers Criteria)."},
+  {name:"Lorazepam",brand:"Ativan",cls:"Benzodiazepine",group:"Anxiolytics / Sedatives",ind:["Acute anxiety / agitation","Alcohol withdrawal","Status epilepticus","Procedural sedation","Catatonia"],doses:[{ind:"Anxiety / Agitation (oral/IM/IV)",start:"0.5–1 mg",target:"—",max:"4 mg/dose",freq:"Q4–6h PRN"},{ind:"Alcohol withdrawal (CIWA-guided)",start:"2 mg IV/IM",target:"—",max:"Per CIWA score",freq:"PRN"},{ind:"Status epilepticus (IV)",start:"4 mg IV over 2 min",target:"—",max:"8 mg total",freq:"May repeat ×1 after 5–10 min"},{ind:"Catatonia",start:"1–2 mg IV/IM/SL",target:"—",max:"—",freq:"Test dose; repeat PRN"}],notes:["No active metabolites — <b>preferred benzo in hepatic impairment</b> and elderly","Routes: oral, IM, IV, sublingual — highly versatile for inpatient use","Drug of choice for acute IM agitation and alcohol withdrawal (CIWA protocol)","<b>Catatonia:</b> lorazepam challenge 1–2 mg IV is both diagnostic and therapeutic"],warn:"Respiratory depression — especially with opioids or other CNS depressants. Paradoxical disinhibition in elderly. Dependence with repeated dosing. Avoid in acute narrow-angle glaucoma."},
+  {name:"Buspirone",brand:"Buspar",cls:"5-HT1A partial agonist",group:"Anxiolytics / Sedatives",ind:["GAD","SSRI augmentation for anxiety","MDD augmentation (off-label)"],doses:[{ind:"GAD",start:"5 mg BID–TID",target:"20–30 mg/day",max:"60 mg/day",freq:"BID–TID"}],notes:["Non-habit forming — no physical dependence, no abuse potential, no sedation","Onset 2–4 weeks — <b>not a PRN medication</b> and does not treat acute anxiety","Does not cross-react with benzodiazepines — cannot prevent benzo withdrawal","Often underdosed in practice — effective range typically 20–45 mg/day","Augments SSRIs for residual anxiety symptoms"],warn:"No cross-tolerance with benzodiazepines — cannot substitute for benzo withdrawal. Does not treat panic disorder or acute anxiety episodes."},
+  {name:"Hydroxyzine",brand:"Vistaril / Atarax",cls:"H1 antihistamine",group:"Anxiolytics / Sedatives",ind:["Anxiety (short-term)","PRN anxiety","Insomnia","Pruritus","SUD patients needing anxiolytic"],doses:[{ind:"Anxiety",start:"25 mg TID",target:"50–100 mg QID",max:"400 mg/day",freq:"TID–QID"},{ind:"PRN anxiety / Insomnia",start:"25–50 mg at bedtime",target:"50–100 mg",max:"100 mg/dose",freq:"PRN"}],notes:["Non-habit forming — ideal PRN anxiolytic in substance use disorder","Rapid onset 30–60 minutes — effective for acute anxiety in outpatient settings","Antiemetic and antipruritic properties","Sedation is main limitation — impairs driving and complex tasks"],warn:"QTc prolongation at high doses. Anticholinergic effects — avoid in elderly (Beers Criteria). Sedation impairs driving. Avoid combining with other CNS depressants."},
+  {name:"Methylphenidate",brand:"Ritalin / Concerta",cls:"Stimulant — DNRI",group:"ADHD",ind:["ADHD","Narcolepsy","TRD augmentation (short-term)"],doses:[{ind:"ADHD (IR formulation)",start:"5 mg BID",target:"20–30 mg/day",max:"60 mg/day",freq:"BID–TID (AM + noon)"},{ind:"ADHD (Concerta XR)",start:"18 mg once daily",target:"36–54 mg/day",max:"72 mg/day",freq:"Once daily AM"}],notes:["IR: onset 30 min, duration 3–5h; Concerta XR: 8–12h coverage","Monitor: BP, HR, weight, height (children) at each visit","Avoid late-day dosing — delays sleep onset","Schedule II controlled substance — prescription and dispensing restrictions","Drug holiday (summers) may be considered for children (growth, appetite recovery)"],warn:"Contraindicated in structural cardiac disease, uncontrolled hypertension. Growth suppression in children with long-term use. Psychosis at high doses. Significant abuse potential. Avoid in patients with anxiety (may worsen)."},
+  {name:"Atomoxetine",brand:"Strattera",cls:"Selective NRI — non-stimulant",group:"ADHD",ind:["ADHD","ADHD + anxiety","ADHD + tic disorder","ADHD + substance use disorder"],doses:[{ind:"ADHD adults (<70 kg: weight-based)",start:"40 mg/day ×1 week",target:"80 mg/day",max:"100 mg/day",freq:"Once daily or BID (morning ± afternoon)"},{ind:"ADHD children (weight <70 kg)",start:"0.5 mg/kg/day",target:"1.2 mg/kg/day",max:"1.4 mg/kg/day or 100 mg",freq:"Once or twice daily"}],notes:["Non-stimulant — no abuse potential, not a scheduled drug; ideal for SUD patients","Full therapeutic effect takes 4–6 weeks — manage expectations","<b>Black box warning:</b> increased suicidal ideation in children/adolescents — monitor closely in first weeks","Preferred when comorbid anxiety, tics, or substance use disorder precludes stimulants","CYP2D6 substrate — poor metabolizers and CYP2D6 inhibitors increase exposure significantly"],warn:"Black box: suicidal ideation in pediatrics — monitor closely. Hepatotoxicity (rare but serious). Urinary retention. CV effects: increased HR and BP."},
+  {name:"Zolpidem",brand:"Ambien / Stilnox",cls:"Z-drug — non-benzo GABA-A PAM",group:"Sleep",ind:["Insomnia — sleep onset and maintenance"],doses:[{ind:"Insomnia (IR)",start:"5 mg at bedtime (women)",target:"5–10 mg at bedtime",max:"10 mg at bedtime (men)",freq:"Immediately before bed"},{ind:"Extended release (CR)",start:"6.25 mg at bedtime",target:"6.25–12.5 mg",max:"12.5 mg at bedtime",freq:"Immediately before bed"}],notes:["<b>Sex-based dosing:</b> women metabolize zolpidem 45% more slowly — start at 5 mg","Short-term use only (≤4 weeks) — tolerance and psychological dependence develop rapidly","<b>Complex sleep behaviors:</b> sleepwalking, sleep-driving, sleep-eating (FDA black box warning)","Guarantee minimum 8h sleep window before any activity requiring alertness","Avoid in elderly (Beers Criteria) — falls, cognitive impairment"],warn:"Complex sleep behaviors including sleep-driving (FDA black box). Dependence with prolonged use. Respiratory depression with CNS depressants. CNS depression — impairs next-morning driving."},
+];
+
+const GROUPS_ORDER = ["Antidepressants","Antipsychotics","Mood Stabilizers","Anxiolytics / Sedatives","ADHD","Sleep"];
+const GROUP_COLORS = {
+  "Antidepressants":"#4d9fff",
+  "Antipsychotics":"#a78bfa",
+  "Mood Stabilizers":"#34d399",
+  "Anxiolytics / Sedatives":"#fbbf24",
+  "ADHD":"#f87171",
+  "Sleep":"#fb923c"
+};
+const GROUPS = {};
+DRUGS.forEach(d=>{ if(!GROUPS[d.group]) GROUPS[d.group]=[]; GROUPS[d.group].push(d); });
+
+// ── SIDEBAR ───────────────────────────────────────────────────────────────────
+let currentDrug = null;
+function buildSidebar(filter='') {
+  const fl = filter.toLowerCase();
+  const list = document.getElementById('drug-list');
+  list.innerHTML = '';
+  GROUPS_ORDER.forEach((g,gi) => {
+    const drugs = (GROUPS[g]||[]).filter(d => !fl ||
+      d.name.toLowerCase().includes(fl) ||
+      d.brand.toLowerCase().includes(fl) ||
+      d.cls.toLowerCase().includes(fl) ||
+      d.ind.some(i=>i.toLowerCase().includes(fl))
+    );
+    if (!drugs.length) return;
+    const head = document.createElement('div');
+    head.className = 'cat-header';
+    head.innerHTML = `<div class="cat-dot" style="background:${GROUP_COLORS[g]||'#4d9fff'}"></div><span class="cat-label-text">${g}</span>`;
+    list.appendChild(head);
+    drugs.forEach(d => {
+      const btn = document.createElement('button');
+      btn.className = 'drug-item' + (currentDrug?.name===d.name?' active':'');
+      btn.dataset.name = d.name;
+      btn.innerHTML = `${d.name}<span class="drug-item-brand">${d.brand.split('/')[0].trim()}</span>`;
+      btn.onclick = () => showDrug(d);
+      list.appendChild(btn);
+    });
+  });
+}
+function filterDrugs(v) { buildSidebar(v); }
+
+function showDrug(drug) {
+  currentDrug = drug;
+  buildSidebar(document.getElementById('search-input').value);
+  document.getElementById('empty').style.display = 'none';
+  const card = document.getElementById('drug-card');
+  card.style.display = 'block';
+
+  const doseRows = drug.doses.map(d=>`
+    <tr>
+      <td class="td-ind">${d.ind}</td>
+      <td class="td-val">${d.start}</td>
+      <td class="td-val">${d.target}</td>
+      <td class="td-val">${d.max}</td>
+      <td style="color:var(--text2);font-size:0.8rem">${d.freq}</td>
+    </tr>`).join('');
+
+  const noteItems = drug.notes.map(n=>`
+    <div class="note-item">
+      <span class="note-bullet">·</span>
+      <span>${n}</span>
+    </div>`).join('');
+
+  const indTags = drug.ind.map(i=>`<span class="ind-tag">${i}</span>`).join('');
+
+  card.innerHTML = `
+    <div class="drug-header">
+      <div class="drug-name">${drug.name}</div>
+      <div class="drug-brand-row">
+        <span class="drug-brand">${drug.brand}</span>
+        <span class="drug-class-pill">${drug.cls}</span>
+      </div>
+      <div class="drug-ind-wrap">${indTags}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><span class="section-icon">💊</span><span class="section-title">Dosing</span></div>
+      <table class="dose-table">
+        <thead><tr><th>Indication</th><th>Starting Dose</th><th>Target Dose</th><th>Max</th><th>Frequency</th></tr></thead>
+        <tbody>${doseRows}</tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><span class="section-icon">📋</span><span class="section-title">Clinical Notes & Pearls</span></div>
+      <div class="notes-inner">${noteItems}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><span class="section-icon">⚠️</span><span class="section-title">Warnings & Contraindications</span></div>
+      <div class="warn-inner"><span class="warn-icon">⚠️</span><span class="warn-text">${drug.warn}</span></div>
+    </div>
+
+    <div class="disclaimer"><strong>Clinical reference only.</strong> Always verify against current product monographs and adjust for patient-specific factors including renal/hepatic function, age, weight, and drug interactions.</div>`;
+}
+
+// ── TABS ──────────────────────────────────────────────────────────────────────
+function switchTab(tab) {
+  document.querySelectorAll('.nav-btn').forEach((b,i)=>b.classList.toggle('active',['ref','ai','patient','quiz'][i]===tab));
+  document.getElementById('sidebar').style.display = tab==='ref'?'flex':'none';
+  document.querySelectorAll('.panel, .panel-full').forEach(p=>{ p.classList.remove('active'); p.style.display='none'; });
+  const el = document.getElementById('tab-'+tab);
+  if (tab==='ai') { el.style.display='flex'; el.classList.add('active'); }
+  else { el.style.display='block'; el.classList.add('active'); }
+  if (tab!=='ref') document.getElementById('main').style.overflowY='auto';
+  if (tab==='ai') document.getElementById('main').style.overflowY='hidden';
+}
+
+// ── AI CHAT ───────────────────────────────────────────────────────────────────
+const chatHistory = [];
+const SYSTEM = `You are PsychRx, an expert psychiatric pharmacologist and clinical consultant at the level of a senior psychopharmacologist. You advise psychiatrists and senior residents. Provide precise, evidence-based, clinically actionable answers. Be direct and expert-level — no hedging, no unnecessary disclaimers. Format responses clearly using bullet points (·) for lists. Use bold for key terms by wrapping in **asterisks**. Cover mechanisms, dosing, side effects, drug interactions, and clinical pearls with the depth expected of a top-tier consultation.`;
+
+async function callClaude(messages) {
+  const r = await fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1200,system:SYSTEM,messages})
+  });
+  const d = await r.json();
+  return d.content?.find(b=>b.type==='text')?.text||'No response received.';
+}
+
+function appendMsg(role, text) {
+  const wrap = document.createElement('div');
+  wrap.className = `msg msg-${role}`;
+  const avatar = document.createElement('div');
+  avatar.className = `msg-avatar avatar-${role}`;
+  avatar.textContent = role==='ai'?'Rx':'Dr';
+  const bubble = document.createElement('div');
+  bubble.className = `msg-bubble bubble-${role}`;
+  bubble.textContent = text;
+  wrap.appendChild(avatar);
+  wrap.appendChild(bubble);
+  document.getElementById('chat-messages').appendChild(wrap);
+  wrap.scrollIntoView({behavior:'smooth',block:'end'});
+  return bubble;
+}
+
+function appendTyping() {
+  const wrap = document.createElement('div');
+  wrap.className = 'msg msg-ai';
+  wrap.id = 'typing-msg';
+  const avatar = document.createElement('div');
+  avatar.className = 'msg-avatar avatar-ai';
+  avatar.textContent = 'Rx';
+  const bubble = document.createElement('div');
+  bubble.className = 'msg-bubble bubble-ai';
+  bubble.innerHTML = '<div class="typing-dots"><span></span><span></span><span></span></div>';
+  wrap.appendChild(avatar);
+  wrap.appendChild(bubble);
+  document.getElementById('chat-messages').appendChild(wrap);
+  wrap.scrollIntoView({behavior:'smooth',block:'end'});
+  return bubble;
+}
+
+async function sendChat() {
+  const input = document.getElementById('chat-input');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  input.style.height = 'auto';
+  appendMsg('user', text);
+  chatHistory.push({role:'user',content:text});
+  const btn = document.getElementById('send-btn');
+  btn.disabled = true;
+  const typingBubble = appendTyping();
+  try {
+    const reply = await callClaude(chatHistory);
+    document.getElementById('typing-msg')?.remove();
+    appendMsg('ai', reply);
+    chatHistory.push({role:'assistant',content:reply});
+  } catch(e) {
+    document.getElementById('typing-msg')?.remove();
+    appendMsg('ai','⚠ Connection error. Please try again.');
+  }
+  btn.disabled = false;
+}
+
+function quickAsk(q) {
+  document.getElementById('chat-input').value = q;
+  sendChat();
+}
+
+const chatInput = document.getElementById('chat-input');
+chatInput.addEventListener('keydown', e => { if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendChat();} });
+chatInput.addEventListener('input', function() {
+  this.style.height = 'auto';
+  this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+});
+
+// ── PATIENT ───────────────────────────────────────────────────────────────────
+const PATIENT_SYSTEM = `You are a senior clinical psychopharmacologist providing a formal medication consultation. Structure your response exactly as follows:
+
+**1. FIRST-LINE RECOMMENDATION**
+Drug, dose, titration schedule, and specific rationale tied to this patient's profile.
+
+**2. SECOND-LINE OPTION**
+Alternative with rationale — why it's second rather than first.
+
+**3. WHAT TO AVOID**
+Specific agents contraindicated or inadvisable in this patient, with concise clinical reasoning.
+
+**4. MONITORING PARAMETERS**
+Essential labs, vitals, clinical parameters for the recommended agents.
+
+**5. KEY DRUG INTERACTIONS**
+Clinically significant DDIs relevant to this patient's current medication regimen.
+
+Be specific, expert-level, and tailor every recommendation to the individual patient's profile. Do not give generic answers.`;
+
+async function getPatientRec() {
+  const dx = document.getElementById('p-dx').value.trim();
+  if (!dx) { document.getElementById('p-dx').focus(); return; }
+  const btn = document.getElementById('patient-btn');
+  btn.disabled = true;
+  btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin 1s linear infinite"><path d="M21 12a9 9 0 11-6.219-8.56"/></svg> Generating…`;
+
+  const prompt = `Patient Clinical Profile:
+• Age: ${document.getElementById('p-age').value||'Not specified'}
+• Sex: ${document.getElementById('p-sex').value||'Not specified'}
+• Weight: ${document.getElementById('p-weight').value||'Not specified'} kg
+• Renal/Hepatic: ${document.getElementById('p-organ').value||'Not specified'}
+• Primary Diagnosis: ${dx}
+• Comorbidities: ${document.getElementById('p-comorbid').value||'None reported'}
+• Current Medications: ${document.getElementById('p-meds').value||'None'}
+• Prior Psychiatric Medications: ${document.getElementById('p-prior').value||'None reported'}
+• Allergies / ADRs: ${document.getElementById('p-allergy').value||'None'}
+• Contraindications / Flags: ${document.getElementById('p-contra').value||'None'}
+• Clinical Notes: ${document.getElementById('p-notes').value||'None'}`;
+
+  const resultDiv = document.getElementById('patient-result');
+  const resultText = document.getElementById('patient-result-text');
+  resultDiv.style.display = 'block';
+  resultText.textContent = '⏳ Generating expert recommendation…';
+  resultDiv.scrollIntoView({behavior:'smooth'});
+
+  try {
+    const reply = await callClaude([{role:'user',content:prompt}]);
+    resultText.textContent = reply;
+  } catch {
+    resultText.textContent = '⚠ Connection error. Please try again.';
+  }
+  btn.disabled = false;
+  btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Generate Recommendation`;
+}
+
+// ── QUIZ ──────────────────────────────────────────────────────────────────────
+const QUESTIONS = [
+  {q:"Which antidepressant has the longest half-life, making discontinuation syndrome least likely?",opts:["Sertraline","Venlafaxine","Fluoxetine","Paroxetine"],ans:2,exp:"Fluoxetine's half-life of ~4–6 days (norfluoxetine ~4–16 days) is by far the longest among SSRIs, providing a natural self-taper. This is why it requires a 5-week washout before starting an MAOI."},
+  {q:"At what clozapine trough plasma level is therapeutic response most likely in treatment-resistant schizophrenia?",opts:["100–200 ng/mL","200–350 ng/mL","350–600 ng/mL","600–900 ng/mL"],ans:2,exp:"The consensus therapeutic window for clozapine is 350–600 ng/mL (trough, 12h post-dose). Levels below 350 ng/mL are frequently subtherapeutic; levels above 1000 ng/mL are associated with toxicity and seizures."},
+  {q:"Mirtazapine paradoxically produces MORE sedation at lower doses. What is the pharmacological basis?",opts:["Lower doses produce stronger D2 blockade","Lower doses have stronger H1 histamine antagonism relative to NE activity","Lower doses inhibit MAO-A selectively","Lower doses cause greater 5-HT2A blockade"],ans:1,exp:"At low doses (7.5–15 mg), H1 antihistamine blockade dominates. At higher doses (30–45 mg), robust noradrenergic activity is recruited which counteracts sedation. This is the mirtazapine dose paradox — counter-intuitive and clinically important."},
+  {q:"Which atypical antipsychotic carries the highest risk of metabolic syndrome (weight gain, dyslipidemia, new-onset diabetes)?",opts:["Aripiprazole","Quetiapine","Risperidone","Olanzapine"],ans:3,exp:"Olanzapine has the highest metabolic liability of any atypical antipsychotic. It causes the most weight gain (average 4–6 kg in short-term trials), most dyslipidemia, and highest risk of new-onset type 2 diabetes — due to potent 5-HT2C, H1, and M1 antagonism."},
+  {q:"Lamotrigine dose must be halved when which drug is added to the regimen?",opts:["Lithium","Carbamazepine","Valproate","Quetiapine"],ans:2,exp:"Valproate inhibits UGT glucuronidation — the primary metabolic pathway of lamotrigine — effectively doubling its plasma level. Failure to halve the lamotrigine dose when adding valproate dramatically increases the risk of Stevens-Johnson Syndrome."},
+  {q:"Clozapine is the only antipsychotic with which unique FDA indication beyond treatment-resistant schizophrenia?",opts:["Prevention of psychiatric hospitalization","Reduction of suicidal behavior in schizophrenia/schizoaffective disorder","First-line for bipolar depression","Long-term prevention of tardive dyskinesia"],ans:1,exp:"Clozapine has a specific FDA indication for reducing suicidal behavior in schizophrenia and schizoaffective disorder — supported by robust evidence showing 26–88% reduction in suicide attempts. No other antipsychotic has this indication."},
+  {q:"What is the target lithium serum level (mEq/L) for maintenance treatment of bipolar disorder?",opts:["0.4–0.6","0.6–0.8","0.8–1.2","1.2–1.5"],ans:1,exp:"Maintenance lithium targets 0.6–0.8 mEq/L, balancing efficacy with long-term renal and thyroid tolerability. Acute mania requires higher levels (0.8–1.2 mEq/L). Levels >1.5 mEq/L risk toxicity; >2.0 mEq/L can be fatal."},
+  {q:"Bupropion is absolutely contraindicated in which clinical condition?",opts:["Generalized anxiety disorder","ADHD with tic disorder","Bulimia nervosa","Bipolar depression"],ans:2,exp:"Bulimia nervosa (and anorexia) are absolute contraindications for bupropion due to electrolyte disturbances from purging that lower the seizure threshold combined with bupropion's own seizure-lowering effect. This combination increases seizure risk substantially."},
+  {q:"Why is lorazepam preferred over diazepam in patients with severe hepatic impairment?",opts:["Shorter half-life","Higher lipid solubility","No active metabolites — undergoes direct glucuronidation","Greater receptor affinity"],ans:2,exp:"Lorazepam undergoes direct glucuronidation (phase II only) without hepatic oxidation (phase I), producing no active metabolites. Diazepam and chlordiazepoxide require phase I oxidation which is severely impaired in hepatic disease, leading to prolonged and unpredictable drug accumulation."},
+  {q:"Aripiprazole's partial D2 agonism means it characteristically does NOT cause which common antipsychotic side effect?",opts:["Akathisia","Hyperprolactinemia","Weight gain","Sedation"],ans:1,exp:"As a partial D2 agonist, aripiprazole competes with dopamine in the tuberoinfundibular pathway without fully activating it, producing no prolactin elevation (unlike full D2 antagonists). It may actually reverse hyperprolactinemia caused by other antipsychotics when used in combination."},
+  {q:"At what approximate venlafaxine dose does clinically meaningful noradrenergic (NE) reuptake inhibition begin?",opts:["37.5–75 mg/day","75–100 mg/day","≥150 mg/day","≥300 mg/day"],ans:2,exp:"Venlafaxine is essentially an SSRI at ≤150 mg/day with negligible NE reuptake inhibition. Clinically meaningful dual SNRI activity begins at ≥150 mg/day. This pharmacodynamic dose-dependence justifies dose escalation in patients who fail to respond to lower doses."},
+  {q:"What is the primary reason clozapine plasma levels can suddenly rise in an inpatient who was previously stable?",opts:["Dose error by nursing staff","Hospital diet change","Acute infection raising CRP and inhibiting CYP1A2","Starting a new antidepressant"],ans:2,exp:"CYP1A2 is the primary enzyme metabolizing clozapine. Acute infection/inflammation raises CRP and dramatically inhibits CYP1A2 activity, potentially doubling or tripling clozapine levels — leading to toxicity (seizures, hypotension, sedation). This is a critical and underrecognized clinical phenomenon. Smoking cessation also raises levels by ~40% via the same mechanism."},
+  {q:"Which statement about the lamotrigine titration schedule is most clinically critical?",opts:["Titrate up as quickly as tolerated to reach therapeutic dose faster","If >5 consecutive doses are missed, restart titration from scratch","The schedule is identical regardless of concurrent medications","Skin rash always indicates SJS and requires immediate discontinuation"],ans:1,exp:"If more than 5 consecutive doses are missed, the titration schedule must restart from the beginning. The gut barrier re-sensitizes rapidly, and returning to a previously tolerated dose significantly increases SJS/TEN risk. This is one of the most critical patient safety rules for lamotrigine."},
+  {q:"Which tricyclic antidepressant combination represents a clinically useful augmentation for treatment-resistant depression and chronic pain?",opts:["Amitriptyline + lithium","Nortriptyline + valproate","Low-dose amitriptyline + SSRI","High-dose imipramine + MAOI"],ans:2,exp:"Low-dose tricyclics (especially nortriptyline or amitriptyline 10–50 mg HS) added to an SSRI is a validated augmentation strategy that also addresses comorbid insomnia and neuropathic pain. The combination requires CYP2D6 DDI awareness — SSRIs like fluoxetine and paroxetine dramatically raise TCA levels."},
+  {q:"A patient on long-term antipsychotic therapy develops involuntary orofacial movements that persist even after the antipsychotic is reduced. What is the most likely diagnosis and mechanism?",opts:["Akathisia — DA receptor supersensitivity","Tardive dyskinesia — D2 receptor upregulation from chronic blockade","Parkinsonism — nigrostriatal dopamine depletion","Acute dystonia — rapid D2 blockade"],ans:1,exp:"Tardive dyskinesia (TD) results from long-term D2 blockade causing compensatory upregulation and supersensitivity of striatal D2 receptors. Choreiform movements — classically orofacial — emerge and may persist or worsen even when antipsychotics are reduced. Risk factors: older age, female sex, longer duration, typical antipsychotics, higher dose."},
+];
+
+let qList, qIdx, qScore, qHistory, qAnswered;
+
+function startQuiz() {
+  qList = [...QUESTIONS].sort(()=>Math.random()-0.5).slice(0,10);
+  qIdx=0; qScore=0; qHistory=[]; qAnswered=false;
+  renderQ();
+}
+
+function renderQ() {
+  const area = document.getElementById('quiz-area');
+  if (qIdx>=qList.length) { showResults(); return; }
+  const q = qList[qIdx];
+  const pct = (qIdx/qList.length)*100;
+  area.innerHTML = `
+    <div class="quiz-card">
+      <div class="quiz-topbar">
+        <span class="quiz-counter">Question ${qIdx+1} of ${qList.length}</span>
+        <span class="quiz-score">Score: ${qScore} / ${qIdx}</span>
+      </div>
+      <div class="quiz-track"><div class="quiz-fill" style="width:${pct}%"></div></div>
+      <div class="quiz-question">${q.q}</div>
+      <div class="quiz-options">
+        ${q.opts.map((o,i)=>`<button class="quiz-opt" id="qo${i}" onclick="answerQ(${i})">${o}</button>`).join('')}
+      </div>
+      <div class="quiz-explain" id="qexp"><strong>Explanation:</strong> ${q.exp}</div>
+      <button class="quiz-next" id="qnext" onclick="nextQ()">${qIdx+1>=qList.length?'See Results →':'Next Question →'}</button>
+    </div>`;
+}
+
+function answerQ(chosen) {
+  if(qAnswered) return;
+  qAnswered = true;
+  const q = qList[qIdx];
+  const correct = chosen===q.ans;
+  if(correct) qScore++;
+  qHistory.push({q:q.q,correct,chosen:q.opts[chosen],ans:q.opts[q.ans]});
+  q.opts.forEach((_,i)=>{
+    const b = document.getElementById('qo'+i);
+    b.disabled = true;
+    if(i===q.ans) b.classList.add('correct');
+    else if(i===chosen) b.classList.add('wrong');
+    else b.classList.add('dim');
+  });
+  document.getElementById('qexp').style.display = 'block';
+  document.getElementById('qnext').style.display = 'inline-block';
+}
+
+function nextQ() { qIdx++; qAnswered=false; renderQ(); }
+
+function showResults() {
+  const pct = Math.round((qScore/qList.length)*100);
+  const [emoji,msg] = pct>=90?['🎯','Outstanding — consultant-level performance.']:pct>=70?['📊','Strong — minor gaps to revisit.']:pct>=50?['📚','Developing — targeted review recommended.']:['🔄','Foundation building needed — use Reference and AI tabs.'];
+  const items = qHistory.map(h=>`
+    <div class="result-item ${h.correct?'r-ok':'r-fail'}">
+      <span class="r-icon" style="color:${h.correct?'var(--green)':'var(--red)'}">${h.correct?'✓':'✗'}</span>
+      <div>
+        <div style="color:var(--text);margin-bottom:3px;font-size:0.79rem;line-height:1.4">${h.q}</div>
+        ${!h.correct?`<div style="color:var(--text3);font-size:0.76rem">Your answer: <span style="color:var(--red)">${h.chosen}</span> · Correct: <span style="color:var(--green)">${h.ans}</span></div>`:''}
+      </div>
+    </div>`).join('');
+  document.getElementById('quiz-area').innerHTML = `
+    <div class="quiz-card">
+      <div class="results-header">
+        <div style="font-size:2rem;margin-bottom:8px">${emoji}</div>
+        <div style="font-family:var(--serif);font-size:1.4rem;margin-bottom:6px">Quiz Complete</div>
+        <div class="results-score">${qScore}<span style="font-size:1.5rem;color:var(--text3)"> / ${qList.length}</span></div>
+        <div class="results-sub">${pct}% · ${msg}</div>
+      </div>
+      <div style="margin-bottom:16px">${items}</div>
+      <button class="retry-btn" onclick="startQuiz()">Retake Quiz</button>
+    </div>`;
+}
+
+// CSS for spin
+const style = document.createElement('style');
+style.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+document.head.appendChild(style);
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+buildSidebar();
+startQuiz();
+document.getElementById('tab-patient').style.display = 'none';
+document.getElementById('tab-quiz').style.display = 'none';
+document.getElementById('tab-ai').style.display = 'none';
+</script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+[
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 2,
+    "q": "Dr. Mahmoud formed a negative impression of Mrs. Hariri from her anxious presentation at the start and let it shape his whole report. Which error from the course is this?",
+    "o": [
+      "Primacy effect",
+      "Base-rate neglect",
+      "Outdated knowledge",
+      "Lack of feedback"
+    ],
+    "e": "The course defines the primacy effect as giving information obtained early in data collection more importance than information received later, so that different starting points lead to different conclusions; clinicians may also develop incorrect hypotheses from first impressions. Dr. Mahmoud's first impression of an anxious, 'limited' client became the frame for every later finding. The course adds that this error is reinforced when early judgments are then confirmed by seeking supporting information.",
+    "w": [
+      "Base-rate neglect concerns how common a finding is in a group.",
+      "Outdated knowledge concerns relying on old research or norms.",
+      "Lack of feedback concerns never learning whether judgments were accurate."
+    ],
+    "k": "Primacy effect: early information and first impressions outweigh later data, steering the conclusion.",
+    "h": "Primus = first: the first impression rules.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Clinical judgment: primacy effect"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 2,
+    "q": "Dr. Mahmoud read every MMPI-2 elevation and the minimal Rorschach responses as further proof of 'dysfunction'. What does the course recommend to counter this bias?",
+    "o": [
+      "Deliberately consider, or even list, the evidence that does not support the hypothesis",
+      "Rely on memory of similar past cases rather than written notes",
+      "Persuade the client that the clinician's interpretation is correct",
+      "Add more tests from the same battery until the picture is consistent"
+    ],
+    "e": "This is confirmatory bias: making an early judgment and then seeking only supporting information, especially in hypothesis testing where clinicians do not adequately seek disconfirming data. Among the course's steps to improve accuracy, clinicians should consider not only data that support their hypotheses but carefully consider or even list evidence that does not support them, reducing hindsight and confirmatory bias. Mrs. Hariri's sleeplessness, fear and sedative were alternative explanations he never examined.",
+    "w": [
+      "The course advises relying on careful notes, not memory.",
+      "Persuading the client is named as the most problematic form of the bias.",
+      "More tests interpreted the same way would feed the same bias."
+    ],
+    "k": "Counter confirmatory bias by actively seeking and listing disconfirming evidence and alternative explanations.",
+    "h": "Argue the other side on paper.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Clinical judgment: confirmatory bias; steps to improve accuracy"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 3,
+    "q": "Why was Dr. Mahmoud's reading of Mrs. Hariri's elevated anxiety and paranoia scores a base-rate error?",
+    "o": [
+      "They are very common in domestic-violence victims and do not signal parenting incapacity",
+      "They are so rare that they always indicate a personality disorder",
+      "Base rates apply only to schizophrenia, never to personality tests",
+      "The MMPI-2 has no norms, so base rates cannot be used at all"
+    ],
+    "e": "The course defines the base rate as the rate at which a behavior, trait or diagnosis occurs in a population and warns that clinicians frequently ignore it; it urges attending to base rates so that predictions improve on them. In the exam case, elevated anxiety and paranoia scores are extremely frequent among women who are victims of domestic violence, so in Mrs. Hariri's context they did not signal parenting incapacity. Ignoring that base rate turned a common trauma response into 'dysfunction'.",
+    "w": [
+      "The point is that they are common in this group, not rare.",
+      "The schizophrenia example only illustrates a general principle.",
+      "The MMPI-2 is a normed test."
+    ],
+    "k": "Base rate: how common a finding is in the relevant group; common trauma-related elevations ≠ pathology or incapacity.",
+    "h": "Ask 'how common is this here?' before 'what does it mean?'.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Accuracy of clinical judgments: base rates"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 2,
+    "q": "Dr. Mahmoud based his link between paranoia and poor parenting on articles from the 1980s. Which course rule of thumb does this violate?",
+    "o": [
+      "A clinician whose test knowledge is not updated within the past 10 years is probably not practicing competently",
+      "A clinician should never read research older than 2 years",
+      "Interpretations should rest on the clinician's training cases rather than literature",
+      "Test norms never become outdated once published"
+    ],
+    "e": "The course notes that test norms and stimulus materials eventually become outdated, so interpretations based on them may become inaccurate; clinicians must stay current on emerging research and new test versions. Its rule of thumb: if a clinician has not updated his or her test knowledge in at most the past 10 years, he or she is probably not practicing competently. The steps to improve accuracy also ask practitioners to keep updating their knowledge of the clinical judgment literature.",
+    "w": [
+      "The course's threshold is 10 years, not 2.",
+      "Single remembered cases are not a substitute for current research.",
+      "The course states that norms do become outdated."
+    ],
+    "k": "Stay current: outdated norms/research → inaccurate interpretation; >10 years without updating = probably not competent.",
+    "h": "A decade-old map leads you off the road.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 2 Ethical practice: interpretation and use of test results; Ch. 1 steps to improve accuracy"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 3,
+    "q": "What should Dr. Mahmoud have done first, in Phase 1 (clarifying and evaluating the referral question)?",
+    "o": [
+      "Contact the court to learn what decision it faced, instead of assuming a routine evaluation",
+      "Administer his standard battery right away to save the court time",
+      "Interview the father's attorney about the mother's personality traits",
+      "Write the recommendations first, then choose tests that support them"
+    ],
+    "e": "The course states that clinicians cannot assume initial requests are adequately stated; they may need to uncover hidden agendas and unspoken expectations, understand the referral setting's vocabulary and expectations, judge whether the question suits psychological assessment and their competence, and contact the referral source. A key question is what decisions need to be made. Had he called the court, he would have learned it only wanted to know whether Mrs. Hariri needed therapeutic support services.",
+    "w": [
+      "Testing before clarifying the question is the error itself.",
+      "The referral source was the court, not the opposing attorney.",
+      "Recommendations come in Phase 8, after testing hypotheses."
+    ],
+    "k": "Phase 1: clarify with the referral source what decision must be made; uncover hidden agendas; check appropriateness and competence.",
+    "h": "Ask the asker before you test.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Evaluating the referral question; Phase 1"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 2,
+    "q": "Mrs. Hariri had been awake for 36 hours and had taken a sedative before testing. Which course concept explains why her results were unreliable?",
+    "o": [
+      "Nonrepresentative responses due to a transient condition such as a poor night's sleep",
+      "The primacy effect operating in the client rather than the clinician",
+      "Low base rates of anxiety in the general population",
+      "The actuarial method being misapplied by the client"
+    ],
+    "e": "The course warns that a client's responses might be nonrepresentative because of a transient condition, such as a stressful day or a poor night's sleep, or because of conscious or unconscious faking. Mrs. Hariri's sleeplessness, acute fear after her ex-husband's threat and a sedative taken that morning were transient states that depressed her concentration and engagement. Asking about current stressors and medications before testing would have exposed this.",
+    "w": [
+      "The primacy effect is a clinician's judgment error.",
+      "Base rates concern frequency in a population, not her state.",
+      "The actuarial method is a clinician's prediction approach."
+    ],
+    "k": "Transient states (no sleep, acute stress, sedatives) can make test responses nonrepresentative; ask before testing.",
+    "h": "A tired, terrified client gives a snapshot of the storm, not the climate.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Clinical judgment: nonrepresentative responses"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 3,
+    "q": "According to the course, what is the central consideration in a child custody evaluation, which Dr. Mahmoud never addressed directly?",
+    "o": [
+      "Which arrangement is in the child's best interest, including the parent–child relationship",
+      "Which parent scores lower on paranoia scales of the MMPI-2",
+      "Which parent the referring attorney represents",
+      "Which parent completed the testing faster"
+    ],
+    "e": "The course states that in custody evaluations the central consideration is which arrangement is in the child's best interest. Areas to consider include the parent's mental health, the quality of love and affection between parent and child, the nature of the parent–child relationship, and the long-term effects of different decisions on the child. Dr. Mahmoud made custody-related recommendations without observing Mrs. Hariri with her children or interviewing them.",
+    "w": [
+      "A single scale score does not answer the best-interest question.",
+      "The evaluation serves the court, not either attorney.",
+      "Speed is irrelevant to custody decisions."
+    ],
+    "k": "Custody: child's best interest — parent's mental health, love/affection, parent–child relationship, long-term effects.",
+    "h": "The child is the client of the question.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 2 Legal context: child custody"
+  },
+  {
+    "t": "Exam case: Dr. Mahmoud",
+    "d": 2,
+    "q": "The attorney complained that Dr. Mahmoud obtained nothing from the children's school or pediatrician. Which phase of the assessment model did he skip?",
+    "o": [
+      "Phase 2: clinical and collateral interviews and records",
+      "Phase 5: administering and scoring tests",
+      "Phase 4: selecting tests",
+      "Phase 8: writing recommendations"
+    ],
+    "e": "In Wright's hypothesis-testing model, Phase 2 collects data from clinical interviews and background information, through collateral interviews (parents, teachers) and review of records or previous reports. The course lists collateral information such as school records, medical records and interviews with parents or teachers, and stresses that the case history gives context that renders test scores meaningful. Dr. Mahmoud went straight from the referral to testing.",
+    "w": [
+      "He did administer and score tests, the same evening.",
+      "He selected his standard battery, however poorly.",
+      "He wrote recommendations, which were the problem."
+    ],
+    "k": "Phase 2 = clinical + collateral interviews and records (school, medical); history makes test scores meaningful.",
+    "h": "Collateral = 'side by side' sources that stand next to the client.",
+    "r": "PTS exam (Dr. Mahmoud case) + Psychological Tools & Strategies course – Ch. 1 Data collection; Phase 2"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 2,
+    "q": "Omar's WISC-V profile 'looked like' the learning-disability cases from Dr. Nader's recent workshop, so he assumed the same diagnosis. Which error does the exam name?",
+    "o": [
+      "Representativeness heuristic",
+      "Base-rate attention",
+      "Actuarial prediction",
+      "Disconfirmation strategy"
+    ],
+    "e": "The exam names this a representativeness heuristic error: Dr. Nader judged the case by its resemblance to vivid workshop examples, ignoring the context and history that made the diagnosis inappropriate. In course terms, he ignored base rates and failed to seek disconfirming evidence. Omar's sudden decline from excellent grades after trauma, displacement, crowded housing and 3–4 hours of sleep did not fit a learning disability that had 'finally become apparent'.",
+    "w": [
+      "He neglected base rates rather than attending to them.",
+      "Actuarial prediction uses formulas, not resemblance.",
+      "Seeking disconfirmation is the remedy he failed to use."
+    ],
+    "k": "Representativeness heuristic: diagnosing by resemblance to prototype cases while ignoring context, history and base rates.",
+    "h": "Looks like a duck, but check whether ducks live here.",
+    "r": "PTS final exam 2025–26, 1st session (Dr. Nader case)"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 3,
+    "q": "Why does a sudden drop in processing speed and working memory in a trauma-exposed adolescent not support a learning disability, according to the exam case?",
+    "o": [
+      "Trauma, anxiety and sleep loss commonly cause temporary drops in these indexes",
+      "Processing speed is never affected by emotional state",
+      "Working memory is unrelated to attention",
+      "Learning disabilities always appear suddenly in adolescence"
+    ],
+    "e": "The exam explains that Dr. Nader failed to consider the base rate of cognitive discrepancies in trauma-exposed adolescents: trauma, anxiety and sleep deprivation cause temporary but significant impairments in processing speed and working memory, which are not indicators of a learning disability when they appear suddenly in that context. Omar's previous academic records would have shown an honor student with no prior difficulties.",
+    "w": [
+      "Omar's trembling hands slowed his processing-speed work.",
+      "The course links working memory tasks to attention.",
+      "His decline was sudden, not developmental."
+    ],
+    "k": "Sudden PSI/WMI drops after trauma, anxiety or sleep loss are common and temporary; check history and base rates.",
+    "h": "Sudden storm, not bedrock.",
+    "r": "PTS final exam 2025–26, 1st session (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 1 Base rates"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 3,
+    "q": "Omar scored low on working memory. Using the course's WISC-V example, what can this low score establish about ADHD?",
+    "o": [
+      "Nothing on its own: a low WMI cannot rule ADHD in, since many factors lower it",
+      "It confirms ADHD, since only ADHD lowers working memory",
+      "It rules ADHD out, since ADHD raises working memory",
+      "It proves a learning disability rather than ADHD"
+    ],
+    "e": "In Phases 4–6 the course notes that a test score can often rule a hypothesis out but not rule it in. A high WMI may rule out inattentive ADHD, because a child with ADHD would find it very hard to excel on tasks requiring selective and sustained attention. A low WMI cannot rule ADHD in, because multiple factors affect performance; more testing is needed. For Omar, anxiety, trauma and 3–4 hours of sleep were such factors.",
+    "w": [
+      "Many factors lower working memory, not only ADHD.",
+      "A high score, not a low one, may rule ADHD out.",
+      "A single index cannot prove a learning disability."
+    ],
+    "k": "High WMI may rule out inattentive ADHD; low WMI cannot rule it in — consider other causes.",
+    "h": "High can exclude; low cannot convict.",
+    "r": "PTS final exam 2025–26 (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 1 Phases 4–6"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 2,
+    "q": "Dr. Nader read Omar's trembling hands, bathroom breaks and inconsistent attention as signs of a learning or attention disorder. Which bias is this?",
+    "o": [
+      "Confirmatory bias",
+      "Primacy of later information",
+      "Base-rate attention",
+      "Clinician feedback effect"
+    ],
+    "e": "The exam states that Dr. Nader showed confirmation bias by interpreting every piece of data as evidence of a learning or attention disorder rather than considering alternatives such as anxiety or trauma. The course defines confirmatory bias as making early judgments and then seeking supporting information, without adequately seeking information that could disconfirm the hypothesis. His initial assumption from the email (ADHD or learning difficulty) set the frame.",
+    "w": [
+      "The primacy effect favors early, not later, information.",
+      "He ignored base rates rather than attending to them.",
+      "Lack of feedback is a separate source of error."
+    ],
+    "k": "Confirmatory bias: every observation read as support for the initial hypothesis; alternatives (anxiety, trauma) ignored.",
+    "h": "When you hold a hammer, every symptom is a nail.",
+    "r": "PTS final exam 2025–26 (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 1 Confirmatory bias"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 3,
+    "q": "In a psychoeducational assessment, what does the course say the first phase must examine, which would have changed Omar's case?",
+    "o": [
+      "The nature and quality of the child's learning environment",
+      "The child's full-scale IQ before anything else",
+      "The child's personality using projective tests",
+      "The child's eligibility for grade retention"
+    ],
+    "e": "The course divides psychoeducational assessment into two phases. The first assesses the nature and quality of the learning environment: it must be demonstrated that a child is struggling despite appropriate instruction. The second is a comprehensive battery (intellectual, academic, adaptive, and screening for biomedical problems). Physical factors interfering with learning include extreme fatigue. Omar shared a room with four cousins, had no quiet study space and slept 3–4 hours.",
+    "w": [
+      "Intellectual testing belongs to the second phase.",
+      "Projective tests are not the first phase of this model.",
+      "Retention is a possible recommendation, not an assessment phase."
+    ],
+    "k": "Psychoeducational assessment: phase 1 = learning environment; phase 2 = intellectual, academic, adaptive, biomedical screening.",
+    "h": "Check the soil before blaming the seed.",
+    "r": "PTS final exam 2025–26 (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 2 Educational context"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 2,
+    "q": "Why does the course say a client's history can matter more than test scores, as Omar's case shows?",
+    "o": [
+      "History gives context that makes scores meaningful and often predicts better",
+      "Test scores are always invalid when the client is an adolescent",
+      "A good history removes the need for any formal testing",
+      "Test scores matter only when the setting is a legal one"
+    ],
+    "e": "The course states that tests are merely a single tool; the case history is of equal importance because it provides a context for understanding current problems and thereby renders test scores meaningful. In many cases history is even more significant than test scores for predictions and judging seriousness; for example, previous attempts weigh more than an MMPI-2 depression score for suicide risk. Omar's honor-roll record, trauma and displacement transformed the meaning of his profile.",
+    "w": [
+      "Tests remain valuable when interpreted in context.",
+      "History and tests are combined, not substituted.",
+      "Context matters in every setting, not only legal ones."
+    ],
+    "k": "History contextualizes scores and often predicts better (e.g. prior suicide attempts > MMPI-2 depression score).",
+    "h": "Scores are words; history is the sentence.",
+    "r": "PTS final exam 2025–26 (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 1 Data collection"
+  },
+  {
+    "t": "Exam case: Dr. Nader",
+    "d": 3,
+    "q": "Dr. Nader's report listed findings test by test and recommended grade retention and reduced load. What do Phases 7 and 8 require instead?",
+    "o": [
+      "A dynamic model of how factors interact, then clear, specific, reasonable recommendations",
+      "A test-by-test list so the school can connect the dots",
+      "Broad advice such as 'therapy', leaving details to others",
+      "The most intensive intervention available, whatever the context"
+    ],
+    "e": "Phase 7 asks the clinician to create a dynamic understanding of how factors interact, rather than an acontextual list of strengths and weaknesses or test-by-test data that forces the audience to connect the dots. Phase 8 links results to clear, specific and reasonable recommendations likely to improve the client's life, considering both empirical support and fit with the client's context. For Omar, the dynamic model would have centered on trauma, displacement and sleep loss.",
+    "w": [
+      "Test-by-test reporting is what Phase 7 warns against.",
+      "Vague recommendations such as 'therapy' are explicitly rejected.",
+      "Recommendations must be reasonable and available to the client."
+    ],
+    "k": "Phase 7: integrate into a dynamic model; Phase 8: clear, specific, reasonable recommendations fitted to the context.",
+    "h": "Weave the story, then write the prescription.",
+    "r": "PTS final exam 2025–26 (Dr. Nader case) + Psychological Tools & Strategies course – Ch. 1 Phases 7 and 8"
+  },
+  {
+    "t": "Exam case: Lily",
+    "d": 2,
+    "q": "Lily described her mood as 'on edge' and 'emotionally numb', with a constricted affect. In MSE terms, what is the difference between these two?",
+    "o": [
+      "Mood is the dominant emotion she reports; affect is the range of emotion she outwardly shows",
+      "Mood is observed by the clinician; affect is only reported by the client",
+      "Mood and affect are synonyms in the mental status examination",
+      "Affect refers to thought content; mood refers to orientation"
+    ],
+    "e": "The course defines mood as the dominant emotion reported during the interview and affect as the client's outwardly projected range of emotions, inferred from speech content, facial expressions and body movements. Affect is judged by depth, intensity, duration and appropriateness, and the examiner notes congruence between mood and affect. Lily's 'on edge' and 'emotionally numb' are her reported mood; her constricted affect is what the examiner observed.",
+    "w": [
+      "This reverses the definitions: mood is reported, affect observed.",
+      "The MSE treats them as distinct domains.",
+      "Neither term refers to thought content or orientation."
+    ],
+    "k": "Mood = reported dominant emotion; affect = observed range of expression (depth, intensity, duration, appropriateness).",
+    "h": "Mood is the climate she reports; affect is the weather you see.",
+    "r": "PTS final exam 2024–25 (Lily case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: affect and mood"
+  },
+  {
+    "t": "Exam case: Lily",
+    "d": 3,
+    "q": "Lily's thinking was 'logical and coherent' yet 'pervaded by recurrent intrusive memories and a sense of impending danger'. How are these classified in the MSE?",
+    "o": [
+      "Logical and coherent = thought process; intrusive memories and danger = thought content",
+      "Logical and coherent = thought content; intrusive memories = thought process",
+      "Both belong to orientation",
+      "Both belong to insight and judgment"
+    ],
+    "e": "The course divides thinking into thought process and thought content. Process concerns how thoughts are organized (goal-directed, logical, tangential, circumstantial, flight of ideas, loose); content concerns what the thoughts are about, such as delusions, depressive ideation, obsessions, suicidality or homicidality. Lily's organization was intact (logical, coherent process), while the themes occupying her mind, intrusive memories and impending danger, are content.",
+    "w": [
+      "This reverses the definitions of process and content.",
+      "Orientation concerns person, place and time.",
+      "Insight concerns understanding of her own difficulties."
+    ],
+    "k": "Thought process = how thoughts flow (logical, tangential…); thought content = what they're about (intrusions, delusions…).",
+    "h": "Process is the road; content is the cargo.",
+    "r": "PTS final exam 2024–25 (Lily case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: thought"
+  },
+  {
+    "t": "Exam case: Lily",
+    "d": 2,
+    "q": "In the course's MSE format (Figure 3.1), under which domain does 'hypervigilant', as seen in Lily, appear?",
+    "o": [
+      "Alertness/Orientation",
+      "Thought content",
+      "Judgment/Planning",
+      "Speech/Language"
+    ],
+    "e": "Figure 3.1 lists, under Alertness/Orientation, the options alert, lethargic, disoriented, oriented and hypervigilant. Lily was alert and oriented, but her concentration was impaired by hypervigilance and constant anxiety, which also belongs under attention/concentration. Thought content in the figure covers hallucinations, delusions, depressive ideation, suicidality, aggressiveness and homicidality.",
+    "w": [
+      "Thought content lists hallucinations, delusions and suicidality.",
+      "Judgment/Planning covers judgment and impulse control.",
+      "Speech/Language covers receptive and expressive features."
+    ],
+    "k": "Figure 3.1: Alertness/Orientation = alert, lethargic, disoriented, oriented, hypervigilant.",
+    "h": "Vigil = staying awake on watch: an alertness word.",
+    "r": "PTS final exam 2024–25 (Lily case) + Psychological Tools & Strategies course – Ch. 3 Figure 3.1"
+  },
+  {
+    "t": "Exam case: Lily",
+    "d": 2,
+    "q": "Which element of Lily's vignette belongs to her history rather than to the mental status examination?",
+    "o": [
+      "Her older sister has been diagnosed with generalized anxiety disorder",
+      "She was neatly dressed but visibly tense and fatigued",
+      "She wrung her hands and shifted frequently in her seat",
+      "Her thought process was logical and coherent"
+    ],
+    "e": "The mental status examination reviews the major systems of current psychiatric functioning observed during the evaluation: appearance, behavior and relatedness, speech, affect and mood, perception and thinking, orientation, memory and attention, insight and judgment. Family history, such as her sister's generalized anxiety disorder, is background history. Course Figure 3.1 is titled a format for mental status and history, keeping the two distinct.",
+    "w": [
+      "Grooming and tension are appearance and behavior in the MSE.",
+      "Hand-wringing and restlessness are motor behavior in the MSE.",
+      "Logical, coherent thinking is thought process in the MSE."
+    ],
+    "k": "MSE = current observed functioning; family history and background belong to the history.",
+    "h": "MSE is a photograph of now; history is the family album.",
+    "r": "PTS final exam 2024–25 (Lily case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation"
+  },
+  {
+    "t": "Exam case: Emma",
+    "d": 2,
+    "q": "Emma was well groomed but slightly fatigued, kept eye contact but looked down on personal topics, and was cooperative though mildly restless. Which MSE domain do these observations belong to?",
+    "o": [
+      "General appearance, behavior and relatedness",
+      "Thought content and thought process",
+      "Insight and judgment",
+      "Sensorium and level of consciousness"
+    ],
+    "e": "The course's first MSE domain, general appearance, behavior and relatedness, covers clothing, posture, gestures, personal care and hygiene, facial expressions, eye contact, activity level, degree of cooperation and attentiveness, as well as how the client relates to the evaluator (cooperative, hostile, guarded, friendly). Emma's grooming, fatigue, eye contact, cooperation and restlessness all belong here.",
+    "w": [
+      "Thought content and process concern what and how she thinks.",
+      "Insight concerns understanding of her difficulties.",
+      "Sensorium concerns sensory processes and consciousness."
+    ],
+    "k": "Appearance/behavior/relatedness: grooming, posture, eye contact, activity level, cooperation, relation to the evaluator.",
+    "h": "What you see before she says a word.",
+    "r": "PTS final exam 2024–25 (Emma case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: appearance, behavior, relatedness"
+  },
+  {
+    "t": "Exam case: Emma",
+    "d": 2,
+    "q": "Emma's ideas were 'logical and coherent but dominated by themes of self-doubt, inadequacy and fear of rejection'. Which part is thought content?",
+    "o": [
+      "The themes of self-doubt, inadequacy and fear of rejection",
+      "The logical and coherent organization of her ideas",
+      "Her quiet, slow speech with pauses",
+      "Her mild restlessness in the chair"
+    ],
+    "e": "Thought content concerns what the client thinks about, while thought process concerns how thoughts are organized. Emma's logical, coherent organization is an intact process; the dominant themes of self-doubt, inadequacy and fear of rejection are content, consistent with depressive ideation listed under thought content in Figure 3.1. Her slow, quiet speech belongs to speech and language, and her restlessness to behavior.",
+    "w": [
+      "Logical organization of ideas describes thought process.",
+      "Speech features belong to the speech and language domain.",
+      "Restlessness belongs to behavior and motor activity."
+    ],
+    "k": "Emma: process logical/coherent; content = self-doubt, inadequacy, fear of rejection (depressive ideation).",
+    "h": "Road fine, cargo heavy.",
+    "r": "PTS final exam 2024–25 (Emma case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: thought"
+  },
+  {
+    "t": "Exam case: Emma",
+    "d": 2,
+    "q": "Emma's affect was 'constricted but appropriate to the context of the conversation'. Which affect dimensions from the course does this describe?",
+    "o": [
+      "Range and appropriateness",
+      "Orientation and sensorium",
+      "Receptive and expressive language",
+      "Long-term and short-term memory"
+    ],
+    "e": "The course says affect can be judged by its depth, intensity, duration and appropriateness, and Figure 3.1 offers options such as expressive, good range, constricted, flat, labile and inappropriate to situation. 'Constricted' describes a narrow range of expression; 'appropriate to the context' describes congruence with what is being discussed. The examiner should also note congruence between mood ('empty', 'hopeless') and affect.",
+    "w": [
+      "Orientation and sensorium concern awareness and senses.",
+      "Receptive and expressive refer to language.",
+      "Memory types are a separate MSE domain."
+    ],
+    "k": "Affect: range (constricted, flat, good range), appropriateness to context, congruence with mood.",
+    "h": "How wide, and does it fit?",
+    "r": "PTS final exam 2024–25 (Emma case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: affect"
+  },
+  {
+    "t": "Exam case: Emma",
+    "d": 2,
+    "q": "Emma 'acknowledges her distress and recognizes it affects her daily life but has difficulty identifying coping strategies'. Which MSE domain does this describe?",
+    "o": [
+      "Insight and judgment",
+      "Thought process",
+      "Alertness and orientation",
+      "Perception"
+    ],
+    "e": "The course describes insight and judgment as the client's ability to interpret the meaning and impact of his or her behavior, to provide for oneself, evaluate risks and make plans. Clients are asked why they think they were referred, how they relate their history to current difficulties, where they place the blame, and how effectively they can solve problems. Emma recognizes her distress and its impact (moderate insight) but struggles to find solutions.",
+    "w": [
+      "Thought process concerns organization of ideas.",
+      "Orientation concerns person, place and time.",
+      "Perception concerns illusions and hallucinations, not self-understanding."
+    ],
+    "k": "Insight/judgment: understanding one's difficulties, their impact and causes, and the capacity to solve problems and plan.",
+    "h": "In-sight: seeing inside one's own situation.",
+    "r": "PTS final exam 2024–25 (Emma case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: insight and judgment"
+  },
+  {
+    "t": "Exam case: Emma",
+    "d": 3,
+    "q": "Emma reports difficulty memorizing and concentrating due to persistent worry. Which bedside task does the course say anxious, preoccupied clients find especially difficult?",
+    "o": [
+      "Serial sevens and repeating digits, especially backward",
+      "Naming major cities of a country",
+      "Recalling the year they graduated",
+      "Interpreting their own reason for referral"
+    ],
+    "e": "The course groups memory, attention and concentration because acquisition and retrieval require attention. Short-term memory is tested by recall of recent events or repeating digits forward and backward; serial sevens assess how distractible or focused the client is. Persons who are anxious and preoccupied have a difficult time with serial sevens and with repeating digits forward and especially backward. Long-term memory is tested with general information and major life events.",
+    "w": [
+      "General information questions test long-term memory.",
+      "Recall of major life events tests long-term memory.",
+      "Reasons for referral belong to insight."
+    ],
+    "k": "Anxious, preoccupied clients struggle with serial sevens and digit span (especially backward).",
+    "h": "Worry eats working memory: backward digits fall first.",
+    "r": "PTS final exam 2024–25 (Emma case) + Psychological Tools & Strategies course – Ch. 3 Mental status evaluation: memory, attention, concentration"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "t": "Ch11 Logic of t",
+    "d": 2,
+    "q": "Conceptually, the t statistic for comparing two means is:",
+    "o": [
+      "The difference between the means divided by the standard error of that difference",
+      "The standard error of the difference divided by the difference between the means",
+      "The sum of the two group means divided by their pooled standard deviation",
+      "The variance between the groups divided by the variance within the groups"
+    ],
+    "e": "t = (observed difference − difference expected under H0) / SE of the difference. Under H0 the expected difference is 0, so t is the difference in SE units: signal over noise. The between/within variance ratio is F, and with two groups F = t².",
+    "w": [
+      "This inverts the ratio: noise over signal would shrink as the effect grows.",
+      "Adding the means and dividing by the SD doesn't measure a difference at all.",
+      "Between-group variance over within-group variance is the F-ratio; with two groups F = t²."
+    ],
+    "k": "t = mean difference ÷ SE of the difference (signal over noise).",
+    "h": "How many SEs apart are the means?",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · The t statistic"
+  },
+  {
+    "t": "Ch11 Independent t-test",
+    "d": 3,
+    "q": "Two independent groups of 12 have means of 15 and 12, with SDs of 4 and 3. Using the pooled variance, what is t?",
+    "o": [
+      "t(22) ≈ 2.08",
+      "t(22) ≈ 0.85",
+      "t(11) ≈ 2.94",
+      "t(24) ≈ 4.16"
+    ],
+    "e": "Pooled variance = [(11 × 16) + (11 × 9)] / 22 = 12.5. SE of the difference = √[12.5 × (1/12 + 1/12)] = 1.443. t = 3 / 1.443 = 2.08 with df = n1 + n2 − 2 = 22, so p ≈ .0495, just under .05.",
+    "w": [
+      "0.85 is Cohen's d (difference ÷ pooled SD), not t.",
+      "df for two independent groups is n₁ + n₂ − 2 = 22, not n − 1 = 11.",
+      "df of 24 forgets to subtract 2, and 4.16 doubles the correct t."
+    ],
+    "k": "Independent t: pooled variance → SE of difference → t with df = n₁ + n₂ − 2.",
+    "h": "Pool, root, divide.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Computing the independent t"
+  },
+  {
+    "t": "Ch11 Effect sizes",
+    "d": 2,
+    "q": "For the same groups (means 15 vs 12, pooled SD ≈ 3.54), what is Cohen's d?",
+    "o": [
+      "About 0.85",
+      "About 2.08",
+      "About 0.41",
+      "About 3.00"
+    ],
+    "e": "d = difference / pooled SD = 3 / 3.54 = 0.85, a large effect by Cohen's benchmarks, even though p was barely below .05 with only 12 per group. Small samples give imprecise effect sizes, so report a CI around d.",
+    "w": [
+      "2.08 is the t statistic, which depends on sample size.",
+      "0.41 is the effect size r, not d.",
+      "3.00 is the raw mean difference, not standardized."
+    ],
+    "k": "Cohen's d = mean difference ÷ pooled SD, independent of sample size.",
+    "h": "Difference in SD units.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Cohen's d"
+  },
+  {
+    "t": "Ch11 Effect sizes",
+    "d": 2,
+    "q": "An independent t-test gives t(22) = 2.08. What is the effect size r?",
+    "o": [
+      "About .41",
+      "About .09",
+      "About .17",
+      "About .85"
+    ],
+    "e": "r = √[t² / (t² + df)] = √[4.32 / (4.32 + 22)] = √.164 = .41, a medium-to-large effect. This converts t into the correlation between group membership and the outcome.",
+    "w": [
+      ".09 divides t by df instead of using the formula.",
+      ".17 is close to r² (.16); the square root was forgotten.",
+      ".85 is Cohen's d for these data, not r."
+    ],
+    "k": "Effect size r from t: r = √[t² ÷ (t² + df)].",
+    "h": "t squared over t squared plus df, then root.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Effect size r from t"
+  },
+  {
+    "t": "Ch11 Welch's t",
+    "d": 3,
+    "q": "For the same data with equal n, Welch's t-test gives t ≈ 2.08 but df ≈ 20.4 and p ≈ .0505. Why does the p-value change while t does not?",
+    "o": [
+      "With equal n, Welch's SE equals the pooled SE, but its corrected df are lower",
+      "Welch's test always gives the same p-value, so SPSS has rounded it differently",
+      "Welch's test uses the larger group's variance only, which changes t",
+      "The pooled test assumes normality while Welch's does not, which changes p"
+    ],
+    "e": "When n1 = n2, the separate-variance and pooled SEs are identical, so t is the same. Welch–Satterthwaite reduces the df to reflect the unequal variances, giving heavier-tailed t distributions and a larger p. This example also shows why treating .0495 and .0505 differently would be absurd.",
+    "w": [
+      "Welch's test can give a different p because its df differ.",
+      "Welch's test uses both groups' separate variances.",
+      "Neither test drops the normality assumption; the df correction changes p."
+    ],
+    "k": "With equal n, Welch's t equals the pooled t, but lower df give a larger p.",
+    "h": "Same t, fewer df.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Welch's correction"
+  },
+  {
+    "t": "Ch11 Welch's t",
+    "d": 2,
+    "q": "SPSS's Independent Samples Test table shows two rows. When should you use the 'Equal variances not assumed' row?",
+    "o": [
+      "By default, since Welch's test performs well whether or not variances differ",
+      "Only when Levene's test is non-significant and sample sizes are equal",
+      "Never, because that row is only provided for compatibility with older versions of SPSS",
+      "Only when the two groups have exactly the same number of participants"
+    ],
+    "e": "The second row is Welch's t, with adjusted df. Because it loses very little power when variances are equal and protects you when they are not, current advice (endorsed by Field) is to use it routinely rather than letting Levene's test decide.",
+    "w": [
+      "Letting Levene's test decide distorts error rates.",
+      "The Welch row is a current, recommended test, not a legacy feature.",
+      "Equal group sizes don't determine which row to use."
+    ],
+    "k": "Use the 'Equal variances not assumed' (Welch) row by default.",
+    "h": "Second row, safe row.",
+    "r": "Stats & SPSS ch. 11 · SPSS · Reading the t-test table"
+  },
+  {
+    "t": "Ch11 Independent t-test",
+    "d": 1,
+    "q": "Group sizes are 20 and 25. What are the degrees of freedom for a standard independent t-test?",
+    "o": [
+      "43",
+      "45",
+      "44",
+      "24"
+    ],
+    "e": "df = n1 + n2 − 2 = 20 + 25 − 2 = 43. Two df are used because two group means are estimated. Welch's version would give a non-integer df that is usually smaller.",
+    "w": [
+      "45 is n₁ + n₂, forgetting the two estimated means.",
+      "44 subtracts only one df instead of two.",
+      "24 uses only the larger group's n − 1."
+    ],
+    "k": "Independent t df = n₁ + n₂ − 2.",
+    "h": "Two means, two df gone.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Degrees of freedom"
+  },
+  {
+    "t": "Ch11 Paired t-test",
+    "d": 2,
+    "q": "Sixteen people are tested twice. The mean difference is 2.5 and the SD of the differences is 4. What is t?",
+    "o": [
+      "t(15) = 2.50",
+      "t(16) = 0.63",
+      "t(15) = 10.0",
+      "t(30) = 2.50"
+    ],
+    "e": "SE of the mean difference = s_D / √n = 4 / √16 = 1, and t = D̄ / SE = 2.5 / 1 = 2.5 with df = n − 1 = 15 (p ≈ .025). The paired test works on the difference scores, which removes stable individual differences.",
+    "w": [
+      "0.63 divides by the SD instead of the SE, and df is n − 1, not n.",
+      "10.0 multiplies the mean difference by the SD instead of dividing by the SE.",
+      "df of 30 treats the scores as two independent groups; paired df = n − 1."
+    ],
+    "k": "Paired t = mean difference ÷ (s_D/√n), df = n − 1.",
+    "h": "One difference per person, one sample t.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · The paired t-test"
+  },
+  {
+    "t": "Ch11 Paired t-test",
+    "d": 3,
+    "q": "Why is a paired t-test usually more powerful than an independent t-test on the same number of scores?",
+    "o": [
+      "Differencing removes between-person variability, shrinking the SE when scores correlate",
+      "The paired test has more degrees of freedom, because each person contributes two scores to it",
+      "The paired test assumes equal variances, which reduces the standard error of the difference",
+      "The paired test compares medians, which are much less affected by outliers than means"
+    ],
+    "e": "Var(D) = var1 + var2 − 2·cov. When the two measurements correlate positively, the variance of the differences, and hence the SE, is much smaller than the independent-groups SE. The paired test actually has fewer df (n − 1 rather than 2n − 2).",
+    "w": [
+      "Paired tests have fewer df, not more.",
+      "Equal variances aren't the source of the paired test's power.",
+      "Paired t-tests compare means, not medians."
+    ],
+    "k": "Paired tests remove between-person variance, shrinking the SE when conditions correlate.",
+    "h": "Same person, less noise.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Power of repeated measures"
+  },
+  {
+    "t": "Ch11 Assumptions",
+    "d": 2,
+    "q": "For a paired t-test, which distribution should be approximately normal?",
+    "o": [
+      "The sampling distribution of the difference scores",
+      "The raw scores in each condition, considered separately",
+      "The raw scores pooled together across both conditions",
+      "The participants' average scores across conditions"
+    ],
+    "e": "The paired test is a one-sample t-test on the differences, so the assumption concerns their sampling distribution (in practice, check the differences in small samples). Each condition could be skewed while the differences are fine, or the reverse.",
+    "w": [
+      "Each condition's raw scores can be skewed if the differences aren't.",
+      "Pooled raw scores aren't what the test analyses.",
+      "Participants' averages aren't analysed by a paired test."
+    ],
+    "k": "Paired t assumes normality of the differences' sampling distribution.",
+    "h": "Check the differences.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Paired t assumptions"
+  },
+  {
+    "t": "Ch11 Effect sizes",
+    "d": 3,
+    "q": "For a repeated-measures comparison, why does Field prefer computing d from the conditions' original SDs rather than the SD of the differences?",
+    "o": [
+      "d from the differences shifts with the correlation between conditions, so it is not comparable with between-groups d",
+      "d based on the difference scores cannot be computed when any participant shows a difference of exactly zero",
+      "The original SDs are always smaller than the SD of the differences, which makes effects easier to detect",
+      "SPSS does not report the SD of the difference scores anywhere in the paired-samples output"
+    ],
+    "e": "The SD of the differences shrinks as the measures correlate more, so d_z can be much larger than a between-groups d for the same mean difference. Using the pooled SD of the conditions keeps effect sizes on the same footing across designs.",
+    "w": [
+      "d from differences can be computed even when some differences are zero.",
+      "Original SDs aren't always smaller than the SD of differences.",
+      "SPSS does report the SD of the paired differences."
+    ],
+    "k": "Use the conditions' SDs for repeated-measures d so it's comparable with between-groups d.",
+    "h": "Same yardstick across designs.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · d for repeated measures"
+  },
+  {
+    "t": "Ch11 Linear model",
+    "d": 3,
+    "q": "An independent t-test is equivalent to which linear model?",
+    "o": [
+      "A regression with a single 0/1 dummy predictor, where b1 is the difference in means",
+      "A regression with two predictors, one for each group, and no intercept term in the model",
+      "A regression of the group code on the outcome, where b0 is the difference",
+      "A correlation between the two groups' outcome scores, paired at random"
+    ],
+    "e": "With group coded 0/1, b0 is the mean of group 0, b1 is the mean difference, and the t-test of b1 is the independent t-test with pooled variance. Seeing tests as linear models unifies t, ANOVA and regression.",
+    "w": [
+      "Two group predictors without an intercept isn't the standard equivalence.",
+      "Regressing the group code on the outcome reverses the model.",
+      "Pairing scores at random isn't a valid analysis."
+    ],
+    "k": "Independent t = regression with a 0/1 dummy; b1 = mean difference.",
+    "h": "t is a linear model in disguise.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · The t-test as a linear model"
+  },
+  {
+    "t": "Ch11 SPSS",
+    "d": 2,
+    "q": "In SPSS's Independent-Samples T Test dialog, what must you specify after selecting the grouping variable?",
+    "o": [
+      "The codes of the two groups, using 'Define Groups'",
+      "The value labels of the outcome, using 'Values'",
+      "The number of bootstrap samples, using 'Options'",
+      "The pairing of each case, using 'Paired Variables'"
+    ],
+    "e": "Define Groups tells SPSS which two codes to compare (for example 1 and 2), or a cut point for splitting a continuous variable. This lets you compare any two groups of a multi-group variable. Paired variables belong to the Paired-Samples T Test.",
+    "w": [
+      "Value labels aren't set in the t-test dialog.",
+      "Bootstrapping is optional and set with its own button, not required here.",
+      "Paired variables belong to the paired t-test."
+    ],
+    "k": "Independent t-test in SPSS: Define Groups to name the two codes.",
+    "h": "Define who's who.",
+    "r": "Stats & SPSS ch. 11 · SPSS · Independent-samples t-test"
+  },
+  {
+    "t": "Ch11 SPSS",
+    "d": 2,
+    "q": "The SPSS Paired Samples Correlations table shows r = .78 between the two conditions. Why is this useful?",
+    "o": [
+      "A strong correlation explains why the paired test has far more power than an independent test",
+      "It is the effect size you should report for the difference between the two condition means in APA style",
+      "It tests whether the means of the two conditions differ significantly from each other",
+      "It shows whether the homogeneity of variance assumption has been met for the two conditions"
+    ],
+    "e": "The correlation shows how consistent individuals are across conditions. The higher it is, the more between-person noise the paired design removes. It is not the effect size for the mean difference, and it is not a test of the difference.",
+    "w": [
+      "The correlation isn't the effect size for the mean difference.",
+      "The correlation doesn't test the mean difference.",
+      "It doesn't test homogeneity of variance."
+    ],
+    "k": "High correlation between conditions explains the paired test's extra power.",
+    "h": "Consistent people, cleaner comparison.",
+    "r": "Stats & SPSS ch. 11 · SPSS · Paired-samples output"
+  },
+  {
+    "t": "Ch11 One-sample t-test",
+    "d": 2,
+    "q": "A one-sample t-test compares:",
+    "o": [
+      "A sample mean with a fixed test value, such as a published norm",
+      "Two sample means from separate, independent groups of participants",
+      "Two conditions that were completed by the same participants",
+      "The variances of two groups, using Levene's test for equality"
+    ],
+    "e": "t = (x̄ − test value) / (s / √n) with df = n − 1, for example whether a clinic's mean IQ differs from 100. In SPSS: Analyze → Compare Means → One-Sample T Test, entering the test value.",
+    "w": [
+      "Two independent means use an independent t-test.",
+      "Two related conditions use a paired t-test.",
+      "Equality of variances is Levene's test."
+    ],
+    "k": "One-sample t compares a sample mean with a fixed value.",
+    "h": "One sample against one benchmark.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · One-sample t-test"
+  },
+  {
+    "t": "Ch11 Reporting",
+    "d": 2,
+    "q": "Which is a complete APA-style report of an independent t-test?",
+    "o": [
+      "t(22) = 2.08, p = .050, d = 0.85, 95% CI [0.01, 5.99]",
+      "t = 2.08, which was significant, so H1 is supported",
+      "p < .05, with group means of 15 and 12 (n = 12 each)",
+      "t(24) = 2.08, p < .05, r² = .85, 95% CI [0.01, 5.99]"
+    ],
+    "e": "Report the test statistic with its df, the exact p, an effect size, the CI for the mean difference, and descriptive statistics (M and SD) for each group. Here the exact p of .0495 rounds to .050, while the CI for the mean difference only just excludes zero. A report of t(24) with r² = .85 gets the df wrong (n₁ + n₂ − 2 = 22) and mislabels Cohen's d as r².",
+    "w": [
+      "This omits df, the exact p, effect size and CI.",
+      "This omits the test statistic, df, effect size and CI.",
+      "t(24) uses the wrong df, and .85 is d, not r²."
+    ],
+    "k": "APA t-test report: t(df), exact p, effect size, CI and group descriptives.",
+    "h": "Statistic, df, p, effect, interval.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Reporting"
+  },
+  {
+    "t": "Ch11 Design",
+    "d": 3,
+    "q": "A researcher averages each participant's two scores and then runs an independent t-test comparing those averages between conditions. What is the main problem?",
+    "o": [
+      "Averaging erases the within-person condition effect, which the paired test is built to detect",
+      "Averaging doubles the effective sample size, which inflates the degrees of freedom",
+      "Averaging makes the data non-normal, which invalidates every kind of t-test",
+      "Averaging is correct, because it removes the individual differences from the error term"
+    ],
+    "e": "If every participant did both conditions, averaging their two scores destroys the information about the difference between conditions. The correct analysis is a paired t-test on the differences. Treating the conditions as independent groups would also violate independence and waste power.",
+    "w": [
+      "Averaging doesn't double the sample size.",
+      "Averaging doesn't necessarily make data non-normal.",
+      "Averaging destroys the condition effect rather than removing noise."
+    ],
+    "k": "Repeated-measures data need a paired test on the differences, not averages.",
+    "h": "Averaging erases the difference you wanted.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Choosing the right test"
+  },
+  {
+    "t": "Ch11 Robust methods",
+    "d": 2,
+    "q": "Which is a robust alternative to the standard independent t-test when data are skewed with outliers?",
+    "o": [
+      "A t-test on 20% trimmed means (Yuen's test) or a bootstrapped CI for the difference",
+      "A paired t-test, because pairing the scores removes the influence of any outliers present",
+      "A one-sample t-test comparing each group against the mean of the pooled data",
+      "Running the standard test twice, with and without outliers, and reporting the smaller p"
+    ],
+    "e": "Robust options include Yuen's test on trimmed means, bootstrapped confidence intervals (available in SPSS's t-test dialogs), and rank-based tests such as Mann–Whitney. A paired test is only appropriate when the data really are paired.",
+    "w": [
+      "Paired tests are only for genuinely paired data.",
+      "One-sample tests against the pooled mean aren't valid comparisons.",
+      "Choosing the smaller p is p-hacking."
+    ],
+    "k": "Robust two-group options: Yuen's trimmed-means test, bootstrapped CIs or Mann–Whitney.",
+    "h": "Trim, bootstrap or rank.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Robust comparisons"
+  },
+  {
+    "t": "Ch11 Logic of t",
+    "d": 2,
+    "q": "If the null hypothesis is true, the t statistic computed across many samples will:",
+    "o": [
+      "Vary around 0, following a t distribution with the appropriate df",
+      "Always equal exactly 0, regardless of the size of the sample",
+      "Follow a normal distribution centred on the true population effect size",
+      "Grow steadily larger as the sample size increases, even under H0"
+    ],
+    "e": "Under H0 the sample means differ only by sampling error, so t scatters around 0. Large |t| values are improbable, which is the basis of the p-value. When H0 is false, t tends to grow with n.",
+    "w": [
+      "Sampling error makes t vary; it isn't always 0.",
+      "Under H0, t centres on 0, not the effect size.",
+      "Under H0, t doesn't grow with n."
+    ],
+    "k": "Under H0, t varies around 0 following a t distribution.",
+    "h": "Under the null, t hovers at zero.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Sampling distribution of t"
+  },
+  {
+    "t": "Ch11 SPSS",
+    "d": 2,
+    "q": "Recent SPSS versions (27 and later) add which table to t-test output?",
+    "o": [
+      "An effect sizes table with Cohen's d and Hedges' correction, with CIs",
+      "A Bayes factor table for every comparison requested in the output",
+      "A table of the bootstrapped p-values for Levene's test of equal variances",
+      "A post hoc table comparing every pair of cases in the two groups"
+    ],
+    "e": "Since version 27, the t-test dialogs offer 'Estimate effect sizes', producing Cohen's d and Hedges' g (a small-sample correction), with confidence intervals. For paired tests you can choose which standardizer to use.",
+    "w": [
+      "Bayes factors come from separate Bayesian procedures.",
+      "Levene's test isn't bootstrapped in this table.",
+      "Case-by-case post hoc tables don't exist."
+    ],
+    "k": "SPSS 27+: 'Estimate effect sizes' gives Cohen's d and Hedges' g with CIs.",
+    "h": "d and g, ready-made.",
+    "r": "Stats & SPSS ch. 11 · SPSS · Effect sizes in t-test output"
+  },
+  {
+    "t": "Ch11 Assumptions",
+    "d": 3,
+    "q": "Why does unequal variance matter more for the standard t-test when group sizes are also unequal?",
+    "o": [
+      "Pooling then weights the variance toward the larger group, which can badly bias the SE",
+      "Unequal group sizes make the outcome non-normal, which then distorts the group variances",
+      "With unequal group sizes, the t distribution no longer applies to the test statistic",
+      "Unequal group sizes reduce the degrees of freedom to below the number of groups"
+    ],
+    "e": "The pooled variance is a weighted average dominated by the bigger group. If the larger group has the smaller variance, the SE is underestimated and Type I errors increase, and the reverse makes the test overly conservative. With equal n the standard test is fairly robust, which is another reason to default to Welch's.",
+    "w": [
+      "Unequal group sizes don't make the outcome non-normal.",
+      "The t distribution still applies, but the SE may be biased.",
+      "Unequal n doesn't reduce df below the number of groups."
+    ],
+    "k": "Unequal variances with unequal n bias the pooled SE; Welch's t avoids this.",
+    "h": "Big group dominates the pool.",
+    "r": "Stats & SPSS ch. 11 · Comparing two means · Variance, sample size and robustness"
+  }
+]

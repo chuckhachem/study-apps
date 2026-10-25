@@ -1,0 +1,562 @@
+[
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 1,
+    "q": "Twenty clients are randomly split into CBT and waitlist groups, and anxiety is measured once at the end. Which test compares the groups?",
+    "o": [
+      "An independent-samples t-test (Welch's version)",
+      "A paired-samples t-test on the two groups",
+      "A one-way repeated-measures ANOVA with Greenhouse–Geisser",
+      "A chi-square test of independence on the scores"
+    ],
+    "e": "Two independent groups and a continuous outcome call for an independent t-test, with Welch's correction by default. If the outcome were badly non-normal in a small sample, Mann–Whitney or a robust test would be an alternative.",
+    "w": [
+      "A paired t-test needs the same people measured twice, not two separate groups.",
+      "Repeated-measures ANOVA needs the same people in every condition.",
+      "Chi-square is for categorical outcomes, not continuous anxiety scores."
+    ],
+    "k": "Two independent groups, continuous outcome → independent t-test (Welch).",
+    "h": "Two separate groups, one measurement: independent t.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 1,
+    "q": "The same 25 clients rate their mood before and after one session. Which test is appropriate?",
+    "o": [
+      "A paired-samples t-test",
+      "An independent-samples t-test",
+      "A chi-square goodness-of-fit test",
+      "A one-way independent ANOVA"
+    ],
+    "e": "Two conditions with the same people give related scores, so use a paired t-test on the differences, or the Wilcoxon signed-rank test if the differences are badly non-normal in a small sample.",
+    "w": [
+      "An independent t-test ignores that the same people gave both scores.",
+      "Goodness of fit compares one categorical variable with expected frequencies.",
+      "A one-way independent ANOVA treats the two ratings as different people."
+    ],
+    "k": "Same people, two conditions → paired t-test (or Wilcoxon).",
+    "h": "Same faces twice: paired t.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "Recovery (yes/no) is compared across three therapy types in different clients. Which analysis fits?",
+    "o": [
+      "A chi-square test of independence on the 3 × 2 table",
+      "A one-way ANOVA with recovery (0/1) as the outcome variable",
+      "A Kruskal–Wallis test on the 0/1 recovery codes",
+      "A repeated-measures ANOVA across the three therapies"
+    ],
+    "e": "Both variables are categorical (therapy type and recovery), with each person in one cell, so Pearson's χ² applies, with Fisher's exact test if expected counts are small. Logistic regression with therapy as a categorical predictor answers the same question and allows covariates.",
+    "w": [
+      "ANOVA on 0/1 codes treats a categorical outcome as continuous.",
+      "Kruskal–Wallis on 0/1 codes isn't the right test for counts.",
+      "Different clients per therapy rule out repeated measures."
+    ],
+    "k": "Two categorical variables, independent cases → χ² test of independence.",
+    "h": "Counts in a grid: chi-square.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "Does the number of therapy sessions, plus baseline severity, predict whether a client relapses within a year (yes/no)?",
+    "o": [
+      "Binary logistic regression",
+      "Multiple linear regression",
+      "A two-way factorial ANOVA",
+      "Pearson's correlation matrix"
+    ],
+    "e": "A binary outcome with continuous predictors calls for logistic regression, which models the log odds of relapse and gives odds ratios for each predictor.",
+    "w": [
+      "Linear regression isn't suited to a binary outcome.",
+      "Factorial ANOVA needs categorical predictors and a continuous outcome.",
+      "A correlation matrix doesn't model a binary outcome from predictors."
+    ],
+    "k": "Binary outcome, several predictors → binary logistic regression.",
+    "h": "Yes/no outcome: logistic.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "A researcher wants to know how well age, social support and stress together predict depression scores (continuous), and the unique contribution of each. Which analysis?",
+    "o": [
+      "Multiple linear regression",
+      "Exploratory factor analysis",
+      "MANOVA with three outcomes",
+      "Binary logistic regression"
+    ],
+    "e": "Several predictors and one continuous outcome make a multiple regression. Each b, or squared semi-partial correlation, shows a predictor's unique contribution with the others controlled, and R² shows the joint prediction.",
+    "w": [
+      "Factor analysis finds latent dimensions, not prediction.",
+      "MANOVA handles several outcomes, not several predictors of one outcome.",
+      "Logistic regression is for categorical outcomes."
+    ],
+    "k": "Several predictors, one continuous outcome → multiple regression.",
+    "h": "Many predictors, one score: multiple regression.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "Four independent groups receive different doses of a drug, and memory scores are skewed with outliers in small groups. Which analysis is most defensible?",
+    "o": [
+      "A Kruskal–Wallis test, or a robust ANOVA on trimmed means",
+      "A repeated-measures ANOVA with Greenhouse–Geisser correction",
+      "A chi-square test after splitting memory at its median",
+      "A paired t-test for each pair of adjacent dose groups"
+    ],
+    "e": "Several independent groups with problematic distributions and small n suit rank-based (Kruskal–Wallis, or Jonckheere–Terpstra for an ordered dose trend) or robust methods. Median splits throw away information, and paired tests are for related scores.",
+    "w": [
+      "Repeated-measures ANOVA is for the same people across conditions.",
+      "Splitting memory at its median throws away information and power.",
+      "Paired tests are for related scores, not independent groups."
+    ],
+    "k": "Several independent groups with messy data → Kruskal–Wallis or robust ANOVA.",
+    "h": "Many groups, messy data: rank or trim.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "The same participants complete a memory task under three noise conditions. Which parametric analysis compares the conditions?",
+    "o": [
+      "One-way repeated-measures ANOVA, checking sphericity",
+      "One-way independent ANOVA with Welch's F and Games–Howell",
+      "Independent t-tests on each pair of conditions with Bonferroni correction",
+      "Friedman's ANOVA, checking Levene's test first"
+    ],
+    "e": "Three or more conditions with the same people call for repeated-measures ANOVA, with Mauchly's test or ε and a correction as needed, or a multilevel model. Friedman is the non-parametric alternative, and Levene's test does not apply there.",
+    "w": [
+      "Independent ANOVA ignores that the same people did every condition.",
+      "Independent t-tests ignore the pairing and multiply tests.",
+      "Friedman is non-parametric, and Levene's test doesn't apply there."
+    ],
+    "k": "Same people, three or more conditions → repeated-measures ANOVA, checking sphericity.",
+    "h": "Same people, many conditions: RM ANOVA.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "Two therapy groups are compared on post-treatment anxiety, with pre-treatment anxiety measured at baseline to increase precision. Which analysis?",
+    "o": [
+      "ANCOVA with baseline anxiety as the covariate",
+      "Factorial ANOVA with baseline anxiety as a second factor",
+      "MANOVA with pre- and post-anxiety as two outcomes",
+      "Chi-square on improved versus not improved"
+    ],
+    "e": "A continuous baseline measure that predicts the outcome but is independent of randomized treatment is an ideal covariate. ANCOVA reduces error and adjusts the means, typically giving more power than analysing change scores.",
+    "w": [
+      "Baseline anxiety is continuous, so it isn't a factor.",
+      "MANOVA treats pre and post as two outcomes rather than adjusting.",
+      "Counting improved versus not improved throws away information."
+    ],
+    "k": "Continuous baseline predictor to increase precision → ANCOVA.",
+    "h": "Adjust for baseline: ANCOVA.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "Gender (male/female) and therapy type (CBT/IPT/medication) are both between-subjects factors, and the outcome is continuous. Which analysis?",
+    "o": [
+      "A 2 × 3 two-way independent ANOVA",
+      "A 2 × 3 mixed ANOVA",
+      "A one-way ANOVA with six groups only",
+      "A 2 × 3 repeated-measures ANOVA"
+    ],
+    "e": "Two crossed between-subjects factors call for factorial (two-way independent) ANOVA, testing both main effects and their interaction. A six-group one-way ANOVA would lose the separate main effects and interaction.",
+    "w": [
+      "A mixed ANOVA needs a within-subjects factor.",
+      "A six-group one-way ANOVA loses main effects and the interaction.",
+      "Repeated measures need the same people across conditions."
+    ],
+    "k": "Two crossed between-subjects factors → two-way independent ANOVA.",
+    "h": "Two factors crossed, different people: factorial ANOVA.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "A trial compares three treatments on depression, anxiety and quality of life, which are moderately correlated outcomes. Which analysis is designed for this?",
+    "o": [
+      "MANOVA, followed by discriminant function analysis",
+      "Three separate one-way ANOVAs without any correction",
+      "A factor analysis of the three outcome variables",
+      "A multiple regression predicting treatment from the outcomes"
+    ],
+    "e": "Several related continuous outcomes and a grouping factor fit MANOVA, which tests group differences on combinations of the outcomes while controlling familywise error. Discriminant function analysis then shows how the outcomes separate the groups.",
+    "w": [
+      "Uncorrected separate ANOVAs inflate familywise error.",
+      "Factor analysis doesn't compare treatment groups.",
+      "Predicting treatment from outcomes reverses the question."
+    ],
+    "k": "Several related outcomes, one grouping factor → MANOVA then DFA.",
+    "h": "Many outcomes together: MANOVA.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 2,
+    "q": "A new 30-item questionnaire was given to 400 people, and you want to know what underlying dimensions it measures. Which analysis comes first?",
+    "o": [
+      "Exploratory factor analysis, then reliability for each factor",
+      "Cronbach's alpha on all 30 items together, followed by a MANOVA",
+      "Multiple regression of each item on the total score",
+      "A chi-square test for each item's response distribution"
+    ],
+    "e": "EFA identifies clusters of items reflecting latent factors. Once subscales are identified, Cronbach's α is computed separately for each. An overall α on a multidimensional scale would mislead.",
+    "w": [
+      "Overall alpha on a multidimensional scale misleads.",
+      "Regressing items on the total doesn't find dimensions.",
+      "Item-by-item χ² tests don't reveal structure."
+    ],
+    "k": "Find dimensions with EFA first, then compute alpha per factor.",
+    "h": "Find the families, then test their loyalty.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "Patients' recovery scores are collected from 40 wards in 8 hospitals, and ward-level staffing is a predictor. Why is a multilevel model needed?",
+    "o": [
+      "Patients in the same ward are not independent, and staffing is a ward-level variable",
+      "The outcome is binary, which an ordinary regression cannot model without first transforming it",
+      "There are more predictors than participants in the dataset being analysed",
+      "Multilevel models are required whenever the sample size exceeds 500 cases"
+    ],
+    "e": "Nested data violate independence, and a ward-level predictor needs the ward to be modelled as a level. Ignoring the structure would underestimate SEs and misattribute variance. Random intercepts for wards (and possibly hospitals) handle this.",
+    "w": [
+      "The outcome is continuous recovery scores, not binary.",
+      "There aren't more predictors than participants.",
+      "Sample size alone doesn't require a multilevel model."
+    ],
+    "k": "Nested data with group-level predictors → multilevel model.",
+    "h": "Nested data, nested model.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "A researcher hypothesizes that mindfulness reduces anxiety by lowering rumination. Which analysis tests this hypothesis directly?",
+    "o": [
+      "A mediation model with a bootstrapped CI for the indirect effect through rumination",
+      "A moderation model with a mindfulness × rumination interaction term in the regression",
+      "A partial correlation between mindfulness and anxiety, controlling for age and for rumination",
+      "A two-way ANOVA with mindfulness and rumination (median-split) as the two factors"
+    ],
+    "e": "'By lowering rumination' describes a mechanism, so test mediation: X (mindfulness) → M (rumination) → Y (anxiety), estimating ab with a bootstrapped CI (PROCESS Model 4). A moderation model would ask whether mindfulness works differently at different rumination levels, which is a different question.",
+    "w": [
+      "A moderation model asks whether the effect depends on rumination.",
+      "Partial correlations don't test an indirect effect.",
+      "Median-split ANOVA discards information and tests a different question."
+    ],
+    "k": "'By' a mechanism → mediation with a bootstrapped indirect effect.",
+    "h": "'By' means mediation.",
+    "r": "Stats & SPSS synthesis · Mediation vs moderation"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "A researcher expects therapy to work better for clients with high social support than for those with low support. Which analysis tests this?",
+    "o": [
+      "A moderation model including a therapy × social support interaction",
+      "A mediation model with social support entered as the mediator",
+      "A paired t-test comparing social support before and after therapy",
+      "A chi-square test of therapy type by high versus low support level"
+    ],
+    "e": "'Works better for some people than others' is a moderation hypothesis. Include the interaction term, centre continuous variables, and probe it with simple slopes or Johnson–Neyman (PROCESS Model 1).",
+    "w": [
+      "Mediation tests a mechanism, not 'works better for whom'.",
+      "A paired t-test on support doesn't test a differential therapy effect.",
+      "Dichotomizing support and using χ² loses information."
+    ],
+    "k": "'Works better for some' → moderation with an interaction term.",
+    "h": "'For whom' means moderation.",
+    "r": "Stats & SPSS synthesis · Moderation"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "Patients are classified as anxious or not before and after an intervention. Which test fits?",
+    "o": [
+      "McNemar's test",
+      "Pearson's chi-square",
+      "Wilcoxon signed-rank test",
+      "Mann–Whitney U test"
+    ],
+    "e": "A binary outcome measured twice on the same people calls for McNemar's test, which focuses on the people who changed status. Pearson's χ² would wrongly treat the before and after classifications as independent.",
+    "w": [
+      "Pearson's χ² treats the before and after classifications as independent.",
+      "Wilcoxon is for ranked or continuous paired scores.",
+      "Mann–Whitney compares independent groups, not the same people twice."
+    ],
+    "k": "Binary outcome measured twice on the same people → McNemar's test.",
+    "h": "McNemar for the changers.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Linear model",
+    "d": 3,
+    "q": "Field's unifying idea across the techniques in this course is that:",
+    "o": [
+      "Most tests are versions of one linear model: outcome = model + error",
+      "Each statistical test rests on a completely different mathematical logic",
+      "Non-parametric tests are always preferable to parametric ones",
+      "Significance tests are unnecessary once effect sizes are reported"
+    ],
+    "e": "t-tests, ANOVA, ANCOVA, regression and even many non-parametric tests can be expressed as linear models that fit predictors to an outcome and compare explained with unexplained variance. Seeing this makes assumptions, effect sizes and output easier to understand across methods.",
+    "w": [
+      "Most tests share the same linear-model logic.",
+      "Non-parametric tests aren't always preferable; they can lose power.",
+      "Significance tests still have a role alongside effect sizes."
+    ],
+    "k": "Most tests are one linear model: outcome = model + error.",
+    "h": "Outcome = model + error, everywhere.",
+    "r": "Stats & SPSS synthesis · The general linear model"
+  },
+  {
+    "t": "Synthesis Linear model",
+    "d": 3,
+    "q": "Which statement about t, F and r is correct?",
+    "o": [
+      "For two groups, F = t², and t can be converted to the point-biserial r",
+      "F and t are unrelated, because they come from different distributions",
+      "r can only be computed when both variables are continuous",
+      "t-tests are a special case of chi-square tests for two groups"
+    ],
+    "e": "A two-group ANOVA gives F = t², and r = √[t² / (t² + df)] is the correlation between group membership (0/1) and the outcome. All are views of the same linear model.",
+    "w": [
+      "F and t are directly linked: F = t² for two groups.",
+      "r can use a dichotomous variable (point-biserial).",
+      "t-tests aren't a special case of chi-square."
+    ],
+    "k": "Two groups: F = t²; t converts to point-biserial r.",
+    "h": "t squared is F.",
+    "r": "Stats & SPSS synthesis · Links between statistics"
+  },
+  {
+    "t": "Synthesis Output",
+    "d": 2,
+    "q": "In an SPSS output table, 'Sig.' = .000. How should you report it?",
+    "o": [
+      "p < .001",
+      "p = .000",
+      "p = 0",
+      "p < .05 only"
+    ],
+    "e": "SPSS rounds to three decimals, so .000 means p < .0005. Probabilities are never exactly zero. Report p < .001 and give exact p-values when they are larger.",
+    "w": [
+      "p = .000 copies SPSS's rounding.",
+      "Writing p = 0 claims impossible certainty; p is never exactly zero.",
+      "Writing only p < .05 throws away precision."
+    ],
+    "k": "Report Sig. = .000 as p < .001.",
+    "h": "Three zeros means below one in a thousand.",
+    "r": "Stats & SPSS synthesis · Reporting p-values"
+  },
+  {
+    "t": "Synthesis Output",
+    "d": 3,
+    "q": "You see 'Greenhouse–Geisser' in a 'Tests of Within-Subjects Effects' table. What design and issue does this signal?",
+    "o": [
+      "A repeated-measures factor, with a correction for violating sphericity",
+      "An independent factor, with a correction for unequal group variances",
+      "A logistic regression model, with a correction for overdispersion",
+      "A factor analysis, with a correction for low communalities in the items"
+    ],
+    "e": "Greenhouse–Geisser (and Huynh–Feldt, lower-bound) corrections apply to within-subjects effects with three or more levels when sphericity is doubtful. They reduce the df by ε.",
+    "w": [
+      "Unequal group variances are handled by Welch, not Greenhouse–Geisser.",
+      "Logistic regression overdispersion isn't corrected with GG.",
+      "Factor analysis doesn't use Greenhouse–Geisser corrections at all."
+    ],
+    "k": "Greenhouse–Geisser corrects repeated-measures df when sphericity is doubtful.",
+    "h": "GG guards the sphere.",
+    "r": "Stats & SPSS synthesis · Reading output"
+  },
+  {
+    "t": "Synthesis Output",
+    "d": 3,
+    "q": "Which pairing of an SPSS output term with its meaning is correct?",
+    "o": [
+      "Exp(B): odds ratio in logistic regression",
+      "Pillai's trace: test of sphericity in repeated measures",
+      "Mauchly's W: test of multivariate normality",
+      "KMO: test of homogeneity of variance"
+    ],
+    "e": "Exp(B) is the odds ratio for a predictor. Pillai's trace is a multivariate test statistic in MANOVA (also shown in repeated-measures output). Mauchly's W tests sphericity. KMO measures sampling adequacy for factor analysis.",
+    "w": [
+      "Pillai's trace is a multivariate statistic, not a sphericity test.",
+      "Mauchly's W tests sphericity, not multivariate normality.",
+      "KMO measures sampling adequacy, not homogeneity of variance."
+    ],
+    "k": "Exp(B) = odds ratio; Mauchly = sphericity; KMO = sampling adequacy.",
+    "h": "Know the vocabulary of output.",
+    "r": "Stats & SPSS synthesis · SPSS vocabulary"
+  },
+  {
+    "t": "Synthesis Pitfalls",
+    "d": 2,
+    "q": "A study finds p = .07 for a treatment effect and concludes 'the treatment has no effect'. What is wrong?",
+    "o": [
+      "A non-significant result does not show the absence of an effect, especially with low power",
+      "p = .07 counts as significant when the test is two-tailed, so the conclusion is the wrong way round",
+      "The p-value shows that the effect is exactly 7% as large as the researchers expected",
+      "Nothing is wrong, since a p-value above .05 proves that the null hypothesis is true"
+    ],
+    "e": "Failing to reject H0 is not evidence for H0. Report the effect size and its CI, which may include meaningful effects. Use equivalence tests or Bayes factors if you want to argue that an effect is negligible.",
+    "w": [
+      "p = .07 isn't significant at .05, two-tailed or otherwise.",
+      "p isn't a percentage of the expected effect.",
+      "p > .05 doesn't prove the null."
+    ],
+    "k": "Non-significance isn't evidence of no effect; report effect size and CI.",
+    "h": "Not proven isn't disproven.",
+    "r": "Stats & SPSS synthesis · Common pitfalls"
+  },
+  {
+    "t": "Synthesis Pitfalls",
+    "d": 2,
+    "q": "A researcher runs 20 t-tests on different outcomes and reports the one with p = .03. What is the main problem?",
+    "o": [
+      "The familywise error rate is high, so this is plausibly a false positive",
+      "Twenty tests cannot be run in SPSS without first writing a syntax file",
+      "The t-test cannot detect differences when there are so many outcomes",
+      "The p-value should have been reported as p = .000 in the paper"
+    ],
+    "e": "With 20 independent tests at α = .05, the chance of at least one false positive is about 1 − .95²⁰ ≈ .64. Reporting only the 'hit' is selective reporting. Use MANOVA, corrections, or pre-registered primary outcomes, and report all tests.",
+    "w": [
+      "SPSS can run many tests without syntax.",
+      "t-tests can detect differences on each outcome.",
+      "The p-value shouldn't be reported as .000."
+    ],
+    "k": "Many tests, one hit reported = likely false positive.",
+    "h": "Twenty darts, one bullseye by luck.",
+    "r": "Stats & SPSS synthesis · Common pitfalls"
+  },
+  {
+    "t": "Synthesis Pitfalls",
+    "d": 3,
+    "q": "A scatterplot shows an inverted-U relationship between arousal and performance, but r = .02. What should the analyst do?",
+    "o": [
+      "Model the curvature, for example with a quadratic term in regression",
+      "Conclude there is no relationship at all, since r is so close to zero",
+      "Use Spearman's rho instead, since rank correlation detects any kind of relationship",
+      "Remove the middle third of the data and then recompute the correlation r"
+    ],
+    "e": "Pearson's r (and Spearman's rho) capture linear or monotonic trends, and an inverted U is neither. Adding arousal² to a regression models the curve. Always plot data before choosing statistics.",
+    "w": [
+      "A curved relationship is still a strong relationship.",
+      "Spearman detects monotonic trends, not an inverted U.",
+      "Removing the middle data distorts the relationship rather than modelling it."
+    ],
+    "k": "Model curved relationships with a quadratic (squared) term.",
+    "h": "Curves need squares.",
+    "r": "Stats & SPSS synthesis · Common pitfalls"
+  },
+  {
+    "t": "Synthesis Pitfalls",
+    "d": 2,
+    "q": "After filtering to analyse only women, a researcher forgets to switch off Data → Select Cases and runs the remaining analyses. What is the likely consequence?",
+    "o": [
+      "Every later analysis silently uses only the filtered cases",
+      "SPSS refuses to run any further analyses until the filter is removed",
+      "The filter is removed automatically when a new procedure is run",
+      "Only the descriptive statistics are affected by the filter"
+    ],
+    "e": "Filters and Split File stay active until turned off, and the status bar shows 'Filter On' or 'Split by'. Analyses can unknowingly be run on a subset. Check the N in every output table.",
+    "w": [
+      "SPSS keeps running analyses on the filtered data.",
+      "Filters stay on until switched off.",
+      "All analyses are affected, not just descriptives."
+    ],
+    "k": "Filters and Split File stay active; always check N.",
+    "h": "Check the N, every time.",
+    "r": "Stats & SPSS synthesis · SPSS pitfalls"
+  },
+  {
+    "t": "Synthesis Effect sizes",
+    "d": 2,
+    "q": "Which effect size goes most naturally with which analysis?",
+    "o": [
+      "Odds ratio with logistic regression; ω² or partial η² with ANOVA; d with a t-test",
+      "Cohen's d with chi-square; odds ratio with one-way ANOVA; R² with paired t-tests",
+      "Partial η² with chi-square; r with logistic regression; Cramér's V with one-way ANOVA",
+      "Cronbach's α with regression; KMO with t-tests; φ with MANOVA and with ANCOVA"
+    ],
+    "e": "Typical pairings: d or r for two-group comparisons, ω² or (partial) η² for ANOVA effects, R² and β for regression, φ, V or OR for contingency tables, and OR (Exp(B)) for logistic regression. α and KMO are not effect sizes.",
+    "w": [
+      "d doesn't fit chi-square, and ORs don't fit ANOVA.",
+      "Partial η² isn't for chi-square, and V isn't for ANOVA.",
+      "α and KMO aren't effect sizes."
+    ],
+    "k": "Match effect sizes: d for t, ω²/η² for ANOVA, OR for logistic.",
+    "h": "Each test has its own ruler.",
+    "r": "Stats & SPSS synthesis · Matching effect sizes"
+  },
+  {
+    "t": "Synthesis Reporting",
+    "d": 3,
+    "q": "Which practice best reflects the 'Sense' in Field's EMBERS?",
+    "o": [
+      "Interpreting results in context: effect size, precision and plausibility, not p alone",
+      "Always using α = .01 instead of .05, to be more sensible about Type I errors",
+      "Reporting only the significant findings, because those are the results that make the most sense to readers",
+      "Choosing the analysis that gives the clearest result after looking at the data"
+    ],
+    "e": "Sense means thinking: is the effect big enough to matter, how precise is the estimate, is it consistent with theory and prior evidence, could bias explain it? Mechanical rules, selective reporting and data-driven analysis choices are the opposite.",
+    "w": [
+      "Stricter α isn't what Sense means.",
+      "Selective reporting is the opposite of Sense.",
+      "Data-driven analysis choice is a questionable practice."
+    ],
+    "k": "EMBERS's Sense: interpret effects, precision and plausibility in context.",
+    "h": "Sense means thinking, not ticking boxes.",
+    "r": "Stats & SPSS synthesis · Using sense"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "Clients choose among three unordered treatments, and you want to predict their choice from age and symptom severity. Which analysis is appropriate?",
+    "o": [
+      "Multinomial logistic regression",
+      "Binary logistic regression",
+      "Ordinal (ordered) regression",
+      "Two-way factorial ANOVA"
+    ],
+    "e": "A nominal outcome with more than two categories calls for multinomial logistic regression, comparing each treatment with a reference treatment. Binary logistic needs two categories, and ordinal regression requires ordered categories.",
+    "w": [
+      "Binary logistic handles only two categories.",
+      "Ordinal regression needs ordered categories, which these aren't.",
+      "Factorial ANOVA needs a continuous outcome."
+    ],
+    "k": "An unordered categorical outcome → multinomial logistic regression.",
+    "h": "Many unordered choices: multinomial.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  },
+  {
+    "t": "Synthesis Choosing tests",
+    "d": 3,
+    "q": "You want to know whether the association between therapy type and recovery differs between men and women, using counts only. Which analysis?",
+    "o": [
+      "A hierarchical loglinear analysis of the three-way table",
+      "A two-way ANOVA with recovery coded 0/1 as the outcome",
+      "A MANOVA with gender and therapy type entered as the outcomes",
+      "A Pearson correlation matrix among the three categorical variables"
+    ],
+    "e": "Three categorical variables, and a question about whether a two-way association changes across a third, call for loglinear analysis, which tests the three-way interaction. Logistic regression with a therapy × gender interaction predicting recovery is an equivalent modern approach.",
+    "w": [
+      "ANOVA on 0/1 codes treats recovery as continuous.",
+      "MANOVA needs continuous outcomes, and gender and therapy are predictors.",
+      "Pearson correlations don't suit nominal variables."
+    ],
+    "k": "A three-way categorical question → hierarchical loglinear analysis.",
+    "h": "Three-way table, loglinear.",
+    "r": "Stats & SPSS synthesis · Choosing a test"
+  }
+]

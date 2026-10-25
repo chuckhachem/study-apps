@@ -1,0 +1,562 @@
+[
+  {
+    "t": "Ch7 Assumptions",
+    "d": 2,
+    "q": "Which set lists the main assumptions of linear models (t-tests, ANOVA, regression) in Field's framework?",
+    "o": [
+      "Additivity and linearity, normality, homoscedasticity, independence",
+      "Normal raw data, equal group sizes, no outliers and a large sample",
+      "Interval measurement, random sampling, no missing data, normal groups",
+      "Sphericity, homogeneity of slopes, normal predictors and no outliers"
+    ],
+    "e": "In Field's current editions, ranked by importance: (1) additivity and linearity (the model is the right shape), (2) independence of errors, (3) homoscedasticity, or homogeneity of variance, and (4) normality of the residuals or sampling distribution, which matters mainly for CIs and significance tests and least in large samples. Outliers are a separate source of bias.",
+    "w": [
+      "Raw data needn't be normal, and equal group sizes aren't a core assumption.",
+      "Interval measurement and no missing data aren't Field's core assumptions.",
+      "Sphericity and homogeneity of slopes apply only to particular designs, not linear models generally."
+    ],
+    "k": "Linear model assumptions: additivity/linearity, independence, homoscedasticity, normality of residuals.",
+    "h": "LINE: Linearity, Independence, Normality, Equal variance.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Assumptions"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 3,
+    "q": "In a linear model, what does the normality assumption actually refer to?",
+    "o": [
+      "The residuals, or the sampling distribution of the estimates, not the raw scores",
+      "The raw outcome scores, which must be normal within the sample as a whole",
+      "The predictor variables, which must each be normally distributed",
+      "The population of participants, which must be normally distributed on every variable measured"
+    ],
+    "e": "Inference (CIs and p-values) assumes that the sampling distribution of the estimates is normal, which follows if the errors are normal or, by the central limit theorem, if the sample is large. Predictors can have any distribution, including categorical. Checking the raw outcome for an ANOVA is a rough proxy: check normality within each group, or examine the residuals.",
+    "w": [
+      "The raw outcome needn't be normal overall; the residuals or sampling distribution matter.",
+      "Predictors can have any distribution, including categorical ones.",
+      "No assumption requires every variable in the population to be normal."
+    ],
+    "k": "Normality concerns residuals or the sampling distribution, not raw scores or predictors.",
+    "h": "Normal errors, not normal everything.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · What must be normal"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 2,
+    "q": "For a large sample, why is mild non-normality of the residuals usually not a serious problem for significance tests?",
+    "o": [
+      "The central limit theorem makes the sampling distribution approximately normal anyway",
+      "Large samples contain no outliers, so the normality assumption is automatically met",
+      "SPSS automatically switches to non-parametric versions of the tests in large samples",
+      "Significance tests in large samples no longer depend on any of the usual model assumptions"
+    ],
+    "e": "With large n, sample means and model parameters have approximately normal sampling distributions regardless of the error distribution, so p-values and CIs stay close to accurate. In small samples non-normality can distort inference, and outliers matter at any size.",
+    "w": [
+      "Large samples can still contain outliers, which matter at any size.",
+      "SPSS never switches to non-parametric tests automatically.",
+      "Large samples still need linearity, independence and homoscedasticity."
+    ],
+    "k": "With large n, the CLT makes sampling distributions roughly normal, so mild non-normality matters little.",
+    "h": "Big samples smooth out small bumps.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Normality and sample size"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 2,
+    "q": "On a normal Q–Q plot, data from a normal distribution appear as:",
+    "o": [
+      "Points lying close to the diagonal line",
+      "Points forming a flat horizontal band",
+      "Points forming a clear S-shaped curve",
+      "Points scattered randomly with no pattern"
+    ],
+    "e": "A Q–Q plot plots observed quantiles against those expected under normality, so normal data fall on the diagonal. Systematic departures show problems: a bow or banana shape suggests skew, and an S-shape suggests heavy or light tails (kurtosis). A P–P plot works the same way with cumulative probabilities.",
+    "w": [
+      "A flat band would mean observed quantiles don't track expected ones.",
+      "An S-shape suggests a kurtosis problem.",
+      "Random scatter would mean no correspondence with normal quantiles."
+    ],
+    "k": "Normal data fall on the Q–Q plot's diagonal.",
+    "h": "On the line, looking fine.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Q–Q and P–P plots"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 2,
+    "q": "SPSS reports skewness = 1.20 with SE = 0.40 for a sample of 40. What is the z-score for skewness, and is it significant at p < .05?",
+    "o": [
+      "z = 3.00; yes, it exceeds 1.96",
+      "z = 0.48; no, it is below 1.96",
+      "z = 3.00; no, z must exceed 3.29 at p < .05",
+      "z = 1.60; no, it is below 1.96"
+    ],
+    "e": "z_skew = skewness / SE = 1.20 / 0.40 = 3.00. A two-tailed test at p < .05 uses ±1.96 (at p < .01, ±2.58; at p < .001, ±3.29). With n = 40 the skew is significant. In large samples these tests flag trivial skew, so the shape and the actual skew value matter more.",
+    "w": [
+      "0.48 multiplies skew by SE instead of dividing.",
+      "3.29 is the cut-off for p < .001; p < .05 uses 1.96.",
+      "1.60 adds skew and SE instead of dividing."
+    ],
+    "k": "z_skew = skewness ÷ SE; |z| > 1.96 is significant at p < .05.",
+    "h": "Skew over its SE, then compare with 1.96.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · z-scores for skew and kurtosis"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 3,
+    "q": "Why does Field caution against relying on the Kolmogorov–Smirnov and Shapiro–Wilk tests?",
+    "o": [
+      "In large samples they flag trivial deviations; in small samples they miss real ones",
+      "They only work for nominal or ordinal data and cannot be applied to continuous variables at all",
+      "They test homogeneity of variance rather than normality of the distribution",
+      "They require the data to be normally distributed before they can be computed"
+    ],
+    "e": "These tests are least useful exactly when you need them. With small samples, where normality matters most, they are underpowered. With large samples, where the central limit theorem protects you, they reject for negligible departures. Plots plus judgment are more informative than a binary test.",
+    "w": [
+      "K–S and Shapiro–Wilk are designed for continuous variables.",
+      "These tests check normality, not equal variances.",
+      "They test whether data are normal; they don't require normality first."
+    ],
+    "k": "Normality tests are oversensitive in large samples and underpowered in small ones; use plots.",
+    "h": "Wrong power at the wrong time.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Tests of normality"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 2,
+    "q": "In the SPSS 'Tests of Normality' table, a significant Shapiro–Wilk result (p < .05) indicates that:",
+    "o": [
+      "The distribution differs significantly from a normal distribution",
+      "The distribution is normal, so parametric tests are appropriate",
+      "The group variances are significantly different from each other",
+      "The sample is too small for the normality test to be valid"
+    ],
+    "e": "Both tests take normality as the null hypothesis, so significance means rejecting normality. The table appears when you tick 'Normality plots with tests' in Analyze → Descriptive Statistics → Explore. SPSS's K–S version includes the Lilliefors correction.",
+    "w": [
+      "Significance rejects normality; it doesn't confirm it.",
+      "Equal variances are tested by Levene's test, not Shapiro–Wilk.",
+      "A significant result doesn't mean the sample is too small."
+    ],
+    "k": "Significant Shapiro–Wilk or K–S = significant departure from normality.",
+    "h": "Significant here means not normal.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Tests of normality in SPSS"
+  },
+  {
+    "t": "Ch7 Homogeneity of variance",
+    "d": 2,
+    "q": "Levene's test is used to check:",
+    "o": [
+      "Whether the variance of the outcome is equal across groups",
+      "Whether the outcome is normally distributed within each group",
+      "Whether the errors of the model are independent of each other",
+      "Whether the relationship between the variables is linear"
+    ],
+    "e": "Levene's test is essentially an ANOVA on the absolute deviations of scores from their group mean (or median). A significant result means the group variances differ, so the homogeneity of variance assumption is in doubt.",
+    "w": [
+      "Normality within groups is checked with Q–Q plots or Shapiro–Wilk.",
+      "Independence of errors isn't checked by Levene's test.",
+      "Linearity is checked with scatterplots or residual plots."
+    ],
+    "k": "Levene's test checks equality of variances across groups.",
+    "h": "Levene levels the variances.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Levene's test"
+  },
+  {
+    "t": "Ch7 Homogeneity of variance",
+    "d": 3,
+    "q": "What is the modern advice on using Levene's test to decide between the standard and Welch t-tests?",
+    "o": [
+      "Do not use it as a gatekeeper; use Welch's correction routinely, as it costs little",
+      "Always run the standard t-test unless Levene's test is significant at the stricter level of p < .001",
+      "Use Levene's test first, then a Mann–Whitney test whenever it is significant",
+      "Run Levene's test only when sample sizes are equal, and ignore it otherwise"
+    ],
+    "e": "Levene's test has the same problems as normality tests (low power in small samples, oversensitivity in large ones), and two-step testing distorts error rates. Welch's t (and Welch's F in ANOVA) performs well whether or not variances are equal, so many methodologists, Field included, recommend reporting it by default.",
+    "w": [
+      "Levene's test shouldn't be used as a gatekeeper at any threshold.",
+      "Mann–Whitney tests a different hypothesis; it isn't the fix for unequal variances.",
+      "Unequal variances matter most when group sizes are unequal."
+    ],
+    "k": "Use Welch's correction routinely; don't gatekeep with Levene's test.",
+    "h": "Welch by default, no gatekeeper.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Levene's test as a gatekeeper"
+  },
+  {
+    "t": "Ch7 Homogeneity of variance",
+    "d": 2,
+    "q": "Group variances are 12, 15 and 30. What is Hartley's F_max (the variance ratio)?",
+    "o": [
+      "2.5",
+      "2.0",
+      "18",
+      "1.25"
+    ],
+    "e": "F_max = largest variance / smallest variance = 30 / 12 = 2.5. A common rule of thumb is that ratios below about 2 are unlikely to cause problems when group sizes are similar. Here the ratio suggests the variances may genuinely differ.",
+    "w": [
+      "2.0 uses the middle variance (30/15) instead of the smallest.",
+      "18 is the difference (30 − 12), not a ratio.",
+      "1.25 divides the middle by the smallest (15/12)."
+    ],
+    "k": "Variance ratio = largest variance ÷ smallest variance; under about 2 is usually fine.",
+    "h": "Biggest over smallest.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Variance ratio"
+  },
+  {
+    "t": "Ch7 Homoscedasticity",
+    "d": 2,
+    "q": "A plot of standardized residuals (y-axis) against standardized predicted values (x-axis) shows a funnel that widens to the right. This indicates:",
+    "o": [
+      "Heteroscedasticity: error variance increases with the predicted value",
+      "Non-linearity: the relationship between the predicted values and the outcome is curved",
+      "Independent errors: residuals are randomly spread around zero",
+      "Multicollinearity: the predictors are highly correlated"
+    ],
+    "e": "Under homoscedasticity, residuals form an even band around zero. A funnel means spread changes with the predicted value (heteroscedasticity). A curve would suggest non-linearity, and a curve plus a funnel suggests both. In SPSS regression this is the ZRESID-by-ZPRED plot.",
+    "w": [
+      "A curved pattern would indicate non-linearity, not a widening funnel.",
+      "An even random band, not a funnel, indicates well-behaved errors.",
+      "Multicollinearity concerns predictors, not this residual pattern."
+    ],
+    "k": "A funnel in the ZRESID vs ZPRED plot signals heteroscedasticity.",
+    "h": "Funnel means unequal spread.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Spotting heteroscedasticity"
+  },
+  {
+    "t": "Ch7 Independence",
+    "d": 2,
+    "q": "The assumption of independent errors is most likely to be violated when:",
+    "o": [
+      "Data come from children nested within classrooms, analysed as unrelated cases",
+      "Participants are randomly assigned to two independent conditions of an experiment",
+      "The outcome variable is measured on a ratio scale with a true zero point",
+      "A large sample is analysed with a one-way independent-groups ANOVA"
+    ],
+    "e": "Children in the same class share a teacher and an environment, so their errors correlate. Treating them as independent underestimates the SEs and inflates Type I errors. Multilevel models handle such clustering. Repeated measurements of the same people violate independence in the same way unless the design accounts for it.",
+    "w": [
+      "Random assignment to independent conditions supports independence.",
+      "Measurement level doesn't affect independence of errors.",
+      "A standard independent design doesn't violate independence."
+    ],
+    "k": "Clustered data (pupils in classes) violate independence; use multilevel models.",
+    "h": "Classmates share more than a teacher.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Independence"
+  },
+  {
+    "t": "Ch7 Outliers",
+    "d": 2,
+    "q": "After converting scores to z-scores, which pattern suggests a problem with outliers in a large normal sample?",
+    "o": [
+      "Several cases with |z| > 3.29",
+      "About 5% of cases with |z| > 1.96",
+      "About 1% of cases with |z| > 2.58",
+      "No cases at all with |z| > 2.58"
+    ],
+    "e": "In a normal distribution, about 5% of z-scores exceed ±1.96, 1% exceed ±2.58 and only 0.1% exceed ±3.29. So around 5% beyond 1.96 is expected, but several cases beyond 3.29 is unusual and deserves inspection.",
+    "w": [
+      "About 5% beyond ±1.96 is exactly what a normal distribution predicts.",
+      "About 1% beyond ±2.58 is expected in normal data.",
+      "No cases beyond 2.58 isn't a problem."
+    ],
+    "k": "In normal data only 0.1% exceed |z| 3.29; several such cases suggest outliers.",
+    "h": "Beyond 3.29, take a look.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Detecting outliers with z-scores"
+  },
+  {
+    "t": "Ch7 Outliers",
+    "d": 2,
+    "q": "Why can a single outlier bias the mean, SD and model parameters so badly?",
+    "o": [
+      "Least-squares estimates minimize squared errors, so one large error carries enormous weight",
+      "Outliers are always data-entry errors, which SPSS has no automatic way of detecting in the data",
+      "Outliers increase the sample size and therefore shrink the standard error of every estimate",
+      "Outliers change the level of measurement of the variable from interval to ordinal"
+    ],
+    "e": "Squaring makes an error of 10 count 100 times as much as an error of 1, so the least-squares solution is pulled toward the outlier. The mean, the SS, and therefore the SD, SE, CIs and test statistics are all affected.",
+    "w": [
+      "Outliers can be genuine scores; they aren't always data-entry errors.",
+      "One extra case barely changes n or the SE.",
+      "Outliers don't change the level of measurement."
+    ],
+    "k": "Squared errors give outliers huge influence on least-squares estimates.",
+    "h": "Square a big miss and it shouts.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Outliers"
+  },
+  {
+    "t": "Ch7 Reducing bias",
+    "d": 2,
+    "q": "A 20% trimmed mean is calculated by:",
+    "o": [
+      "Removing the highest 20% and lowest 20% of scores and averaging the rest",
+      "Removing the highest 20% of scores only, and then averaging the scores that remain",
+      "Replacing the top and bottom 20% of scores with the next remaining value at each end",
+      "Removing any scores that lie more than 20% above or below the mean of the sample"
+    ],
+    "e": "Trimming discards the same percentage from each end, so 20% trimming keeps the middle 60%. It is robust to outliers and skew. Replacing extremes with the nearest remaining value instead of removing them is winsorizing.",
+    "w": [
+      "Trimming removes equal percentages from both ends.",
+      "Replacing extremes with the next value is winsorizing.",
+      "Trimming uses percentiles, not distance from the mean."
+    ],
+    "k": "20% trimmed mean: drop top and bottom 20%, average the middle 60%.",
+    "h": "Trim both ends of the loaf.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Trimmed means"
+  },
+  {
+    "t": "Ch7 Reducing bias",
+    "d": 2,
+    "q": "Winsorizing differs from trimming because it:",
+    "o": [
+      "Replaces extreme scores with the most extreme remaining value, keeping the sample size",
+      "Deletes the extreme scores entirely, so that the sample size is reduced accordingly",
+      "Transforms every score with a logarithm to pull in both tails of the distribution",
+      "Re-samples the data many times with replacement to estimate the sampling distribution of the mean"
+    ],
+    "e": "Winsorizing caps extreme values at a chosen percentile, or at the next most extreme non-outlier score, so no cases are lost. Trimming removes them. Some researchers instead cap values at the mean plus 2 or 3 SDs.",
+    "w": [
+      "Deleting the extreme scores entirely is trimming, not winsorizing.",
+      "A log transformation reshapes every score; winsorizing only caps extremes.",
+      "Resampling with replacement is bootstrapping, a different technique."
+    ],
+    "k": "Winsorizing caps extremes, keeping all cases; trimming removes them.",
+    "h": "Winsorize: pull the extremes in, don't throw them out.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Winsorizing"
+  },
+  {
+    "t": "Ch7 Bootstrapping",
+    "d": 2,
+    "q": "Bootstrapping estimates a sampling distribution by:",
+    "o": [
+      "Repeatedly resampling the observed data with replacement and recomputing the statistic",
+      "Drawing new samples from the population, one after another, until the result becomes significant",
+      "Replacing each outlier with the mean and then recomputing the statistic just once",
+      "Assuming a normal distribution and calculating the standard error directly from n"
+    ],
+    "e": "Treat the sample as a stand-in for the population: draw thousands of samples of size n with replacement, compute the statistic each time, and use the spread of those estimates for SEs and CIs (percentile or BCa intervals). No normality assumption is needed.",
+    "w": [
+      "Bootstrapping resamples the existing data, not new population draws.",
+      "Replacing outliers with the mean isn't bootstrapping.",
+      "Assuming normality and using n is the classic formula bootstrapping avoids."
+    ],
+    "k": "Bootstrap: resample your data with replacement thousands of times to build a sampling distribution.",
+    "h": "Pull yourself up by your bootstraps: the sample makes its own sampling distribution.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Bootstrapping"
+  },
+  {
+    "t": "Ch7 Bootstrapping",
+    "d": 3,
+    "q": "You run the same bootstrapped analysis twice in SPSS and get slightly different confidence intervals. Why?",
+    "o": [
+      "Each run draws a different random set of bootstrap samples",
+      "SPSS switches to a different bootstrap method after the first run",
+      "The second run uses the residuals from the first model",
+      "The data file was resorted between the two runs"
+    ],
+    "e": "Bootstrap samples are random, so the CI limits vary a little from run to run. Using more samples (for example 2,000 rather than 1,000) reduces this variation. Setting a random seed (Transform → Random Number Generators) makes results exactly reproducible.",
+    "w": [
+      "SPSS doesn't change bootstrap method between runs.",
+      "Bootstrap runs don't use previous residuals.",
+      "Sorting doesn't explain run-to-run differences; randomness does."
+    ],
+    "k": "Bootstrap results vary slightly per run; set a seed to reproduce them.",
+    "h": "Random draws, slightly different nets.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Bootstrapping in SPSS"
+  },
+  {
+    "t": "Ch7 Bootstrapping",
+    "d": 2,
+    "q": "In SPSS dialogs that offer it, the Bootstrap button typically lets you choose:",
+    "o": [
+      "The number of samples and the CI method, such as percentile or BCa",
+      "The prior distribution and the threshold for the Bayes factor in the analysis",
+      "The transformation to apply to any skewed variables before the analysis",
+      "The outlier-trimming percentage to be used throughout the analysis"
+    ],
+    "e": "Tick 'Perform bootstrapping', set the number of samples (1,000 is the default; 2,000 is a sensible choice) and the confidence level, and choose percentile or bias-corrected and accelerated (BCa) intervals. BCa adjusts for bias and skew in the bootstrap distribution.",
+    "w": [
+      "Priors and Bayes factors belong to Bayesian procedures.",
+      "Transformations are made with Transform → Compute.",
+      "Trimming percentages aren't set in the Bootstrap dialog."
+    ],
+    "k": "Bootstrap dialog: number of samples, confidence level, percentile or BCa.",
+    "h": "How many samples, which interval.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Bootstrap options"
+  },
+  {
+    "t": "Ch7 Transformations",
+    "d": 2,
+    "q": "A positively skewed variable contains some zeros. Which transformation is most appropriate to try?",
+    "o": [
+      "log(X + 1)",
+      "ln(X) alone",
+      "1 / X (reciprocal)",
+      "X² (squared)"
+    ],
+    "e": "Log and square-root transforms pull in a long right tail. The log of zero is undefined, so add a constant first: log(X + 1). 1/X fails at zero and reverses the order of scores, and squaring would worsen positive skew.",
+    "w": [
+      "ln(X) alone is undefined at zero, so the zeros break it.",
+      "1/X fails at zero and reverses the order.",
+      "Squaring stretches high scores further, worsening positive skew."
+    ],
+    "k": "Positive skew with zeros → log(X + 1).",
+    "h": "Add one before the log.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Transformations"
+  },
+  {
+    "t": "Ch7 Transformations",
+    "d": 3,
+    "q": "Why does Field advise caution about transforming data to fix non-normality?",
+    "o": [
+      "A transformed variable may test a different hypothesis and can create new problems",
+      "Transformations are not allowed for any variable that is measured on an interval or ratio scale",
+      "SPSS cannot run parametric tests on variables that have been transformed",
+      "Transforming makes the standard errors identical across all of the groups"
+    ],
+    "e": "After a log transform, a comparison of arithmetic means becomes a comparison of geometric means, which may not answer your question. Transforms can also fix one assumption while violating another, and choosing among them post hoc adds researcher degrees of freedom. Robust methods (bootstrapping, trimmed means, robust SEs) are often better.",
+    "w": [
+      "Transformations can be applied to interval and ratio variables.",
+      "SPSS can run parametric tests on transformed variables.",
+      "Transformations don't equalize SEs across groups."
+    ],
+    "k": "Transforming can change the hypothesis tested and create new problems; robust methods are often better.",
+    "h": "Fix one leak, spring another.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · The transformation debate"
+  },
+  {
+    "t": "Ch7 Transformations",
+    "d": 3,
+    "q": "Applying the reciprocal transformation 1/X to scores has which side effect?",
+    "o": [
+      "It reverses the order of the scores, so high values become low",
+      "It leaves the order of scores unchanged but doubles the variance",
+      "It converts every score into its z-score equivalent",
+      "It makes negative scores positive without changing the order"
+    ],
+    "e": "Large values become small fractions and small values become large, so the ranking flips. To keep the original order, reverse the scores first (subtract each from the highest score plus 1) and then take the reciprocal. Zeros also need a constant added.",
+    "w": [
+      "1/X does change the order of scores.",
+      "1/X doesn't standardize scores; z-scores subtract the mean and divide by the SD.",
+      "1/X doesn't simply make negatives positive."
+    ],
+    "k": "1/X reverses score order; reverse the scores first to keep the original order.",
+    "h": "Flip the fraction, flip the ranking.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Reciprocal transformation"
+  },
+  {
+    "t": "Ch7 Linearity",
+    "d": 2,
+    "q": "The assumption of additivity and linearity means that:",
+    "o": [
+      "The outcome is a linear function of the predictors whose effects add together",
+      "Every variable in the model, predictors and outcome alike, must have a normal distribution",
+      "Each predictor must be measured on an interval or ratio scale, never a categorical one",
+      "The residuals must be exactly the same size for every participant in the sample"
+    ],
+    "e": "A linear model assumes Y = b0 + b1X1 + b2X2 + … + error: effects combine by adding, and each relationship is a straight line, unless you deliberately add terms such as interactions or polynomials. If the true relationship is curved, the model is simply the wrong model, which is why Field ranks this assumption first.",
+    "w": [
+      "Linearity doesn't require normally distributed variables.",
+      "Categorical predictors are allowed in linear models.",
+      "Residuals vary across participants; they needn't be identical."
+    ],
+    "k": "Additivity and linearity: the outcome is a linear sum of predictor effects.",
+    "h": "Straight lines that add up.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Additivity and linearity"
+  },
+  {
+    "t": "Ch7 Homogeneity of variance",
+    "d": 2,
+    "q": "How can you obtain Levene's test for several groups in SPSS's Explore procedure?",
+    "o": [
+      "Plots → 'Spread vs Level with Levene Test' → Untransformed",
+      "Statistics → 'Outliers' → Untransformed, then 'Factor levels together'",
+      "Plots → 'Normality plots with tests' → Factor levels together",
+      "Options → 'Exclude cases pairwise', then Statistics → Descriptives"
+    ],
+    "e": "In Analyze → Descriptive Statistics → Explore, put the grouping variable in the Factor List, then under Plots choose 'Spread vs Level with Levene Test' with 'Untransformed' to test the raw data. Levene's test also appears automatically in independent t-test and one-way ANOVA output (when requested).",
+    "w": [
+      "Outliers lists extreme cases; it doesn't give Levene's test.",
+      "Normality plots with tests give Shapiro–Wilk and K–S.",
+      "Missing-value options and descriptives don't produce Levene's test."
+    ],
+    "k": "Explore → Plots → Spread vs Level with Levene Test → Untransformed.",
+    "h": "Spread versus level, Levene revealed.",
+    "r": "Stats & SPSS ch. 7 · SPSS · Levene's test in Explore"
+  },
+  {
+    "t": "Ch7 Outliers",
+    "d": 3,
+    "q": "An outlier turns out to be a genuine but unusual score, not an error. Which response is most defensible?",
+    "o": [
+      "Analyse with and without it, or use a robust method, and report what you did",
+      "Delete it quietly, so that it cannot affect the results of the analysis",
+      "Replace it with the group mean so that the sample size and the degrees of freedom are kept",
+      "Keep it and ignore its influence entirely, because it is genuine data"
+    ],
+    "e": "Genuine extreme scores carry information but can dominate least-squares estimates. Transparent options include robust methods (trimmed means, bootstrapping, robust regression), sensitivity analyses showing results with and without the case, and pre-registered exclusion rules. Silent deletion is a questionable research practice, and mean replacement distorts the variance.",
+    "w": [
+      "Silent deletion is a questionable research practice.",
+      "Replacing with the mean distorts the variance.",
+      "Ignoring its influence risks biased estimates."
+    ],
+    "k": "Genuine outliers: use robust methods or sensitivity analyses, and report transparently.",
+    "h": "With and without, and say so.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Dealing with outliers"
+  },
+  {
+    "t": "Ch7 Normality",
+    "d": 3,
+    "q": "A Q–Q plot shows points that curve away from the diagonal at both ends, forming an S-shape. This suggests:",
+    "o": [
+      "A problem with kurtosis: the tails are heavier or lighter than normal",
+      "Positive skew caused by a small number of unusually high scores in the right tail",
+      "Perfectly normal data, apart from a few rounding errors in the scores",
+      "A bimodal distribution made up of two quite separate groups of people"
+    ],
+    "e": "Skew bends the Q–Q plot in one direction like a banana, while kurtosis produces an S-shape with departures at both ends. Heavy tails make the extreme observed quantiles more extreme than expected, and light tails make them less extreme.",
+    "w": [
+      "Skew bends the plot in one direction, like a banana.",
+      "Normal data stay on the diagonal.",
+      "Bimodality shows a different pattern, not this S-shape."
+    ],
+    "k": "Q–Q S-shape = kurtosis; banana shape = skew.",
+    "h": "S for 'Spread-out tails', banana for bias to one side.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Reading Q–Q plots"
+  },
+  {
+    "t": "Ch7 Assumptions",
+    "d": 3,
+    "q": "Which assumption must hold for the least-squares estimates of b to be the best (minimum-variance) unbiased linear estimates?",
+    "o": [
+      "Homoscedasticity and independence of errors, but not necessarily normality",
+      "Normality of the errors, but not homoscedasticity or independence",
+      "Normality of all the predictors, plus equal sample sizes in each of the groups compared",
+      "Absence of outliers, but none of the distributional assumptions"
+    ],
+    "e": "By the Gauss–Markov theorem, if errors have mean zero, constant variance and are uncorrelated, OLS estimates are the best linear unbiased estimators. Normality is not needed for this. It matters for exact CIs and p-values, especially in small samples.",
+    "w": [
+      "Gauss–Markov needs constant variance and independence, not normality.",
+      "Normal predictors and equal group sizes aren't Gauss–Markov conditions.",
+      "Gauss–Markov needs distributional conditions on errors."
+    ],
+    "k": "Gauss–Markov: homoscedastic, uncorrelated errors make OLS the best linear unbiased estimator.",
+    "h": "BLUE: best linear unbiased estimator.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Why assumptions matter"
+  },
+  {
+    "t": "Ch7 Reducing bias",
+    "d": 2,
+    "q": "Which option helps when the residuals of a linear model fitted in SPSS are heteroscedastic?",
+    "o": [
+      "Heteroscedasticity-consistent (robust) standard errors, such as HC3",
+      "A Bonferroni correction applied to the p-values of all the regression coefficients",
+      "Changing the variable's Measure setting from Scale to Ordinal",
+      "Using listwise rather than pairwise deletion of missing cases"
+    ],
+    "e": "Robust SEs (HC0–HC4) correct the standard errors, and hence the CIs and p-values, for unequal error variance without changing b. Recent SPSS versions offer them in Analyze → General Linear Model → Univariate (Options: parameter estimates with robust standard errors). Bootstrapping is another option.",
+    "w": [
+      "Bonferroni corrects for multiple tests, not unequal variance.",
+      "Changing Measure doesn't affect error variance.",
+      "Missing-data handling changes which cases are used, not unequal error variance."
+    ],
+    "k": "Heteroscedastic residuals → robust SEs (such as HC3) or bootstrapping.",
+    "h": "HC for 'heteroscedasticity-consistent'.",
+    "r": "Stats & SPSS ch. 7 · The beast of bias · Robust standard errors"
+  }
+]

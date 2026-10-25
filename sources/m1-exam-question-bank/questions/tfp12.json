@@ -1,0 +1,362 @@
+[
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Across the book, which sequence of transference paradigms marks progress, and what order of interpretation does it imply?",
+    "o": [
+      "Psychopathic → paranoid → depressive; interpret in that order",
+      "Depressive → paranoid → psychopathic; interpret the most advanced first",
+      "Paranoid → psychopathic → depressive; interpret the deepest first",
+      "Erotic → narcissistic → depressive; interpret the most affect-laden first"
+    ],
+    "e": "Chapters 1, 4, 8 and 9 agree: progress runs from psychopathic to paranoid to depressive transferences. Psychopathic transferences (deceit, assuming corruption) defend against paranoid ones (fear of a dangerous other), and resolving paranoid ones lets depressive ones emerge (guilt, concern, mourning the ideal). Interpretation follows the same order: psychopathic before paranoid, paranoid before depressive, because without honesty there is no reliable material, and without working through fear, guilt cannot be felt.",
+    "w": [
+      "This reverses the order; the most primitive layer comes first.",
+      "Psychopathic transferences come before paranoid ones, not after.",
+      "Erotic and narcissistic are colourings, not the core developmental sequence."
+    ],
+    "k": "Progress and interpretation order: psychopathic → paranoid → depressive.",
+    "h": "Liar → Fearful → Guilty: honesty first, then safety, then sorrow.",
+    "r": "Clarkin Ch1, Ch4, Ch8, Ch9"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "How do the 'three channels of communication' (Ch3) map onto the 'diagnostic task' of the structural interview (Ch5)?",
+    "o": [
+      "Verbal → subjective experience; nonverbal → behavior and interaction; countertransference → the interviewer's affective reaction",
+      "Verbal → behavior; nonverbal → subjective experience; countertransference → medication history",
+      "They do not correspond, because the structural interview relies only on verbal content",
+      "Verbal → the past; nonverbal → the present; countertransference → the patient's future plans and expectations"
+    ],
+    "e": "Chapter 3 names three channels of communication: verbal content, nonverbal behaviour, and the therapist's countertransference. Chapter 5's structural interview diagnostic task uses the same three: exploring the patient's subjective experience (verbal), observing behaviour and interaction (nonverbal), and using the interviewer's own affective reaction (countertransference) to understand the activated object relations. Assessment and treatment listen the same way.",
+    "w": [
+      "This mismatches the channels; verbal maps to subjective experience, not behaviour.",
+      "The structural interview uses all three channels, not only verbal content.",
+      "The channels are not organized by past, present and future."
+    ],
+    "k": "Three channels = verbal (subjective experience), nonverbal (behaviour), countertransference (interviewer's reaction): same in assessment and treatment.",
+    "h": "Words, body, gut.",
+    "r": "Clarkin Ch3 – Table 3–2; Ch5 – Diagnostic task"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Which statement correctly contrasts 'strategies', 'tactics' and 'techniques' in TFP?",
+    "o": [
+      "Strategies = long-term principles (dyads, reversals, linkages, working through); tactics = session-level tasks (contract, priority theme, shared reality, affect intensity); techniques = moment-to-moment tools (neutrality, countertransference, frame, transference analysis, interpretive process)",
+      "Strategies = moment-to-moment tools (clarify, confront, interpret); tactics = long-term principles (dyads, reversals, linkages, working through); techniques = the contract, the hierarchy of priorities and the regulation of affective intensity in each session",
+      "All three are synonyms for interpretation at different depths: strategies are the shallowest comments, tactics are intermediate confrontations, and techniques are the deepest interpretations of unconscious conflict, used only in the advanced phase",
+      "Strategies belong to DBT (validation, skills, chain analysis), tactics belong to MBT (mentalizing the present mental state), and techniques belong to TFP (transference interpretation), so the three terms describe three different treatments compared in Table 2–1"
+    ],
+    "e": "TFP distinguishes three levels. Strategies (Ch2, Table 2–2) are long-term principles: defining dominant dyads, observing role reversals, linking dyads that defend against each other, and working through. Tactics (Ch4, Table 4–1) are session-level tasks: setting the contract, choosing the priority theme, maintaining a shared reality, and regulating affect intensity. Techniques (Ch3, Table 3–1) are moment-to-moment tools: the interpretive process, transference analysis, technical neutrality, countertransference use, and the frame.",
+    "w": [
+      "This swaps the levels: clarification and interpretation are techniques, and dyads/reversals are strategies.",
+      "They aren't synonyms or depth levels of interpretation; they are different levels of planning.",
+      "All three are TFP concepts, not terms belonging to DBT or MBT."
+    ],
+    "k": "Strategies = long-term (4); tactics = per-session (4); techniques = moment-to-moment (5).",
+    "h": "Strategy is the war, tactics the battle, techniques the sword strokes.",
+    "r": "Clarkin Ch2, Ch3, Ch4"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "'Holding' in TFP (Ch2) and the treatment contract (Ch6) are linked because:",
+    "o": [
+      "The contract creates the frame that affectively contains the patient, so the therapist can stay neutral",
+      "The contract replaces holding with warmth, reassurance and extra availability",
+      "Holding means physical comfort, which the contract explicitly forbids",
+      "They are unrelated; holding belongs only to Winnicott's theory of mothering"
+    ],
+    "e": "In TFP, holding means affective containment by the treatment frame, not warmth or reassurance. Chapter 6 states that the first aim of the contract is to create conditions in which the therapist feels safe enough to remain neutral and explore. So the contract builds the frame, the frame does the holding, and neutrality becomes possible. This differs from a supportive notion of holding as comfort and extra availability.",
+    "w": [
+      "Warmth and extra availability are what TFP's holding is not.",
+      "In TFP, holding isn't physical comfort; it means affective containment by the frame.",
+      "They are directly linked through the frame."
+    ],
+    "k": "In TFP, the contract creates the frame, which holds (contains affect) and lets the therapist stay neutral.",
+    "h": "The frame is the arms that hold.",
+    "r": "Clarkin Ch2; Ch6"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "A patient's suicidal crisis is best understood in TFP first as:",
+    "o": [
+      "A possible enactment of a transference dyad, after ruling out a major depressive episode",
+      "Always a biological symptom that requires medication before any exploration",
+      "A breach of contract that ends the therapy automatically, without discussion",
+      "A request for more sessions that should be granted"
+    ],
+    "e": "Chapter 10 says the first step with suicidal ideation is to rule out a major depressive episode, which needs medication or hospitalization. If absent, the therapist asks what is happening now in the patient's experience of the therapist. Chapters 2 and 4 place suicide threats at the top of the priority hierarchy, and they often express an enacted dyad, such as identification with a sadistic object attacking a victim self. So the suicidal crisis is both a danger to address and a transference communication to understand.",
+    "w": [
+      "Medication applies to major depression, not to all suicidality.",
+      "Breaches are explored, and the contract sets out specific procedures.",
+      "Extra sessions would reward the crisis with secondary gain."
+    ],
+    "k": "Suicidal crisis: rule out major depression, then understand it as an enacted transference dyad.",
+    "h": "First the body check, then the dyad check.",
+    "r": "Clarkin Ch2, Ch4, Ch10"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Steiner's advice appears in Ch4 and Ch7. What do both uses share?",
+    "o": [
+      "Describe the patient's image of the therapist without accepting or rejecting it",
+      "Reassure the patient firmly that the distorted image is false, then move on",
+      "Interpret the deepest unconscious motive immediately, at the peak of affect",
+      "Stay silent until the patient corrects the distortion on her own initiative"
+    ],
+    "e": "In Chapter 4 (tactic 3, shared reality), Steiner's approach is to examine the patient's image of the therapist without directly accepting or rejecting it. In Chapter 7 (affect storms), it appears as object-centred interpretation: 'You see me as…', describing the patient's view of the therapist rather than her own motives, which she can't yet hear. Both let a projected image be held and explored, so the patient can later take it back (Ch9).",
+    "w": [
+      "Reassurance rejects the image and stops exploration.",
+      "Deep interpretation at peak affect is what Steiner's approach avoids.",
+      "Silence isn't the method; describing the image is."
+    ],
+    "k": "Steiner: describe the patient's image of the therapist without accepting or rejecting it.",
+    "h": "Hold the mirror, don't argue with it.",
+    "r": "Clarkin Ch4, Ch7"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Which pair shows the same principle applied in assessment and in treatment?",
+    "o": [
+      "Tactful confrontation of strangeness (Ch5) and 'an element of madness in the room' (Ch4)",
+      "Medication trials one drug at a time (Ch5) and classic dream analysis in the advanced phase (Ch9)",
+      "The STIPO's standardized scoring (Ch5) and the Attention Network Task (Ch11)",
+      "The fee policy (Ch6) and Young's 16 schemas (Ch2), both testing the patient's reality"
+    ],
+    "e": "In assessment (Ch5), the structural interview tactfully confronts strange or contradictory behaviour to test whether the patient can empathize with ordinary social criteria of reality (reality testing). In treatment (Ch4), the therapist names 'an element of madness in the room' when incompatible views clash. Both rely on the patient's capacity to share ordinary social reality when tactfully confronted. Only ego-dystonic distortions can be interpreted.",
+    "w": [
+      "Medication trials and dream analysis are unrelated principles.",
+      "STIPO scoring and the ANT are research tools, not this principle.",
+      "The fee policy and Young's schemas don't share this principle."
+    ],
+    "k": "Tactful confrontation in assessment and 'madness in the room' in treatment both test shared social reality.",
+    "h": "Can you see what others would see?",
+    "r": "Clarkin Ch1, Ch4, Ch5"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "'Secondary gain' recurs across chapters. Which set of interventions all target it?",
+    "o": [
+      "Therapist out of the loop of crises, ER deciding admission, requiring work or study, limiting calls",
+      "Extra sessions after each crisis, signing disability forms early, and home visits during crises",
+      "Monthly prescriptions, unlimited calls, and the therapist deciding admission by phone",
+      "Interpreting dreams, using the couch, and increasing to five sessions a week"
+    ],
+    "e": "Secondary gain is the reward a symptom brings, such as more attention from the therapist. TFP targets it across chapters: keeping the therapist out of crisis management (Ch3), letting the ER decide on admission and requiring productive activity like work or study (Ch6), and limiting phone calls (Ch10). ER visits taper off when the therapist stays out of the decision. Each removes the incentive to communicate through action instead of words.",
+    "w": [
+      "Extra sessions, early disability forms and home visits all increase secondary gain.",
+      "Unlimited calls and the therapist deciding admission increase secondary gain.",
+      "Dreams, the couch and five sessions a week aren't secondary-gain interventions."
+    ],
+    "k": "Anti-secondary-gain set: therapist out of crises, ER decides admission, required work/study, call limits.",
+    "h": "Take the prize out of the crisis.",
+    "r": "Clarkin Ch3, Ch6, Ch10"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "The book gives several time markers. Which set is correct?",
+    "o": [
+      "Acting out controlled within ~6 months; defenses decrease in year 2; advanced phase from 6 months to years; termination notice ≥3 months",
+      "Acting out controlled within 1 month; advanced phase always at 5 years; termination notice of 1 week is enough",
+      "Contracting takes about 6 months; evaluation about 1 year; termination is announced in a single session",
+      "Acting out controlled after 2 years; advanced phase never before 3 years; no termination notice is needed"
+    ],
+    "e": "Time markers across the book: severe acting out should be controlled within about 6 months, with emergency themes receding (Ch2, Ch4); primitive defenses decrease in the second year (Ch2); the advanced phase can emerge from 6 months to years (Ch9); and termination needs at least 3 months' notice for extended therapy, ideally at least 6 months for multi-year treatment (Ch9).",
+    "w": [
+      "One month, a fixed 5 years and one week's notice are all wrong.",
+      "Contracting doesn't take 6 months, and termination isn't announced in one session.",
+      "Two years for acting out, never before 3 years and no notice are all wrong."
+    ],
+    "k": "Time markers: acting out controlled ~6 months; defenses ease in year 2; advanced phase 6 months–years; termination notice ≥3 months.",
+    "h": "6 months, year 2, 6 months-to-years, 3 months.",
+    "r": "Clarkin Ch2, Ch4, Ch9"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Why does TFP interpret the negative transference early (Ch3) while treating the alliance as a consequence rather than a precondition (Ch2)?",
+    "o": [
+      "Because the alliance grows out of systematically resolving the negative transference",
+      "Because the alliance must be built with warmth first, and interpretation follows",
+      "Because negative feelings always concern the past and must be traced to childhood first",
+      "Because early interpretation of positive feelings builds the alliance faster"
+    ],
+    "e": "Chapter 2 holds that, with borderline patients, the therapeutic alliance is a result of systematically resolving the negative aspects of the transference, not a precondition built through warmth. Chapter 3 adds that avoiding the negative transference confirms the patient's belief that her affects are too dangerous to be examined. So interpreting hostility early is what builds trust.",
+    "w": [
+      "Warmth first is the supportive model; TFP builds the alliance through interpretation.",
+      "TFP focuses on the here and now, not childhood first.",
+      "Interpreting positive feelings early isn't the stated route."
+    ],
+    "k": "In TFP, the alliance grows from systematically resolving the negative transference.",
+    "h": "Trust is earned by facing the anger, not avoiding it.",
+    "r": "Clarkin Ch2, Ch3"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Ms. A (Ch2) and Ms. G (Ch8) both exclaimed 'You can't go away!'. What does this shared moment illustrate?",
+    "o": [
+      "The split-off longing for the therapist breaking through a defensive negative stance",
+      "A psychotic loss of reality testing that appears at separations from the therapist",
+      "A manipulative attempt to obtain extra sessions before the therapist's vacation",
+      "Successful termination, as both patients were ready to end therapy at that point"
+    ],
+    "e": "Both patients seemed indifferent or rejecting at the therapist's first absence. At a later separation, the hidden libidinal dyad broke through: 'You can't go away!' The split-off longing for the therapist emerged through a defensively negative stance. This is material for Strategy 3: linking dyads that defend against each other. For Ms. G, she later denied saying it, showing regression after a moment of integration.",
+    "w": [
+      "Neither patient lost reality testing; the outburst was hidden longing, not psychosis.",
+      "It wasn't manipulation for extra sessions; it was split-off longing.",
+      "It occurred mid-treatment around a separation, not at a successful termination."
+    ],
+    "k": "'You can't go away!' = split-off longing breaking through a defensive negative stance.",
+    "h": "The cold mask slips and the longing shows.",
+    "r": "Clarkin Ch2 – Ms. A; Ch8 – Ms. G"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Which research finding (Ch11) best fits the TFP theory of change described in Ch2?",
+    "o": [
+      "Only TFP increased reflective functioning, consistent with integration of self/other images",
+      "Only TFP reduced anxiety and depression, while DBT and supportive therapy did not",
+      "TFP changed narrative coherence on the AAI but did not change reflective functioning",
+      "TFP alone reduced hospitalizations to zero across all of the patients in the trial"
+    ],
+    "e": "Chapter 2 says TFP's mechanism is increased coherence and integration of conceptions of self and others. Chapter 11's finding that only TFP increased reflective functioning (the capacity to articulate mental states of self and others) fits this, since all three arms improved AAI narrative coherence. Reflective functioning is the measurable face of integrated self and other images.",
+    "w": [
+      "There were no differences in anxiety or depression among treatments.",
+      "TFP did change reflective functioning; narrative coherence improved in all three.",
+      "Hospitalizations dropped but not to zero for all patients."
+    ],
+    "k": "Reflective functioning gains, specific to TFP, fit its theory of integrating self/other images.",
+    "h": "Integration inside shows up as reading minds outside.",
+    "r": "Clarkin Ch2 – Table 2–1; Ch11"
+  },
+  {
+    "t": "Synthesis",
+    "d": 2,
+    "q": "Mnemonic: the 4 TFP strategies spell 'D-R-L-W'. What do they stand for?",
+    "o": [
+      "Define dyads – Reversals – Linkages between dyads – Working through",
+      "Diagnose – Reassure – Limit acting out – Wait for insight",
+      "Dyad – Repression – Libido – Wish, as in neurotic conflict",
+      "Dream – Recall – Link – Write"
+    ],
+    "e": "The four TFP strategies (Table 2–2) are: (1) Define the dominant object relations (the dyad); (2) observe and interpret Role reversals; (3) observe and interpret Linkages between dyads that defend against each other; (4) Work through and extend the new capacity to other relationships. They move from identifying a pattern to integrating it in life.",
+    "w": [
+      "Diagnose, reassure, limit and wait describe a non-TFP approach.",
+      "Dyad, repression, libido, wish mixes neurotic theory terms.",
+      "Dream, recall, link, write isn't the strategy list."
+    ],
+    "k": "TFP strategies: Define dyads → Role reversals → Linkages → Working through.",
+    "h": "'Dear Readers Love Working'.",
+    "r": "Clarkin Ch2 – Table 2–2"
+  },
+  {
+    "t": "Synthesis",
+    "d": 2,
+    "q": "Mnemonic: 'E-D-S' gives the three principles of interpretation. Match them.",
+    "o": [
+      "Economic = follow the dominant affect; Dynamic = surface to depth; Structural = the predominant dyads",
+      "Economic = cost of therapy; Dynamic = the patient's motivation; Structural = id-ego-superego only",
+      "Economic = speed of interpretation; Dynamic = clarity; Structural = depth of the interpretation",
+      "Economic = genetic material; Dynamic = dreams; Structural = the contract"
+    ],
+    "e": "The three principles of interpretation are economic, dynamic and structural. Economic: follow the dominant affect, interpreting where the affect is most intense. Dynamic: go from surface to depth, defense before motivation before impulse. Structural: in BPO, address the predominant dyads, the defensive one and the one it defends against. Together they tell the therapist where, in what order, and what to interpret.",
+    "w": [
+      "'Economic' is about affective energy, not cost; 'structural' isn't only id-ego-superego here.",
+      "Speed, clarity and depth are not the three principles.",
+      "Genetic material, dreams and the contract aren't the principles."
+    ],
+    "k": "Economic = dominant affect; Dynamic = surface to depth; Structural = predominant dyads.",
+    "h": "'Emotion Drives Structure'.",
+    "r": "Clarkin Ch3–Ch4"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Termination reactions by organization (Ch9). Which mapping is correct?",
+    "o": [
+      "Normal: moderate sadness and freedom; neurotic: excessive sadness and idealization; borderline: rage and abandonment fear; narcissistic: devaluation",
+      "Normal: no reaction at all; neurotic: rage; borderline: moderate sadness with freedom; narcissistic: clinging",
+      "Normal: devaluation of the therapist; neurotic: panic; borderline: freedom and appreciation; narcissistic: guilt",
+      "All organizations show the same mild sadness at termination, so the reaction carries no diagnostic information about the patient"
+    ],
+    "e": "Chapter 9: Normal organization: moderate sadness and loss with freedom, appreciation and readiness to go on. Neurotic: excessive sadness, idealization, feeling unworthy, clinging, a mild pathological mourning. Borderline: the absence felt as an attack, rage destroying the good image, abandonment fear and emptiness. Narcissistic: immediate devaluation, no apparent reaction, 'locking the therapist in the closet'.",
+    "w": [
+      "These reactions are scrambled; normal isn't 'no reaction' and borderline isn't calm.",
+      "Devaluation belongs to narcissistic organization, and freedom to normal.",
+      "Reactions differ by organization and carry diagnostic information."
+    ],
+    "k": "Termination: normal = moderate sadness + freedom; neurotic = excessive sadness; borderline = rage/abandonment; narcissistic = devaluation.",
+    "h": "Sad-free, too-sad, mad, 'what sad?'",
+    "r": "Clarkin Ch9"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Which statement about medication in TFP is consistent across Ch5 and Ch10?",
+    "o": [
+      "Medication targets specific symptoms or comorbid episodes, and its transference meanings are explored",
+      "Medication is forbidden in TFP, because it would interfere with the transference",
+      "Every borderline patient must take SSRIs before psychotherapy can begin",
+      "Medication replaces interpretation during crises, and the transference is then left aside"
+    ],
+    "e": "Chapter 5 presents Soloff's symptom-targeted algorithm: medication aimed at specific target symptoms, one drug at a time, with the patient's conscious beliefs, transference and countertransference around medication explored. Chapter 10 adds that true major depression or drug-induced psychosis call for biological management. Medication is used, but its meanings are part of the therapy.",
+    "w": [
+      "Medication isn't forbidden in TFP; it targets specific symptoms, and its meanings are explored.",
+      "Not every patient needs SSRIs; medication follows target symptoms in Soloff's algorithm.",
+      "Transference meanings are explored, not set aside."
+    ],
+    "k": "Medication in TFP: symptom-targeted, one drug at a time, and its transference meanings explored.",
+    "h": "Pills have meanings too.",
+    "r": "Clarkin Ch5, Ch10"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "In both the 'subway' vignette (Ch3) and Mr. B's Russian roulette (Ch8), the therapist interpreted that:",
+    "o": [
+      "The patient had split the wish to live and the wish to die, putting the life-wanting part in the therapist",
+      "The patient was psychotic and needed antipsychotic medication before therapy",
+      "The therapist had failed and should refer the patient to another clinician",
+      "The patient wanted to punish his or her family, so the family had to be brought into the sessions"
+    ],
+    "e": "In both cases, the therapist interpreted a split between the wish to live and the wish to die, with the life-wanting part placed in the therapist. In Chapter 3: 'I want you to be alive… both parts are in you.' In Chapter 8, Dr. F represented Mr. B's wish to live, while Cheryl, the dominatrix, held his destructive side. Interpreting the externalized split returns both parts to the patient.",
+    "w": [
+      "Neither patient was psychotic; both externalized a conflict between living and dying.",
+      "Neither therapist referred the patient on; both interpreted the externalized split.",
+      "The interpretation concerned the split, not family punishment."
+    ],
+    "k": "In suicidal enactments, interpret the split: the patient puts the life-wanting part in the therapist.",
+    "h": "'I hold your wish to live; it's yours, take it back.'",
+    "r": "Clarkin Ch3, Ch8"
+  },
+  {
+    "t": "Synthesis",
+    "d": 3,
+    "q": "Which pair from the book shows that the SAME behavior can carry different meanings, so a manual cannot prescribe every move?",
+    "o": [
+      "Unrealistic pursuits (grandiosity or self-defeat, Ch8) and social timidity (paranoid caution or narcissistic reticence, Ch1)",
+      "Fee increases (Ch10) and the twice-weekly schedule (Ch6), which always mean the same thing",
+      "Clozapine and lithium in Table 5–2, which treat the same target symptoms",
+      "Twice-weekly and 45-minute sessions (Ch6), which have one fixed meaning for all patients"
+    ],
+    "e": "Chapter 1 notes that the same surface behaviour, such as social timidity, can reflect very different structures: paranoid cautiousness or narcissistic reticence. Chapter 8 notes that an unrealistic pursuit may reflect grandiosity or a self-defeating dynamic. So similar behaviour can have different dynamics, and a manual cannot prescribe every move; each case must be understood individually.",
+    "w": [
+      "Fee increases and schedules aren't the examples used.",
+      "Medication targets are not the examples of differing meanings.",
+      "The frame examples don't show differing dynamics."
+    ],
+    "k": "Same behaviour, different structures: social timidity (paranoid vs narcissistic), unrealistic pursuits (grandiosity vs self-defeat).",
+    "h": "One surface, many depths.",
+    "r": "Clarkin Ch1, Ch8"
+  }
+]

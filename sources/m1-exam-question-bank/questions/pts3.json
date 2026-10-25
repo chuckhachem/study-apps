@@ -1,0 +1,582 @@
+[
+  {
+    "t": "The assessment interview",
+    "d": 1,
+    "q": "According to the course, why is the assessment interview the single most important means of data collection?",
+    "o": [
+      "Without it most test results are meaningless, and it is the main route to rapport",
+      "It is the only method that produces normed, objective scores for comparison",
+      "It replaces the need for behavioral observation and for formal testing",
+      "It is the fastest and cheapest procedure available to any clinician"
+    ],
+    "e": "The course calls the assessment interview the single most important means of data collection for giving context to a psychological evaluation. Without interview data, most test results are meaningless. The interview also yields information that may be unobtainable otherwise: behavioral observations, idiosyncratic features of the client and the person's reaction to the current life situation. In addition, interviews are the primary means of developing rapport.",
+    "w": [
+      "Normed objective scores come from standardized tests, not interviews.",
+      "The interview gives context to tests and observation; it does not replace them.",
+      "Speed and cost are not the reasons given."
+    ],
+    "k": "Interview = context for all test data, unique observations and the main route to rapport.",
+    "h": "Scores without an interview are numbers without a story.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 The assessment interview"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "How does an interview differ from a conversation, according to the course?",
+    "o": [
+      "It has a clear sequence organized around relevant themes to reach defined goals, directed by the interviewer",
+      "It has no structure, so the client can drift freely",
+      "It is led entirely by the client, without control by the interviewer",
+      "It avoids discussing the client's problems to protect rapport"
+    ],
+    "e": "An interview is sometimes mistaken for a conversation, but it typically has a clear sequence and is organized around specific, relevant themes because it aims at defined goals. Its general objectives: gather information not easily obtained otherwise; establish a relationship conducive to obtaining it; develop greater understanding of the problems in both interviewer and interviewee; and provide direction and support. The interviewer must know the areas to cover and direct and control the interaction.",
+    "w": [
+      "Interviews vary in structure, but all are organized around goals.",
+      "The interviewer directs and controls the interaction.",
+      "Understanding the client's problems is a central objective."
+    ],
+    "k": "Interview = goal-directed, sequenced, theme-organized exchange that the interviewer directs.",
+    "h": "A conversation wanders; an interview has a destination.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 The assessment interview"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "Why were structured and semi-structured interviews developed, according to the course?",
+    "o": [
+      "Unstructured interviews were widely distrusted for their reliability and validity",
+      "Unstructured interviews produced too little rapport with clients",
+      "Clients refused to answer open questions",
+      "Unstructured interviews required expensive equipment"
+    ],
+    "e": "Unstructured formats offer flexibility, possibly higher rapport, the chance to see how clients organize their responses and to explore unique history. However, they have been frequently criticized, leading to widespread distrust of their reliability and validity. Highly structured and semi-structured interviews were therefore developed: they have sound psychometric qualities, can be used in research and can be administered by less trained personnel.",
+    "w": [
+      "Unstructured formats may actually allow higher rapport.",
+      "Client refusal is not the reason given.",
+      "Equipment cost is not the issue."
+    ],
+    "k": "Structured interviews answer the reliability/validity problems of unstructured ones; they also suit research and less trained staff.",
+    "h": "Structure buys reliability.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 The assessment interview"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "How do client-centered and behavioral interviewers typically differ in style, according to the course?",
+    "o": [
+      "Client-centered interviewers are nondirective; behavioral interviews are relatively structured",
+      "Client-centered interviewers use rigid checklists; behavioral ones are nondirective",
+      "Both use identical, fully structured formats",
+      "Behavioral interviewers avoid asking about specific behaviors"
+    ],
+    "e": "Interview style is strongly influenced by theoretical orientation. Client-centered interviewers tend to be nondirective and avoid highly structured questions, consistent with the belief that people have the inner ability to change; the goal is a relationship that enhances self-change. Behavioral interviews assume change occurs through specific external influences and consequences, so they are relatively structured, aiming at specific information to design strategies for altering external conditions.",
+    "w": [
+      "This reverses the client-centered and behavioral styles.",
+      "Interview styles differ according to theoretical orientation.",
+      "Behavioral interviews seek specific behavioral information."
+    ],
+    "k": "Client-centered = nondirective (inner capacity for change); behavioral = structured (change via external conditions).",
+    "h": "Rogers listens; Skinner asks.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 General considerations"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "According to the course (Othmer & Othmer, 1994), what does a diagnostic interview involve?",
+    "o": [
+      "Diagnostic clues → criteria → psychiatric history → diagnosis with prognosis",
+      "Free association with no questions about specific symptoms",
+      "Administering an IQ test and deriving a diagnosis from the score",
+      "Asking the client which diagnosis he or she would prefer to receive"
+    ],
+    "e": "The goal of a diagnostic interview is a specific DSM-5 diagnosis. The course describes a process in which the clinician develops diagnostic clues, considers them in relation to diagnostic criteria, takes a psychiatric history and, on this basis, develops a diagnosis with corresponding estimates of prognosis. Such an interview is directive, with careful attention to inclusion and exclusion criteria, and most likely in psychiatric or general medical settings. Other clinicians prefer less directive interviews on coping, supports and family dynamics.",
+    "w": [
+      "Free association is not a diagnostic interview procedure.",
+      "An IQ test is not an interview.",
+      "Diagnosis rests on criteria, not client preference."
+    ],
+    "k": "Diagnostic interview: clues → criteria → psychiatric history → diagnosis + prognosis; directive, inclusion/exclusion criteria.",
+    "h": "Clue, criteria, history, verdict.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 General considerations"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "Which interviewer qualities do most theoretical orientations agree are essential, according to the course?",
+    "o": [
+      "Sincerity, acceptance, understanding, interest, warmth, positive regard",
+      "Detachment, neutrality, strict control and emotional distance",
+      "Humor, frequent self-disclosure and early confrontation",
+      "Speed, efficiency, directiveness and a fixed list of questions"
+    ],
+    "e": "Good interviewing is hard to define because orientations differ in directiveness and in the information sought. Successful interviews depend less on what clinicians do or say than on expressing the proper attitude. Most orientations agree on essential relationship qualities: sincerity, acceptance, understanding, genuine interest, warmth and positive regard for the worth of the person. Without these qualities, clinicians are unlikely to achieve the goals of the interview, however those goals are defined.",
+    "w": [
+      "Detachment and strict control are not the shared essentials.",
+      "These are specific tactics, not the essential attitude.",
+      "These describe efficiency, not relationship qualities."
+    ],
+    "k": "Essential interviewer attitude: sincerity, acceptance, understanding, genuine interest, warmth, positive regard.",
+    "h": "Attitude before technique.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 General considerations"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "According to the studies cited in the course, how is the message received divided between facial expression, tone and content?",
+    "o": [
+      "55% facial expression, 38% tone, 7% content",
+      "7% facial expression, 38% tone, 55% content",
+      "33% each for facial expression, tone and content",
+      "80% content, 10% tone, 10% facial expression"
+    ],
+    "e": "Patients rate interviews higher when interviewers understand emotions that are only partially expressed, often indirectly through nonverbal behavior. Words are often inadequate to describe problem emotions, so interviewers infer them from paraverbal or nonverbal cues: eye contact can convey involvement, rigid posture defensiveness, and hand movements nervousness, intensity or relaxation. Studies cited estimate that the message received is 55% facial expression, 38% tone and only 7% content.",
+    "w": [
+      "This reverses facial expression and content.",
+      "The proportions given in the course are not equal.",
+      "Content is the smallest share, not the largest."
+    ],
+    "k": "Message received: 55% face, 38% tone, 7% words; read nonverbal emotion carefully.",
+    "h": "55-38-7: face, voice, words.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 General considerations"
+  },
+  {
+    "t": "The assessment interview",
+    "d": 2,
+    "q": "What does the course recommend about note-taking during an interview?",
+    "o": [
+      "A moderate amount, which captures detail and limits memory distortion",
+      "None at all, because note-taking always destroys rapport",
+      "Verbatim transcription of every word the client says",
+      "Notes written only after the client has left the room"
+    ],
+    "e": "Some argue that note-taking increases client anxiety, raises questions about anonymity, makes the client feel like an object under investigation and creates an unnatural atmosphere. Others reply that rapport is rarely lost solely through note-taking if the interviewer still attends to the client, and that ongoing notes capture more detail with less memory distortion than recording afterward. The course therefore recommends an intermediate amount. Audio or video recording requires explanation, assurance of confidentiality and signed consent.",
+    "w": [
+      "Rapport is rarely lost solely through note-taking.",
+      "Constant transcription would prevent attending to the client.",
+      "Recording afterward increases memory distortion and loses detail."
+    ],
+    "k": "Take a moderate amount of notes during the interview; recordings need explanation, confidentiality and signed consent.",
+    "h": "Some ink, mostly eyes.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 General considerations"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "Which preliminary issue may be handled by a secretary rather than the mental health practitioner, according to the course?",
+    "o": [
+      "Fee arrangements",
+      "The limits of confidentiality",
+      "The purpose of the interview",
+      "How the information will be used"
+    ],
+    "e": "During the initial phase the practitioner should: organize the room (lived in but not untidy, good lighting, seating at a comfortable distance, eye level roughly equal); introduce himself or herself and agree on forms of address; state the purpose and check the client's understanding; explain how information will be used; describe confidentiality and its limits, the right not to disclose and any release forms; explain the client's role, instruments and duration; and clarify fees. With the possible exception of fees, these should be handled by the practitioner.",
+    "w": [
+      "Confidentiality and its limits must be explained by the practitioner.",
+      "The purpose of the interview must be stated by the practitioner.",
+      "How information will be used must be explained by the practitioner."
+    ],
+    "k": "Preliminaries (room, introductions, purpose, use of info, confidentiality, roles/length, fees) belong to the practitioner — except possibly fees.",
+    "h": "Money can go to the front desk; the rest cannot.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Interview tactics: preliminaries"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "A very anxious client is being interviewed. Which approach does the course suggest at first?",
+    "o": [
+      "A more direct, structured approach, since ambiguity may increase anxiety",
+      "A completely unstructured approach to let anxiety emerge",
+      "Strong confrontation to break through defenses",
+      "Silence until the client speaks spontaneously"
+    ],
+    "e": "The degree of directiveness depends on theoretical and practical considerations. If time is limited, the interviewer must be direct. An ambiguous, unstructured approach may make an extremely anxious person even more anxious, while a direct approach may prove more effective. A passive, withdrawn client is also likely to need a more direct question-and-answer style at first. A less structured style encourages deeper self-exploration, shows the client's organizational abilities and may increase rapport and sensitivity to uniqueness.",
+    "w": [
+      "The course says ambiguity may make an anxious person more anxious.",
+      "Confrontation produces anxiety and requires rapport first.",
+      "Prolonged silence is an ambiguous, unstructured stance."
+    ],
+    "k": "Anxious or withdrawn clients and short time → more direct style; less structure aids self-exploration when tolerable.",
+    "h": "Anxious clients need handrails.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Directive versus nondirective interviews"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "What did Haas, Hendin and Singer (1987) argue about behavioral versus psychodynamic interviewing?",
+    "o": [
+      "Treating them as mutually exclusive is unproductive; combining them increases breadth and validity",
+      "Psychodynamic interviewing should replace behavioral interviewing",
+      "Behavioral interviewing makes psychodynamic interviewing unnecessary",
+      "Neither approach provides useful information"
+    ],
+    "e": "Behavioral interviews are structured, aiming at a comprehensive description of actual behaviors and relevant cognitions, attitudes and beliefs. Psychodynamic interviews are unstructured, investigating underlying motivations, hidden dynamics and information outside ordinary awareness. They are often seen as competing, but Haas, Hendin and Singer (1987) argued this either/or position is unnecessary and unproductive: each gives different information that compensates for the other's weaknesses, and using both increases breadth and validity across levels (public behavior, self-description, private symbolization).",
+    "w": [
+      "The authors argue for combining, not replacing.",
+      "Each provides information the other lacks.",
+      "Both approaches are presented as useful and complementary."
+    ],
+    "k": "Behavioral (observable behavior) and psychodynamic (hidden motives) interviewing complement each other; combine them.",
+    "h": "Two lenses see more than one.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Directive versus nondirective interviews"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "Which sequence of interview tactics does the course recommend?",
+    "o": [
+      "Open questions → facilitation, clarification, confrontation → closed questions",
+      "Closed questions → open-ended questions → confrontation at the end",
+      "Confrontation first → then facilitation → then open-ended questions",
+      "Direct closed questions only, kept the same throughout the interview"
+    ],
+    "e": "Most authors recommend beginning with open-ended questions and then, after observing responses, using more direct questions to fill gaps. In between come responses of intermediate directiveness: facilitating comments, requests for clarification, empathy and possibly confrontation with inconsistencies. Finally, direct closed-ended questions fill in what is missing. This flow between client-organized and clinician-directed responses should not be rigid but vary throughout the interview.",
+    "w": [
+      "Closed questions come last, to fill gaps.",
+      "Confrontation needs rapport and comes after open questions.",
+      "A purely closed format loses the advantages of open questions."
+    ],
+    "k": "Interview funnel: open → facilitate/clarify/empathize/confront → closed questions to fill gaps; applied flexibly.",
+    "h": "Open wide, then narrow down.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Sequence of interview tactics"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "What is a major advantage of open-ended questions in assessment, according to the course?",
+    "o": [
+      "Clients must comprehend, organize and express themselves with little structure",
+      "They always produce short, precise and easily scored answers",
+      "They prevent tangential, vague or overly detailed information",
+      "They can be scored against population norms like a standardized test"
+    ],
+    "e": "Open-ended questions require clients to comprehend, organize and express themselves with little outside structure; this is perhaps the only occasion in assessment that makes this demand, since most tests and structured interviews provide clear stimuli. Clients are then most likely to express significant but unusual features about themselves, and the clinician can note verbal fluency, assertiveness, tone, energy, hesitations and areas of anxiety, generating hypotheses. The drawback is a possible overabundance of detailed, vague or tangential information.",
+    "w": [
+      "Open questions can produce long, detailed answers.",
+      "They can actually produce vague or tangential information.",
+      "They are not normed like tests."
+    ],
+    "k": "Open questions reveal how clients organize themselves and surface unusual features; risk: vague or tangential overload.",
+    "h": "Give no map, see how they travel.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Sequence of interview tactics"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "Which statement is an example of facilitation, as described in the course?",
+    "o": [
+      "'Tell me more…' or 'Please continue…', or nodding",
+      "'Why did you do that?'",
+      "'You say you are calm, yet your hands are shaking.'",
+      "'What was your father's occupation?'"
+    ],
+    "e": "Responses of intermediate directiveness include facilitation, clarification, empathy and confrontation. Facilitation maintains or encourages the flow of conversation, verbally ('Tell me more…', 'Please continue…') or nonverbally (eye contact, nodding). Clarification brings implied material into the open, for example by asking for concrete examples such as a typical day. Empathic statements ('It must have been difficult for you') facilitate self-disclosure. Confrontation points out inconsistencies.",
+    "w": [
+      "'Why' questions should be avoided; they increase defensiveness.",
+      "This points out an inconsistency, so it is a confrontation.",
+      "This is a direct closed question used to fill gaps."
+    ],
+    "k": "Facilitation keeps the client talking ('Tell me more', nodding); clarification asks for specifics; empathy validates; confrontation notes inconsistencies.",
+    "h": "Facilitate = keep the river flowing.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Sequence of interview tactics"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 3,
+    "q": "When is a client most receptive to confrontation during assessment, according to the course?",
+    "o": [
+      "When it is posed hypothetically or as the interviewer's curiosity, with enough rapport",
+      "When it is a direct challenge early in the first minutes",
+      "When it is repeated forcefully until the client agrees",
+      "When it is delivered without any prior relationship"
+    ],
+    "e": "Interviewers may confront inconsistencies between what a person is and wants to be, what he says and does, or self-perception and the interviewer's experience, or challenge improbable content ('tall stories'). In assessment, confrontation seeks more in-depth information; in therapy, self-exploration and change. Because it can produce considerable anxiety, it should be used only if there is opportunity to work through that anxiety. Clients are most receptive when confrontations are hypothetical possibilities or curiosities, and rapport is required.",
+    "w": [
+      "Direct early challenges without rapport breed defensiveness.",
+      "Forceful repetition damages rapport and provokes defensiveness.",
+      "Confrontation requires a sufficient degree of rapport."
+    ],
+    "k": "Confront gently (hypothetical or curious tone), only with rapport and room to process the anxiety it creates.",
+    "h": "'I'm curious how both can be true…'",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Sequence of interview tactics"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 2,
+    "q": "Why does the course advise avoiding 'why' questions, and what alternative does it offer?",
+    "o": [
+      "They sound accusatory and invite intellectualizing; ask 'What is your understanding of…' instead",
+      "They are too open; ask only yes/no questions instead",
+      "They are too emotional; avoid all questions about causes",
+      "They are illegal in forensic settings; use written forms instead"
+    ],
+    "e": "'Why' questions can increase defensiveness: they may sound accusatory or critical and force clients to account for their behavior. Clients may also become intellectual, separating themselves from their emotions. The course suggests prefacing the question with 'What is your understanding of…' or 'How did it occur that…'. These options are more likely to produce a description rather than a justification and to keep clients centered on their emotions.",
+    "w": [
+      "The problem is defensiveness, not openness.",
+      "Causes can be explored through other phrasings.",
+      "Legality is not the reason given."
+    ],
+    "k": "Avoid 'why' (defensive, intellectualized); ask 'What is your understanding of…' or 'How did it occur that…'.",
+    "h": "Why accuses; how describes.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Avoidance of 'why' questions"
+  },
+  {
+    "t": "Interview tactics",
+    "d": 1,
+    "q": "How does the course recommend concluding an interview?",
+    "o": [
+      "Alert the client when 5 or 10 minutes remain, invite questions, then summarize themes",
+      "Stop abruptly when time is up to respect the schedule",
+      "Introduce a new sensitive topic in the last minute",
+      "End without summarizing to avoid influencing the client"
+    ],
+    "e": "Any interview is bound by time constraints. The interviewer can help by alerting the client when only 5 or 10 minutes remain, allowing both to focus on the final relevant information. There should also be an opportunity for the client to ask questions or make comments. At the end of an interview or assessment session, the interviewer may summarize the main themes and, if appropriate, make recommendations.",
+    "w": [
+      "An abrupt stop leaves no room for questions or a summary.",
+      "New sensitive topics should not open at the very end.",
+      "A summary of the main themes is recommended."
+    ],
+    "k": "Closing: give a 5–10-minute warning, allow questions/comments, summarize main themes and any recommendations.",
+    "h": "Warn, welcome questions, wrap up.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Concluding the interview"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "On what was the mental status examination originally modeled, and who introduced it into American psychiatry?",
+    "o": [
+      "The physical medical exam; Adolf Meyer, in 1902",
+      "The intelligence test; Alfred Binet, in 1905",
+      "The psychoanalytic session; Sigmund Freud, in 1900",
+      "The behavioral interview; John Watson, in 1913"
+    ],
+    "e": "The mental status exam was modeled after the physical medical exam: just as that exam reviews the major organ systems, the MSE reviews the major systems of psychiatric functioning (appearance, cognitive function, insight, etc.). Since Adolf Meyer introduced it into American psychiatry in 1902, it has become the mainstay of patient evaluation in most psychiatric settings, considered as essential to psychiatry as the physical examination is to general medicine.",
+    "w": [
+      "The MSE was not modeled on intelligence testing.",
+      "It was not modeled on the psychoanalytic session.",
+      "Watson is not linked to the MSE in the course."
+    ],
+    "k": "MSE = psychiatry's equivalent of the physical exam, introduced by Adolf Meyer (1902).",
+    "h": "Meyer's checkup for the mind.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Mental status evaluation"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "When is a brief mental status examination especially useful BEFORE formal testing, according to the course?",
+    "o": [
+      "To check that testing is appropriate, e.g. a disoriented client with memory impairment",
+      "To replace all psychological tests in outpatient settings",
+      "To measure IQ precisely against norms",
+      "To determine fees and insurance coverage"
+    ],
+    "e": "A brief MSE before assessment can determine whether formal testing is appropriate: a patient unable to tell where he or she is, with significant memory impairment, might find most instruments too difficult, causing needless distress. Brief screenings also guide case management such as hospitalization or close observation. MSE data can be integrated with background information. Psychologists use it less because interviews and tests cover these areas more precisely, but it is valuable in acute intakes when time is short.",
+    "w": [
+      "Tests cover these areas more precisely; the MSE does not replace them.",
+      "The MSE does not yield normed IQ scores.",
+      "Fees are not part of the MSE."
+    ],
+    "k": "Brief MSE first: is testing feasible? Also guides hospitalization or observation decisions and acute intakes.",
+    "h": "Screen before you test.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Mental status evaluation"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "How does the course distinguish mood from affect?",
+    "o": [
+      "Mood is the dominant emotion reported; affect is the outwardly projected range of emotions",
+      "Mood is observed by the clinician; affect is reported by the client",
+      "Mood and affect are synonyms",
+      "Mood refers to thinking; affect refers to behavior"
+    ],
+    "e": "In the MSE, mood refers to the dominant emotion reported during the interview, whereas affect refers to the client's outwardly projected range of emotions. Affect is inferred from the content of speech, facial expressions and body movements and judged by depth, intensity, duration and appropriateness; it may be cold or warm, labile, or blunted or flattened, as is characteristic of schizophrenia. Mood may be euphoric, hostile, anxious or depressed, and the examiner notes the congruence between mood and affect.",
+    "w": [
+      "This reverses the definitions of mood and affect.",
+      "The course distinguishes mood and affect clearly.",
+      "Both concern feeling, not thinking or behavior."
+    ],
+    "k": "Mood = what the client says he or she feels; affect = what the clinician sees expressed; check congruence.",
+    "h": "Mood is the climate reported; affect is the weather observed.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: feeling (affect and mood)"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "According to the course, which type of hallucination is most characteristic of schizophrenia, and which of organic brain syndromes?",
+    "o": [
+      "Auditory for schizophrenia; vivid visual for organic brain syndromes",
+      "Visual for schizophrenia; auditory for organic brain syndromes",
+      "Olfactory for both",
+      "Tactile for schizophrenia; auditory for organic syndromes"
+    ],
+    "e": "In assessing perception, the course says it can be diagnostically important to note any illusions or hallucinations. The presence of auditory hallucinations is most characteristic of those with schizophrenia, whereas vivid visual hallucinations are more characteristic of persons with organic brain syndromes. Hallucinations are listed in Figure 3.1 under thought content, alongside delusions, depressive ideation, suicidality, aggressiveness and homicidality.",
+    "w": [
+      "This reverses the two associations given in the course.",
+      "The course does not single out olfactory hallucinations.",
+      "The course links auditory hallucinations to schizophrenia."
+    ],
+    "k": "Auditory hallucinations → schizophrenia; vivid visual hallucinations → organic brain syndromes.",
+    "h": "Voices: psychosis; visions: brain.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: perception"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 3,
+    "q": "A client performs poorly on intellectual tasks yet has a good history of academic and occupational achievement. What does the course say might be suspected?",
+    "o": [
+      "Organicity (an organic condition)",
+      "Intellectual disability",
+      "Malingering, automatically",
+      "Normal functioning, since history is irrelevant"
+    ],
+    "e": "Intellectual functioning must be judged in the context of education, socioeconomic status and culture. If low intellectual functioning matches a general pattern of poor academic and occupational achievement, a diagnosis of intellectual disability might be supported. However, if a person performs poorly on intellectual tests yet has a good history of achievement, organicity might be suspected. Assessment covers reading and writing comprehension, fund of knowledge, arithmetic and the interpretation of abstract language such as proverbs.",
+    "w": [
+      "Intellectual disability fits a lifelong pattern of poor achievement, not a good history.",
+      "The course does not jump to malingering here.",
+      "The discrepancy with history is precisely the clue."
+    ],
+    "k": "Low scores + lifelong low achievement → intellectual disability; low scores + good achievement history → suspect organicity.",
+    "h": "A fall from a high history suggests the brain.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: intellectual functioning"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "According to the course, which type of disorientation is MOST frequent, and which is most severe?",
+    "o": [
+      "Time is most frequent; disorientation for person signals a severe condition",
+      "Person is most frequent; disorientation for time signals a severe condition",
+      "Place is most frequent; disorientation for time signals a severe condition",
+      "All three are equally frequent and indicate the same level of severity"
+    ],
+    "e": "Orientation concerns knowing who one is (person), where one is (place) and when events occur (time). Clinical observation shows the most frequent disorientation is for time; disorientation for place and person occurs less often. When disorientation occurs for place, and especially for person, the condition is likely relatively severe. Disorientation is most consistent with organic conditions. Full orientation is abbreviated 'oriented X3'.",
+    "w": [
+      "Person disorientation is the least frequent and most severe.",
+      "Time disorientation is the most common, not the most severe.",
+      "The course describes clear differences in frequency and severity."
+    ],
+    "k": "Disorientation: time (most common) < place < person (most severe); mostly organic; full orientation = 'oriented ×3'.",
+    "h": "Time slips first; losing yourself is last and worst.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: orientation"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "In the MSE, what does 'sensorium' refer to?",
+    "o": [
+      "Integrity of the senses and level of consciousness, clouded to clear",
+      "The client's sense of humor and capacity to enjoy a joke",
+      "The client's moral sense of right and wrong in daily life",
+      "The client's vocabulary level and range of expressive language"
+    ],
+    "e": "Related to orientation is the sensorium: how intact the client's physical sensory processes are in receiving and integrating information (hearing, smell, vision, touch), ranging from clouded to clear. Can the client attend to the outside world, or are these processes interrupted (unusual smells, voices, tingling skin)? Sensorium also refers to level of consciousness, from hyperarousal and excitement to drowsiness and confusion. Disorders of sensorium often reflect organic conditions but may also be consistent with psychosis.",
+    "w": [
+      "Humor is not part of the sensorium.",
+      "Moral judgment is not what sensorium means.",
+      "Vocabulary belongs to speech and language."
+    ],
+    "k": "Sensorium = integrity of the senses and level of consciousness (clouded ↔ clear); disturbances suggest organic conditions or psychosis.",
+    "h": "Senses on or senses fogged?",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: orientation and sensorium"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "Which task assesses SHORT-term memory in the MSE, according to the course?",
+    "o": [
+      "Recalling recent events (the last meal) or repeating digits",
+      "Naming three major heads of state since 1900",
+      "Recalling the year of high school graduation",
+      "Explaining the meaning of a familiar proverb"
+    ],
+    "e": "Memory, attention and concentration are considered together. Long-term memory is assessed through general information (important dates, major cities, heads of state since 1900) and recall of major life events compared with records (graduation year, date of marriage). Short-term memory is assessed by recalling recent events (the most recent meal, how the client got to the appointment) or by repeating digits forward and backward. Serial sevens assess distractibility; anxious, preoccupied clients struggle with them and with digits, especially backward.",
+    "w": [
+      "Heads of state test long-term general information.",
+      "Graduation year tests long-term recall of life events.",
+      "Proverbs test abstract reasoning, not memory."
+    ],
+    "k": "Short-term memory: recent events, digits forward/backward; long-term: general knowledge and life events; serial sevens: attention.",
+    "h": "Breakfast is short-term; graduation is long-term.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: memory, attention and concentration"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 3,
+    "q": "A client keeps jumping rapidly from one topic to another during the interview. In the MSE, this observation belongs to:",
+    "o": [
+      "Thought process (e.g. flight of ideas)",
+      "Thought content (e.g. delusions)",
+      "Orientation",
+      "Insight and judgment"
+    ],
+    "e": "The course divides consideration of thoughts into thought content and thought processes. Thought content concerns what is thought: delusions (suggesting psychosis, but also possible in dementia or chronic amphetamine use), obsessions and compulsions, suicidality. Thought processes concern how thinking flows: rapid changes of topic may reflect flight of ideas; there may be difficulty producing ideas, excessive irrelevant associations or aimless rambling. Figure 3.1 lists goal-directed, logical, tangential, circumstantial, loose and flight of ideas under thought process.",
+    "w": [
+      "Content concerns what is thought, such as delusions.",
+      "Orientation concerns person, place and time.",
+      "Insight concerns understanding of one's own difficulties."
+    ],
+    "k": "Thought PROCESS = how ideas flow (flight of ideas, tangential, loose); thought CONTENT = what is thought (delusions, suicidality).",
+    "h": "Process is the road; content is the cargo.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: thought content and processes; Figure 3.1"
+  },
+  {
+    "t": "Mental status examination",
+    "d": 2,
+    "q": "Which questions does the course associate with assessing insight and judgment?",
+    "o": [
+      "Why he thinks he was referred, how he explains it, whom he blames",
+      "What the client ate for breakfast this morning",
+      "Whether the client can repeat a list of digits backward",
+      "Which hand the client uses for writing and drawing"
+    ],
+    "e": "Clients vary in their ability to interpret the meaning and impact of their behavior on others, to provide for themselves, evaluate risks and make plans. Adequate insight and judgment involve developing and testing hypotheses about one's own and others' behavior. Clients should be assessed on why they believe they were referred, their attitudes toward their difficulties, how they relate past history to current problems, where they place the blame, and how effectively they solve problems and make decisions.",
+    "w": [
+      "Recent meals test short-term memory, not insight.",
+      "Digits backward test attention and working memory.",
+      "Handedness is not an insight question."
+    ],
+    "k": "Insight/judgment: understanding of referral and problems, attribution of blame, risk evaluation, planning and decision-making.",
+    "h": "Does the client see the problem and own a plan?",
+    "r": "Psychological Tools & Strategies course – Ch. 3 MSE: insight and judgment"
+  },
+  {
+    "t": "Interpreting interview data",
+    "d": 2,
+    "q": "Interview material is well supported throughout the assessment but unrelated to the referral question. Should it go in the report, according to the course?",
+    "o": [
+      "No; it is left out unless it relates to the purpose of the referral",
+      "Yes; all well-supported material must be reported in full",
+      "Yes, but only within the recommendations section of the report",
+      "No, because interview data are never included in a report"
+    ],
+    "e": "The interview is the primary instrument for developing tentative hypotheses, so interview data can be evaluated by checking whether hypotheses are supported outside the interview. Interview data supported by test scores can be emphasized in the report if relevant to the referral question. However, even material highly supported throughout the interview process should not be included unless it relates directly to the purpose of the referral. Interview data are raw data to be interpreted, like test data.",
+    "w": [
+      "Relevance to the referral question decides inclusion.",
+      "Irrelevant material does not belong in recommendations either.",
+      "Interview data are reported when relevant."
+    ],
+    "k": "Report only what bears on the referral question, even if other findings are well supported.",
+    "h": "Relevant or out.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Interpreting interview data"
+  },
+  {
+    "t": "Interpreting interview data",
+    "d": 2,
+    "q": "What advantage of structured interviews does the course highlight?",
+    "o": [
+      "Objective ratings on consistent areas, comparable across cases",
+      "Maximal freedom for the clinician to follow personal intuition",
+      "They require more clinical expertise than any other method",
+      "They remove the need to build rapport with the client"
+    ],
+    "e": "Standardized tests and structured interviews were developed to reduce the problems of open-ended interviews. They structure the stimuli presented and reduce the (potentially biased) role of clinical judgment. Because structured interviews generate objective ratings on consistent areas, they allow comparisons between one case or population and the next. They vary in degree of structure, in the expertise required, and in whether they are global screening procedures or tools for specific diagnoses.",
+    "w": [
+      "They deliberately limit reliance on intuition.",
+      "Some can be administered by less trained personnel.",
+      "Rapport remains important in every interview."
+    ],
+    "k": "Structured interviews reduce biased judgment and give consistent, comparable ratings.",
+    "h": "Same questions, comparable answers.",
+    "r": "Psychological Tools & Strategies course – Ch. 3 Structured interviews"
+  }
+]

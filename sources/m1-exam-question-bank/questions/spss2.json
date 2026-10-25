@@ -1,0 +1,782 @@
+[
+  {
+    "t": "SPSS basics",
+    "d": 1,
+    "q": "Which three windows does a typical SPSS session always have, according to the SPSS appendix?",
+    "o": [
+      "The Data Editor, the Syntax Editor and the Viewer (output window)",
+      "The Data Editor, the Chart Builder and the Pivot Table window",
+      "The Variable View, the Script window and the Help window",
+      "The Syntax Editor, the Excel window and the Notepad window"
+    ],
+    "e": "The appendix describes three windows. The Data Editor is where data are entered, modified or deleted; closing it quits SPSS. The Syntax Editor is a simple text editor where analysis commands are typed and run with Run → Current (Ctrl+R). The Viewer appears after an analysis and holds the results on the right, with an automatically generated table of contents on the left; the output can be printed or copied into a word processor.",
+    "w": [
+      "The Chart Builder and pivot tables are tools, not the three core windows.",
+      "Variable View is a tab of the Data Editor, and Help is not one of the three windows.",
+      "Excel and Notepad are separate programs, not SPSS windows."
+    ],
+    "k": "SPSS windows: Data Editor (data), Syntax Editor (commands, Ctrl+R) and Viewer (results with table of contents).",
+    "h": "Data in, commands typed, results out.",
+    "r": "SPSS appendix (French course notes) – 1.2 The SPSS windows"
+  },
+  {
+    "t": "SPSS basics",
+    "d": 2,
+    "q": "When you close the Data Editor, SPSS asks whether to save the data. What does the appendix advise, and why?",
+    "o": [
+      "Always answer no, because saving creates a useless extra copy that a text editor such as Notepad can no longer read",
+      "Always answer yes, because otherwise the original data file is deleted",
+      "Answer yes only if you ran a select if command, so the outliers are permanently removed",
+      "Answer no, because SPSS automatically saves a backup every ten minutes"
+    ],
+    "e": "The appendix states that when you close the Data Editor you quit SPSS, and that SPSS always asks whether to save the data. Its advice is to always answer no: saving would create an extra copy of your data file that serves no purpose and, being in SPSS format, can no longer be read by a plain text editor such as Notepad. The original text data file and your saved syntax script are enough to rerun everything.",
+    "w": [
+      "Declining to save does not delete the original data file.",
+      "select if filters without deleting; the appendix never advises saving filtered data.",
+      "The appendix mentions no automatic backup; the reason is the useless, unreadable copy."
+    ],
+    "k": "Do not save the data on closing SPSS: it only makes a useless SPSS-format copy unreadable in Notepad; keep the text file and the script.",
+    "h": "Keep the raw text file and the script; refuse the extra copy.",
+    "r": "SPSS appendix (French course notes) – 1.2 The SPSS windows"
+  },
+  {
+    "t": "SPSS basics",
+    "d": 2,
+    "q": "A researcher measures each participant's reaction time three times. How should the data be organized in SPSS, according to the appendix?",
+    "o": [
+      "One row per participant, with three columns, one for each observation",
+      "Three rows per participant, one for each observation, in a single column",
+      "One column per participant, with the three observations in successive rows",
+      "Three separate data files, one for each observation"
+    ],
+    "e": "The appendix's rules: each row represents a participant; if a participant was observed several times, there must be several columns, one per observation. Each column represents a variable: the independent variables (experimental condition, participant number, sex, age) and the dependent variable(s), the measurement results. You may use as many columns as you like, including information you will not use, and the order of the columns does not matter.",
+    "w": [
+      "Repeated observations of one participant go in separate columns on the same row.",
+      "Rows, not columns, represent the participants.",
+      "All observations belong in one file, organized by rows and columns."
+    ],
+    "k": "SPSS layout: one row per participant; repeated observations as separate columns; each column a variable; column order irrelevant.",
+    "h": "People across, measures down? No: people down, measures across.",
+    "r": "SPSS appendix (French course notes) – 1.3 Organizing data in SPSS"
+  },
+  {
+    "t": "SPSS basics",
+    "d": 2,
+    "q": "Which column name is acceptable under the appendix's rules for SPSS column names?",
+    "o": [
+      "anxiet2",
+      "2anxiety",
+      "anx.score",
+      "anxietyscore"
+    ],
+    "e": "The appendix recommends meaningful names (sex, age, iq) rather than meaningless ones (toto, v1), but imposes three constraints: no special symbols such as the period, comma or hash sign; no more than eight letters; and the name must begin with a letter. 'anxiet2' has seven characters, starts with a letter and has no symbol. '2anxiety' starts with a digit, 'anx.score' contains a period, and 'anxietyscore' has twelve characters.",
+    "w": [
+      "A name must begin with a letter, not a digit.",
+      "Special symbols such as the period are not allowed.",
+      "Names cannot exceed eight characters in the version taught."
+    ],
+    "k": "Column names: meaningful, start with a letter, at most eight characters, no symbols (period, comma, #).",
+    "h": "Letter first, eight max, no dots.",
+    "r": "SPSS appendix (French course notes) – 1.3 Organizing data in SPSS"
+  },
+  {
+    "t": "Syntax rules",
+    "d": 2,
+    "q": "Why does the appendix recommend working in syntax mode rather than with the menus?",
+    "o": [
+      "Syntax gives access to more commands and can be saved and reused on different data files",
+      "Syntax is the only way to open the Data Editor",
+      "Menus produce wrong statistical results, while syntax does not",
+      "Syntax does not require any data file to be opened"
+    ],
+    "e": "SPSS works either with menus or in syntax mode. The appendix argues that menus, though they look intuitive, are harder to learn (dozens of clicks), do not give access to all SPSS commands, and cannot record a sequence of clicks to repeat an analysis on several files. Syntax requires typing commands in a rigid format, but it is more flexible, offers more commands, and a script can be saved, modified and reused on different data files.",
+    "w": [
+      "The Data Editor opens automatically when SPSS starts.",
+      "Menus and syntax run the same procedures; the difference is flexibility and reusability.",
+      "Every analysis needs data, opened first with data list."
+    ],
+    "k": "Syntax beats menus: more commands available, and scripts can be saved, edited and rerun on other data files.",
+    "h": "Write it once, run it forever.",
+    "r": "SPSS appendix (French course notes) – 1.4 Syntax rules"
+  },
+  {
+    "t": "Syntax rules",
+    "d": 2,
+    "q": "Which statement breaks the appendix's rules for writing SPSS syntax?",
+    "o": [
+      "Options can be placed anywhere on the command line without a slash",
+      "Every command must end with a period",
+      "Each new command starts at the beginning of a line, with no space before it",
+      "File names must be written between quotation marks"
+    ],
+    "e": "The appendix's syntax rules: each new command begins at the start of a line, with no preceding space; options following a command begin on the next line, preceded by at least one space and a slash (/); every command must absolutely end with a period; file names are written in quotation marks; SPSS does not distinguish upper- and lower-case letters; and blank lines between commands are ignored but improve readability. A command is run by selecting it and choosing Run → Current, Ctrl+R or the ► button.",
+    "w": [
+      "Ending each command with a period is a mandatory rule.",
+      "Commands start at the beginning of a line with no space; this is a rule.",
+      "Quotation marks around file names are required."
+    ],
+    "k": "Syntax: command at line start; options on next line after a space and '/'; final period; file names in quotes; case-insensitive.",
+    "h": "Start flush, slash the options, end with a dot.",
+    "r": "SPSS appendix (French course notes) – 1.4 Syntax rules"
+  },
+  {
+    "t": "Syntax rules",
+    "d": 2,
+    "q": "A student runs data list file=\"C:\\data\\qi.dat\" list /groupe qi. and sees nothing in the Viewer. What does the appendix say?",
+    "o": [
+      "This is normal: data list produces no output, and the data appear in the Data Editor after running execute",
+      "The command failed, because data list always prints a summary table",
+      "The file must be renamed with an .sav extension before it can be read",
+      "The column names must be typed in capital letters for the command to work"
+    ],
+    "e": "data list opens a data file: you give the full location and name of the file in quotes, the keyword list, then, on the next line after a space and a slash, the names of the columns, ending with a period. If it works, nothing appears in the Viewer, because the command produces no output. After you run execute, which empties the queue of pending commands, the data appear in the Data Editor. data list is always run first.",
+    "w": [
+      "data list produces no output in the Viewer even when it works.",
+      "The appendix opens plain .dat or .txt files directly.",
+      "SPSS does not distinguish upper- and lower-case letters."
+    ],
+    "k": "data list opens the file silently; run execute to empty the command queue and see the data in the Data Editor.",
+    "h": "Silent open, then execute.",
+    "r": "SPSS appendix (French course notes) – 1.5 Opening a data file"
+  },
+  {
+    "t": "Syntax rules",
+    "d": 1,
+    "q": "What does the SPSS command execute. do?",
+    "o": [
+      "It empties the queue and runs all pending commands now",
+      "It computes descriptive statistics for all columns",
+      "It deletes the outliers from the data file",
+      "It saves the syntax script to disk"
+    ],
+    "e": "The appendix explains that SPSS sometimes places commands in a waiting queue. The execute command, which has no options, empties this queue and runs all pending commands immediately. That is why execute follows data list: without it, the data may not yet appear in the Data Editor. Descriptive statistics come from examine, and outliers are filtered with select if.",
+    "w": [
+      "Descriptive statistics come from the examine command.",
+      "Outliers are filtered (not deleted) with select if.",
+      "Scripts are saved through the File menu, not with execute."
+    ],
+    "k": "execute = run all queued commands now; it has no options and usually follows data list.",
+    "h": "Execute = 'do it now'.",
+    "r": "SPSS appendix (French course notes) – 2.0 Some SPSS commands"
+  },
+  {
+    "t": "Examining data",
+    "d": 2,
+    "q": "In examine variable=qi by groupe /statistics=descriptive /plot=none., what do 'by groupe' and '/plot=none' do?",
+    "o": [
+      "'by groupe' gives statistics separately for each subgroup; '/plot=none' suppresses the rather crude default graphs",
+      "'by groupe' sorts the data file; '/plot=none' deletes all existing graphs",
+      "'by groupe' runs a t-test between groups; '/plot=none' hides the statistics table",
+      "'by groupe' removes outliers by group; '/plot=none' prevents the data from being displayed"
+    ],
+    "e": "examine produces descriptive statistics: mean, variance, lowest and highest scores and more, in a long output. The optional 'by' section requests statistics for different subgroups, as in the IQ example comparing city (1) and country (2) residents. The /plot=none option tells the command not to produce graphs, which the appendix calls rather crude; better graphs are made through the menus.",
+    "w": [
+      "'by' splits the statistics by group; it does not sort the file.",
+      "examine describes; it does not run a significance test.",
+      "Outliers are filtered with select if, not with examine."
+    ],
+    "k": "examine variable=X by G /statistics=descriptive /plot=none → descriptives per subgroup, no crude graphs.",
+    "h": "'by' splits, 'none' skips the ugly plots.",
+    "r": "SPSS appendix (French course notes) – 2.0 examine"
+  },
+  {
+    "t": "Examining data",
+    "d": 2,
+    "q": "Which command gives the cut-off values separating the data into quartiles, according to the appendix?",
+    "o": [
+      "frequencies variable=score /ntile=4 /format=notable.",
+      "examine variable=score /ntile=4 /plot=none.",
+      "select if score /ntile=4.",
+      "compute score = ntile(4)."
+    ],
+    "e": "The appendix explains that it is sometimes useful to divide the data into quantiles; for quartiles (4), the lowest 25% of scores form one group, the next 25% another, and so on. To obtain the values separating the groups, it uses frequencies with the /ntile option set to the number of divisions, and /format=notable to avoid printing the full frequency table.",
+    "w": [
+      "examine does not take the /ntile option in the appendix.",
+      "select if filters rows; it does not compute quantiles.",
+      "compute creates new columns from formulas; it is not the quantile command."
+    ],
+    "k": "Quantile cut-offs: frequencies variable=X /ntile=k /format=notable (k = 4 for quartiles).",
+    "h": "N-tiles live in frequencies.",
+    "r": "SPSS appendix (French course notes) – 2.0 Quantiles"
+  },
+  {
+    "t": "Examining data",
+    "d": 2,
+    "q": "What does select if qi < 280. do, according to the appendix?",
+    "o": [
+      "It keeps only rows with qi below 280 for the following analyses, without deleting anything from the original file",
+      "It permanently deletes every row with qi of 280 or more from the data file",
+      "It replaces values of 280 or more with the mean of the column",
+      "It creates a new column flagging values of 280 or more"
+    ],
+    "e": "select if selects a subset of rows; later analyses use only those rows. It is used to exclude outliers without physically deleting them from the file, a form of filtering. Conditions can be >, <, >=, <= or <> (different from). Because nothing is erased from the original file, you must rerun the select if command each time you reopen the file. Several select if commands can be chained to filter on several criteria.",
+    "w": [
+      "Nothing is deleted from the original file; it is a filter.",
+      "No values are replaced; rows are simply excluded.",
+      "No column is created; compute would be needed for that."
+    ],
+    "k": "select if filters rows for later analyses without deleting them; rerun it whenever the file is reopened.",
+    "h": "Filter, don't erase.",
+    "r": "SPSS appendix (French course notes) – 2.0 select if"
+  },
+  {
+    "t": "Examining data",
+    "d": 2,
+    "q": "Why does the appendix make a histogram first, before any other analysis?",
+    "o": [
+      "To spot outliers to filter; most reliable with about 100 observations per group",
+      "To test whether the means of two groups differ significantly from each other",
+      "To compute the standard error of the mean before the descriptive statistics",
+      "To check that every column name has eight letters or fewer before analysis"
+    ],
+    "e": "The appendix calls the histogram very useful for detecting outliers that should be filtered, and says it is usually done first as a precaution; if no anomaly appears, it will probably not be used again. With several groups, panels give one histogram per group. A histogram is more reliable with about a hundred observations per group; with only 15 observations, as in the family-names example, it is impossible to tell whether outliers exist.",
+    "w": [
+      "Significance between means requires a test such as the t-test.",
+      "The standard error appears in examine's output and in error bars.",
+      "Column names are checked in data list, not with a graph."
+    ],
+    "k": "Histogram first: screen for outliers to filter; reliable with about 100 observations per group.",
+    "h": "Look before you test.",
+    "r": "SPSS appendix (French course notes) – 2.1 Graphs: histograms"
+  },
+  {
+    "t": "Examining data",
+    "d": 2,
+    "q": "When building a graph of group means, which error bars does the appendix tell you to display?",
+    "o": [
+      "The standard error of the mean",
+      "The range of the scores",
+      "The 99% confidence interval",
+      "The interquartile range"
+    ],
+    "e": "After checking the raw data for outliers, the next step is to summarize the data with a graph of means (bar, dot or line, which all work on the same principle). The score goes on the vertical axis, 'Bars represent' must show 'Means', and the group variable goes on the horizontal axis. Before clicking OK, open the Error Bars tab, tick Display Error Bars and choose 'Standard Error of mean'.",
+    "w": [
+      "The range is not what the appendix's error bars show.",
+      "The appendix chooses the standard error, not a 99% confidence interval.",
+      "The interquartile range belongs to boxplots, not to mean graphs."
+    ],
+    "k": "Graph of means (bar, dot, line): means on the vertical axis, groups on the horizontal axis, error bars = standard error of the mean.",
+    "h": "Means with ± 1 SE.",
+    "r": "SPSS appendix (French course notes) – 2.1 Graphs of means"
+  },
+  {
+    "t": "Worked examples",
+    "d": 3,
+    "q": "In the coffee-bag example, after filtering outliers the appendix reports 'the mean weight is 63.5 ± 1.1 kg' and 'the standard deviation is 15.2 kg'. What does ± 1.1 represent?",
+    "o": [
+      "The standard error of the mean",
+      "The standard deviation of the weights",
+      "The range of the weights",
+      "The number of outliers removed"
+    ],
+    "e": "The file held 203 bag weights. A histogram revealed one value above 500 kg, impossible for a bag and clearly a data-entry error, filtered with select if valeur < 500; two more isolated points (above 125 kg and near 0 kg) were filtered with select if valeur < 125 and select if valeur > 2. examine on the 200 remaining cases gave a mean of 63.51 with a standard error of 1.07, hence 63.5 ± 1.1 kg, while the standard deviation was 15.2 kg.",
+    "w": [
+      "The standard deviation is reported separately as 15.2 kg.",
+      "The range is the maximum minus the minimum, a much larger value.",
+      "Three outliers were removed; ± 1.1 is a measure of precision."
+    ],
+    "k": "Coffee example: 203 bags, 3 outliers filtered, 200 cases, mean 63.5 ± 1.1 kg (SE), SD 15.2 kg.",
+    "h": "± after a mean = its standard error.",
+    "r": "SPSS appendix (French course notes) – 2.2 Worked example: coffee bags"
+  },
+  {
+    "t": "Worked examples",
+    "d": 2,
+    "q": "In the IQ example, city residents average 100.1 ± 0.4 and country residents 99.9 ± 0.4. What does the appendix conclude?",
+    "o": [
+      "Nothing can be concluded without a statistical test, though any difference seems very small",
+      "City residents are significantly more intelligent than country residents",
+      "The difference is significant because the standard errors are equal",
+      "The data contain outliers, so the means are invalid"
+    ],
+    "e": "The appendix opens QI.dat with two columns (groupe: 1 = city, 2 = country; qi), checks the histograms in two panels (no extreme outliers), then runs examine variable=qi by groupe. The output gives statistics for the whole sample and for each group. The means are very similar, 100.1 ± 0.4 versus 99.9 ± 0.4. The appendix stresses that nothing can be concluded without a statistical test, but if there is a difference, it seems very small.",
+    "w": [
+      "Descriptive means alone cannot establish significance.",
+      "Equal standard errors say nothing about significance.",
+      "The histograms showed no extreme outliers."
+    ],
+    "k": "Descriptive differences are not conclusions: means of 100.1 vs 99.9 need a statistical test before any claim.",
+    "h": "Describe first; decide only with a test.",
+    "r": "SPSS appendix (French course notes) – 2.2 Worked example: IQ city vs country"
+  },
+  {
+    "t": "Transformations",
+    "d": 2,
+    "q": "What does compute valeur2 = (valeur - 100) / 10. do?",
+    "o": [
+      "It creates a new column of z-scores, using a mean of 100 and an SD of 10",
+      "It deletes every value of valeur lying more than 10 points away from 100",
+      "It computes the mean and the standard deviation of the valeur column",
+      "It recodes valeur into ten ordered categories starting from the value 100"
+    ],
+    "e": "To convert data into z-scores, the appendix uses a linear transformation: subtract the mean, then divide by the standard deviation, with compute newcol = (col - mu) / sigma. Here mu = 100 and sigma = 10 are specific values (found beforehand, for example with examine). compute can perform any transformation using +, -, * and / on existing columns, and creates the new column valeur2.",
+    "w": [
+      "compute transforms values; filtering is done with select if.",
+      "The mean and SD are obtained with examine, not with this formula.",
+      "No categories are created; the result is a continuous standardized score."
+    ],
+    "k": "z-scores in syntax: compute z = (x - mean) / sd. creates a new standardized column.",
+    "h": "Minus the mean, over the SD.",
+    "r": "SPSS appendix (French course notes) – 3. Data transformation"
+  },
+  {
+    "t": "Basic tests",
+    "d": 2,
+    "q": "A coin is tossed 100 times and lands heads 48 times. SPSS runs npar tests /binomial(0.5)=succes(0,1). and reports Sig. = .76. With α = .05, what is the conclusion?",
+    "o": [
+      "Not significant: the coin is very probably fair",
+      "Significant: the coin is rigged",
+      "Significant, because .48 is different from .50",
+      "The test is invalid because the proportion is below .50"
+    ],
+    "e": "The binomial test checks H0: p = probability fixed a priori, here 0.5, against H1: p ≠ 0.5. You tell SPSS which column codes success or failure and the values used. With 48 heads in 100 tosses, the observed proportion is .48 versus .50 expected. SPSS reports only the significance (Sig.), the α you would have had to choose for the test to be significant. Since .76 is far above .05, the test is not significant: the coin is in all likelihood normal.",
+    "w": [
+      "Sig. = .76 is far above .05, so H0 is retained.",
+      "A small observed difference is not significant by itself.",
+      "The test works for any observed proportion."
+    ],
+    "k": "Binomial test: npar tests /binomial(p0)=col(values); Sig. > α → retain H0 (48/100 heads, Sig. .76 → fair coin).",
+    "h": "Sig. bigger than alpha → nothing to see.",
+    "r": "SPSS appendix (French course notes) – 4. Basic tests: binomial example"
+  },
+  {
+    "t": "Basic tests",
+    "d": 3,
+    "q": "Incomes in three Montreal districts are highly skewed. Why does the appendix use npar tests /median=revenu by region(1,3). instead of a t-test?",
+    "o": [
+      "Non-normality rules out a t-test, so medians are compared to the overall median",
+      "A t-test cannot handle samples of more than 300 participants in SPSS",
+      "The median test is the only test that SPSS can run in syntax mode",
+      "Income is a nominal variable, and nominal variables require a median test"
+    ],
+    "e": "Histograms showed very asymmetric income distributions, a severe violation of the normality assumption, so a t-test was not possible. SPSS's median test checks whether two or more groups share the same median; if no median is given in brackets, SPSS computes the overall median, here $20,704.44. It reports how many people in each region fall above or below it and uses a chi-square test. Sig. = .000, so with α = 5%, median income differs significantly by region.",
+    "w": [
+      "Sample size was not the problem; non-normality was.",
+      "Many tests can be run with syntax, including t-tests.",
+      "Income is a quantitative variable; its skew is what matters."
+    ],
+    "k": "Strongly skewed data violate normality → median test (npar tests /median=Y by G), which SPSS computes with a chi-square.",
+    "h": "Skewed money → medians, not means.",
+    "r": "SPSS appendix (French course notes) – 4. Basic tests: median example"
+  },
+  {
+    "t": "Basic tests",
+    "d": 2,
+    "q": "A behavioural method to reduce filler words ('um', 'you know') is tested on 400 students, measured before and after. Which SPSS command performs the sign test?",
+    "o": [
+      "npar tests /sign=avant with apres.",
+      "npar tests /median=avant by apres(1,2).",
+      "t-test groups=avant(1,2) /variable=apres.",
+      "crosstabs variables=avant apres /statistics=chisq."
+    ],
+    "e": "The sign test compares paired observations, testing H0: M1 = M2, where M1 is the incidence of a characteristic before and M2 after. The file must hold two columns per participant, before and after, and the syntax is npar tests /sign=col1 with col2. In the example, students said on average 100 ± 1 filler words per 10 minutes before and 111 ± 1 after, and the sign test showed a significant difference: the method made things worse and is not recommended.",
+    "w": [
+      "The median test compares groups' medians, not paired before–after scores.",
+      "t-test groups compares independent groups, not paired data.",
+      "Crosstabs tests the association of categorical variables."
+    ],
+    "k": "Paired before–after data, non-parametric: npar tests /sign=before with after.",
+    "h": "'With' pairs the two columns.",
+    "r": "SPSS appendix (French course notes) – 4. Basic tests: before–after example"
+  },
+  {
+    "t": "Basic tests",
+    "d": 3,
+    "q": "The version of SPSS described in the appendix has no command to test the median of a single group (H0: M = M0). What workaround does it propose?",
+    "o": [
+      "Add a column containing only M0, then run a sign test against it",
+      "Run a binomial test with the test probability set equal to M0",
+      "Use the median test with only one group named in the brackets",
+      "Run a chi-square test on the scores with the /expected=equal option"
+    ],
+    "e": "The appendix lists missing commands: there is no test for two proportions (H0: p1 = p2), for which section 6 offers an alternative; no command for the median of a single group (H0: M = M0); and, in section 6, no variance test. For the single-group median, the indirect solution is to add a column containing only the median to be tested (M0) and run a sign test between the score column and this constant column.",
+    "w": [
+      "The binomial test checks a proportion, not a median.",
+      "SPSS's median test compares two or more groups.",
+      "The chi-square goodness-of-fit test checks frequencies across categories."
+    ],
+    "k": "No one-group median test in SPSS: create a constant M0 column and run a sign test against it. Also missing: two-proportion and variance tests.",
+    "h": "Pair the scores with a column of M0.",
+    "r": "SPSS appendix (French course notes) – 4.1 Missing commands"
+  },
+  {
+    "t": "t-tests in syntax",
+    "d": 2,
+    "q": "Match the syntax: which command tests whether one group's mean differs from a value fixed in advance (H0: µ = µ0)?",
+    "o": [
+      "t-test testval=100 /variable=qi.",
+      "t-test pairs=avant with apres /missing=listwise.",
+      "t-test groups=groupe(1,2) /variable=qi.",
+      "npar tests /sign=qi with groupe."
+    ],
+    "e": "The appendix gives three t-test forms. One-sample: t-test testval µ0 /variable=col, testing H0: µ = µ0 with µ0 chosen a priori; used if the histogram shows no major anomaly. Paired: t-test pairs=col1 with col2, for two observations on the same individual (before and after). Independent groups: t-test groups=col(val1, val2) /variable=col, where the groups column identifies each participant's group.",
+    "w": [
+      "pairs compares two measures from the same participants.",
+      "t-test groups compares two independent groups.",
+      "The sign test is a non-parametric paired test, not a one-sample t-test."
+    ],
+    "k": "t-test testval (one sample) · t-test pairs … with … (paired) · t-test groups=G(1,2) /variable=Y (independent).",
+    "h": "testval, pairs, groups.",
+    "r": "SPSS appendix (French course notes) – 5.1 t-test commands"
+  },
+  {
+    "t": "t-tests in syntax",
+    "d": 2,
+    "q": "In t-test pairs=avant with apres /missing=listwise., what does the listwise option do?",
+    "o": [
+      "If any value in a row is missing, the whole row is excluded",
+      "It replaces each missing value with the mean of its column",
+      "It lists every participant's scores one by one in the Viewer",
+      "It runs a separate t-test for each row of the data file"
+    ],
+    "e": "The paired t-test is used when you have a pair of observations on each individual, such as scores before and after a treatment, testing H0: µbefore = µafter. The /missing listwise option tells SPSS what to do when a cell is empty: it excludes the entire row (the whole participant) from the analysis. The appendix describes this as the most prudent way to handle missing data.",
+    "w": [
+      "Listwise deletion removes rows; it does not impute values.",
+      "It does not print the raw data.",
+      "The test is run once on all complete pairs."
+    ],
+    "k": "/missing listwise = drop any participant with a missing value in the variables analysed (the most cautious choice).",
+    "h": "One hole, whole row out.",
+    "r": "SPSS appendix (French course notes) – 5.1 Paired t-test"
+  },
+  {
+    "t": "t-tests in syntax",
+    "d": 3,
+    "q": "Re-analysing the filler-word data, the appendix removes one after-score of 190 and runs a paired t-test, reporting t(398) = −7.58, p < .05. How many pairs were analysed?",
+    "o": [
+      "399",
+      "398",
+      "400",
+      "190"
+    ],
+    "e": "For a paired t-test, df = number of pairs − 1. The original sample had 400 students; after excluding the one extreme after-score (190), 399 pairs remain, giving df = 398. The mean after-score barely changed (111.41 to 111.21). The more powerful t-test confirmed the sign test: 'the behavioural method significantly increases the use of filler words (t(398) = −7.58, p < .05); one extreme value (after = 190) was omitted'.",
+    "w": [
+      "398 is the degrees of freedom, one less than the number of pairs.",
+      "400 was the original sample, before one value was removed.",
+      "190 is the value of the excluded after-score."
+    ],
+    "k": "Paired t-test: df = pairs − 1, so t(398) means 399 pairs (400 students minus one excluded outlier).",
+    "h": "Add one to df.",
+    "r": "SPSS appendix (French course notes) – 5.2 Worked example: filler words"
+  },
+  {
+    "t": "t-tests in syntax",
+    "d": 2,
+    "q": "In the filler-word example, the paired t-test gives t = −7.58 for 'avant − apres'. What does the negative sign mean?",
+    "o": [
+      "After-scores were higher than before-scores, so the method increased filler words",
+      "Before-scores were higher, so the method reduced filler words",
+      "The test is not significant because t is negative",
+      "The correlation between before and after is negative"
+    ],
+    "e": "SPSS computes the paired difference as before minus after (AVANT − APRES). The mean difference was −11.00 (95% CI −13.85 to −8.14): after-scores were about 11 words higher. A negative t simply reflects the direction of the difference; significance depends on its size relative to the critical value and on p. Here t = −7.58 is far from zero, p < .05, so the method significantly increased filler words.",
+    "w": [
+      "The negative difference shows that after-scores were higher, not lower.",
+      "The sign gives direction; significance depends on the size of t.",
+      "The sign of t concerns the mean difference, not a correlation."
+    ],
+    "k": "With 'before − after', a negative t means scores rose after treatment; the sign shows direction, not significance.",
+    "h": "Before minus a bigger after is negative.",
+    "r": "SPSS appendix (French course notes) – 5.2 Worked example: filler words"
+  },
+  {
+    "t": "Chi-square in syntax",
+    "d": 2,
+    "q": "Your file already contains compiled counts (one column for the category, one for the number of observations). Which command must come before npar tests /chisquare or crosstabs?",
+    "o": [
+      "weight by nombre.",
+      "select if nombre > 0.",
+      "compute nombre = nombre / 2.",
+      "examine variable=nombre."
+    ],
+    "e": "The chi-square tests normally read a long file with one row per observation. When the data are already compiled, for example a column for sex and a column giving how many observations fall into each category (43 and 76), you precede npar tests or crosstabs with weight by col, where col contains the number of occurrences per category. SPSS then treats each row as that many observations.",
+    "w": [
+      "select if filters rows; it does not weight them.",
+      "compute would change the counts, which is wrong.",
+      "examine describes the counts but does not weight the analysis."
+    ],
+    "k": "Compiled frequency data: run weight by countcolumn before npar tests /chisquare or crosstabs.",
+    "h": "Weight the rows by their counts.",
+    "r": "SPSS appendix (French course notes) – 6.1 Chi-square commands"
+  },
+  {
+    "t": "Chi-square in syntax",
+    "d": 3,
+    "q": "A small secondary school has five grade levels. SPSS runs npar tests /chisquare=secondai(1,5) /expected=equal. and reports χ²(4) = 8.33, p > .05. What is the conclusion?",
+    "o": [
+      "The number of students is not significantly different across the five levels",
+      "The levels differ significantly in size",
+      "The test is invalid because df should be 5",
+      "Sex and grade level are significantly associated"
+    ],
+    "e": "This is a goodness-of-fit chi-square testing whether observations are distributed as expected across categories; /expected=equal states the hypothesis of equal counts. The counts were compiled, so weight by nombre preceded the test. With five categories, df = 5 − 1 = 4. χ²(4) = 8.33 with p > .05 means the distribution across levels is not significantly different from equal.",
+    "w": [
+      "p > .05 means no significant difference.",
+      "For a goodness-of-fit test, df = categories − 1 = 4.",
+      "Only one variable (grade level) is tested here; there is no association."
+    ],
+    "k": "Goodness-of-fit: npar tests /chisquare=X(1,k) /expected=equal; df = k − 1; school example χ²(4) = 8.33, n.s.",
+    "h": "Five levels, four df.",
+    "r": "SPSS appendix (French course notes) – 6.2 Worked example: school levels"
+  },
+  {
+    "t": "Chi-square in syntax",
+    "d": 2,
+    "q": "In the sex × attitude-toward-statistics example, SPSS runs crosstabs and the result is χ²(1) = 55.52, p < .05. On which output line is this value read, and what does it mean?",
+    "o": [
+      "On the 'Pearson Chi-Square' line; sex significantly changes attitude toward statistics",
+      "On the 'Continuity Correction' line; sex has no effect on attitude",
+      "On the 'Likelihood Ratio' line; attitude causes sex differences",
+      "On the 'N of Valid Cases' line; the sample is too small"
+    ],
+    "e": "The crosstabs command tests a two-way contingency table: crosstabs variables=sexe(1,2) att(1,2) /tables=sexe by att /cells=count expected /statistics=chisq, preceded by weight by for compiled counts. H0 is the absence of interaction (association). The appendix reads the result on the 'Pearson Chi-Square' line: χ²(1) = 55.52, p < .05, so sex significantly changes attitude toward statistics. A 2 × 2 table has df = (2 − 1)(2 − 1) = 1.",
+    "w": [
+      "The appendix reads the Pearson line; the result is significant.",
+      "The appendix uses the Pearson line, and chi-square shows association, not causation of sex.",
+      "This line counts cases; it does not hold the test result."
+    ],
+    "k": "Crosstabs chi-square: read the 'Pearson Chi-Square' line; 2 × 2 table → df = 1; sex × attitude χ²(1) = 55.52, p < .05.",
+    "h": "Pearson line, (r − 1)(c − 1) df.",
+    "r": "SPSS appendix (French course notes) – 6.2 Worked example: sex × attitude"
+  },
+  {
+    "t": "ANOVA in syntax",
+    "d": 2,
+    "q": "Which command does the appendix use for a one-way ANOVA with three independent groups?",
+    "o": [
+      "manova tempsrep by groupe(1,3) /error=within /design.",
+      "t-test groups=groupe(1,3) /variable=tempsrep.",
+      "npar tests /median=tempsrep by groupe(1,3).",
+      "crosstabs variables=tempsrep groupe(1,3) /statistics=chisq."
+    ],
+    "e": "SPSS has several commands for an ANOVA with p independent groups (oneway, anova), but the appendix uses manova because it is also needed for factorial, repeated-measures and mixed designs. The data file needs a column identifying each participant's group. The syntax is manova DV by group(1, p) /error=within /design., testing H0: µ1 = µ2 = µ3.",
+    "w": [
+      "t-test groups compares only two groups.",
+      "The median test compares medians, not means.",
+      "Crosstabs tests associations between categorical variables."
+    ],
+    "k": "One-way ANOVA in the course: manova DV by group(1,p) /error=within /design. (manova also serves factorial and repeated designs).",
+    "h": "manova does it all.",
+    "r": "SPSS appendix (French course notes) – 8.1 One-way ANOVA command"
+  },
+  {
+    "t": "ANOVA in syntax",
+    "d": 3,
+    "q": "Professor Anatomas compares calculation response times in three groups of 15 (left occipital lesion, right temporal lesion, no lesion). The result is F(2,42) = 5.67, p < .05. Which reading is correct?",
+    "o": [
+      "df = 3 − 1 and 45 − 3; the right temporal group (105.3 s) is slower than the no-lesion group (74.3 s)",
+      "df = 3 − 1 and 45 − 3; the three groups do not differ, since all lesions slow responses equally",
+      "df = 3 − 1 and 45 − 3; the no-lesion group (74.3 s) is significantly slower than both lesion groups",
+      "The test is not significant, because F = 5.67 is much smaller than the within-groups df of 42"
+    ],
+    "e": "With p = 3 groups and N = 45 participants, the between-groups df is p − 1 = 2 and the within-groups df is N − p = 42, hence F(2,42). F = 5.67 with p < .05 rejects H0 of equal means. The appendix reports that the right temporal lesion group (mean = 105.267) is significantly slower than the no-lesion group (mean = 74.333).",
+    "w": [
+      "A significant F means the group means are not all equal.",
+      "The no-lesion group was the fastest, not the slowest.",
+      "F is compared with a critical F (or p), never with the df."
+    ],
+    "k": "One-way ANOVA df: between = groups − 1; within = N − groups; Anatomas F(2,42) = 5.67: right temporal lesion slowest.",
+    "h": "3 − 1 = 2; 45 − 3 = 42.",
+    "r": "SPSS appendix (French course notes) – 8.2 Worked example: Professor Anatomas"
+  },
+  {
+    "t": "ANOVA in syntax",
+    "d": 3,
+    "q": "In a 2 × 2 factorial ANOVA, the A × B interaction is significant. What does the appendix do next?",
+    "o": [
+      "Run simple effects, e.g. /design= a within b(1) a within b(2), one per level of B",
+      "Report the main effects of A and B as the final result",
+      "Run both A within B and B within A decompositions together",
+      "Drop factor B and rerun a one-way ANOVA on A"
+    ],
+    "e": "manova score by a(1,p) b(1,q) /error=within /design. tests the interaction and, if there is none, the main effects. If the interaction is significant, you move to simple effects with a new command specifying them: /design= a within b(1) ... a within b(q), asking for as many simple effects as B has levels. Alternatively, but not both, you can request the reverse simple effects, b within a(1) ... b within a(p).",
+    "w": [
+      "With a significant interaction, main effects are not interpreted alone; simple effects are needed.",
+      "The appendix says to choose one decomposition or the other, not both.",
+      "Dropping a factor would ignore the interaction just found."
+    ],
+    "k": "Significant interaction → simple effects: /design= A within B(1) … A within B(q) (or B within A, not both).",
+    "h": "Interaction found? Slice it by levels.",
+    "r": "SPSS appendix (French course notes) – 9.1 Factorial ANOVA and simple effects"
+  },
+  {
+    "t": "ANOVA in syntax",
+    "d": 2,
+    "q": "What do /wsfactor and /print=signif(GG) do in a repeated-measures manova?",
+    "o": [
+      "/wsfactor names the repeated factor and its levels; /print=signif(GG) shows Greenhouse-Geisser",
+      "/wsfactor weights each row by its count; /print=signif(GG) prints the mean of each group",
+      "/wsfactor creates a between-groups factor; /print=signif(GG) prints the raw data file",
+      "/wsfactor removes outliers; /print=signif(GG) tests whether the variances are homogeneous"
+    ],
+    "e": "In repeated measures there is always one row per participant, with several columns of measures, one for each level of the repeated factor. /wsfactor=name(p) ('ws' for within-subject) gives this factor a global name that is not any column name. /print=signif(GG) displays the Greenhouse-Geisser correction for a better idea of the test's significance. Within-subject simple effects use /wsdesign, and mixed designs use mwithin instead of within.",
+    "w": [
+      "Weighting by counts is done with weight by.",
+      "Between-groups factors are given with 'by group(1,p)'.",
+      "Outliers are filtered with select if; homogeneity uses /print=homogeneity."
+    ],
+    "k": "Repeated measures: one row per participant, /wsfactor=name(levels), /print=signif(GG) for Greenhouse-Geisser; mixed simple effects use mwithin.",
+    "h": "ws = within-subject; GG = Greenhouse-Geisser.",
+    "r": "SPSS appendix (French course notes) – 10.1 Repeated-measures and mixed ANOVA"
+  },
+  {
+    "t": "ANOVA in syntax",
+    "d": 3,
+    "q": "In a mixed 2 × (3) design (A between groups, B repeated in columns B1 B2 B3), which keyword replaces 'within' when decomposing simple effects?",
+    "o": [
+      "mwithin",
+      "wsfactor",
+      "listwise",
+      "testval"
+    ],
+    "e": "In mixed designs, the factor held constant is not of the same kind as the factor decomposed (one is between groups, the other repeated). The appendix therefore uses mwithin ('m' for mixed) and places the rest of the decomposition on the design or wsdesign line. Example: manova B1 B2 B3 by A(1,2) /wsfactor=B(3) /print=signif(GG) /error=within /wsdesign=B /design=mwithin A(1) mwithin A(2).",
+    "w": [
+      "wsfactor names the repeated factor; it does not decompose simple effects.",
+      "listwise is a missing-data option of the t-test.",
+      "testval sets the comparison value of a one-sample t-test."
+    ],
+    "k": "Mixed design simple effects use mwithin (m = mixed), e.g. /design=mwithin A(1) mwithin A(2).",
+    "h": "Mixed → m-within.",
+    "r": "SPSS appendix (French course notes) – 10.1 Mixed designs"
+  },
+  {
+    "t": "Homogeneity and transformations",
+    "d": 2,
+    "q": "How does the appendix check the homogeneity of variances in an ANOVA, and which statistics appear?",
+    "o": [
+      "Add /print=homogeneity before /design; SPSS gives Cochran's C and Bartlett-Box F",
+      "Run npar tests /variance on the scores; SPSS gives Levene's test of equality",
+      "Run examine with /plot=none; SPSS gives each group's variance with a p-value",
+      "Add /missing=listwise to manova; SPSS gives Mauchly's test of homogeneity"
+    ],
+    "e": "The appendix's method is simple: add the option /print=homogeneity to the manova command, before /design or /wsdesign. In the 'Where's Waldo' example the output showed Cochran's C(19,4) = .67, p = .000, and Bartlett-Box F(3, 10397) = 14.03, p = .000: the variances differed significantly. The appendix also notes that SPSS has no direct test comparing variances.",
+    "w": [
+      "There is no npar tests /variance command, and the appendix uses /print=homogeneity.",
+      "examine gives variances but no homogeneity test.",
+      "listwise handles missing data; Mauchly's test concerns sphericity in repeated measures."
+    ],
+    "k": "Homogeneity of variance: manova … /print=homogeneity → Cochran's C and Bartlett-Box F.",
+    "h": "Print homogeneity before design.",
+    "r": "SPSS appendix (French course notes) – 11.1 Homogeneity of variance"
+  },
+  {
+    "t": "Homogeneity and transformations",
+    "d": 2,
+    "q": "In the 'Where's Waldo' example (French: Où est Charlie?), the variances of search times differ significantly across the four display sizes. What does the appendix do?",
+    "o": [
+      "Apply a logarithmic transformation, compute temps2 = LN(temps+1), then rerun the ANOVA",
+      "Delete the group with the largest variance",
+      "Switch to a chi-square test on the raw times",
+      "Ignore the problem, since manova corrects it automatically"
+    ],
+    "e": "The search times (80 cases, number of characters divided by 10 to give four levels) were analysed with manova and /print=homogeneity. Since the variances differed significantly, a non-linear transformation was applied, compute temps2 = LN(temps+1)., and the analysis was rerun on temps2. The appendix's transformations: square root sqrt(score+0.5), logarithm ln(score+1) and angular (arcsine) 2*arsin(sqrt(score)).",
+    "w": [
+      "Deleting a group would destroy the design.",
+      "Chi-square tests frequencies, not continuous times.",
+      "manova does not correct unequal variances; a transformation is applied."
+    ],
+    "k": "Heterogeneous variances → transform (sqrt(x+0.5), ln(x+1), 2*arsin(sqrt(x))) and rerun the ANOVA.",
+    "h": "Unequal spread? Log it.",
+    "r": "SPSS appendix (French course notes) – 11.2 Worked example: Where's Waldo"
+  },
+  {
+    "t": "Homogeneity and transformations",
+    "d": 3,
+    "q": "Which compute command performs the angular (arcsine) transformation shown in the appendix?",
+    "o": [
+      "compute score2 = 2 * arsin(sqrt(score)).",
+      "compute score2 = sqrt(score + 0.5).",
+      "compute score2 = ln(score + 1).",
+      "compute score2 = (score - 100) / 10."
+    ],
+    "e": "compute can modify a column or create a new one from existing columns using +, *, and functions such as sqrt() (square root) and ln() (natural logarithm). The appendix shows three non-linear transformations, each creating score2: square root, compute score2=sqrt(score+0.5).; logarithmic, compute score2=ln(score+1).; and angular, compute score2=2 * arsin(sqrt(score)).",
+    "w": [
+      "This is the square-root transformation, sqrt(x + 0.5).",
+      "This is the logarithmic transformation, ln(x + 1).",
+      "This is a linear standardization, not a non-linear transformation."
+    ],
+    "k": "Transformations: square root sqrt(x+0.5); log ln(x+1); angular 2*arsin(sqrt(x)).",
+    "h": "Angular = arc + sine + root.",
+    "r": "SPSS appendix (French course notes) – 11.1 Transformations"
+  },
+  {
+    "t": "Regression in syntax",
+    "d": 2,
+    "q": "In regression /statistics=coeff ci r /dependent temps /method=enter nbperson., what are temps and nbperson, and what does 'ci' add?",
+    "o": [
+      "temps is the outcome (vertical axis), nbperson the predictor; 'ci' adds coefficient CIs",
+      "nbperson is the outcome (vertical axis), temps the predictor; 'ci' adds a chi-square test",
+      "Both are dependent variables (vertical axis); 'ci' adds the full correlation matrix",
+      "temps is a grouping variable with four levels; 'ci' adds Cochran's index of variance"
+    ],
+    "e": "The regression analysis tests whether there is a relationship between two measures, H0: r = 0; if rejected, the researcher can test the slope against a value chosen a priori, H0: b = b0. In the syntax, /dependent names the variable on the vertical axis (here search time) and /method=enter names the predictor on the horizontal axis (number of characters). 'ci' means confidence interval and displays the last two columns of the coefficients table.",
+    "w": [
+      "This reverses the roles; /dependent names the outcome.",
+      "Only temps follows /dependent; nbperson is entered as predictor.",
+      "temps is a continuous time, and 'ci' means confidence interval."
+    ],
+    "k": "regression /statistics=coeff ci r /dependent Y /method=enter X: Y vertical (outcome), X horizontal (predictor), ci = coefficient CIs.",
+    "h": "Dependent goes up; entered goes across.",
+    "r": "SPSS appendix (French course notes) – 12.1 Regression command"
+  },
+  {
+    "t": "Regression in syntax",
+    "d": 3,
+    "q": "In the 'Where's Waldo' regression, r = .818, t(78) = 12.58, p < .05, and the slope is 39.13 ms per character. What does the appendix conclude?",
+    "o": [
+      "Time rises linearly, about 40 ms per character: the time to shift attention to the next object",
+      "Time falls by about 39 ms for each additional character displayed on the screen",
+      "There is no reliable relationship, because the correlation is clearly below 1",
+      "Each additional character adds about 818 ms to the time needed to find Waldo"
+    ],
+    "e": "The hypothesis was that the participant shifts attention from character to character until finding Waldo, so search time should rise linearly with the number of characters. The regression rejected H0 of no relationship (t(78) = 12.58, p < .05) with a fairly strong r = .818. The slope, 39.13 ms per character, did not differ from 40 ms (t(78) = 0.28, computed by hand), so attention can move between objects in about 40 ms.",
+    "w": [
+      "The slope is positive: time increases with more characters.",
+      "r = .818 is a strong correlation; it does not need to equal 1.",
+      ".818 is the correlation coefficient, not a time."
+    ],
+    "k": "Waldo regression: r = .818, t(78) = 12.58; slope 39.13 ms/character ≈ 40 ms, the attention-shift time.",
+    "h": "Each extra face costs about 40 ms.",
+    "r": "SPSS appendix (French course notes) – 12.2 Worked example: Where's Waldo"
+  },
+  {
+    "t": "Regression in syntax",
+    "d": 2,
+    "q": "In the Waldo regression, 80 cases were analysed and the slope test is reported as t(78). Why 78 degrees of freedom?",
+    "o": [
+      "Simple regression has df = N − 2, for the intercept and the slope",
+      "df = N − 1 for every t-test, so 79 must be a typo",
+      "df = number of display sizes × 20, minus 2 for the means",
+      "df = the correlation × 100, minus 4 for the display sizes"
+    ],
+    "e": "The Waldo data set has 80 cases (the ANOVA output shows '80 cases accepted'). In simple linear regression, two parameters are estimated, the intercept and the slope, so the t-test of the slope (and of r) has df = N − 2 = 78. This matches the appendix's report: t(78) = 12.58 for the relationship and t(78) = 0.28 for comparing the slope with 40 ms.",
+    "w": [
+      "N − 1 applies to one-sample and paired t-tests, not regression.",
+      "Display sizes do not define df in this way.",
+      "The correlation value does not determine df."
+    ],
+    "k": "Simple regression (and testing r): df = N − 2; Waldo: 80 cases → t(78).",
+    "h": "Two parameters cost two df.",
+    "r": "SPSS appendix (French course notes) – 11.2 and 12.2 Where's Waldo"
+  },
+  {
+    "t": "SPSS basics",
+    "d": 1,
+    "q": "According to the appendix, which programs fulfil the same role as SPSS?",
+    "o": [
+      "SAS, SYSTAT, Statistica, S-PLUS and its free clone R",
+      "Word, PowerPoint and Outlook",
+      "Photoshop, Illustrator and InDesign",
+      "Moodle, Zoom and Teams"
+    ],
+    "e": "The appendix introduces SPSS (Statistical Package for the Social Sciences), dating from the 1960s and running on Windows from version 7, as an integrated program for nearly all statistical tests used in social sciences and psychology. Other products fill the same role, SAS, SYSTAT, Statistica, S-PLUS and its free clone R, each very different to use but with the same goal: running statistical tests without memorizing the formulas. Excel can run a few tests but is limited in the amount of data.",
+    "w": [
+      "These are office programs, not statistical packages.",
+      "These are graphic design programs, not statistics packages.",
+      "These are teaching and meeting platforms."
+    ],
+    "k": "SPSS = Statistical Package for the Social Sciences; equivalents: SAS, SYSTAT, Statistica, S-PLUS, R.",
+    "h": "Same job, different syntax.",
+    "r": "SPSS appendix (French course notes) – 1.0 What is SPSS?"
+  }
+]

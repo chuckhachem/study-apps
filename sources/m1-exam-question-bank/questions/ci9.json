@@ -1,0 +1,1362 @@
+[
+  {
+    "t": "Ch9 Opening",
+    "d": 2,
+    "q": "Shneidman's two 'contradictory truths' about suicide are that it should never be committed when depressed or constricted, and that:",
+    "o": [
+      "Almost every suicide is committed for reasons that make sense to the person",
+      "Most suicides are impulsive acts without any meaning to the person",
+      "Suicide can always be predicted by experts who know the main risk factors",
+      "Suicide is primarily a medical event"
+    ],
+    "e": "Shneidman held two 'contradictory truths': suicide should never be committed while a person is depressed or mentally constricted, and yet almost every suicide is committed for reasons that make sense to the person. This tension frames the chapter: the interviewer respects and tries to understand the person's logic and pain, while still siding firmly with life.",
+    "w": [
+      "Most suicides make sense to the person, so they aren't meaningless impulsive acts.",
+      "Experts can't reliably predict individual suicides from risk factors.",
+      "Shneidman framed suicide psychologically, around pain and logic, not as a medical event."
+    ],
+    "k": "Shneidman: suicide makes sense to the person, yet should never be done while constricted; understand the logic, side with life.",
+    "h": "It makes sense to them, and it's still not the answer.",
+    "r": "Sommers-Flanagan Ch9 – Opening quote"
+  },
+  {
+    "t": "Ch9 Legal",
+    "d": 2,
+    "q": "When a client reports suicidal intentions, what is the professional mandate?",
+    "o": [
+      "To side with life and initiate protective communications",
+      "To respect the client's autonomy and take no protective action",
+      "To terminate treatment and refer",
+      "To keep the disclosure strictly confidential, as with all other material"
+    ],
+    "e": "When a client reports suicidal intentions, the professional mandate is clear in law and ethics: side with life and initiate protective communications, such as safety planning, involving supports, or hospitalization. The Tarasoff line of cases and later reviews (Gellerman and Suddath; Simone and Fulero) establish that confidentiality yields to preserving life.",
+    "w": [
+      "Autonomy doesn't override the duty to protect when a client intends suicide.",
+      "Terminating and referring abandons the client at the moment of greatest risk.",
+      "Suicidal intent is one of the explicit limits of confidentiality."
+    ],
+    "k": "With suicidal intent, the mandate is to side with life and take protective action.",
+    "h": "Side with life.",
+    "r": "Sommers-Flanagan Ch9 – Introduction"
+  },
+  {
+    "t": "Ch9 Personal reactions",
+    "d": 2,
+    "q": "After highly publicized suicides (e.g., Marilyn Monroe, Kurt Cobain), suicide rates often increase. Who appears especially vulnerable to this contagion?",
+    "o": [
+      "Individuals with a previous history of depression",
+      "Older adults with no previous psychiatric history at all",
+      "Mental health professionals",
+      "People living in isolated rural areas without media access"
+    ],
+    "e": "After highly publicized celebrity suicides, suicide rates often rise, a contagion effect documented by Gould and colleagues. Cheng and colleagues found that individuals with a previous history of depression appear especially vulnerable. Interviewers should ask vulnerable clients about their reactions to such events in the news.",
+    "w": [
+      "Older adults without psychiatric history aren't identified as the especially vulnerable group.",
+      "Mental health professionals aren't named as especially vulnerable to contagion.",
+      "People without media access would be less exposed, not more vulnerable."
+    ],
+    "k": "Suicide contagion after publicized suicides especially affects people with prior depression.",
+    "h": "Headlines can spread despair.",
+    "r": "Sommers-Flanagan Ch9 – Personal reactions"
+  },
+  {
+    "t": "Ch9 Statistics",
+    "d": 2,
+    "q": "Approximately how many suicides occurred in the U.S. in 2004 according to the CDC data cited?",
+    "o": [
+      "32,439",
+      "30,810",
+      "29,199",
+      "45,000"
+    ],
+    "e": "CDC data cited in the chapter show 30,810 U.S. suicides in 1991, a low of 29,199 in 1999, and a high of 32,439 in 2004, a rate of 11.0 per 100,000. Suicide was the 11th leading cause of death in the United States. These figures underline that suicide is a substantial public-health problem.",
+    "w": [
+      "30,810 is the 1991 figure, not 2004.",
+      "29,199 is the 1999 low, not 2004.",
+      "45,000 exceeds the figures reported for that period."
+    ],
+    "k": "U.S. suicides: 32,439 in 2004 (11.0 per 100,000), the 11th leading cause of death.",
+    "h": "2004: about 32 thousand.",
+    "r": "Sommers-Flanagan Ch9 – Suicide statistics"
+  },
+  {
+    "t": "Ch9 Statistics",
+    "d": 2,
+    "q": "Suicide was the ______ leading cause of death in the U.S. at the time of writing.",
+    "o": [
+      "11th",
+      "3rd",
+      "8th",
+      "15th"
+    ],
+    "e": "At the time of writing, suicide was the 11th leading cause of death in the United States, with a rate around 11 per 100,000 in 2004. It ranks much higher among young people. Its frequency in clinical populations makes suicide assessment a core skill for every interviewer.",
+    "w": [
+      "3rd is far too high for the overall population at that time.",
+      "8th isn't the ranking cited; suicide ranked 11th overall.",
+      "15th understates suicide's ranking; it was the 11th leading cause."
+    ],
+    "k": "Suicide was the 11th leading cause of death in the U.S.",
+    "h": "Eleven per hundred thousand, eleventh cause.",
+    "r": "Sommers-Flanagan Ch9 – Suicide statistics"
+  },
+  {
+    "t": "Ch9 Statistics",
+    "d": 2,
+    "q": "Which is a justification for suicide risk assessment despite poor predictability?",
+    "o": [
+      "It's better to err by assuming a client may be suicidal than the reverse",
+      "Completed suicides are common in the general population",
+      "Suicide can be predicted accurately with modern statistical risk models",
+      "Attempts are rarer than completions"
+    ],
+    "e": "Although individual suicide can't be predicted accurately, assessment is still justified: it's better to err by assuming a client may be suicidal than the reverse. Suicide is far more frequent in clinical populations, and suicide attempts (nearly 2,000 daily in the U.S.) and self-harm are much more common than completions and predict later suicide.",
+    "w": [
+      "Completed suicide is relatively rare in the general population, which is why prediction is hard.",
+      "Statistical models can't predict individual suicides accurately.",
+      "Attempts are far more common than completions, not rarer."
+    ],
+    "k": "Assess suicide risk anyway: better to wrongly assume risk than wrongly assume safety.",
+    "h": "A false alarm is better than a missed fire.",
+    "r": "Sommers-Flanagan Ch9 – Suicide statistics"
+  },
+  {
+    "t": "Ch9 Risk factors",
+    "d": 2,
+    "q": "Litman (1995) answered the question of why one of ten equally depressed and suicidal patients commits suicide by saying:",
+    "o": [
+      "'I don't know.'",
+      "'Hopelessness.'",
+      "'Access to firearms.'",
+      "'Previous attempts.'"
+    ],
+    "e": "Asked why one of ten equally depressed and suicidal patients commits suicide, Litman answered: 'I don't know.' Accurate prediction of an individual's suicide is impossible; statistical models and clinical judgement are equally unsuccessful. The absence of risk factors is no guarantee of safety, so interviewers assess and manage risk rather than predict.",
+    "w": [
+      "Hopelessness is a strong risk factor, but it doesn't explain which individual will die.",
+      "Firearm access increases risk but doesn't allow individual prediction.",
+      "Previous attempts raise risk but don't single out who will die."
+    ],
+    "k": "Litman: we can't predict which individual will die by suicide; assess and manage risk instead.",
+    "h": "'I don't know': the expert's humble truth.",
+    "r": "Sommers-Flanagan Ch9 – Risk factors"
+  },
+  {
+    "t": "Ch9 Risk factors",
+    "d": 3,
+    "q": "It is estimated that up to what percentage of clinically depressed individuals will commit suicide (Litman)?",
+    "o": [
+      "5 to 10 percent",
+      "1 to 2 percent",
+      "20 to 25 percent",
+      "Over 30 percent"
+    ],
+    "e": "Litman estimated that up to 5–10% of clinically depressed individuals will die by suicide. Risk is related to the severity of depression: among more mildly depressed inpatients and outpatients, the lifetime prevalence is closer to 2% (Bostwick and Pankratz). Depression is the mental disorder most strongly associated with suicide.",
+    "w": [
+      "1–2% is close to the rate for milder depression, not the upper estimate.",
+      "20–25% overstates the estimate of up to 5–10%.",
+      "Over 30% is far above any estimate cited."
+    ],
+    "k": "Up to 5–10% of clinically depressed people die by suicide (about 2% with milder depression).",
+    "h": "Up to one in ten.",
+    "r": "Sommers-Flanagan Ch9 – Depression"
+  },
+  {
+    "t": "Ch9 Risk factors",
+    "d": 2,
+    "q": "Which is NOT listed as a factor associated with increased suicidal behavior among depressed clients (Fawcett et al.)?",
+    "o": [
+      "Hypersomnia with good concentration",
+      "Severe anxiety and panic attacks",
+      "Global insomnia nearly every night",
+      "Severe anhedonia and loss of pleasure"
+    ],
+    "e": "Fawcett and colleagues list factors associated with increased suicidal behaviour among depressed clients: severe anxiety, panic attacks, severe anhedonia, alcohol abuse, decreased concentration, global insomnia, repeated self-harm, abuse history, employment problems, relationship loss and hopelessness. Hypersomnia with good concentration isn't on the list; decreased concentration and global insomnia are.",
+    "w": [
+      "Severe anxiety and panic attacks are on Fawcett's list.",
+      "Global insomnia nearly every night is on Fawcett's list.",
+      "Severe anhedonia, loss of pleasure, is on Fawcett's list."
+    ],
+    "k": "Depression risk boosters: anxiety/panic, anhedonia, alcohol, poor concentration, insomnia, self-harm, losses, hopelessness.",
+    "h": "Agitated, sleepless, joyless: danger signs.",
+    "r": "Sommers-Flanagan Ch9 – Depression"
+  },
+  {
+    "t": "Ch9 Risk factors",
+    "d": 2,
+    "q": "Shneidman's term for acute, profound distress that is a very significant suicide predictor is:",
+    "o": [
+      "Psychic pain",
+      "Mental constriction",
+      "Thwarted belongingness",
+      "Anhedonia"
+    ],
+    "e": "Shneidman called acute, profound distress psychic pain (sometimes 'psychache'): severe emotional suffering and its contributors, a very significant suicide predictor. Hopelessness, a cognitive factor, is also particularly linked to suicidality in both depressed and nondepressed clients. Asking about the intensity of pain is a key part of assessment.",
+    "w": [
+      "Mental constriction is narrowed thinking, Shneidman's related but separate concept.",
+      "Thwarted belongingness is part of Joiner's interpersonal theory.",
+      "Anhedonia is loss of pleasure, a depression symptom."
+    ],
+    "k": "Shneidman's psychic pain (acute, profound distress) is a major suicide predictor.",
+    "h": "Psych-ache: the pain of the mind.",
+    "r": "Sommers-Flanagan Ch9 – Depression"
+  },
+  {
+    "t": "Ch9 Demographics",
+    "d": 2,
+    "q": "Regarding sex and suicide, which is correct?",
+    "o": [
+      "Males complete suicide 3–4 times more often; females attempt ~3 times more",
+      "Females complete suicide more often than males",
+      "Males both attempt and complete suicide more often than females do",
+      "There are no sex differences"
+    ],
+    "e": "Males complete suicide 3–4 times more often than females, while females attempt suicide about 3 times more often than males. Because preventing attempts (mostly by females) is nearly as important as preventing completions (mostly by males), every client deserves equal care in assessment.",
+    "w": [
+      "Males, not females, complete suicide more often.",
+      "Females attempt more often; males complete more often.",
+      "There are clear sex differences in both attempts and completions."
+    ],
+    "k": "Males complete suicide 3–4× more; females attempt about 3× more.",
+    "h": "Men die more, women try more.",
+    "r": "Sommers-Flanagan Ch9 – Multicultural Highlight 9.1"
+  },
+  {
+    "t": "Ch9 Demographics",
+    "d": 3,
+    "q": "Based on 2004 CDC data, the highest suicide rates often occur among:",
+    "o": [
+      "Alaska Native and American Indian males aged 15–19",
+      "White females over 65 living alone",
+      "Black females aged 20–44 living in large urban areas",
+      "Asian American males aged 45–64 shortly after a job loss"
+    ],
+    "e": "Based on 2004 CDC data, the highest suicide rates often occur among Alaska Native and American Indian males aged 15–19 (about 32.2 per 100,000). Unusually, rates in this group typically decrease with age, unlike most groups. White males aged 20 and older also have very high rates; Black females have consistently the lowest.",
+    "w": [
+      "White females over 65 aren't the group with the highest rates.",
+      "Black females consistently have the lowest rates.",
+      "Asian American middle-aged males aren't the highest-rate group."
+    ],
+    "k": "Highest 2004 rates: Alaska Native/American Indian males aged 15–19; lowest: Black females.",
+    "h": "Young Native men: a tragic peak.",
+    "r": "Sommers-Flanagan Ch9 – Multicultural Highlight 9.1"
+  },
+  {
+    "t": "Ch9 Demographics",
+    "d": 2,
+    "q": "Where and when do suicides occur most frequently, according to the chapter?",
+    "o": [
+      "Highest in the U.S. Southwest; worldwide, most frequent in spring",
+      "Highest in Seattle and Alaska during the dark, rainy winter months",
+      "Highest in the Northeast during autumn, as daylight hours shorten",
+      "Evenly across regions and seasons"
+    ],
+    "e": "Contrary to intuition, darkness and rain have little systematic effect on national suicide rates. In the U.S., rates are highest in the Southwest (Montana is often in the top four, for unknown reasons). Worldwide, suicides are most frequent in spring, not winter.",
+    "w": [
+      "Dark, rainy places like Seattle aren't the highest; weather has little effect.",
+      "The Northeast in autumn isn't where or when rates peak.",
+      "Rates vary by region and season; they aren't even."
+    ],
+    "k": "U.S. suicide rates are highest in the Southwest; worldwide, suicide peaks in spring.",
+    "h": "Spring, not winter; sunny West, not rainy Seattle.",
+    "r": "Sommers-Flanagan Ch9 – Seasonal variation"
+  },
+  {
+    "t": "Ch9 Interpersonal",
+    "d": 2,
+    "q": "Joiner's interpersonal theory proposes that the proximal cause of suicidal desire is:",
+    "o": [
+      "Thwarted belongingness and perceived burdensomeness",
+      "Genetic vulnerability inherited from parents",
+      "Seasonal light deprivation in winter",
+      "Easy access to lethal means in the home"
+    ],
+    "e": "Joiner's interpersonal theory proposes that the proximal causes of suicidal desire are thwarted belongingness (not feeling connected) and perceived burdensomeness (feeling one is a burden on others). The needs to belong and to contribute are fundamental, which explains links between suicide and unemployment, isolation and physical incapacitation. (Acquired capability is needed to act.)",
+    "w": [
+      "Genetic vulnerability may contribute but isn't Joiner's proximal cause.",
+      "Seasonal light isn't part of Joiner's theory.",
+      "Access to means affects lethality but isn't the proximal cause of desire."
+    ],
+    "k": "Joiner: suicidal desire comes from thwarted belongingness plus perceived burdensomeness.",
+    "h": "'I don't belong, and I'm a burden.'",
+    "r": "Sommers-Flanagan Ch9 – Social isolation and interpersonal factors"
+  },
+  {
+    "t": "Ch9 Interpersonal",
+    "d": 2,
+    "q": "Which group has the highest per capita suicide rate of any group?",
+    "o": [
+      "Single males over 70",
+      "Single females over 70",
+      "Married males 20–44",
+      "Widowed women"
+    ],
+    "e": "Single males over 70 have the highest per capita suicide rate of any group. Single, never-married individuals have nearly double the rate of married people. Interestingly, widowhood is not associated with increased rates among women, possibly because women tend to maintain stronger social connections.",
+    "w": [
+      "Older single women have much lower rates than older single men.",
+      "Married men aged 20–44 aren't the highest-rate group.",
+      "Widowhood isn't linked to increased rates among women."
+    ],
+    "k": "Highest per capita suicide rate: single males over 70.",
+    "h": "Old, alone and male: the highest risk.",
+    "r": "Sommers-Flanagan Ch9 – Social isolation"
+  },
+  {
+    "t": "Ch9 Interpersonal",
+    "d": 3,
+    "q": "Research suggests physical infirmity raises suicide risk mainly because of:",
+    "o": [
+      "The social isolation and depression associated with illness",
+      "The intensity of the physical pain alone",
+      "Side effects of the medications prescribed",
+      "Unpleasant hospital environments, routines and procedures"
+    ],
+    "e": "Research (Kishi et al.) suggests that physical illness raises suicide risk mainly through the social isolation and depression associated with it. Severity of illness, pain, a negative prognosis and feeling like a social burden also contribute. Medical patients show higher risk shortly after discharge, so physical health is part of every assessment.",
+    "w": [
+      "Pain contributes, but the main pathway is isolation and depression.",
+      "Medication side effects aren't the main explanation given.",
+      "Hospital environments aren't the main explanation; isolation and depression are."
+    ],
+    "k": "Physical illness raises suicide risk mainly via isolation and depression.",
+    "h": "Illness isolates; isolation endangers.",
+    "r": "Sommers-Flanagan Ch9 – Physical health"
+  },
+  {
+    "t": "Ch9 Resources",
+    "d": 2,
+    "q": "Regarding isolation, what matters more than the living situation?",
+    "o": [
+      "The person's perception of being isolated and socially detached",
+      "Whether the client lives in a large city or a small rural town",
+      "The number of roommates or family in the home",
+      "Whether the client owns a pet or has a garden"
+    ],
+    "e": "What matters most is the person's perception of being isolated and socially detached, not the living arrangement itself. Someone living with family may feel severely lonely; someone living alone may have rich support. Evaluate both actual social contacts and how connected the client feels.",
+    "w": [
+      "Urban versus rural setting matters less than perceived connection.",
+      "The number of people in the home doesn't capture felt isolation.",
+      "Pets and gardens can help, but perception of isolation matters more."
+    ],
+    "k": "Perceived isolation matters more than living arrangements; assess both.",
+    "h": "Lonely in a crowd, connected alone.",
+    "r": "Sommers-Flanagan Ch9 – Personal resources"
+  },
+  {
+    "t": "Ch9 Resources",
+    "d": 2,
+    "q": "Which recent event should place a client in a higher risk category?",
+    "o": [
+      "A significant loss – job, status, loved one, health, a pet – or loss of face",
+      "A promotion at work that brings more income, status and responsibility",
+      "Starting a new hobby or joining a recreational club",
+      "Moving into a larger home in a quieter neighborhood"
+    ],
+    "e": "A recent significant loss, such as a job, status, a loved one, health, even a pet, or a loss of face increases suicide risk (Hall et al.). Humiliating or shameful events also raise risk (Packman et al.). Asking about recent losses is essential in every suicide assessment.",
+    "w": [
+      "A promotion is usually a positive event, though stress can follow.",
+      "Starting a hobby is a protective rather than risk-raising event.",
+      "Moving to a nicer home isn't a loss event."
+    ],
+    "k": "Recent significant losses or humiliations raise suicide risk.",
+    "h": "Loss and shame tip the scales.",
+    "r": "Sommers-Flanagan Ch9 – Personal resources"
+  },
+  {
+    "t": "Ch9 Substance",
+    "d": 2,
+    "q": "One main way alcohol and drugs increase suicide risk is by:",
+    "o": [
+      "Decreasing inhibition, since suicide is usually an impulsive act",
+      "Increasing social support from other drinkers or drug users at parties",
+      "Improving mood temporarily, which masks warning signs from others",
+      "Reducing access to lethal means during intoxication"
+    ],
+    "e": "Alcohol and drugs increase suicide risk mainly by decreasing inhibition, since suicide is usually an impulsive act. Shneidman noted that at the moment of the act, some disinhibition or dissociation has probably occurred. Substances also worsen depression and judgement, so substance use is a key risk factor.",
+    "w": [
+      "Social support among users isn't how substances increase risk.",
+      "Temporary mood lifts aren't the main mechanism described.",
+      "Intoxication increases, rather than reduces, dangerous behaviour."
+    ],
+    "k": "Substances raise suicide risk mainly by lowering inhibition for an often impulsive act.",
+    "h": "Alcohol loosens the brakes.",
+    "r": "Sommers-Flanagan Ch9 – Substance abuse"
+  },
+  {
+    "t": "Ch9 Disorders",
+    "d": 2,
+    "q": "Which is NOT on the chapter's list of high-risk mental disorders?",
+    "o": [
+      "Histrionic personality disorder",
+      "Borderline personality disorder",
+      "Anorexia",
+      "Antisocial personality disorder"
+    ],
+    "e": "High-risk mental disorders for suicide include major depression, bipolar disorder, schizophrenia, substance use disorders, borderline personality disorder, antisocial personality disorder and anorexia. Completed suicide is less often linked with histrionic or narcissistic types, though suicide attempts among them are not uncommon.",
+    "w": [
+      "Borderline personality disorder is on the high-risk list.",
+      "Anorexia is on the high-risk list, with one of the highest mortality rates.",
+      "Antisocial personality disorder is on the high-risk list."
+    ],
+    "k": "High-risk disorders: depression, bipolar, schizophrenia, substance use, borderline, antisocial, anorexia.",
+    "h": "Histrionic attempts, but rarely completes.",
+    "r": "Sommers-Flanagan Ch9 – Mental disorders"
+  },
+  {
+    "t": "Ch9 Disorders",
+    "d": 2,
+    "q": "A client hears voices repeatedly saying 'You deserve to die.' The chapter's recommendation:",
+    "o": [
+      "This client is at high risk and should probably be hospitalized",
+      "Treat it as a manipulative gesture and set limits",
+      "Wait for the voices to subside before doing a risk assessment",
+      "Refer for medication only and schedule a routine follow-up"
+    ],
+    "e": "Self-destructive command hallucinations, voices repeatedly telling the client 'You deserve to die', indicate high suicide risk. The chapter recommends that such a client should probably be hospitalized for safety and stabilization. Psychotic clients may act on commands with little warning.",
+    "w": [
+      "Command hallucinations aren't manipulation; they signal high risk.",
+      "Waiting delays protection when risk is already high.",
+      "Medication alone with routine follow-up doesn't match the level of risk."
+    ],
+    "k": "Self-destructive command hallucinations = high risk; hospitalization is probably needed.",
+    "h": "Voices ordering death: act now.",
+    "r": "Sommers-Flanagan Ch9 – Mental disorders"
+  },
+  {
+    "t": "Ch9 Disorders",
+    "d": 2,
+    "q": "A suicidal gesture by a personality-disordered client appears manipulative. How should it be treated?",
+    "o": [
+      "Seriously – feigned attempts can be fatal, and repeated ones predict completion",
+      "As attention-seeking behavior that is best ignored so that it isn't reinforced",
+      "As a sign of low risk",
+      "As a reason to end therapy and refer the client to a specialist program"
+    ],
+    "e": "Even when a suicidal gesture seems manipulative, take it seriously. Feigned attempts can be fatal by accident, and Zahl and Hawton found that repeated gestures and attempts are associated with eventual completed suicide. Labelling gestures as attention-seeking can lead to dangerous neglect.",
+    "w": [
+      "Ignoring it risks a fatal outcome and disregards the predictive value of repeated gestures.",
+      "Repeated gestures indicate higher, not lower, long-term risk.",
+      "Ending therapy abandons the client when risk is present."
+    ],
+    "k": "Take 'manipulative' suicidal gestures seriously: they can be fatal and repeated ones predict completion.",
+    "h": "A cry for help can still kill.",
+    "r": "Sommers-Flanagan Ch9 – Mental disorders"
+  },
+  {
+    "t": "Ch9 Disorders",
+    "d": 3,
+    "q": "In a large study of patients with schizophrenia, suicide risk was particularly high:",
+    "o": [
+      "In the first five days after discharge",
+      "During the first week of hospitalization",
+      "One year after discharge",
+      "Only during acute psychosis"
+    ],
+    "e": "In a large study of patients with schizophrenia (Rossau and Mortensen), suicide risk was particularly high in the first five days after hospital discharge. Additional risk factors included previous attempts, chronic disorder, recent admission, living alone, unemployment, being unmarried and vulnerability to depression. Discharge planning must address this window.",
+    "w": [
+      "The first week of hospitalization isn't the peak period reported.",
+      "One year after discharge isn't the peak period.",
+      "Risk isn't limited to acute psychosis; post-discharge is especially risky."
+    ],
+    "k": "Schizophrenia: suicide risk peaks in the first five days after discharge.",
+    "h": "The dangerous first days home.",
+    "r": "Sommers-Flanagan Ch9 – Mental disorders"
+  },
+  {
+    "t": "Ch9 SSRIs",
+    "d": 3,
+    "q": "In September 2004 the FDA expert panel voted ______ in support of an SSRI–suicidality link and ______ for a black-box warning.",
+    "o": [
+      "25–0; 15–8",
+      "15–8; 25–0",
+      "20–5; 12–11",
+      "25–0; 25–0"
+    ],
+    "e": "In September 2004 an FDA expert panel voted 25–0 that there was a link between SSRIs and suicidality in young people, and 15–8 in favour of a black-box warning. In 2006 the warning was extended to adults aged 18–24. Debate continues, but starting SSRIs is a risk factor requiring monitoring, especially for agitation or disinhibition.",
+    "w": [
+      "This reverses the two votes: 25–0 for the link, 15–8 for the warning.",
+      "20–5 and 12–11 aren't the votes reported.",
+      "The black-box warning vote wasn't unanimous; it passed 15–8."
+    ],
+    "k": "FDA 2004: 25–0 for an SSRI–suicidality link, 15–8 for a black-box warning (extended to 18–24 in 2006).",
+    "h": "Unanimous on the link, split on the box.",
+    "r": "Sommers-Flanagan Ch9 – SSRIs"
+  },
+  {
+    "t": "Ch9 Sexual orientation",
+    "d": 2,
+    "q": "Gay and lesbian youth are more likely to engage in suicidal behaviors when they have experienced:",
+    "o": [
+      "Gay-related verbal abuse and parental rejection of gender behavior",
+      "Supportive peer groups and gay-straight alliances at school",
+      "Early disclosure to friends who accepted them",
+      "Strong academic success along with many extracurricular activities"
+    ],
+    "e": "D'Augelli and colleagues found that gay and lesbian youth are more likely to engage in suicidal behaviours when they have experienced gay-related verbal abuse and parental rejection of their gender-atypical behaviour. Youth struggling with sexual identity issues should be considered at higher than average risk, while support and acceptance are protective.",
+    "w": [
+      "Supportive peer groups and alliances are protective, not risk factors.",
+      "Early disclosure to accepting friends is protective, not a risk factor.",
+      "Academic success and activities aren't risk factors."
+    ],
+    "k": "LGB youth risk rises with gay-related abuse and parental rejection; support protects.",
+    "h": "Rejection wounds; acceptance shields.",
+    "r": "Sommers-Flanagan Ch9 – Sexual orientation"
+  },
+  {
+    "t": "Ch9 Trauma",
+    "d": 2,
+    "q": "Meichenbaum reflected that his suicidal patients over 35 years all had in common:",
+    "o": [
+      "A history of victimization",
+      "Bipolar disorder with mixed episodes",
+      "Substance dependence on alcohol or drugs",
+      "Psychotic symptoms and command hallucinations"
+    ],
+    "e": "Reflecting on 35 years of practice, Meichenbaum noted that his suicidal patients all had a history of victimization: combat exposure, sexual abuse, Holocaust survival. In a file review of 200 outpatients, child sexual abuse predicted suicidality better than depression did. Trauma history belongs in every suicide assessment.",
+    "w": [
+      "Bipolar mixed episodes aren't the common thread he described.",
+      "Substance dependence wasn't the common thread he described; victimization was.",
+      "Psychotic symptoms weren't the common thread; a history of victimization was."
+    ],
+    "k": "Meichenbaum: his suicidal patients shared a history of victimization; child sexual abuse predicted suicidality.",
+    "h": "Trauma threads through suicidality.",
+    "r": "Sommers-Flanagan Ch9 – Trauma and abuse history"
+  },
+  {
+    "t": "Ch9 Trauma",
+    "d": 3,
+    "q": "In the National Comorbidity Survey, sexually abused men were how much more likely to attempt suicide?",
+    "o": [
+      "4 to 11 times",
+      "2 to 4 times",
+      "About 1.5 times",
+      "About 20 times"
+    ],
+    "e": "In the National Comorbidity Survey (Molnar et al.), people sexually abused as children were far more likely to attempt suicide: women 2–4 times more likely, and men 4–11 times more likely than non-abused peers. Abuse history is a powerful risk factor for both sexes, especially men.",
+    "w": [
+      "2 to 4 times is the figure for women, not men.",
+      "1.5 times understates the increased risk for abused men.",
+      "20 times overstates the reported range of 4 to 11."
+    ],
+    "k": "Childhood sexual abuse: women 2–4×, men 4–11× more likely to attempt suicide.",
+    "h": "For abused men, up to eleven times the risk.",
+    "r": "Sommers-Flanagan Ch9 – Trauma and abuse history"
+  },
+  {
+    "t": "Ch9 Attempts",
+    "d": 3,
+    "q": "In Zahl and Hawton's 15-year study, what percentage of women with repeated self-harm later died by suicide, versus the single-episode group?",
+    "o": [
+      "4.7% vs 1.9%",
+      "1.9% vs 4.7%",
+      "10.2% vs 5.1%",
+      "25.0% vs 15.0%"
+    ],
+    "e": "In Zahl and Hawton's 15-year follow-up, 4.7% of women with repeated deliberate self-harm later died by suicide, versus 1.9% of those with a single episode. Repeated self-harm is a particularly salient predictor in young females, so interviewers should ask about all previous attempts and self-harm.",
+    "w": [
+      "This reverses the groups: repeated self-harm had the higher rate.",
+      "10.2% vs 5.1% aren't the reported figures.",
+      "25% vs 15% greatly overstate the figures."
+    ],
+    "k": "Repeated self-harm in women: 4.7% later suicide vs 1.9% after a single episode.",
+    "h": "Repeating more than doubles the risk.",
+    "r": "Sommers-Flanagan Ch9 – Previous attempts"
+  },
+  {
+    "t": "Ch9 Warning signs",
+    "d": 2,
+    "q": "Which is listed as a suicide warning sign?",
+    "o": [
+      "Giving away possessions and settling affairs",
+      "Increased interest in long-term future plans and goals",
+      "Seeking out new friendships and joining social groups",
+      "Improved concentration and better sleep"
+    ],
+    "e": "Warning signs of suicide include giving away possessions and settling affairs, talking about suicide, suicidal ideation, having a plan, marked changes in behaviour, a sense of meaninglessness, relationship breakups and feeling trapped. Giving things away suggests the person is preparing to die.",
+    "w": [
+      "Interest in long-term future plans is protective.",
+      "Seeking new friendships is a protective sign, not a warning sign.",
+      "Improved sleep and concentration suggest recovery, though sudden calm can sometimes be a warning."
+    ],
+    "k": "Warning signs include giving away possessions, talk of suicide, a plan, feeling trapped.",
+    "h": "Giving away treasures: saying goodbye.",
+    "r": "Sommers-Flanagan Ch9 – Warning signs"
+  },
+  {
+    "t": "Ch9 Integration",
+    "d": 2,
+    "q": "The goal of a comprehensive suicide assessment interview is:",
+    "o": [
+      "Not to predict suicide, but to predict risk and manage it",
+      "To accurately predict which particular clients will die by suicide",
+      "To count risk factors and hospitalize anyone above a set cutoff",
+      "To obtain a no-suicide contract"
+    ],
+    "e": "The goal of a comprehensive suicide assessment isn't to predict suicide, which is impossible for individuals, but to estimate risk and manage it. Risk factors don't add up neatly: the textbook prototype (a depressed, alcohol-abusing, isolated, elderly White male with health problems and firearms) rarely appears in real life.",
+    "w": [
+      "Accurate prediction of which individual will die is impossible.",
+      "Counting risk factors against a cutoff ignores how they interact.",
+      "No-suicide contracts aren't the goal and are discouraged as coercive."
+    ],
+    "k": "Suicide assessment aims to estimate and manage risk, not predict suicide.",
+    "h": "Manage, don't predict.",
+    "r": "Sommers-Flanagan Ch9 – Integrating risk factors"
+  },
+  {
+    "t": "Ch9 Checklist",
+    "d": 2,
+    "q": "In the suicide checklist, which item about firearms is included?",
+    "o": [
+      "The client has access to firearms",
+      "The client has a current hunting license",
+      "The client owns a car",
+      "The client lives in a rural or remote area"
+    ],
+    "e": "The 25-item suicide checklist (Putting It in Practice 9.1) ends with whether the client has access to firearms, the most lethal means. Other items include recent discharge after apparent improvement and SSRI-associated disinhibition or agitation. Firearm access sharply raises lethality, so it must always be asked.",
+    "w": [
+      "A hunting license isn't the checklist item; access to firearms is.",
+      "Car ownership isn't a checklist item; firearm access is.",
+      "Rural residence isn't the firearm item; access to firearms is."
+    ],
+    "k": "Always ask about access to firearms; it's on the suicide checklist.",
+    "h": "Ask about guns, every time.",
+    "r": "Sommers-Flanagan Ch9 – Putting It in Practice 9.1"
+  },
+  {
+    "t": "Ch9 CAMS",
+    "d": 2,
+    "q": "Jobes's CAMS stands for:",
+    "o": [
+      "Collaborative Assessment and Management of Suicidality",
+      "Clinical Assessment of Mood and Suicide risk factors",
+      "Comprehensive Analysis of Mental States",
+      "Crisis Assessment and Medical Stabilization"
+    ],
+    "e": "Jobes's CAMS is the Collaborative Assessment and Management of Suicidality. It emphasizes trust and the therapeutic alliance, treats the client as the expert on their suicidality, uses the Suicide Status Form collaboratively (side by side), and moves away from coercive no-suicide contracts toward shared safety planning.",
+    "w": [
+      "Clinical Assessment of Mood isn't what CAMS stands for.",
+      "Comprehensive Analysis of Mental States isn't CAMS.",
+      "Crisis Assessment and Medical Stabilization isn't CAMS."
+    ],
+    "k": "CAMS = Collaborative Assessment and Management of Suicidality (client as expert, side-by-side).",
+    "h": "Collaborate, don't coerce.",
+    "r": "Sommers-Flanagan Ch9 – Conducting a thorough suicide assessment"
+  },
+  {
+    "t": "Ch9 CAMS",
+    "d": 3,
+    "q": "How does CAMS view a client's suicidal thoughts and behaviors?",
+    "o": [
+      "As an effort to cope or problem-solve with legitimate needs",
+      "As a deviant mental state requiring medical control and monitoring",
+      "As manipulation that must be firmly confronted early in treatment",
+      "As irrelevant to treatment planning"
+    ],
+    "e": "CAMS reformulates suicidality as an effort to cope or solve problems in response to legitimate personal needs: for control, power, communication of pain and ending suffering (Jobes, 2006). Rather than treating suicidality as deviant or manipulative, the clinician helps the client find other ways to meet those needs.",
+    "w": [
+      "CAMS moves away from viewing suicidality as a deviant state needing control.",
+      "CAMS doesn't treat suicidality as manipulation to confront.",
+      "Suicidality is central to treatment planning in CAMS."
+    ],
+    "k": "CAMS sees suicidality as an attempt to cope with legitimate needs.",
+    "h": "Suicide as a broken solution to a real problem.",
+    "r": "Sommers-Flanagan Ch9 – A reformulation"
+  },
+  {
+    "t": "Ch9 Differential activation",
+    "d": 3,
+    "q": "Differential activation theory predicts that when previously depressed people experience a negative mood:",
+    "o": [
+      "Negative information-processing biases are reactivated",
+      "Their mood is protected by past experience",
+      "They are less affected than never-depressed people",
+      "Their problem solving improves"
+    ],
+    "e": "Differential activation theory (Lau, Segal and Williams) predicts that when previously depressed people experience a negative mood, negative information-processing biases are reactivated. If the reactivated content is global, negative and self-referent ('I am a failure'), relapse, and suicidal thinking, is highly likely. This explains vulnerability after recovery.",
+    "w": [
+      "Past depression doesn't protect mood; it creates vulnerability.",
+      "Previously depressed people are more affected, not less.",
+      "Problem-solving tends to worsen when negative biases reactivate."
+    ],
+    "k": "Differential activation: negative mood reactivates depressive thinking in previously depressed people.",
+    "h": "Sad mood reopens old grooves.",
+    "r": "Sommers-Flanagan Ch9 – Differential activation theory"
+  },
+  {
+    "t": "Ch9 Differential activation",
+    "d": 3,
+    "q": "In Lau et al.'s mood challenge, participants listened to a depressive Russian opera at half speed while reading negative statements. Which group showed the greatest problem-solving impairment?",
+    "o": [
+      "Previously depressed with suicidal ideation",
+      "Previously depressed without suicidal ideation",
+      "Never depressed",
+      "All groups were equally impaired"
+    ],
+    "e": "In Lau and colleagues' mood challenge, participants listened to eight minutes of a depressive Russian opera at half speed while reading 40 negative statements. Mood worsened for everyone, but previously depressed participants with a history of suicidal ideation showed the greatest decline in problem-solving, consistent with Shneidman's idea of mental constriction under distress.",
+    "w": [
+      "Previously depressed people without ideation deteriorated less than those with ideation.",
+      "Never-depressed participants were the least affected by the mood challenge.",
+      "Groups differed; those with past depression and ideation deteriorated most."
+    ],
+    "k": "Under induced sad mood, previously depressed people with past suicidal ideation lose the most problem-solving ability.",
+    "h": "Sad opera narrows the most vulnerable minds.",
+    "r": "Sommers-Flanagan Ch9 – Differential activation theory"
+  },
+  {
+    "t": "Ch9 Differential activation",
+    "d": 2,
+    "q": "What is the practical implication of differential activation research for suicide interviews?",
+    "o": [
+      "Balance negative depression/suicide questions with equal or more positive ones",
+      "Avoid asking about suicide entirely, since questions may plant the idea",
+      "Ask only negative questions, to be thorough and complete",
+      "Use only standardized questionnaires"
+    ],
+    "e": "Because negative mood can reactivate depressive thinking, suicide interviews should balance negative questions about depression and suicide with equal or more positive questions, about strengths, reasons for living and future plans. Positive questions may improve mood and problem solving during the interview; a client's inability to engage with positives may indicate a more severe condition.",
+    "w": [
+      "Avoiding suicide questions is unsafe; asking directly doesn't plant the idea.",
+      "Asking only negative questions may deepen mood and constriction.",
+      "Questionnaires can help, but the interview itself needs balance."
+    ],
+    "k": "Balance suicide and depression questions with positive questions to avoid deepening negative mood.",
+    "h": "For every dark question, a light one.",
+    "r": "Sommers-Flanagan Ch9 – Depressogenic factors"
+  },
+  {
+    "t": "Ch9 Attitude",
+    "d": 2,
+    "q": "Does asking directly about suicide put the idea into a client's head?",
+    "o": [
+      "No – there's no clinical evidence; clients are usually relieved",
+      "Yes – so direct questions should be avoided with depressed clients",
+      "Only with adolescents",
+      "Only if it is asked during the very first session with the client"
+    ],
+    "e": "No: there is no clinical evidence that asking directly about suicide plants the idea. Clients are usually relieved to be asked, because it shows the interviewer can handle the topic. Asking about suicide isn't the same as dwelling on negatives, and failing to ask is neither wise nor helpful.",
+    "w": [
+      "Avoiding direct questions with depressed clients risks missing serious danger.",
+      "Adolescents also benefit from direct, caring questions about suicide.",
+      "Timing doesn't make the question harmful; it can be asked in the first session."
+    ],
+    "k": "Asking directly about suicide doesn't plant the idea; clients are usually relieved.",
+    "h": "Ask the question; it opens the door to help.",
+    "r": "Sommers-Flanagan Ch9 – Exploring suicidal ideation"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 2,
+    "q": "The four categories of depressive symptoms the chapter assesses are:",
+    "o": [
+      "Mood, physical (neurovegetative), cognitive, social/interpersonal",
+      "Affective, behavioral, spiritual, and sexual symptom clusters",
+      "Acute, chronic, recurrent, and seasonal patterns of symptoms",
+      "Primary, secondary, tertiary, and residual depressive symptom groups"
+    ],
+    "e": "The chapter assesses depression in four symptom categories: mood (sadness, anhedonia, irritability), physical or neurovegetative (sleep, appetite, energy, psychomotor changes), cognitive (hopelessness, helplessness, worthlessness, concentration) and social or interpersonal (withdrawal, relationship problems). DSM distinguishes major depression (acute, severe) from dysthymic disorder (chronic, milder).",
+    "w": [
+      "Spiritual and sexual clusters aren't the chapter's four categories.",
+      "Acute, chronic, recurrent and seasonal describe course patterns, not symptom categories.",
+      "Primary, secondary and residual groupings aren't the categories used."
+    ],
+    "k": "Depression symptoms fall into mood, physical, cognitive and social categories.",
+    "h": "Feel, Body, Think, Relate.",
+    "r": "Sommers-Flanagan Ch9 – Assessing client depression"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 2,
+    "q": "A client rates current mood 3, worst 2, and normal 6–7 on a 1–10 scale. In the authors' scale, 1 means:",
+    "o": [
+      "The worst anyone could ever possibly feel",
+      "Total and absolute perfect happiness for anyone",
+      "No change at all from the client's usual mood",
+      "Moderate sadness on a typical day"
+    ],
+    "e": "The authors use a quasi-quantitative mood scale: 1 means the worst anyone could ever possibly feel, and 10 means total, perfect happiness. Asking for current, worst and normal ratings quantifies subjective distress and tracks change over time. Here, a current 3 near a worst of 2, against a normal of 6–7, shows serious current distress.",
+    "w": [
+      "Perfect happiness is the 10 anchor, not 1.",
+      "No change from usual mood isn't an anchor; normal is rated separately.",
+      "Moderate sadness on a typical day would be a middle rating."
+    ],
+    "k": "Mood scale: 1 = worst anyone could feel, 10 = perfect happiness; ask now, worst and normal.",
+    "h": "1 is rock bottom.",
+    "r": "Sommers-Flanagan Ch9 – Mood-related symptoms"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 2,
+    "q": "Lack of positive mood reactivity is typically evaluated by:",
+    "o": [
+      "Observing whether the client's mood brightens with positive topics",
+      "Asking the client to rate pleasure on a 1–10 scale",
+      "A standardized questionnaire on hobbies and recreational interests",
+      "Asking about sleep patterns"
+    ],
+    "e": "Mood reactivity is observed, not asked about: does the client's mood brighten when positive topics come up? Anhedonia, by contrast, is asked about directly ('Do you still enjoy things?'). John checks whether clients laugh at his jokes; Rita worries when they do, a humorous reminder that reactivity is something you watch for.",
+    "w": [
+      "Rating pleasure on a scale assesses anhedonia, not observed reactivity.",
+      "Hobby questionnaires assess interests, not in-session reactivity.",
+      "Sleep questions assess neurovegetative symptoms, not mood reactivity."
+    ],
+    "k": "Mood reactivity is observed: does mood brighten with positive topics?",
+    "h": "Watch for the smile.",
+    "r": "Sommers-Flanagan Ch9 – Mood-related symptoms"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 2,
+    "q": "What is notable about most neurovegetative signs of depression?",
+    "o": [
+      "They are bidirectional (weight loss or gain; insomnia or hypersomnia)",
+      "They always involve decreased activity, appetite and sleep, never increases",
+      "They cannot be assessed by questioning and must be observed directly",
+      "They predict lower relapse risk"
+    ],
+    "e": "Most neurovegetative signs of depression are bidirectional: weight loss or gain, insomnia or hypersomnia, decreased or increased appetite, agitation or retardation. Psychiatrists view them as cardinal features of biological depression, associated with greater relapse potential. Psychomotor changes are primarily observed rather than asked about.",
+    "w": [
+      "They can go in either direction, not only decreases.",
+      "Most are assessed by questioning; psychomotor changes are observed.",
+      "They're linked to greater, not lower, relapse potential."
+    ],
+    "k": "Neurovegetative signs are bidirectional (weight, sleep, appetite up or down).",
+    "h": "Too much or too little: both count.",
+    "r": "Sommers-Flanagan Ch9 – Physical symptoms"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 3,
+    "q": "Which is a better predictor of suicide risk than overall level of depression?",
+    "o": [
+      "Specific hopelessness",
+      "Fatigue",
+      "Appetite change",
+      "Psychomotor retardation"
+    ],
+    "e": "Specific hopelessness is a better predictor of suicide risk than the overall level of depression (Ellis, 2006a). Clients interested in short- and long-term life plans have lower risk. Interviewers can use future-oriented and past-success questions to assess hopelessness and to build hope at the same time.",
+    "w": [
+      "Fatigue is a common depression symptom but not a strong suicide predictor.",
+      "Appetite change is a neurovegetative sign, not the stronger predictor.",
+      "Psychomotor retardation indicates severity but isn't the named stronger predictor."
+    ],
+    "k": "Hopelessness predicts suicide risk better than overall depression severity.",
+    "h": "No future is more dangerous than deep sadness.",
+    "r": "Sommers-Flanagan Ch9 – Cognitive symptoms"
+  },
+  {
+    "t": "Ch9 Depression",
+    "d": 2,
+    "q": "Expressions of helplessness in depressed clients may represent:",
+    "o": [
+      "An indirect request for help from the interviewer",
+      "Lack of genuine interest in therapy or in personal change",
+      "A sign that the client is improving",
+      "Manipulation aimed at gaining sympathy from the interviewer"
+    ],
+    "e": "Expressions of helplessness ('I can't do anything about it') may represent an indirect request for help from the interviewer. Clients may feel incapable of change themselves yet retain some hope that the interviewer can act as a change agent. Responding with engagement and collaboration uses that remaining hope.",
+    "w": [
+      "Helplessness doesn't mean lack of interest; it often signals wanting help.",
+      "Helplessness isn't a sign of improvement; it reflects feeling stuck.",
+      "Labelling it manipulation misses the underlying request for help."
+    ],
+    "k": "Helplessness can be an indirect request for help, with hope placed in the interviewer.",
+    "h": "'I can't' may mean 'please help me.'",
+    "r": "Sommers-Flanagan Ch9 – Cognitive symptoms"
+  },
+  {
+    "t": "Ch9 Ideation",
+    "d": 2,
+    "q": "In Hahn and Marks's study, what percentage of previously suicidal clients were receptive or neutral about discussing previous attempts at intake?",
+    "o": [
+      "97 percent",
+      "50 percent",
+      "75 percent",
+      "30 percent"
+    ],
+    "e": "Hahn and Marks found that 97% of previously suicidal clients were receptive or neutral about discussing previous attempts at intake. Yet graduate interviewers report that suicide and sex are the hardest topics to ask about. The lesson: clients are usually willing; interviewers need to practise saying the words.",
+    "w": [
+      "50% greatly understates clients' willingness to discuss attempts.",
+      "75% understates clients' willingness; the figure was 97%.",
+      "30% is far below the reported figure."
+    ],
+    "k": "97% of previously suicidal clients were receptive or neutral about discussing attempts; interviewers' discomfort is the barrier.",
+    "h": "Nearly all are willing to talk.",
+    "r": "Sommers-Flanagan Ch9 – Exploring suicidal ideation"
+  },
+  {
+    "t": "Ch9 Ideation",
+    "d": 2,
+    "q": "If a client denies suicidal thoughts, the authors recommend:",
+    "o": [
+      "Not dropping it at once – normalize to make admission easier",
+      "Moving on immediately with relief, so as not to offend the client",
+      "Confronting the denial as a probable lie, given the risk factors present",
+      "Ending the interview and scheduling a follow-up session soon"
+    ],
+    "e": "If a client denies suicidal thoughts, don't drop the topic immediately. Normalize to make admission easier: 'Almost all people at one time or another… have thought about suicide. There is nothing abnormal about the thought.' This reduces shame and gives the client permission to disclose.",
+    "w": [
+      "Moving on immediately may miss hidden ideation.",
+      "Confronting denial as a lie damages rapport.",
+      "Ending the interview doesn't clarify the risk."
+    ],
+    "k": "If a client denies suicidal thoughts, normalize such thoughts before moving on.",
+    "h": "'Most people have thought about it.'",
+    "r": "Sommers-Flanagan Ch9 – Exploring suicidal ideation"
+  },
+  {
+    "t": "Ch9 Ideation",
+    "d": 3,
+    "q": "Some research suggests which aspect of suicidal ideation may be more predictive of eventual suicide than frequency?",
+    "o": [
+      "Variability – ideation that comes and goes",
+      "The duration of each episode of ideation",
+      "The age at which ideation first began",
+      "The specific content of the suicidal thoughts"
+    ],
+    "e": "Busch and Fawcett (2004) suggest that the variability of suicidal ideation, thoughts that come and go, may be more predictive of eventual suicide than frequency. Intermittent, intense ideation may be more lethal than frequent or ongoing ideation. Interviewers explore onset, frequency, antecedents, intensity and duration.",
+    "w": [
+      "Duration of episodes is explored, but variability is named as more predictive.",
+      "Age of onset isn't named as the stronger predictor.",
+      "Content matters, but variability is the factor highlighted."
+    ],
+    "k": "Variability of ideation (coming and going) may predict suicide more than frequency.",
+    "h": "Waves can be deadlier than a steady tide.",
+    "r": "Sommers-Flanagan Ch9 – Exploring suicidal ideation"
+  },
+  {
+    "t": "Ch9 SLAP",
+    "d": 1,
+    "q": "The SLAP acronym (Miller, 1985) for evaluating suicide plans stands for:",
+    "o": [
+      "Specificity, Lethality, Availability, Proximity of support",
+      "Severity, Length of ideation, Anxiety, and Plan",
+      "Suicidality, recent Loss, Alcohol use, and Past suicide attempts",
+      "Self-control, Lethality, Age, and Prior history of attempts"
+    ],
+    "e": "Miller's SLAP evaluates suicide plans: Specificity (how detailed is the plan?), Lethality (how deadly is the method?), Availability (are the means accessible?) and Proximity of helping resources (how near are people who could intervene?). The more specific, lethal and available the plan, and the further from help, the greater the risk.",
+    "w": [
+      "Severity, length, anxiety and plan aren't SLAP's components.",
+      "Recent loss and alcohol are risk factors, not SLAP elements.",
+      "Self-control and age matter, but they aren't SLAP elements."
+    ],
+    "k": "SLAP stands for Specificity, Lethality, Availability and Proximity of support.",
+    "h": "SLAP the plan: how specific, deadly, available, isolated?",
+    "r": "Sommers-Flanagan Ch9 – Assessing suicide plans"
+  },
+  {
+    "t": "Ch9 SLAP",
+    "d": 2,
+    "q": "In SLAP, 'Proximity' refers to:",
+    "o": [
+      "How near helping resources and people who could intervene are",
+      "How close the client is physically to the means of suicide",
+      "How soon the client plans to act on the suicidal thoughts",
+      "The physical distance between the client's home and the clinic"
+    ],
+    "e": "In SLAP, Proximity refers to how near helping resources are: people who could intervene. Does the client live alone? Spend days alone? The further from help, the greater the risk. Jobes recommends reassessing risk every session until suicidal thoughts, plans and behaviours are absent for three consecutive sessions.",
+    "w": [
+      "Closeness to the means is covered by Availability, not Proximity.",
+      "Timing of the plan isn't what Proximity means in SLAP.",
+      "Distance to the clinic isn't the meaning; nearness of people who could help is."
+    ],
+    "k": "SLAP 'Proximity' = how near helpers are; reassess each session until three clear sessions (Jobes).",
+    "h": "Who's close enough to step in?",
+    "r": "Sommers-Flanagan Ch9 – Proximity"
+  },
+  {
+    "t": "Ch9 SLAP",
+    "d": 3,
+    "q": "What is the 'paradoxical problem' in exploring suicide plans in great detail?",
+    "o": [
+      "Detail signals risk, yet detailed focus may deepen preoccupation and rehearsal",
+      "Detailed questions always reduce risk by revealing hidden plans",
+      "Clients never share details of their plans with a new interviewer",
+      "Details are legally prohibited"
+    ],
+    "e": "Exploring suicide plans in detail is paradoxical: detail signals risk and must be assessed, yet an intense, detailed focus may deepen the client's preoccupation and mental rehearsal. The authors resolve this with balance and collaboration, integrating positive questions such as 'Can we talk about a plan for life?'",
+    "w": [
+      "Detailed questions don't always reduce risk; they can increase rehearsal.",
+      "Clients often do share plan details when asked respectfully.",
+      "Detailed questions aren't legally prohibited; they are clinically necessary but need balance."
+    ],
+    "k": "Assess plan details, but balance them with life-focused questions to avoid deepening rehearsal.",
+    "h": "Map the danger, then plan for life.",
+    "r": "Sommers-Flanagan Ch9 – Specificity"
+  },
+  {
+    "t": "Ch9 Self-control",
+    "d": 2,
+    "q": "A client says she fears losing control at midnight but thinks of how her kids would feel. What does this indicate?",
+    "o": [
+      "A strong mitigating factor – but not enough by itself to judge safety",
+      "Proof that she is safe and that no further assessment is needed",
+      "Proof that she needs immediate hospitalization tonight",
+      "Low self-control that needs no follow-up, since she has never acted on it"
+    ],
+    "e": "Thinking of how her children would feel is a strong mitigating factor, but not enough by itself to judge safety, especially since she fears losing control. Asking what has kept clients from acting can become a therapeutic ally. Clients who fear losing control are at high risk, so consultation is wise.",
+    "w": [
+      "One protective factor doesn't prove safety, especially with fear of losing control.",
+      "Mitigating factors don't automatically mean she needs hospitalization tonight.",
+      "Fear of losing control needs careful follow-up, not dismissal."
+    ],
+    "k": "Reasons for living are strong mitigators but don't by themselves establish safety.",
+    "h": "Her kids hold her back, but hold the plan too.",
+    "r": "Sommers-Flanagan Ch9 – Assessing self-control"
+  },
+  {
+    "t": "Ch9 Self-control",
+    "d": 2,
+    "q": "Which impulse-control pattern may indicate greater risk?",
+    "o": [
+      "Usually overcontrolled clients who rarely, but completely, lose control",
+      "Clients who never lose their temper and who rarely express any anger at all",
+      "Clients with stable moods and consistent daily routines",
+      "Clients who exercise regularly to manage their stress"
+    ],
+    "e": "Clients who are usually overcontrolled, rarely losing control but losing it completely when they do, may be at greater suicide risk. Explosive outbursts or physical altercations also suggest impulse-control problems and increased risk. Assess both how often and how completely clients lose control.",
+    "w": [
+      "Never losing one's temper isn't itself a risk pattern; rare complete loss is.",
+      "Stable moods and routines are protective, not risk indicators.",
+      "Regular exercise to manage stress is protective, not a risk pattern."
+    ],
+    "k": "Overcontrolled people who rarely but completely lose control may be at higher risk.",
+    "h": "The dam that holds, then bursts.",
+    "r": "Sommers-Flanagan Ch9 – Self-control"
+  },
+  {
+    "t": "Ch9 Intent",
+    "d": 2,
+    "q": "Why is it usually NOT helpful to ask clients to rate their suicidal intent?",
+    "o": [
+      "Those with high intent likely won't admit it, fearing hospitalization",
+      "Rating scales for intent are prohibited by professional ethics codes",
+      "Most clients can't understand numerical rating scales when distressed",
+      "Intent never relates to actual suicide risk in the research literature"
+    ],
+    "e": "Clients with high suicidal intent are unlikely to admit it, often because they fear hospitalization or being stopped. So intent, rated absent, low, moderate or high, is usually inferred from the specificity of the plan, past attempts and the client's demeanour, rather than from the client's own rating (Freedenthal).",
+    "w": [
+      "Rating scales aren't banned; they're just unreliable for intent.",
+      "Most clients can understand scales; the issue is concealment.",
+      "Intent strongly relates to risk; that's why it must be inferred carefully."
+    ],
+    "k": "Infer suicidal intent from plan, history and demeanour; high-intent clients often won't admit it.",
+    "h": "Those most set on it say least.",
+    "r": "Sommers-Flanagan Ch9 – Assessing suicidal intent"
+  },
+  {
+    "t": "Ch9 Intervention",
+    "d": 2,
+    "q": "Shneidman's advice for therapists working with suicidal clients:",
+    "o": [
+      "Reduce the pain; remove the blinders; lighten the pressure",
+      "Assess the risk, obtain a contract, hospitalize",
+      "Confront the denial, interpret its meaning, and then resolve it",
+      "Medicate quickly, monitor closely, and refer to a psychiatrist"
+    ],
+    "e": "Shneidman's advice: reduce the pain, remove the blinders (widen constricted thinking), and lighten the pressure, 'even just a little bit'. Suicidal crises involve unbearable psychic pain and narrowed options; small reductions in pain and pressure, and a slightly wider view of options, can save a life.",
+    "w": [
+      "Contracts and hospitalization aren't Shneidman's three-part advice.",
+      "Confronting and interpreting denial isn't his advice.",
+      "Medicating and referring aren't his three principles."
+    ],
+    "k": "Shneidman: reduce the pain, remove the blinders, lighten the pressure, even a little.",
+    "h": "Less pain, wider view, less pressure.",
+    "r": "Sommers-Flanagan Ch9 – Suicide intervention"
+  },
+  {
+    "t": "Ch9 Intervention",
+    "d": 2,
+    "q": "When a client discusses suicide, the interviewer should:",
+    "o": [
+      "Avoid shock or surprise and respond in a matter-of-fact way",
+      "Express alarm clearly to convey how serious the situation is",
+      "Change the subject to more positive topics to lift the mood",
+      "Immediately call the police and stop the interview"
+    ],
+    "e": "When a client discusses suicide, avoid shock or surprise and respond in a matter-of-fact way. A calm response suggests you've handled such issues before and can be trusted with the client's darkest feelings. You may even validate that suicidal urges can be a natural response to overwhelming pain.",
+    "w": [
+      "Expressing alarm may frighten the client and stop disclosure.",
+      "Changing the subject signals you can't handle the topic.",
+      "Calling the police immediately is premature without assessing risk."
+    ],
+    "k": "Respond to suicide talk calmly and matter-of-factly; shock shuts clients down.",
+    "h": "Steady voice, open door.",
+    "r": "Sommers-Flanagan Ch9 – Listening and being empathic"
+  },
+  {
+    "t": "Ch9 Contracts",
+    "d": 2,
+    "q": "What did Rudd and colleagues (2006) conclude about no-suicide contracts?",
+    "o": [
+      "They have no empirical basis and may increase clinician liability",
+      "They are the standard of care and reliably protect clinicians legally",
+      "They reduce suicide rates significantly in most outpatient settings",
+      "They should be used with every client"
+    ],
+    "e": "No-suicide contracts were introduced in the 1970s (Drye et al.), but Rudd and colleagues (2006) concluded they have no empirical basis and may even increase clinician liability, giving a false sense of security. The authors don't recommend them unless integrated into a collaborative treatment plan; commitment-to-treatment statements or safety plans are contemporary alternatives.",
+    "w": [
+      "They aren't the standard of care and don't protect clinicians legally.",
+      "No evidence shows they reduce suicide rates.",
+      "Using them with every client isn't recommended."
+    ],
+    "k": "No-suicide contracts lack evidence and may increase liability; use safety plans instead.",
+    "h": "A signature doesn't save a life.",
+    "r": "Sommers-Flanagan Ch9 – Suicide-prevention contracts"
+  },
+  {
+    "t": "Ch9 Alternatives",
+    "d": 2,
+    "q": "Shneidman describes the primary thought disorder in suicide as:",
+    "o": [
+      "Constriction – seeing only two choices: unbearable pain or death",
+      "Delusional thinking about death, rebirth and an afterlife with loved ones",
+      "Loose associations that impair planning ability",
+      "Grandiosity about the effects that one's death will have on others"
+    ],
+    "e": "Shneidman describes constriction as the primary thought disorder in suicide: seeing only two choices, unbearable pain or death. Interviewers help clients 'widen' their options, for example by brainstorming alternatives with paper and pencil and ranking them, as in the pregnant teenager case.",
+    "w": [
+      "Delusions about death aren't the primary thought disorder Shneidman describes.",
+      "Loose associations are psychotic thought disorder, not the core of suicidal thinking.",
+      "Grandiosity about one's death isn't Shneidman's concept."
+    ],
+    "k": "Constriction (only two options: pain or death) is the core suicidal thought disorder; widen options.",
+    "h": "Tunnel vision: help them see side doors.",
+    "r": "Sommers-Flanagan Ch9 – Identifying alternatives"
+  },
+  {
+    "t": "Ch9 Alternatives",
+    "d": 2,
+    "q": "Should you debate with a client whether suicide is philosophically acceptable?",
+    "o": [
+      "No – focus instead on coping methods and options for life",
+      "Yes – in order to correct the client's faulty beliefs",
+      "Only if the client is religious and raises the topic",
+      "Yes, in order to show the client respect as an intellectual equal"
+    ],
+    "e": "Debating whether suicide is philosophically acceptable is fruitless: suicide is, in fact, a possible alternative, and arguing about it invites resistance and power struggles. Instead, focus on coping methods and options for life, helping the client identify alternatives that address the pain driving their suicidal thinking.",
+    "w": [
+      "Correcting beliefs through debate tends to entrench them.",
+      "Religious beliefs don't make debate more useful.",
+      "Respect is shown by understanding, not by philosophical argument."
+    ],
+    "k": "Don't debate suicide's acceptability; focus on coping and alternatives.",
+    "h": "Skip the debate, build the options.",
+    "r": "Sommers-Flanagan Ch9 – Identifying alternatives"
+  },
+  {
+    "t": "Ch9 Reframe",
+    "d": 2,
+    "q": "Rosenberg's cognitive reframe helps suicidal clients see that they want to:",
+    "o": [
+      "Eradicate the intolerable pain, not the self",
+      "Punish others who have hurt them",
+      "Escape responsibility for their problems and choices",
+      "Be hospitalized and cared for by other people"
+    ],
+    "e": "Rosenberg's cognitive reframe helps suicidal clients see that what they really want is to eradicate intolerable pain, not themselves. Separating the pain from the self opens room for other ways to end the pain. Another reframe: viewing 'feeling suicidal' as a communication about the depth of feeling rather than an actual intent to act.",
+    "w": [
+      "Punishing others may be a motive for some, but it isn't Rosenberg's reframe.",
+      "Escaping responsibility isn't the reframe; ending the pain is.",
+      "Wanting hospitalization isn't the reframe; ending the pain is."
+    ],
+    "k": "Rosenberg: clients want to end the pain, not the self.",
+    "h": "Kill the pain, not the person.",
+    "r": "Sommers-Flanagan Ch9 – Separating psychic pain from the self"
+  },
+  {
+    "t": "Ch9 Directive",
+    "d": 2,
+    "q": "Linehan's DBT-based directive approaches include:",
+    "o": [
+      "Emphatically instructing the client not to commit suicide",
+      "Never giving any advice, even when the client is frozen and stuck",
+      "Debating suicide's morality and philosophy with the client",
+      "Using only reflections and summaries"
+    ],
+    "e": "Linehan's DBT-based directive approaches include emphatically instructing the client not to commit suicide, repeatedly stating that suicide isn't a good solution and that a better one will be found, and giving direct advice when the client is frozen and unable to act. With suicidal clients, directiveness can be appropriate.",
+    "w": [
+      "DBT does give advice when the client is frozen.",
+      "DBT doesn't debate suicide's morality; it directs clearly against it.",
+      "DBT combines validation with directive strategies, not only reflections."
+    ],
+    "k": "DBT directive approaches: emphatically instruct against suicide and advise when the client is frozen.",
+    "h": "Linehan says 'Don't', clearly and often.",
+    "r": "Sommers-Flanagan Ch9 – Becoming directive"
+  },
+  {
+    "t": "Ch9 Medication",
+    "d": 2,
+    "q": "According to the chapter, the best current treatment for suicidal clients is:",
+    "o": [
+      "Psychotherapy, with medication as a reasonable but unproven adjunct",
+      "Antidepressant medication alone, since it targets the biological cause",
+      "Hospitalization in all cases until the suicidal thoughts are completely gone",
+      "Electroconvulsive therapy"
+    ],
+    "e": "According to the chapter, psychotherapy is the best current treatment for suicidal clients, with medication a reasonable but unproven adjunct. There is little or no evidence that antidepressants are effective specifically in treating suicidality, even when they help the underlying depression, so medication shouldn't replace the therapeutic relationship and safety planning.",
+    "w": [
+      "Medication alone lacks evidence for treating suicidality.",
+      "Hospitalizing everyone until thoughts are gone isn't the recommendation.",
+      "ECT isn't named as the best current treatment."
+    ],
+    "k": "Psychotherapy is the best current treatment for suicidal clients; medication is an unproven adjunct.",
+    "h": "Talk is the treatment; pills are the side dish.",
+    "r": "Sommers-Flanagan Ch9 – Medications"
+  },
+  {
+    "t": "Ch9 Hospitalization",
+    "d": 2,
+    "q": "Clients with mild to moderate suicide potential can usually be:",
+    "o": [
+      "Managed on an outpatient basis",
+      "Hospitalized immediately for their safety",
+      "Discharged from care after a single session",
+      "Treated only with medication"
+    ],
+    "e": "Clients with mild to moderate suicide potential can usually be managed on an outpatient basis, with closer monitoring as ideation becomes more frequent or intense and plans clearer. Moderately suicidal clients who fall into several high-risk categories may be treated as severe.",
+    "w": [
+      "Immediate hospitalization is usually unnecessary for mild to moderate risk.",
+      "Discharging after one session ignores ongoing risk.",
+      "Medication alone isn't the management approach for mild to moderate risk."
+    ],
+    "k": "Mild to moderate suicide risk can usually be managed as an outpatient, with closer monitoring as needed.",
+    "h": "Most can stay home, with a closer eye.",
+    "r": "Sommers-Flanagan Ch9 – Hospitalization and referral"
+  },
+  {
+    "t": "Ch9 Hospitalization",
+    "d": 2,
+    "q": "For a severely or extremely suicidal client, the interviewer should NOT:",
+    "o": [
+      "Personally transport the client to a facility without training and policy",
+      "Contact the police or a county mental health professional",
+      "Remain with the client",
+      "Inform the client supportively of your responsibility to ensure safety"
+    ],
+    "e": "With severely or extremely suicidal clients, contact the police or a county mental health professional, remain with the client, and supportively explain your responsibility to ensure their safety. But don't personally transport the client to a facility unless trained and authorized by policy: suicidal clients have jumped from moving vehicles to avoid hospitalization.",
+    "w": [
+      "Contacting police or county mental health professionals is recommended.",
+      "Remaining with the client is recommended, to ensure safety.",
+      "Supportively explaining your safety responsibility is recommended."
+    ],
+    "k": "Severely suicidal client: stay with them, call professionals, but don't transport them yourself without training.",
+    "h": "Stay, call, but don't drive.",
+    "r": "Sommers-Flanagan Ch9 – Hospitalization and referral"
+  },
+  {
+    "t": "Ch9 Hospitalization",
+    "d": 3,
+    "q": "Why might hospitalization not be the best option for some severely suicidal clients?",
+    "o": [
+      "It may be traumatic, deflate self-esteem and cut off support networks",
+      "It is always too expensive for uninsured clients",
+      "Hospitals routinely refuse to admit patients who are suicidal",
+      "It increases medication use"
+    ],
+    "e": "Hospitalization can be traumatic, deflate self-esteem and cut clients off from support networks and employment. Some employed clients with adequate support may do better with increased contact (even brief daily sessions) and a collaborative plan. But when risk is extreme and imminent, hospitalization is probably always best.",
+    "w": [
+      "Cost isn't the reason given in the text.",
+      "Hospitals do admit suicidal patients; that isn't the concern.",
+      "Increased medication use isn't the reason given."
+    ],
+    "k": "Hospitalization can traumatize and isolate; some supported clients do better with intensive outpatient care.",
+    "h": "Safety can cost connection.",
+    "r": "Sommers-Flanagan Ch9 – Hospitalization and referral"
+  },
+  {
+    "t": "Ch9 Professional",
+    "d": 2,
+    "q": "Szasz and Shneidman disagree about suicide. Szasz argues it should be:",
+    "o": [
+      "A basic human right that the state shouldn't prevent",
+      "Never discussed openly in therapy sessions",
+      "Always prevented through involuntary hospitalization",
+      "Treated as a medical disease"
+    ],
+    "e": "Szasz argues suicide is a basic human right that the state shouldn't prevent. Shneidman disagrees: 'Suicide is not a \"right\" anymore than is the \"right to belch.\"' Strong beliefs either way may impede objectivity; interviewers whose beliefs lead them to judge suicidal clients negatively should consider referral.",
+    "w": [
+      "Szasz doesn't say suicide shouldn't be discussed.",
+      "Szasz opposes involuntary hospitalization rather than recommending it.",
+      "Szasz rejects the medical-disease model of suicide and mental illness."
+    ],
+    "k": "Szasz: suicide is a human right; Shneidman: it's no more a right than belching.",
+    "h": "Szasz says 'right'; Shneidman says 'belch'.",
+    "r": "Sommers-Flanagan Ch9 – Can you work with suicidal clients?"
+  },
+  {
+    "t": "Ch9 Professional",
+    "d": 2,
+    "q": "Consultation with peers when treating suicidal clients serves which dual purpose?",
+    "o": [
+      "Professional support and feedback about practice standards",
+      "Coordinating billing and scheduling with others",
+      "Agreeing on a diagnosis and choosing medication",
+      "Reducing session length and the overall cost of care"
+    ],
+    "e": "Consultation with peers serves two purposes: professional support for the clinician managing a stressful case, and feedback that practice meets the standard of care. In a post-suicide trial, you must show you functioned in the 'usual and customary manner', and documented consultation helps demonstrate this.",
+    "w": [
+      "Billing and scheduling aren't the purposes of consultation.",
+      "Diagnosis and medication aren't the dual purpose named.",
+      "Reducing cost isn't a purpose of consultation."
+    ],
+    "k": "Consultation provides support and confirms you meet the standard of care.",
+    "h": "Support for you, proof for court.",
+    "r": "Sommers-Flanagan Ch9 – Consultation"
+  },
+  {
+    "t": "Ch9 Professional",
+    "d": 1,
+    "q": "The legal bottom line about documentation is:",
+    "o": [
+      "If it was not documented, it did not happen",
+      "Document only diagnoses",
+      "Documentation is optional for brief contacts",
+      "Only hospital staff need to document"
+    ],
+    "e": "The legal bottom line: if it was not documented, it did not happen. Document your risk assessment, history, records reviewed, direct questions asked, consultation, confidentiality limits, interventions, the collaborative plan, safety resources, and your rationale for decisions such as why you didn't hospitalize.",
+    "w": [
+      "Diagnoses alone don't document the risk assessment and decisions.",
+      "Brief contacts with suicidal clients still require documentation.",
+      "All clinicians, not just hospital staff, must document."
+    ],
+    "k": "If it wasn't documented, it didn't happen: record risk assessment and decision rationale.",
+    "h": "No note, no proof.",
+    "r": "Sommers-Flanagan Ch9 – Documentation"
+  },
+  {
+    "t": "Ch9 Completed suicide",
+    "d": 3,
+    "q": "After a client's completed suicide, what do the authors advise regarding the family?",
+    "o": [
+      "Be available, express sadness, but avoid talking about your guilt",
+      "Refuse all contact with the family on the attorney's legal advice",
+      "Explain in detail what you would have done differently in hindsight",
+      "Say politely, 'My attorney recommended that I not answer that question'"
+    ],
+    "e": "After a client's completed suicide, the authors advise being available to the family and expressing sadness, but avoiding talk about your guilt. Seek support for yourself, consider a psychological autopsy, and consult an attorney. Refusing contact risks anger and lawsuits; don't let legal fears override basic humanity.",
+    "w": [
+      "Refusing all contact risks anger and seems inhumane.",
+      "Detailing what you'd do differently can be harmful and legally risky.",
+      "Citing your attorney sounds defensive and cold."
+    ],
+    "k": "After a client's suicide: be available, express sadness, avoid discussing guilt, seek support and legal advice.",
+    "h": "Humane, present, careful.",
+    "r": "Sommers-Flanagan Ch9 – Dealing with completed suicides"
+  },
+  {
+    "t": "Ch9 Summary",
+    "d": 2,
+    "q": "When asked to assess a potentially suicidal client, the chapter's mental sequence is:",
+    "o": [
+      "Risk factors, depression, thoughts, plan, control, intent, joint plan, consult, document",
+      "Plan, intent, hospitalization, medication, discharge planning, and follow-up phone calls",
+      "Diagnosis, prognosis, contract, referral, termination, and documentation",
+      "Contract, medicate, monitor, discharge"
+    ],
+    "e": "The chapter's mental sequence for suicide assessment: risk factors, depression, suicidal thoughts, plan, self-control, intent, a joint (collaborative) plan, consultation and documentation. The authors also recommend standardized suicide instruments on intake forms, since clients sometimes disclose more on self-report than face to face.",
+    "w": [
+      "Starting with plan and intent skips risk factors and depression.",
+      "Contracts are discouraged, and diagnosis-to-termination isn't the sequence.",
+      "Contract, medicate, monitor, discharge isn't the recommended sequence; contracts are discouraged."
+    ],
+    "k": "Suicide assessment sequence: risk factors → depression → thoughts → plan → control → intent → joint plan → consult → document.",
+    "h": "Risk, mood, thought, plan, control, intent, plan together, consult, write.",
+    "r": "Sommers-Flanagan Ch9 – Concluding comments"
+  }
+]

@@ -1,0 +1,1232 @@
+[
+  {
+    "t": "General",
+    "d": 1,
+    "q": "The WISC-V is designed for children aged:",
+    "o": [
+      "6 to 16 years 11 months",
+      "2 to 7 years 7 months",
+      "4 to 18 years",
+      "16 to 90 years"
+    ],
+    "e": "The Wechsler Intelligence Scale for Children, 5th edition, covers ages 6 years 0 months to 16 years 11 months. The Wechsler family splits the lifespan into overlapping tests: the WPPSI for preschoolers (about 2½ to 7½), the WISC for school-age children, and the WAIS for older adolescents and adults (16 to 90). Choosing the right test for the age matters, because each has age-appropriate items and norms.",
+    "w": [
+      "2 to 7 years 7 months is the range of the WPPSI-IV, the preschool Wechsler test.",
+      "4 to 18 years doesn't match the WISC-V; it runs from 6 to 16 years 11 months.",
+      "16 to 90 years is the WAIS-IV, the adult Wechsler test."
+    ],
+    "k": "WISC-V: ages 6:0 to 16:11 (WPPSI below, WAIS above).",
+    "h": "WISC = Wechsler for School-age Children: from first grade (6) to just before 17.",
+    "r": "WISC-5 – Description"
+  },
+  {
+    "t": "General",
+    "d": 1,
+    "q": "How is the WISC-V administered?",
+    "o": [
+      "Individually",
+      "In groups of up to 10 children",
+      "Online, self-administered",
+      "By the parents"
+    ],
+    "e": "The WISC-V is individually administered: one trained examiner with one child, following standardized instructions. This allows the examiner to present materials (blocks, pictures), time responses, query unclear answers, and observe behaviour (attention, frustration, strategy), which adds clinical information beyond the scores. Group tests cannot do this, and self- or parent-administration would break standardization.",
+    "w": [
+      "Group administration is for screening tests; the WISC-V is one-to-one.",
+      "It is examiner-administered, not self-administered, even in its digital (Q-interactive) form.",
+      "Parents never administer it; a trained examiner is required."
+    ],
+    "k": "The WISC-V is individually administered by a trained examiner, one child at a time.",
+    "r": "WISC-5 – Description"
+  },
+  {
+    "t": "General",
+    "d": 2,
+    "q": "Which is NOT listed among the purposes of the WISC-V?",
+    "o": [
+      "Diagnosing personality disorders",
+      "Identifying intellectual disability",
+      "Identifying giftedness",
+      "Helping with educational and intervention planning"
+    ],
+    "e": "The WISC-V's purposes are to assess general thinking and reasoning skills; to identify intellectual disability, giftedness and specific learning disabilities; and to help with educational and intervention planning. It is a cognitive test. Personality disorders are assessed with personality and clinical measures, not an intelligence scale, and personality disorders are generally not diagnosed in children anyway.",
+    "w": [
+      "Identifying intellectual disability is a listed purpose.",
+      "Identifying giftedness is one of the WISC-V's listed purposes, so it is not the exception.",
+      "Helping with educational and intervention planning is a listed purpose."
+    ],
+    "k": "WISC-V purposes: assess reasoning, identify intellectual disability, giftedness and learning disabilities, guide educational planning.",
+    "r": "WISC-5 – Description"
+  },
+  {
+    "t": "Structure",
+    "d": 1,
+    "q": "The WISC-V has:",
+    "o": [
+      "5 primary indexes and 10 primary subtests (2 per index)",
+      "2 main indexes (VIQ and PIQ) and 10 core subtests",
+      "4 primary indexes and 12 primary subtests (3 per index)",
+      "5 primary indexes and 15 primary subtests (3 per index)"
+    ],
+    "e": "The WISC-V is built around 5 primary index scores, each estimated from 2 primary subtests, giving 10 primary subtests in total. The index pairs: VCI (Similarities, Vocabulary), VSI (Block Design, Visual Puzzles), FRI (Matrix Reasoning, Figure Weights), WMI (Digit Span, Picture Span), PSI (Coding, Symbol Search). Secondary (supplemental) subtests add clinical detail.",
+    "w": [
+      "VIQ and PIQ were the two main indexes of older WISC versions, not the WISC-V.",
+      "Four indexes was the WISC-IV structure; the WISC-V has five, with two subtests each.",
+      "Five indexes is right, but each uses 2 primary subtests (10 in total), not 3."
+    ],
+    "k": "WISC-V = 5 primary indexes × 2 primary subtests = 10 primary subtests.",
+    "h": "Five fingers, two knuckles each.",
+    "r": "WISC-5 – Table"
+  },
+  {
+    "t": "Structure",
+    "d": 1,
+    "q": "The five primary indexes are:",
+    "o": [
+      "VCI, VSI, FRI, WMI, PSI",
+      "VIQ, PIQ, FSIQ, GAI, WMI",
+      "VCI, PRI, WMI, PSI, GAI",
+      "Verbal, Performance, Memory, Speed, Attention"
+    ],
+    "e": "The five primary indexes are Verbal Comprehension (VCI), Visual Spatial (VSI), Fluid Reasoning (FRI), Working Memory (WMI) and Processing Speed (PSI). The WISC-V split the old Perceptual Reasoning index into two: Visual Spatial and Fluid Reasoning. The FSIQ and GAI are composite scores built from subtests, not primary indexes.",
+    "w": [
+      "VIQ and PIQ are old-version scores, and FSIQ and GAI are composites, not primary indexes.",
+      "PRI is the WISC-IV's Perceptual Reasoning Index, and the GAI is a composite.",
+      "These are informal labels, not the WISC-V's index names."
+    ],
+    "k": "Five primary indexes: VCI, VSI, FRI, WMI, PSI.",
+    "h": "'Very Vivid Fish Watch Patiently': VCI, VSI, FRI, WMI, PSI.",
+    "r": "WISC-5 – Table"
+  },
+  {
+    "t": "Indexes",
+    "d": 1,
+    "q": "Which index reflects crystallized intelligence?",
+    "o": [
+      "Verbal Comprehension (VCI)",
+      "Fluid Reasoning (FRI)",
+      "Processing Speed (PSI)",
+      "Visual Spatial (VSI)"
+    ],
+    "e": "Crystallized intelligence is knowledge and skills accumulated through learning and culture: vocabulary, facts, verbal concepts. The VCI measures understanding of language, reasoning with words and verbal knowledge, so the summary labels it crystallized intelligence. It depends heavily on schooling and language exposure, which matters when testing children from different linguistic backgrounds.",
+    "w": [
+      "Fluid Reasoning reflects fluid intelligence: solving novel problems.",
+      "Processing Speed is how fast a child scans and processes visual information.",
+      "Visual Spatial is understanding and organizing visual designs."
+    ],
+    "k": "VCI = crystallized intelligence: learned verbal knowledge and reasoning with words.",
+    "h": "Crystallized = knowledge that has hardened (crystallized) from experience, like sugar into crystals.",
+    "r": "WISC-5 – VCI"
+  },
+  {
+    "t": "Indexes",
+    "d": 1,
+    "q": "Which index reflects fluid intelligence?",
+    "o": [
+      "Fluid Reasoning (FRI)",
+      "Verbal Comprehension (VCI)",
+      "Working Memory (WMI)",
+      "Processing Speed (PSI)"
+    ],
+    "e": "Fluid intelligence is the ability to reason with new information: detect patterns, think logically and solve novel problems without relying on what you have learned. The FRI is defined in exactly these terms. Its subtests (Matrix Reasoning, Figure Weights) are nonverbal puzzles a child has not practised, so they draw on reasoning rather than knowledge.",
+    "w": [
+      "Verbal Comprehension reflects crystallized intelligence: learned word knowledge and verbal concepts, not novel reasoning.",
+      "Working Memory is holding and manipulating information mentally.",
+      "Processing Speed is the speed and accuracy of visual scanning."
+    ],
+    "k": "FRI = fluid intelligence: detecting patterns and solving novel problems.",
+    "h": "Fluid flows into any new shape: new problems, no prior knowledge.",
+    "r": "WISC-5 – FRI"
+  },
+  {
+    "t": "Indexes",
+    "d": 2,
+    "q": "'The ability to understand visual details and organize shapes or designs' defines:",
+    "o": [
+      "Visual Spatial (VSI)",
+      "Fluid Reasoning (FRI)",
+      "Processing Speed (PSI)",
+      "Working Memory (WMI)"
+    ],
+    "e": "The Visual Spatial Index measures how well a child understands visual details and organizes shapes or designs, that is, analysing spatial relationships and building or mentally assembling figures. Its subtests are Block Design (physically reproducing a design) and Visual Puzzles (mentally assembling pieces). These skills matter for reading maps, geometry and copying from the board.",
+    "w": [
+      "Fluid Reasoning is detecting patterns and solving novel logical problems.",
+      "Processing Speed is how fast visual information is scanned and processed.",
+      "Working Memory is holding and manipulating information in mind."
+    ],
+    "k": "VSI = understanding visual details and organizing shapes and designs.",
+    "h": "Visual Spatial = seeing (visual) where things go (spatial).",
+    "r": "WISC-5 – VSI"
+  },
+  {
+    "t": "Indexes",
+    "d": 1,
+    "q": "'The ability to hold and manipulate information mentally' defines:",
+    "o": [
+      "Working Memory (WMI)",
+      "Processing Speed (PSI)",
+      "Fluid Reasoning (FRI)",
+      "Verbal Comprehension (VCI)"
+    ],
+    "e": "Working memory is the mental workspace: holding information in mind and doing something with it, such as reversing digits, reordering, or following multi-step instructions. The WMI measures it with Digit Span (auditory) and Picture Span (visual). Weak working memory often shows up in school as losing track of instructions or mental arithmetic, and it is common in ADHD and learning disabilities.",
+    "w": [
+      "Processing Speed is the speed of scanning and processing visual information.",
+      "Fluid Reasoning is solving novel problems and detecting patterns.",
+      "Verbal Comprehension is language knowledge and reasoning with words."
+    ],
+    "k": "WMI measures holding and manipulating information in mind at the same time.",
+    "h": "Working memory is a mental sticky note you can rearrange.",
+    "r": "WISC-5 – WMI"
+  },
+  {
+    "t": "Indexes",
+    "d": 2,
+    "q": "'How quickly and accurately a child can scan, discriminate and process visual information' defines:",
+    "o": [
+      "Processing Speed (PSI)",
+      "Visual Spatial (VSI)",
+      "Working Memory (WMI)",
+      "Fluid Reasoning (FRI)"
+    ],
+    "e": "The PSI measures how quickly and accurately a child can scan, discriminate and process simple visual information. Its subtests, Coding and Symbol Search, are timed and easy in content, so the score reflects speed and accuracy, not reasoning. Slow processing speed can lower the FSIQ and cause problems with timed school tasks, even in a child who reasons well.",
+    "w": [
+      "Visual Spatial is understanding and organizing visual designs, not speed.",
+      "Working Memory is holding and manipulating information mentally.",
+      "Fluid Reasoning is solving novel problems with logic, not the speed of scanning visual information."
+    ],
+    "k": "PSI = speed and accuracy of scanning, discriminating and processing simple visual information.",
+    "h": "Processing Speed = how fast the visual conveyor belt runs.",
+    "r": "WISC-5 – PSI"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "'Explain how two things are alike' is the instruction for:",
+    "o": [
+      "Similarities (VCI)",
+      "Vocabulary (VCI)",
+      "Comprehension (VCI supplemental)",
+      "Picture Concepts (FRI supplemental)"
+    ],
+    "e": "Similarities asks how two words or concepts are alike, for example 'How are an apple and a banana alike?' A concrete answer ('both are yellow-ish') earns less than the abstract category ('both are fruits'). That is why it measures verbal reasoning and abstract thinking. It is a primary VCI subtest and one of the seven FSIQ subtests.",
+    "w": [
+      "Vocabulary asks the child to name pictures and define words.",
+      "Comprehension asks about social situations and common sense.",
+      "Picture Concepts uses pictures, not words, to find a common category."
+    ],
+    "k": "Similarities = 'How are X and Y alike?': verbal abstract reasoning (VCI, FSIQ).",
+    "h": "SIMILARities: find what makes them SIMILAR.",
+    "r": "WISC-5 – Similarities"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "Naming pictures and defining words is:",
+    "o": [
+      "Vocabulary",
+      "Information",
+      "Similarities",
+      "Picture Span"
+    ],
+    "e": "Vocabulary asks the child to name pictures (easier, early items) and then define words. It measures word knowledge and verbal expression, a core part of crystallized intelligence. It is a primary VCI subtest and an FSIQ subtest. Because word knowledge depends on exposure, it is sensitive to schooling and to the language spoken at home.",
+    "w": [
+      "Information asks general-knowledge questions about the world.",
+      "Similarities asks how two things are alike.",
+      "Picture Span is a visual working-memory task of recalling picture order."
+    ],
+    "k": "Vocabulary = name pictures and define words: word knowledge (VCI, FSIQ).",
+    "h": "Vocabulary = a dictionary test.",
+    "r": "WISC-5 – Vocabulary"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "Reproducing a design with red-and-white blocks is:",
+    "o": [
+      "Block Design (VSI) – timed",
+      "Visual Puzzles (VSI) – untimed",
+      "Matrix Reasoning (FRI)",
+      "Coding (PSI)"
+    ],
+    "e": "Block Design shows a design and asks the child to reproduce it with red-and-white blocks as accurately and quickly as possible. It is timed and involves physical manipulation, measuring visual-spatial skills, organization and speed. It is the VSI's FSIQ subtest. Observing how the child works (trial and error versus planning) adds useful clinical information.",
+    "w": [
+      "Visual Puzzles is solved mentally, without handling pieces, and is not the block task.",
+      "Matrix Reasoning asks which piece completes a pattern; nothing is built.",
+      "Coding is copying symbols that match numbers."
+    ],
+    "k": "Block Design = reproduce designs with red-and-white blocks; timed (VSI, FSIQ).",
+    "h": "Blocks you build with your hands.",
+    "r": "WISC-5 – Block Design"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Which VSI subtest is done mentally, without physical manipulation, and measures mental rotation?",
+    "o": [
+      "Visual Puzzles",
+      "Block Design",
+      "Figure Weights",
+      "Symbol Search"
+    ],
+    "e": "In Visual Puzzles the child sees a completed puzzle and chooses the response options (pieces) that would combine to reconstruct it, entirely in the head: no physical manipulation. It measures visual analysis and mental rotation. Contrast its VSI partner, Block Design, where the child physically builds the design with blocks.",
+    "w": [
+      "Block Design requires physically arranging red-and-white blocks to copy a pattern, so it isn't done mentally.",
+      "Figure Weights is a quantitative-reasoning (FRI) task with balance scales.",
+      "Symbol Search is a processing-speed task of spotting target symbols."
+    ],
+    "k": "Visual Puzzles = mental assembly and rotation, no hands (VSI); Block Design = hands-on building.",
+    "h": "Puzzles in your head, blocks in your hands.",
+    "r": "WISC-5 – Visual Puzzles"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "Choosing the piece that completes an incomplete matrix or series is:",
+    "o": [
+      "Matrix Reasoning",
+      "Picture Concepts",
+      "Visual Puzzles",
+      "Figure Weights"
+    ],
+    "e": "Matrix Reasoning shows an incomplete matrix or series and asks which option completes it. To solve it the child must detect the rule (colour, shape, number, rotation), which is nonverbal reasoning and pattern detection, the essence of fluid intelligence. It is a primary FRI subtest and part of both the FSIQ and the GAI.",
+    "w": [
+      "Picture Concepts asks which pictures share a category, not which piece completes a pattern.",
+      "Visual Puzzles reconstructs a picture from pieces (VSI).",
+      "Figure Weights asks which weights balance a scale, a quantitative reasoning task, not completing a matrix."
+    ],
+    "k": "Matrix Reasoning = find the piece that completes the pattern: nonverbal fluid reasoning (FRI, FSIQ).",
+    "h": "Matrix = a grid with a missing tile.",
+    "r": "WISC-5 – Matrix Reasoning"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "A balance scale with missing weights is presented in:",
+    "o": [
+      "Figure Weights – quantitative reasoning (FRI)",
+      "Arithmetic – mental calculation and numeric reasoning (FRI)",
+      "Block Design – visual-spatial",
+      "Matrix Reasoning – pattern detection"
+    ],
+    "e": "Figure Weights presents balance scales with a missing weight, and the child selects the option that balances the scale. Working out the equivalences ('one circle equals two squares') requires quantitative reasoning and logical problem-solving without spoken arithmetic. It is a primary FRI subtest and part of the FSIQ and GAI.",
+    "w": [
+      "Arithmetic is spoken maths problems solved mentally, a supplemental FRI subtest, not the balance scale.",
+      "Block Design is reproducing designs with blocks.",
+      "Matrix Reasoning completes patterns in a grid."
+    ],
+    "k": "Figure Weights = balance scales with a missing weight: quantitative reasoning (FRI, FSIQ).",
+    "h": "Weights on a scale = quantity logic.",
+    "r": "WISC-5 – Figure Weights"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Digit Span requires repeating numbers:",
+    "o": [
+      "Forward, backward and in order (sequencing)",
+      "Forward and backward only, without sequencing",
+      "Backward only, then in alphabetical order",
+      "In order only, as quickly as possible"
+    ],
+    "e": "WISC-V Digit Span has three parts: forward (repeat as heard), backward (repeat in reverse) and sequencing (repeat in numerical order). Forward taps short-term auditory memory and attention, while backward and sequencing require manipulating the digits, which is the 'working' in working memory. It is the WMI's FSIQ subtest.",
+    "w": [
+      "Sequencing is the third part of Digit Span, added in recent editions.",
+      "Alphabetical ordering belongs to Letter-Number Sequencing, not Digit Span.",
+      "Digit Span is not a speed task, and it includes forward and backward as well as sequencing."
+    ],
+    "k": "Digit Span = forward, backward and sequencing: auditory working memory (WMI, FSIQ).",
+    "h": "Forward, Backward, Sorted: say it, flip it, sort it.",
+    "r": "WISC-5 – Digit Span"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "Recalling a sequence of briefly shown pictures in the same order measures:",
+    "o": [
+      "Visual working memory (Picture Span)",
+      "Auditory working memory (Digit Span)",
+      "Processing speed (Symbol Search)",
+      "Fluid reasoning (Picture Concepts)"
+    ],
+    "e": "Picture Span briefly shows pictures in sequence and asks the child to recall them in the same order immediately afterwards. It measures visual working memory, the visual twin of Digit Span (auditory). Together they form the WMI. Picture Span is a primary subtest but not part of the FSIQ.",
+    "w": [
+      "Digit Span is auditory (spoken numbers), not visual pictures.",
+      "Symbol Search is timed visual scanning, not memory for order.",
+      "Picture Concepts is about grouping pictures by category, not remembering them."
+    ],
+    "k": "Picture Span = recall pictures in the order shown: visual working memory (WMI).",
+    "h": "Digit Span for the ear, Picture Span for the eye.",
+    "r": "WISC-5 – Picture Span"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 1,
+    "q": "Copying the correct symbol for each number as quickly as possible is:",
+    "o": [
+      "Coding",
+      "Symbol Search",
+      "Cancellation",
+      "Digit Span"
+    ],
+    "e": "Coding gives a key pairing numbers with symbols, and the child copies the matching symbol under each number as quickly and accurately as possible within a time limit. It measures visual-motor speed and accuracy, so it involves the hand as well as the eye. It is the PSI's FSIQ subtest.",
+    "w": [
+      "Symbol Search asks whether a target symbol appears in a row; nothing is copied.",
+      "Cancellation is a supplemental task of marking target shapes in a grid.",
+      "Digit Span is an auditory working-memory task."
+    ],
+    "k": "Coding = copy symbols that match numbers, fast: visual-motor speed (PSI, FSIQ).",
+    "h": "Coding = decoding a secret key as fast as you can write.",
+    "r": "WISC-5 – Coding"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Indicating whether a target symbol appears in a row measures:",
+    "o": [
+      "Processing speed and visual discrimination (Symbol Search)",
+      "Visual-motor speed and coordination (Coding, copying symbols)",
+      "Visual working memory (Picture Span)",
+      "Nonverbal categorization (Picture Concepts)"
+    ],
+    "e": "Symbol Search presents target symbols and rows of symbols, and the child marks as quickly and accurately as possible whether a target appears in the row. It is timed and measures processing speed and visual discrimination. It is the PSI's second primary subtest, alongside Coding, but it is not part of the FSIQ.",
+    "w": [
+      "Visual-motor copying describes Coding, the other PSI subtest.",
+      "Remembering pictures in order is Picture Span, a visual working memory subtest, not symbol scanning.",
+      "Choosing pictures that share a concept is Picture Concepts, a nonverbal categorization task."
+    ],
+    "k": "Symbol Search = is the target in the row? Speed and visual discrimination (PSI).",
+    "h": "Search = scan and spot.",
+    "r": "WISC-5 – Symbol Search"
+  },
+  {
+    "t": "Timed subtests",
+    "d": 2,
+    "q": "Which three primary subtests does the summary mark as timed?",
+    "o": [
+      "Block Design, Coding, Symbol Search",
+      "Visual Puzzles, Digit Span, Coding",
+      "Matrix Reasoning, Figure Weights, Symbol Search",
+      "Similarities, Block Design, Picture Span"
+    ],
+    "e": "In the summary, 'this subtest is timed' appears for Block Design (VSI), Coding (PSI) and Symbol Search (PSI), and also for the supplemental Cancellation. These are tasks where speed is part of what is measured: performance under time pressure. A child who is accurate but slow, for example because of motor problems or anxiety, will score lower on them.",
+    "w": [
+      "Visual Puzzles and Digit Span are not marked as timed in the summary.",
+      "Matrix Reasoning and Figure Weights are not marked as timed in the summary.",
+      "Similarities and Picture Span are not timed tasks in the summary."
+    ],
+    "k": "Summary's timed primary subtests: Block Design, Coding, Symbol Search (plus Cancellation).",
+    "h": "Build, Copy, Search: the three races against the clock.",
+    "r": "WISC-5 – Table"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "How many primary subtests are used to compute the FSIQ?",
+    "o": [
+      "7",
+      "10",
+      "5",
+      "16"
+    ],
+    "e": "Of the 10 primary subtests, 7 are used to calculate the Full-Scale IQ: at least one from each index, chosen because together they cover all major ability areas with the strongest statistical contribution to IQ. The other three primary subtests (Visual Puzzles, Picture Span, Symbol Search) contribute to their index scores but not to the FSIQ.",
+    "w": [
+      "10 is the number of primary subtests; only 7 feed the FSIQ.",
+      "5 is the number of subtests in the GAI.",
+      "16 is roughly the total of primary plus secondary subtests, not the FSIQ count."
+    ],
+    "k": "FSIQ = 7 of the 10 primary subtests; GAI = 5 of those 7.",
+    "h": "10 primary → 7 for FSIQ → 5 for GAI: count down.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 3,
+    "q": "Which are the 7 FSIQ subtests?",
+    "o": [
+      "Similarities, Vocabulary, Block Design, Matrix Reasoning, Figure Weights, Digit Span, Coding",
+      "Similarities, Vocabulary, Visual Puzzles, Matrix Reasoning, Picture Span, Coding, Symbol Search",
+      "Vocabulary, Information, Block Design, Figure Weights, Digit Span, Picture Span, Coding",
+      "Similarities, Block Design, Visual Puzzles, Matrix Reasoning, Figure Weights, Digit Span, Symbol Search"
+    ],
+    "e": "The FSIQ subtests take two from VCI, one from VSI, two from FRI, one from WMI and one from PSI: Similarities and Vocabulary (VCI), Block Design (VSI), Matrix Reasoning and Figure Weights (FRI), Digit Span (WMI) and Coding (PSI). The second subtest of VSI, WMI and PSI (Visual Puzzles, Picture Span, Symbol Search) is left out. Reasoning (VCI and FRI) gets two subtests each.",
+    "w": [
+      "Visual Puzzles, Picture Span and Symbol Search are primary subtests but not in the FSIQ.",
+      "Information is supplemental, and Picture Span is not in the FSIQ.",
+      "Visual Puzzles and Symbol Search are not FSIQ subtests, and Vocabulary and Coding are missing."
+    ],
+    "k": "FSIQ 7: Similarities, Vocabulary, Block Design, Matrix Reasoning, Figure Weights, Digit Span, Coding.",
+    "h": "'Sisters Visit Big Mountains For Daring Climbs': SI, VC, BD, MR, FW, DS, CD.",
+    "r": "WISC-5 – p.3 diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "Which primary subtest is NOT used for the FSIQ?",
+    "o": [
+      "Visual Puzzles",
+      "Block Design",
+      "Digit Span",
+      "Coding"
+    ],
+    "e": "Three primary subtests are left out of the FSIQ: Visual Puzzles (VSI), Picture Span (WMI) and Symbol Search (PSI). They still count toward their index scores. Block Design represents VSI in the FSIQ, Digit Span represents WMI, and Coding represents PSI. The pattern: in each of these three indexes, the first-listed subtest goes into the FSIQ.",
+    "w": [
+      "Block Design is the VSI subtest used in the FSIQ.",
+      "Digit Span is the WMI subtest used in the FSIQ.",
+      "Coding is the PSI subtest used in the FSIQ."
+    ],
+    "k": "Primary subtests not in the FSIQ: Visual Puzzles, Picture Span, Symbol Search.",
+    "h": "Puzzles, Pictures, Search sit out of the FSIQ.",
+    "r": "WISC-5 – p.3 diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "Why are the 7 FSIQ subtests chosen?",
+    "o": [
+      "They cover all major abilities with the strongest contribution to IQ",
+      "They are the shortest subtests and the quickest to administer",
+      "They are the only untimed subtests in the whole battery",
+      "They are all verbal, so they reflect crystallized intelligence"
+    ],
+    "e": "The summary's reason: these seven cover all major ability areas (every index is represented) and have the strongest statistical contribution to IQ, meaning they best measure general intelligence (g) as a set. Choosing the most informative subtests keeps the FSIQ reliable while limiting testing time. The other subtests give deeper clinical information but are not needed for the core score.",
+    "w": [
+      "The selection is about statistical contribution, not speed of administration.",
+      "Block Design and Coding are timed, so the FSIQ set is not 'untimed only'.",
+      "The FSIQ includes nonverbal and speed subtests, not only verbal ones."
+    ],
+    "k": "The 7 FSIQ subtests cover all ability areas with the strongest statistical contribution to IQ.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "How many subtests make up the General Ability Index (GAI)?",
+    "o": [
+      "5",
+      "7",
+      "3",
+      "10"
+    ],
+    "e": "The GAI uses 5 of the 7 FSIQ subtests: Similarities, Vocabulary, Block Design, Matrix Reasoning and Figure Weights. It drops the working-memory (Digit Span) and processing-speed (Coding) subtests, giving an estimate of reasoning and knowledge with less influence of memory and speed.",
+    "w": [
+      "7 is the FSIQ count; the GAI drops two of them.",
+      "3 is too few; the GAI keeps VCI, VSI and FRI subtests (5).",
+      "10 is the number of primary subtests."
+    ],
+    "k": "GAI = 5 subtests: the FSIQ minus Digit Span and Coding.",
+    "h": "GAI = FSIQ minus memory and speed.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 3,
+    "q": "Which subtests are excluded from the GAI but included in the FSIQ?",
+    "o": [
+      "Digit Span and Coding",
+      "Similarities and Vocabulary",
+      "Block Design and Matrix Reasoning",
+      "Visual Puzzles and Picture Span"
+    ],
+    "e": "The GAI excludes working-memory and processing-speed subtests. Among the 7 FSIQ subtests, those are Digit Span (WMI) and Coding (PSI). So FSIQ = GAI subtests + Digit Span + Coding. The comparison between FSIQ and GAI is clinically useful: a GAI much higher than the FSIQ suggests memory and speed are pulling the overall score down.",
+    "w": [
+      "Similarities and Vocabulary are VCI subtests and are in the GAI.",
+      "Block Design and Matrix Reasoning are in the GAI.",
+      "Visual Puzzles and Picture Span are in neither the FSIQ nor the GAI."
+    ],
+    "k": "GAI excludes Digit Span and Coding (the WMI and PSI members of the FSIQ).",
+    "h": "GAI drops the D and the C: Digit Span and Coding.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 3,
+    "q": "A 10-year-old with very slow processing speed and weak working memory but strong reasoning: why might the GAI be informative?",
+    "o": [
+      "It estimates ability from reasoning and knowledge, minimizing speed and memory",
+      "It includes all 10 primary subtests, so it is more complete than the FSIQ",
+      "It is the only score allowed for diagnosing intellectual disability",
+      "It weights Coding and Digit Span most heavily, favouring this child"
+    ],
+    "e": "For this child, the FSIQ mixes strong reasoning with weak speed and memory, so it may underestimate reasoning ability. The GAI provides an alternative estimate focused on reasoning and knowledge, minimizing the impact of speed and memory, which describes this child's reasoning more fairly. Comparing GAI and FSIQ also documents the weakness, which matters for diagnosis (for example ADHD or a learning disability) and for accommodations such as extra time.",
+    "w": [
+      "The GAI uses only 5 subtests; it is narrower than the FSIQ, not more complete.",
+      "No rule makes the GAI the only score for intellectual disability.",
+      "The GAI excludes Coding and Digit Span; it does not weight them."
+    ],
+    "k": "When speed or working memory are weak, the GAI shows reasoning ability without their drag.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "General-knowledge questions about the world ('What is the capital of France?') belong to:",
+    "o": [
+      "Information (VCI) – long-term memory and acquired knowledge",
+      "Comprehension (VCI) – social reasoning and practical judgment",
+      "Vocabulary (VCI) – word knowledge and verbal expression",
+      "Arithmetic (FRI) – mental calculation and quantitative reasoning"
+    ],
+    "e": "Information asks general-knowledge questions about the world (for example 'What is the capital of France?'). It measures long-term memory and acquired knowledge, so it is strongly crystallized and depends on schooling and cultural exposure. It is a supplemental (secondary) VCI subtest, not part of the FSIQ.",
+    "w": [
+      "Comprehension asks about social situations and common sense ('what should you do if…').",
+      "Vocabulary asks for word definitions, not facts about the world.",
+      "Arithmetic asks spoken maths word problems solved mentally, not general knowledge about the world."
+    ],
+    "k": "Information = general-knowledge questions: acquired knowledge and long-term memory (VCI supplemental).",
+    "h": "Information = quiz-show facts.",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "'What should you do if you find a lost wallet on the street?' is from:",
+    "o": [
+      "Comprehension – social reasoning and practical judgment",
+      "Information – long-term memory and acquired knowledge",
+      "Similarities – verbal reasoning and abstract thinking",
+      "Picture Concepts – nonverbal categorization"
+    ],
+    "e": "Comprehension asks about social situations and common-sense understanding ('What should you do if you find a lost wallet?', 'Why do we need laws?'). It measures social reasoning and practical judgment, knowing why rules exist and how to act. It is a supplemental VCI subtest. Contrast Information, which asks for facts.",
+    "w": [
+      "Information asks for facts about the world, not judgment in social situations.",
+      "Similarities asks how two concepts are alike.",
+      "Picture Concepts is a nonverbal picture-grouping task."
+    ],
+    "k": "Comprehension = social situations and common sense: practical judgment (VCI supplemental).",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "Choosing pictures from rows that belong to a common category is:",
+    "o": [
+      "Picture Concepts (FRI supplemental)",
+      "Matrix Reasoning (FRI primary)",
+      "Similarities (VCI)",
+      "Picture Span (WMI)"
+    ],
+    "e": "Picture Concepts shows two or three rows of pictures and asks the child to choose one from each row that belongs together in a common category (for example a cat and a dog, both animals). It measures nonverbal categorization and abstract reasoning, finding the concept with pictures instead of words. It is a supplemental FRI subtest.",
+    "w": [
+      "Matrix Reasoning completes a visual pattern; it doesn't group pictures by category.",
+      "Similarities finds the common category through words, not pictures.",
+      "Picture Span is memory for the order of pictures."
+    ],
+    "k": "Picture Concepts = pick pictures that share a category: nonverbal concept formation (FRI supplemental).",
+    "h": "Picture Concepts = Similarities with pictures.",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "In this summary, Arithmetic is grouped under:",
+    "o": [
+      "Fluid Reasoning (FRI)",
+      "Working Memory (WMI)",
+      "Verbal Comprehension (VCI)",
+      "Processing Speed (PSI)"
+    ],
+    "e": "In the WISC-V, and in the summary, Arithmetic is a supplemental Fluid Reasoning subtest alongside Picture Concepts. Problems are read aloud and solved mentally, which draws on quantitative and numeric reasoning. It also loads on working memory, since the child must hold the problem in mind, which is why it sat under Working Memory in the WISC-IV. Know the course placement: FRI.",
+    "w": [
+      "Arithmetic was a Working Memory subtest in the WISC-IV; in the WISC-V summary it is FRI.",
+      "VCI's supplemental subtests are Information and Comprehension.",
+      "Processing Speed contains Coding, Symbol Search and Cancellation; Arithmetic is not one of them."
+    ],
+    "k": "WISC-V: Arithmetic is a supplemental Fluid Reasoning subtest (with Picture Concepts).",
+    "h": "Arithmetic reasons with numbers, so it sits with Reasoning (FRI).",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "'Repeat the numbers in order and the letters alphabetically' is:",
+    "o": [
+      "Letter-Number Sequencing (WMI)",
+      "Digit Span – sequencing (WMI)",
+      "Picture Span (WMI)",
+      "Arithmetic (FRI)"
+    ],
+    "e": "Letter-Number Sequencing reads a mixed string of letters and numbers (for example 'B-3-A-1') and asks the child to repeat the numbers in ascending order and the letters alphabetically ('1-3-A-B'). Sorting two kinds of items mentally requires holding and reorganizing information, so it measures working memory and mental manipulation. It is the WMI's supplemental subtest.",
+    "w": [
+      "Digit Span sequencing sorts numbers only; there are no letters in Digit Span.",
+      "Picture Span recalls the order of pictures, not letters and numbers.",
+      "Arithmetic asks spoken maths problems; reordering numbers and letters is Letter-Number Sequencing."
+    ],
+    "k": "Letter-Number Sequencing = numbers in order, then letters alphabetically: working memory (WMI supplemental).",
+    "h": "Letters AND Numbers: sort each pile.",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "Scanning a grid and marking only target shapes, timed, is:",
+    "o": [
+      "Cancellation (PSI supplemental)",
+      "Symbol Search (PSI primary)",
+      "Coding (PSI primary)",
+      "Picture Concepts (FRI)"
+    ],
+    "e": "Cancellation asks the child to scan a grid (random and structured arrangements) and mark only the target shapes as quickly and accurately as possible. It is timed and measures visual attention and processing speed. It is the PSI's supplemental subtest and the only supplemental subtest the summary marks as timed.",
+    "w": [
+      "Symbol Search asks whether targets appear in rows, a yes/no judgement, not marking a grid.",
+      "Coding copies symbols matched to numbers or shapes; it doesn't involve scanning a grid for targets.",
+      "Picture Concepts groups pictures by category (FRI)."
+    ],
+    "k": "Cancellation = mark the target shapes in a grid, fast: attention and speed (PSI supplemental, timed).",
+    "h": "Cancel (cross out) the targets.",
+    "r": "WISC-5 – Supplemental"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "What is the role of the non-FSIQ subtests (shown in italics)?",
+    "o": [
+      "They add clinical information but do not measure the core FSIQ abilities",
+      "They replace the FSIQ when a child cannot complete a primary subtest",
+      "They are used only for children under 6 who cannot do primary tasks",
+      "They measure personality and emotional functioning rather than ability"
+    ],
+    "e": "The summary distinguishes the 7 FSIQ subtests (bold) from the others (italics). The italic subtests give deeper clinical information, for example separating auditory from visual working memory, or adding social judgment (Comprehension), but they do not measure the core abilities required for the FSIQ. They help explain a child's profile; they do not change the FSIQ.",
+    "w": [
+      "Substitution rules exist in the manual, but the summary describes the italic subtests as adding clinical information.",
+      "Children under 6 take the WPPSI; the WISC subtests are for ages 6 to 16.",
+      "All WISC-V subtests measure cognitive abilities, not personality."
+    ],
+    "k": "Non-FSIQ subtests add clinical detail but don't measure the FSIQ's core abilities.",
+    "h": "Bold builds the IQ; italics add the commentary.",
+    "r": "WISC-5 – p.3"
+  },
+  {
+    "t": "History",
+    "d": 2,
+    "q": "Older WISC versions had two main indexes:",
+    "o": [
+      "Verbal IQ (crystallized) and Performance IQ (fluid)",
+      "Verbal Comprehension (fluid) and Processing Speed",
+      "Full-Scale IQ and General Ability Index",
+      "Working Memory and Processing Speed indexes"
+    ],
+    "e": "Older Wechsler scales split intelligence into two halves. Verbal IQ measured verbal reasoning and language-based problem solving (crystallized intelligence), and Performance IQ measured nonverbal, visual-spatial, hands-on problem solving (fluid intelligence). The modern WISC-V replaces this split with five indexes, which separate abilities the old PIQ lumped together (visual-spatial, fluid reasoning, speed).",
+    "w": [
+      "VCI is crystallized, not fluid, and Processing Speed was not one of the original two.",
+      "FSIQ and GAI are composite scores, not the old two-part split.",
+      "WMI and PSI are modern indexes; they were not the two main ones."
+    ],
+    "k": "Old WISC: Verbal IQ (crystallized) and Performance IQ (fluid); WISC-V: five indexes.",
+    "h": "Old WISC had two halves: talk (VIQ) and do (PIQ).",
+    "r": "WISC-5 – Notes"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "A child scores high on Block Design but low on Visual Puzzles. Which feature differs between these two VSI tasks?",
+    "o": [
+      "Block Design uses physical blocks and is timed; Visual Puzzles is mental",
+      "Visual Puzzles uses physical blocks; Block Design is done only mentally",
+      "Both are untimed tasks that mainly measure visual working memory",
+      "Visual Puzzles is timed and belongs to the Processing Speed index"
+    ],
+    "e": "Both are VSI subtests, but they differ in method. Block Design uses physical red-and-white blocks, is timed, and allows trial and error with the hands. Visual Puzzles is done mentally, with no physical manipulation: the child must analyse the pieces and rotate them in imagination. A child strong on Block Design but weak on Visual Puzzles may rely on hands-on feedback and struggle with purely mental rotation.",
+    "w": [
+      "This reverses them: Block Design is physical, Visual Puzzles is mental.",
+      "They are not both untimed (Block Design is timed), and neither mainly measures working memory.",
+      "Visual Puzzles belongs to Visual Spatial, not Processing Speed."
+    ],
+    "k": "Block Design = hands-on and timed; Visual Puzzles = mental assembly and rotation.",
+    "h": "Hands versus head: blocks in the hands, puzzles in the head.",
+    "r": "WISC-5 – VSI (applied)"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "Which pairing of subtest → index is WRONG?",
+    "o": [
+      "Figure Weights → Visual Spatial",
+      "Picture Span → Working Memory",
+      "Symbol Search → Processing Speed",
+      "Similarities → Verbal Comprehension"
+    ],
+    "e": "Figure Weights belongs to Fluid Reasoning: it requires quantitative and logical reasoning about balance scales, not visual-spatial construction. The other pairings are correct: Picture Span is Working Memory (visual), Symbol Search is Processing Speed, and Similarities is Verbal Comprehension. The two Visual Spatial subtests are Block Design and Visual Puzzles.",
+    "w": [
+      "Picture Span → Working Memory is correct.",
+      "Symbol Search → Processing Speed is correct.",
+      "Similarities → Verbal Comprehension is a correct pairing, so it isn't the wrong one."
+    ],
+    "k": "Figure Weights is Fluid Reasoning; Visual Spatial = Block Design and Visual Puzzles.",
+    "h": "Weighing is reasoning, not seeing.",
+    "r": "WISC-5 – Table"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "Digit Span vs Picture Span differ mainly in:",
+    "o": [
+      "Modality: auditory vs visual working memory",
+      "Index: Working Memory vs Processing Speed",
+      "Timing: one is timed, the other untimed",
+      "Content: both use letters and numbers"
+    ],
+    "e": "Both are Working Memory subtests; the difference is modality. Digit Span is auditory (numbers spoken aloud, repeated forward, backward and in order), and Picture Span is visual (pictures shown in sequence, recalled in order). Comparing them helps tell whether a working-memory weakness is specific to hearing or seeing information, which matters for teaching (for example giving written as well as spoken instructions).",
+    "w": [
+      "Both belong to the Working Memory index.",
+      "Neither is marked as a timed task in the summary.",
+      "Digit Span uses numbers and Picture Span uses pictures; neither uses letters."
+    ],
+    "k": "Digit Span = auditory working memory; Picture Span = visual working memory (both WMI).",
+    "h": "Digits for the ear, pictures for the eye.",
+    "r": "WISC-5 – WMI"
+  },
+  {
+    "t": "General",
+    "d": 1,
+    "q": "What does WISC-V stand for?",
+    "o": [
+      "Wechsler Intelligence Scale for Children, 5th Edition",
+      "Wechsler Individual Skills for Children, Version 5",
+      "Wide Intelligence Scale for Children, 5 indexes",
+      "Wechsler Intelligence Screening for Children, 5 subtests"
+    ],
+    "e": "WISC-V stands for Wechsler Intelligence Scale for Children, Fifth Edition. David Wechsler created the family of tests (WPPSI, WISC, WAIS). 'Scale' signals a standardized, normed measurement instrument, and 'V' is the edition number, not the number of indexes or subtests, even though the fifth edition happens to have five primary indexes.",
+    "w": [
+      "The name is Intelligence Scale, not Individual Skills.",
+      "Wechsler is the author's name, not 'Wide', and V is the edition.",
+      "It is a Scale, not a screening, and V is the edition, not 5 subtests."
+    ],
+    "k": "WISC-V = Wechsler Intelligence Scale for Children, Fifth Edition.",
+    "h": "V is the edition number (fifth), not the five indexes.",
+    "r": "WISC Final – Description"
+  },
+  {
+    "t": "General",
+    "d": 2,
+    "q": "Which child is within the WISC-V age range?",
+    "o": [
+      "A child aged 16 years and 6 months",
+      "A child aged 5 years and 9 months",
+      "A 17-year-old",
+      "A 4-year-old"
+    ],
+    "e": "The WISC-V range is 6 years 0 months to 16 years 11 months. A child of 16 years 6 months is inside it. A child of 5 years 9 months is too young (use the WPPSI), and a 17-year-old is too old (use the WAIS). Ages near the edges of two tests can sometimes take either; clinicians choose based on the child's ability level and the purpose.",
+    "w": [
+      "5 years 9 months is below 6; the WPPSI covers this age.",
+      "17 is above 16 years 11 months; the WAIS covers this age.",
+      "4 is far below the WISC range; the WPPSI fits."
+    ],
+    "k": "WISC-V range: 6:0 to 16:11; younger → WPPSI, older → WAIS.",
+    "h": "Just before 17 still counts.",
+    "r": "WISC Final – Description"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 3,
+    "q": "Which are the 5 GAI subtests?",
+    "o": [
+      "Similarities, Vocabulary, Block Design, Matrix Reasoning, Figure Weights",
+      "Similarities, Vocabulary, Digit Span, Coding, Block Design",
+      "Block Design, Visual Puzzles, Matrix Reasoning, Figure Weights, Digit Span",
+      "Vocabulary, Information, Matrix Reasoning, Figure Weights, Coding"
+    ],
+    "e": "Start from the 7 FSIQ subtests and remove the working-memory and processing-speed ones (Digit Span, Coding). What remains is Similarities, Vocabulary (VCI), Block Design (VSI), Matrix Reasoning and Figure Weights (FRI). In other words, the GAI is built only from verbal comprehension, visual-spatial and fluid-reasoning subtests.",
+    "w": [
+      "Digit Span and Coding are exactly the subtests the GAI excludes.",
+      "Visual Puzzles is not an FSIQ or GAI subtest, and Digit Span is excluded.",
+      "Information is supplemental, and Coding is excluded from the GAI."
+    ],
+    "k": "GAI = Similarities, Vocabulary, Block Design, Matrix Reasoning, Figure Weights.",
+    "h": "GAI keeps the thinkers (VCI, VSI, FRI) and drops memory and speed.",
+    "r": "WISC Final – GAI box (p. 3)"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "In the FSIQ, which two indexes each contribute TWO subtests?",
+    "o": [
+      "Verbal Comprehension and Fluid Reasoning",
+      "Visual Spatial and Processing Speed",
+      "Working Memory and Processing Speed",
+      "Visual Spatial and Working Memory"
+    ],
+    "e": "The FSIQ includes Similarities and Vocabulary (VCI) and Matrix Reasoning and Figure Weights (FRI), two each, plus one from each of VSI (Block Design), WMI (Digit Span) and PSI (Coding). So the two 'intelligences', crystallized (VCI) and fluid (FRI), get two seats each, reflecting their strong link to general intelligence.",
+    "w": [
+      "Visual Spatial and Processing Speed each contribute one subtest.",
+      "Working Memory and Processing Speed each contribute one subtest.",
+      "Visual Spatial and Working Memory each contribute one subtest."
+    ],
+    "k": "In the FSIQ, VCI and FRI contribute two subtests each; VSI, WMI and PSI one each.",
+    "h": "Crystallized and fluid get two seats each at the FSIQ table.",
+    "r": "WISC Final – Full Scale diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 1,
+    "q": "Which Working Memory subtest is used for the FSIQ?",
+    "o": [
+      "Digit Span",
+      "Picture Span",
+      "Letter-Number Sequencing",
+      "Arithmetic"
+    ],
+    "e": "Digit Span is the Working Memory subtest included in the FSIQ (bold in the summary's diagram). Picture Span is the other WMI primary subtest but is not in the FSIQ, and Letter-Number Sequencing is supplemental. Arithmetic is a supplemental Fluid Reasoning subtest in this summary.",
+    "w": [
+      "Picture Span is a primary WMI subtest but not part of the FSIQ.",
+      "Letter-Number Sequencing is a supplemental WMI subtest.",
+      "Arithmetic is a supplemental FRI subtest in this summary."
+    ],
+    "k": "The Working Memory Index contributes Digit Span to the FSIQ.",
+    "r": "WISC Final – Full Scale diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 1,
+    "q": "Which Processing Speed subtest is used for the FSIQ?",
+    "o": [
+      "Coding",
+      "Symbol Search",
+      "Cancellation",
+      "Block Design"
+    ],
+    "e": "Coding is the Processing Speed subtest in the FSIQ. Symbol Search is the other primary PSI subtest but stays out of the FSIQ, and Cancellation is supplemental. Block Design is timed, but it is a Visual Spatial subtest, not Processing Speed.",
+    "w": [
+      "Symbol Search is a primary PSI subtest but not part of the FSIQ.",
+      "Cancellation is a supplemental PSI subtest, not one of the subtests used for the FSIQ.",
+      "Block Design is Visual Spatial, even though it is timed."
+    ],
+    "k": "The Processing Speed Index contributes Coding to the FSIQ.",
+    "r": "WISC Final – Full Scale diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "Which Visual Spatial subtest counts toward the FSIQ?",
+    "o": [
+      "Block Design",
+      "Visual Puzzles",
+      "Matrix Reasoning",
+      "Picture Concepts"
+    ],
+    "e": "Block Design is the only Visual Spatial subtest in the FSIQ (and also in the GAI). Visual Puzzles, the other VSI primary subtest, counts only toward the VSI score. Matrix Reasoning and Picture Concepts are Fluid Reasoning subtests, a common confusion because they also use visual material.",
+    "w": [
+      "Visual Puzzles is a primary VSI subtest outside the FSIQ.",
+      "Matrix Reasoning is a Fluid Reasoning subtest.",
+      "Picture Concepts is a supplemental Fluid Reasoning subtest."
+    ],
+    "k": "The Visual Spatial Index contributes Block Design to the FSIQ.",
+    "r": "WISC Final – Full Scale diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "The three primary subtests that do NOT enter the FSIQ are:",
+    "o": [
+      "Visual Puzzles, Picture Span, Symbol Search",
+      "Digit Span, Coding, Block Design",
+      "Information, Comprehension, Arithmetic",
+      "Similarities, Vocabulary, Matrix Reasoning"
+    ],
+    "e": "10 primary − 7 FSIQ leaves 3: Visual Puzzles (VSI), Picture Span (WMI) and Symbol Search (PSI). Each is the 'second' subtest of an index that contributes only one subtest to the FSIQ. They still produce index scores and useful comparisons, for example Digit Span versus Picture Span.",
+    "w": [
+      "Digit Span, Coding and Block Design are all FSIQ subtests.",
+      "Information, Comprehension and Arithmetic are supplemental, not primary.",
+      "Similarities, Vocabulary and Matrix Reasoning are all FSIQ subtests."
+    ],
+    "k": "Primary but not FSIQ: Visual Puzzles, Picture Span, Symbol Search.",
+    "h": "Puzzles, Pictures, Search sit on the bench.",
+    "r": "WISC Final – Full Scale diagram"
+  },
+  {
+    "t": "FSIQ & GAI",
+    "d": 2,
+    "q": "The GAI focuses on which abilities?",
+    "o": [
+      "Reasoning and knowledge",
+      "Speed and memory",
+      "Attention and motor coordination",
+      "Social judgment and personality"
+    ],
+    "e": "The GAI provides an alternative estimate of intellectual ability focused on reasoning and knowledge (verbal comprehension, visual-spatial and fluid reasoning), minimizing the impact of speed and memory. It is useful when working memory or processing speed weaknesses, for example in ADHD, a learning disability or motor problems, pull the FSIQ down.",
+    "w": [
+      "Speed and memory are exactly what the GAI minimizes.",
+      "The WISC-V doesn't measure motor coordination as an ability, and the GAI excludes speed.",
+      "The WISC-V doesn't measure personality, and social judgment is a supplemental VCI subtest, not the GAI's focus."
+    ],
+    "k": "GAI = reasoning and knowledge, with the impact of speed and memory minimized.",
+    "h": "GAI = General Ability without the stopwatch and the notepad.",
+    "r": "WISC Final – GAI box"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "How many supplemental subtests does the summary list, and which index has none?",
+    "o": [
+      "6; Visual Spatial has none",
+      "4; Processing Speed has none",
+      "6; Working Memory has none",
+      "5; Fluid Reasoning has none"
+    ],
+    "e": "The summary lists 6 supplemental subtests: VCI – Information and Comprehension; FRI – Picture Concepts and Arithmetic; WMI – Letter-Number Sequencing; PSI – Cancellation. Visual Spatial has none in the summary. Adding the 10 primary subtests gives 16 subtests in total. The supplemental subtests add clinical detail (social judgment, mental arithmetic, sorting letters and numbers) but are not needed for the five primary index scores.",
+    "w": [
+      "There are 6, and Processing Speed has one (Cancellation).",
+      "Working Memory has a supplemental subtest, Letter-Number Sequencing; Visual Spatial is the one with none.",
+      "There are 6, and Fluid Reasoning has two (Picture Concepts and Arithmetic)."
+    ],
+    "k": "6 supplemental subtests (VCI 2, FRI 2, WMI 1, PSI 1); Visual Spatial has none.",
+    "h": "2-2-1-1 and a zero for Visual Spatial.",
+    "r": "WISC Final – Supplemental subtests"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "Which supplemental subtest is the only one marked as timed?",
+    "o": [
+      "Cancellation",
+      "Arithmetic",
+      "Letter-Number Sequencing",
+      "Information"
+    ],
+    "e": "Cancellation is the only supplemental subtest the summary marks as timed: the child scans a grid and marks target shapes as quickly and accurately as possible, measuring visual attention and processing speed. That fits its index, Processing Speed, where speed is the point. The summary's other timed subtests are primary: Block Design, Coding and Symbol Search.",
+    "w": [
+      "Arithmetic is not marked as timed in the summary.",
+      "Letter-Number Sequencing is a memory task, not timed in the summary.",
+      "Information is a knowledge task, not timed."
+    ],
+    "k": "Timed in the summary: Block Design, Coding, Symbol Search (primary) and Cancellation (supplemental).",
+    "r": "WISC Final – Supplemental subtests"
+  },
+  {
+    "t": "Supplemental",
+    "d": 3,
+    "q": "Picture Concepts and Similarities both involve finding what things have in common. What separates them?",
+    "o": [
+      "Picture Concepts is nonverbal (FRI); Similarities is verbal (VCI)",
+      "Picture Concepts is timed; Similarities is untimed and both are verbal",
+      "Both are VCI subtests, but only Similarities is a primary FSIQ subtest",
+      "Picture Concepts measures working memory"
+    ],
+    "e": "Both ask what things have in common, but through different channels. Similarities is verbal: the child explains in words how two concepts are alike (VCI, primary, FSIQ). Picture Concepts is nonverbal: the child picks pictures that belong to a common category (FRI, supplemental). A child who does well on Picture Concepts but poorly on Similarities may have the concept but struggle to put it into words.",
+    "w": [
+      "Neither is timed in the summary, and Picture Concepts is not verbal.",
+      "Picture Concepts belongs to FRI, not VCI.",
+      "Picture Concepts measures nonverbal categorization, not working memory."
+    ],
+    "k": "Similarities = verbal common-category reasoning (VCI); Picture Concepts = the nonverbal version (FRI).",
+    "h": "Same question ('what's common?'), different language: words or pictures.",
+    "r": "WISC Final – Subtests"
+  },
+  {
+    "t": "Supplemental",
+    "d": 3,
+    "q": "Digit Span vs Letter-Number Sequencing: which statement is correct?",
+    "o": [
+      "Digit Span uses numbers only; LNS mixes letters and numbers (numbers in order, letters alphabetically)",
+      "Both use mixed letters and numbers, but only Digit Span asks for backward recall",
+      "Digit Span is a supplemental subtest, while Letter-Number Sequencing is primary",
+      "LNS belongs to Processing Speed, because the child must answer as quickly as possible"
+    ],
+    "e": "Digit Span (primary, in the FSIQ) uses numbers only, repeated forward, backward and in numerical order. Letter-Number Sequencing (supplemental) presents a mix of letters and numbers and asks for the numbers in order, then the letters alphabetically. Both measure working memory; LNS adds the demand of sorting two categories.",
+    "w": [
+      "Digit Span uses numbers only, and LNS has no backward condition.",
+      "It's the reverse: Digit Span is primary and LNS is supplemental.",
+      "LNS is a Working Memory subtest; speed is not what it measures."
+    ],
+    "k": "Digit Span = numbers only (primary); LNS = letters and numbers, each sorted (supplemental).",
+    "h": "Digits only versus Letters AND Numbers.",
+    "r": "WISC Final – WMI subtests"
+  },
+  {
+    "t": "Supplemental",
+    "d": 3,
+    "q": "Information vs Vocabulary – which pairing is right?",
+    "o": [
+      "Information: general knowledge about the world; Vocabulary: name pictures and define words",
+      "Information: name pictures and define words; Vocabulary: general knowledge",
+      "Information belongs to FRI; Vocabulary belongs to VCI; neither is in the FSIQ",
+      "Both are primary FSIQ subtests"
+    ],
+    "e": "Information asks general-knowledge questions about the world: long-term memory and acquired knowledge (VCI, supplemental). Vocabulary asks the child to name pictures and define words: word knowledge and verbal expression (VCI, primary, FSIQ). Both are crystallized, but Information is about facts and Vocabulary about word meanings.",
+    "w": [
+      "This swaps the two tasks: Information is general knowledge, Vocabulary is naming pictures and defining words.",
+      "Information is a VCI subtest, and Vocabulary is in the FSIQ.",
+      "Only Vocabulary is a primary FSIQ subtest; Information is supplemental."
+    ],
+    "k": "Information = facts about the world (supplemental); Vocabulary = word meanings (primary, FSIQ).",
+    "h": "Information = encyclopedia; Vocabulary = dictionary.",
+    "r": "WISC Final – VCI subtests"
+  },
+  {
+    "t": "Supplemental",
+    "d": 2,
+    "q": "Arithmetic is administered by:",
+    "o": [
+      "Reading problems aloud for the child to solve mentally",
+      "Giving a written worksheet and a pencil",
+      "Showing a balance scale with missing weights",
+      "Showing number–symbol pairs for the child to copy quickly"
+    ],
+    "e": "In Arithmetic the examiner reads maths problems aloud and the child solves them mentally, with no paper. It measures mental calculation and quantitative or numeric reasoning, and it depends heavily on working memory, since the problem must be held in mind while calculating. Contrast Figure Weights, a nonverbal quantitative task with balance scales.",
+    "w": [
+      "No worksheet or pencil is used; the problems are solved mentally.",
+      "Balance scales with missing weights are Figure Weights.",
+      "Copying symbols matched to numbers is Coding."
+    ],
+    "k": "Arithmetic: spoken maths problems solved mentally, without paper or pencil.",
+    "h": "Arithmetic in the head, not on paper.",
+    "r": "WISC Final – FRI supplemental"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Block Design measures:",
+    "o": [
+      "Visual-spatial skills, organization and speed",
+      "Visual analysis and mental rotation",
+      "Nonverbal reasoning and pattern detection",
+      "Visual-motor speed and accuracy"
+    ],
+    "e": "Block Design measures visual-spatial skills, organization and speed: analysing a design, breaking it into parts, and assembling the blocks quickly and accurately. Each subtest has its own 'measures' phrase, and exam questions often swap them, so learn them as pairs: Visual Puzzles – visual analysis and mental rotation; Matrix Reasoning – nonverbal reasoning and pattern detection; Coding – visual-motor speed and accuracy.",
+    "w": [
+      "Visual analysis and mental rotation is Visual Puzzles.",
+      "Nonverbal reasoning and pattern detection is Matrix Reasoning.",
+      "Visual-motor speed and accuracy is what Coding measures, not Block Design."
+    ],
+    "k": "Block Design measures visual-spatial skills, organization and speed.",
+    "h": "Blocks = space + order + speed.",
+    "r": "WISC Final – VSI"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Similarities measures:",
+    "o": [
+      "Verbal reasoning and abstract thinking",
+      "Word knowledge and verbal expression",
+      "Long-term memory and acquired knowledge",
+      "Social reasoning and practical judgment"
+    ],
+    "e": "Similarities measures verbal reasoning and abstract thinking: finding the higher-order category that links two words ('both are emotions'). Learn the four VCI measures as a set. Vocabulary is word knowledge and verbal expression, Information is long-term memory and acquired knowledge, and Comprehension is social reasoning and practical judgment.",
+    "w": [
+      "Word knowledge and verbal expression is Vocabulary.",
+      "Long-term memory and acquired knowledge is Information.",
+      "Social reasoning and practical judgment is Comprehension."
+    ],
+    "k": "Similarities measures verbal reasoning and abstract, categorical thinking.",
+    "r": "WISC Final – VCI"
+  },
+  {
+    "t": "Primary subtests",
+    "d": 2,
+    "q": "Coding measures:",
+    "o": [
+      "Visual-motor speed and accuracy",
+      "Processing speed and visual discrimination",
+      "Visual attention and processing speed",
+      "Visual working memory"
+    ],
+    "e": "Coding measures visual-motor speed and accuracy: the child copies symbols quickly, so the hand is involved. Compare the other speed-related subtests. Symbol Search measures processing speed and visual discrimination (eye only, a yes/no mark), Cancellation measures visual attention and processing speed, and Picture Span is visual working memory, not speed.",
+    "w": [
+      "Processing speed and visual discrimination is Symbol Search.",
+      "Visual attention and processing speed is Cancellation.",
+      "Visual working memory is measured by Picture Span, not Coding."
+    ],
+    "k": "Coding = visual-motor speed and accuracy (hand + eye).",
+    "h": "Coding uses the pencil, so it's 'motor'.",
+    "r": "WISC Final – PSI"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "A child has a fine-motor impairment. Which FSIQ subtests are most likely to be lowered by the motor demand and time limit?",
+    "o": [
+      "Block Design and Coding",
+      "Similarities and Vocabulary",
+      "Matrix Reasoning and Figure Weights",
+      "Digit Span and Similarities"
+    ],
+    "e": "Look for FSIQ subtests that need the hands and run against the clock. Block Design requires manipulating blocks under time pressure, and Coding requires writing symbols quickly (visual-motor speed). A fine-motor impairment can lower both scores for reasons unrelated to intelligence. Excluding Coding is one reason the GAI can be informative, although Block Design stays in the GAI.",
+    "w": [
+      "Similarities and Vocabulary are spoken answers with no motor demand.",
+      "Matrix Reasoning and Figure Weights only require pointing to an answer.",
+      "Digit Span and Similarities are verbal, with no motor demand."
+    ],
+    "k": "Motor plus time demands (Block Design, Coding) can lower scores for reasons other than intelligence.",
+    "h": "Hands on a stopwatch = Blocks and Coding.",
+    "r": "WISC Final – Applied"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "Profile: Coding and Symbol Search very low; all other subtests average. Which index is the relative weakness?",
+    "o": [
+      "Processing Speed (PSI)",
+      "Working Memory (WMI)",
+      "Visual Spatial (VSI)",
+      "Fluid Reasoning (FRI)"
+    ],
+    "e": "Coding and Symbol Search are the two primary subtests of the Processing Speed Index, so a low pair with everything else average points to a relative weakness in processing speed: how quickly and accurately the child scans and processes visual information. Clinically this can mean slow work under time pressure in school, and it may justify extra time even though reasoning is intact.",
+    "w": [
+      "Working Memory is Digit Span and Picture Span, which are average here.",
+      "Visual Spatial is Block Design and Visual Puzzles, which are average here.",
+      "Fluid Reasoning is Matrix Reasoning and Figure Weights, which are average here."
+    ],
+    "k": "Low Coding + Symbol Search with an average rest = Processing Speed weakness.",
+    "h": "Both speed tests down = slow conveyor belt.",
+    "r": "WISC Final – Applied"
+  },
+  {
+    "t": "Applied",
+    "d": 3,
+    "q": "Profile: Digit Span and Picture Span both low; Vocabulary and Matrix Reasoning strong. Which index is affected, and does it change the GAI?",
+    "o": [
+      "Working Memory; the GAI is unaffected because it excludes WMI subtests",
+      "Fluid Reasoning; the GAI drops because Matrix Reasoning is in it",
+      "Working Memory; the GAI drops because Digit Span is part of it",
+      "Processing Speed; the GAI is unaffected"
+    ],
+    "e": "Digit Span and Picture Span are the two WMI primary subtests, so working memory is the weak index. The GAI excludes WMI and PSI subtests, so this weakness does not lower it, which is exactly the GAI's purpose. The FSIQ, which includes Digit Span, will be pulled down a little, so a GAI clearly above the FSIQ is a useful signal of the working-memory problem.",
+    "w": [
+      "Matrix Reasoning is strong here, so Fluid Reasoning is not the weak index.",
+      "Digit Span is in the FSIQ but not in the GAI.",
+      "Processing Speed is Coding and Symbol Search, not the span tasks."
+    ],
+    "k": "Weak WMI lowers the FSIQ (via Digit Span) but not the GAI, which excludes WMI.",
+    "h": "GAI is the memory-proof score.",
+    "r": "WISC Final – Applied"
+  },
+  {
+    "t": "History",
+    "d": 2,
+    "q": "In older WISC versions, hands-on, nonverbal visual-spatial problem solving was captured by:",
+    "o": [
+      "Performance IQ (PIQ) – fluid intelligence",
+      "Verbal IQ (VIQ) – crystallized intelligence",
+      "Processing Speed Index",
+      "General Ability Index"
+    ],
+    "e": "In the old two-part model, Performance IQ captured nonverbal, visual-spatial, hands-on problem solving, which the summary links to fluid intelligence. Verbal IQ captured language-based reasoning (crystallized). The WISC-V replaced this split with five indexes, separating what PIQ lumped together into Visual Spatial, Fluid Reasoning and Processing Speed.",
+    "w": [
+      "Verbal IQ captured language-based reasoning, the crystallized side.",
+      "Processing Speed is a modern index, not part of the old two-part split.",
+      "The GAI is a modern composite score."
+    ],
+    "k": "Old WISC: PIQ = nonverbal, hands-on problem solving (fluid); VIQ = verbal reasoning (crystallized).",
+    "h": "Performance = doing with your hands.",
+    "r": "WISC Final – Older versions"
+  },
+  {
+    "t": "Structure",
+    "d": 2,
+    "q": "In the summary's Full Scale diagram, how are the subtest groups visually distinguished?",
+    "o": [
+      "FSIQ subtests in bold blue; non-FSIQ subtests in italics",
+      "FSIQ subtests in italics; supplemental subtests in bold",
+      "Timed subtests in red; GAI subtests underlined in green",
+      "Primary subtests in capitals; supplemental subtests in grey"
+    ],
+    "e": "In the summary's diagram, the 7 FSIQ subtests are written in bold blue, and the other subtests are written in italics: they give deeper clinical information but do not measure the core abilities required for the FSIQ. The GAI box uses the same bold-blue convention for its 5 subtests. Knowing the convention helps you read the diagram quickly.",
+    "w": [
+      "This swaps the conventions: FSIQ subtests are bold, the others italic.",
+      "No red or green colour coding is used in the summary.",
+      "Capitals and grey are not used; the convention is bold blue versus italics."
+    ],
+    "k": "Summary diagram: FSIQ subtests in bold blue; non-FSIQ subtests in italics.",
+    "h": "Bold = in the IQ; italic = extra detail.",
+    "r": "WISC Final – p. 3"
+  }
+]

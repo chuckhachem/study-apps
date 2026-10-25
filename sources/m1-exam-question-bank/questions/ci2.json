@@ -1,0 +1,1182 @@
+[
+  {
+    "t": "Ch2 Definition",
+    "d": 2,
+    "q": "Which is NOT one of the four components of the authors' definition of clinical interviewing?",
+    "o": [
+      "The interviewer asks a fixed series of questions in a controlled setting",
+      "A positive, respectful professional relationship is established between the two",
+      "Interviewer and client collaborate on mutually agreeable goals",
+      "Culture, personality, attitudes and goals all influence the whole interaction"
+    ],
+    "e": "The authors define clinical interviewing through four components: (1) a positive, respectful professional relationship; (2) collaboration on mutually agreeable goals; (3) verbal and nonverbal interaction in which the interviewer applies listening skills and psychological techniques to evaluate, understand and help; and (4) interactions shaped by both people's culture, personality, attitudes and goals. 'A controlled situation in which one person asks a series of questions' is Keats's narrower definition, which leaves out relationship, collaboration and culture.",
+    "w": [
+      "A positive, respectful professional relationship is the first component of the authors' definition.",
+      "Collaboration on mutually agreeable goals is the second component, so it is included.",
+      "Culture, personality, attitudes and goals shaping the interaction is the fourth component, so it is included."
+    ],
+    "k": "Authors' definition: respectful relationship, shared goals, skilled verbal/nonverbal interaction, culture-shaped exchange.",
+    "h": "R-G-I-C: Relationship, Goals, Interaction, Culture.",
+    "r": "Sommers-Flanagan Ch2 – Defining clinical interviewing"
+  },
+  {
+    "t": "Ch2 Definition",
+    "d": 2,
+    "q": "Murphy and Dillon describe the clinical interview as a 'different kind of talking' at whose heart is:",
+    "o": [
+      "The relationship – respect, mutuality, warm presence and strengths",
+      "A fixed sequence of diagnostic questions",
+      "The interviewer's expert interpretation and diagnosis of the client's problem",
+      "Gathering relevant facts as efficiently and objectively as possible"
+    ],
+    "e": "Murphy and Dillon call the clinical interview 'a different kind of talking': a conversation marked by respect and mutuality, immediacy and warm presence, and an emphasis on strengths and potential. 'The emphasis on the relationship is at the heart of the different kind of talking.' What makes it different from social chat or a survey is not the questions but the quality of the relationship.",
+    "w": [
+      "A fixed sequence of diagnostic questions is a structured interview, not what they place at the heart.",
+      "Expert interpretation and diagnosis put the interviewer above the client; Murphy and Dillon stress mutuality.",
+      "Efficient fact-gathering describes a survey; the 'different kind of talking' centres on the relationship."
+    ],
+    "k": "Murphy & Dillon: the relationship (respect, mutuality, warm presence, strengths) is the heart of the interview.",
+    "h": "Different talking = relationship talking.",
+    "r": "Sommers-Flanagan Ch2"
+  },
+  {
+    "t": "Ch2 Definition",
+    "d": 2,
+    "q": "According to the chapter summary, clinical interviews serve which dual function?",
+    "o": [
+      "To evaluate and to help clients",
+      "To diagnose and to prescribe medication",
+      "To befriend and to advise",
+      "To record and to report"
+    ],
+    "e": "Clinical interviews serve a dual function: to evaluate and to help. Even a primarily diagnostic interview should be therapeutic (on the building-up side), and even a helping interview involves continual assessment. The two functions run together: understanding the client guides helping, and a good relationship produces better information.",
+    "w": [
+      "Diagnosing and prescribing medication describe a medical consultation, not the dual function named.",
+      "Befriending and advising blur the professional relationship and aren't the two functions the summary names.",
+      "Recording and reporting are documentation tasks, not the core functions."
+    ],
+    "k": "Clinical interviews have a dual function: evaluate and help.",
+    "h": "Every interview both measures and mends.",
+    "r": "Sommers-Flanagan Ch2 – Summary"
+  },
+  {
+    "t": "Ch2 Professional relationship",
+    "d": 2,
+    "q": "Which two features characterize a professional relationship, as distinct from friendship?",
+    "o": [
+      "Informed consent to provide services, and payment for services",
+      "Emotional distance and complete objectivity at all times in the session",
+      "Mutual self-disclosure and shared personal growth between both parties",
+      "Regular social contact outside the office"
+    ],
+    "e": "A professional relationship differs from friendship in two key ways: there is an explicit agreement to provide services, usually through informed consent, and there is payment or compensation, direct or indirect (e.g., insurance, agency funding). These features define roles and boundaries: the client comes for help, the professional provides it, and the relationship exists for the client's benefit.",
+    "w": [
+      "Complete detachment isn't required; professionals can be warm while keeping some distance.",
+      "Mutual self-disclosure and shared growth describe friendship, not a professional relationship.",
+      "Social contact outside the office would create a dual relationship."
+    ],
+    "k": "Professional relationship = informed consent to services + payment/compensation.",
+    "h": "Consent and compensation: the two Cs of a professional bond.",
+    "r": "Sommers-Flanagan Ch2 – Nature of a professional relationship"
+  },
+  {
+    "t": "Ch2 Professional relationship",
+    "d": 2,
+    "q": "Can a professional relationship based on expertise and objectivity also include warmth and mutuality?",
+    "o": [
+      "Yes – not easy, but warm and collaborative with some distance",
+      "No – being professional means being detached, so warmth must be avoided",
+      "No – warmth belongs only to friendship, never to therapy",
+      "Yes – and once warmth is present, professional distance is no longer needed"
+    ],
+    "e": "The authors answer yes: 'it is possible, but not necessarily easy.' Interviewers should be expert at being respectful, warm and collaborative while keeping some professional distance and objectivity. Warmth supports rapport; distance protects judgement and boundaries. The skill lies in holding both, not choosing one.",
+    "w": [
+      "Being professional doesn't require coldness; detachment harms rapport.",
+      "Warmth isn't limited to friendship; it is a core interviewing quality.",
+      "Warmth doesn't remove the need for distance; both are held together."
+    ],
+    "k": "Professional relationships can be warm and collaborative while keeping some distance and objectivity.",
+    "h": "Warm hands, clear head.",
+    "r": "Sommers-Flanagan Ch2"
+  },
+  {
+    "t": "Ch2 Professional relationship",
+    "d": 1,
+    "q": "Korchin cynically labeled psychotherapy as:",
+    "o": [
+      "The purchase of friendship",
+      "The talking cure, renamed",
+      "A sacred process",
+      "The art of paid listening"
+    ],
+    "e": "Some writers have cynically called psychotherapy 'the purchase of friendship' (Korchin, 1976). The authors respond by listing the many ways therapy differs from friendship: it is one-directional, focused on the client, bound by ethics and confidentiality, time-limited and paid for a professional service, not for affection.",
+    "w": [
+      "'The talking cure' is Anna O's phrase for psychoanalysis, not Korchin's cynical label.",
+      "Calling therapy a sacred process is not cynical and isn't Korchin's phrase.",
+      "'Paid listening' is close in spirit but isn't the label quoted."
+    ],
+    "k": "Korchin's cynical label: psychotherapy as 'the purchase of friendship'.",
+    "h": "Friendship for sale? The authors say no.",
+    "r": "Sommers-Flanagan Ch2"
+  },
+  {
+    "t": "Ch2 Motivation",
+    "d": 1,
+    "q": "Which three reasons bring most clients to a mental health professional?",
+    "o": [
+      "Distress or impairment; someone insisted; personal growth",
+      "Medication refills; legal reports; insurance paperwork",
+      "Curiosity; boredom; loneliness",
+      "Diagnosis; disability claims; excuses for school or work"
+    ],
+    "e": "Most clients come for one of three reasons: (1) subjective distress, discontent or impairment; (2) someone else, such as a spouse, relative, teacher or probation officer, insisted; or (3) a wish for personal growth and development. Knowing which applies helps you gauge motivation and set goals that the client will actually work toward.",
+    "w": [
+      "Medication refills and paperwork are practical reasons, not the three main motivations.",
+      "Curiosity, boredom and loneliness aren't the reasons listed; the three are distress, others' insistence and growth.",
+      "Disability claims and excuses can occur, but they aren't the three main reasons."
+    ],
+    "k": "Clients come because of distress/impairment, someone else's insistence, or personal growth.",
+    "h": "Pain, Push, or Growth.",
+    "r": "Sommers-Flanagan Ch2 – Client motivation"
+  },
+  {
+    "t": "Ch2 Motivation",
+    "d": 2,
+    "q": "Why might a distressed client NOT be highly motivated, despite feeling the pain of the problem?",
+    "o": [
+      "Significant depression – hopelessness may outweigh motivation",
+      "Distressed clients are always coerced into therapy by others",
+      "Pain always lowers insight into the problem",
+      "Distress always makes clients seek personal growth instead of relief"
+    ],
+    "e": "Distressed clients are usually highly motivated, 'unless they're significantly depressed, in which case their hopelessness may outweigh their motivation.' Many clients arrive demoralized (Frank and Frank): they feel helpless to change things. The interviewer's early job is often to instill hope so that motivation can come back.",
+    "w": [
+      "Many distressed clients come voluntarily; coercion is a separate reason.",
+      "Pain doesn't always lower insight; hopelessness is the specific obstacle.",
+      "Distress usually pushes toward relief, not personal growth."
+    ],
+    "k": "Severe depression can make hopelessness outweigh the motivation that distress normally brings.",
+    "h": "Pain pushes you forward unless despair cuts the engine.",
+    "r": "Sommers-Flanagan Ch2 – Client motivation"
+  },
+  {
+    "t": "Ch2 Motivation",
+    "d": 2,
+    "q": "In the solution-focused system, a client who attends because of personal distress plus others' urging, with mild interest in change, is a:",
+    "o": [
+      "Complainant",
+      "Visitor",
+      "Customer for change",
+      "Contemplator"
+    ],
+    "e": "Solution-focused therapists sort clients by readiness: visitors attend only when coerced and have no interest in change; complainants come from personal distress plus others' urging and have mild interest in change; customers for change are clearly interested in change. A complainant describes problems but may not yet see themselves as part of the solution.",
+    "w": [
+      "Visitors have no interest in change and come only because they are made to.",
+      "Customers are clearly committed to change, more than mild interest.",
+      "Contemplator is a stage of change model term, not solution-focused."
+    ],
+    "k": "Solution-focused: visitor (coerced, no interest), complainant (distress + urging, mild interest), customer (wants change).",
+    "h": "Visitor sightsees, complainant grumbles, customer buys.",
+    "r": "Sommers-Flanagan Ch2 – Client motivation"
+  },
+  {
+    "t": "Ch2 Motivation",
+    "d": 1,
+    "q": "A client attends only because the court ordered it and has no personal interest in change. In solution-focused terms, this client is a:",
+    "o": [
+      "Visitor",
+      "Complainant",
+      "Customer",
+      "Precontemplator"
+    ],
+    "e": "A client who attends only because a court ordered it, with no personal interest in change, is a visitor in solution-focused terms. Visitors aren't 'resistant' failures; the interviewer looks for what they might want (e.g., to get the court off their back) and builds from there, rather than imposing goals.",
+    "w": [
+      "Complainants have some distress and mild interest in change.",
+      "Customers for change actively want to change, which this court-ordered client does not.",
+      "Precontemplator is from the transtheoretical stages of change, not the solution-focused categories."
+    ],
+    "k": "Court-ordered, no interest in change = 'visitor' in solution-focused terms.",
+    "h": "A visitor only came because the ticket was free.",
+    "r": "Sommers-Flanagan Ch2 – Client motivation"
+  },
+  {
+    "t": "Ch2 Goals",
+    "d": 2,
+    "q": "Disagreements between client and interviewer about goals may stem from which sources?",
+    "o": [
+      "Client motivation/insight, therapist motives/insight, socio-cultural differences",
+      "Disputes over fees, scheduling and the length of each therapy session",
+      "Disagreements about diagnosis, medication and insurance coverage only",
+      "Age, gender and the therapist's theory alone"
+    ],
+    "e": "Goal disagreements can come from (a) poor client motivation or insight, (b) questionable therapist motives or insight, such as imposing personal values, or (c) social-cultural differences in what counts as a problem or a good outcome. The authors include the therapist's side deliberately: disagreement isn't always the client's 'resistance'.",
+    "w": [
+      "Fees and scheduling are logistics, not the sources of goal disagreement named.",
+      "Diagnosis, medication and insurance disputes aren't the listed sources of goal disagreement.",
+      "Age, gender and theory alone are too narrow; the three named sources are motivation, therapist motives and culture."
+    ],
+    "k": "Goal disagreements: client motivation/insight, therapist motives/insight, social-cultural differences.",
+    "h": "Client, clinician or culture.",
+    "r": "Sommers-Flanagan Ch2 – Establishing common goals"
+  },
+  {
+    "t": "Ch2 Interviewer as expert",
+    "d": 2,
+    "q": "What does a minimal first-session evaluation include?",
+    "o": [
+      "Presenting problems, client expectations/goals, and previous solution efforts",
+      "A full psychological test battery plus a standardized personality inventory",
+      "A formal DSM diagnosis, a medication review and a signed fee agreement",
+      "Family history only, since it explains the presenting problem"
+    ],
+    "e": "A minimal first-session evaluation includes a thorough assessment of presenting problems, an analysis of the client's expectations and goals for therapy, and a review of previous efforts to solve the problems. The last point prevents suggesting what the client has already tried, which costs credibility, and reveals strengths and resources.",
+    "w": [
+      "A full test battery goes far beyond the minimal evaluation.",
+      "A formal diagnosis and fee agreement aren't the three core elements.",
+      "Family history alone misses presenting problems, goals and previous solutions."
+    ],
+    "k": "Minimal first-session evaluation: presenting problems, client goals/expectations, previous solution attempts.",
+    "h": "What's wrong, what do you want, what have you tried?",
+    "r": "Sommers-Flanagan Ch2 – Interviewer as expert"
+  },
+  {
+    "t": "Ch2 Interviewer as expert",
+    "d": 2,
+    "q": "If the initial assessment shows client and interviewer goals are incompatible, the interviewer should usually:",
+    "o": [
+      "Offer a different therapist or suggest other avenues",
+      "Persuade the client to adopt the interviewer's goals instead of their own",
+      "Begin treatment anyway and revisit the incompatible goals at a later date",
+      "End contact without any referral or explanation"
+    ],
+    "e": "If assessment shows the client's goals and the interviewer's are incompatible, for instance on values, competence or approach, it is incumbent on the interviewer to offer the client the chance to work with a different therapist or to suggest other avenues. Persuading clients to adopt your goals violates their autonomy; dropping them without referral is abandonment.",
+    "w": [
+      "Persuading the client to adopt your goals overrides their autonomy.",
+      "Starting anyway builds therapy on a mismatch that will likely fail.",
+      "Ending without referral or explanation amounts to abandonment."
+    ],
+    "k": "Incompatible goals → offer another therapist or suggest other avenues.",
+    "h": "Wrong fit? Help them find the right door.",
+    "r": "Sommers-Flanagan Ch2 – Interviewer as expert"
+  },
+  {
+    "t": "Ch2 Interviewer as expert",
+    "d": 2,
+    "q": "Which is a listed consequence of premature intervention before adequate assessment?",
+    "o": [
+      "Suggesting a remedy the client already tried, losing credibility",
+      "The client will always feel deeply understood and grateful",
+      "Treatment will finish faster and with better outcomes than usual",
+      "The client's openness to later therapists increases"
+    ],
+    "e": "Premature interventions before adequate assessment are linked to negative outcomes: using the wrong technique, the client feeling misunderstood and rushed, following incorrect guidance and becoming less open to later therapy, or being offered a remedy they already tried, which costs credibility ('I already tried that').",
+    "w": [
+      "Premature intervention tends to leave clients feeling misunderstood, not deeply understood.",
+      "Rushed treatment doesn't finish faster with better outcomes; it risks the wrong approach.",
+      "It tends to reduce, not increase, openness to later therapists."
+    ],
+    "k": "Premature intervention risks wrong technique, feeling rushed, closed doors to therapy, and remedies already tried.",
+    "h": "'I already tried that': credibility lost.",
+    "r": "Sommers-Flanagan Ch2 – Interviewer as expert"
+  },
+  {
+    "t": "Ch2 Client as expert",
+    "d": 2,
+    "q": "What lesson does John draw from trying to convince a client she was not 'bipolar'?",
+    "o": [
+      "Respect the client's worldview; she may not be ready to drop the label",
+      "The expert should persist until the client finally accepts the correct view",
+      "Diagnostic labels never help clients and must always be challenged firmly",
+      "Clients cannot be trusted to understand their diagnoses"
+    ],
+    "e": "John tried to convince a client she wasn't 'bipolar', but she wasn't ready to drop the label, which may have given her meaning or explained her suffering. He concluded: 'Who am I to tell my client she is better off without a bipolar label?' Of the two people in the room, the client is unarguably the best expert on herself. Effective interviewers respect client expertise and worldview.",
+    "w": [
+      "Persisting until the client agrees puts the interviewer's view above the client's expertise.",
+      "Labels can help some clients; the lesson isn't to challenge them firmly.",
+      "The lesson is the opposite: trust the client's knowledge of herself."
+    ],
+    "k": "Respect the client as the best expert on herself, including her view of her diagnosis.",
+    "h": "Her label, her choice.",
+    "r": "Sommers-Flanagan Ch2 – Client as expert"
+  },
+  {
+    "t": "Ch2 Listening",
+    "d": 2,
+    "q": "Why can launching straight into diagnostic questions be disrespectful?",
+    "o": [
+      "Questions restrict what the client says to what the interviewer deems important",
+      "Diagnostic questions are illegal before informed consent forms are signed",
+      "Clients nearly always refuse to answer questions early in an interview",
+      "Questions make the interview too short"
+    ],
+    "e": "Asking questions is a directive activity: questions guide and restrict what the client says, so the material produced is what the interviewer thinks the client should talk about. Launching straight into diagnostic questions can signal that the interviewer's agenda matters more than the client's story, and may miss what the client most needs to say.",
+    "w": [
+      "There's no rule making questions illegal before forms; the issue is directiveness.",
+      "Clients usually do answer; the problem is the narrowing.",
+      "Questions can lengthen interviews; the concern is restriction, not length."
+    ],
+    "k": "Questions restrict client talk to what the interviewer deems important; listen first.",
+    "h": "Questions are a spotlight: they show only where you point.",
+    "r": "Sommers-Flanagan Ch2 – Applying listening skills"
+  },
+  {
+    "t": "Ch2 Listening",
+    "d": 1,
+    "q": "The Jerry Fest case (street youth drop-in center) teaches that:",
+    "o": [
+      "Sometimes active listening is the intervention",
+      "Supportive statements always calm distressed clients",
+      "Silence for 90 minutes is always the best technique",
+      "Street youth need advice rather than listening"
+    ],
+    "e": "At a street youth drop-in centre, Jerry Fest made two supportive comments that stopped a young woman from talking. He then sat silently with her for 90 minutes. Eventually she said, 'That's what I like about you, Jer… you eventually catch on.' The moral: sometimes active listening is the intervention, not a prelude to one.",
+    "w": [
+      "His two supportive statements actually stopped her talking; only silent listening let her open up.",
+      "The lesson isn't that 90 minutes of silence always works; it's that listening can be the intervention.",
+      "She needed to be listened to, not advised."
+    ],
+    "k": "Sometimes active listening is not a prelude to the intervention: it is the intervention.",
+    "h": "'You eventually catch on': shut up and listen.",
+    "r": "Sommers-Flanagan Ch2 – Case example"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Every interview includes at least three distinct variables. Which?",
+    "o": [
+      "The client, the interviewer, and their interactions",
+      "The room, the time and the fee",
+      "The theory, the technique and the eventual outcome",
+      "The diagnosis, the history and the plan"
+    ],
+    "e": "No formula fits every interview, because each one includes at least three variables: the client, the interviewer, and their interactions. The same technique can work with one client and fail with another, or work for one interviewer and not another. That is why self-awareness (your contribution) and other-awareness (the client's) both matter.",
+    "w": [
+      "The room, time and fee are setting factors, not the core variables.",
+      "Theory, technique and outcome are aspects of treatment, not the interview's basic variables.",
+      "Diagnosis, history and plan are content areas of an interview, not its basic variables."
+    ],
+    "k": "Every interview = client + interviewer + their interactions.",
+    "h": "You, me, and the space between us.",
+    "r": "Sommers-Flanagan Ch2 – Unique interactions"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "'Objective self-awareness' refers to:",
+    "o": [
+      "Self-consciousness from seeing or hearing yourself on recordings",
+      "Accurate, unbiased knowledge of one's own personality and blind spots",
+      "Awareness of the client's culture, values and worldview during sessions",
+      "A test that measures empathy objectively"
+    ],
+    "e": "Objective self-awareness is the technical term (Fenigstein) for the self-consciousness, discomfort and inhibition produced by seeing or hearing yourself on video or audio recordings. Beginners often cringe at their voice, posture or verbal habits. It is a normal, temporary reaction to becoming the object of your own attention, not a measure of accurate self-knowledge, and it fades with repeated exposure.",
+    "w": [
+      "Accurate knowledge of your blind spots is a goal of self-awareness, not this technical term.",
+      "Awareness of the client's culture, values and worldview is other-awareness, not objective self-awareness.",
+      "There is no objective empathy test by this name."
+    ],
+    "k": "Objective self-awareness = self-consciousness from seeing or hearing yourself recorded.",
+    "h": "The cringe when you hear your own voice.",
+    "r": "Sommers-Flanagan Ch2 – Objective self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "How do the authors recommend handling objective self-awareness?",
+    "o": [
+      "Embrace it: record and watch yourself often to desensitize",
+      "Avoid all recordings until you finally feel fully confident",
+      "Watch recordings only with a supervisor present, never alone",
+      "Ask classmates never to give you feedback"
+    ],
+    "e": "The authors recommend embracing objective self-awareness as a step toward better skills: record sessions as often as possible to desensitize yourself, admit your discomfort, be open to feedback and thank people for it, and learn a relaxation technique. Avoidance keeps the discomfort alive; repeated exposure shrinks it.",
+    "w": [
+      "Avoiding recordings delays skill growth and keeps the discomfort alive.",
+      "Watching alone is also encouraged; supervision isn't the only setting.",
+      "Feedback is valuable; asking classmates never to give it blocks learning and keeps blind spots in place."
+    ],
+    "k": "Handle self-consciousness by recording often, admitting discomfort, welcoming feedback and relaxing.",
+    "h": "Exposure therapy for your own video.",
+    "r": "Sommers-Flanagan Ch2 – Putting It in Practice 2.2"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Which forms of self-awareness does the chapter describe?",
+    "o": [
+      "Physical, psychosocial, developmental, cultural, and interviewing expectations",
+      "Cognitive, behavioral, emotional, spiritual and existential awareness",
+      "Conscious, preconscious and unconscious",
+      "Objective, subjective, intersubjective and transpersonal awareness"
+    ],
+    "e": "The chapter describes physical self-awareness (how your appearance, gender and skin colour affect clients), psychosocial (how you come across interpersonally), developmental (your personal history), cultural (your own culture, privilege and biases), and awareness of your interviewing expectations and misconceptions. Each form reveals a different way you shape the interview.",
+    "w": [
+      "Cognitive, behavioral and spiritual awareness aren't the chapter's categories.",
+      "Conscious, preconscious and unconscious are Freud's topographic levels.",
+      "Objective, intersubjective and transpersonal aren't the listed forms."
+    ],
+    "k": "Self-awareness forms: physical, psychosocial, developmental, cultural, and interviewing expectations.",
+    "h": "Body, Behaviour, Biography, Background, Beliefs about interviewing.",
+    "r": "Sommers-Flanagan Ch2 – Forms of self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Basow's finding about client perceptions of interviewer gender is that:",
+    "o": [
+      "Males seen as rational and authoritarian; females as warm and compassionate",
+      "Clients notice no meaningful gender differences in their interviewers",
+      "Females seen as rational and authoritarian; males as compassionate",
+      "Only the client's gender affects perceptions"
+    ],
+    "e": "Basow (1980) found male interviewers commonly described as more rational and authoritarian, and female interviewers as more warm and compassionate. These perceptions may reflect gender stereotypes or the client's own history with men and women. Physical self-awareness means knowing how such perceptions may shape a client's reaction to you before you say a word.",
+    "w": [
+      "Clients do perceive gender differences, according to Basow.",
+      "This reverses the finding: men were seen as rational and authoritarian, women as warm and compassionate.",
+      "The interviewer's gender affects clients' perceptions too, which is exactly Basow's point."
+    ],
+    "k": "Basow: male interviewers seen as rational/authoritarian, female as warm/compassionate.",
+    "h": "Stereotypes walk into the room before you do.",
+    "r": "Sommers-Flanagan Ch2 – Physical self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 3,
+    "q": "According to Multicultural Highlight 2.1, who should NOT be the one to bring up skin color in a session?",
+    "o": [
+      "A White interviewer working with a client of color",
+      "A client of color working with a White interviewer",
+      "Any interviewer during a supervised or recorded session",
+      "A client who feels shame about skin color"
+    ],
+    "e": "Multicultural Highlight 2.1 states that skin colour is not a topic a White interviewer working with a person of colour should bring up. White interviewers should work through their own skin-colour issues in class or supervision rather than bringing clients into them. The client of colour may raise it, and the interviewer should then be open to discussing it.",
+    "w": [
+      "The client of colour can bring it up; the caution is about the White interviewer initiating it.",
+      "Recording isn't the issue; the concern is who initiates the topic.",
+      "A client feeling shame isn't the one being cautioned against raising it."
+    ],
+    "k": "A White interviewer should not initiate the topic of skin colour with a client of colour.",
+    "h": "Do your own colour work offstage.",
+    "r": "Sommers-Flanagan Ch2 – Multicultural Highlight 2.1"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Research cited in Chapter 2 (Nosek et al.) found that implicit negative associations with darker skin:",
+    "o": [
+      "Are common, even among people of color",
+      "Exist only among White people",
+      "Disappear after one multicultural course",
+      "Are rare in graduate students"
+    ],
+    "e": "Nosek and colleagues found that implicit (unconscious) negative associations with darker skin are common, even among people of colour. Bias absorbed from the culture isn't limited to one group. The authors argue such associations must be surfaced and discussed to be overcome, since implicit bias can affect interviewing without conscious intent.",
+    "w": [
+      "People of colour can hold these implicit associations too.",
+      "One multicultural course doesn't erase implicit bias; it needs ongoing surfacing and discussion.",
+      "They are common, including among educated people such as graduate students."
+    ],
+    "k": "Implicit negative associations with darker skin are common, even among people of colour.",
+    "h": "Culture writes on everyone's hard drive.",
+    "r": "Sommers-Flanagan Ch2 – Physical self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Why should interviewers get regular feedback from trusted colleagues about how they come across?",
+    "o": [
+      "So they don't take a client's inaccurate evaluation at face value",
+      "So they can change their interpersonal style completely for every client",
+      "Because clients are usually right about how the therapist comes across",
+      "Because supervisors require it for licensing"
+    ],
+    "e": "Knowing how you generally come across, from colleagues you trust, helps you avoid taking a client's inaccurate evaluation at face value. In the book's example, two inpatients called the same therapist 'too unemotional' and 'too emotional': their views reflected transference (Sullivan's parataxic distortion) more than the therapist. With a solid sense of yourself, you can treat such reactions as clinical information.",
+    "w": [
+      "The aim isn't to change your style for every client but to understand how you're perceived.",
+      "Clients' views can be distorted by transference, as the example shows.",
+      "Licensing requirements aren't the reason; the point is having an accurate baseline of how you come across."
+    ],
+    "k": "Colleague feedback gives you a baseline, so you don't take a client's distorted view at face value.",
+    "h": "Too cold to one, too hot to another: the client's lens, not you.",
+    "r": "Sommers-Flanagan Ch2 – Psychosocial self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Developmental self-awareness refers to:",
+    "o": [
+      "Consciousness of your personal history and what shaped your development",
+      "Knowing the theoretical stages of normal child and adolescent development",
+      "Awareness of how you age as a clinician",
+      "Awareness of the client's developmental stage and age-related life tasks"
+    ],
+    "e": "Developmental self-awareness is consciousness of your personal history and the events that shaped your development. It can be explored through a relationship timeline or personal psychotherapy, which the authors heartily recommend. Unexamined history can lead you to over-identify with some clients or react strongly to others.",
+    "w": [
+      "Knowing developmental theory is academic knowledge, not self-awareness.",
+      "Awareness of ageing as a clinician isn't the definition.",
+      "The client's developmental stage and life tasks belong to other-awareness, not self-awareness."
+    ],
+    "k": "Developmental self-awareness = consciousness of your own history and what shaped you.",
+    "h": "Know your own story so it doesn't hijack theirs.",
+    "r": "Sommers-Flanagan Ch2 – Developmental self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "The view that all humans differ by culture and that these differences should be honored is the:",
+    "o": [
+      "Cultural relativist perspective",
+      "Cultural universalist perspective",
+      "Color-blind perspective",
+      "Melting-pot perspective"
+    ],
+    "e": "The cultural relativist perspective holds that people differ by culture and that these differences should be honoured and respected. The universalist perspective stresses that human commonalities override cultural differences. Good interviewing balances both: recognizing shared human needs and emotions, while respecting culturally specific meanings, values and ways of expressing distress. Leaning too far either way risks ignoring the person or stereotyping them.",
+    "w": [
+      "Universalists stress that shared humanity overrides cultural differences, the opposite emphasis.",
+      "Colour-blindness ignores cultural differences instead of honouring them.",
+      "The melting pot assimilates differences rather than honouring them."
+    ],
+    "k": "Relativist: honour cultural differences; universalist: commonalities override differences.",
+    "h": "Relative = respect the differences.",
+    "r": "Sommers-Flanagan Ch2 – Cultural self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 2,
+    "q": "Stereotyping others generally varies:",
+    "o": [
+      "Inversely with experience with individual members of other groups",
+      "Directly with the person's level of formal education",
+      "Not at all with exposure",
+      "Directly with exposure to and contact with other cultures"
+    ],
+    "e": "Stereotyping varies inversely with experience with individual members of other groups: the more real individuals you know, the less you rely on stereotypes. Mere exposure isn't sufficient on its own, but contact can improve attitudes and reduce anxiety. Getting to know people as individuals replaces category thinking with specific knowledge.",
+    "w": [
+      "Formal education isn't the stated predictor; direct experience with individuals is.",
+      "Stereotyping does change with experience: it decreases as you know more individuals.",
+      "More exposure and contact reduce stereotyping; it doesn't increase it."
+    ],
+    "k": "Stereotyping decreases as experience with individual members of other groups increases.",
+    "h": "Know one, stereotype fewer.",
+    "r": "Sommers-Flanagan Ch2 – Cultural self-awareness"
+  },
+  {
+    "t": "Ch2 Self-awareness",
+    "d": 3,
+    "q": "Why do the authors worry about the term 'multicultural competence'?",
+    "o": [
+      "It may imply an end-state of fully achieved competence",
+      "It is too vague to be measured reliably in research studies",
+      "It ignores the role of the client's own culture and identity",
+      "It is used only by counselors, not psychologists"
+    ],
+    "e": "The authors worry that 'multicultural competence' may imply an end-state: once achieved, you're done. Cultural learning is lifelong. Vargas, an expert, says: 'Can I say that I am culturally competent? Absolutely not!' comparing himself to 'a toro in a China shop'. The preferred stance is ongoing humility and learning.",
+    "w": [
+      "Measurement problems aren't the authors' main concern here.",
+      "The concern isn't ignoring the client's culture; it's the illusion of a finished competence.",
+      "The term isn't limited to counselors; the worry applies to every helping profession."
+    ],
+    "k": "'Multicultural competence' risks implying a finished state; cultural learning is lifelong.",
+    "h": "Competence is a road, not a destination.",
+    "r": "Sommers-Flanagan Ch2 – Cultural self-awareness"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 1,
+    "q": "What is the minimum requirement for an interviewing room?",
+    "o": [
+      "Privacy",
+      "A desk between interviewer and client",
+      "Framed professional degrees",
+      "A reclining chair"
+    ],
+    "e": "The minimum requirement for an interviewing room is privacy: clients can't speak openly if they may be overheard. Beyond that, some professional décor matters, balancing formality and casual comfort. A desk between interviewer and client can create distance, and the room should feel safe and professional without being cold.",
+    "w": [
+      "A desk between you can create a barrier; it isn't a requirement.",
+      "Framed degrees are optional décor, not the minimum.",
+      "A reclining chair isn't required; comfort matters, but privacy is the minimum."
+    ],
+    "k": "The minimum requirement for an interview room is privacy.",
+    "h": "Walls before wallpaper.",
+    "r": "Sommers-Flanagan Ch2 – The room"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 2,
+    "q": "Should the interviewing room door be locked to prevent interruptions?",
+    "o": [
+      "No – keep an exit available and avoid an unintended intimate message",
+      "Yes – locking guarantees privacy and is recommended",
+      "Yes, but only with impulsive or angry clients",
+      "Only if a 'Do Not Disturb' sign is not available to hang on the door"
+    ],
+    "e": "The authors' rule: 'Quiet, comfortable, protected—yes. Locked—no.' Privacy matters, but a locked door removes the exit that both people may need, especially with clients who have poor impulse control or become agitated. A locked door can also convey an intimacy that could be misread, by the client or by others. Use a sign or scheduling to prevent interruptions instead.",
+    "w": [
+      "Locking isn't recommended; privacy can be protected without removing the exit.",
+      "Impulsive or angry clients are exactly why an exit must stay available.",
+      "Even without a sign, a locked door is still not recommended."
+    ],
+    "k": "Protect privacy, but never lock the door: keep an exit and avoid an intimate message.",
+    "h": "Closed, yes; locked, no.",
+    "r": "Sommers-Flanagan Ch2 – The room"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 3,
+    "q": "Your child's school calls; you need 5 minutes to arrange pickup. Which response fits the second type of interruption?",
+    "o": [
+      "Explain, apologize, make the call, apologize again, offer make-up time",
+      "End the session immediately and reschedule it at no charge to the client",
+      "Ignore the call until the session ends",
+      "Let the client listen while you make the call, to stay fully transparent"
+    ],
+    "e": "The authors describe types of interruptions. This is the second type: a legitimate need that takes a few minutes. The steps: inform the client, apologize, make the call, apologize again, offer restitution (make-up time), and resume smoothly. The third type, a true emergency, means ending the session and rescheduling at no charge. Modelling calm problem-solving is part of the response.",
+    "w": [
+      "Ending and rescheduling free of charge is the response to a true emergency, the third type.",
+      "Ignoring a call about your child isn't realistic, and handling it calmly is acceptable.",
+      "Making the call in front of the client breaches your own privacy and the session's focus."
+    ],
+    "k": "Brief legitimate interruption: explain, apologize, handle it, apologize again, offer make-up time, resume.",
+    "h": "Sorry, call, sorry, make it up.",
+    "r": "Sommers-Flanagan Ch2 – Interruptions"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 2,
+    "q": "What are the three key issues in handling interruptions?",
+    "o": [
+      "Model calmness and problem solving, apologize, compensate for lost time",
+      "Explain the emergency in full detail, charge the client, and reschedule",
+      "Lock the door, turn off all phones, and close the blinds before every session",
+      "Ignore it, continue, and document later"
+    ],
+    "e": "Handling interruptions comes down to three issues: (a) model calmness and problem-solving ability, showing the client how to handle the unexpected; (b) apologize for the disruption; and (c) compensate the client for lost time. If you must leave the room, secure your notes so confidentiality isn't compromised.",
+    "w": [
+      "Explaining in detail and charging the client aren't recommended; apology and compensation are.",
+      "Locking the door is discouraged, and preparation doesn't address how to handle an interruption.",
+      "Ignoring the interruption leaves the client confused and the lost time uncompensated."
+    ],
+    "k": "Interruptions: model calm problem-solving, apologize, compensate for lost time.",
+    "h": "Calm, Contrite, Compensate.",
+    "r": "Sommers-Flanagan Ch2 – Interruptions"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 2,
+    "q": "What seating angle is generally recommended for initial interviews?",
+    "o": [
+      "Between 90 and 150 degrees",
+      "Directly face-to-face at 180 degrees",
+      "Side by side at 0 degrees",
+      "Behind the client, out of view"
+    ],
+    "e": "Interviewer and client should generally sit at a 90- to 150-degree angle. This lets the client choose between eye contact and looking away, which reduces pressure. Benjamin prefers 90 degrees, so the client can look at you or straight ahead. Direct face-to-face seating can feel confrontational, and side by side makes contact awkward.",
+    "w": [
+      "Direct face-to-face seating at 180 degrees can feel confrontational and intense.",
+      "Side by side makes it hard to see each other and read nonverbal cues.",
+      "Sitting behind the client is the psychoanalytic couch arrangement, not standard interviewing."
+    ],
+    "k": "Seat at 90–150 degrees so the client can choose eye contact or look away.",
+    "h": "An open L, not a staring contest.",
+    "r": "Sommers-Flanagan Ch2 – Seating arrangements"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 2,
+    "q": "A client moves the chair to an unusual position but seems comfortable. You should:",
+    "o": [
+      "Allow it, make a mental note, and proceed",
+      "Insist the client move the chair back",
+      "Interpret the move as resistance immediately",
+      "End the session to discuss boundaries"
+    ],
+    "e": "Don't insist on a seating arrangement. If the client moves the chair and seems comfortable, allow it, make a mental note (it may say something about their need for distance or control), and proceed. The exception is a child or adolescent who blatantly refuses an appropriate position: offer two or three acceptable seats to give choice within limits.",
+    "w": [
+      "Insisting on your arrangement creates an early power struggle.",
+      "Interpreting it immediately as resistance is premature and may feel accusatory.",
+      "Ending the session over seating is a gross overreaction."
+    ],
+    "k": "If a client rearranges seating comfortably, allow it, note it mentally, and proceed.",
+    "h": "Note it, don't fight it.",
+    "r": "Sommers-Flanagan Ch2 – Seating arrangements"
+  },
+  {
+    "t": "Ch2 Physical setting",
+    "d": 2,
+    "q": "Which theoretical orientation is matched correctly with its typical seating?",
+    "o": [
+      "Person-centered – chairs of equal status and comfort",
+      "Behaviorists – a couch with the therapist behind",
+      "Psychoanalysts – two equal chairs face to face",
+      "Person-centered – a single reclining chair for the client"
+    ],
+    "e": "Seating often reflects theory. Psychoanalysts often use a couch with the analyst out of view, to encourage free association and reduce social cues. Behaviorists often use recliners for relaxation training or hypnosis. Person-centered therapists emphasize chairs of equal status and comfort, reflecting an egalitarian, collaborative relationship in which neither person sits above the other.",
+    "w": [
+      "Behaviorists typically use recliners for relaxation; the couch with therapist behind is psychoanalytic.",
+      "Psychoanalysts typically use the couch, not two equal chairs.",
+      "Person-centered therapists use equal chairs; a single reclining chair fits behavioral relaxation work."
+    ],
+    "k": "Seating by theory: psychoanalysis = couch; behaviorism = recliner; person-centered = equal chairs.",
+    "h": "Couch for Freud, recliner for relaxation, equal chairs for Rogers.",
+    "r": "Sommers-Flanagan Ch2 – Seating arrangements"
+  },
+  {
+    "t": "Ch2 Note taking",
+    "d": 2,
+    "q": "Which is one of the rules for note taking?",
+    "o": [
+      "Never write anything you would not want the client to read",
+      "Hide your notes so the client cannot see them",
+      "Always take notes from the first minute without explanation",
+      "Refuse if a client asks to read your notes"
+    ],
+    "e": "Note-taking rules: don't let notes disrupt the flow; explain their purpose; never hide notes; never write anything you wouldn't want the client to read; and if a client asks to read them, explore their concerns and offer to let them read. Openness about notes reduces suspicion and keeps you honest in what you record.",
+    "w": [
+      "Hiding notes fuels suspicion; the rule is never to hide them.",
+      "Notes should be introduced with an explanation, not started without one.",
+      "If asked, explore concerns and offer to let the client read them."
+    ],
+    "k": "Never write anything you wouldn't want the client to read; never hide notes.",
+    "h": "Write as if the client is reading over your shoulder.",
+    "r": "Sommers-Flanagan Ch2 – Rules for note taking"
+  },
+  {
+    "t": "Ch2 Note taking",
+    "d": 2,
+    "q": "Shea introduces note taking by saying he'll jot notes to remember correctly and asking 'Is that alright with you?' This mainly:",
+    "o": [
+      "Shows respect and decreases paranoid projections onto note taking",
+      "Gives the client control over the whole direction of the interview",
+      "Avoids the need for any later written documentation of the session",
+      "Signals that the interview is ending"
+    ],
+    "e": "Shea introduces notes with a courtesy: he explains he'll jot notes to remember correctly and asks 'Is that alright with you?' This shows respect and 'tends to decrease the paranoia that patients sometimes project onto note-taking.' He often doesn't pick up a clipboard until well into the interview, after rapport is established.",
+    "w": [
+      "Asking permission about notes doesn't hand over control of the whole interview.",
+      "Notes are still needed for documentation afterwards; the courtesy is about respect, not replacing records.",
+      "It is said at the start, not as a signal that the interview is ending."
+    ],
+    "k": "Asking permission to take notes shows respect and reduces paranoid projections onto note-taking.",
+    "h": "Ask before you scribble.",
+    "r": "Sommers-Flanagan Ch2 – Note taking"
+  },
+  {
+    "t": "Ch2 Recording",
+    "d": 2,
+    "q": "An intern turned on the recorder before the client signed consent. The lesson is:",
+    "o": [
+      "Always obtain written permission before recording",
+      "Record first and ask permission later",
+      "Recordings never need consent in training clinics",
+      "Hide the equipment so clients are not distracted"
+    ],
+    "e": "Recording without the client's knowledge or consent invades privacy and can destroy trust. You must obtain permission, usually written, before turning on the equipment, and explain future uses, storage and eventual destruction of the recording. The intern's mistake shows that the order matters: consent first, then record.",
+    "w": [
+      "Recording first and asking later violates consent and trust.",
+      "Training clinics still require consent for recordings, often in writing, before the equipment is turned on.",
+      "Hiding equipment is deceptive; clients must know they are being recorded."
+    ],
+    "k": "Always obtain (written) permission before recording, explaining uses, storage and destruction.",
+    "h": "Consent, then click.",
+    "r": "Sommers-Flanagan Ch2 – Video and audio recording"
+  },
+  {
+    "t": "Ch2 Credentials",
+    "d": 2,
+    "q": "How should a student interviewer present credentials?",
+    "o": [
+      "Full name, accurate training status, a pause for questions, supervision",
+      "Avoid mentioning being a student, so as to protect your credibility",
+      "Apologize for being inexperienced so the client lowers expectations",
+      "Describe yourself simply as a therapist to reassure the client"
+    ],
+    "e": "A student should state their full name warmly and clearly, describe their training status accurately, pause for questions, answer nondefensively, and mention supervision. Overstating credentials, for example calling yourself a therapist when you're a trainee, is an ethical violation. Apologizing for inexperience erodes credibility and the client's confidence.",
+    "w": [
+      "Hiding student status is deceptive and an ethical violation.",
+      "Apologizing for inexperience undermines credibility and lowers the client's confidence in the help.",
+      "Calling yourself simply a therapist overstates your credentials, which is an ethical violation."
+    ],
+    "k": "Students: full name, accurate training status, pause for questions, mention supervision; never overstate or apologize.",
+    "h": "Honest, not humble-bragging or grovelling.",
+    "r": "Sommers-Flanagan Ch2 – Presenting your credentials"
+  },
+  {
+    "t": "Ch2 Time",
+    "d": 1,
+    "q": "How long do clinical interviews typically last?",
+    "o": [
+      "50 minutes",
+      "30 minutes",
+      "90 minutes",
+      "About 75 minutes"
+    ],
+    "e": "Clinical interviews typically last 50 minutes, the 'clinical hour'. Intake interviews may run up to 90 minutes or even 2 hours to cover history and assessment, and suicidal clients may need shorter, more frequent sessions. The standard length gives time for depth while leaving the clinician time for notes.",
+    "w": [
+      "30 minutes is shorter than the typical clinical hour.",
+      "90 minutes is the upper range for intake interviews, not the typical session.",
+      "About 75 minutes isn't the standard length; the clinical hour is 50 minutes."
+    ],
+    "k": "Typical interview = 50 minutes; intakes may run 90 minutes to 2 hours.",
+    "h": "The 50-minute hour.",
+    "r": "Sommers-Flanagan Ch2 – Time"
+  },
+  {
+    "t": "Ch2 Time",
+    "d": 2,
+    "q": "A client arrives 20 minutes late and asks for extra time. The recommended response is:",
+    "o": [
+      "Be empathic but firm: hold the end time as the natural consequence",
+      "Extend the session so the client still receives the full 50 minutes",
+      "Cancel the session entirely in order to teach the importance of punctuality",
+      "Charge double for the next session"
+    ],
+    "e": "Neither extending nor cancelling is desirable. Be empathic but firm: hold the usual end time, so the client experiences the natural consequence of an abbreviated session, whatever the reason. You may offer another appointment that week. Extending disrupts your schedule and teaches that lateness has no cost; cancelling punishes.",
+    "w": [
+      "Extending the session rewards lateness and disrupts your schedule.",
+      "Cancelling is punitive and wastes the time that remains.",
+      "Doubling the next fee is punitive and not recommended."
+    ],
+    "k": "Late client: be empathic but end on time; the shorter session is the natural consequence.",
+    "h": "Late start, same finish.",
+    "r": "Sommers-Flanagan Ch2 – Start the session on time"
+  },
+  {
+    "t": "Ch2 Time",
+    "d": 2,
+    "q": "A client arrives early and asks if you are free now. Pipes and Davenport advise:",
+    "o": [
+      "The answer is no, unless there is a crisis",
+      "Start early to show flexibility and goodwill",
+      "Start early but still end at the usual time",
+      "Let the client decide"
+    ],
+    "e": "Pipes and Davenport advise: 'Clients will show up early and may ask if you are free. The answer is no, unless there is a crisis.' Keeping session boundaries consistent is part of the professional frame. It also protects your preparation time and avoids a pattern where the client expects flexible access.",
+    "w": [
+      "Starting early blurs the frame, even if meant kindly.",
+      "Starting early but ending at the usual time still blurs the frame and sets a precedent.",
+      "Letting the client decide hands the frame over to them."
+    ],
+    "k": "Early client asking to start: no, unless there's a crisis.",
+    "h": "Early bird waits.",
+    "r": "Sommers-Flanagan Ch2 – Time"
+  },
+  {
+    "t": "Ch2 Time",
+    "d": 2,
+    "q": "When is it acceptable to extend the clinical hour?",
+    "o": [
+      "Rarely – mainly emergencies (suicidal, homicidal or psychotic clients)",
+      "Whenever the client seems to be on the verge of an important breakthrough",
+      "When an important issue comes up in the last 5 minutes",
+      "When the interviewer felt ineffective or distracted during that session"
+    ],
+    "e": "Very few situations justify extending the clinical hour, mainly emergencies such as suicidal, homicidal or psychotic clients who need immediate safety planning. Apparent breakthroughs and issues raised in the last 5 minutes are deferred to the next session. Clients sometimes raise important material late ('doorknob' disclosures), and ending on time keeps the frame reliable.",
+    "w": [
+      "Breakthroughs are deferred; extending for them undermines the frame.",
+      "Last-minute issues are acknowledged and saved for the next session.",
+      "The interviewer's sense of ineffectiveness isn't a reason to extend."
+    ],
+    "k": "Extend sessions only for emergencies (suicidal, homicidal, psychotic); defer breakthroughs.",
+    "h": "Overtime only for emergencies.",
+    "r": "Sommers-Flanagan Ch2 – Ending on time"
+  },
+  {
+    "t": "Ch2 Time",
+    "d": 2,
+    "q": "Can you bill insurance for a session the client missed without cancelling?",
+    "o": [
+      "No – that is insurance fraud; charge the client per a policy explained up front",
+      "Yes, as long as the client did not cancel at least 24 hours ahead of time",
+      "Yes, as long as the client agrees in writing to the billing in advance",
+      "Only for clients in long-term therapy"
+    ],
+    "e": "An agency may charge clients for a full hour when they miss without 24-hour notice, as long as this policy is explained in the first session. But billing insurance for a missed hour is insurance fraud, because no service was provided. The client can be charged according to policy; the insurer cannot.",
+    "w": [
+      "Lack of 24-hour notice lets you charge the client, not the insurer.",
+      "Client agreement doesn't make billing insurance for an unprovided service legal.",
+      "Length of therapy doesn't change that billing insurance for no service is fraud."
+    ],
+    "k": "Never bill insurance for a missed session (fraud); charge the client per a policy explained up front.",
+    "h": "No show, no claim.",
+    "r": "Sommers-Flanagan Ch2 – Time"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 1,
+    "q": "Welfel defines confidentiality as:",
+    "o": [
+      "The ethical duty to keep client identity and disclosures secret",
+      "The legal right of the client to refuse testimony in court",
+      "The therapist's right to keep notes private from the client",
+      "A legal rule that applies only to minors and their parents"
+    ],
+    "e": "Welfel defines confidentiality as 'the ethical duty to keep client identity and disclosures secret… a moral obligation rooted in the ethics code, the ethical principles, and the virtues that the profession attempts to foster.' Confidentiality is ethical; privilege is the legal right of a client to prevent testimony. Keeping identity secret means even confirming someone is a client is a breach.",
+    "w": [
+      "The client's legal right to refuse testimony is privilege, not confidentiality.",
+      "Keeping notes from the client is not confidentiality; clients usually have access rights.",
+      "Confidentiality applies to all clients, not only minors."
+    ],
+    "k": "Confidentiality = the ethical duty to keep client identity and disclosures secret.",
+    "h": "Confidentiality is ethics; privilege is law.",
+    "r": "Sommers-Flanagan Ch2 – Confidentiality"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 2,
+    "q": "Someone phones asking if you are working with 'John Smith'. You should say:",
+    "o": [
+      "That your policy prevents saying whether he is a client without a signed release",
+      "Yes, he is a client, but you cannot discuss any of the details",
+      "No, unless the caller is a family member",
+      "Ask the caller why they want to know, and then decide whether to answer"
+    ],
+    "e": "Without a signed release, you can't even confirm that someone is your client, because identity itself is confidential. The recommended reply: 'I'm sorry, my policy restricts me from saying whether someone by that name receives services here or not.' Saying 'yes, but I can't discuss details' already breaches confidentiality.",
+    "w": [
+      "Confirming he's a client already breaches confidentiality, even if you share no details.",
+      "Family members also need a signed release; being family doesn't grant access.",
+      "Asking why first implies there is something to discuss; the policy applies regardless."
+    ],
+    "k": "Without a release, neither confirm nor deny that someone is a client.",
+    "h": "'I can neither confirm nor deny.'",
+    "r": "Sommers-Flanagan Ch2 – Putting It in Practice 2.5"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 2,
+    "q": "Which situation is NOT listed as a typical reason to break confidentiality?",
+    "o": [
+      "The client admits feeling angry at a parent",
+      "Clear and imminent danger of suicide",
+      "Evidence of child or elder abuse",
+      "A court order requiring client information"
+    ],
+    "e": "Typical reasons to break confidentiality include: client permission; clear and imminent danger of suicide; plans to harm someone; child abuse or neglect; a client abusing a minor; elder abuse; and a court order. Feeling angry at a parent is a normal emotion and not, by itself, a reason to break confidentiality.",
+    "w": [
+      "Clear and imminent suicide danger is a listed exception.",
+      "Evidence of child or elder abuse is a listed exception (mandated reporting).",
+      "A court order requiring client information is a listed exception to confidentiality."
+    ],
+    "k": "Confidentiality exceptions: permission, danger to self or others, abuse of children/elders, court order.",
+    "h": "Self, others, kids, elders, judge.",
+    "r": "Sommers-Flanagan Ch2 – Putting It in Practice 2.5"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 2,
+    "q": "When and how should limits of confidentiality be explained?",
+    "o": [
+      "At the outset, both orally and in writing",
+      "Only when the client raises a risky topic",
+      "At the end of the first session, in writing",
+      "Only if the client asks about confidentiality"
+    ],
+    "e": "Clients must be told the legal limits of confidentiality at the outset, both orally and in writing. Telling them only after they mention suicide is 'like changing the rules of a game after it has begun.' Informing clients early respects autonomy: they can decide what to share knowing the consequences.",
+    "w": [
+      "Waiting until a risky topic comes up is changing the rules mid-game.",
+      "The end of the first session is too late, and writing alone isn't enough.",
+      "Clients must be told whether or not they ask."
+    ],
+    "k": "Explain confidentiality limits at the outset, orally and in writing.",
+    "h": "Rules before the game begins.",
+    "r": "Sommers-Flanagan Ch2 – Confidentiality"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 3,
+    "q": "Under ACA B.2.b, when may a counselor disclose a client's contagious, life-threatening disease?",
+    "o": [
+      "To identifiable high-risk third parties, after confirming the diagnosis and the client's intent",
+      "Whenever the counselor feels uncomfortable keeping the medical secret any longer",
+      "To the public health department in all cases, immediately upon learning of it",
+      "Never, under any circumstances"
+    ],
+    "e": "Under ACA standard B.2.b, counselors may be justified in disclosing a client's contagious, life-threatening disease to identifiable third parties at demonstrable, high risk of contracting it. Before doing so, they confirm the diagnosis and assess the client's intent to inform those parties or to engage in harmful behaviour. It is a narrow, carefully conditioned exception.",
+    "w": [
+      "Personal discomfort with holding a secret isn't a justification for disclosure.",
+      "Automatic public health reporting isn't what B.2.b describes; it concerns identifiable third parties.",
+      "There is a narrow exception, so 'never' is wrong."
+    ],
+    "k": "ACA B.2.b: disclose to identifiable high-risk third parties only after confirming diagnosis and client intent.",
+    "h": "Named person, high risk, confirmed facts.",
+    "r": "Sommers-Flanagan Ch2 – Table 2.2"
+  },
+  {
+    "t": "Ch2 Confidentiality",
+    "d": 3,
+    "q": "Under APA Standard 4.05(b), when disclosure without consent is made to obtain payment, it is limited to:",
+    "o": [
+      "The minimum necessary to achieve the purpose",
+      "Whatever the insurance company requests",
+      "The full clinical record and notes",
+      "Only the diagnosis and nothing else, ever"
+    ],
+    "e": "APA Standard 4.05(b) allows disclosure without consent only as mandated or permitted by law for a valid purpose, such as obtaining payment for services. In that case, disclosure is limited to the minimum necessary to achieve the purpose. This 'minimum necessary' principle protects as much privacy as possible.",
+    "w": [
+      "Insurance requests don't override the minimum-necessary limit set by Standard 4.05(b).",
+      "Releasing the full record exceeds the minimum necessary.",
+      "'Only the diagnosis, ever' is too rigid; the rule is the minimum needed for the purpose."
+    ],
+    "k": "APA 4.05(b): disclosures to obtain payment are limited to the minimum necessary.",
+    "h": "Share the least that does the job.",
+    "r": "Sommers-Flanagan Ch2 – Table 2.1"
+  },
+  {
+    "t": "Ch2 Informed consent",
+    "d": 2,
+    "q": "Why is authentic informed consent harder than it looks?",
+    "o": [
+      "Jargon is common, and clients in pain may agree to anything",
+      "Clients nearly always refuse to sign written consent forms",
+      "Laws forbid explaining specific therapy techniques to clients",
+      "It requires a lawyer to be present"
+    ],
+    "e": "Authentic informed consent is hard because describing problems and treatments plainly is difficult, and professional jargon creeps in. Also, clients in physical or psychological pain may consent to anything without truly understanding. The interviewer must explain in plain language, check understanding and welcome questions, so consent is informed, not just signed.",
+    "w": [
+      "Most clients do sign; the problem is whether they understand.",
+      "No law forbids explaining techniques; clients should be told about them.",
+      "A lawyer doesn't need to be present; plain-language explanation and questions are what make consent informed."
+    ],
+    "k": "Informed consent is hard: jargon obscures, and clients in pain may agree without understanding.",
+    "h": "Signed isn't the same as understood.",
+    "r": "Sommers-Flanagan Ch2 – Informed consent"
+  },
+  {
+    "t": "Ch2 Informed consent",
+    "d": 2,
+    "q": "Research (Wagner et al.) on well-written, readable consent forms found they:",
+    "o": [
+      "Increase the client's view of therapist expertise and attractiveness",
+      "Reduce the client's trust in the therapist by seeming too legalistic",
+      "Make no measurable difference to how the client perceives therapy",
+      "Increase dropout from therapy"
+    ],
+    "e": "Wagner and colleagues found that well-written, readable and personable consent forms increase clients' impressions of the therapist's expertise and attractiveness. Good consent is not just a legal hurdle; it is part of building rapport and credibility from the first contact. Luborsky's work adds that educating clients about how therapy works also improves its efficacy.",
+    "w": [
+      "Readable forms increase trust and perceived expertise, not decrease them.",
+      "Readable forms did make a measurable difference, raising perceived expertise and attractiveness.",
+      "Better forms weren't linked to more dropout; they improved the client's impression of the therapist."
+    ],
+    "k": "Readable, personable consent forms boost perceived therapist expertise and attractiveness.",
+    "h": "A friendly form makes a friendly first impression.",
+    "r": "Sommers-Flanagan Ch2 – Informed consent"
+  },
+  {
+    "t": "Ch2 Documentation",
+    "d": 1,
+    "q": "In a SOAP note, what does the 'O' section contain?",
+    "o": [
+      "The interviewer's objective observations (dress, presentation)",
+      "The client's own description of current distress, symptoms and mood",
+      "The interviewer's assessment of progress toward treatment goals",
+      "The plan for the next session"
+    ],
+    "e": "SOAP notes have four parts: S (subjective), the client's own description of distress, symptoms and mood; O (objective), the interviewer's observations such as dress, presentation and behaviour; A (assessment), the interviewer's assessment of progress or clinical impressions; P (plan), what happens next or progress on the treatment plan.",
+    "w": [
+      "The client's own description is the S (subjective) section.",
+      "The interviewer's assessment of progress toward goals is the A (assessment) section.",
+      "The plan for next session is the P section."
+    ],
+    "k": "SOAP: Subjective (client report), Objective (observations), Assessment, Plan.",
+    "h": "Said, Observed, Assessed, Planned.",
+    "r": "Sommers-Flanagan Ch2 – Documentation; Table 2.3"
+  },
+  {
+    "t": "Ch2 Documentation",
+    "d": 1,
+    "q": "The 'ABCs of documentation' stand for:",
+    "o": [
+      "Accurate, Brief, Clear",
+      "Assess, Behave, Consult",
+      "Always Be Careful",
+      "Affect, Behavior, Cognition"
+    ],
+    "e": "A colleague of the authors recommends the ABCs of documentation: Accurate, Brief, Clear. Records should state what happened correctly, without padding, and in language another professional (or the client, or a court) can understand. This fits the rule of never writing anything you wouldn't want the client to read.",
+    "w": [
+      "Assess, Behave, Consult isn't the documentation mnemonic; the ABCs are Accurate, Brief, Clear.",
+      "'Always Be Careful' is a slogan, not the ABCs given.",
+      "Affect, Behavior, Cognition is the ABC of psychological functioning, not documentation."
+    ],
+    "k": "The ABCs of documentation: Accurate, Brief and Clear notes.",
+    "h": "Notes should be A-B-C simple.",
+    "r": "Sommers-Flanagan Ch2 – Documentation"
+  },
+  {
+    "t": "Ch2 Documentation",
+    "d": 2,
+    "q": "How long should complete records generally be kept in professional practice settings?",
+    "o": [
+      "7 to 12 years, then reduced to a summary",
+      "1 to 2 years after the final session",
+      "Until the end of treatment only",
+      "Permanently, with no reduction or summary"
+    ],
+    "e": "Guidelines suggest keeping complete records for 7 to 12 years, after which the file may be reduced to a summary sheet (APA, 2002). HIPAA, and FERPA in schools, may govern how records are handled. Destroying records too soon can harm clients who later need them and expose clinicians legally.",
+    "w": [
+      "1 to 2 years is far shorter than recommended.",
+      "Records must be kept long after treatment ends.",
+      "Permanent retention isn't required; after 7–12 years records may be summarized."
+    ],
+    "k": "Keep complete records 7–12 years, then reduce to a summary.",
+    "h": "Seven to twelve, then a shelf summary.",
+    "r": "Sommers-Flanagan Ch2 – Documentation"
+  },
+  {
+    "t": "Ch2 Documentation",
+    "d": 2,
+    "q": "Which matters MORE than the specific note-taking format?",
+    "o": [
+      "Regularity, the right content, and neutrality",
+      "Length and a high level of clinical detail",
+      "Using exactly the SOAP format every time",
+      "Handwriting rather than typing"
+    ],
+    "e": "The specific format, SOAP or another, is less important than three things: regularity (notes written after every contact), inclusion of the right material, and neutrality (descriptive, non-judgmental language). Long, highly detailed notes aren't better if they're irregular, miss key information such as risk, or contain opinionated language a client or court might later read.",
+    "w": [
+      "Length and detail aren't the priority; regular, relevant and neutral notes are.",
+      "SOAP is one option; the format matters less than regularity, content and neutrality.",
+      "Handwriting versus typing is irrelevant; what matters is regularity, content and neutrality."
+    ],
+    "k": "In notes, regularity, right content and neutrality matter more than format.",
+    "h": "Regular, Relevant, Restrained.",
+    "r": "Sommers-Flanagan Ch2 – Documentation"
+  },
+  {
+    "t": "Ch2 Stress",
+    "d": 2,
+    "q": "How do the authors (and Shea) view interviewer mistakes?",
+    "o": [
+      "Inevitable; recover and learn – they can even humanize the process",
+      "Rare in competent clinicians and a clear sign of poor training",
+      "Always harmful and must be hidden from clients",
+      "Acceptable only for students in training, never for professionals"
+    ],
+    "e": "Because interviewers are human, mistakes are inevitable. The challenge is to recover and learn from them; handled well, they can even humanize the process and strengthen the relationship. Shea says: 'I make mistakes every time I interview… With every mistake, I try to learn.' Perfectionism increases anxiety and rigidity.",
+    "w": [
+      "Experienced clinicians make mistakes too; Shea says he does every interview.",
+      "Mistakes aren't always harmful, and hiding them prevents repair.",
+      "Professionals make mistakes too; the skill is recovering."
+    ],
+    "k": "Mistakes are inevitable; recover, learn, and they can even humanize the interview.",
+    "h": "Shea: a mistake every interview, a lesson every mistake.",
+    "r": "Sommers-Flanagan Ch2 – Stress management"
+  },
+  {
+    "t": "Ch2 Self-presentation",
+    "d": 2,
+    "q": "What is the authors' guidance on dress and grooming?",
+    "o": [
+      "Be aware of the effect; aim for rapport and credibility; err conservative",
+      "Dress however you like, since clothing has no real effect",
+      "Always wear a suit and tie",
+      "Match each client's personal style of dress as exactly as you can"
+    ],
+    "e": "Clothing, body art and jewelry are not neutral: they send messages about status, culture and approachability. The authors advise being aware of their effect, choosing attire that fosters rapport, trust and credibility, and erring on the conservative side until you understand how you come across to different clients.",
+    "w": [
+      "Clothing does affect clients' impressions; dress, body art and jewelry are never neutral.",
+      "A suit and tie can create distance with some clients; the goal is rapport and credibility.",
+      "Matching each client exactly is impractical and can seem inauthentic."
+    ],
+    "k": "Dress isn't neutral: aim for rapport and credibility, and err conservative.",
+    "h": "Dress for trust.",
+    "r": "Sommers-Flanagan Ch2 – Grooming and attire"
+  }
+]

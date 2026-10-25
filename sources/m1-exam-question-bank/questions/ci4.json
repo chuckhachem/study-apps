@@ -1,0 +1,1042 @@
+[
+  {
+    "t": "Ch4 Question types",
+    "d": 1,
+    "q": "Which words usually begin truly open questions?",
+    "o": [
+      "What and How",
+      "Do and Did",
+      "Could and Would",
+      "Where and When"
+    ],
+    "e": "Truly open questions ordinarily begin with How or What, because these words invite description and process rather than a one-word answer: 'What happened?' 'How did you cope?' Table 4.1 classes Where, When, Who and Why as only partially or minimally open: they ask for a place, a time, a person or a justification. Do/Did and Could/Would questions can be answered yes or no, making them closed or swing questions.",
+    "w": [
+      "Do and Did questions are closed: they invite yes or no and specific facts.",
+      "Could and Would begin swing questions, which can be answered yes or no even though they hope for more.",
+      "Where and When are only partially open: they ask for a location or a time, not a story."
+    ],
+    "k": "Truly open questions begin with What or How; Where, When, Who and Why are only partially open.",
+    "h": "'What' and 'How' open the door widest.",
+    "r": "Sommers-Flanagan Ch4 – Open questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "According to Table 4.1, 'What' questions usually elicit ___ and 'How' questions usually elicit ___.",
+    "o": [
+      "Factual/descriptive information; process/sequential information",
+      "Explanations and defensiveness; specific details of events",
+      "Information on judgment and values; location",
+      "Diverse information; time information"
+    ],
+    "e": "Table 4.1 links question openers to typical responses. What → factual and descriptive information; How → process or sequential information (how something unfolded); Why → explanations and defensiveness; Where/When/Who → location, time or person; Do/Did → specific details; Could/Would → diverse information, sometimes a rejection; 'I wonder' → exploration; 'What if' → judgement and values. Knowing these patterns lets you choose the right opener for the information you need.",
+    "w": [
+      "Explanations and defensiveness come from Why questions, and specific details from Do/Did questions.",
+      "Judgement and values come from What if questions, and location from Where questions.",
+      "Diverse information comes from Could/Would questions, and time information from When questions."
+    ],
+    "k": "What → facts/description; How → process/sequence; Why → explanations/defensiveness.",
+    "h": "What = the facts; How = the film reel.",
+    "r": "Sommers-Flanagan Ch4 – Table 4.1"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "Why do clinicians usually minimize 'Why' questions?",
+    "o": [
+      "They provoke defensiveness and intellectualization",
+      "They cannot be answered in words",
+      "They are closed questions that are answered with a yes or no",
+      "They reveal the interviewer's theoretical orientation"
+    ],
+    "e": "Why questions tend to put clients on the defensive: they sound like demands for justification, and clients answer 'Because!' or 'Why not?'. They also invite intellectualization, abstract explanations that keep feelings at a distance. With good rapport, a carefully timed 'why' can invite deeper speculation, but in general 'what' and 'how' questions get richer, less defensive answers.",
+    "w": [
+      "Why questions can be answered in words; the problem is the defensive, intellectual quality of the answers.",
+      "Why questions are open, not yes/no; the issue is defensiveness, not closure.",
+      "They don't reveal theoretical orientation; they reveal an implicit demand for justification."
+    ],
+    "k": "Minimize 'Why' questions: they provoke defensiveness and intellectualization.",
+    "h": "'Why?' sounds like a parent asking about a broken vase.",
+    "r": "Sommers-Flanagan Ch4 – Open questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "How should the openness of a particular question be judged?",
+    "o": [
+      "By the response it usually elicits",
+      "By the first word of the question asked",
+      "By its length",
+      "By whether it contains the word 'you'"
+    ],
+    "e": "Openness is judged primarily by the response a question usually elicits, not by its first word. 'What time did you get home?' begins with What but is answered in a few words; 'How are you feeling?' often gets 'Fine.' Conversely, some swing questions draw long answers. Pay attention to what actually happens when you ask, and adjust.",
+    "w": [
+      "The first word is only a rough guide; 'What time…?' is open in form but closed in effect.",
+      "Length doesn't determine openness; short questions can be very open.",
+      "Whether it contains 'you' is irrelevant to how open it is."
+    ],
+    "k": "Judge a question's openness by the response it usually elicits, not by its first word.",
+    "h": "The answer reveals the question.",
+    "r": "Sommers-Flanagan Ch4 – Open questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "'What was it like to confront your father—was it gratifying?' illustrates:",
+    "o": [
+      "Turning an open question into a closed one with a tag",
+      "A swing question that politely asks permission to explore",
+      "A projective question about imagined situations",
+      "An indirect question disguised as a statement"
+    ],
+    "e": "Adding a tag ('—was it gratifying?') turns an open question into a closed one. The client now focuses on whether it was gratifying and may not mention fear, relief or resentment that the open part would have invited. Interviewers often add tags out of anxiety or to show understanding; letting the open question stand gives clients room to describe their own experience.",
+    "w": [
+      "A swing question would ask 'Could you tell me about…?', not add a yes/no tag.",
+      "A projective question asks about imagined situations ('What if…?').",
+      "An indirect question is phrased as a statement ('I wonder…'), not with a tag."
+    ],
+    "k": "A tag query turns an open question into a closed one and narrows the client's answer.",
+    "h": "Don't tag an open door shut.",
+    "r": "Sommers-Flanagan Ch4 – Closed questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "When are closed questions traditionally used most?",
+    "o": [
+      "Toward the end, when rapport exists and time is short",
+      "At the very start, to build rapport quickly",
+      "Only with highly anxious clients",
+      "Only during therapy sessions, never during assessment"
+    ],
+    "e": "Closed questions are traditionally used toward the end of an interview, when rapport is established, time is short, and efficient, specific answers are needed (Morrison). Early in the interview, open questions build rapport and let the client's story unfold. When you shift to more specific questions, it helps to tell the client so the change of pace isn't jarring.",
+    "w": [
+      "Starting with closed questions limits the client's story and slows rapport.",
+      "They aren't limited to anxious clients; talkative clients and symptom checks are typical uses.",
+      "Closed questions are common in assessment, for example confirming symptoms."
+    ],
+    "k": "Closed questions are mostly used near the end, once rapport exists and specific answers are needed.",
+    "h": "Open early, close late.",
+    "r": "Sommers-Flanagan Ch4 – Closed questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "Closed questions are especially useful for:",
+    "o": [
+      "Very talkative clients and confirming diagnostic symptoms",
+      "Building rapport with silent or reluctant clients early on",
+      "Encouraging free association in psychodynamic work",
+      "Exploring feelings in depth during the client's most emotional moments"
+    ],
+    "e": "Closed questions restrict verbalization, which is useful in two main situations: with excessively talkative clients who need focus, and for confirming specific diagnostic symptoms ('Did you feel lightheaded or dizzy?'). They give precise, efficient information but reduce elaboration, so they are a tool for focus, not exploration.",
+    "w": [
+      "Silent or reluctant clients need open, inviting questions; closed ones keep them minimal.",
+      "Free association needs openness; closed questions restrict it.",
+      "Exploring emotion in depth needs open questions and reflection, not closed questions."
+    ],
+    "k": "Closed questions help focus very talkative clients and confirm specific symptoms.",
+    "h": "Closed questions are a narrow beam for precise targets.",
+    "r": "Sommers-Flanagan Ch4 – Closed questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "'Could you talk about how it was when you first discovered you were HIV positive?' is a:",
+    "o": [
+      "Swing question",
+      "Closed question",
+      "Projective question",
+      "Indirect question"
+    ],
+    "e": "Swing questions begin with Could, Would, Can or Will. Technically they can be answered yes or no, but they're designed to elicit elaborate discussion, and they politely give the client a choice. Ivey considers 'could' questions maximally open, because they leave the client free to decide whether and how to answer.",
+    "w": [
+      "It's grammatically yes/no, but it's designed to elicit elaboration, so it's not a typical closed question.",
+      "A projective question invites speculation about imagined situations.",
+      "An indirect question is phrased as a statement, such as 'I wonder…'."
+    ],
+    "k": "Swing questions (Could, Would, Can, Will) are technically yes/no but invite elaboration.",
+    "h": "A swing: it can go either way.",
+    "r": "Sommers-Flanagan Ch4 – Swing questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "What are the two rules for using swing questions?",
+    "o": [
+      "Use only with adequate rapport; avoid with most children and teens",
+      "Use them early to build rapport, and always use them with children",
+      "Use them only with talkative clients, never with quiet or shy ones",
+      "Use them only during assessment interviews, never in ongoing therapy"
+    ],
+    "e": "Swing questions work best with two rules: use them only when rapport is adequate, because without rapport clients may treat them as closed and simply say yes or no; and avoid them with most children and adolescents, who interpret them concretely and may answer oppositionally ('Could you tell me about school?' 'No!').",
+    "w": [
+      "Without rapport, swing questions act like closed ones, and children often answer 'No!'.",
+      "The rules concern rapport and age, not talkativeness.",
+      "They can be used in therapy as well as assessment."
+    ],
+    "k": "Swing questions: only with adequate rapport; avoid with most children and adolescents.",
+    "h": "'Could you…?' 'No!' says the teenager.",
+    "r": "Sommers-Flanagan Ch4 – Swing questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "'I wonder how you're feeling about your upcoming wedding' is an indirect question. What is its risk if overused?",
+    "o": [
+      "It can seem sneaky or manipulative",
+      "It always produces defensiveness",
+      "It restricts the client to yes or no",
+      "It forces the client to speculate"
+    ],
+    "e": "Indirect or implied questions ('I wonder…', 'You must…', 'It must…') ask without asking, which avoids pressuring clients and can feel gentler than a direct question. But when overused, they can seem sneaky or manipulative, as if the interviewer is fishing for information without being direct. Use them occasionally, once rapport exists, to invite exploration gently.",
+    "w": [
+      "Indirect questions are less likely than 'why' questions to produce defensiveness.",
+      "They aren't yes/no questions; they invite open exploration.",
+      "Forcing speculation is the function of projective 'what if' questions."
+    ],
+    "k": "Indirect questions ('I wonder…') reduce pressure, but overused they seem sneaky or manipulative.",
+    "h": "'I wonder…' once is curious; ten times is creepy.",
+    "r": "Sommers-Flanagan Ch4 – Indirect questions"
+  },
+  {
+    "t": "Ch4 Question types",
+    "d": 2,
+    "q": "'What would you do if you were given one million dollars, no strings attached?' is used mainly to evaluate:",
+    "o": [
+      "Values, self-control, judgment and decision-making",
+      "Orientation to time, place and person",
+      "Specific panic symptoms",
+      "The client's motivation for entering therapy at this point in time"
+    ],
+    "e": "Projective ('What if') questions invite clients to imagine hypothetical situations and speculate. The million-dollar question helps evaluate values, self-control, judgement and decision-making: does the client save, give it away, splurge or plan carefully? Projective questions are often included in mental status examinations as a way of assessing judgement indirectly.",
+    "w": [
+      "Orientation is assessed with direct questions about time, place and person.",
+      "Panic symptoms are checked with specific closed questions.",
+      "Motivation for therapy is explored with direct questions about goals and reasons for coming."
+    ],
+    "k": "Projective 'what if' questions assess values, judgement and decision-making.",
+    "h": "Money reveals values.",
+    "r": "Sommers-Flanagan Ch4 – Projective questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "According to de Shazer and Dolan, SFBT questions focus almost always on:",
+    "o": [
+      "The present or the future",
+      "The client's early childhood",
+      "The origin of the problem",
+      "Unconscious conflicts and defenses"
+    ],
+    "e": "In solution-focused brief therapy (SFBT), questions are the primary tool. Therapists rarely interpret or confront, and their questions focus almost always on the present or future: what is already working, exceptions to the problem, and how the client wants life to be. Exploring the origins of problems is considered unnecessary for building solutions.",
+    "w": [
+      "SFBT avoids digging into early childhood; it looks at present and future.",
+      "SFBT considers the problem's origin unnecessary for building solutions.",
+      "Unconscious conflicts and defenses are psychodynamic concerns, not SFBT."
+    ],
+    "k": "SFBT questions focus on the present or future: what works and the preferred life.",
+    "h": "SFBT looks through the windshield, not the rearview mirror.",
+    "r": "Sommers-Flanagan Ch4 – Therapeutic questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "The pre-treatment change question asks:",
+    "o": [
+      "What changes have you noticed since you called for the appointment?",
+      "What brought you here today, and why did you come at this time?",
+      "What would a miracle look like?",
+      "How bad is the problem on a scale of 1 to 10?"
+    ],
+    "e": "Research suggests many clients improve between calling for an appointment and the first session. The pre-treatment change question ('What changes have you noticed since you called for the appointment?') highlights that improvement and the client's own ability to start change, moving the conversation toward 'solution talk' rather than 'problem talk'.",
+    "w": [
+      "Asking what brought them in is the standard opening, focused on the problem.",
+      "The miracle question asks about an imagined future without the problem.",
+      "Rating how bad the problem is is a scaling question."
+    ],
+    "k": "Pre-treatment change question: 'What changes have you noticed since you called?'",
+    "h": "Change starts with the phone call.",
+    "r": "Sommers-Flanagan Ch4 – Pre-treatment change question"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 3,
+    "q": "If a client says nothing has changed since booking, which solution-focused follow-up is suggested?",
+    "o": [
+      "'How have you been able to keep things from getting worse?'",
+      "'Why do you think nothing at all has changed since you called us?'",
+      "'Then let's look much more closely at the cause of the problem.'",
+      "'Perhaps therapy will not help you.'"
+    ],
+    "e": "If a client reports no pre-treatment change, solution-focused follow-ups stay future- or strength-oriented: 'What would you like to have happen today that would make our time especially useful?' or 'How have you been able to keep things from getting worse?' The second highlights coping and resilience even when things feel stuck.",
+    "w": [
+      "Asking why nothing changed invites defensiveness and problem talk.",
+      "Focusing on the cause of the problem is the opposite of solution talk.",
+      "Telling the client therapy may not help destroys hope."
+    ],
+    "k": "No change? Ask 'How have you kept things from getting worse?' to highlight coping.",
+    "h": "Holding steady is a strength.",
+    "r": "Sommers-Flanagan Ch4 – Pre-treatment change question"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "A client rates anger management at 4/10; the interviewer asks what exactly would be different at 5. This is a:",
+    "o": [
+      "Scaling question",
+      "Percentage question",
+      "Presuppositional question",
+      "Exception question"
+    ],
+    "e": "Scaling questions ask clients to rate something on a scale (often 1–10), then use repeated questioning to clarify what exactly would be different one step up: 'What would be different at 5?' This makes progress concrete, small and achievable, and highlights what the client is already doing to be at 4 rather than lower.",
+    "w": [
+      "A percentage question asks about '1 percent less' of a problem, not a numbered scale.",
+      "A presuppositional question assumes change has already happened.",
+      "An exception question asks about times the problem didn't occur."
+    ],
+    "k": "Scaling questions use a rating and ask what exactly would differ one step higher.",
+    "h": "One rung up the ladder.",
+    "r": "Sommers-Flanagan Ch4 – Scaling questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "'How would your life be different if you were 1 percent less depressed?' is a:",
+    "o": [
+      "Percentage question",
+      "Scaling question",
+      "Miracle question",
+      "Externalizing question"
+    ],
+    "e": "Percentage questions ask how life would differ with a tiny improvement ('1 percent less depressed'). The small amount makes change seem possible and keeps the client focused on how improvement would look, sound, feel 'and even smell'. It is a solution-focused way of building concrete images of progress.",
+    "w": [
+      "A scaling question uses a 1–10 rating and asks about one step higher.",
+      "The miracle question asks about the problem being solved overnight.",
+      "An externalizing question treats the problem as a separate entity."
+    ],
+    "k": "Percentage questions ask how life would differ with a tiny (1%) improvement.",
+    "h": "Just 1 percent: small enough to believe.",
+    "r": "Sommers-Flanagan Ch4 – Percentage questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "Unique outcomes (redescription) questions were developed by:",
+    "o": [
+      "Michael White",
+      "Steve de Shazer",
+      "Insoo Kim Berg",
+      "Carl Rogers"
+    ],
+    "e": "Narrative therapist Michael White developed unique outcomes (redescription) questions. They select any experience that stands apart from the dominant problem story, such as 'How did you beat the fear and go out shopping?', and invite the client to describe and expand it, building an alternative, preferred story of their identity.",
+    "w": [
+      "De Shazer is a founder of SFBT, known for the miracle question's phrasing, not unique outcomes.",
+      "Berg co-founded SFBT; unique outcomes come from narrative therapy.",
+      "Rogers developed person-centered therapy and nondirective reflection, not narrative questions."
+    ],
+    "k": "Michael White (narrative therapy) developed unique outcomes questions.",
+    "h": "White writes a new story from unique moments.",
+    "r": "Sommers-Flanagan Ch4 – Unique outcomes"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "'Who will be most surprised in your family when they hear your grades have improved?' is a:",
+    "o": [
+      "Presuppositional question",
+      "Exception question",
+      "Pre-treatment change question",
+      "Scaling question"
+    ],
+    "e": "Presuppositional questions presuppose that positive change has already happened or will happen, and then ask for specific descriptions: 'Who will be most surprised when they hear your grades have improved?' The question embeds the assumption of success, encouraging the client to imagine and expect it, and to picture how others will respond.",
+    "w": [
+      "An exception question asks about times the problem didn't happen.",
+      "A pre-treatment change question asks about change since booking.",
+      "A scaling question asks for a numerical rating, such as 1 to 10."
+    ],
+    "k": "Presuppositional questions assume positive change and ask for details about it.",
+    "h": "Not 'if', but 'when'.",
+    "r": "Sommers-Flanagan Ch4 – Presuppositional questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "How did the miracle question originate?",
+    "o": [
+      "A client told Insoo Kim Berg only a miracle would help",
+      "Milton Erickson used it with clients during hypnotic trances",
+      "Carl Rogers asked it in his famous filmed interview with Gloria",
+      "Michael White developed it as part of his narrative therapy"
+    ],
+    "e": "Insoo Kim Berg stumbled on the miracle question when a client said only a miracle would help. Steve de Shazer later phrased it: 'Suppose… while you were asleep, a miracle happened and this problem was solved. How will you know? What will be different?' It helps clients describe their preferred future concretely.",
+    "w": [
+      "Erickson influenced SFBT, but the miracle question didn't originate in his trances.",
+      "Rogers' interview with Gloria didn't use the miracle question.",
+      "Michael White developed narrative questions, not the miracle question."
+    ],
+    "k": "The miracle question arose when a client told Insoo Kim Berg only a miracle would help.",
+    "h": "A client's 'only a miracle' became the technique.",
+    "r": "Sommers-Flanagan Ch4 – The miracle question"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "When using the miracle question with youth, Bertolino recommends:",
+    "o": [
+      "Substituting the word 'strange' for 'miracle'",
+      "Avoiding the question entirely",
+      "Asking it only after a diagnosis is made",
+      "Using it only when parents are present in the room"
+    ],
+    "e": "With youth, Bertolino recommends substituting the word 'strange' for 'miracle', which can sound childish or religious to teenagers: 'Suppose something strange happened overnight…'. Tohn and Oshlag adapted the question for mandated clients. The core idea, describing in concrete detail how life would look without the problem, stays the same.",
+    "w": [
+      "The question isn't avoided; it's adapted for youth.",
+      "Using it doesn't depend on a diagnosis; it's about the client's preferred future.",
+      "Parents don't need to be present; the adaptation is a change of wording."
+    ],
+    "k": "With youth, Bertolino suggests swapping the word 'miracle' for 'strange'.",
+    "h": "Teens prefer 'strange' to 'miracle'.",
+    "r": "Sommers-Flanagan Ch4 – The miracle question"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "'When did Trouble at school first come along?' is an example of:",
+    "o": [
+      "An externalizing question",
+      "An exception-seeking question",
+      "A projective 'what if' question",
+      "A closed question"
+    ],
+    "e": "Externalizing questions, from narrative therapy, place the problem outside the self: 'When did Trouble first come along?' This turns 'trouble' from a trait ('I'm a troublemaker') into an external force the client can resist and battle (Winslade and Monk), reducing shame and opening room for agency.",
+    "w": [
+      "An exception question asks when the problem didn't occur.",
+      "A projective 'what if' question asks about hypothetical situations.",
+      "It can be answered with a time, but its purpose is externalizing."
+    ],
+    "k": "Externalizing questions treat the problem as separate from the person ('When did Trouble arrive?').",
+    "h": "The person isn't the problem; the problem is the problem.",
+    "r": "Sommers-Flanagan Ch4 – Externalizing questions"
+  },
+  {
+    "t": "Ch4 Therapeutic questions",
+    "d": 2,
+    "q": "Corcoran's exception questions use which framework?",
+    "o": [
+      "Who, What, Where, When and How the exception occurs",
+      "Past, present and future time frames",
+      "Thoughts, feelings and behaviors",
+      "Antecedents, the behavior itself, and its consequences (ABC)"
+    ],
+    "e": "Corcoran's investigative exception questions explore exceptions with Who, What, Where, When and How: who is present when the problem doesn't occur, what happens before, during and after, where and when it happens, and how the client makes the exception happen. Detailed exploration turns a vague 'good day' into a repeatable recipe.",
+    "w": [
+      "Past, present and future is a time framework, not Corcoran's.",
+      "Thoughts, feelings and behaviours is a CBT framework.",
+      "Antecedents, behaviour and consequences is behavioural functional analysis."
+    ],
+    "k": "Corcoran explores exceptions with who, what, where, when and how.",
+    "h": "The journalist's five questions, aimed at exceptions.",
+    "r": "Sommers-Flanagan Ch4 – Exception questions"
+  },
+  {
+    "t": "Ch4 Benefits & liabilities",
+    "d": 3,
+    "q": "What paradox can excessive questioning create?",
+    "o": [
+      "You seek information but get less, as clients turn passive",
+      "Clients talk more but say less that is relevant to their goals",
+      "Questions increase rapport but sharply reduce your credibility",
+      "Clients feel freer but less understood"
+    ],
+    "e": "Interviewers ask questions to get information, but too many questions decrease the client's verbal initiative, increase defensiveness and, paradoxically, yield less information, as clients become passive and wait for the next question. Excessive questioning may also foster dependency, with the interviewer seen as the one who directs everything.",
+    "w": [
+      "The paradox is less information overall, not more talk with less relevance.",
+      "Too many questions tend to reduce rapport rather than increase it.",
+      "Too many questions make clients feel interrogated, not freer."
+    ],
+    "k": "Too many questions paradoxically yield less information as clients turn passive and defensive.",
+    "h": "Interrogate, and the witness goes quiet.",
+    "r": "Sommers-Flanagan Ch4 – Benefits and liabilities"
+  },
+  {
+    "t": "Ch4 Benefits & liabilities",
+    "d": 2,
+    "q": "Which is a liability of relentlessly positive solution-focused questioning?",
+    "o": [
+      "Clients needing to discuss pain may feel dismissed",
+      "It always makes clients more negative about their situation",
+      "It prevents any collaborative goal setting from occurring",
+      "It cannot be used with adults"
+    ],
+    "e": "Solution-focused questions are powerful, but relentless positivity has a liability: some clients find it therapeutic to talk about traumatic or negative experiences, and with an interviewer who keeps steering to strengths they may feel their pain is being dismissed. Balance means acknowledging difficulties before moving toward solutions.",
+    "w": [
+      "It doesn't make clients more negative; the risk is feeling dismissed.",
+      "Goal setting can still happen; the risk is ignored pain.",
+      "SFBT is widely used with adults, so this isn't a liability."
+    ],
+    "k": "Relentless positivity can make clients who need to discuss pain feel dismissed.",
+    "h": "Don't paint over the crack before you look at it.",
+    "r": "Sommers-Flanagan Ch4 – Benefits and liabilities"
+  },
+  {
+    "t": "Ch4 Ethics",
+    "d": 2,
+    "q": "Asking a client which high school they attended in your shared hometown, out of curiosity, is a problem because:",
+    "o": [
+      "It gives a social flavor and serves your needs, not the client's",
+      "It violates confidentiality law",
+      "It is a closed question",
+      "It is always a projective question that confuses the client"
+    ],
+    "e": "Questions driven by interviewer curiosity, such as which high school a client attended in your shared hometown, give the interview a social rather than therapeutic flavour and serve your needs, not the client's. They can slide into inappropriate self-disclosure and blurred boundaries. Everything you do should further the client's welfare.",
+    "w": [
+      "It doesn't break confidentiality law; the problem is serving your curiosity.",
+      "Being closed isn't the problem; its purpose is.",
+      "It isn't a projective question; it's a social one."
+    ],
+    "k": "Curiosity questions serve your needs and make the interview social; ask only what helps the client.",
+    "h": "Is this question for them or for me?",
+    "r": "Sommers-Flanagan Ch4 – Interviewer curiosity and ethics"
+  },
+  {
+    "t": "Ch4 Ethics",
+    "d": 2,
+    "q": "Regarding Lazarus's dilemma about asking a client for a ride, the authors' position is:",
+    "o": [
+      "Meet personal needs outside therapy; avoid boundary violations",
+      "It is fine if the client happens to be driving that way anyway",
+      "It is fine after termination only",
+      "It depends only on whether the client freely gives consent to it"
+    ],
+    "e": "A. Lazarus (1994) popularized a dilemma: is it acceptable, at the end of a session, for a therapist to ask the client for a ride somewhere, provided the client is going that way anyway? The authors' position: professionals should get their personal needs met outside the therapy relationship, even supposedly innocuous ones like a ride or hometown curiosity. Rigidity is possible, but boundary crossings can lead to more inappropriate impulses and eventual ethical violations.",
+    "w": [
+      "The client going that way anyway is exactly Lazarus's condition, and the authors still advise against it.",
+      "Termination isn't the authors' criterion; the principle is meeting your needs outside the relationship.",
+      "The client's consent doesn't remove the risk that small crossings lead to bigger violations."
+    ],
+    "k": "Meet personal needs outside therapy; even small boundary crossings can lead to violations.",
+    "h": "The ride home is a slippery slope.",
+    "r": "Sommers-Flanagan Ch4 – Interviewer curiosity and ethics"
+  },
+  {
+    "t": "Ch4 Guidelines",
+    "d": 2,
+    "q": "Which is one of the five guidelines for using questions?",
+    "o": [
+      "Prepare clients for questions",
+      "Ask at least five questions in a row to gain momentum",
+      "Start with sensitive areas to save time",
+      "Use questions as the main response in every approach"
+    ],
+    "e": "The five guidelines for using questions are: (1) prepare clients for questions, explaining that you'll be asking some to understand them better; (2) don't make questions your predominant response, unless you're using an accepted approach built on them such as SFBT; (3) make questions relevant to the client's concerns; (4) elicit concrete examples and positive visions; and (5) approach sensitive areas cautiously. Preparation reduces the sense of being interrogated.",
+    "w": [
+      "Several questions in a row make clients feel interrogated; Miller and Rollnick suggest no more than three.",
+      "Sensitive areas should be approached cautiously, usually after rapport, not first.",
+      "Questions shouldn't be the main response unless an accepted approach is built on them."
+    ],
+    "k": "Question guidelines: prepare clients, don't over-question, stay relevant, get concrete examples, approach sensitive areas cautiously.",
+    "h": "Prepare, Pace, Point, Picture, Proceed carefully.",
+    "r": "Sommers-Flanagan Ch4 – Guidelines in using questions"
+  },
+  {
+    "t": "Ch4 Guidelines",
+    "d": 1,
+    "q": "Miller and Rollnick's 'three-question rule' recommends:",
+    "o": [
+      "Not asking more than three questions consecutively",
+      "Asking three open questions before asking any closed question",
+      "Asking no more than three questions in any one session",
+      "Asking every question three different ways"
+    ],
+    "e": "Miller and Rollnick's three-question rule: don't ask more than three questions in a row. Mixing questions with listening responses such as reflections and summaries prevents clients from feeling interrogated and keeps them actively exploring. Strings of questions push clients into a passive, answering role and reduce what they volunteer.",
+    "w": [
+      "The rule limits consecutive questions; it doesn't set an order of open before closed.",
+      "It isn't a per-session limit; it's about not stacking questions back to back.",
+      "Asking each question three ways would add pressure, not reduce it."
+    ],
+    "k": "Three-question rule: no more than three questions in a row; mix in reflections.",
+    "h": "Three strikes and you're interrogating.",
+    "r": "Sommers-Flanagan Ch4 – Guidelines"
+  },
+  {
+    "t": "Ch4 Guidelines",
+    "d": 3,
+    "q": "A depressed client who links her mood to 10 years of emotional abuse is puzzled by questions about appetite and sex. The relevant guideline is:",
+    "o": [
+      "Make questions relevant to client concerns – or explain their relevance",
+      "Avoid all diagnostic questions with depressed clients",
+      "Ask the remaining questions faster, to save time for her main concern",
+      "Replace questions with confrontations"
+    ],
+    "e": "When clients can't see why a question is being asked, such as appetite and sex questions for a woman who sees her depression as the result of 10 years of abuse, rapport and interest in therapy decrease. The guideline is to make questions relevant to client concerns or explain their relevance ('Depression affects the body too, so I'd like to ask about sleep and appetite'). The same applies to solution-focused questions, which make sense only when tied to goals.",
+    "w": [
+      "Diagnostic questions still matter with depressed clients; they need a stated rationale.",
+      "Asking faster doesn't fix irrelevance; explaining the purpose does.",
+      "Confrontation doesn't address the puzzlement; explaining relevance does."
+    ],
+    "k": "Make questions relevant to the client's concerns, or explain why you're asking.",
+    "h": "Explain the 'why' behind the question.",
+    "r": "Sommers-Flanagan Ch4 – Guidelines"
+  },
+  {
+    "t": "Ch4 Guidelines",
+    "d": 2,
+    "q": "When a client leaves gaps in a story, which question is preferred?",
+    "o": [
+      "'What happened then?'",
+      "'Did you go visit your mother?'",
+      "'Why did you do that?'",
+      "'You must have felt angry?'"
+    ],
+    "e": "When a client leaves gaps in a story, an open-ended question like 'What happened then?' fills them without steering the content, keeping the client talking in their own words. Closed or leading questions insert your assumptions. Sklare adds 'What else?' questions to draw out positive visions of the future.",
+    "w": [
+      "'Did you visit your mother?' is closed and inserts your guess about what happened.",
+      "'Why did you do that?' invites defensiveness rather than filling the gap.",
+      "'You must have felt angry?' is leading and puts a feeling into the client's mouth."
+    ],
+    "k": "Fill story gaps with open questions like 'What happened then?'",
+    "h": "'And then?' keeps the story moving.",
+    "r": "Sommers-Flanagan Ch4 – Guidelines"
+  },
+  {
+    "t": "Ch4 Guidelines",
+    "d": 2,
+    "q": "Wolberg advises that with NEW clients, questioning about sensitive areas (sexual difficulties, failures) should:",
+    "o": [
+      "Be avoided if blocking occurs; relationship building comes first",
+      "Begin immediately, in order to get complete and accurate information",
+      "Be done only through written forms",
+      "Be handled by another staff member in order to protect the relationship"
+    ],
+    "e": "Wolberg advises letting new clients talk freely; if blocking occurs around sensitive areas such as sexual difficulties or failures, avoid questioning until the relationship is better established. The exceptions are intake interviews, crises and suicidal or homicidal situations, where assessment is the top priority and sensitive questions must be asked.",
+    "w": [
+      "Pushing immediately risks blocking and rupture before trust exists.",
+      "Written forms aren't the recommendation; the point is timing within the relationship.",
+      "Handing sensitive topics to another staff member isn't suggested; timing is."
+    ],
+    "k": "With new clients, postpone sensitive questioning if blocking occurs, except in intakes, crises or risk situations.",
+    "h": "Trust first, secrets later, unless safety can't wait.",
+    "r": "Sommers-Flanagan Ch4 – Approach sensitive areas cautiously"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "Directive action responses are essentially:",
+    "o": [
+      "Persuasion techniques pushing clients toward specific change",
+      "Listening techniques that reflect client content and feelings",
+      "Assessment tools for diagnosis",
+      "Nondirective ways to build rapport and trust with new clients"
+    ],
+    "e": "Directive action responses are essentially persuasion techniques: they encourage clients to change how they think, feel or act. They require the interviewer to judge what change is desirable, which carries responsibility and risk. That's why beginners should use them cautiously, after assessment, with supervision.",
+    "w": [
+      "Reflecting content and feelings is what listening responses do, not directive actions.",
+      "Assessment tools gather information; directive actions push change.",
+      "Nondirective rapport-building is the opposite of directive action."
+    ],
+    "k": "Directive action responses are persuasion techniques that push clients toward specific change.",
+    "h": "Action responses push; listening responses follow.",
+    "r": "Sommers-Flanagan Ch4 – Directive action responses"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "Role induction (psychotherapy socialization) means:",
+    "o": [
+      "Educating clients about what to expect in therapy and their roles",
+      "Assigning the client a specific part to play in a therapy role-play",
+      "Inducing a hypnotic state",
+      "Explaining the client's diagnosis and prognosis to the whole family"
+    ],
+    "e": "Role induction, or psychotherapy socialization, means educating clients about what to expect in therapy and what their role is: how sessions work, what they'll be asked to do, how change happens. It's perhaps the most important purpose of explanation. Research shows clients benefit from knowing what to expect and how to participate.",
+    "w": [
+      "Assigning a part in a role-play is a training exercise, not role induction.",
+      "Inducing hypnosis is unrelated, despite the word 'induction'.",
+      "Explaining diagnosis to the family is psychoeducation about symptoms, not role induction."
+    ],
+    "k": "Role induction = educating clients about what to expect in therapy and their role in it.",
+    "h": "Orientation day for therapy.",
+    "r": "Sommers-Flanagan Ch4 – Explaining the counseling process"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "Which three psychoeducational targets are listed for explanation?",
+    "o": [
+      "The counseling process, a symptom's meaning, instructions for a strategy",
+      "The client's diagnosis, medication options and the long-term prognosis",
+      "Fees, scheduling policies and the limits of confidentiality",
+      "Childhood, transference and defenses"
+    ],
+    "e": "Explanation (psychoeducation) usually targets three things: the process of counseling (what happens and why), the meaning or implications of a symptom (such as what a panic attack is), and instructions for carrying out advice or a therapeutic strategy (how to practise relaxation). Each reduces uncertainty and helps clients participate.",
+    "w": [
+      "Diagnosis, medication and prognosis can be explained but aren't the three listed targets.",
+      "Fees, scheduling and confidentiality limits are informed-consent topics, not the three explanation targets.",
+      "Childhood, transference and defenses are psychodynamic content, not explanation targets."
+    ],
+    "k": "Explanation targets: the counseling process, a symptom's meaning, and how to carry out a strategy.",
+    "h": "Explain the process, the symptom, the steps.",
+    "r": "Sommers-Flanagan Ch4 – Explanation or psychoeducation"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "A client with panic disorder fears she is 'going crazy'. An appropriate explanation would be:",
+    "o": [
+      "She's not going crazy; these problems are common and treatable",
+      "Panic attacks often lead to psychosis, so medication is needed right away",
+      "Her fear is irrational and she should ignore it",
+      "Only a full psychological assessment can rule out insanity for certain"
+    ],
+    "e": "Explaining a symptom's meaning can be very reassuring. A client with panic disorder who fears she's 'going crazy' benefits from hearing that she isn't, and that panic problems are common and treatable; the prognosis for most anxiety disorders is positive. Even giving a diagnosis can relieve fear, by turning a terrifying mystery into a known, manageable problem.",
+    "w": [
+      "Panic attacks don't typically lead to psychosis; saying so would frighten her falsely.",
+      "Calling her fear irrational and telling her to ignore it dismisses her experience.",
+      "Demanding a full assessment first leaves her frightened when reassurance is warranted."
+    ],
+    "k": "Explaining panic as common and treatable (not 'going crazy') is reassuring psychoeducation.",
+    "h": "Name it to tame it.",
+    "r": "Sommers-Flanagan Ch4 – Explanation"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "How does suggestion differ from advice?",
+    "o": [
+      "Suggestion brings ideas to mind indirectly; advice openly recommends",
+      "Suggestion is more directive and more explicit than advice is",
+      "They are identical responses with different names",
+      "Advice is used only in hypnosis"
+    ],
+    "e": "To suggest is to bring an idea before the mind indirectly; to advise is to give counsel worth following, openly. Advice is more directive and explicit ('You should…'), while suggestion plants an idea the client can take up ('Some people find it helps to…'). Suggestion leaves more ownership with the client.",
+    "w": [
+      "This reverses them: advice is the more directive and explicit response.",
+      "They differ in directness, so they aren't identical.",
+      "Advice isn't tied to hypnosis; suggestion is the one linked to Erickson's hypnotic work."
+    ],
+    "k": "Suggestion brings ideas to mind indirectly; advice recommends openly and is more directive.",
+    "h": "Suggest = plant a seed; advise = hand over the plant.",
+    "r": "Sommers-Flanagan Ch4 – Suggestion"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 3,
+    "q": "Much solution-focused strategy, including the miracle question, derives from the work of:",
+    "o": [
+      "Milton Erickson, the hypnotherapist",
+      "Sigmund Freud, the founder of psychoanalysis",
+      "B. F. Skinner, the behaviorist",
+      "Albert Ellis, founder of REBT"
+    ],
+    "e": "The miracle question has a strongly suggestive feel because solution-focused strategies derive from the work of Milton Erickson, the hypnotherapist who used suggestion both with and without trance. Erickson emphasized clients' resources and future-oriented change, ideas that de Shazer and Berg built into SFBT.",
+    "w": [
+      "Freud's psychoanalysis focuses on the past and the unconscious, not solution-building.",
+      "Skinner's behaviorism shaped CBT, not the suggestive roots of SFBT.",
+      "Ellis's REBT disputes irrational beliefs; it isn't the source of SFBT."
+    ],
+    "k": "Solution-focused strategies, including the miracle question, derive from Milton Erickson's suggestion work.",
+    "h": "Erickson whispered; SFBT listened.",
+    "r": "Sommers-Flanagan Ch4 – Suggestion"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "Which is a possible effect of AGREEING with a client?",
+    "o": [
+      "It can reduce the client's further exploration of beliefs",
+      "It always stimulates arguments in the session",
+      "It reduces rapport with most clients",
+      "It removes the interviewer from the expert role entirely"
+    ],
+    "e": "Agreeing with a client can enhance rapport, affirm the client's opinion and place you in the expert role. It can also reduce further exploration: once 'my therapist agrees with me', the client may stop examining the belief. Agreement is a directive action response and should be used deliberately.",
+    "w": [
+      "Agreement doesn't always cause arguments; disagreement is more likely to.",
+      "Agreement usually enhances rapport rather than reducing it.",
+      "Agreement can place you in the expert role rather than removing you from it."
+    ],
+    "k": "Agreeing can boost rapport and expertise but reduce the client's further exploration.",
+    "h": "'You agree, so I'm done thinking.'",
+    "r": "Sommers-Flanagan Ch4 – Agreement-disagreement"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "If you hold a different opinion from the client on a philosophical issue (e.g., abortion), your job is to:",
+    "o": [
+      "Help with maladaptive thoughts, feelings or behaviors, not the opinion",
+      "Share your own opinion so the client can consider it",
+      "Gently persuade the client toward a more balanced, informed view",
+      "Refer the client immediately"
+    ],
+    "e": "Two guidelines apply. First, it's not your job to change a client's opinion on philosophical or values issues like abortion. Second, if a belief is maladaptive, causing problems in their thoughts, feelings or behaviour, provide psychoeducation rather than disagreement. Disagreeing with clients on values issues is unethical; the work is on what harms them, not on what they believe.",
+    "w": [
+      "Sharing your opinion on values issues imposes your views on the client.",
+      "Persuading the client on a values issue goes beyond your role.",
+      "A difference of opinion alone isn't a reason for immediate referral."
+    ],
+    "k": "Don't try to change clients' values; address maladaptive thoughts, feelings or behaviours instead.",
+    "h": "Treat the struggle, not the stance.",
+    "r": "Sommers-Flanagan Ch4 – Agreement-disagreement"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "A parent says, 'I was spanked and turned out fine.' The recommended approach is to:",
+    "o": [
+      "Focus on the parent's goals and which strategies best achieve them",
+      "Tell the parent clearly and firmly that spanking is wrong and harmful",
+      "Agree with the parent, in order to keep rapport and avoid any conflict",
+      "Report the parent to authorities for abuse"
+    ],
+    "e": "Rather than declaring the parent's opinion wrong, focus on their parenting goals and which strategies best achieve them. Later, you might share research on physical punishment (Gershoff), framed around effectiveness. If abuse is suspected, it's reported on legal grounds, not because of philosophical disagreement.",
+    "w": [
+      "Declaring spanking wrong turns therapy into a values debate and loses the parent.",
+      "Agreeing to avoid conflict abandons your professional knowledge.",
+      "Spanking described this way isn't automatically reportable; abuse is reported on legal grounds."
+    ],
+    "k": "With values-laden parenting claims, focus on the parent's goals and effective strategies, not right or wrong.",
+    "h": "'What do you want for your child?'",
+    "r": "Sommers-Flanagan Ch4 – Agreement-disagreement"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 3,
+    "q": "In Bruff v. North Mississippi Health Services, the appeals court held that:",
+    "o": [
+      "Religious accommodation didn't mean letting her refuse gay clients' relationship issues",
+      "A counselor may refuse to work with any client whose values conflict with her own",
+      "The counselor's religious rights overrode the client's needs for relationship counseling",
+      "Employers must create separate services for gay clients"
+    ],
+    "e": "In Bruff, a counselor refused to help a gay client with relationship issues on religious grounds. The appeals court held that religious accommodation didn't require letting her refuse; offering counseling only on non-conflicting issues was an inflexible position not protected by law. The client's right to services overrides the therapist's personal values.",
+    "w": [
+      "The court did not allow counselors to refuse clients whose values conflict with theirs.",
+      "The court did not put the counselor's religious rights above the client's needs.",
+      "The court didn't require separate services; it held the counselor's refusal wasn't protected."
+    ],
+    "k": "Bruff: the client's right to services overrides the counselor's personal values.",
+    "h": "Your values don't trump their care.",
+    "r": "Sommers-Flanagan Ch4 – Multicultural Highlight 4.1"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "How does approval-disapproval differ from agreement-disagreement?",
+    "o": [
+      "Approval carries moral authority; agreement reflects a wish for harmony",
+      "Approval is a less directive response than agreement is",
+      "Agreement involves judging behavior morally; approval doesn't",
+      "They are the same response"
+    ],
+    "e": "Agreement-disagreement comes from a desire for social harmony: 'I see it the same way.' Approval-disapproval goes a step further: it renders moral judgement on the client's behaviour, 'similar to playing God'. Because it carries moral authority, approval or disapproval is more powerful and more risky.",
+    "w": [
+      "Approval is more directive, carrying moral weight, not less.",
+      "This swaps them: approval involves moral judgement; agreement doesn't.",
+      "They differ in moral authority, so they aren't the same."
+    ],
+    "k": "Agreement seeks harmony; approval-disapproval passes moral judgement ('playing God').",
+    "h": "Agree = same opinion; approve = moral verdict.",
+    "r": "Sommers-Flanagan Ch4 – Approval-disapproval"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "Why do the authors discourage disapproval toward clients who describe abusive behavior?",
+    "o": [
+      "They've been disapproved of before without changing; it alienates them",
+      "Disapproval of any client behavior is illegal in professional therapy",
+      "Abusive behavior should be approved",
+      "Neutrality means that the interviewer must agree with the client's behavior"
+    ],
+    "e": "Clients who describe abusive behaviour have usually been disapproved of before, without changing. Disapproval alienates them, and it's linked to reduced rapport and early termination. Neutrality isn't implicit approval: you can use explanation or confrontation to address the behaviour, or refer if you can't listen without disapproval.",
+    "w": [
+      "Disapproval isn't illegal; it's discouraged because it's ineffective and alienating.",
+      "The authors don't approve of abuse; they avoid disapproval as a technique.",
+      "Neutrality doesn't mean agreeing with the behaviour; it means listening without moral verdicts."
+    ],
+    "k": "Disapproval rarely changes abusive behaviour and alienates clients; use explanation or confrontation instead.",
+    "h": "Scolding didn't work before; it won't now.",
+    "r": "Sommers-Flanagan Ch4 – Approval-disapproval"
+  },
+  {
+    "t": "Ch4 Advice",
+    "d": 2,
+    "q": "Why is premature advice often ineffective?",
+    "o": [
+      "The client didn't generate it, so has less ownership of it",
+      "Clients are ethically forbidden to follow professional advice",
+      "Advice is always wrong",
+      "Advice works only for spiritual gurus, teachers and wise elders"
+    ],
+    "e": "Premature advice is often ineffective partly because the client hasn't contemplated or generated it themselves (Hill), so they have less ownership and commitment. Before advising, find out everything the client has already tried. Advice works better when it builds on the client's own thinking.",
+    "w": [
+      "Clients may follow advice; the problem is ownership, not prohibition.",
+      "Advice isn't always wrong; timing and ownership matter.",
+      "Advice can work for professionals too when timed well."
+    ],
+    "k": "Premature advice fails partly because the client didn't generate it and lacks ownership.",
+    "h": "Advice they make themselves sticks.",
+    "r": "Sommers-Flanagan Ch4 – Giving advice"
+  },
+  {
+    "t": "Ch4 Advice",
+    "d": 3,
+    "q": "A client discovered she is pregnant two days ago and asks, 'What should I do?' The recommended first response is:",
+    "o": [
+      "Explore what she has thought, felt, and already considered",
+      "Advise her based on your own life experience with similar decisions",
+      "Tell her to inform her family immediately",
+      "Refer her to a medical doctor right away without further discussion"
+    ],
+    "e": "She has likely spent 48 hours thinking about her situation, so start nondirectively: 'What options have you thought of already?' Explore her thoughts, feelings and what she has considered. If advice is given, it should usually concern how to obtain resources and weigh options, not what decision to make.",
+    "w": [
+      "Basing advice on your own life imposes your experience on her decision.",
+      "Telling her to inform family is directive and may not be safe or wanted.",
+      "Referral without discussion dismisses her request for help thinking it through."
+    ],
+    "k": "When asked 'What should I do?', first explore what the client has already thought, felt and considered.",
+    "h": "She's been thinking for 48 hours; ask first.",
+    "r": "Sommers-Flanagan Ch4 – Giving advice"
+  },
+  {
+    "t": "Ch4 Advice",
+    "d": 2,
+    "q": "'Redundant advice' – which damages credibility – is advice that:",
+    "o": [
+      "The client already received from others or already tried",
+      "Is repeated more than twice in one session",
+      "Comes from a supervisor",
+      "Is written down for the client to take home and reread"
+    ],
+    "e": "Redundant advice is advice the client has already received from others or has already tried. Offering it damages credibility ('Everyone says that'; 'I tried that already'). Ask clients what advice they've received from friends, family and past counselors, and what they've already tried, before suggesting anything new.",
+    "w": [
+      "Repetition within a session isn't the definition; it's advice already heard elsewhere.",
+      "Advice from a supervisor isn't what 'redundant' means.",
+      "Written take-home advice isn't the issue; redundancy means advice already heard or tried."
+    ],
+    "k": "Redundant advice = advice the client already received or tried; ask first to avoid it.",
+    "h": "'I've heard that a hundred times.'",
+    "r": "Sommers-Flanagan Ch4 – Giving advice"
+  },
+  {
+    "t": "Ch4 Advice",
+    "d": 2,
+    "q": "Which is part of the authors' 'advice on giving advice'?",
+    "o": [
+      "Know why you're advising, wait for the right time, avoid moralizing",
+      "Give advice early in the first session to prove your competence",
+      "Give advice whenever third-party limits apply",
+      "Base your advice on your own similar problems and how you solved them"
+    ],
+    "e": "The authors' 'advice on giving advice': (a) be aware of why you're advising (your needs or the client's?); (b) wait for the appropriate time, after assessment; (c) avoid a moralistic or pedantic manner; and (d) avoid redundant advice by asking what the client has already heard or tried.",
+    "w": [
+      "Advising early to prove competence is exactly what the authors caution against.",
+      "Third-party limits aren't a reason to give advice.",
+      "Basing advice on your own problems projects your experience onto the client."
+    ],
+    "k": "Advice on advice: know your motive, wait, avoid moralizing, avoid redundancy.",
+    "h": "Why, When, How (gently), What's new.",
+    "r": "Sommers-Flanagan Ch4 – Putting It in Practice 4.2"
+  },
+  {
+    "t": "Ch4 Self-disclosure",
+    "d": 2,
+    "q": "With culturally diverse clients, which use of self-disclosure is generally appropriate?",
+    "o": [
+      "Disclosure aimed at joining, such as a mutual acquaintance",
+      "Disclosure implying you understand their inner cultural struggles",
+      "Disclosure used to give advice about cultural issues",
+      "Disclosure about your own experiences of discrimination as equivalent"
+    ],
+    "e": "With culturally diverse clients, joining disclosures, such as mentioning a mutual acquaintance or a shared connection, are generally appropriate. Disclosures implying that a dominant-group member understands the inner struggles of a less-dominant group are ill-advised. Instead, cite research or cultural voices (for example Franklin, Chief Plenty Coup).",
+    "w": [
+      "Implying you understand their cultural struggles from the inside oversteps.",
+      "Using disclosure to give cultural advice is presumptuous.",
+      "Equating your experiences of discrimination with theirs can minimize theirs."
+    ],
+    "k": "With diverse clients, use joining disclosures; avoid implying you know their inner cultural struggles.",
+    "h": "Join, don't claim to know.",
+    "r": "Sommers-Flanagan Ch4 – Multicultural Highlight 4.2"
+  },
+  {
+    "t": "Ch4 Self-disclosure",
+    "d": 2,
+    "q": "'I feel nervous when you get so angry in here' is called:",
+    "o": [
+      "Immediacy (metacommunication)",
+      "Feeling validation",
+      "A universality statement about anger",
+      "Indirect suggestion"
+    ],
+    "e": "Self-disclosure focused on the interviewer's current thoughts or feelings toward the client, in the moment, is called immediacy or metacommunication ('communication about the communication'). 'I feel nervous when you get so angry in here' is high-risk and high-stakes: it can deepen the relationship or provoke defensiveness, so timing and rapport matter.",
+    "w": [
+      "Validation approves the client's feelings; this discloses the interviewer's own.",
+      "A universality statement normalizes feelings; this one describes the here and now.",
+      "Indirect suggestion plants an idea; this openly states the interviewer's reaction."
+    ],
+    "k": "Immediacy (metacommunication) = disclosing your here-and-now reaction to the client; high-risk, high-stakes.",
+    "h": "Talking about the talk, right now.",
+    "r": "Sommers-Flanagan Ch4 – Self-disclosure"
+  },
+  {
+    "t": "Ch4 Urging",
+    "d": 2,
+    "q": "In which non-crisis situation may urging be appropriate?",
+    "o": [
+      "Anxiety disorders, to encourage facing feared situations",
+      "Choosing a career path after graduation",
+      "Deciding whether or not to marry a long-time partner",
+      "Disagreements about politics or religion"
+    ],
+    "e": "Urging, strongly pressing a client to act, is mostly for crises. In non-crisis situations, it may fit anxiety disorders, because avoidance reinforces fear and graduated exposure is central to treatment. Urging a client to face feared situations supports exposure. For life choices like career or marriage, urging oversteps.",
+    "w": [
+      "Career choice is the client's decision; urging oversteps.",
+      "Whether to marry is a personal decision; urging imposes your view.",
+      "Political or religious views aren't matters for urging."
+    ],
+    "k": "Outside crises, urging can fit anxiety disorders, to counter avoidance and support exposure.",
+    "h": "Push toward the fear, not toward your preferences.",
+    "r": "Sommers-Flanagan Ch4 – Urging"
+  },
+  {
+    "t": "Ch4 Urging",
+    "d": 3,
+    "q": "Why can urging a battered woman to leave immediately be inappropriate?",
+    "o": [
+      "It may override her safety instincts and escalate violence",
+      "Shelters never accept mothers who arrive with their children",
+      "Leaving is always the wrong decision",
+      "Urging of any kind is illegal in domestic violence cases"
+    ],
+    "e": "Urging a battered woman to leave immediately may override her own instincts about safety, and leaving can escalate violence: the period after leaving is often the most dangerous. Respect her judgement about her situation and collaboratively explore options, including safety planning and resources.",
+    "w": [
+      "Shelters generally do accept mothers with children, so that isn't the reason.",
+      "Leaving isn't always wrong; timing and safety planning matter.",
+      "Urging isn't illegal; the problem is that it can be unsafe and override her judgement."
+    ],
+    "k": "Don't urge a battered woman to leave immediately; respect her safety instincts and plan collaboratively.",
+    "h": "Her safety, her timing.",
+    "r": "Sommers-Flanagan Ch4 – Urging"
+  },
+  {
+    "t": "Ch4 Directive action",
+    "d": 2,
+    "q": "According to Table 4.2, which directive action response 'may increase intimacy or decrease client confidence in the therapist'?",
+    "o": [
+      "Self-disclosure",
+      "Explanation",
+      "Suggestion",
+      "Approval or disapproval"
+    ],
+    "e": "Table 4.2 summarizes effects of directive action responses. Self-disclosure may increase intimacy or decrease client confidence in the therapist ('If you have the same problem, can you help me?'). Urging may produce change or backfire; advice given prematurely can damage credibility. Each response has both potential benefits and costs.",
+    "w": [
+      "Explanation reduces uncertainty and educates; it isn't described this way.",
+      "Suggestion plants ideas indirectly; it isn't described this way.",
+      "Approval-disapproval passes moral judgement; it isn't described this way."
+    ],
+    "k": "Self-disclosure may increase intimacy or decrease confidence in the therapist.",
+    "h": "Share too much, and they wonder who's helping whom.",
+    "r": "Sommers-Flanagan Ch4 – Table 4.2"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "t": "Ch12 Moderation",
+    "d": 2,
+    "q": "A moderator is a variable that:",
+    "o": [
+      "Changes the strength or direction of the relationship between a predictor and an outcome",
+      "Explains the mechanism or process through which a predictor comes to affect an outcome",
+      "Correlates with the predictor but has no relationship at all with the outcome",
+      "Is measured before the predictor, so that it can be statistically controlled for"
+    ],
+    "e": "Moderation means 'it depends': the effect of X on Y differs at different levels of M (for example, the effect of video-game violence on aggression depending on callous-unemotional traits). Mediation, by contrast, explains how X affects Y through an intervening variable.",
+    "w": [
+      "Explaining the mechanism or process is what a mediator does, not a moderator.",
+      "A variable unrelated to the outcome but correlated with the predictor isn't a moderator.",
+      "Being measured first and controlled describes a covariate, not a moderator."
+    ],
+    "k": "Moderation = 'it depends': the X → Y effect changes across levels of M.",
+    "h": "Moderators Modify the effect; Mediators are the Middle step.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Moderation"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 2,
+    "q": "Moderation is tested statistically by:",
+    "o": [
+      "Including the product of the predictor and moderator as an extra term in the model",
+      "Comparing the correlations of the predictor with the outcome and the moderator",
+      "Testing whether the predictor still predicts the outcome after adding the moderator",
+      "Splitting the moderator at its median and running two separate correlations"
+    ],
+    "e": "Ŷ = b0 + b1X + b2M + b3(X × M). A significant b3 means the slope of X changes with M. Median splits throw away information and power, and differences in significance between subgroups do not test moderation.",
+    "w": [
+      "Comparing correlations doesn't test whether the X → Y slope changes with M.",
+      "Checking whether X still predicts after adding M is closer to mediation logic.",
+      "Median splits discard information, and subgroup significance differences don't test moderation."
+    ],
+    "k": "Test moderation with an X × M product term; a significant b3 means moderation.",
+    "h": "Multiply to moderate.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Interaction terms"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 3,
+    "q": "Why are continuous predictors usually grand-mean centred before forming an interaction term?",
+    "o": [
+      "So each lower-order b is the effect at the other variable's mean, and nonessential collinearity drops",
+      "So the interaction term becomes significant more easily, which increases the statistical power of the test",
+      "So the predictors become normally distributed, which the interaction model requires to be valid",
+      "So the intercept becomes exactly zero, which makes the whole model simpler to estimate"
+    ],
+    "e": "Without centering, b1 is the effect of X when M = 0, which may be meaningless (for example zero intelligence). After centering, b1 is the effect of X at the average M. Centering also reduces the correlation between X and X × M, though it does not change the interaction's b or its test.",
+    "w": [
+      "Centering doesn't change the interaction's b or its significance test.",
+      "Centering shifts the mean; it doesn't change a distribution's shape.",
+      "Centering doesn't force the intercept to zero."
+    ],
+    "k": "Centering makes lower-order b's effects at the other's mean and reduces nonessential collinearity.",
+    "h": "Centre so zero means average.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Centering"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 3,
+    "q": "A model with centred predictors is Ŷ = 2 + 0.5X + 0.3M + 0.2(X × M), and the SD of M is 1. What is the simple slope of X at one SD above the mean of M?",
+    "o": [
+      "0.7",
+      "0.5",
+      "0.3",
+      "0.2"
+    ],
+    "e": "The slope of X = b1 + b3 × M. At M = +1, it is 0.5 + 0.2 × 1 = 0.7. At M = −1, it is 0.3, and at the mean (M = 0), 0.5. Simple slopes analysis reports and tests these conditional effects.",
+    "w": [
+      "0.5 is the slope of X at the mean of M (M = 0), not at +1 SD.",
+      "0.3 is the slope at one SD below the mean (0.5 − 0.2), and also b2.",
+      "0.2 is the interaction coefficient b3 alone, not the simple slope."
+    ],
+    "k": "Simple slope of X = b1 + b3 × M.",
+    "h": "Start with b1, add b3 per step of M.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Simple slopes"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 3,
+    "q": "The Johnson–Neyman technique identifies:",
+    "o": [
+      "The values of the moderator at which the predictor's effect becomes significant",
+      "The values of the predictor that maximize the size of the interaction effect",
+      "The best number of bootstrap samples to request for a moderation model",
+      "The proportion of the predictor's effect that passes through the moderator"
+    ],
+    "e": "Instead of testing slopes at arbitrary points (−1 SD, mean, +1 SD), Johnson–Neyman finds the boundary values of the moderator where the conditional effect crosses p = .05, giving the zones of significance. PROCESS reports these when requested.",
+    "w": [
+      "Johnson–Neyman scans moderator values, not predictor values.",
+      "Bootstrap sample numbers aren't set by Johnson–Neyman.",
+      "The share of an effect passing through a variable is mediation."
+    ],
+    "k": "Johnson–Neyman finds moderator values where the X effect becomes significant.",
+    "h": "Mapping the zones of significance.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Johnson–Neyman"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 2,
+    "q": "In Hayes's PROCESS tool for SPSS, which model numbers correspond to simple moderation and simple mediation?",
+    "o": [
+      "Model 1 for moderation and Model 4 for mediation",
+      "Model 4 for moderation and Model 1 for mediation",
+      "Model 2 for moderation and Model 3 for mediation",
+      "Model 1 for both moderation and mediation"
+    ],
+    "e": "PROCESS numbers its templates: Model 1 is one predictor with one moderator, and Model 4 is one or more parallel mediators. Many other models combine moderation and mediation. PROCESS is added to SPSS as a custom dialog under Analyze → Regression.",
+    "w": [
+      "This reverses the numbers: Model 4 is mediation.",
+      "Models 2 and 3 are more complex moderation models.",
+      "Model 1 is moderation only; mediation is Model 4."
+    ],
+    "k": "PROCESS: Model 1 = simple moderation; Model 4 = simple mediation.",
+    "h": "One moderator, four for the middle.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · PROCESS"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 2,
+    "q": "In a simple mediation model, the indirect effect equals:",
+    "o": [
+      "The product of path a (X → M) and path b (M → Y, controlling X)",
+      "The difference between path a (X → M) and path b (M → Y)",
+      "The total effect c minus path a (X → M), in raw units",
+      "Path b (M → Y) divided by the direct effect c' of X on Y"
+    ],
+    "e": "The indirect effect is ab: how much Y changes through M for each unit of X. In ordinary least-squares models with a continuous mediator, the total effect c = c' + ab, so the indirect effect also equals c − c'.",
+    "w": [
+      "The indirect effect multiplies a and b; it doesn't subtract them.",
+      "c − a mixes paths; the indirect effect is c − c' or ab.",
+      "Dividing b by c' isn't the indirect effect."
+    ],
+    "k": "Indirect effect = a × b; total c = c' + ab.",
+    "h": "a times b, through the middle.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · The indirect effect"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 2,
+    "q": "Path a = 0.50, path b = 0.40 and the direct effect c' = 0.30. What are the indirect and total effects?",
+    "o": [
+      "Indirect 0.20; total 0.50",
+      "Indirect 0.90; total 1.20",
+      "Indirect 0.10; total 0.40",
+      "Indirect 0.20; total 0.30"
+    ],
+    "e": "ab = 0.50 × 0.40 = 0.20, and c = c' + ab = 0.30 + 0.20 = 0.50. About 40% of the total effect runs through the mediator, although the 'proportion mediated' is unstable and best treated cautiously.",
+    "w": [
+      "0.90 adds a and b instead of multiplying them.",
+      "0.10 subtracts b from a; the indirect effect is their product.",
+      "The total adds the indirect effect to c', so it's 0.50, not 0.30."
+    ],
+    "k": "Indirect = ab; total = c' + ab.",
+    "h": "Multiply the path, add the shortcut.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Decomposing effects"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 2,
+    "q": "In mediation terminology, c' (c-prime) is:",
+    "o": [
+      "The direct effect of X on Y while controlling for the mediator",
+      "The total effect of X on Y with no mediator in the model",
+      "The effect of the mediator on the outcome, controlling for X",
+      "The effect of X on the mediator"
+    ],
+    "e": "c is the total effect (Y regressed on X alone), a is X → M, b is M → Y controlling for X, and c' is X → Y controlling for M. If c' shrinks toward zero compared with c, more of the effect is carried by M.",
+    "w": [
+      "The total effect without the mediator is c.",
+      "M → Y controlling for X is path b, the second link.",
+      "X → M is path a, the first link in the chain."
+    ],
+    "k": "c = total; a = X→M; b = M→Y; c' = direct X→Y controlling for M.",
+    "h": "Prime means 'after the mediator'.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Path notation"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 3,
+    "q": "What is the main modern criticism of the Baron and Kenny causal-steps approach to mediation?",
+    "o": [
+      "It never formally tests the indirect effect, and needlessly requires a significant total effect",
+      "It tests the indirect effect directly but relies on bootstrapping, which gives unstable results from run to run",
+      "It requires the mediator to be measured before the predictor, which is rarely possible",
+      "It only works with categorical mediators and binary outcomes in regression"
+    ],
+    "e": "Causal steps infer mediation from a pattern of significant and non-significant paths. It never quantifies or tests ab, and an indirect effect can exist even when the total effect is not significant (for example with opposing effects). Modern practice estimates ab with a bootstrapped CI.",
+    "w": [
+      "Baron and Kenny never tested ab directly or bootstrapped it.",
+      "Baron and Kenny don't require the mediator to be measured first.",
+      "Causal steps work with continuous variables."
+    ],
+    "k": "Baron and Kenny never test ab and needlessly require a significant total effect.",
+    "h": "Steps miss the indirect path.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Baron and Kenny"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 3,
+    "q": "Why is the Sobel test now considered inferior to a bootstrapped confidence interval for the indirect effect?",
+    "o": [
+      "It assumes a normal sampling distribution for ab, which is usually skewed, so it lacks power",
+      "It requires the sample to be larger than 1,000 participants before it gives any valid result",
+      "It ignores the size of path a entirely and tests path b on its own",
+      "It gives a confidence interval for ab but no p-value for the indirect effect"
+    ],
+    "e": "The product of two normally distributed estimates is not normally distributed, especially in small samples. Bootstrapping (percentile intervals, as in PROCESS) makes no such assumption and has better power. Mediation is supported when the 95% CI for ab excludes zero.",
+    "w": [
+      "Sobel doesn't require samples above 1,000.",
+      "Sobel uses both paths a and b.",
+      "Sobel gives a p-value; the issue is its normality assumption."
+    ],
+    "k": "Bootstrapped CIs beat Sobel because ab's sampling distribution is skewed.",
+    "h": "Sobel assumes symmetry that ab lacks.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Testing indirect effects"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 2,
+    "q": "PROCESS reports a bootstrapped 95% CI for the indirect effect of [0.04, 0.31]. What do you conclude?",
+    "o": [
+      "There is a significant indirect effect, because the interval excludes zero",
+      "There is no mediation, because the confidence interval is very wide",
+      "The direct effect must be zero, which shows that the mediation is complete (full)",
+      "The total effect is significant, since the upper limit of 0.31 exceeds 0.04"
+    ],
+    "e": "A bootstrapped CI that does not contain zero indicates a non-zero indirect effect at about the 5% level. It says nothing on its own about whether the direct effect is zero. Labels such as 'full' versus 'partial' mediation are discouraged, because they depend heavily on sample size.",
+    "w": [
+      "A wide interval that excludes zero still shows mediation.",
+      "The CI says nothing about the direct effect being zero.",
+      "The CI for ab says nothing about the total effect."
+    ],
+    "k": "Bootstrapped CI for ab excluding zero = significant indirect effect.",
+    "h": "Zero outside, mediation inside.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Interpreting PROCESS output"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 3,
+    "q": "Which effect size is commonly recommended for an indirect effect?",
+    "o": [
+      "The completely standardized indirect effect (ab in SD units)",
+      "The p-value from the Sobel test of ab",
+      "R² for the regression model that predicts the mediator",
+      "The ratio c'/c, the proportion of the effect that is direct"
+    ],
+    "e": "The completely standardized indirect effect expresses ab in SD units of X and Y, much like β, and PROCESS can bootstrap a CI for it. Ratio measures such as the proportion mediated are unstable in small samples, and p-values are not effect sizes.",
+    "w": [
+      "Sobel p-values depend on n, so they aren't effect sizes.",
+      "R² for the mediator model isn't the indirect effect size.",
+      "Ratio measures like c'/c are unstable in small samples."
+    ],
+    "k": "Report the completely standardized indirect effect with a bootstrapped CI.",
+    "h": "Standardize ab like β.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Effect sizes for mediation"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 3,
+    "q": "A significant indirect effect in a cross-sectional mediation analysis shows that:",
+    "o": [
+      "The data fit the proposed causal chain, but it is not proven, since causal order is assumed",
+      "X causes M, which in turn causes Y, because the bootstrapped CI for ab excludes zero",
+      "M is acting as a moderator rather than as a mediator of the X–Y relationship",
+      "The reversed causal model (Y → M → X) would necessarily fit the data worse"
+    ],
+    "e": "Mediation is a causal claim, but statistics cannot establish causal order from data measured at one time. Alternative orderings can fit equally well. Strong causal inference needs experimental manipulation of X (and ideally M), longitudinal designs, and theory.",
+    "w": [
+      "A significant ab doesn't prove causal order.",
+      "Mediation and moderation are different; this says nothing about moderation.",
+      "Reversed models can fit equally well."
+    ],
+    "k": "Cross-sectional mediation is consistent with, not proof of, a causal chain.",
+    "h": "Fits the story, doesn't prove it.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Causality in mediation"
+  },
+  {
+    "t": "Ch12 Dummy coding",
+    "d": 1,
+    "q": "How many dummy variables are needed to represent a categorical predictor with four groups in regression?",
+    "o": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "e": "k − 1 dummies are needed: 4 − 1 = 3. The baseline (reference) group is coded 0 on all of them. Including a fourth dummy would create perfect multicollinearity, the 'dummy variable trap'.",
+    "w": [
+      "4 dummies cause perfect multicollinearity (the dummy variable trap).",
+      "2 dummies can only separate three groups.",
+      "1 dummy can only separate two groups."
+    ],
+    "k": "A categorical predictor with k groups needs k − 1 dummies.",
+    "h": "One less than the groups.",
+    "r": "Stats & SPSS ch. 12 · Categorical predictors · Dummy coding"
+  },
+  {
+    "t": "Ch12 Dummy coding",
+    "d": 2,
+    "q": "In a regression with dummy variables for three treatment groups against a no-treatment baseline, the b for 'Dummy 1: CBT vs baseline' represents:",
+    "o": [
+      "The difference between the CBT group's mean and the baseline group's mean",
+      "The mean of the CBT group on the outcome, with the other groups held constant",
+      "The difference between the CBT group's mean and the average of all four groups' means",
+      "The proportion of variance in the outcome that is explained by being in the CBT group"
+    ],
+    "e": "With only the dummies in the model, b0 is the baseline mean and each dummy's b is that group's mean minus the baseline mean, tested with a t-test. Choosing a meaningful baseline (a control group, or the most common category) makes these comparisons interpretable.",
+    "w": [
+      "b is a difference from baseline, not the CBT mean itself.",
+      "Dummy coding compares with the baseline, not the grand mean.",
+      "b is a mean difference, not variance explained."
+    ],
+    "k": "Each dummy's b = that group's mean minus the baseline mean.",
+    "h": "Each dummy measures distance from baseline.",
+    "r": "Stats & SPSS ch. 12 · Categorical predictors · Interpreting dummy coefficients"
+  },
+  {
+    "t": "Ch12 Dummy coding",
+    "d": 2,
+    "q": "In dummy coding, the baseline group is:",
+    "o": [
+      "Coded 0 on every dummy variable",
+      "Coded 1 on every dummy variable",
+      "Coded −1 on every dummy variable",
+      "Left out of the analysis entirely"
+    ],
+    "e": "The baseline is the reference category that every dummy is compared against, so it receives 0 throughout. Its cases are still in the analysis, and its mean is the intercept. Coding it −1 throughout would be effect (deviation) coding instead.",
+    "w": [
+      "Coding 1 on every dummy isn't the baseline's code.",
+      "Coding −1 is effect (deviation) coding.",
+      "The baseline stays in the analysis; its mean is the intercept."
+    ],
+    "k": "Baseline = 0 on all dummies; its mean is b0.",
+    "h": "Zero everywhere: the reference point.",
+    "r": "Stats & SPSS ch. 12 · Categorical predictors · The baseline category"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 3,
+    "q": "In a moderation model, the interaction term is significant and so is the 'main effect' of X. If the predictors were centred, how should the X effect be interpreted?",
+    "o": [
+      "As the effect of X at the average value of the moderator",
+      "As the effect of X that holds at every value of the moderator",
+      "As irrelevant, because main effects cannot be interpreted with an interaction",
+      "As the effect of X when the moderator equals its maximum"
+    ],
+    "e": "With an interaction in the model, b1 is a conditional effect: the slope of X when M = 0, which after centering means at the mean of M. It does not describe a universal effect, because the interaction says the slope changes with M.",
+    "w": [
+      "The interaction means X's effect varies with the moderator.",
+      "Centred main effects can be interpreted as conditional effects.",
+      "After centering, b1 is the effect at the mean, not the maximum."
+    ],
+    "k": "With centred predictors, b1 = X's effect at the mean of M.",
+    "h": "Main effect means 'at the average'.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Conditional effects"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 2,
+    "q": "Why does splitting a continuous moderator at its median make for a poor test of moderation?",
+    "o": [
+      "It discards information and power, treating people just either side of the median as very different",
+      "It makes the moderator correlate perfectly with the predictor, so the regression model cannot be estimated",
+      "It forces the interaction term to be significant, which inflates the Type I error rate",
+      "It is not possible to do in SPSS without first transforming the moderator variable"
+    ],
+    "e": "Dichotomizing a continuous variable throws away variability, lowers power, and can even create spurious effects. Keeping the moderator continuous, centred, with a product term is the standard approach.",
+    "w": [
+      "Median splits don't make predictors perfectly correlated.",
+      "Median splits don't force significance; they lose power.",
+      "SPSS can median-split easily with Recode; the problem is statistical."
+    ],
+    "k": "Median splits waste information and power; keep moderators continuous.",
+    "h": "Splitting throws half the story away.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Dichotomizing variables"
+  },
+  {
+    "t": "Ch12 Mediation",
+    "d": 2,
+    "q": "Which statement correctly distinguishes a mediator from a moderator?",
+    "o": [
+      "A mediator lies on the causal path from X to Y; a moderator changes the X–Y relationship",
+      "A mediator changes the strength of the X → Y relationship; a moderator lies on the causal path from X to Y",
+      "A mediator must be a categorical variable; a moderator must always be a continuous one",
+      "A mediator is always measured after Y; a moderator is always measured before X"
+    ],
+    "e": "Mediators answer 'how' or 'why' X affects Y (the process). Moderators answer 'when' or 'for whom' X affects Y (the conditions). Both can be any type of variable, and a mediator should occur between X and Y in time.",
+    "w": [
+      "This swaps the definitions of mediator and moderator.",
+      "Either can be categorical or continuous.",
+      "A mediator comes between X and Y in time, not after Y."
+    ],
+    "k": "Mediator = how or why (causal path); moderator = when or for whom.",
+    "h": "Mediators in the Middle; Moderators Modify.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Mediators vs moderators"
+  },
+  {
+    "t": "Ch12 Dummy coding",
+    "d": 3,
+    "q": "SPSS's regression dialog has no automatic dummy coding. How can a four-category predictor be entered?",
+    "o": [
+      "Create three 0/1 variables with Recode or Compute, then enter them as one block",
+      "Enter the 1–4 group code directly as a single continuous predictor",
+      "Use Split File on the group variable so that each group has its own model",
+      "Enter all four 0/1 variables with the constant, which SPSS can estimate without any problem"
+    ],
+    "e": "Entering the 1–4 code as a number would wrongly assume equally spaced, ordered effects. Make k − 1 dummies and enter them together, so the block's R² change tests the overall group effect. Analyze → General Linear Model → Univariate handles categorical factors automatically, and recent SPSS versions also offer Transform → Create Dummy Variables.",
+    "w": [
+      "A 1–4 code assumes equally spaced, ordered effects.",
+      "Split File runs separate models rather than comparing groups.",
+      "All four dummies plus the constant cause perfect collinearity."
+    ],
+    "k": "Create k − 1 dummies and enter them as one block.",
+    "h": "Recode, then block.",
+    "r": "Stats & SPSS ch. 12 · SPSS · Dummy variables in regression"
+  },
+  {
+    "t": "Ch12 Moderation",
+    "d": 2,
+    "q": "The interaction term in a moderation model is non-significant. What is the most appropriate interpretation?",
+    "o": [
+      "There is no evidence that the effect of X depends on M",
+      "The moderator has no relationship at all with the outcome",
+      "The predictor and the moderator are uncorrelated",
+      "The model is invalid and should not be reported"
+    ],
+    "e": "A non-significant b3 means the data do not show that the slope of X changes across M. M might still predict Y directly (b2), and X and M can correlate. As always, non-significance is not proof of no moderation, especially since interactions often need large samples.",
+    "w": [
+      "M may still predict Y directly through b2.",
+      "X and M can still correlate.",
+      "A non-significant interaction doesn't invalidate the model."
+    ],
+    "k": "Non-significant interaction = no evidence X's effect depends on M.",
+    "h": "No proof it depends.",
+    "r": "Stats & SPSS ch. 12 · Moderation and mediation · Non-significant interactions"
+  }
+]

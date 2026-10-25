@@ -1,0 +1,902 @@
+[
+  {
+    "t": "Ch10 Crises",
+    "d": 2,
+    "q": "What is the first question to ask when a treatment crisis develops?",
+    "o": [
+      "'What is going on now in the patient's experience of me and the therapy?'",
+      "'Should I hospitalize the patient right away to be on the safe side?'",
+      "'Is the patient lying to me about the seriousness of the situation?'",
+      "'Should I change the medication to calm the patient's impulsivity?'"
+    ],
+    "e": "Crises often enact feelings aroused in the transference, so the first question is: 'What is going on right now in the patient's experience of me and the therapy that would lead him to this (dropping out, breaking the contract, psychotic regression)?' A crisis is frequently triggered when an intolerable self- or other representation begins to reach consciousness, or when a projection becomes so intense that it overwhelms the patient's view of the therapist. The crisis is a threat, but also a window onto the inner world.",
+    "w": [
+      "Immediate hospitalization is action before understanding; it skips the transference question.",
+      "Suspecting lies may be relevant later, but the first step is to understand the transference meaning.",
+      "Medication changes treat the crisis as purely biological and bypass its meaning."
+    ],
+    "k": "First question in any crisis: what is happening right now in the patient's experience of me and the therapy?",
+    "h": "Crisis = transference wearing combat boots.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Crises",
+    "d": 2,
+    "q": "Why might a patient feel LESS anxious in a crisis than in calm periods?",
+    "o": [
+      "When chaos calms, the patient may feel identity diffusion – emptiness and no direction",
+      "Crises are pleasurable in themselves because they discharge accumulated tension",
+      "Medication works better during crises, so anxiety is lower at those times",
+      "The therapist is more available during crises, which reassures the patient"
+    ],
+    "e": "Crises can arise when therapy disrupts the balance of primitive defenses (for example, when splitting off aggression begins to fail), or when life has calmed enough for the patient to consciously experience identity diffusion: feeling empty and lost, with no direction. The storm of a crisis can be less frightening than that emptiness. So a crisis that follows a calm period may be a flight from the experience of having no clear self.",
+    "w": [
+      "Crises aren't described as pleasurable; they distract from a worse experience.",
+      "Medication isn't the explanation; the crisis protects against the emptiness of identity diffusion.",
+      "TFP specifically avoids making the therapist more available during crises."
+    ],
+    "k": "Crises can protect against the emptiness of identity diffusion that appears when life calms down.",
+    "h": "Chaos is louder than the void, and that's the point.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Crises",
+    "d": 2,
+    "q": "What are the two typical forms of therapist countertransference acting out during crises?",
+    "o": [
+      "Supportive giving-in that aborts understanding, or rigid 'neutral' rejection aiming to end therapy",
+      "Too much interpretation combined with too little silence during the crisis sessions",
+      "Overmedication of the patient combined with repeated recommendations for hospitalization",
+      "Arriving late and cancelling sessions so the patient's crisis has time to calm down"
+    ],
+    "e": "Crises stir strong reactions in the therapist (anxiety, frustration, despair, hatred) and risk a mutual enactment. The book describes two forms of countertransference acting out. First, a superficially supportive response to the patient's demands that seems to save the therapy but aborts the chance to understand the dyad. Second, a superficially neutral, structured but essentially rigid and rejecting response, unconsciously aimed at ending the therapy to relieve the therapist's anxiety. Both avoid understanding.",
+    "w": [
+      "Too much interpretation is not one of the two forms named.",
+      "Medication and hospitalization are not the forms named, though they can be part of the supportive collapse.",
+      "Lateness and cancellations aren't the forms named."
+    ],
+    "k": "Crisis countertransference: either supportive giving-in that aborts understanding, or rigid 'neutral' rejection aimed at ending therapy.",
+    "h": "Rescuer or bouncer: both skip the exploration.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Crises",
+    "d": 2,
+    "q": "If a threat was predicted in the contract and now occurs, the first step is:",
+    "o": [
+      "Ask why, at this point, the patient enacts what the contract predicted",
+      "Terminate at once, since the predicted breach has now happened",
+      "Ignore the contract and respond flexibly to the new situation",
+      "Rewrite the contract so the behavior is no longer a breach"
+    ],
+    "e": "The contract predicts how a patient's characteristics may threaten treatment. If a predicted threat appears, the first step is to ask why, at this point, the patient is creating the very situation the contract foresaw: what does the deviation mean? The book's example: 'You dropped out of your prior three treatments, and we predicted you would feel that urge here... It would be a tragedy to end yet another therapy... we have the opportunity to understand what's behind your decision.'",
+    "w": [
+      "Immediate termination ignores the chance to understand the meaning.",
+      "Ignoring the contract undermines the frame; the predicted breach is a chance to explore its meaning.",
+      "Rewriting the contract to accommodate the breach collapses the frame."
+    ],
+    "k": "When a predicted threat occurs, ask why the patient is enacting what the contract predicted, now.",
+    "h": "'We saw this coming; let's see why it's arriving today.'",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "When a patient mentions suicide, the first priority is to establish:",
+    "o": [
+      "Whether it occurs within a major depressive episode",
+      "Whether the family knows about the suicidal thoughts",
+      "Whether the patient has insurance for hospitalization",
+      "Whether the patient is lying to gain attention"
+    ],
+    "e": "When a patient mentions suicide, the first priority is to determine whether the ideation occurs within a major depressive episode, with hopelessness or the anxious urge to die of agitated depression. That calls for other interventions such as medication or hospitalization. If no major depression is present, suicidality is explored as both an intrapsychic and interpersonal issue: who is the target of aggression, and what function does the ideation serve now, in this relationship? It often acts as a trump card.",
+    "w": [
+      "Family awareness matters later in some cases but isn't the first priority.",
+      "Insurance isn't a clinical priority; the first question is whether there is a major depressive episode.",
+      "Assuming lying dismisses the risk; first rule out major depression."
+    ],
+    "k": "Suicide mention → first rule out major depression; if absent, explore it intrapsychically and interpersonally.",
+    "h": "Biology first, meaning second.",
+    "r": "Clarkin Ch10 – Managing suicide threats"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "What attitude should the therapist convey regarding a patient's possible suicide?",
+    "o": [
+      "Sad but not responsible, with his life not significantly altered",
+      "Devastated and to blame, so the patient must protect him",
+      "Unable to go on practising, so he would stop treating patients",
+      "Certain it won't happen, because the therapy guarantees safety"
+    ],
+    "e": "Patients must learn that suicide threats have no inordinate power over the therapist, which removes the secondary gain. The therapist conveys that he would feel sad if the patient died, but would not feel responsible, and his life would not be significantly altered. Accepting the possibility of failure is crucial with severely suicidal patients. The patient's fantasy that the therapist couldn't tolerate the death, and so the patient has power over him, needs to be explored and resolved.",
+    "w": [
+      "Feeling devastated and to blame hands the patient power and invites suicide as control.",
+      "Saying he'd stop practising also gives the patient enormous power.",
+      "No therapy can guarantee safety; promising it is magical and dishonest."
+    ],
+    "k": "Therapist stance: sad if the patient died, but not responsible and life not significantly altered; this removes secondary gain.",
+    "h": "Remove the trump card from the deck.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 3,
+    "q": "Why must the therapist be open to his own counteraggression around suicidal patients?",
+    "o": [
+      "Only then can he empathize with the peace, excitement, revenge, escape and power in suicidal urges",
+      "It lets him punish the patient indirectly for the anxiety caused by the suicide threats",
+      "It gives him a justification for ending therapy with a dangerous, provocative patient",
+      "It is not necessary; sorrow and concern are the only appropriate reactions to suicidality"
+    ],
+    "e": "Every suicide attempt activates intense aggression in the patient and in the interpersonal field. A therapist who reacts only with sorrow and concern is denying his counteraggression. Openness to these feelings lets him empathize with the full range of suicidal temptation: longing for peace, excitement of self-directed aggression, pleasure in revenge on significant others, the wish to escape guilt, and the exhilarating sense of power. Only that empathy allows the patient to explore these motives openly.",
+    "w": [
+      "Using counteraggression to punish the patient would be acting out, not empathy.",
+      "It's not a justification to end therapy; it enables empathy.",
+      "Sorrow alone is described as denial of counteraggression."
+    ],
+    "k": "Owning counteraggression lets the therapist empathize with suicide's peace, excitement, revenge, escape and power.",
+    "h": "PEREP: Peace, Excitement, Revenge, Escape, Power.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "Which signs gauge severity of depression with suicidality?",
+    "o": [
+      "Slowed behavior, frozen mood, depersonalization, biological signs, 'no alternative'",
+      "Talkativeness, irritability, racing thoughts and reduced need for sleep without depersonalization",
+      "Weight gain alone, with otherwise normal mood and energy",
+      "Laughter and joking about death during the session"
+    ],
+    "e": "Severity of depression is gauged by how much behaviour and thinking are slowed (affecting concentration), whether sadness has been replaced by an empty, frozen mood with depersonalization, and by biological signs: eating, sleep, weight, digestion, daily rhythm of mood, menstruation, sexual desire and muscle tone. The more severe the clinical depression, the more acute the danger. The sense that there is no alternative is an especially ominous sign.",
+    "w": [
+      "Talkativeness, racing thoughts and less need for sleep describe mania or hypomania.",
+      "Weight gain alone with normal mood doesn't indicate severe depression.",
+      "Joking about death isn't the listed severity sign."
+    ],
+    "k": "Severe depression: slowing, frozen mood with depersonalization, biological signs, and 'no alternative' (most ominous).",
+    "h": "Slow, frozen, unreal, bodily, no way out.",
+    "r": "Clarkin Ch10 – Guidelines"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "Which factors make a patient's verbal commitments unreliable?",
+    "o": [
+      "Impulsive, antisocial, dishonest, paranoid, aloof or psychotic traits, and substance use",
+      "Female gender, younger age, living with the family, and a history of regular session attendance",
+      "Above-average intelligence and a university education",
+      "Regular attendance and punctuality at every session"
+    ],
+    "e": "Whether a severely depressed patient can control the urge to act depends on the quality of the relationship and on whether impulsive, antisocial, dishonest, paranoid, schizoid-aloof or psychotic features make verbal commitments unreliable. Alcohol and drug history is highly relevant too. Patients who lose rapport with the therapist, become too depressed to communicate, or start preparing for suicide must be protected, with a proactive stance (hospital evaluation, family monitoring).",
+    "w": [
+      "Gender, age and living arrangements are not the listed factors.",
+      "Intelligence and education aren't listed; reliability depends on traits like impulsivity, dishonesty, paranoia and substance use.",
+      "Regular attendance would support reliability, not undermine it."
+    ],
+    "k": "Commitments are unreliable with impulsive, antisocial, dishonest, paranoid, aloof or psychotic traits, and with substance use.",
+    "h": "If they lie, rage, fear, drift or drink, the promise is thin.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "If suicidal ideation is NOT part of major depression and there is no current intent, the therapist:",
+    "o": [
+      "Explores its meaning, especially what is happening in the transference",
+      "Hospitalizes the patient at once as a precaution",
+      "Calls the police to check on the patient after the session",
+      "Ignores it so as not to reward suicidal talk with attention"
+    ],
+    "e": "If suicidal ideation is not part of a major affective episode, the next step is to establish whether there is intent. If there is intent, the therapist reminds the patient of the responsibility to engage emergency help (family, ER, hospitalization). If there is no current intent, the therapist explores the material: listening to associations and reflecting on what is happening right now in the transference that would explain the thoughts, what they communicate or defend against. The therapist must feel secure enough in the frame to explore rather than shift into action.",
+    "w": [
+      "Hospitalizing without intent abandons exploration and rewards the threat.",
+      "Calling the police is action mode without justification.",
+      "Ignoring it misses its meaning; TFP explores it."
+    ],
+    "k": "No major depression and no current intent → explore the meaning of suicidal ideation, especially in the transference.",
+    "h": "No intent? Then it's a message; read it.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 3,
+    "q": "'Impotent rage' with the fantasy that one's death will make the object recognize one's worth or be crushed by guilt indicates:",
+    "o": [
+      "A diagnostic indicator of potential suicide",
+      "A healthy sign of anger finally being expressed",
+      "A sign of psychosis requiring medication",
+      "An indicator of low suicide risk"
+    ],
+    "e": "Impotent rage, especially combined with the fantasy that one's death will make the significant other recognize one's worth or be crushed by guilt, is a diagnostic indicator of potential suicide. As early as the preliminary sessions, a transference paradigm can emerge in which the patient believes the therapist can be affected only through the patient's own destruction. Spotting this fantasy is key to understanding the interpersonal function of suicidality.",
+    "w": [
+      "It's not a healthy expression of anger; it's a risk indicator.",
+      "Impotent rage with this fantasy isn't psychosis; it is a recognized indicator of suicide risk.",
+      "It's an indicator of higher, not lower, risk."
+    ],
+    "k": "Impotent rage plus the fantasy that one's death will force recognition or guilt = a suicide risk indicator.",
+    "h": "'They'll be sorry when I'm gone.'",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "What happens to a therapist who lets himself be pressed beyond reasonable limits (omnipotent countertransference)?",
+    "o": [
+      "He eventually withdraws emotionally, which harms more than setting firm structure early",
+      "He becomes more effective, since extra availability strengthens the alliance",
+      "Nothing happens, as long as the therapist feels genuinely committed",
+      "The patient improves faster because the therapist meets all needs"
+    ],
+    "e": "Active measures that increase structure help the therapist feel comfortable enough to manage the powerful feelings suicidal patients evoke. A therapist who allows himself to be pressed beyond reasonable limits, for example when an idealizing patient evokes an omnipotent countertransference, eventually withdraws emotionally in self-defense (such as starting to think about transferring the case). That withdrawal is far more damaging than setting firm structure early, before his resources are exhausted.",
+    "w": [
+      "Extra availability leads to exhaustion and withdrawal, not effectiveness.",
+      "Commitment doesn't prevent burnout; firm structure does.",
+      "Meeting all needs is impossible and leads to withdrawal."
+    ],
+    "k": "Omnipotent overextension leads to later emotional withdrawal; set firm structure early instead.",
+    "h": "The rescuer who never says no eventually leaves.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 3,
+    "q": "Why can referring a patient who refused hospitalization to another therapist still be therapeutic?",
+    "o": [
+      "A therapist holding to parameters confronts omnipotent control and may prepare real engagement",
+      "It isn't therapeutic; the patient should be offered the same therapist again on easier terms",
+      "It punishes the patient, which teaches that breaking the contract has consequences",
+      "It saves time for the therapist, who can then accept a more motivated patient"
+    ],
+    "e": "If the ER physician recommends hospitalization and the patient refuses, the therapist says he can't take further responsibility, ensuring the patient is either hospitalized involuntarily (if necessary) or referred elsewhere. It may seem illogical to refer the patient to another therapist after refusing the parameters, but for many patients, meeting a therapist who holds to the parameters, even at the cost of ending treatment, powerfully confronts their omnipotent control. It may be the first time anyone has not given in, preparing them for real engagement next time.",
+    "w": [
+      "Offering easier terms would reward the breach and repeat the pattern.",
+      "The aim is confrontation of omnipotent control, not punishment.",
+      "Freeing time for the therapist is not the rationale."
+    ],
+    "k": "Holding to the parameters, even at the cost of ending treatment, confronts omnipotent control and may prepare real engagement.",
+    "h": "The first 'no' that actually meant no.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Ms. H",
+    "d": 3,
+    "q": "Ms. H called after cutting, asking if the therapist would treat her in hospital. What did Dr. Z do?",
+    "o": [
+      "Linked the cutting and call to her rage at him, left responsibility with her, expected her next session",
+      "Called the police at once to go to her home, since she had already cut herself and spoken of overdosing",
+      "Arranged her admission to his own hospital so he could remain her therapist there",
+      "Promised her an extra session the next morning if she agreed not to overdose"
+    ],
+    "e": "Ms. H, enraged at Dr. Z's 'inhuman' response to her parking-permit request, called after cutting and spoke of overdosing, asking if he'd treat her in hospital. Dr. Z reminded her of his role and her responsibility for safety, then, using his own anger as data about projective identification, linked the cutting and call to her rage at him. He suggested an overdose would add nothing logically, that it was up to her, and that he expected her at the next session. She came, later experiencing this as evidence that he would not reject her.",
+    "w": [
+      "He judged she wasn't out of control; calling the police would have taken him out of role and repeated her past commitment.",
+      "He told her inpatient therapists were residents; he didn't arrange to treat her there.",
+      "An extra session for promising safety would reward the crisis."
+    ],
+    "k": "With Ms. H, Dr. Z linked the self-harm to her rage at him, left responsibility with her, and channelled the affect back into the frame.",
+    "h": "Rage on the phone, sent back to the room.",
+    "r": "Clarkin Ch10 – Clinical example"
+  },
+  {
+    "t": "Ch10 Ms. H",
+    "d": 2,
+    "q": "Which object relations paradigm emerged around Ms. H's parking-permit request?",
+    "o": [
+      "The defective child neglected by an uncaring adult",
+      "The grandiose self facing a devalued other",
+      "The satisfied child with a perfect provider",
+      "The excited child with a seductive parent"
+    ],
+    "e": "Ms. H asked Dr. Z to get her a staff parking permit because difficulty parking, plus a slight congenital limp never mentioned before, made her late. Rather than grant it, he explored what the request meant about her view of herself and of him. She became more enraged at his 'inhuman' response. He kept focusing on her affect and the emerging paradigm: the defective child neglected by an uncaring, or even malicious, adult.",
+    "w": [
+      "A grandiose self facing a devalued other is a narcissistic dyad, not the one described.",
+      "The satisfied child with a perfect provider is an idealized dyad, the opposite of what she felt.",
+      "An excited child with a seductive parent is an erotic dyad, not this one."
+    ],
+    "k": "Ms. H's parking request revealed the dyad of a defective child neglected by an uncaring adult.",
+    "h": "The limping child and the cold doctor.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Suicide",
+    "d": 2,
+    "q": "How may rigid silence in a chronically suicidal patient be interpreted?",
+    "o": [
+      "As a suicide equivalent – destroying treatment and hope",
+      "As a needed rest from the intensity of the sessions",
+      "As simple shyness that will fade with time",
+      "As a sign of psychotic withdrawal"
+    ],
+    "e": "With chronically suicidal or self-mutilating patients, that potential must be explored consistently and woven into the analysis of all interactions with the therapist. For example, a chronically suicidal patient's destruction of session time through rigid silence can be interpreted as an effort to destroy the treatment and with it all hope of recovery: the in-session interaction becomes a suicide equivalent. This is interpreted and analysed.",
+    "w": [
+      "A rest wouldn't destroy hope; the interpretation links silence to destructiveness.",
+      "Shyness doesn't explain rigid, destructive silence in this context.",
+      "Psychotic withdrawal is not the interpretation given."
+    ],
+    "k": "In chronically suicidal patients, rigid silence can be a suicide equivalent: destroying treatment and hope.",
+    "h": "Killing the hour as a stand-in for killing oneself.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Aggression",
+    "d": 2,
+    "q": "If a therapist feels he could not cope with a patient's possible death, what should he do?",
+    "o": [
+      "Work it through in supervision or therapy; if unresolved, don't treat such patients",
+      "Hide the fear from the patient so that the alliance is not weakened by the therapist's anxiety",
+      "Promise the patient that he will keep her safe whatever happens",
+      "Shorten the sessions so the anxiety is easier to tolerate"
+    ],
+    "e": "With patients who have serious self-destructive histories, the therapist states that if the patient harmed himself to attack the therapist, the therapist would regret it, but his life would go on. If a therapist feels he couldn't cope with that possibility, he must work it through in supervision or his own therapy; if it remains unresolved, he should not treat severely ill borderline patients. Otherwise the patient senses the fear and can control treatment or torture him with suicide concerns. Accepting the possibility actually makes suicide less likely.",
+    "w": [
+      "Patients sense hidden fear, which gives them control.",
+      "Promising safety is dishonest and magical, and it hands the patient power over the therapist.",
+      "Shortening sessions doesn't address the therapist's fear."
+    ],
+    "k": "A therapist who can't accept a patient's possible death must work it through, or not treat severely ill borderline patients.",
+    "h": "If you can't bear the risk, the patient will use it.",
+    "r": "Clarkin Ch10 – Threatened aggression"
+  },
+  {
+    "t": "Ch10 Aggression",
+    "d": 2,
+    "q": "Why meet with the family during contracting for life-threatening pathology?",
+    "o": [
+      "To correct magical expectations of guaranteed cure or safety",
+      "To arrange payment of the fees with the family",
+      "To diagnose the family's role in the patient's illness",
+      "To assign responsibility for the patient's behavior"
+    ],
+    "e": "Families sometimes assume being in therapy guarantees cure or at least safety. This idealization denies the seriousness of the pathology and can quickly become an angry attack on the therapist if magical expectations aren't met. Meeting during contracting, the therapist explains that the pathology is very serious and there's no guarantee of a good outcome or of eliminating suicide. If the family can accept this, the therapist is less vulnerable and the patient safer; if not, they should seek someone who gives the assurance they want.",
+    "w": [
+      "Fees aren't the purpose of the family meeting.",
+      "Diagnosing the family's role is not the aim.",
+      "The aim is realistic expectations, not assigning blame."
+    ],
+    "k": "Family meeting in contracting: correct magical expectations of guaranteed cure or safety.",
+    "h": "No warranties on this treatment.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Aggression",
+    "d": 2,
+    "q": "How can 'failure to improve' be an attack?",
+    "o": [
+      "The patient senses his investment in outcome and attacks it by not changing",
+      "It cannot; failure to improve always reflects the severity of the illness",
+      "It shows the therapist is incompetent and should refer the patient",
+      "It is always biological and should be treated with medication"
+    ],
+    "e": "Therapists may have a narcissistic investment in outcome. Patients can sense this and direct aggression at the therapist by continuing to show no change, a subtle attack parallel to self-destructiveness. The therapist should adopt the attitude that outcome is not the most important thing: his concern is consistently providing good treatment, not a particular result. This removes the target of the attack.",
+    "w": [
+      "The book explicitly says it can be an attack, not always severity.",
+      "It doesn't prove incompetence; it may be aggression.",
+      "Failure to improve isn't always biological; it can be an aggressive attack on the therapist's investment in outcome."
+    ],
+    "k": "Failure to improve can attack the therapist's investment in outcome; focus on good treatment, not results.",
+    "h": "'I'll stay sick to beat you.'",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Dropout",
+    "d": 2,
+    "q": "Which factor in Table 10–2 reflects narcissistic issues in dropout?",
+    "o": [
+      "Envy and humiliation toward a helpful therapist, fleeing to defeat him; jealousy",
+      "Fear of hurting the therapist with intense feelings, leaving to protect him",
+      "Pressure from the family, which feels threatened by the patient's changes",
+      "Anxiety about growing dependency on the therapist, leaving to avoid it"
+    ],
+    "e": "Table 10–2 lists factors behind the urge to drop out. Negative transference: depositing hated representations into the therapist and leaving them, or protesting the lack of ideal care. Narcissistic issues: competitiveness and envy, humiliation toward a therapist felt superior because he can help, fleeing both to escape these feelings and to 'defeat' him; jealousy of his other patients and interests. Also dependency anxiety, fear of hurting or a wish to protect the therapist, and family pressure.",
+    "w": [
+      "Fear of hurting the therapist is its own category (protecting the therapist).",
+      "Family pressure is a separate factor in Table 10–2, triggered when the patient's change threatens the family system.",
+      "Dependency anxiety is a separate factor: fleeing the growing positive attachment to the therapist."
+    ],
+    "k": "Narcissistic dropout: envy and humiliation toward a helpful therapist, fleeing to defeat him; jealousy of others.",
+    "h": "'Leaving you is how I win.'",
+    "r": "Clarkin Ch10 – Table 10–2"
+  },
+  {
+    "t": "Ch10 Dropout",
+    "d": 3,
+    "q": "After a $10 fee increase, a paranoid patient quit by phone message. The therapist:",
+    "o": [
+      "Phoned her: quitting now would be tragic, with her core belief right in front of them",
+      "Waited for the next scheduled session to see whether she would return on her own initiative",
+      "Cancelled the fee increase for her to show that he cared",
+      "Accepted her decision and sent a referral letter to another therapist"
+    ],
+    "e": "This patient's core belief was that the therapist only wanted to exploit her. His $10 fee increase 'proved' it; she stormed out and left a message ending therapy. He normally waited until the next session to discuss messages, but treated this as an emergency and called her: only she could decide, but quitting now would be a tragic error, with her core issue right in front of them. She agreed to come back and later said she would never have returned without the call. The call introduced external reality confronting her projection of the exploiting other.",
+    "w": [
+      "Waiting is the traditional analytic stance; TFP becomes more active when the treatment is at risk.",
+      "Cancelling the increase would bend to the pathology, as he explained.",
+      "Accepting the decision would leave her projection intact."
+    ],
+    "k": "When dropout threatens, TFP becomes active: a call can confront the patient's projection with external reality.",
+    "h": "A caring call contradicts 'nobody cares'.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Dropout",
+    "d": 2,
+    "q": "What should the therapist remember during stormy threats of dropout?",
+    "o": [
+      "The negative surface dyad usually defends against a wish for love",
+      "The patient now hates the therapist permanently and cannot be reached",
+      "Dropout threats are always about money and fees",
+      "Nothing can be done once dropout is threatened"
+    ],
+    "e": "Many therapists forget, in the midst of a dropout threat, that the negatively charged dyad active on the surface is generally defending against a deeper one based on the wish for love and nurturing. Remembering that this is the other side of the stormy negative transference helps the therapist remain calm, steady and available during the crisis, which can itself reassure the patient.",
+    "w": [
+      "The hatred is not permanent; it defends against a wish for love.",
+      "Dropout threats have many sources, not just money.",
+      "Active intervention can and often does help."
+    ],
+    "k": "During dropout threats, remember the negative surface dyad usually defends against a wish for love.",
+    "h": "Under 'I'm leaving' hides 'please hold on to me'.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Adjunctive",
+    "d": 2,
+    "q": "Noncompliance with adjunctive treatments (AA, dietitian) often also raises the issue of:",
+    "o": [
+      "The honesty of communication",
+      "The fee and billing policy",
+      "The medication regimen",
+      "The accuracy of the diagnosis"
+    ],
+    "e": "The frame may include adjunctive treatments, such as 12-step meetings or a dietitian. Noncompliance often comes with the issue of honest communication, because it is often not immediately reported. The therapist explores both the quality of communication and the meaning of noncompliance: a test of whether the therapist cares enough to enforce the parameters, a challenge to control the therapist (superficially desired, distressing deeper down), or an attack on the exploratory process because it stirs anxiety.",
+    "w": [
+      "Fees aren't the issue; unreported noncompliance raises whether communication with the therapist is honest.",
+      "The medication regimen isn't the core issue; the hidden noncompliance raises honesty of communication.",
+      "Diagnostic accuracy isn't the issue; the problem is that noncompliance often goes unreported."
+    ],
+    "k": "Adjunctive-treatment noncompliance raises honest communication, plus testing, control or attack on exploration.",
+    "h": "Skipped AA and didn't say so: two problems, not one.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Sexual abuse",
+    "d": 2,
+    "q": "What percentage of abused individuals go on to develop psychiatric illness (Paris)?",
+    "o": [
+      "15%–20%",
+      "26%–71%",
+      "70%–75%",
+      "45%–50%"
+    ],
+    "e": "Rates of physical and sexual abuse among BPD patients vary widely across samples: 26%–71% (Perry and Herman), even 91% (Zanarini). Yet only 15%–20% of people who experience abuse develop a psychiatric illness (Paris). Paris also found that, of abused BPD subjects, 30% had experienced severe abuse with penetration. These figures matter in debates about abuse's role in BPD etiology: abuse is common in BPD, but most abused people do not develop psychiatric illness.",
+    "w": [
+      "26%–71% is the range of abuse rates found in BPD samples (Perry and Herman), not the illness rate after abuse.",
+      "Around 70% is the overall abuse rate Paris cites across BPD studies, which reverses the question.",
+      "45%–50% isn't a figure from the chapter; it would fall inside the BPD abuse-rate range, not the illness rate."
+    ],
+    "k": "Only 15–20% of abused individuals develop psychiatric illness (Paris), though abuse rates in BPD range 26–71% (up to 91%).",
+    "h": "Most abused people don't become ill; many ill people were abused.",
+    "r": "Clarkin Ch10 – Sexual abuse"
+  },
+  {
+    "t": "Ch10 Sexual abuse",
+    "d": 3,
+    "q": "In BPO patients with abuse histories, what is the therapist's central task in the transference?",
+    "o": [
+      "Surface her identification with both victim and perpetrator",
+      "Act as her rescuer against the original perpetrators",
+      "Avoid discussing the abuse to prevent retraumatization",
+      "Help her confront the perpetrator in real life"
+    ],
+    "e": "In BPO patients with abuse histories, the abuse is activated in the transference, and the patient identifies with both victim and perpetrator: at times feeling victimized by the therapist, at times idealizing him as rescuer against others, at times victimizing others including him. The therapist's task is to bring to the surface the identification with both roles. Gradually tolerating both permits mastery of split-off aggression, disentangles sex from sadomasochism, and allows deeper exploration of the abuse experience.",
+    "w": [
+      "Acting as rescuer enacts one pole of the split instead of interpreting it.",
+      "The abuse will appear in the transference; avoiding it maintains the split.",
+      "Real-life confrontation is not the therapeutic task."
+    ],
+    "k": "In abused BPO patients, surface the identification with both victim and perpetrator in the transference.",
+    "h": "Both roles live inside: victim and abuser.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Sexual abuse",
+    "d": 2,
+    "q": "How do the authors position themselves regarding the culture of victimization?",
+    "o": [
+      "Treat the patient as a responsible adult with reasoning and ethical capacity",
+      "Treat the patient as fragile and helpless, needing protection from conflict",
+      "Avoid interpretation, which could feel like blaming the victim",
+      "Focus only on the perpetrator's responsibility for the patient's problems"
+    ],
+    "e": "In contrast to a prevalent culture of infantilization and victimization of patients, the authors treat the patient as a responsible adult, addressing interventions to the part of the ego that preserves reasoning, ethical consideration and decision-making. Interpreting to the adult self expands the therapeutic alliance. The patient must eventually come to terms with the past rather than using the therapist as a protective figure against the original perpetrators.",
+    "w": [
+      "Treating the patient as fragile is the infantilizing stance the authors reject.",
+      "Avoiding interpretation infantilizes the patient and prevents working through; the authors address her adult self.",
+      "Focusing only on the perpetrator ignores the patient's identifications."
+    ],
+    "k": "TFP treats abuse survivors as responsible adults, addressing the ego's capacity for reasoning and ethics.",
+    "h": "Speak to the adult, not only the wounded child.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Sexual abuse",
+    "d": 3,
+    "q": "Which is NOT among the functions of fixation on past trauma listed in Ch10?",
+    "o": [
+      "Improving reality testing",
+      "Endless search for an ideal object behind the persecutory one",
+      "Revenge on a hated object",
+      "Transforming painful experience into sexual excitement"
+    ],
+    "e": "Fixation on past trauma, seen in the repetition compulsion, has functions that need exploration: the endless search for an ideal object behind the persecutory one (masochistic trends); revenge on a hated object through its violent destruction; transforming a painful experience into a sexually exciting one, and using sexual gratification for revenge; destroying the therapist's work out of envy; and fusing with the therapist as an omnipotent provider. Improving reality testing is not a function of fixation; fixation tends to distort it.",
+    "w": [
+      "Searching for an ideal object behind the persecutory one is listed.",
+      "Revenge on a hated object is listed.",
+      "Turning pain into sexual excitement is listed."
+    ],
+    "k": "Trauma fixation functions: search for ideal object, revenge, sexualizing pain, envious destruction of therapy, fusion with omnipotent provider.",
+    "h": "Why hold on to trauma? To find, avenge, excite, destroy, or fuse.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 2,
+    "q": "How does transference psychosis differ from simple paranoid regression?",
+    "o": [
+      "It spreads beyond the transference with secondary delusions and hallucinations",
+      "It stays strictly inside the sessions and never affects outside life",
+      "It involves no delusions, only intense suspicion of the therapist",
+      "It is always caused by drugs or medication taken by the patient"
+    ],
+    "e": "Transference psychosis starts in the transference but then expands outside it, with secondary delusions and hallucinations affecting other parts of life. Simple paranoid regression stays within the transference. Expansion is likelier when transference issues stay closed to discussion. In borderline patients without comorbid illness such as bipolar disorder, psychotic episodes in treatment are almost always related to the transference. The test is whether it can be kept within the transference while being worked on.",
+    "w": [
+      "Staying inside sessions describes simple paranoid regression, not transference psychosis.",
+      "Transference psychosis does include delusions, secondary ones that spread beyond the transference.",
+      "It is transference-related, not caused by drugs."
+    ],
+    "k": "Transference psychosis spreads beyond the transference, with secondary delusions and hallucinations.",
+    "h": "It leaks out of the room into life.",
+    "r": "Clarkin Ch10 – Transference psychosis"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 3,
+    "q": "A patient believes the therapist is having an affair with his mother and carries a gun. The therapist should:",
+    "o": [
+      "Tolerate the thinking without fear but control acting out; consult, medicate or hospitalize if needed",
+      "Ignore the belief, since it is only a fantasy that will pass once it has been interpreted in sessions",
+      "Agree with the patient to avoid conflict until the belief fades on its own",
+      "Interpret the oedipal wishes only, without addressing the gun or the spying"
+    ],
+    "e": "In this example, analysis of oedipal conflicts led a patient to believe the therapist was having an affair with his mother; he threatened to shoot him, carried a gun and spied on his mother's home. The therapist acknowledges the different perspectives and tolerates psychotic thinking without fear, while controlling acting out: 'Whatever you think and feel here is all right, but if these ideas affect you outside sessions... we need to change the treatment.' He must protect himself, third parties and the patient, being direct and firm; if that fails, he seeks consultation, medication or hospitalization.",
+    "w": [
+      "With a gun and spying, it has already expanded outside sessions; ignoring it is dangerous.",
+      "Agreeing with a delusion is collusion and abandons the patient to his psychosis.",
+      "Interpreting only oedipal wishes ignores the danger."
+    ],
+    "k": "Transference psychosis: tolerate the thinking without fear, firmly control acting out; consult, medicate or hospitalize if needed.",
+    "h": "Think anything here; act on nothing out there.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 3,
+    "q": "What three things does the therapist convey in interpreting incompatible realities?",
+    "o": [
+      "The views are incompatible; the patient is honest and convinced; the therapist is equally convinced of the opposite",
+      "The patient is wrong; the therapist is right; therapy must end unless the patient changes his view",
+      "Both views are equally right, so the disagreement needs no further exploration",
+      "Reality does not matter in therapy, so only the feelings behind the belief are discussed"
+    ],
+    "e": "In the method of incompatible realities, the therapist conveys (1) that they have completely incompatible views of a situation, (2) that he recognizes the patient's honesty and total conviction, and (3) that the patient should become aware of the therapist's equally total, opposite conviction. Now either the therapist is equally honest (and the breakdown of communication can be explored as a psychotic nucleus based on a projected split-off representation) or he is lying (leading to exploration of psychopathic transferences). He does not try to convince the patient.",
+    "w": [
+      "Declaring the patient wrong and threatening to end is coercive; the method doesn't try to convince.",
+      "The views are incompatible; the point is to explore the clash, not dismiss it.",
+      "Reality matters; the method holds it in suspension while exploring the clash."
+    ],
+    "k": "Incompatible realities: our views clash; you're honest and convinced; I'm equally convinced of the opposite.",
+    "h": "Two honest people, two realities, one room to explore.",
+    "r": "Clarkin Ch10 – Psychotic distortions"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 3,
+    "q": "In the scheduling dispute, what hate-inspiring object did therapist and patient identify 'in the analytic space'?",
+    "o": [
+      "A figure with total freedom of time and arrogant grandiosity – his early mother",
+      "The therapist's own controlling mother, revealed through countertransference",
+      "The patient's father, who controlled the family's time and money",
+      "A persecutory boss at work who reminded him of the therapist"
+    ],
+    "e": "A patient was convinced the therapist's schedule changes were arbitrary impositions to maximize power over his time, and demanded a full breakdown of the therapist's weekly commitments. The therapist acknowledged the patient's honest conviction and shared his own: that the demand for surveillance was itself an arbitrary exercise of power. Their symmetrical views pointed to a hate-inspiring figure with absolute freedom of time, arrogant grandiosity and enjoyment of having others cater to it, located neither in patient nor therapist. It turned out to correspond to the patient's early experience of his mother, now an internal representation.",
+    "w": [
+      "The therapist's mother is not mentioned; the figure was the patient's mother.",
+      "The father isn't part of this example; the hate-inspiring figure was the patient's early mother.",
+      "No boss is involved in this example."
+    ],
+    "k": "In incompatible realities, symmetrical views can reveal a third, internal object, here the patient's early mother.",
+    "h": "Neither you nor me: it's someone from the past.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 2,
+    "q": "Brief reactive psychoses in borderline patients often reflect:",
+    "o": [
+      "Extreme transference developments kept out of the sessions",
+      "A purely biological illness unrelated to the therapy",
+      "Malingering to obtain hospitalization or medication",
+      "Normal stress reactions to life events"
+    ],
+    "e": "Brief reactive psychoses may seem independent of the transference, but they often reflect extreme transference developments kept out of discussion in sessions, whose link must be discovered. The therapist clarifies the extent of distortion, its context, object relations and precipitants, and assesses risk. First he reexamines transference and countertransference; a transference focus may reduce regression. Interpreting projective identification often improves reality testing, acting out is blocked by limit setting, and brief hospitalization is used if needed.",
+    "w": [
+      "The book suggests these psychoses usually do relate to the therapy.",
+      "Malingering isn't the explanation; these psychoses usually reflect transference developments kept out of sessions.",
+      "They are not described as normal stress reactions."
+    ],
+    "k": "Brief reactive psychoses in BPO often reflect extreme transference developments kept out of the sessions.",
+    "h": "What isn't said in the room shows up as madness outside it.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Psychosis",
+    "d": 2,
+    "q": "Managing drug-induced psychosis begins with:",
+    "o": [
+      "Accurate data on current intake, including OTC anticholinergics",
+      "An immediate antipsychotic injection to stop the episode",
+      "Ignoring the drugs and interpreting the psychotic content",
+      "Ending therapy until the patient is drug-free for a year"
+    ],
+    "e": "Various substances, including prescription drugs, can induce depersonalization, hallucinations or paranoid delusions in borderline patients. Management begins with accurate data on current intake: substances of abuse, prescriptions, and over-the-counter preparations, especially those with anticholinergic effects. The therapist explains the drug's role in distorting reality testing, clarifies the patient's reaction, and explores, confronts and interprets any choice to continue (including vicious self-medication cycles). Limit setting or brief hospitalization is used if needed.",
+    "w": [
+      "An immediate injection skips assessment; management begins with accurate data.",
+      "Ignoring the drugs misses the cause; management starts with accurate data on everything the patient takes.",
+      "Ending therapy for a year isn't the approach."
+    ],
+    "k": "Drug-induced psychosis: first get accurate data on all current intake, including OTC anticholinergics.",
+    "h": "Check the medicine cabinet first.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Dissociation",
+    "d": 2,
+    "q": "What is the main danger when a dissociative state or 'multiple personality' appears?",
+    "o": [
+      "His anxiety, and treating a 'different person' instead of a split-off object relation",
+      "Physical violence from the alternate personality during the session",
+      "Medication interactions when different 'personalities' take different drugs",
+      "There is no particular danger, since dissociation is harmless"
+    ],
+    "e": "Dissociative reactions express severe splitting between idealized and persecutory relationships. When a patient withdraws and stops responding, the therapist uses basic grounding techniques and keeps addressing the patient, assuming some observing ego remains. The main dangers are the therapist's anxiety and confusion, and the temptation to be seduced by the dissociated state into treating a 'different person' rather than a split-off object relation in the transference. Interpreting the activated relation and its defensive split-off function helps reduce it.",
+    "w": [
+      "Violence is not named as the main danger.",
+      "Drug interactions between 'personalities' aren't discussed; the danger is treating a split-off relation as a different person.",
+      "There is a danger: the therapist's reaction."
+    ],
+    "k": "In dissociation, the main danger is the therapist's anxiety and treating a 'different person' instead of a split-off object relation.",
+    "h": "Don't meet a new person; meet a split-off part.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 ER",
+    "d": 2,
+    "q": "An ER psychiatrist asks the outpatient therapist to decide about admission. The therapist:",
+    "o": [
+      "Explains the arrangement, gives information, won't decide or talk to the patient, lets the ER evaluate",
+      "Decides over the phone whether to admit, since he knows the patient best and can judge the risk remotely",
+      "Goes to the ER himself to evaluate the patient in person",
+      "Refuses to speak with the ER doctor at all, to avoid any involvement"
+    ],
+    "e": "The therapist explains his arrangement: he does not decide on hospitalization, because his involvement in emergencies would feed secondary gain (as with a previous therapist who met the patient in the ER). He gives useful information, such as how treatment is going, recent themes and the absence of strong antisocial features, but declines to speak with the patient or decide, since he can't evaluate by phone. The ER doctor is best placed to evaluate. ER visits usually taper off when handled this way.",
+    "w": [
+      "He can't evaluate by phone, and deciding would provide secondary gain.",
+      "Going to the ER would repeat the previous therapist's pattern.",
+      "He does speak with the ER doctor and offers useful information."
+    ],
+    "k": "ER calls: explain the arrangement, give information, don't decide or speak with the patient; let the ER evaluate.",
+    "h": "Inform, don't intervene.",
+    "r": "Clarkin Ch10 – ER visits"
+  },
+  {
+    "t": "Ch10 ER",
+    "d": 2,
+    "q": "A patient goes to the ER before acting on impulses, after previously being hospitalized after acting out. This is:",
+    "o": [
+      "Potentially a sign of positive change",
+      "Always a manipulation for attention",
+      "A breach of the treatment contract",
+      "A sign of an emerging psychosis"
+    ],
+    "e": "Going to the ER for assessment when uncertain about controlling self-destructive impulses can be appropriate. Seeking help rather than acting on an impulse may itself be a sign of positive change. Many patients went through a phase of one or two brief hospitalizations via the ER out of concern about acting on impulses, unlike their earlier pattern of hospitalization after acting out. These typically stopped once patients realized they wouldn't get the therapist more involved.",
+    "w": [
+      "It isn't always manipulation; it can show improved judgement.",
+      "Going for evaluation is within the contract.",
+      "It doesn't indicate psychosis; seeking evaluation before acting can show improved judgement."
+    ],
+    "k": "Going to the ER before acting, rather than after, can be a sign of positive change.",
+    "h": "Calling for help instead of bleeding: progress.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Hospitalization",
+    "d": 2,
+    "q": "Which is NOT among the meanings hospitalization can have?",
+    "o": [
+      "Proof the therapy has ended successfully",
+      "A protest that contract conditions are too hard",
+      "A signal of a problem hard to bring into sessions",
+      "An attempt to embarrass the therapist"
+    ],
+    "e": "Hospitalization can mean many things: a protest that contract conditions are too hard (especially early); a signal of a problem, external, internal or in the transference, that is hard to bring into sessions; an appeal for more involvement and a test of boundaries; or an attempt to embarrass the therapist by showing the community his treatment fails. It can also show good judgement when the patient seeks protection before acting. It is never proof that therapy has ended successfully.",
+    "w": [
+      "A protest against hard contract conditions is listed.",
+      "A signal of a hard-to-voice problem is listed.",
+      "An attempt to embarrass the therapist is listed."
+    ],
+    "k": "Hospitalization may be protest, signal, appeal or test, or an attempt to embarrass, but never proof of success.",
+    "h": "PSATE: Protest, Signal, Appeal, Test, Embarrass.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Hospitalization",
+    "d": 3,
+    "q": "Hospital staff depict the outpatient therapist as dictatorial while the patient seems content as a chronic patient. The interpretation:",
+    "o": [
+      "She externalizes her dependency–autonomy conflict, projecting the autonomous part onto him",
+      "The therapist really is too demanding and should adopt the hospital's supportive approach",
+      "The hospital staff are right that she cannot take responsibility for her treatment",
+      "She is psychotic and cannot judge which treatment is best for her"
+    ],
+    "e": "Sometimes hospital staff enact the patient's dynamics, seeing her as incapable of responsibility, while she depicts her outpatient therapist as unreasonable, demanding and dictatorial. The therapist interprets that she is externalizing her dependency–autonomy conflict, projecting her more independent part onto him while seeming content as a passive recipient of chronic supportive care. He reminds her she's free to choose but predicts the conflict will continue, and notes it could be tragic to abandon her potential for higher functioning.",
+    "w": [
+      "The therapist doesn't accept the hospital's framing; he interprets the split.",
+      "Agreeing with the staff abandons the autonomous part of her.",
+      "She isn't psychotic; she is externalizing a dependency–autonomy conflict."
+    ],
+    "k": "When staff see the therapist as dictatorial, interpret the externalized dependency–autonomy conflict.",
+    "h": "She gave him her ambition and kept the sick role.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Dam",
+    "d": 3,
+    "q": "In the 'dam' case, which interpretation ended the cycle of hospitalizations?",
+    "o": [
+      "She externalized her live-vs-die conflict and enjoyed making him squirm, linked to envy",
+      "She needed a stronger mood stabilizer, since her suicidal ideation was biological and unrelated to therapy",
+      "She was psychotic and could not control her urges at the dam",
+      "She needed a much longer hospitalization to learn coping skills"
+    ],
+    "e": "After repeated trips to a dam and two hospitalizations, the therapist interpreted that she was acting as if she had no conflict about living, externalizing the part that wanted to live onto others. Evidence: she was alive, came to therapy, and never jumped. He added a hypothesis: since losing her job, humiliation and envy led her to enjoy making him squirm, a sadistic pleasure that let her feel superior. She smiled in recognition: 'I do get some pleasure out of seeing you squirm.' Therapy continued without further hospitalization.",
+    "w": [
+      "Medication had been tried; the cycle ended through interpretation of the dynamic.",
+      "She was not psychotic; she was enacting a conflict.",
+      "Longer hospitalization was part of the cycle, not the solution."
+    ],
+    "k": "Repeated hospitalizations can enact an externalized conflict (live vs die) plus envious sadism; interpretation can end the cycle.",
+    "h": "She sat at the dam for hours: the part that wanted to live held the brake.",
+    "r": "Clarkin Ch10 – Hospitalization case"
+  },
+  {
+    "t": "Ch10 Dam",
+    "d": 2,
+    "q": "What did the therapist do when he felt he had lost perspective in the 'dam' case?",
+    "o": [
+      "Sought a colleague's consultation, which restored his perspective",
+      "Transferred her to a more experienced colleague to restore safety",
+      "Hospitalized her again automatically for safety",
+      "Stopped therapy until she was stable"
+    ],
+    "e": "After two hospitalizations, the therapist realized he had lost the psychodynamic perspective and was functioning mainly to keep the patient alive. Before the session, he called a colleague for consultation. The colleague helped him regain perspective and reminded him of his honest choice: work with interpretation in the session or, if he didn't feel safe, recommend another hospitalization. He chose interpretation, ready to change course depending on her response.",
+    "w": [
+      "He kept treating her himself; consultation restored his perspective rather than ending his role.",
+      "He chose interpretation in the session rather than automatic rehospitalization.",
+      "He continued the therapy; stopping it would have abandoned her at a crisis."
+    ],
+    "k": "When a therapist loses perspective in a crisis, consultation can restore the psychodynamic view.",
+    "h": "Lost? Call a colleague.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Phone calls",
+    "d": 2,
+    "q": "In the phone-call policy, what qualifies as an emergency?",
+    "o": [
+      "A major, unforeseen event (serious accident, sudden firing, cancer, a death)",
+      "Chronic self-destructive feelings that intensify after a hard day",
+      "A heated argument with a boyfriend or a boss",
+      "Feeling lonely and wanting to hear the therapist's voice"
+    ],
+    "e": "The phone policy accepts calls only for necessary information (like cancelling) or a true emergency: an event both major and unforeseen, such as a serious accident, sudden firing, a positive HIV test, a cancer diagnosis or a death. Chronic self-destructive feelings and regular upsets (arguments with a boyfriend or boss) are excluded. A non-emergency call is referred to the next session, followed by no calls for a week; a repeat extends it to a month.",
+    "w": [
+      "Chronic self-destructive feelings are explicitly excluded because they are long-standing.",
+      "Ordinary arguments with a boyfriend or boss are excluded because they are frequent, not unforeseen.",
+      "Loneliness is painful but not a major, unforeseen event; it belongs in the session."
+    ],
+    "k": "Phone emergency = major and unforeseen (accident, firing, cancer, death); non-emergency calls → no calls for a week, then a month.",
+    "h": "Major plus unforeseen; otherwise, see you Thursday.",
+    "r": "Clarkin Ch10 – Patient telephone calls"
+  },
+  {
+    "t": "Ch10 Absence",
+    "d": 2,
+    "q": "When might sessions with a covering therapist be scheduled in advance?",
+    "o": [
+      "Mainly during the first year",
+      "Always, throughout treatment",
+      "Never; only phone numbers",
+      "Only after five years"
+    ],
+    "e": "A covering colleague must always be arranged for the therapist's absence. The absence is most likely to provoke a crisis in the first year, so scheduled sessions with the covering therapist can be arranged then if indicated. Usually, by the end of the first year, the issues raised by absences have been worked through enough that they are no longer crises. After that, the patient typically has the covering therapist's number to call for an emergency session.",
+    "w": [
+      "Not always; beyond the first year, the number usually suffices.",
+      "A covering colleague is always arranged, and sessions may be scheduled in year one.",
+      "Five years isn't the guideline; covering sessions are mainly for the first year, when absences provoke crises."
+    ],
+    "k": "Scheduled covering sessions mainly in the first year; afterwards the patient just has the covering number.",
+    "h": "Year one gets a substitute teacher; later, just a phone number.",
+    "r": "Clarkin Ch10 – Therapist's absence"
+  },
+  {
+    "t": "Ch10 Absence",
+    "d": 3,
+    "q": "Why might a patient seem almost relieved by the therapist's vacation?",
+    "o": [
+      "It 'proves' he doesn't care, restoring the split and easing anxiety",
+      "Because the patient secretly dislikes the therapy and welcomes any break",
+      "Because vacations are pleasant for everyone",
+      "Because the patient needs a break from the work"
+    ],
+    "e": "Patients often say they feel 'abandoned', but exploring further shows the absence 'proves' what they 'knew': the therapist doesn't care, or finds them disgusting. The interruption reinforces the negative representation, strengthening the defense against the repressed positive one. The relief reflects how much anxiety arises when splitting begins to break down and a good relationship seems possible. The interpretation: 'You were beginning to think I might genuinely care... my vacation lets you restore a sad but reassuring status quo.'",
+    "w": [
+      "It's not simple dislike; the relief comes from restored splitting.",
+      "General pleasantness of vacations isn't the explanation.",
+      "It isn't a simple need for a break."
+    ],
+    "k": "Relief at the therapist's absence: it 'proves' he doesn't care, restoring the split and easing anxiety about a good relationship.",
+    "h": "'See, I knew it' feels safer than 'maybe he cares'.",
+    "r": "Clarkin Ch10"
+  },
+  {
+    "t": "Ch10 Silence",
+    "d": 2,
+    "q": "What cycle helps resolve protracted silences?",
+    "o": [
+      "Stimulate talk → observe nonverbal response and countertransference → interpret → observe again",
+      "Wait silently until the patient speaks, however long it takes, to avoid gratifying the silence",
+      "End the session early whenever the patient stays silent",
+      "Assign written homework so the patient can communicate in writing"
+    ],
+    "e": "With a silent patient, the therapist stimulates talk, observes the nonverbal response and his own countertransference, tentatively interprets the object relation (a concerned therapist and a provocatively, arrogantly, fearfully or guiltily silent patient), then observes again before stimulating once more. This nonthreatening cycle usually resolves even protracted silences. In extreme cases, persistent silence may raise whether therapy can continue, since the patient isn't meeting the parameter of reporting thoughts and feelings.",
+    "w": [
+      "Waiting indefinitely is passive; TFP actively stimulates and interprets.",
+      "Ending sessions early isn't the technique; the therapist works with the silence through a stimulate–observe–interpret cycle.",
+      "TFP doesn't use written homework; silence is analysed in the session through the relationship."
+    ],
+    "k": "Silence cycle: stimulate → observe nonverbal response and countertransference → interpret → observe again.",
+    "h": "Poke, look, name, look again.",
+    "r": "Clarkin Ch10 – Patient's silence"
+  },
+  {
+    "t": "Ch10 Somatization",
+    "d": 3,
+    "q": "For severe hypochondriacal somatization, the frame first requires:",
+    "o": [
+      "A thorough medical work-up so the therapist can confront psychic origins",
+      "Immediate interpretation of the symptom's psychic meaning, without medical investigation",
+      "Ignoring physical complaints so they are not reinforced",
+      "Pain medication so the patient can engage in therapy"
+    ],
+    "e": "Severe hypochondriacal somatization is as hard to turn into psychic experience as severe paranoid acting out. The frame includes a comprehensive, exhaustive (repeated if needed) medical work-up, so the therapist can confront the patient with the fact that medical knowledge points to intolerable psychic reality rather than bodily abnormality. This activates severe paranoid transferences, since the symptom may enact a dyad of a body part attacking the rest and the confronting therapist may feel like an attacker. Many patients prefer supportive approaches, which may limit exploration.",
+    "w": [
+      "Interpreting without medical work-up risks missing real illness and gives no basis for confrontation.",
+      "Ignoring complaints isn't the approach; they are investigated, then confronted.",
+      "Pain medication isn't part of the frame described."
+    ],
+    "k": "Severe hypochondriasis: a thorough medical work-up first, so the therapist can confront the psychic origin.",
+    "h": "Rule out the body before you name the mind.",
+    "r": "Clarkin Ch10 – Somatization"
+  }
+]

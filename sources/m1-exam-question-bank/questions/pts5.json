@@ -1,0 +1,382 @@
+[
+  {
+    "t": "Annie: assessment",
+    "d": 2,
+    "q": "Which structured interview was used to diagnose Annie, and what was the main diagnosis?",
+    "o": [
+      "The ADIS for DSM-5; panic disorder with agoraphobia",
+      "The SCID-2; borderline personality disorder",
+      "The MMPI-2; major depressive disorder",
+      "The WAIS-IV; specific learning disorder"
+    ],
+    "e": "Assessment began with a broad clinical interview showing no developmental, medical, substance or trauma history and identifying panic attacks as her main concern. Because she reported panic and anxiety, the Anxiety Disorders Interview Schedule for DSM-5, a structured diagnostic interview, was administered. Annie met criteria for panic disorder with agoraphobia (PDA), with attacks sometimes out of the blue, seven severe symptoms, severe fear of further attacks, situational avoidance and reliance on her husband.",
+    "w": [
+      "The SCID-2 targets personality disorders, which were not diagnosed.",
+      "The MMPI-2 is an inventory, not a structured interview.",
+      "The WAIS-IV measures intelligence, not anxiety disorders."
+    ],
+    "k": "Annie: broad interview → ADIS-5 → panic disorder with agoraphobia (plus GAD and a specific phobia).",
+    "h": "ADIS for anxiety.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Panic disorder with agoraphobia (Annie): assessment"
+  },
+  {
+    "t": "Annie: assessment",
+    "d": 3,
+    "q": "Why was Annie also diagnosed with generalized anxiety disorder, rather than having all her worry attributed to PDA?",
+    "o": [
+      "She worried excessively about many life areas, not only panic",
+      "She also had panic attacks during the night",
+      "She relied on her husband to go to the shops",
+      "She took Xanax on rare occasions to calm down"
+    ],
+    "e": "PDA, GAD and specific phobia overlap in anxiety, worry, panic and avoidance. Annie reported excessive worries accompanied by fatigue, poor concentration, irritability and muscle tension, about family, job, finances and decisions, not exclusively related to panic attacks. Because these worries caused distress and impairment beyond PDA, she met separate criteria for GAD. Likewise, she met criteria for specific phobia because she feared nosebleeds in general, including others' nosebleeds, not just panic-like sensations.",
+    "w": [
+      "Nocturnal panic belongs to the panic disorder picture.",
+      "Reliance on a safety person is part of agoraphobia.",
+      "Medication use is not a diagnostic criterion for GAD."
+    ],
+    "k": "Separate comorbid diagnosis when symptoms extend beyond the main disorder: Annie's worries covered many areas apart from panic → GAD.",
+    "h": "Worry beyond panic = GAD.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: structured interview; initial case formulation"
+  },
+  {
+    "t": "Annie: assessment",
+    "d": 2,
+    "q": "Annie scored 18 on the BDI-II and 34 on the BAI. How does the course interpret these scores?",
+    "o": [
+      "Mild depression and severe anxiety",
+      "Severe depression and mild anxiety",
+      "No depression and moderate anxiety",
+      "Moderate depression and no anxiety"
+    ],
+    "e": "Annie completed two self-report measures. On the Beck Depression Inventory-II, measuring current depressive symptoms, her score of 18 suggested mild depression, with moderate indecisiveness and concentration difficulty. On the Beck Anxiety Inventory, her score of 34 indicated severe anxiety, with moderate symptoms such as inability to relax, fear of the worst happening, dizziness, heart pounding, feeling terrified, choking sensations, fear of losing control and fear of dying.",
+    "w": [
+      "This reverses the depression and anxiety interpretations.",
+      "A BDI-II of 18 was read as mild depression.",
+      "A BAI of 34 was read as severe anxiety."
+    ],
+    "k": "Annie: BDI-II 18 = mild depression; BAI 34 = severe anxiety.",
+    "h": "18 mild mood, 34 severe fear.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: self-report measures"
+  },
+  {
+    "t": "Annie: assessment",
+    "d": 2,
+    "q": "Why is continuous self-monitoring of panic preferred to retrospective recall, according to the course?",
+    "o": [
+      "Retrospective recall tends to overestimate panic frequency and intensity",
+      "Retrospective recall underestimates panic frequency",
+      "Self-monitoring is required by law",
+      "Self-monitoring replaces the need for treatment"
+    ],
+    "e": "Continuous self-monitoring of panic and anxiety is important in assessment and treatment because it is more accurate than retrospective recall, which tends to overestimate panic frequency and intensity (Craske & Barlow, 2008). Annie completed a panic attack record and daily ratings of mood and anxiety. In session 2, self-monitoring was presented as a way to obtain in-the-moment assessment of panic, anxiety and mood and to recognize patterns.",
+    "w": [
+      "The course says recall overestimates, not underestimates.",
+      "Legal requirements are not the rationale.",
+      "Monitoring supports treatment; it does not replace it."
+    ],
+    "k": "Self-monitor panic in the moment: memory overestimates frequency and intensity.",
+    "h": "Memory inflates panic.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: self-monitoring"
+  },
+  {
+    "t": "Annie: assessment",
+    "d": 3,
+    "q": "Before treating Annie's PDA, which step does the course call imperative?",
+    "o": [
+      "Ruling out medical conditions that mimic panic, such as hyperthyroidism or hypoglycemia",
+      "Administering a projective test to uncover hidden conflicts",
+      "Interviewing her childhood teachers",
+      "Stopping all of her medication"
+    ],
+    "e": "Panic disorder includes fear of unfamiliar bodily sensations, and many clients first experience panic after an actual medical event (low blood sugar, inner ear infection, drug intoxication). It is imperative to rule out medical conditions resembling panic attacks, such as asthma, hypoglycemia, hyperthyroidism, Cushing's syndrome, pheochromocytoma and hypoparathyroidism. Failing to identify a treatable condition or to recommend medical consultation could fall below acceptable professional standards. Annie had a metabolic panel, thyroid evaluation and hormone tests first.",
+    "w": [
+      "Projective tests were not part of this assessment.",
+      "Childhood teachers are not relevant here.",
+      "Stopping her medication was not recommended."
+    ],
+    "k": "Before treating panic: medically rule out mimics (asthma, hypoglycemia, hyperthyroidism, Cushing's, pheochromocytoma, hypoparathyroidism).",
+    "h": "Check the body before treating the fear.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: assessment strategy"
+  },
+  {
+    "t": "Annie: functional analysis",
+    "d": 2,
+    "q": "In Annie's functional analysis, which factor REDUCED the likelihood of panic attacks?",
+    "o": [
+      "Being with her husband, or being busy at work",
+      "Being in crowds where escape is difficult",
+      "Worrying about future panic attacks",
+      "Noticing unexplained physical sensations"
+    ],
+    "e": "Situational antecedents of Annie's panic were crowds, situations where escape might be difficult, and anxiety-provoking situations without her husband. Internal antecedents were worry about future attacks and sensations resembling panic. Being with her husband reduced the likelihood of panic, as did being busy with work or other activities. Her thoughts included fears of being unable to cope, fainting or having a nosebleed; she coped by escaping, seeking her husband or taking Xanax, and her dependence on him grew after episodes.",
+    "w": [
+      "Crowds were a situational antecedent of panic.",
+      "Worry about future attacks was an internal antecedent.",
+      "Panic-like sensations were an internal antecedent."
+    ],
+    "k": "Annie's panic: triggered by crowds, separation and sensations; reduced by husband's presence or being busy; maintained by escape and dependence.",
+    "h": "The safety person lowers panic now but feeds it later.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: functional analysis"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "Which components make up the MAP-5 (Mastery of Your Anxiety and Panic) protocol used with Annie?",
+    "o": [
+      "Psychoeducation, breathing, relaxation, cognitive work, interoceptive and in vivo exposure",
+      "Free association, dream analysis and interpretation of the transference",
+      "Medication alone, with no psychological intervention of any kind",
+      "Hypnosis, aversion therapy and imaginal flooding, with nothing else"
+    ],
+    "e": "The main protocol was Mastery of Your Anxiety and Panic, 5th edition (MAP-5; Craske & Barlow, 2022). It includes psychoeducation, breathing retraining, relaxation training, cognitive restructuring, interoceptive exposure and in vivo exposure. Interventions for her nocturnal panic attacks came from a cognitive-behavioral protocol evaluated by Craske, Lang, Aikins and Mystkowski (2005). Treatment followed the protocol but remained flexible to her needs, with weekly sessions, readings and homework.",
+    "w": [
+      "These are psychodynamic techniques, not MAP-5 components.",
+      "MAP-5 is a psychological CBT protocol.",
+      "These are not the listed MAP-5 components."
+    ],
+    "k": "MAP-5 = psychoeducation + breathing retraining + relaxation + cognitive restructuring + interoceptive + in vivo exposure.",
+    "h": "Learn, breathe, relax, rethink, feel it, face it.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: treatment approach"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "In session 1, which 'unhelpful coping methods' were linked to maintaining Annie's PDA?",
+    "o": [
+      "Avoidance, distraction and safety signals (her husband as safety person)",
+      "Breathing retraining and progressive muscle relaxation",
+      "Self-monitoring records and weekly homework readings",
+      "Cognitive restructuring and graded exposure exercises"
+    ],
+    "e": "Session 1 oriented Annie to therapy and introduced psychoeducation about panic disorder and agoraphobia: their nature, symptoms, prevalence, biological and psychological factors and the role of stress. Annie recognized beliefs that contribute to panic disorder, such as believing panic attacks are harmful and inevitable. Unhelpful coping methods (avoidance, distraction, safety signals) were introduced as contributing factors; Annie said she avoids anxiety-provoking situations and relies on her husband as a safety person.",
+    "w": [
+      "These are treatment skills, not unhelpful coping.",
+      "These are treatment tools, not maintaining factors.",
+      "These are therapeutic techniques, not unhelpful coping."
+    ],
+    "k": "Unhelpful coping that maintains panic: avoidance, distraction, safety signals (e.g. a safety person).",
+    "h": "What feels safe keeps the fear.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: session 1"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "How was the panic cycle explained to Annie in session 3?",
+    "o": [
+      "A bodily trigger is read as threat, creating more sensations until panic",
+      "Panic is caused only by unresolved conflicts from early childhood",
+      "Panic attacks are random brain events that have no trigger at all",
+      "Panic is always caused by a drop in blood sugar after skipped meals"
+    ],
+    "e": "Session 3 introduced negative cycles of panic and agoraphobia: physical symptoms, anxious thoughts and avoidance reinforcing each other. Anxiety is a normal emotion but problematic when it occurs without real threat. Panic disorder was explained as a cycle beginning with a trigger, such as a physical symptom resembling panic, which is perceived as threatening; this causes more anxiety sensations, which can lead to a panic attack. Annie analyzed a recent attack that started with dizziness on waking.",
+    "w": [
+      "The cycle described is cognitive-behavioral, not psychodynamic.",
+      "The cycle starts with an identifiable trigger.",
+      "Medical causes are ruled out, not assumed."
+    ],
+    "k": "Panic cycle: sensation → perceived threat → more sensations → panic; thoughts, behaviors and sensations feed each other.",
+    "h": "Fear of the feeling fuels the feeling.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: session 3"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "Why was Annie told to practice breathing and relaxation when she was NOT anxious?",
+    "o": [
+      "Skills must be mastered in calm moments before they can be used under anxiety",
+      "Practicing during anxiety is dangerous",
+      "Relaxation works only at night",
+      "Breathing exercises cause panic if done during anxiety"
+    ],
+    "e": "Sessions 5 and 6 covered breathing retraining and relaxation. The therapist explained that hyperventilation is related to panic, as a trigger or concomitant, and taught slow abdominal breathing. Annie found it helpful when anxious but forgot to practice otherwise. The course stresses that breathing and relaxation skills should be practiced when not feeling anxious in order to master them. Session 6 introduced 15-muscle-group progressive muscle relaxation, alternately tensing and relaxing muscle groups.",
+    "w": [
+      "Practicing during anxiety is not described as dangerous.",
+      "Relaxation is practiced daily, not only at night.",
+      "Breathing retraining is a coping skill, not a panic trigger."
+    ],
+    "k": "Practice breathing and progressive muscle relaxation in calm moments to master them; hyperventilation can trigger or accompany panic.",
+    "h": "Train in calm water before the storm.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: sessions 5–6"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "During cognitive work, Annie estimated the probability of fainting during panic. What did she conclude?",
+    "o": [
+      "Less than 1%, since panic has never actually made her faint",
+      "About 50%, so avoidance is justified",
+      "About 90%, so she should carry Xanax always",
+      "It is certain, so she should not go out alone"
+    ],
+    "e": "Sessions 7–9 introduced automatic thoughts and two thinking patterns that raise anxiety: overestimating the probability of negative events and catastrophizing benign events. Annie often thought she would faint, though this had never happened during a panic attack. Working on realistic probabilities, she estimated the chance of fainting while panicking at less than 1%, recognized she had survived every attack without disaster, and wrote coping statements such as 'I don't need an explanation in order to deal with this symptom.'",
+    "w": [
+      "Annie's own estimate was below 1%.",
+      "This reflects the overestimation being challenged.",
+      "Certainty is the catastrophic belief targeted."
+    ],
+    "k": "Cognitive restructuring: correct probability overestimation (fainting < 1%) and catastrophizing; use coping self-statements.",
+    "h": "Feared often, happened never.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: sessions 7–9"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 3,
+    "q": "In-session interoceptive exercises barely raised Annie's anxiety except hyperventilation. Why, and what did the therapist do?",
+    "o": [
+      "She knew she was causing the sensations; the therapist shifted to in vivo exposure to avoided situations",
+      "She was taking too much Xanax; the therapist stopped her medication",
+      "She was not motivated; the therapist ended treatment",
+      "The exercises were too strong; the therapist used relaxation only"
+    ],
+    "e": "In sessions 10–12 Annie tried symptom-inducing exercises (hyperventilating, breath holding, head shaking) and rated intensity, anxiety and similarity to panic. Only hyperventilation produced significant anxiety (6/8 intensity, 5/8 anxiety, 4/8 similarity), and it fell to 2/8 by the next session because she 'knew what to expect'. Exercises at home also failed, because she knew she was causing the sensations. The therapist therefore shifted to real-life (in vivo) exposure to situations she had been avoiding, which succeeded.",
+    "w": [
+      "Medication was not the explanation or the change made.",
+      "Treatment continued with a new exposure strategy.",
+      "Exposure was intensified through real situations, not abandoned."
+    ],
+    "k": "When self-induced sensations don't evoke fear, move to in vivo exposure to avoided situations.",
+    "h": "If the lab is too safe, go to the street.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: sessions 10–16; strategies for dealing with problems"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "On Annie's agoraphobia hierarchy (0–8), which situation was rated MOST anxiety-provoking?",
+    "o": [
+      "Being home with her husband gone (7/8)",
+      "Not reaching her husband by phone (3/8)",
+      "Going to a large store alone (4/8)",
+      "Waking up with her husband gone (6/8)"
+    ],
+    "e": "Annie built an agoraphobia hierarchy: not being able to reach her husband by phone (3/8), going to a large store alone (4), waking up with her husband gone (6), staying overnight somewhere without him (6), and being home with him gone (7). She began with going to the store alone twice a week for half an hour, after which anxiety fell to 2–3/8; she then visited a friend overnight with only mild anxiety, and practiced staying in bed after her husband left.",
+    "w": [
+      "This was the lowest-rated item on her hierarchy.",
+      "Going to a large store alone was rated 4/8.",
+      "This was rated 6/8, below being home with him gone."
+    ],
+    "k": "Annie's hierarchy topped out at being home without her husband (7/8); exposure started low (store alone) and moved up.",
+    "h": "Climb from the store to an empty home.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: sessions 13–16"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 2,
+    "q": "In session 17, how was Annie's husband advised to respond when she asked him to accompany her?",
+    "o": [
+      "Support without enabling: ask if she really needs him, prompt her coping skills",
+      "Always accompany her everywhere, so that panic cannot occur",
+      "Refuse every request harshly so that she learns to cope alone",
+      "Give her an extra dose of Xanax instead of going with her"
+    ],
+    "e": "Annie brought her husband to session 17 so he could be included in her exposure practice at home. The therapist emphasized being supportive but not enabling, and suggested ways he could be her teammate. If Annie asked him to come to the store or another anxiety-provoking place, he could ask whether she really needed him or whether it might be better to go alone. When she called him anxious, rather than reassuring her immediately, he could remind her to use her coping skills.",
+    "w": [
+      "Always accompanying her would reinforce the safety-person pattern.",
+      "The advice is supportive, not harsh.",
+      "Medication was not part of the husband's role."
+    ],
+    "k": "Partner as teammate: supportive, not enabling; question the need for accompaniment; prompt coping skills instead of reassurance.",
+    "h": "Coach, don't carry.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: session 17"
+  },
+  {
+    "t": "Annie: treatment",
+    "d": 3,
+    "q": "After about 17 sessions Annie had a dozen intense panic attacks in a few days and felt she was 'back at square one'. How did the therapist respond?",
+    "o": [
+      "Analyzed the episode step by step and framed it as a stumbling block, not a failure",
+      "Ended treatment because the protocol had failed",
+      "Told her to avoid all triggers until the panic stopped",
+      "Restarted the protocol from session 1"
+    ],
+    "e": "Annie arrived distressed after a series of intense panic attacks, beginning with nocturnal attacks and leading to fear of sleep. The therapist reviewed the attacks step by step: after the first, Annie had stopped using her coping strategies and dwelt on her fear, and her expectation of more attacks increased panic. They discussed that she was not back at square one, emphasizing what she had accomplished, put the episode in perspective as a stumbling block rather than a sign of failure, and planned to use coping strategies more effectively.",
+    "w": [
+      "Treatment continued, with an estimated 10–15 more sessions.",
+      "Avoidance would undo the exposure work.",
+      "Progress was reviewed rather than discarded."
+    ],
+    "k": "Setbacks: analyze step by step, find where coping stopped, reframe as a stumbling block, reinforce progress.",
+    "h": "A setback is a step, not a reset.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: sessions 18–20"
+  },
+  {
+    "t": "Annie: principles",
+    "d": 2,
+    "q": "According to the course, which interventions have produced the most rapid therapeutic gains in PDA?",
+    "o": [
+      "Exposure in vivo and imaginal flooding",
+      "Supportive listening alone",
+      "Insight-oriented interpretation of childhood",
+      "Medication alone without exposure"
+    ],
+    "e": "Controlled studies have validated interventions for PDA that reduce distress, encourage mobility and help clients abandon escape and avoidance. The course states that exposure in vivo and imaginal flooding (confrontive, prolonged exposure to real and imagined feared situations) have produced the most rapid therapeutic gains. Panic control treatment consists of exposure to somatic cues, cognitive restructuring and breathing retraining. The clinician acts as morale-booster, supportive coach and collaborative problem-solver.",
+    "w": [
+      "Support alone is not identified as producing rapid gains.",
+      "Insight-oriented work is not cited as the most rapid.",
+      "Medication alone is not named as producing the fastest gains."
+    ],
+    "k": "PDA: in vivo exposure and imaginal flooding → fastest gains; panic control treatment = somatic-cue exposure + cognitive restructuring + breathing retraining.",
+    "h": "Face it, fully and long.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: key principles"
+  },
+  {
+    "t": "Annie: principles",
+    "d": 3,
+    "q": "Why did the therapist choose voluntary hyperventilation rather than staring at a spot on the wall for Annie's exposure?",
+    "o": [
+      "She feared breathlessness, not the unreality that staring tends to produce",
+      "Staring at a spot on the wall can damage the eyes",
+      "Hyperventilation is the only exercise included in MAP-5",
+      "Annie refused every other exercise the therapist offered"
+    ],
+    "e": "Clinicians adapt protocol elements to the client's presentation. Annie feared breathlessness but not feelings of unreality. The therapist therefore had her confront panic elements by practicing voluntary hyperventilation rather than staring at a spot on a wall, an exercise shown to produce depersonalization or derealization symptoms (Craske & Barlow, 2006). Matching the exercise to the client's actual feared sensation is what makes interoceptive exposure effective.",
+    "w": [
+      "Safety of the eyes is not the reason given.",
+      "Annie also tried breath holding and head shaking.",
+      "Refusal of exercises is not mentioned in the case."
+    ],
+    "k": "Match interoceptive exercises to the feared sensation: breathlessness → hyperventilation; unreality → staring at a spot.",
+    "h": "Expose the fear she has, not one she doesn't.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: dealing with nonspecifics"
+  },
+  {
+    "t": "Annie: principles",
+    "d": 2,
+    "q": "In CBT for PDA, which therapist stance was associated with better outcomes, according to the course?",
+    "o": [
+      "Empathy and warmth early, then a directive stance once goals and methods were agreed",
+      "A directive stance from the very first minute, without warmth",
+      "Complete nondirectiveness throughout therapy",
+      "Making the relationship itself the central mechanism of change"
+    ],
+    "e": "Effective cognitive behavioral therapists show competence in relationship skills; clients who rated their therapists as respectful and understanding made greater progress. In CBT, the relationship matters but is not the central mechanism of change. Specifically in CBT for PDA, better outcomes were seen when therapists emphasized empathy and warmth in early sessions and took a directive stance once the goals and methods of therapy had been established and agreed upon.",
+    "w": [
+      "Warmth in early sessions was linked to better outcomes.",
+      "CBT for PDA becomes directive once goals are set.",
+      "In CBT the relationship is important but not the central mechanism."
+    ],
+    "k": "CBT for PDA: warm and empathic first, directive after goals are agreed; relationship important but not the change mechanism.",
+    "h": "Warm first, then lead.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: dealing with nonspecifics"
+  },
+  {
+    "t": "Annie: principles",
+    "d": 2,
+    "q": "Annie arrived late and once missed a session. How did her therapist handle it, and what approach does this resemble?",
+    "o": [
+      "Briefly noted disappointment and moved on, a 'soft sell' akin to motivational interviewing",
+      "Spent a whole session interpreting the meaning of lateness",
+      "Terminated therapy for non-compliance",
+      "Confronted her forcefully to ensure compliance"
+    ],
+    "e": "Annie expected a big issue to be made of her lateness, as a former therapist had spent an entire session exploring its meaning. The current therapist briefly registered disappointment at having less time and quickly moved to the day's topics; Annie was punctual from then on. This 'soft sell' has elements in common with motivational interviewing, which builds engagement through a nonthreatening, receptive attitude that supports clients' mixed feelings, rather than confrontation or browbeating.",
+    "w": [
+      "This is what the former therapist did, unhelpfully.",
+      "Therapy continued; it was not terminated.",
+      "Motivational interviewing avoids confrontation and browbeating."
+    ],
+    "k": "Handle lateness with a light 'soft sell' (MI-like): brief acknowledgment, refocus on goals, no confrontation.",
+    "h": "Note it lightly, move on.",
+    "r": "Psychological Tools & Strategies course – Ch. 5 Annie: strategies for dealing with problems"
+  }
+]

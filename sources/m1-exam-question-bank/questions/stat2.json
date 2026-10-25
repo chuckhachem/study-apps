@@ -1,0 +1,643 @@
+[
+  {
+    "t": "Ch2 Central tendency",
+    "d": 1,
+    "q": "For the scores 2, 4, 4, 5, 7, 8, 40, which set of values is correct?",
+    "o": [
+      "Mean 10, median 5, mode 4",
+      "Mean 5, median 10, mode 4",
+      "Mean 10, median 4, mode 5",
+      "Mean 10, median 7, mode 4"
+    ],
+    "e": "Sum = 70 and n = 7, so the mean is 10. In order, the middle (4th) score is 5, so the median is 5. 4 appears twice, so the mode is 4. The single extreme score of 40 pulls the mean far above the median.",
+    "w": [
+      "This swaps the mean and median: the mean is 70/7 = 10 and the middle score is 5.",
+      "This swaps the median and mode: 4 is the most frequent value, 5 is the middle one.",
+      "7 is the 5th score, not the middle; the 4th of 7 ordered scores is 5."
+    ],
+    "k": "Mean = sum/n; median = middle ordered score; mode = most frequent; outliers drag the mean.",
+    "h": "The 40 is a heavyweight on the mean's seesaw.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Mean, median and mode"
+  },
+  {
+    "t": "Ch2 Central tendency",
+    "d": 1,
+    "q": "In the scores 2, 4, 4, 5, 7, 8, 40, which measure of central tendency is least affected by the score of 40?",
+    "o": [
+      "The median",
+      "The mean",
+      "The sum of the scores",
+      "The midpoint of the range"
+    ],
+    "e": "The median depends only on rank position. Change 40 to 400 and the median stays 5, while the mean would jump to about 61. The mean uses every value, so extreme scores distort it.",
+    "w": [
+      "The mean uses every value, so the 40 pulls it strongly upward.",
+      "The sum includes the 40 directly, so it's heavily affected.",
+      "The midpoint of the range uses the maximum, so the 40 shifts it most of all."
+    ],
+    "k": "The median depends only on rank position, so it resists outliers.",
+    "h": "Median = middle of the road, unmoved by one car in the ditch.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Robustness of the median"
+  },
+  {
+    "t": "Ch2 Central tendency",
+    "d": 1,
+    "q": "A distribution with two equally common peak values is described as:",
+    "o": [
+      "Bimodal",
+      "Leptokurtic",
+      "Positively skewed",
+      "Platykurtic"
+    ],
+    "e": "Each peak is a mode, so two peaks make the distribution bimodal (more than two: multimodal). Kurtosis and skew describe tails and asymmetry, not the number of peaks.",
+    "w": [
+      "Leptokurtic describes heavy tails, not the number of peaks.",
+      "Positive skew describes a long right tail, not two peaks.",
+      "Platykurtic describes light tails and a flat shape, not two peaks."
+    ],
+    "k": "Two peaks = bimodal; skew and kurtosis describe asymmetry and tails.",
+    "h": "Bi-modal: two modes, two humps like a camel.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The mode"
+  },
+  {
+    "t": "Ch2 Central tendency",
+    "d": 2,
+    "q": "For a nominal variable such as preferred therapy type, which measure of central tendency is meaningful?",
+    "o": [
+      "Only the mode",
+      "Only the median",
+      "The mean and the median",
+      "The mean, median and mode"
+    ],
+    "e": "Nominal categories have no order and no numeric distance, so a median or mean cannot be computed meaningfully. The mode (the most frequent category) is the only option.",
+    "w": [
+      "A median needs ordered values, which nominal categories lack.",
+      "Means need numeric distances, which nominal categories lack.",
+      "Only the mode applies to nominal data; mean and median don't."
+    ],
+    "k": "Nominal data have no order or distance, so only the mode is meaningful.",
+    "h": "Names can only be counted, not averaged.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Central tendency and measurement level"
+  },
+  {
+    "t": "Ch2 Central tendency",
+    "d": 1,
+    "q": "What is the median of 3, 5, 8, 10?",
+    "o": [
+      "6.5",
+      "5",
+      "8",
+      "6.0"
+    ],
+    "e": "With an even number of scores, the median is the average of the two middle values: (5 + 8) / 2 = 6.5.",
+    "w": [
+      "5 is only the lower of the two middle values; with an even n you average them.",
+      "8 is only the upper middle value; the median averages 5 and 8.",
+      "6.0 is wrong arithmetic: (5 + 8)/2 = 6.5."
+    ],
+    "k": "With an even number of scores, the median is the mean of the two middle scores.",
+    "h": "Even count: split the middle pair.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The median"
+  },
+  {
+    "t": "Ch2 Central tendency",
+    "d": 3,
+    "q": "Seeing the mean as a statistical model of the data implies that each score's deviation from the mean is:",
+    "o": [
+      "The error in the model's prediction for that score",
+      "The true score of that participant on the construct",
+      "The systematic effect of the variable being studied",
+      "A sampling error that disappears as n increases"
+    ],
+    "e": "Field's framework treats every statistic as a model: outcome = model + error. The mean predicts each score, and the deviation (score − mean) is how wrong that prediction is. Summing squared deviations measures how well the model fits, an idea reused in regression and ANOVA.",
+    "w": [
+      "The true score is unknown; the deviation is the model's error, not the truth.",
+      "Systematic effects are explained by the model; deviations here are what's left unexplained.",
+      "Deviations from the mean don't vanish with larger samples; individuals still differ."
+    ],
+    "k": "Outcome = model + error: each deviation from the mean is that score's error.",
+    "h": "Outcome = model + error: every test is this equation in a new costume.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The mean as a model"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "Why are deviations from the mean squared before they are summed?",
+    "o": [
+      "Because raw deviations from the mean always sum to zero",
+      "Because squaring converts ordinal data into interval data",
+      "Because squaring reduces the influence of extreme scores",
+      "Because squared values are needed for a normal distribution"
+    ],
+    "e": "Positive and negative deviations cancel exactly: Σ(x − x̄) = 0 for any data. Squaring makes every deviation positive, giving the sum of squared errors (SS). Squaring actually increases the influence of extreme scores, which is why the SD is sensitive to outliers.",
+    "w": [
+      "Squaring doesn't change the level of measurement.",
+      "Squaring increases, not reduces, the influence of extreme scores.",
+      "Squaring isn't required by the normal distribution; it stops positives and negatives cancelling."
+    ],
+    "k": "Raw deviations from the mean always sum to zero, so we square them (SS).",
+    "h": "Plus and minus cancel; squares don't.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Sum of squared errors"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "What are the variance and standard deviation of the sample 2, 4, 6?",
+    "o": [
+      "Variance 4, SD 2",
+      "Variance 8, SD 2.83",
+      "Variance 2.67, SD 1.63",
+      "Variance 2, SD 1.41"
+    ],
+    "e": "The mean is 4. Deviations are −2, 0, 2, so the squared deviations sum to SS = 8. Sample variance = SS / (n − 1) = 8 / 2 = 4, and SD = √4 = 2. Dividing by n (8/3 = 2.67) would give the population formula, which underestimates the population variance when used on a sample.",
+    "w": [
+      "8 is SS itself, not divided by n − 1; its root 2.83 isn't the SD.",
+      "2.67 divides SS by n (population formula) instead of n − 1.",
+      "2 divides SS by 4 (n + 1) instead of n − 1 = 2, so both values are too small."
+    ],
+    "k": "Sample variance = SS/(n − 1); SD = √variance.",
+    "h": "Square, sum, divide by n − 1, square root.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Variance and SD"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "Why is the sample variance computed with n − 1 rather than n in the denominator?",
+    "o": [
+      "Fitting the sample mean uses one degree of freedom, so dividing by n underestimates the population variance",
+      "Dividing by n would make the sample variance larger than the true population variance it is meant to estimate",
+      "Dividing by n − 1 makes the variance robust to outliers and to skewed distributions of scores",
+      "The n − 1 correction converts the variance back into the original units in which the data were measured"
+    ],
+    "e": "Deviations are taken around the sample mean, which is fitted to the same data, so they are slightly too small. Once the mean is fixed, only n − 1 scores are free to vary (degrees of freedom). Dividing by n − 1 corrects this bias. Units are restored by taking the square root (the SD), not by n − 1.",
+    "w": [
+      "This reverses it: dividing by n makes the estimate too small, not too large.",
+      "n − 1 corrects bias; it doesn't make the variance robust to outliers.",
+      "The square root restores original units, not the n − 1 correction."
+    ],
+    "k": "Dividing by n − 1 corrects for using the sample mean; only n − 1 scores are free to vary.",
+    "h": "One degree of freedom spent on the mean.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Degrees of freedom"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "Why is the variance preferred over the raw sum of squared errors (SS) for comparing spread across samples?",
+    "o": [
+      "SS grows with the number of scores, while the variance is an average",
+      "SS cannot be calculated when the data contain any negative values",
+      "The variance is expressed in the original units of measurement",
+      "The variance is unaffected by extreme scores, unlike the SS"
+    ],
+    "e": "Adding more scores always adds more squared deviations, so a sample of 100 has a larger SS than a sample of 10 even with the same spread. Dividing by the degrees of freedom gives an average. The variance is in squared units; the SD returns to the original units.",
+    "w": [
+      "SS can be computed with negative scores; deviations are squared anyway.",
+      "The variance is in squared units; the SD is in original units.",
+      "The variance is still sensitive to extreme scores."
+    ],
+    "k": "SS grows with n; variance averages it, so samples of different size can be compared.",
+    "h": "SS is a total; variance is an average.",
+    "r": "Stats & SPSS ch. 2 · Describing data · From SS to variance"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 1,
+    "q": "A small standard deviation relative to the mean indicates that:",
+    "o": [
+      "Scores cluster closely around the mean, so the mean represents them well",
+      "The sample size is small and the estimate of the mean is unreliable",
+      "The distribution is skewed, with a long tail toward the higher scores",
+      "Most of the scores lie a long way from the mean of the distribution"
+    ],
+    "e": "The SD is roughly the typical distance of scores from the mean. A small SD means most people scored near the mean, so the mean is a good model of the data. A large SD means the mean represents individuals poorly.",
+    "w": [
+      "SD reflects spread, not sample size or the reliability of the mean estimate.",
+      "A small SD says nothing about skew.",
+      "This describes a large SD, not a small one."
+    ],
+    "k": "Small SD = scores cluster near the mean, so the mean fits well.",
+    "h": "Small SD, tight huddle.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The standard deviation"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 1,
+    "q": "The interquartile range is:",
+    "o": [
+      "Q3 − Q1, the range of the middle 50% of scores",
+      "The maximum score minus the minimum score",
+      "The average distance of scores from the median",
+      "Q2 − Q1, the spread of the lower half of scores"
+    ],
+    "e": "The IQR cuts off the lowest and highest 25% and measures the spread of what remains. Because the extremes are discarded, it is robust to outliers, unlike the range (maximum − minimum).",
+    "w": [
+      "Maximum minus minimum is the range, which outliers distort.",
+      "Average distance from the median isn't the IQR.",
+      "Q2 − Q1 covers only a quarter of the data, not the middle 50%."
+    ],
+    "k": "IQR = Q3 − Q1, the middle 50%, robust to outliers.",
+    "h": "Trim the top and bottom quarters, measure what's left.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Range and IQR"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "Adding 10 points to every score in a sample changes the mean and SD how?",
+    "o": [
+      "The mean rises by 10 and the SD is unchanged",
+      "Both the mean and the SD rise by 10",
+      "The mean is unchanged and the SD rises by 10",
+      "The mean rises by 10 and the SD rises by √10"
+    ],
+    "e": "Shifting all scores moves the centre but not the distances between scores, so the SD (and the variance) stay the same. Multiplying every score by a constant c, by contrast, multiplies the SD by |c| and the variance by c².",
+    "w": [
+      "Adding a constant shifts scores together, so distances and the SD don't change.",
+      "The mean does change; adding 10 to every score raises it by 10.",
+      "Adding a constant never changes the SD, by √10 or otherwise."
+    ],
+    "k": "Adding a constant shifts the mean but leaves SD and variance unchanged.",
+    "h": "Lift the whole group; the gaps stay the same.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Linear transformations"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 2,
+    "q": "How does a single extreme outlier affect the standard deviation?",
+    "o": [
+      "It inflates it, because its squared deviation is very large",
+      "It barely changes it, because the SD is a robust statistic",
+      "It reduces it, because it pulls the mean toward itself",
+      "It has no effect unless the sample size is under 30"
+    ],
+    "e": "Deviations are squared, so one score far from the mean contributes disproportionately to the SS and inflates the SD. This is why outliers bias the SD as well as the mean, and why the IQR is the robust alternative.",
+    "w": [
+      "The SD isn't robust; squared deviations make it sensitive to outliers.",
+      "The outlier's huge squared deviation increases the SD, despite moving the mean.",
+      "Outliers inflate the SD at any sample size."
+    ],
+    "k": "Outliers inflate the SD because their deviations are squared.",
+    "h": "Squaring turns one big miss into a giant one.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Outliers and the SD"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 2,
+    "q": "A distribution with a long tail stretching toward the high scores is:",
+    "o": [
+      "Positively skewed, with the mean typically above the median",
+      "Negatively skewed, with the mean typically below the median",
+      "Positively skewed, with the median typically above the mean",
+      "Leptokurtic, with the mean and median typically equal"
+    ],
+    "e": "Skew is named after the tail: tail to the right (high values) is positive skew. The few very high scores pull the mean up, so typically mean > median > mode. Mnemonic: the tail tells the tale, and the mean follows the tail.",
+    "w": [
+      "Negative skew has its tail toward low scores.",
+      "In positive skew the mean, pulled by the tail, is usually above the median.",
+      "Leptokurtic describes heavy tails; it doesn't imply a right tail or equal mean and median."
+    ],
+    "k": "Tail toward high scores = positive skew; mean usually > median.",
+    "h": "The tail tells the tale, and the mean follows the tail.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Skewness"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 2,
+    "q": "Which variable is most likely to be positively skewed in a community sample?",
+    "o": [
+      "Number of alcoholic drinks per week",
+      "Height in centimetres",
+      "Score on a well-designed IQ test",
+      "Age at which people learn to walk in months"
+    ],
+    "e": "Drink counts have a floor at zero, most people drink little, and a few drink a great deal, giving a long right tail. Height and IQ are close to symmetric. Age at walking is fairly compact around 12 months.",
+    "w": [
+      "Height is roughly symmetric in a population.",
+      "A well-designed IQ test is built to be roughly normal.",
+      "Age at walking is fairly compact around 12 months."
+    ],
+    "k": "Counts with a floor at zero and a few high values tend to be positively skewed.",
+    "h": "Most drink little, a few drink lots: long right tail.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Skewness"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 2,
+    "q": "An exam is so easy that most students score near 100%. The score distribution is most likely:",
+    "o": [
+      "Negatively skewed",
+      "Positively skewed",
+      "Platykurtic and symmetrical",
+      "Normal, because the sample is large"
+    ],
+    "e": "A ceiling effect bunches scores at the top and leaves a tail toward the low scores (a few students who struggled). A tail to the left is negative skew. Floor effects (a very hard test) produce positive skew.",
+    "w": [
+      "Positive skew comes from a floor effect, such as a very hard test.",
+      "A ceiling effect creates asymmetry, not a flat symmetric shape.",
+      "Large samples don't make a ceiling-limited distribution normal."
+    ],
+    "k": "Ceiling effects create negative skew; floor effects create positive skew.",
+    "h": "Scores piled at the ceiling, tail dripping down.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Ceiling and floor effects"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 2,
+    "q": "A leptokurtic distribution has:",
+    "o": [
+      "Heavy tails and positive kurtosis",
+      "Light tails and negative kurtosis",
+      "A long tail on the right side",
+      "Two distinct peaks of equal height"
+    ],
+    "e": "Kurtosis concerns the tails. Leptokurtic ('lepto' = slender, like a tall thin peak with fat tails) means more scores in the tails than a normal distribution, so positive kurtosis. Platykurtic ('platy' = flat, as in platypus or plateau) means light tails and negative kurtosis.",
+    "w": [
+      "Light tails and negative kurtosis describe a platykurtic distribution.",
+      "A long right tail is positive skew.",
+      "Two peaks describe a bimodal distribution."
+    ],
+    "k": "Leptokurtic = heavy tails, positive kurtosis; platykurtic = light tails, negative kurtosis.",
+    "h": "Platykurtic is flat like a plateau; leptokurtic leaps up.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Kurtosis"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 2,
+    "q": "For a perfectly normal distribution, what kurtosis value does SPSS report?",
+    "o": [
+      "0",
+      "1",
+      "3",
+      "−3"
+    ],
+    "e": "SPSS reports excess kurtosis, which subtracts the normal distribution's raw kurtosis of 3. A normal distribution therefore shows 0, positive values mean heavy tails, and negative values mean light tails. Skewness is also 0 for a normal distribution.",
+    "w": [
+      "1 isn't the reference value for SPSS kurtosis.",
+      "3 is raw kurtosis; SPSS reports excess kurtosis (raw − 3).",
+      "−3 would mean extremely light tails, not normality."
+    ],
+    "k": "SPSS reports excess kurtosis: 0 for a normal distribution.",
+    "h": "Normal = zero excess.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Kurtosis in SPSS output"
+  },
+  {
+    "t": "Ch2 The normal distribution",
+    "d": 1,
+    "q": "In a normal distribution, what percentage of scores lies within ±1.96 standard deviations of the mean?",
+    "o": [
+      "95%",
+      "68%",
+      "99%",
+      "90%"
+    ],
+    "e": "About 68% fall within ±1 SD, 95% within ±1.96 SD, 99% within ±2.58 SD and 99.9% within ±3.29 SD. These cut-offs reappear when building confidence intervals and screening z-scores for outliers.",
+    "w": [
+      "68% is the share within ±1 SD, a narrower band than ±1.96.",
+      "99% needs a wider band of ±2.58 SD, not ±1.96.",
+      "90% lies within about ±1.64 SD."
+    ],
+    "k": "±1.96 SD contains 95% of a normal distribution.",
+    "h": "1.96, 2.58, 3.29 mark 95, 99 and 99.9 percent.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The normal distribution"
+  },
+  {
+    "t": "Ch2 The normal distribution",
+    "d": 2,
+    "q": "Which z-value cuts off the central 99% of a normal distribution?",
+    "o": [
+      "±2.58",
+      "±1.96",
+      "±3.29",
+      "±1.64"
+    ],
+    "e": "±2.58 leaves 0.5% in each tail (1% total). ±1.96 cuts off the central 95%, ±3.29 the central 99.9%, and 1.64 is the one-tailed 5% cut-off.",
+    "w": [
+      "±1.96 cuts off the central 95%.",
+      "±3.29 cuts off the central 99.9%.",
+      "1.64 is the one-tailed 5% cut-off."
+    ],
+    "k": "±2.58 cuts off the central 99% (0.5% in each tail).",
+    "h": "2.58 for 99.",
+    "r": "Stats & SPSS ch. 2 · Describing data · The normal distribution"
+  },
+  {
+    "t": "Ch2 z-scores",
+    "d": 1,
+    "q": "An IQ test has a mean of 100 and an SD of 15. What is the z-score for an IQ of 130?",
+    "o": [
+      "2.00",
+      "1.30",
+      "0.50",
+      "30.0"
+    ],
+    "e": "z = (X − mean) / SD = (130 − 100) / 15 = 2. The score is two standard deviations above the mean.",
+    "w": [
+      "1.30 divides 130 by 100 instead of subtracting the mean and dividing by the SD.",
+      "0.50 inverts the ratio (15/30); z is the difference divided by the SD, 30/15 = 2.",
+      "30.0 is the raw difference, not divided by the SD."
+    ],
+    "k": "z = (X − mean)/SD: the number of SDs a score lies from the mean.",
+    "h": "How many SD steps from the mean?",
+    "r": "Stats & SPSS ch. 2 · Describing data · z-scores"
+  },
+  {
+    "t": "Ch2 z-scores",
+    "d": 2,
+    "q": "Roughly what proportion of a normal population scores above z = 2?",
+    "o": [
+      "About 2.3%",
+      "About 5%",
+      "About 16%",
+      "About 0.1%"
+    ],
+    "e": "About 97.7% of a normal distribution lies below z = 2, so about 2.3% lies above. For comparison, 16% lies above z = 1, and 2.5% lies above z = 1.96.",
+    "w": [
+      "5% is the two-tailed area beyond ±1.96, not above z = 2.",
+      "16% lies above z = 1.",
+      "0.1% lies beyond about z = 3.1, much further out."
+    ],
+    "k": "About 2.3% of a normal distribution lies above z = 2.",
+    "h": "Two SDs up: about 2 in 100.",
+    "r": "Stats & SPSS ch. 2 · Describing data · z-scores and probability"
+  },
+  {
+    "t": "Ch2 z-scores",
+    "d": 2,
+    "q": "A client's score has z = −1. Approximately which percentile is this?",
+    "o": [
+      "16th",
+      "34th",
+      "5th",
+      "50th"
+    ],
+    "e": "About 84% of a normal distribution lies below z = +1, so by symmetry about 16% lies below z = −1. The score beats roughly 16% of the norm group.",
+    "w": [
+      "34% is the area between the mean and z = −1, not below it.",
+      "The 5th percentile corresponds to about z = −1.64.",
+      "The 50th percentile is z = 0."
+    ],
+    "k": "z = −1 ≈ 16th percentile; z = +1 ≈ 84th.",
+    "h": "One SD down: 16 percent below you.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Percentiles from z"
+  },
+  {
+    "t": "Ch2 z-scores",
+    "d": 3,
+    "q": "After converting a positively skewed variable to z-scores, what is true of the new variable?",
+    "o": [
+      "Its mean is 0 and SD is 1, but it is still positively skewed",
+      "It becomes normally distributed with a mean of 0 and SD of 1",
+      "Its skew is removed, but its mean and SD are unchanged",
+      "It has a mean of 1 and an SD of 0 and keeps its skew"
+    ],
+    "e": "Standardizing subtracts a constant and divides by a constant, which changes the centre and scale but not the shape. A skewed variable stays exactly as skewed. Standardizing is not a fix for non-normality; transformations such as a log do change shape.",
+    "w": [
+      "Standardizing doesn't change shape, so it won't become normal.",
+      "Standardizing changes the mean and SD to 0 and 1 but leaves skew.",
+      "z-scores have mean 0 and SD 1, not the reverse."
+    ],
+    "k": "z-scores have mean 0 and SD 1 but keep the original shape: standardized isn't normalized.",
+    "h": "Same shape, new ruler.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Standardization",
+    "n": "A common exam trap: z-scores are not 'normal scores'. Standardized does not mean normalized."
+  },
+  {
+    "t": "Ch2 z-scores",
+    "d": 2,
+    "q": "What is the probability of a score at least 1.96 SD above the mean of a normal distribution?",
+    "o": [
+      ".025",
+      ".05",
+      ".01",
+      ".975"
+    ],
+    "e": "5% of scores lie beyond ±1.96 SD, split equally between the two tails, so 2.5% (.025) lie above +1.96. This is why a two-tailed test at α = .05 puts .025 in each tail.",
+    "w": [
+      ".05 is the two-tailed total beyond ±1.96, not one tail.",
+      ".01 corresponds to ±2.58 (two-tailed) or 2.33 (one-tailed).",
+      ".975 is the area below +1.96, not above it."
+    ],
+    "k": "Above +1.96 SD: p = .025 (half of the two-tailed 5%).",
+    "h": "Split 5% into two tails: 2.5% each.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Probability"
+  },
+  {
+    "t": "Ch2 SPSS descriptives",
+    "d": 2,
+    "q": "How do you create a z-score version of a variable in SPSS?",
+    "o": [
+      "Analyze → Descriptive Statistics → Descriptives, then tick 'Save standardized values as variables'",
+      "Analyze → Descriptive Statistics → Frequencies, then tick 'Quartiles', 'Percentiles' and 'Std. deviation'",
+      "Transform → Recode into Different Variables, then recode each value into its rank among the scores",
+      "Data → Split File, then choose 'Compare groups' and run the Descriptives procedure on the variable"
+    ],
+    "e": "The Descriptives dialog has a 'Save standardized values as variables' tick box. SPSS adds a new column with the same name prefixed by Z (anxiety → Zanxiety). These z-scores are handy for spotting outliers (|z| > 3.29).",
+    "w": [
+      "Frequencies reports statistics but doesn't save z-scores.",
+      "Recoding into ranks creates ranks, not z-scores.",
+      "Split File divides analyses by group; it doesn't standardize."
+    ],
+    "k": "SPSS: Descriptives → 'Save standardized values as variables' creates Z-prefixed variables.",
+    "h": "Tick the box, get a Z.",
+    "r": "Stats & SPSS ch. 2 · SPSS · Descriptives and z-scores"
+  },
+  {
+    "t": "Ch2 SPSS descriptives",
+    "d": 2,
+    "q": "Which SPSS procedure gives the mean, median, mode, quartiles, skewness and kurtosis in one table, plus a histogram?",
+    "o": [
+      "Analyze → Descriptive Statistics → Frequencies",
+      "Analyze → Compare Means → One-Sample T Test",
+      "Analyze → Descriptive Statistics → Crosstabs",
+      "Analyze → Correlate → Bivariate"
+    ],
+    "e": "In Frequencies, the Statistics button offers central tendency (mean, median, mode), dispersion (SD, variance, range), quartiles and percentiles, and distribution shape (skewness, kurtosis). The Charts button adds a histogram. Untick 'Display frequency tables' for continuous variables to avoid a huge table.",
+    "w": [
+      "One-Sample T Test compares a mean with a value; it doesn't give mode or quartiles.",
+      "Crosstabs tabulates two categorical variables; it gives no quartiles or histogram.",
+      "Bivariate Correlate computes correlations between variables, not descriptives."
+    ],
+    "k": "Analyze → Descriptive Statistics → Frequencies gives full descriptives plus histograms.",
+    "h": "Frequencies: the one-stop descriptive shop.",
+    "r": "Stats & SPSS ch. 2 · SPSS · Frequencies"
+  },
+  {
+    "t": "Ch2 Frequency distributions",
+    "d": 1,
+    "q": "A histogram plots:",
+    "o": [
+      "Values or ranges of values against how often each occurs",
+      "Two continuous variables against each other, one per axis",
+      "The mean of each group with error bars around it",
+      "The median, quartiles and outliers of a single variable"
+    ],
+    "e": "A histogram is a frequency distribution: scores (or bins) on the x-axis and frequency on the y-axis. A scatterplot plots two variables, a bar chart shows group means, and a boxplot shows the median, quartiles and outliers.",
+    "w": [
+      "Two variables against each other is a scatterplot.",
+      "Group means with error bars is a bar chart.",
+      "Median, quartiles and outliers is a boxplot."
+    ],
+    "k": "A histogram shows a frequency distribution: values against frequency.",
+    "h": "Histo-gram: how often each value shows up.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Frequency distributions"
+  },
+  {
+    "t": "Ch2 Frequency distributions",
+    "d": 1,
+    "q": "The median is also known as:",
+    "o": [
+      "The second quartile (Q2), or 50th percentile",
+      "The first quartile (Q1), or 25th percentile",
+      "The interquartile range (Q3 − Q1) of the data",
+      "The modal (most frequent) value of the distribution"
+    ],
+    "e": "Quartiles split ordered data into four equal parts: Q1 (25th percentile), Q2 (the median, 50th) and Q3 (75th).",
+    "w": [
+      "Q1, the 25th percentile, is the lower quartile.",
+      "Q3 − Q1 is the interquartile range, a spread measure.",
+      "The most frequent value is the mode."
+    ],
+    "k": "Median = Q2 = 50th percentile: half the scores lie below it.",
+    "h": "Q2 is the middle quarter-line.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Quartiles"
+  },
+  {
+    "t": "Ch2 Dispersion",
+    "d": 3,
+    "q": "Two therapy groups have the same mean anxiety score of 40, but group A has SD = 2 and group B has SD = 15. What is the most accurate conclusion?",
+    "o": [
+      "The mean describes group A's clients far better than group B's",
+      "Group B's therapy was more effective because its scores vary more",
+      "Group A must contain fewer clients than group B does",
+      "The two groups responded identically, since their means match"
+    ],
+    "e": "Identical means can hide very different distributions. In group A almost everyone scored near 40, so the mean is an excellent model. In group B scores are widely spread, with some clients near 10 and others near 70, so the mean is a poor summary. Always report spread with central tendency.",
+    "w": [
+      "Greater spread doesn't show effectiveness; it shows less consistency.",
+      "SD isn't determined by group size.",
+      "Equal means can hide very different distributions."
+    ],
+    "k": "Always report spread with the mean: equal means can hide very different groups.",
+    "h": "Same average, different crowds.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Fit of the mean"
+  },
+  {
+    "t": "Ch2 Shape of distributions",
+    "d": 3,
+    "q": "In a strongly positively skewed distribution, the usual order of the mode, median and mean is:",
+    "o": [
+      "Mode < median < mean",
+      "Mean < median < mode",
+      "Median < mode < mean",
+      "Mode = median = mean"
+    ],
+    "e": "The mode sits at the peak on the low side, and the long right tail pulls the mean upward most, with the median in between. In negative skew the order reverses. All three coincide only in a symmetric unimodal distribution. This order is typical, but it can fail in some distributions, especially discrete ones.",
+    "w": [
+      "Mean < median < mode is the negative skew order.",
+      "The mode sits at the peak, the lowest of the three in positive skew.",
+      "All three coincide only in a symmetric unimodal distribution."
+    ],
+    "k": "Positive skew: mode < median < mean (the mean chases the tail).",
+    "h": "In positive skew the mean runs furthest out along the tail.",
+    "r": "Stats & SPSS ch. 2 · Describing data · Skewness and central tendency"
+  }
+]

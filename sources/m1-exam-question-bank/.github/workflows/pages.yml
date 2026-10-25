@@ -1,0 +1,40 @@
+name: Build and publish the site
+
+# Runs on every change pushed to main. If the questions or the app fail the
+# checks in tools/build.py, nothing is published and the live site keeps the
+# last good version.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['.sync/**', '**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check questions and build the app
+        run: python3 tools/build.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

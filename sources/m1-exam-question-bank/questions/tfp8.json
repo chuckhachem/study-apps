@@ -1,0 +1,842 @@
+[
+  {
+    "t": "Ch8 Midphase",
+    "d": 2,
+    "q": "The patient enters the midphase when:",
+    "o": [
+      "Equilibrium: more acceptance of the frame, less life chaos, more affect in sessions",
+      "Termination is near: the patient plans the end and mourns the therapist",
+      "Medication is stopped and the patient manages affects without drugs",
+      "The patient agrees with all interpretations and stops arguing"
+    ],
+    "e": "The midphase begins when a new equilibrium is reached: the patient accepts the frame more, life is less chaotic, and extreme affects become concentrated in the sessions rather than acted out outside. Dropout and suicide risk diminish, though they may recur during regressions. This concentration of affect in the relationship is what allows deeper transference work.",
+    "w": [
+      "Planning the end and mourning the therapist belongs to the advanced phase and termination.",
+      "Stopping medication is not the marker of the midphase.",
+      "Agreeing with everything would be compliance, not the midphase equilibrium."
+    ],
+    "k": "Midphase: equilibrium, with frame accepted, less outside chaos, and intense affect concentrated in sessions.",
+    "h": "The storm moves from the streets into the therapy room.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Midphase",
+    "d": 3,
+    "q": "Which two 'static' scenarios can prevent intensified affect in the midphase?",
+    "o": [
+      "Idealized treatment with the bad object outside, and low-grade acting out with secondary gain",
+      "Too much interpretation early on, combined with a contract that was never agreed",
+      "Medication blunting all affect, combined with repeated brief hospitalizations",
+      "Termination anxiety combined with an intense erotic transference toward the therapist"
+    ],
+    "e": "Two static scenarios can block the expected intensification of affect in the midphase. In one, the treatment is idealized while the bad object is chronically projected outside (the therapist is wonderful, everyone else is awful). In the other, low-grade acting out with secondary gain keeps treatment going comfortably without real change. Both preserve the split status quo and need to be recognized and interpreted.",
+    "w": [
+      "Early interpretation and a missing contract are not the two scenarios named.",
+      "Medication and hospitalizations are not the scenarios named.",
+      "Termination anxiety and erotic transference are not the static scenarios."
+    ],
+    "k": "Static midphase scenarios: idealized therapy with the bad object outside, and low-grade acting out with secondary gain.",
+    "h": "A perfect therapist with villains outside, or a comfortable rut.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Transferences",
+    "d": 2,
+    "q": "What are the three basic chronic transference paradigms in BPO?",
+    "o": [
+      "Psychopathic, paranoid, depressive",
+      "Erotic, dependent, narcissistic",
+      "Positive, negative, neutral",
+      "Oedipal, pre-oedipal, genital"
+    ],
+    "e": "The three basic chronic transference paradigms in BPO are psychopathic (deceit, assuming everyone is corrupt), paranoid (fear of harm from a dangerous other) and depressive (guilt and concern over one's own aggression). Any of them can be coloured by narcissistic defenses, and narcissistic transferences generally defend against the deepening of an underlying transference, usually paranoid.",
+    "w": [
+      "Erotic, dependent and narcissistic are variations or colourings, not the three basic paradigms.",
+      "Positive, negative and neutral are everyday labels.",
+      "Oedipal, pre-oedipal and genital are developmental stages."
+    ],
+    "k": "Basic chronic transference paradigms: psychopathic, paranoid, depressive.",
+    "h": "Liar, fearful, guilty: the three acts of the transference play.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Transferences",
+    "d": 2,
+    "q": "In an extreme narcissistic transference, it may seem that:",
+    "o": [
+      "There is no transference, as the therapist is devalued and ignored",
+      "The patient idealizes the therapist as perfect and all-knowing",
+      "The patient has lost reality testing in relation to the therapist",
+      "The patient has fallen in love with the therapist"
+    ],
+    "e": "In an extreme narcissistic transference, the therapist is devalued and ignored, so it can seem there is no transference at all: the patient acts as if the therapist doesn't matter. But this devaluation may hide the fear and anxiety of a paranoid transference (if the therapist matters, he can hurt). Interpreting the narcissistic defenses can reveal the underlying paranoid layer.",
+    "w": [
+      "Idealization is the opposite pole; here the therapist is devalued.",
+      "Reality testing is maintained; the therapist is dismissed, not misperceived psychotically.",
+      "Falling in love would be an erotic transference, not devaluation."
+    ],
+    "k": "Extreme narcissistic transference can look like no transference (devaluation), often hiding a paranoid transference.",
+    "h": "'You don't matter' can mean 'you matter too dangerously'.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Transferences",
+    "d": 2,
+    "q": "Paranoid transferences may manifest as direct fear of harm, or as:",
+    "o": [
+      "Chronic masochistic or sadomasochistic transferences",
+      "Psychopathic dishonesty and manipulation of the therapist",
+      "Depressive guilt and wishes for reparation",
+      "Erotic idealization of the therapist"
+    ],
+    "e": "Paranoid transferences can show directly, as fear that the therapist will harm, or indirectly, as chronic masochistic or sadomasochistic transferences: relationships organized around suffering and inflicting suffering. Most BPO patients begin with a predominantly paranoid transference, and the bulk of TFP's work moves them from paranoid to depressive transferences, then resolves the depressive ones.",
+    "w": [
+      "Dishonesty and manipulation describe the psychopathic transference.",
+      "Guilt and reparation describe the depressive transference.",
+      "Erotic idealization is a different kind of transference."
+    ],
+    "k": "Paranoid transferences appear as fear of harm or as chronic (sado)masochistic transferences.",
+    "h": "Fear can wear the mask of suffering.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Transferences",
+    "d": 2,
+    "q": "Depressive transferences are characterized by:",
+    "o": [
+      "Intense guilt over owned aggression, guilt-based negative reactions, feeling unworthy of help",
+      "Dishonesty and manipulation, with expectation that the therapist is equally dishonest",
+      "Fear of harm from a therapist perceived as a dangerous, persecuting enemy",
+      "Indifference and devaluation, as if the therapist did not matter to the patient"
+    ],
+    "e": "Depressive transferences involve intense guilt over aggression the patient now owns, guilt-based negative therapeutic reactions (feeling worse because one doesn't deserve help), and feeling unworthy of the therapist's help. They are a sign of progress: the evolution toward depressive transferences accompanies the resolution of identity diffusion and primitive defenses, because the patient now recognizes their own aggression toward a good object.",
+    "w": [
+      "Dishonesty and expecting the therapist to be dishonest describe the psychopathic transference.",
+      "Fear of a persecuting therapist describes the paranoid transference.",
+      "Indifference and devaluation describe a narcissistic transference."
+    ],
+    "k": "Depressive transference: guilt over owned aggression, guilt-based negative reactions, feeling unworthy of help.",
+    "h": "'I've hurt you, and I don't deserve your help.'",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Negative affect",
+    "d": 3,
+    "q": "What are the steps in integrating negative affect?",
+    "o": [
+      "Own and tolerate the affect (even its gratification), see why it was projected, integrate it with idealized images",
+      "Suppress the affect until it fades, then replace it with positive feelings toward the therapist",
+      "Express the affect in action so it is discharged, then discuss it in the next session",
+      "Deny the affect to protect the alliance, then have the therapist reassure the patient"
+    ],
+    "e": "Integrating negative affect proceeds in steps. First the patient owns and tolerates the affect as part of human emotion, even acknowledging that it can be gratifying (the pleasure of hatred or revenge). Then the patient understands why it was projected onto others. Finally it is integrated with the idealized images, so that people, including the therapist, can be both loved and hated. This opens the way to concern and guilt.",
+    "w": [
+      "Suppressing affect and replacing it with positive feelings is not integration.",
+      "Discharging affect in action is acting out, which blocks integration.",
+      "Denying affect and seeking reassurance avoids the work."
+    ],
+    "k": "Integrating negative affect: own and tolerate it (even its pleasure), see why it was projected, integrate it with idealized images.",
+    "h": "Own it, understand where you put it, bring it home.",
+    "r": "Clarkin Ch8 – Steps in integrating negative affect"
+  },
+  {
+    "t": "Ch8 Negative affect",
+    "d": 3,
+    "q": "After the therapist names a hateful part, the patient says, 'See, you're telling me I'm bad and should kill myself.' The therapist should:",
+    "o": [
+      "Show the hateful part is active now, twisting his words and omitting that she is also victim",
+      "Apologize and retract the comment, since it clearly hurt the patient too much",
+      "Agree that this part of her is bad, since honesty requires naming it clearly",
+      "Change the topic until she is calmer, then return to the hateful part later"
+    ],
+    "e": "When the therapist names a hateful part and the patient replies 'See, you're telling me I'm bad and should kill myself', the hateful part is active right now: it twists the therapist's words into an attack and omits that he also recognized her as a victim. The therapist shows this, reminding both of them that she identifies with both poles of the dyad. Calling her a persecutor does not deny that she has also been a victim.",
+    "w": [
+      "Apologizing and retracting avoids the hateful part and loses the work.",
+      "Agreeing she is bad collapses into the persecutory view instead of showing both sides.",
+      "Changing the topic lets the distortion stand."
+    ],
+    "k": "When the patient twists an interpretation into an attack, show that the hateful part is active now, and that she is also a victim.",
+    "h": "The persecutor is in the room, rewriting what you said.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Negative affect",
+    "d": 2,
+    "q": "Why is acknowledging possible pleasure in aggressive affects an important step?",
+    "o": [
+      "It lets the patient accept being both victim and victimizer, leading toward depressive transferences",
+      "It encourages the patient to act on violent impulses outside the sessions to release them",
+      "It is a supportive technique meant to make the patient feel accepted despite aggression",
+      "It replaces interpretation, since owning pleasure is enough to change the structure"
+    ],
+    "e": "Acknowledging that aggression can be pleasurable, especially in attacks on the therapist who is trying to help, lets the patient accept being both victim and victimizer. That awareness leads to guilt, concern, reparation, tolerance of ambivalence and gratitude: the depressive transferences. Without it, aggression stays disowned and projected.",
+    "w": [
+      "It doesn't encourage acting on impulses; it builds awareness.",
+      "It's not reassurance; it's an interpretation of a hard truth.",
+      "Owning pleasure is a step in integration, not a replacement for interpretation."
+    ],
+    "k": "Acknowledging pleasure in aggression lets the patient own being both victim and victimizer, leading toward depressive transferences.",
+    "h": "Admitting the pleasure of the attack opens the door to regret.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Love",
+    "d": 2,
+    "q": "Why is the extreme positive (idealizing) transference considered pathological?",
+    "o": [
+      "It is a 'pure' all-good object that doesn't exist – as pathological as the negative extreme",
+      "It is always erotic and threatens the boundaries of the treatment frame, so it must be stopped",
+      "It shows the patient is manipulating the therapist to gain extra care",
+      "It is not pathological; positive transference is always good for treatment"
+    ],
+    "e": "'Positive' in transference terms means libidinal, not 'good'. In its extreme, idealizing form, the transference creates a 'pure', all-good object that doesn't exist, which is the mirror image of the all-bad persecutor. It is as pathological as the negative extreme, because it depends on splitting off all badness. Mature love includes imperfection.",
+    "w": [
+      "It isn't always erotic, and the issue is splitting, not just boundaries.",
+      "It isn't necessarily manipulation; it is split idealization.",
+      "Extreme idealization is pathological, not always good."
+    ],
+    "k": "Extreme idealization is as pathological as extreme negativity: it creates an all-good object that doesn't exist.",
+    "h": "A saint is as unreal as a monster.",
+    "r": "Clarkin Ch8 – Latent aggression and healthy love"
+  },
+  {
+    "t": "Ch8 Love",
+    "d": 2,
+    "q": "The key to a healthy love relation, according to Ch8, is:",
+    "o": [
+      "Accepting and integrating the loved one's imperfections",
+      "Finding a partner who matches the ideal image",
+      "Avoiding all conflict and anger within the couple",
+      "Keeping the partner idealized for as long as possible"
+    ],
+    "e": "Healthy people may temporarily idealize a partner when falling in love, but mature love requires accepting and integrating the loved one's imperfections: loving a real person, faults included. This parallels the depressive position: integrating good and bad in one image. Borderline patients often idealize, then furiously devalue when imperfections appear.",
+    "w": [
+      "Searching for the ideal match keeps love dependent on idealization.",
+      "Avoiding all conflict is unrealistic; mature love tolerates conflict.",
+      "Keeping the partner idealized delays the inevitable disillusionment."
+    ],
+    "k": "Healthy love accepts and integrates the loved one's imperfections.",
+    "h": "Love the real person, flaws included.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Love",
+    "d": 2,
+    "q": "When noting the positive transference behind hostility, what should the therapist emphasize?",
+    "o": [
+      "The internal persecutor–victim dyad, rather than 'You're attacking me'",
+      "The patient's hostility toward the therapist himself, named directly and repeatedly",
+      "The patient's childhood history with her parents",
+      "The practical arrangements of the treatment contract"
+    ],
+    "e": "When pointing out positive feelings behind the patient's hostility, the therapist emphasizes the internal persecutor–victim dyad rather than saying 'you're attacking me'. For example: 'There's a side of you that wants to keep this relationship, and me, alive.' This highlights the loving part without accusing, helping the patient see both parts within herself.",
+    "w": [
+      "Naming hostility toward the therapist repeatedly can feel accusatory and misses the loving side.",
+      "Childhood history moves away from the here and now.",
+      "The contract isn't the focus when noting positive transference."
+    ],
+    "k": "When noting love behind hostility, frame it as the internal dyad ('a side of you wants to keep me alive'), not 'you're attacking me'.",
+    "h": "Point to the part that wants to keep you alive.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Sexuality",
+    "d": 2,
+    "q": "Which two aspects of sexuality are most relevant in BPO?",
+    "o": [
+      "Object choice and intensity of sexual desire",
+      "Core gender identity and gender role identity",
+      "Fertility and contraception",
+      "Orientation and age"
+    ],
+    "e": "Kernberg describes four aspects of human sexuality: core gender identity, gender role identity, object choice, and intensity of sexual desire. In BPO, the two most relevant are object choice (who is desired, and how relationships are formed) and intensity of desire (how sexual excitement is experienced and integrated with tenderness). These vary greatly across BPO levels.",
+    "w": [
+      "Core gender identity and gender role identity are aspects of sexuality but not the two most relevant in BPO.",
+      "Fertility and contraception are not among the aspects discussed.",
+      "Orientation and age are not the pair named."
+    ],
+    "k": "In BPO, the most relevant aspects of sexuality are object choice and intensity of sexual desire.",
+    "h": "Whom you desire and how strongly.",
+    "r": "Clarkin Ch8 – Range of sexual relationships"
+  },
+  {
+    "t": "Ch8 Sexuality",
+    "d": 3,
+    "q": "In Table 8–2, 'capacity for sexual excitement and orgasm; broad spectrum of infantile trends; no capacity for deep investment in a love object' describes:",
+    "o": [
+      "BPO with narcissistic personality",
+      "High-level BPO",
+      "Low-level BPO",
+      "BPO with aggression and polymorphous perverse sexuality"
+    ],
+    "e": "Table 8–2 describes sexuality across BPO levels. High-level BPO has excitement, orgasm and desire, with fragile idealizing relationships. BPO with narcissistic personality has capacity for excitement and orgasm and a broad range of infantile sexual trends, but no capacity for deep investment in a love object. BPO with aggression shows dangerous sexual behaviour; low-level BPO lacks sensual pleasure and desire.",
+    "w": [
+      "High-level BPO includes fragile idealizing relationships, not absence of investment.",
+      "Low-level BPO lacks sensual pleasure and desire altogether.",
+      "The aggressive type shows dangerous sexual behaviour."
+    ],
+    "k": "Narcissistic BPO sexuality: excitement and orgasm, broad infantile trends, but no deep investment in a love object.",
+    "h": "Pleasure without attachment.",
+    "r": "Clarkin Ch8 – Table 8–2"
+  },
+  {
+    "t": "Ch8 Sexuality",
+    "d": 2,
+    "q": "Why does sexual interest disappear after 'conquest' in narcissistic BPO patients?",
+    "o": [
+      "Conquest triggers a need to feel superior and devalue the other",
+      "Hormonal changes after the relationship has begun and novelty fades",
+      "A simple fear of commitment, without devaluation",
+      "A physical illness that lowers sexual desire"
+    ],
+    "e": "For narcissistic BPO patients, sexual fulfilment gratifies the conquest, but it also triggers a need to feel superior and devalue the other: once possessed, the partner is no longer desirable (and envy of the partner's value is neutralized by devaluing them). Excitement and interest then disappear, and the search for a new conquest begins.",
+    "w": [
+      "Hormones aren't the explanation; possessing the partner triggers devaluation, so desire dies with the conquest.",
+      "It's not simple commitment fear; devaluation is central.",
+      "Physical illness isn't the explanation; the loss of interest follows the psychological devaluation of the conquered partner."
+    ],
+    "k": "In narcissistic BPO, conquest triggers devaluation of the partner, so sexual interest disappears.",
+    "h": "Once won, the prize loses its value.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Splitting",
+    "d": 2,
+    "q": "Which patients tend to cycle rapidly between transferences?",
+    "o": [
+      "Infantile-histrionic or schizoid features",
+      "Paranoid features with slow, fixed suspicion",
+      "Narcissistic features",
+      "Depressive features"
+    ],
+    "e": "Patients with infantile-histrionic or schizoid features tend to cycle rapidly between transferences, switching dyads within a session. Patients with paranoid, narcissistic or depressive features shift more slowly, with long periods dominated by one paradigm. Knowing the pace helps the therapist recognize splitting: in slow cyclers, the split-off dyad may appear only over weeks.",
+    "w": [
+      "Paranoid patients shift slowly, with fixed suspicion.",
+      "Narcissistic patients shift slowly, holding one paradigm (often devaluation) for long periods.",
+      "Depressive patients shift slowly, staying in guilt-laden paradigms for long stretches."
+    ],
+    "k": "Rapid transference cycling: infantile-histrionic or schizoid features; slower: paranoid, narcissistic, depressive.",
+    "h": "Histrionic and schizoid: fast channel-switching.",
+    "r": "Clarkin Ch8 – Evidence of splitting"
+  },
+  {
+    "t": "Ch8 Splitting",
+    "d": 2,
+    "q": "'Big impressive office – you must be good' then 'cold impersonal office – hiding behind degrees.' The likely dynamic is:",
+    "o": [
+      "Narcissistic need for 'the best', then envy forcing devaluation",
+      "Psychotic loss of reality testing about the office",
+      "Integrated ambivalence about the therapist's qualities",
+      "Honest, realistic reactions to two different offices"
+    ],
+    "e": "First the impressive office proves the therapist must be good; later the same office is 'cold and impersonal', proof he hides behind his degrees. Opposite object representations appear for the same facts. The likely dynamic is a narcissistic need to have 'the best' therapist, followed by envy that forces devaluation. The therapist confronts the alternation and asks the patient to reflect on it.",
+    "w": [
+      "Reality testing is intact; it's the meaning that flips, not perception.",
+      "Integrated ambivalence would hold both views at once, not alternate them.",
+      "It's the same office; the reactions reflect internal shifts."
+    ],
+    "k": "Idealizing then devaluing the same facts suggests a narcissistic need for 'the best', followed by envy-driven devaluation.",
+    "h": "Same office, two stories: idealization then envy.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Ms. G",
+    "d": 3,
+    "q": "Back from his trip, Dr. E reminded Ms. G of her 'You can't go away!' and she said, 'I never said that!' This illustrates:",
+    "o": [
+      "Regression from a movement toward integration",
+      "Deliberate lying to avoid embarrassment",
+      "Full integration of good and bad images",
+      "A brief psychotic episode with amnesia"
+    ],
+    "e": "When Dr. E returned and reminded Ms. G of her 'You can't go away!', she denied ever saying it. This illustrates regression after a movement toward integration: the vulnerable, longing part had surfaced, then was split off again. The midphase involves alternating partial integration and temporary regressions; months later she acknowledged that she had been fighting closeness out of fear of being hurt.",
+    "w": [
+      "It's not deliberate lying; it's defensive splitting after a moment of integration.",
+      "Denying the longing shows regression, not full integration.",
+      "There's no psychotic amnesia; it's a defensive shift."
+    ],
+    "k": "The midphase alternates partial integration with temporary regression; denying a recent moment of longing is regression, not lying.",
+    "h": "Two steps forward, one step back.",
+    "r": "Clarkin Ch8 – Back-and-forth"
+  },
+  {
+    "t": "Ch8 Ms. G",
+    "d": 2,
+    "q": "At the end of therapy Ms. G said, 'You've given me a lot, but taken something away… I used to believe in the perfect love.' This describes:",
+    "o": [
+      "A layperson's description of reaching the depressive position",
+      "A complaint that the therapy has harmed her marriage",
+      "A paranoid regression toward the therapist",
+      "A narcissistic devaluation of what therapy gave her"
+    ],
+    "e": "'You've given me a lot, but taken something away… I used to believe in the perfect love.' This is a layperson's description of reaching the depressive position. She is closer to her husband, a real, imperfect person, and she mourns the loss of the ideal object. The sadness is not a complaint about therapy; it is the price of integration.",
+    "w": [
+      "She is closer to her husband; therapy didn't harm the marriage.",
+      "It's not paranoid; she credits the therapist with giving a lot.",
+      "It's not devaluation; she acknowledges what therapy gave."
+    ],
+    "k": "Mourning the loss of 'perfect love' while loving real people = reaching the depressive position.",
+    "h": "Losing the fairy tale, gaining a real life.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Integration",
+    "d": 2,
+    "q": "As integration advances, under what conditions can primitive defenses still return?",
+    "o": [
+      "Under heightened stress or, if integration is fragile, ambiguity",
+      "Never, once the advanced phase has begun and splitting is resolved",
+      "Only when medication is stopped",
+      "Only during the termination phase"
+    ],
+    "e": "Even as integration advances, primitive defenses can return under heightened stress, or, if integration is still fragile, even under ambiguity or lack of clarity. Defense use shifts with circumstances. The therapist expects these regressions, interprets them, and doesn't conclude that progress has been lost.",
+    "w": [
+      "Primitive defenses can return under stress even in the advanced phase.",
+      "Medication changes are not named as the trigger.",
+      "Regression isn't limited to termination; it can return whenever stress rises or integration is still fragile."
+    ],
+    "k": "With fragile integration, primitive defenses return under stress or even ambiguity.",
+    "h": "Under pressure, old habits resurface.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Integration",
+    "d": 3,
+    "q": "Ms. G rejected each song she revealed to the therapist. Why?",
+    "o": [
+      "She mastered her inner critic alone, but projected it onto him when he was involved",
+      "Her songs were objectively poor, and discussing them in sessions made her realize it",
+      "The therapist's lack of praise was a subtle criticism of her songs",
+      "She was psychotic and heard critical voices whenever she sang"
+    ],
+    "e": "Alone, Ms. G had learned to manage her inner critic. But each time she shared a song with the therapist, she projected that critic onto him and rejected the song herself. Neutrality mattered here: reassurance ('it's a lovely song') would have felt patronizing. Exploring her assumptions about what he thought revealed the projection.",
+    "w": [
+      "The songs' quality wasn't the issue; the projected critic was.",
+      "The therapist wasn't criticizing; she attributed criticism to him.",
+      "There was no psychosis; it was projection of an internal critic."
+    ],
+    "k": "Ms. G projected her inner critic onto the therapist when sharing songs; exploring assumptions (not reassurance) revealed it.",
+    "h": "Alone she could quiet the critic; with him, she handed it the microphone.",
+    "r": "Clarkin Ch8 – Fragility and continued projection"
+  },
+  {
+    "t": "Ch8 Integration",
+    "d": 3,
+    "q": "If a patient pursues an activity with little realistic chance of success, the therapist explores:",
+    "o": [
+      "Whether the gap reflects narcissistic grandiosity or a self-defeating dynamic",
+      "Nothing; the therapist should always encourage the patient's ambitions",
+      "Only the patient's childhood experiences of failure and criticism",
+      "Whether medication could improve the patient's performance"
+    ],
+    "e": "If a patient pursues an activity with little realistic chance of success, the therapist explores what the gap between ambition and reality means: it may reflect narcissistic grandiosity, or a self-defeating dynamic (choosing a path that ensures failure). Similar behaviour can have different dynamics, which is why a manual cannot prescribe every move and each case must be understood individually.",
+    "w": [
+      "Always encouraging ambitions ignores what the gap may mean.",
+      "Childhood alone isn't the focus; the current dynamic is.",
+      "Medication won't address the meaning of the choice."
+    ],
+    "k": "An unrealistic pursuit may reflect grandiosity or self-defeat; explore which.",
+    "h": "Is the dream too big, or designed to fail?",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Mr. B",
+    "d": 3,
+    "q": "Mr. B frequented a dominatrix and contemplated Russian roulette. Dr. F interpreted that he was:",
+    "o": [
+      "Externalizing a conflict: Cheryl held his destructive side, Dr. F his life-wanting side",
+      "Simply in love with Cheryl, so the therapy had become irrelevant to him",
+      "Briefly psychotic, since he believed Russian roulette was a harmless game",
+      "Testing the fee policy by spending his money on Cheryl instead of therapy"
+    ],
+    "e": "Dr. F interpreted that Mr. B was externalizing an internal conflict: the dominatrix, Cheryl, held his destructive side, and Dr. F held his life-wanting side. Cheryl's open aggression felt safer than Dr. F's concern, which he could only experience as a ruse. And describing his dangerous plans also tortured Dr. F, enacting his sadism within the therapy.",
+    "w": [
+      "It wasn't simple love; Cheryl carried his destructive side.",
+      "There was no psychosis; he knew the danger.",
+      "The fee policy wasn't the issue; Mr. B split his destructive side into Cheryl and his wish to live into Dr. F."
+    ],
+    "k": "Mr. B split his conflict outward: Cheryl held his destructiveness, Dr. F his wish to live.",
+    "h": "Two women, two halves of him: one for death, one for life.",
+    "r": "Clarkin Ch8 – Mr. B Part 1"
+  },
+  {
+    "t": "Ch8 Mr. B",
+    "d": 3,
+    "q": "After learning Cheryl brought a gun, what options did Dr. F give?",
+    "o": [
+      "Stop seeing Cheryl that day; or be hospitalized; or continue with her and end therapy",
+      "Continue as before, while the relationship with Cheryl is interpreted in sessions",
+      "Bring Cheryl to a joint session to assess the risk of the gun game",
+      "Start medication to reduce impulsivity while seeing Cheryl less often"
+    ],
+    "e": "When Cheryl brought a gun into their games, the danger became lethal. Dr. F set out the options: stop seeing Cheryl that day; or be hospitalized; or continue with her and end therapy. This deviation from neutrality (taking the side of life) protected the therapy and could later be explored. Mr. B agreed to stop seeing her.",
+    "w": [
+      "Continuing as before ignores a lethal danger; with a gun involved, Dr. F set clear options that protected his life.",
+      "A joint session with Cheryl would not address the danger or his conflict.",
+      "Medication with less contact doesn't remove the gun."
+    ],
+    "k": "When danger became lethal, Dr. F deviated from neutrality with clear options: stop now, be hospitalized, or end therapy.",
+    "h": "With a gun on the table, neutrality steps aside.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Mr. B",
+    "d": 3,
+    "q": "Six calm months later Mr. B exploded over being charged for a missed session. What did Dr. F realize?",
+    "o": [
+      "She had let the paranoid core stay split off after the Cheryl episode, colluding with resistance",
+      "The fee policy for missed sessions was too rigid and should have been waived for him",
+      "He had become psychotic and needed medication rather than continued exploration",
+      "Therapy was essentially complete, and his anger signaled readiness for termination"
+    ],
+    "e": "After the Cheryl episode, six calm months passed. Then Mr. B exploded over being charged for a missed session. Dr. F realized she had let his paranoid core stay split off during the calm period, colluding with the resistance. Superficial work can be destroyed if core paranoia, never addressed, erupts and ends therapy; unaddressed issues return as acting out.",
+    "w": [
+      "The fee policy wasn't the real problem; the paranoid core was.",
+      "He wasn't psychotic; the paranoid transference erupted.",
+      "Anger over a fee isn't a sign of readiness to end."
+    ],
+    "k": "Calm without addressing the paranoid core is collusion; the core returns as acting out.",
+    "h": "Quiet surface, untouched depths, sudden eruption.",
+    "r": "Clarkin Ch8 – Mr. B Part 2"
+  },
+  {
+    "t": "Ch8 Mr. B",
+    "d": 2,
+    "q": "When Mr. B said she called only 'for the money', what did Dr. F ask?",
+    "o": [
+      "Whether, with so many ways to earn money, money alone made her choose therapy",
+      "Whether he would pay the disputed bill before the next session or end the therapy",
+      "Whether he was still taking his fluoxetine every day",
+      "Nothing; she stayed silent and waited for him to come back"
+    ],
+    "e": "When Mr. B claimed she only called him back for the money, Dr. F asked whether, given the many ways she could earn money, money alone explained her choice to do therapy with him. The question invited him to step outside the paranoid view without rejecting it outright. He paused and agreed to return, and she then worked on the paranoid transference and his hatred.",
+    "w": [
+      "An ultimatum about the bill would have confirmed his paranoid view.",
+      "Medication compliance wasn't the issue; Dr. F questioned his paranoid belief from within its own logic.",
+      "She didn't stay silent; she invited him to reflect."
+    ],
+    "k": "Dr. F challenged the paranoid belief from within its logic ('would money alone explain my choice?').",
+    "h": "If it were only money, why this work?",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Ms. T",
+    "d": 3,
+    "q": "Ms. T's 'Renee' (wanting to seduce and hurt men) vs 'Susan' (the prude). How did Dr. W understand this?",
+    "o": [
+      "Extreme splitting of self-representations in a histrionic style; technique unchanged",
+      "A truly separate personality that needed a different, specialized therapy",
+      "A psychotic process that required antipsychotic medication first",
+      "Malingering to gain attention and avoid sexual topics"
+    ],
+    "e": "Dr. W understood Ms. T's 'Renee' and 'Susan' as extreme splitting of self-representations, in a histrionic style, with each fragment given a name. Multiple personality presentations can be understood this way. The technique did not change: the task was still to understand why the parts needed to be kept separate and to integrate them.",
+    "w": [
+      "She wasn't treated as having truly separate personalities requiring different therapy.",
+      "There was no psychotic process; reality testing was intact.",
+      "It wasn't malingering; the split was a real defensive structure."
+    ],
+    "k": "Named 'alters' can be understood as extreme splitting of self-representations; TFP technique stays the same.",
+    "h": "Different names, same split self.",
+    "r": "Clarkin Ch8 – Ms. T"
+  },
+  {
+    "t": "Ch8 Ms. T",
+    "d": 3,
+    "q": "Dr. W's interpretation of Ms. T's cutting of breasts and vagina was:",
+    "o": [
+      "A compromise satisfying aggressive-sexual urges and the need for punishment",
+      "Random self-harm with no specific meaning or location",
+      "A purely learned way of coping with anger, without sexual meaning",
+      "Psychotic symbolism linked to bizarre religious delusions"
+    ],
+    "e": "Dr. W interpreted Ms. T's cutting of her breasts and vagina as a compromise formation: it satisfied aggressive-sexual urges and, at the same time, the need for punishment for those urges. The location carried meaning. After this interpretation, 'Renee' faded, and Ms. T began dating a man with the same age and first name as Dr. W, a sign of the transference moving into her life.",
+    "w": [
+      "The location was not random; it carried sexual meaning.",
+      "It wasn't only learned anger coping; it had sexual meaning.",
+      "There were no psychotic religious delusions; the location of the cuts carried sexual meaning and the need for punishment."
+    ],
+    "k": "Self-harm of sexual body parts can be a compromise satisfying aggressive-sexual urges and the need for punishment.",
+    "h": "The wound both expresses the wish and punishes it.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Ms. T",
+    "d": 2,
+    "q": "Ms. T saw taillights dripping with blood and feared a fatal accident. Dr. W recognized:",
+    "o": [
+      "A sadomasochistic dynamic torturing him, defending against wishes for closeness",
+      "A psychotic hallucination that required urgent antipsychotic medication and admission",
+      "A medical problem with her vision needing referral",
+      "Simple driving anxiety unrelated to the therapy"
+    ],
+    "e": "Ms. T described seeing taillights dripping with blood and fearing a fatal accident. Dr. W recognized a sadomasochistic dynamic: she was tormenting him with images of her death, which also defended against wishes for closeness. He pointed out that sadism is a common emotion and wondered what other feelings, such as intimacy, the aggression was defending against.",
+    "w": [
+      "It wasn't a psychotic hallucination; it was an image used in a sadomasochistic way.",
+      "There was no vision problem; the bloody images were used to torment Dr. W and defend against closeness.",
+      "It wasn't simple driving anxiety; it was part of the transference."
+    ],
+    "k": "Gruesome images aimed at the therapist can express a sadomasochistic dynamic that defends against wishes for closeness.",
+    "h": "Torturing the therapist to avoid needing him.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 2,
+    "q": "How does Blum define the erotized transference?",
+    "o": [
+      "An intense, irrational erotic preoccupation with the analyst, with overt ego-syntonic demands",
+      "Any positive or affectionate feeling that the patient develops toward the therapist during treatment",
+      "Freud's ordinary transference love as seen in neurotic patients",
+      "A countertransference reaction in which the therapist feels attracted"
+    ],
+    "e": "Blum defines the erotized transference as an intense, irrational erotic preoccupation with the analyst, with overt, ego-syntonic demands for sexual gratification. It lies at the extreme end of erotic transferences: unlike ordinary transference love, the patient experiences the demands as reasonable and insists on them. It needs firm protection of the frame and careful interpretation.",
+    "w": [
+      "Any affectionate feeling is ordinary positive transference, not erotized transference.",
+      "Freud's ordinary transference love in neurotics is milder than erotized transference.",
+      "A therapist's attraction is countertransference, not the erotized transference, which is the patient's ego-syntonic demand."
+    ],
+    "k": "Erotized transference (Blum): intense, irrational erotic preoccupation with the therapist and overt, ego-syntonic demands.",
+    "h": "Not 'I have feelings', but 'you must give me this'.",
+    "r": "Clarkin Ch8 – Erotized transferences"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 3,
+    "q": "In the erotized transference of borderline patients, love and hate seem to merge. This is:",
+    "o": [
+      "Pseudointegration: aggression recruits libido for destructive ends",
+      "True integration of love and hate with capacity for ambivalence",
+      "A healthy sign that the patient can now love the therapist",
+      "Neurotic repression of sexual wishes toward the therapist"
+    ],
+    "e": "In borderline erotized transferences, love and hate can seem to merge, but this is pseudointegration: aggression recruits libido for destructive ends, for example seduction aimed at destroying the therapy or the therapist. True integration would involve capacity for ambivalence, holding love and anger toward the same person. Here, love is in the service of aggression.",
+    "w": [
+      "True integration includes ambivalence; this is aggression using love.",
+      "It's not a healthy sign of loving the therapist.",
+      "It's not neurotic repression; the wishes are overt."
+    ],
+    "k": "Borderline erotized transference shows pseudointegration: aggression recruits love and sexuality for destructive ends.",
+    "h": "Love wielded as a weapon.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 3,
+    "q": "Ms. G tried to sit on Dr. E's lap. What is the 'first rule' applied?",
+    "o": [
+      "Protect the frame: she sits back or the session ends; then interpret who rejects whom",
+      "Gently accept the hug so she does not feel rejected, and then explore what it means to her",
+      "End therapy permanently, since physical contact breaks the contract",
+      "Ignore the behavior and continue talking as if nothing happened"
+    ],
+    "e": "The first rule is to protect the frame: Ms. G must sit back in her chair or the session ends. Then the therapist interprets who is rejecting whom, since her conscious conviction was that he attacked her by refusing. Her words of love were actually an attack on the therapy. Accepting physical contact would destroy the treatment, and ignoring it would leave it unaddressed.",
+    "w": [
+      "Accepting the hug breaks the frame and the treatment.",
+      "Permanent termination is excessive; the frame is restored and the meaning interpreted.",
+      "Ignoring it leaves the frame violation unaddressed."
+    ],
+    "k": "Erotized acting out: first protect the frame (sit back or the session ends), then interpret who rejects whom.",
+    "h": "Frame first, meaning second.",
+    "r": "Clarkin Ch8 – Ms. G erotized episode"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 3,
+    "q": "Dr. E felt no internal sexual response to Ms. G's seduction. This indicated:",
+    "o": [
+      "Aggression was the major issue",
+      "He was unempathic",
+      "She was not attractive",
+      "Countertransference failure"
+    ],
+    "e": "Dr. E's lack of any internal sexual response to Ms. G's seduction was a clue that aggression, not desire, was the major issue: the seduction was an attack on the therapy, not a loving approach. Countertransference feelings, or their absence, are data. Later in treatment, the challenge was for the therapist to feel comfortable experiencing attraction without fearing that feeling it meant breaking boundaries.",
+    "w": [
+      "It didn't mean he was unempathic; it was data about the seduction's function.",
+      "Her attractiveness wasn't the point; the absence of desire signalled that the seduction served aggression.",
+      "It wasn't a failure; the absence of response was informative."
+    ],
+    "k": "No sexual countertransference to a seduction suggests aggression is the main issue.",
+    "h": "Seduction that leaves you cold is likely an attack.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 3,
+    "q": "In Figure 8–1, the patient's seduction places her in which role, and with what awareness?",
+    "o": [
+      "Aggressor role, enacted in behavior but not in awareness",
+      "Victim role, consciously experienced as being rejected",
+      "Neutral observer role, reflecting on the interaction",
+      "Therapist role, trying to heal the therapist's loneliness"
+    ],
+    "e": "Figure 8–1 shows that the seduction places the patient in the aggressor (exploiter) role, enacted in behaviour but not in awareness: she returns to familiar exploiter–victim territory, now unconsciously as the exploiter. When the therapist refuses, she consciously experiences herself as the rejected victim. So both roles are lived, one acted and one felt.",
+    "w": [
+      "The victim role is what she consciously feels after the refusal, not the role of the seduction itself.",
+      "She is not observing; she is enacting.",
+      "She isn't trying to heal the therapist."
+    ],
+    "k": "Seduction can enact the aggressor role outside awareness; the therapist's refusal then reinstates her conscious victim role.",
+    "h": "Acting the exploiter, feeling the victim.",
+    "r": "Clarkin Ch8 – Figure 8–1"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 2,
+    "q": "A patient says, 'I don't know how to say this, but I've got a crush on you.' The most important technical point is:",
+    "o": [
+      "Don't avoid it: clarify fantasies and assumptions; treating it as taboo is most rejecting",
+      "Change the subject gently so the patient is not embarrassed by her confession",
+      "Refer her to another therapist, since the feelings will block further work",
+      "Disclose your own feelings openly so the relationship becomes more equal"
+    ],
+    "e": "The most important point is not to avoid it. Treating the patient's crush as taboo is the most rejecting response. Instead the therapist clarifies the fantasies and assumptions involved, which often shed light on a search for an ideal other and on self-devaluation. An erotic transference is both a potential threat and an essential part of treatment.",
+    "w": [
+      "Changing the subject treats the feelings as shameful and rejects her.",
+      "Referral avoids the transference and confirms that her feelings are unbearable.",
+      "Disclosing feelings breaks neutrality and the frame."
+    ],
+    "k": "When a patient discloses a crush, explore it (fantasies, assumptions); treating it as taboo is most rejecting.",
+    "h": "Talk about it, don't run from it.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Erotized",
+    "d": 2,
+    "q": "Daniel Hill's view of the paradox of transference love:",
+    "o": [
+      "The love is both genuine and disingenuous",
+      "The love is always fake and purely defensive",
+      "The love must eventually be returned",
+      "The love is irrelevant to the therapy"
+    ],
+    "e": "Daniel Hill describes the paradox of transference love: it is both genuine and disingenuous. It is real love, felt intensely, and also a transference that defends against or repeats something else. Psychoanalysis relies on accepting this paradox, analysing the transference without dismissing the love as fake or treating it as an invitation.",
+    "w": [
+      "It isn't always fake; it's also genuine.",
+      "It is never returned; that would break the frame.",
+      "It is highly relevant to the therapy."
+    ],
+    "k": "Hill: transference love is both genuine and disingenuous; analysis accepts the paradox.",
+    "h": "Real feelings, borrowed script.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Expanding focus",
+    "d": 2,
+    "q": "In the midphase, the focus expands beyond the transference to include:",
+    "o": [
+      "External reality, interaction patterns over time, evolving history, and fantasies",
+      "Medication effects, side effects, doses and changes in prescriptions",
+      "Dreams only, analysed in classic form",
+      "The treatment contract and its conditions"
+    ],
+    "e": "In the midphase, the focus expands beyond the transference to include external reality, patterns of interaction over time, the patient's evolving history, and fantasies. The work increasingly translates what has been understood in sessions into outside life: relationships, work and leisure.",
+    "w": [
+      "Medication isn't the expanding focus; the midphase widens to outside reality, patterns over time, history and fantasies.",
+      "Dreams are part of the material but not 'only dreams'.",
+      "The contract is foundational, not the expanding focus."
+    ],
+    "k": "Midphase focus widens to external reality, interaction patterns, evolving history and fantasies.",
+    "h": "From the room to the life.",
+    "r": "Clarkin Ch8 – Expanding the focus"
+  },
+  {
+    "t": "Ch8 Expanding focus",
+    "d": 2,
+    "q": "What distinguishes TFP from more traditional (e.g., Kleinian) analytic therapy in the midphase?",
+    "o": [
+      "Active inquiry into the patient's outside life",
+      "Use of the couch for free association",
+      "Sessions held four or five times a week",
+      "No interpretation of the transference"
+    ],
+    "e": "Unlike more traditional analytic therapies, TFP includes active inquiry into the patient's outside life in the midphase. The therapist checks on commitments (a volunteer job, AA attendance) and watches for new pathological interactions, then relates the conflicts back to the transference. This keeps the patient's real life in view and prevents split-off acting out.",
+    "w": [
+      "The couch is used in psychoanalysis, not typically in TFP.",
+      "Four or five sessions a week is psychoanalytic frequency.",
+      "TFP does interpret the transference; what sets it apart is its active inquiry into the patient's outside life."
+    ],
+    "k": "TFP actively inquires into the patient's outside life, then links it back to the transference.",
+    "h": "TFP asks 'how's work?' and then 'how is that like us?'",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Expanding focus",
+    "d": 3,
+    "q": "A patient believes coworkers despise her. What is usually the most productive route to insight?",
+    "o": [
+      "Find the same dyad in the transference and explore it there",
+      "Insist she is misinterpreting her coworkers' behavior",
+      "Call her employer to clarify what is really happening",
+      "Advise her to quit before the conflict gets worse"
+    ],
+    "e": "Questioning a patient's perceptions of absent coworkers rarely helps: neither patient nor therapist can verify what happened, and arguing about it goes nowhere. The most productive route is to find the same dyad in the transference (for example feeling the therapist despises her) and explore it there, where the information is immediately present and can be examined together.",
+    "w": [
+      "Insisting she misreads them becomes an unwinnable argument.",
+      "Contacting the employer breaks neutrality and confidentiality.",
+      "Advising her to quit is a supportive intervention TFP avoids."
+    ],
+    "k": "When a patient misperceives absent others, find the same dyad in the transference and work on it there.",
+    "h": "Work the dyad where you can see it: in the room.",
+    "r": "Clarkin Ch8"
+  },
+  {
+    "t": "Ch8 Projections",
+    "d": 3,
+    "q": "A mother fears the nanny has sexual intentions toward her son. The therapist gently wondered about:",
+    "o": [
+      "Her own complex feelings (anger at his independence, admiration of his body)",
+      "Firing the nanny immediately to remove any possible risk to the child",
+      "Calling child protective services to investigate the nanny",
+      "Prescribing medication for her anxiety about the child's safety"
+    ],
+    "e": "A mother feared that the nanny had sexual intentions toward her son. The therapist gently wondered about her own complex feelings, such as anger at his growing independence and admiration of his body, which she might be projecting onto the nanny. Following projections helped her hold anger and sexual admiration within her love, without enacting her own mother's outbursts or inappropriate touching.",
+    "w": [
+      "Firing the nanny acts on the projection without exploring it.",
+      "Calling child services would act on an unexplored projection.",
+      "Medication wouldn't touch the projected feelings; the therapist explored the mother's own anger and admiration."
+    ],
+    "k": "Track projections of split-off parts: a feared intention in others may be the patient's own disowned feeling.",
+    "h": "The suspicion may point back at its source.",
+    "r": "Clarkin Ch8 – Tracking part representations"
+  },
+  {
+    "t": "Ch8 Improvement",
+    "d": 3,
+    "q": "A patient got an A, then froze on her term paper. Which themes were uncovered?",
+    "o": [
+      "Fear of envy (and her own envy), fear that progress loses the therapist, competition as subjugation",
+      "Limited intelligence, making university-level writing genuinely too hard for her to complete",
+      "Side effects of medication impairing her concentration and memory",
+      "Poor teaching and unclear instructions for the term paper"
+    ],
+    "e": "After getting an A, the patient froze on her term paper. Exploration uncovered fear of envy (and her own envy), fear that progress would mean losing the therapist (no longer needing him), and a view of competition as subjugation (winning means crushing someone). Progress itself and reactions to it become a theme in the midphase, and the therapist watches for impulses to undo progress.",
+    "w": [
+      "Intelligence wasn't the problem; she had just earned an A.",
+      "Medication side effects weren't the explanation; the freeze came from fears stirred by success itself.",
+      "Teaching quality wasn't the issue; success stirred envy, fear of losing the therapist, and competition as subjugation."
+    ],
+    "k": "Improvement can trigger fears (envy, losing the therapist, competition as domination) that lead to undoing progress.",
+    "h": "Success can feel dangerous.",
+    "r": "Clarkin Ch8 – Patient improvement"
+  },
+  {
+    "t": "Ch8 Summary",
+    "d": 2,
+    "q": "Which is NOT among the midphase summary points?",
+    "o": [
+      "Establishing the treatment contract for the first time",
+      "Decrease in acting out with more focus on the patient–therapist interaction",
+      "Following projections of split-off representations",
+      "Refining attention to love, work and leisure"
+    ],
+    "e": "The midphase summary points include decreased acting out with more focus on the patient–therapist interaction, evolution of the transference, following projections of split-off representations, integration alternating with splitting, transference themes appearing in other domains, and refinement of attention to love, work and leisure. Establishing the treatment contract belongs to the start of treatment.",
+    "w": [
+      "Decreased acting out with focus on the interaction is a midphase point.",
+      "Following projections of split-off representations is a midphase point.",
+      "Refining attention to love, work and leisure is a midphase point."
+    ],
+    "k": "Midphase: less acting out, evolving transference, following projections, integration alternating with splitting, refining love/work/leisure.",
+    "h": "The contract is the doorway, not the middle of the house.",
+    "r": "Clarkin Ch8 – summary"
+  }
+]

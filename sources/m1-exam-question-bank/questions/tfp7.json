@@ -1,0 +1,562 @@
+[
+  {
+    "t": "Ch7 Early phase",
+    "d": 2,
+    "q": "Which change is NOT expected in the early treatment phase (Table 7–1)?",
+    "o": [
+      "Stable change in the basic self-concept / identity integration",
+      "Reduction in suicidal and self-destructive behavior",
+      "Intense affects concentrated in the treatment situation",
+      "Acceptance of a work or study role"
+    ],
+    "e": "Table 7–1 lists what typically changes in the early phase: reduced suicidal and self-destructive behaviour, intense affects increasingly concentrated in the treatment situation (rather than acted out elsewhere), and acceptance of a work or study role. What is not expected yet is a stable change in the basic self-concept, that is, identity integration. Early improvements in functioning reflect the stable relationship and the frame, not yet deep structural change, which comes later.",
+    "w": [
+      "Reduced suicidal and self-destructive behaviour is an expected early change.",
+      "Concentration of intense affects in the treatment is expected early.",
+      "Accepting a work or study role is an expected early change."
+    ],
+    "k": "Early phase: less self-destruction, affect moves into therapy, work role accepted; identity integration comes later.",
+    "h": "Behaviour settles first; the self reorganizes later.",
+    "r": "Clarkin Ch7 – Table 7–1"
+  },
+  {
+    "t": "Ch7 Early phase",
+    "d": 2,
+    "q": "In the early phase, what largely drives increased control over self-destructive impulses?",
+    "o": [
+      "Removing secondary gain via contract parameters, with limits shifting acting out into the transference",
+      "Medication changes that reduce impulsivity and emotional reactivity during the first months of treatment",
+      "Insight into childhood origins of self-destructiveness gained in early sessions",
+      "Brief hospitalizations that interrupt the cycle of self-destructive behavior"
+    ],
+    "e": "Early control over self-destructive impulses is driven largely by structure, not insight. Contract parameters remove secondary gain (crises no longer bring extra attention or control), and limit setting shifts the acting out into the therapeutic relationship, where it shows up as transference. Transference interpretation then consolidates these effects. Insight into childhood origins comes much later in TFP.",
+    "w": [
+      "Medication is not what the chapter credits for early control.",
+      "Childhood insight is not the early mechanism; TFP stays in the here and now.",
+      "Brief hospitalizations are not the mechanism described."
+    ],
+    "k": "Early control of self-destruction comes from removing secondary gain and channeling acting out into the transference, consolidated by interpretation.",
+    "h": "Take away the payoff, bring the fight into the room.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Alliance",
+    "d": 2,
+    "q": "In the psychoanalytic literature, the working (therapeutic) alliance is the relationship between:",
+    "o": [
+      "The therapist in role and the patient's observing ego",
+      "The therapist and the patient's family, united around the treatment goals",
+      "The patient's id and superego",
+      "Two therapists"
+    ],
+    "e": "The working alliance is the collaboration between the therapist in role and the patient's observing ego, the healthy part of the patient that can step back and reflect. It must be distinguished from primitive idealization and the positive transference: a patient who adores the therapist isn't necessarily allied with the work. In TFP, neutrality means allying with exactly this observing part.",
+    "w": [
+      "The family isn't part of the working alliance as defined here.",
+      "Id and superego are internal structures, not the alliance.",
+      "The alliance is between therapist and patient, not two therapists."
+    ],
+    "k": "Working alliance = the therapist in role with the patient's observing ego; distinct from idealization.",
+    "h": "The alliance is with the part of the patient that can watch.",
+    "r": "Clarkin Ch7 – Therapeutic alliance"
+  },
+  {
+    "t": "Ch7 Alliance",
+    "d": 2,
+    "q": "Which personality structures limit the working alliance?",
+    "o": [
+      "Antisocial (others to exploit) and severely narcissistic (envious attack)",
+      "Obsessive (rigid control) and hysterical (dramatic seduction)",
+      "Dependent (clinging) and avoidant (fear of rejection)",
+      "Depressive (guilt) and anxious (constant worry)"
+    ],
+    "e": "Two structures limit the working alliance. Antisocial patients see others, including the therapist, as objects to exploit, so genuine collaboration is hard. Severely narcissistic patients may attack the envied therapist (the one who has something to give) rather than cooperate, because accepting help stirs unbearable envy. Both connect to chapter 1's prognostic factors: superego pathology and envy.",
+    "w": [
+      "Obsessive and hysterical patients are usually at the neurotic level and can form alliances.",
+      "Dependent and avoidant patients may cling or fear rejection but can ally.",
+      "Depressive and anxious patients can usually form an alliance."
+    ],
+    "k": "Antisocial (exploitation) and severely narcissistic (envious attack) structures limit the working alliance.",
+    "h": "Exploiters and envious attackers struggle to collaborate.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Alliance",
+    "d": 2,
+    "q": "In which four ways is the therapeutic alliance manifested?",
+    "o": [
+      "Expectations; therapist's investment; tolerance of aggression; dialogue",
+      "Fee; schedule; attendance; homework completion; punctuality",
+      "Diagnosis; medication; contract; termination plan",
+      "Warmth; advice; praise; reassurance from the therapist in every session"
+    ],
+    "e": "The chapter names four manifestations of the alliance. Expectations: realistic hopes about the outcome and process. The therapist's affective investment: realistic hopefulness about the patient. Tolerance of aggression: the relationship survives the patient's hostility. And meaningful participation in dialogue: the patient genuinely engages with the therapist's comments. None of these depends on warmth, advice or praise.",
+    "w": [
+      "Fee, schedule and attendance are frame elements, not alliance manifestations.",
+      "Diagnosis, medication and contract are not manifestations of the alliance.",
+      "Warmth, advice and praise are supportive behaviours TFP avoids."
+    ],
+    "k": "Alliance shows in expectations, the therapist's investment, tolerance of aggression, and meaningful dialogue.",
+    "h": "Hope, investment, surviving anger, real conversation.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Alliance",
+    "d": 2,
+    "q": "The therapist's affective investment in a difficult patient is largely based on:",
+    "o": [
+      "Realistic hopefulness about who the patient may become",
+      "Liking everything the patient currently does",
+      "The fee and the therapist's professional reputation",
+      "Pity for how much the patient has suffered"
+    ],
+    "e": "Successful therapists find something likable in a difficult patient, even if it is based on imagining the person they may become rather than what they currently do. This realistic hopefulness sustains the therapist through hostility and setbacks. It is not liking everything (impossible with these patients), nor pity, nor professional self-interest.",
+    "w": [
+      "Liking everything the patient does is unrealistic with borderline patients.",
+      "Fee and reputation are not the basis of affective investment.",
+      "Pity is not the same as hopeful investment and can be condescending."
+    ],
+    "k": "The therapist's investment rests on realistic hopefulness about who the patient may become.",
+    "h": "Invest in the person they could become.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Tests of frame",
+    "d": 2,
+    "q": "Why do patients often test the frame early?",
+    "o": [
+      "To control the therapist out of mistrust, and a hidden wish he can contain them",
+      "Because they misunderstood the contract and need it explained again",
+      "Because the therapist seems weak and the patient wants to replace him",
+      "For no particular reason; testing the frame is random acting out"
+    ],
+    "e": "Early tests of the frame often have two motives. One is control born of mistrust: if I don't control him, he will control me. The other is a hidden wish for an omnipotent other who can contain everything. So the therapist holds the frame, and also states that he is not all-powerful: he cannot guarantee the patient's safety alone. That addresses both the fear and the fantasy.",
+    "w": [
+      "It isn't usually misunderstanding; it's testing driven by mistrust and wishes.",
+      "It's not about replacing a weak therapist.",
+      "Frame testing is meaningful: controlling the therapist out of mistrust, while hoping he can contain them."
+    ],
+    "k": "Frame tests reflect mistrust (control him or be controlled) and a hidden wish for an omnipotent container.",
+    "h": "Testing the walls to see whether they hold, while secretly hoping they will.",
+    "r": "Clarkin Ch7 – Tests of the frame"
+  },
+  {
+    "t": "Ch7 Tests of frame",
+    "d": 3,
+    "q": "Ms. X overdosed two weeks into therapy and refused psychiatric transfer. What did Dr. Y do?",
+    "o": [
+      "Refused to resume unless she accepted admission, held firm, and left the choice to her",
+      "Took her back at once, since she said she had 'got it out of her system'",
+      "Called the police to force her transfer to the psychiatric unit",
+      "Ended therapy permanently without discussing it with her"
+    ],
+    "e": "Two weeks into therapy, Ms. X overdosed and refused transfer to the psychiatric unit. Dr. Y refused to resume therapy unless she accepted admission, held firm, and left the choice to her. He felt harsh, but recognized he was offering treatment on proper terms, and that the induced feeling of harshness corresponded to an object representation to explore later. She accepted transfer.",
+    "w": [
+      "Taking her back at once would ignore the contract and reward the overdose.",
+      "Calling the police to force transfer takes the choice away; he left it with her.",
+      "He didn't end therapy without discussion; he set a condition for resuming."
+    ],
+    "k": "After a serious test of the frame, hold firm and leave the choice with the patient; feeling harsh is countertransference to explore.",
+    "h": "Firm frame, her choice, his feeling noted.",
+    "r": "Clarkin Ch7 – Ms. X"
+  },
+  {
+    "t": "Ch7 Tests of frame",
+    "d": 2,
+    "q": "When a patient misses sessions early in treatment, the TFP therapist should:",
+    "o": [
+      "Be active – phone or write, ask about it, recall the contract",
+      "Wait passively to see if the patient returns",
+      "Terminate the treatment for breach of contract",
+      "Lower the session frequency to make attendance easier"
+    ],
+    "e": "With disturbed borderline patients, missed sessions early in treatment are a time for the therapist to be active: phone or write, ask about the absence, and recall the contract. Passivity risks confirming a dyad in which no one cares, and it may let the patient drift out of treatment. Activity here is not a breach of neutrality; it protects the treatment.",
+    "w": [
+      "Waiting passively, as in traditional analytic work, risks losing the patient; TFP contacts her and recalls the contract.",
+      "Terminating over early absences is premature; the therapist first explores them and recalls the contract.",
+      "Lowering frequency rewards the avoidance and weakens the frame."
+    ],
+    "k": "Early missed sessions: be active (phone or write, inquire, recall the contract).",
+    "h": "Reach out when the chair is empty.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Suicide",
+    "d": 3,
+    "q": "When might the therapist NOT address suicidal material first?",
+    "o": [
+      "When suicidal talk is used to divert from more painful material",
+      "Never; suicidal material always comes first, without exception",
+      "When the patient seems too tired to discuss other material",
+      "Only at the end of treatment, when the risk is lower"
+    ],
+    "e": "Suicidal material is normally top priority, but patients sometimes bring up suicidal ideation whenever a more painful or threatening topic arises, as a diversion. When the therapist recognizes this pattern (and the actual risk is not acute), he may point it out: 'You talk about killing yourself each time we get near your feelings about your mother.' Addressing the diversion is itself addressing the suicidality's function.",
+    "w": [
+      "Suicidal material is usually first, but a diversionary pattern can be pointed out.",
+      "Tiredness isn't the criterion; the exception is when suicidal talk is used to divert from more painful material.",
+      "The timing of termination is irrelevant; what matters is whether suicidal talk is a diversion."
+    ],
+    "k": "If suicidal talk is used to divert from more painful material, point out the pattern.",
+    "h": "When 'I want to die' keeps appearing at the door of a painful room, notice the timing.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Medicolegal",
+    "d": 2,
+    "q": "Why should the therapist address medicolegal concerns directly?",
+    "o": [
+      "Unaddressed fear of lawsuits makes him deflect the negative transference",
+      "To intimidate the patient into following the contract",
+      "Because insurance companies require a written legal discussion",
+      "It is not recommended; legal issues stay outside therapy"
+    ],
+    "e": "If the therapist fears being sued (for example after a patient threatens a complaint) but doesn't address it, the fear distorts his work: he becomes defensive and tends to deflect the negative transference instead of exploring it. Addressing the concern directly (consulting, documenting, clarifying responsibilities) lets him feel safe enough to think clearly, and then the transference meaning of the threat can be explored.",
+    "w": [
+      "The aim isn't to intimidate the patient.",
+      "Insurance requirements aren't the point; unspoken fear of lawsuits makes the therapist deflect the negative transference.",
+      "It is recommended; unspoken legal fear distorts the therapy."
+    ],
+    "k": "Address medicolegal fears directly, or they will make the therapist deflect the negative transference.",
+    "h": "A frightened therapist can't explore anger.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Medicolegal",
+    "d": 2,
+    "q": "Why does TFP depart from the medical model of responsibility for suicidality?",
+    "o": [
+      "The medical model ignores secondary gain from provoking involvement and fosters dependency",
+      "TFP considers safety irrelevant once the patient has signed the treatment contract",
+      "The medical model is illegal in outpatient psychotherapy with borderline patients",
+      "Borderline patients are never truly suicidal, so medical responsibility does not apply"
+    ],
+    "e": "In the medical model, the doctor takes responsibility for keeping the patient alive. With chronically suicidal borderline patients, this ignores the secondary gain of provoking the therapist's involvement and fosters dependency: every crisis brings more care. TFP places responsibility for safety with the patient, while keeping safeguards: advance planning in the contract, quality of communication, and high priority given to suicidality in sessions.",
+    "w": [
+      "Safety is never irrelevant; TFP builds in safeguards.",
+      "The medical model isn't illegal; it's clinically counterproductive here.",
+      "Borderline patients can be truly suicidal; that's why safeguards exist."
+    ],
+    "k": "TFP departs from the medical model because it rewards suicidal crises and fosters dependency; safeguards remain.",
+    "h": "Taking all the responsibility can teach the patient to take none.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Homicide",
+    "d": 2,
+    "q": "A patient says he'd be justified in having his boyfriend 'rough up' the therapist. The therapist:",
+    "o": [
+      "Separates fantasy from threat, says it ends the work, asks reassurance, may call security",
+      "Ignores it, since aggressive fantasies are always welcome in therapy and should never be limited",
+      "Agrees to work harder so the patient improves and the threat disappears",
+      "Laughs it off to show he is not intimidated by the patient"
+    ],
+    "e": "Fantasies of aggression toward the therapist are valid material to explore. Direct threats are not. When a patient says it would be justified to have his boyfriend 'rough up' the therapist, the therapist separates fantasy from threat, states that a real threat would end the work, asks for reassurance that it won't happen, and may call security if needed. In most such cases, therapy would end, because the therapist can't work under threat.",
+    "w": [
+      "Aggressive fantasies are welcome, but real threats must be limited.",
+      "Working harder to placate the patient enacts submission under threat.",
+      "Laughing it off minimizes a real threat to safety."
+    ],
+    "k": "Distinguish aggressive fantasy (explore) from a real threat (ends the work; ensure safety).",
+    "h": "Fantasy is talked about; threats are stopped.",
+    "r": "Clarkin Ch7 – Homicidal threats"
+  },
+  {
+    "t": "Ch7 Nonlethal",
+    "d": 2,
+    "q": "For nonlethal self-harm (superficial cutting), what is the key question?",
+    "o": [
+      "What impact will these behaviors have on the work of the therapy?",
+      "Could these behaviors become lethal over the next few months?",
+      "Are these behaviors illegal or reportable to authorities?",
+      "Will the family notice the behaviors and blame the therapist?"
+    ],
+    "e": "For nonlethal self-harm, such as superficial cutting, the key question is what impact the behaviour will have on the work of therapy. The aim of limit setting is to keep affects within the treatment rather than discharged in action. Parameters are tailored to the patient's history and presentation. Lethality is lower, but the behaviour can still drain the therapy of its emotional material.",
+    "w": [
+      "Possible future lethality matters, but the key question here is impact on therapy.",
+      "Legality isn't the clinical question; what matters is how the behaviour affects the work of therapy.",
+      "Family blame isn't the clinical question; the key is the behaviour's impact on the therapy."
+    ],
+    "k": "Nonlethal self-harm: ask what impact it has on the work of therapy.",
+    "h": "Does the cutting cut into the therapy?",
+    "r": "Clarkin Ch7 – Nonlethal self-destructiveness"
+  },
+  {
+    "t": "Ch7 Nonlethal",
+    "d": 3,
+    "q": "Why does the therapist say 'I would wonder if this was your way of… ending the treatment' instead of 'If you cut, I will end therapy'?",
+    "o": [
+      "It leaves responsibility with the patient and avoids enacting a harsh superego",
+      "Cutting is acceptable in TFP as long as it is superficial and does not need medical care",
+      "It avoids any legal liability if the patient cuts later",
+      "It keeps the consequences vague so the patient is not upset"
+    ],
+    "e": "Saying 'I would wonder if this was your way of ending the treatment' rather than 'If you cut, I will end therapy' keeps responsibility with the patient: it would be her action that ends therapy, not the therapist's punishment. It models reflection (wondering about meaning) and avoids enacting a harsh superego figure, which many borderline patients already carry internally.",
+    "w": [
+      "Cutting is not acceptable; the phrasing links it to her choice about treatment.",
+      "Legal protection isn't the purpose; the wording leaves responsibility with her and avoids sounding like a punishing superego.",
+      "The consequence isn't vague; the meaning is made clear without threatening."
+    ],
+    "k": "Frame consequences as the patient's choice ('I'd wonder if this is your way of ending treatment'), not as the therapist's punishment.",
+    "h": "Her action, her choice: not his threat.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Nonlethal",
+    "d": 2,
+    "q": "A patient stopped cutting in hospital under threat of transfer to a state hospital. What did the therapist propose?",
+    "o": [
+      "A matching rule: any cutting signals she is choosing to end therapy",
+      "Ignoring the cutting completely so that it receives no attention or reward",
+      "Arranging more hospitalizations whenever urges arise",
+      "Relying only on medication to control the urges"
+    ],
+    "e": "In hospital, the patient stopped cutting when faced with transfer to a state hospital, which showed both her and the therapist that she could control the urge. Building on this, the therapist proposed a matching rule: any cutting would signal that she was choosing to end therapy. The contingency was specific to her and grounded in demonstrated ability.",
+    "w": [
+      "Ignoring cutting entirely isn't what was proposed.",
+      "More hospitalizations would reward urges with admission.",
+      "Medication alone wasn't the plan; the therapist proposed a matching rule linking any cutting to ending therapy."
+    ],
+    "k": "When a patient has shown she can control self-harm, a specific contingency (cutting = choosing to end therapy) can be agreed.",
+    "h": "She showed she could stop; the contract builds on that proof.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Affect storms",
+    "d": 2,
+    "q": "What are the two types of affect storms?",
+    "o": [
+      "Explosive outbursts, and flat monotonous rigidity masking violent affect",
+      "Alternating crying spells and inappropriate laughter, with dissociation in between",
+      "Manic episodes alternating with depressive episodes",
+      "Panic attacks and phobic avoidance of sessions"
+    ],
+    "e": "The chapter describes two types of affect storms. Type 1: blatant explosions, aggressive or sexualized, loud and obvious. Type 2: flat, monotonous rigidity that may mask violent affect underneath, where the patient seems frozen or robotic while the therapist senses danger. Both are storms; one is visible, the other hidden.",
+    "w": [
+      "Crying, laughing and dissociation are not the two types described.",
+      "Manic and depressive episodes are mood disorder phases.",
+      "Panic and phobic avoidance are anxiety symptoms."
+    ],
+    "k": "Affect storms: (1) explosive outbursts; (2) flat, monotonous rigidity masking violent affect.",
+    "h": "A hurricane, or a frozen lake with a volcano under it.",
+    "r": "Clarkin Ch7 – Affect storms"
+  },
+  {
+    "t": "Ch7 Affect storms",
+    "d": 3,
+    "q": "During an affect storm, Steiner's 'object-centered interpretation' means:",
+    "o": [
+      "Describing the patient's view of the therapist ('You see me as…') without accepting or rejecting it",
+      "Interpreting the patient's unconscious motives directly and in depth, right at the peak of the storm",
+      "Remaining silent until the storm passes, to avoid fuelling the patient's affect",
+      "Reassuring the patient that the therapist is not the person the patient describes"
+    ],
+    "e": "During an affect storm, the patient can't take in interpretations about herself. Steiner's object-centred interpretation describes the patient's view of the therapist ('You see me as cruel and uncaring right now') without accepting or rejecting it. This shows the therapist understands her experience, lets her gradually tolerate what is projected, and later allows interpretation of why it is projected.",
+    "w": [
+      "Deep interpretation of her motives at the peak will be heard as an attack.",
+      "Silence can feel like indifference and inflame the storm.",
+      "Reassurance rejects her view and shuts down understanding."
+    ],
+    "k": "In an affect storm, use object-centred interpretation: describe how the patient sees you, without accepting or rejecting it.",
+    "h": "'You see me as…' before 'you do this because…'.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Affect storms",
+    "d": 2,
+    "q": "What effect does a wooden, flat tone have during an affect storm?",
+    "o": [
+      "It inflames the storm, conveying incomprehension, contempt or fear",
+      "It calms the patient by modeling emotional control and a neutral stance",
+      "It demonstrates neutrality and should be maintained",
+      "It has no particular effect on the patient's affect"
+    ],
+    "e": "A wooden, flat tone during an affect storm inflames it: the patient experiences it as incomprehension, contempt or fear. The therapist must show affective involvement (tone, intensity, engagement) while containing the patient's affect. This is the same principle as Tactic 4: matching intensity without matching the negative quality.",
+    "w": [
+      "A flat tone doesn't calm; it conveys contempt or fear.",
+      "Neutrality is about not taking sides, not about a wooden tone.",
+      "It does have an effect: it inflames the storm."
+    ],
+    "k": "A flat, wooden tone inflames affect storms; show affective involvement while containing.",
+    "h": "Ice-cold calm fuels a fire.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Life outside",
+    "d": 2,
+    "q": "When patients say their illness makes work impossible, the therapist explains that:",
+    "o": [
+      "Start at an appropriate level (day hospital to job); therapy helps with work stress",
+      "They must find full-time work immediately as a condition of the first session",
+      "Work is irrelevant to TFP, which focuses only on the transference",
+      "They should apply for disability benefits until their symptoms improve"
+    ],
+    "e": "When patients claim their illness makes work impossible, the therapist explains that they can start at an appropriate level, from a day hospital or volunteering to part-time and then full-time work, and that therapy can help with the stresses of work. The therapist periodically inquires about activities outside therapy, because functioning is part of improvement and counteracts secondary gain.",
+    "w": [
+      "Full-time work before the first session is unrealistic.",
+      "Work is relevant to TFP; outside life is monitored.",
+      "Disability until symptoms improve fosters secondary gain."
+    ],
+    "k": "If work seems impossible, start at an appropriate level (day hospital → job); therapy helps with work stress.",
+    "h": "Start small, but start.",
+    "r": "Clarkin Ch7 – Life outside"
+  },
+  {
+    "t": "Ch7 Session",
+    "d": 1,
+    "q": "How does a TFP session begin?",
+    "o": [
+      "The therapist stays silent and waits for the patient",
+      "The therapist sets the agenda for the session",
+      "The session begins with a homework review",
+      "The therapist summarizes the previous session"
+    ],
+    "e": "In TFP the therapist stays silent at the start and waits for the patient to begin. The patient sets the agenda, which shows what is on their mind and how they approach the session. The therapist then listens across the three channels and addresses resistance and the central themes according to the priority hierarchy. This contrasts with CBT, where the session begins with an agenda set together.",
+    "w": [
+      "Setting the agenda is CBT practice, not TFP.",
+      "There is no homework review in TFP.",
+      "Summarizing the previous session would set the agenda for the patient."
+    ],
+    "k": "A TFP session begins with the therapist silent, waiting for the patient to start.",
+    "h": "The patient opens; the therapist follows.",
+    "r": "Clarkin Ch7 – Progression of a session"
+  },
+  {
+    "t": "Ch7 Session",
+    "d": 3,
+    "q": "Last session the patient mentioned losing her job and not paying; today she doesn't mention it. The therapist:",
+    "o": [
+      "Waits to see what she brings, then raises it and asks why she continues as if nothing happened",
+      "Opens the session immediately with the job loss, since it threatens the therapy",
+      "Ignores the job issue unless she raises it, to respect her choice of topic",
+      "Ends therapy, since she will not be able to pay for the sessions"
+    ],
+    "e": "The therapist first lets the patient speak (she might bring something more urgent). Then, if she doesn't mention it, he raises the job loss and her inability to pay, and asks why she continues as if nothing had happened. This both follows the priority hierarchy (a threat to treatment continuity) and confronts the denial in her silence about it.",
+    "w": [
+      "Opening with it immediately skips seeing what she brings first.",
+      "Ignoring it lets a threat to the treatment go unaddressed.",
+      "Ending therapy is premature; the issue is explored."
+    ],
+    "k": "Let the patient start; if she ignores a treatment threat, raise it and explore why she acts as if nothing happened.",
+    "h": "Wait, then ask about the elephant.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Session",
+    "d": 2,
+    "q": "Why are TFP therapists more active than usual psychodynamic therapists early on?",
+    "o": [
+      "Key material lies in discrepancies between channels; split parts must be linked",
+      "They are impatient and want to speed up the course of treatment",
+      "They must give advice, since borderline patients need guidance",
+      "They need to fill silences, which borderline patients cannot tolerate"
+    ],
+    "e": "Early on, key material lies in discrepancies between channels: what the patient says versus how she acts and what the therapist feels. Because of splitting, these parts are kept apart, and the patient won't link them spontaneously. So the TFP therapist is more active: linking verbal content with what is communicated through other channels, and refocusing trivial discussion toward what is affectively alive.",
+    "w": [
+      "TFP activity is a technique for linking split parts across channels, not a sign of impatience.",
+      "TFP therapists don't give advice; activity means confronting and linking discrepancies between channels.",
+      "Activity isn't about filling silences; it is linking split-off parts that show up in different channels."
+    ],
+    "k": "TFP therapists are active early because split-off material lies in discrepancies between channels that must be linked.",
+    "h": "Splitting scatters the pieces; the therapist puts them side by side.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Ending",
+    "d": 2,
+    "q": "What is advised about the end of sessions?",
+    "o": [
+      "Avoid new material or untested interpretations; end on time",
+      "Always run over to finish whatever topic was being discussed",
+      "Give a homework task to work on until the next session",
+      "Summarize the patient's whole life story in the last minutes"
+    ],
+    "e": "Near the end of a session, the therapist avoids introducing new material or untested interpretations that the patient will have to carry alone, and ends on time. End times are meaningful: patients' attitudes to separation show in how they handle them (lingering, bringing bombshells, leaving early). The exception: a treatment-threatening announcement at the end may justify extending the session to address it.",
+    "w": [
+      "Running over to finish a topic undermines the frame.",
+      "TFP gives no homework; at the end of sessions it avoids new material or untested interpretations and ends on time.",
+      "Summarizing a life story is not advised at the end."
+    ],
+    "k": "End sessions on time without new material or untested interpretations; exception: treatment-threatening announcements.",
+    "h": "No new grenades in the last minutes.",
+    "r": "Clarkin Ch7 – Ending the session"
+  },
+  {
+    "t": "Ch7 Ending",
+    "d": 2,
+    "q": "A patient announces at session end a 3-week trip starting now. The therapist:",
+    "o": [
+      "Extends the session to discuss why she is doing this now, as it threatens the work",
+      "Says goodbye and wishes her a good trip, planning to explore it when she returns in 3 weeks",
+      "Ends therapy, since a 3-week absence breaks the attendance contract",
+      "Says nothing now and waits to explore it when she comes back"
+    ],
+    "e": "She announces at the very end of the session that she is leaving on a 3-week trip, starting now. Because this threatens the treatment and she chose to drop it at the last moment, the therapist extends the session to discuss why she is doing this now, arranging later how to handle the extra time. Exploring it in three weeks would let the acting out run its course unexamined.",
+    "w": [
+      "Waving her off leaves a treatment threat unexplored for three weeks.",
+      "Ending therapy over one trip is excessive; it's explored.",
+      "Saying nothing now lets the acting out happen unexamined."
+    ],
+    "k": "A treatment-threatening announcement at session end justifies extending the session to address it.",
+    "h": "A bombshell at the door gets dealt with before the door closes.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Illustration",
+    "d": 3,
+    "q": "In the 5th-session illustration, which dominant object relation did the therapist interpret?",
+    "o": [
+      "A weak self submitting to a powerful, indifferent other, leading to humiliation and dropout urges",
+      "A grandiose, superior self relating to a devalued, incompetent therapist who has nothing to offer her",
+      "A satisfied, cared-for child relating to an ideal, perfectly attentive provider",
+      "A sexually excited child relating to a seductive, exciting parental figure"
+    ],
+    "e": "In the 5th-session illustration, the therapist linked the patient's disappointment and urge to quit to a dominant dyad: a weak self submitting to a powerful, indifferent other, which leads to humiliation and the wish to drop out. The same pattern appeared with her father and her boyfriends. Naming it in the transference gives her a chance to understand her urge to quit rather than acting on it.",
+    "w": [
+      "A grandiose self with a devalued therapist appears later as a reversal, not the dyad first interpreted.",
+      "An idealized caring dyad was not the one interpreted.",
+      "An erotic dyad was not the focus."
+    ],
+    "k": "5th-session illustration: weak, submissive self ↔ powerful, indifferent other → humiliation → urge to quit.",
+    "h": "'If I depend on you, you'll look down on me, so I'll leave first.'",
+    "r": "Clarkin Ch7 – Clinical illustration"
+  },
+  {
+    "t": "Ch7 Illustration",
+    "d": 3,
+    "q": "When the therapist misattributed a dream and the patient gleefully corrected him, what did he interpret?",
+    "o": [
+      "Her pleasure at being superior, and fear that if he were right he'd humiliate her",
+      "That she was lying about whose dream it was in order to confuse him",
+      "That the dream was in fact hers, revealing her wish for a child with him",
+      "That her glee showed a brief psychotic loss of reality testing"
+    ],
+    "e": "When the therapist mixed up whose dream it was and the patient corrected him with glee, he interpreted her pleasure at being superior, and her fear that if he were right he would humiliate her. Her glee showed the reversal of the superiority–humiliation dyad: now she was the superior one and he the humiliated one. Even a therapist's mistake becomes material when it activates the dyad.",
+    "w": [
+      "Lying to confuse him wasn't the interpretation.",
+      "The dream wasn't hers; the point was her glee.",
+      "Glee at correcting someone is not a psychotic sign."
+    ],
+    "k": "The patient's glee at correcting the therapist revealed the reversal of the superiority–humiliation dyad.",
+    "h": "Gotcha! = the humiliated one becomes the humiliator.",
+    "r": "Clarkin Ch7"
+  },
+  {
+    "t": "Ch7 Illustration",
+    "d": 2,
+    "q": "Why didn't the therapist focus on the patient's relationship with her father?",
+    "o": [
+      "Affect was more dominant in the here-and-now transference and current relationships",
+      "The father was irrelevant to her problems and could safely be ignored in the treatment",
+      "TFP does not allow discussion of parents in the early phase",
+      "She refused to talk about her father when he asked"
+    ],
+    "e": "The patient mentioned her father as a precursor of her pattern, but the therapist stayed with the here-and-now transference and current relationships, because that is where the affect was dominant (economic principle). Going to the father would have moved the work into safer, historical territory, away from the live feelings toward the therapist.",
+    "w": [
+      "The father was relevant, as a precursor; he just wasn't where the affect was.",
+      "TFP allows discussion of parents; it prioritizes live affect.",
+      "She didn't refuse to talk about him."
+    ],
+    "k": "Stay where the affect is dominant (the here-and-now transference), even when the patient offers historical precursors.",
+    "h": "Follow the heat, not the history.",
+    "r": "Clarkin Ch7"
+  }
+]

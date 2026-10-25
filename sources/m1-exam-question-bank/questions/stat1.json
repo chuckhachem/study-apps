@@ -1,0 +1,645 @@
+[
+  {
+    "t": "Ch1 Levels of measurement",
+    "d": 1,
+    "q": "A researcher records each client's marital status as single, married, divorced or widowed. At what level is this variable measured?",
+    "o": [
+      "Nominal",
+      "Ordinal",
+      "Interval",
+      "Ratio"
+    ],
+    "e": "The categories are names with no inherent order: 'divorced' is not more or less than 'married'. A variable whose values only distinguish categories is nominal. Mnemonic NOIR (French 'black'): each level adds one property: Nominal = names, Ordinal = order, Interval = equal intervals, Ratio = a true zero.",
+    "w": [
+      "Ordinal needs a meaningful order, and marital statuses can't be ranked from less to more.",
+      "Interval needs ordered values with equal spacing; categories of marital status have neither.",
+      "Ratio needs equal intervals plus a true zero; there is no 'zero' marital status."
+    ],
+    "k": "Categories that only name groups, with no order, are nominal.",
+    "h": "NOIR (French 'black'): Nominal names, Ordinal orders, Interval spaces equally, Ratio has a real zero.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Levels of measurement",
+    "n": "Coding the categories 1–4 in SPSS does not make them numbers in any meaningful sense; the codes are labels."
+  },
+  {
+    "t": "Ch1 Levels of measurement",
+    "d": 1,
+    "q": "Runners' finishing positions (1st, 2nd, 3rd…) are measured at which level?",
+    "o": [
+      "Ordinal",
+      "Nominal",
+      "Interval",
+      "Ratio"
+    ],
+    "e": "Positions tell you the order but not the size of the gaps: the winner might beat second place by 0.1 s while second beats third by a minute. Order without equal intervals is the definition of ordinal data.",
+    "w": [
+      "Nominal would mean the positions are just labels; here 1st really is ahead of 2nd.",
+      "Interval would require equal gaps between positions, but the time gaps differ.",
+      "Ratio needs a true zero and equal gaps; 'zeroth place' doesn't exist."
+    ],
+    "k": "Ranks give order without equal gaps between them, so they are ordinal.",
+    "h": "Podium places: order, not distance.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Levels of measurement"
+  },
+  {
+    "t": "Ch1 Levels of measurement",
+    "d": 2,
+    "q": "Why is temperature in degrees Celsius an interval rather than a ratio variable?",
+    "o": [
+      "Its zero point is arbitrary, so 20 °C is not twice as hot as 10 °C",
+      "Its scale points are not equally spaced across the full range of temperatures",
+      "It can only take whole-number values on most thermometers",
+      "Its values can be ranked but differences cannot be compared"
+    ],
+    "e": "On an interval scale, equal differences mean equal amounts (10→20 °C is the same change as 20→30 °C), but zero does not mean 'no temperature'. Without a true zero, ratios are meaningless. Kelvin, which has an absolute zero, is a ratio scale.",
+    "w": [
+      "Celsius degrees are equally spaced; that's exactly what makes it interval.",
+      "Whole-number readings are about measurement precision, not the level of measurement.",
+      "Differences between Celsius values can be compared; that property is what interval means."
+    ],
+    "k": "Interval = equal spacing, arbitrary zero, so ratios like 'twice as hot' are meaningless.",
+    "h": "0 °C isn't 'no heat'; only Kelvin's zero is real.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Levels of measurement"
+  },
+  {
+    "t": "Ch1 Levels of measurement",
+    "d": 2,
+    "q": "Which property belongs to ratio variables but not to interval variables?",
+    "o": [
+      "Statements such as 'twice as much' are meaningful",
+      "Equal differences on the scale reflect equal amounts",
+      "Values can be arranged from lowest to highest",
+      "Values can be averaged and given a standard deviation"
+    ],
+    "e": "Both interval and ratio scales have ordered values and equal intervals, and both can be averaged. Only a ratio scale has a meaningful zero (zero reaction time, zero errors), which is what makes ratios such as 'twice as long' valid.",
+    "w": [
+      "Equal differences reflecting equal amounts is shared by interval and ratio scales.",
+      "Ordering values is shared by ordinal, interval and ratio scales.",
+      "Means and SDs can be computed for interval as well as ratio data."
+    ],
+    "k": "Only ratio scales, with a true zero, support 'twice as much' statements.",
+    "h": "Ratio has a real zero, so ratios make sense.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Levels of measurement"
+  },
+  {
+    "t": "Ch1 Levels of measurement",
+    "d": 2,
+    "q": "Strictly speaking, a single 5-point item scored from 'strongly disagree' to 'strongly agree' produces data at which level?",
+    "o": [
+      "Ordinal",
+      "Interval",
+      "Ratio",
+      "Nominal"
+    ],
+    "e": "The responses are ordered, but nothing guarantees that the psychological distance from 'disagree' to 'neutral' equals the distance from 'neutral' to 'agree'. A single item is therefore ordinal. In practice, sums or means of many such items are often treated as interval, which is a pragmatic decision rather than a property of the item.",
+    "w": [
+      "Interval would need equal psychological distances between response options, which aren't guaranteed.",
+      "Ratio would need a true zero, which a Likert item lacks.",
+      "Nominal would ignore the order, but 'agree' clearly ranks above 'disagree'."
+    ],
+    "k": "A single Likert item is ordinal; summed scales are often treated as interval by convention.",
+    "h": "One item ranks; many items add up.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Levels of measurement"
+  },
+  {
+    "t": "Ch1 Variable types",
+    "d": 1,
+    "q": "Which of these variables is continuous rather than discrete?",
+    "o": [
+      "Reaction time in milliseconds",
+      "Number of panic attacks in a week",
+      "Number of siblings a client has",
+      "Number of items correct on a 20-item quiz"
+    ],
+    "e": "A continuous variable can take any value along its scale, at whatever precision the instrument allows (412.37 ms). Counts of events, people or correct items can only be whole numbers, so they are discrete.",
+    "w": [
+      "Panic attacks are counted in whole numbers, so they're discrete.",
+      "Siblings are counted, so the variable is discrete.",
+      "Items correct are whole-number counts, so discrete."
+    ],
+    "k": "Continuous variables can take any value at finer precision; counts are discrete.",
+    "h": "Measure it = continuous; count it = discrete.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Discrete and continuous variables"
+  },
+  {
+    "t": "Ch1 Variable types",
+    "d": 1,
+    "q": "A categorical variable with exactly two categories, such as pass/fail, is called:",
+    "o": [
+      "Binary (dichotomous)",
+      "Ordinal (ranked)",
+      "Continuous (scaled)",
+      "Multinomial (polytomous)"
+    ],
+    "e": "A binary or dichotomous variable has two mutually exclusive categories. Binary outcomes matter later: they call for logistic regression rather than ordinary linear regression.",
+    "w": [
+      "Ordinal variables have ordered categories, and usually more than two.",
+      "Continuous variables take any value on a scale, not two categories.",
+      "Multinomial means more than two unordered categories."
+    ],
+    "k": "Two-category variables are binary (dichotomous) and call for logistic regression as outcomes.",
+    "h": "Bi = two: binary.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Variable types"
+  },
+  {
+    "t": "Ch1 Variable types",
+    "d": 3,
+    "q": "In SPSS, a variable is coded 0 = no diagnosis and 1 = diagnosis. What does the mean of this variable tell you?",
+    "o": [
+      "The proportion of cases that have a diagnosis",
+      "Nothing, because means of categorical codes are meaningless",
+      "The typical diagnosis status in the sample",
+      "The odds of having a diagnosis versus not"
+    ],
+    "e": "With 0/1 coding, the sum equals the number of 1s, so the mean equals the proportion coded 1 (a mean of .30 means 30% have a diagnosis). This is why 0/1 'dummy' coding is so useful in regression. With arbitrary codes such as 1 and 2, the mean has no meaning. The odds would be p/(1−p), not p itself.",
+    "w": [
+      "With 0/1 coding the mean is meaningful: it's the proportion coded 1.",
+      "The mean isn't a 'typical status'; it's a proportion between 0 and 1.",
+      "Odds are p/(1 − p); the mean gives p itself, not the odds."
+    ],
+    "k": "The mean of a 0/1 variable equals the proportion of 1s.",
+    "h": "Average the zeros and ones, get the share of ones.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Coding categorical variables"
+  },
+  {
+    "t": "Ch1 Validity",
+    "d": 2,
+    "q": "Scores on a new depression scale correlate strongly with clinicians' diagnoses made in the same week. This is evidence of:",
+    "o": [
+      "Concurrent validity",
+      "Predictive validity",
+      "Content validity",
+      "Test–retest reliability"
+    ],
+    "e": "Criterion validity asks whether an instrument agrees with an established criterion. When the criterion is measured at the same time, it is concurrent validity. When the instrument forecasts a later criterion, it is predictive validity. 'Con-current' means 'running together' in time.",
+    "w": [
+      "Predictive validity uses a criterion measured later, not in the same week.",
+      "Content validity concerns item coverage, not agreement with a criterion.",
+      "Test–retest reliability is consistency over time, not agreement with diagnoses."
+    ],
+    "k": "Agreement with a criterion measured at the same time = concurrent validity.",
+    "h": "Con-current: running together in time.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Validity"
+  },
+  {
+    "t": "Ch1 Validity",
+    "d": 2,
+    "q": "Students' scores on an aptitude test in September correlate with their grades the following June. This supports the test's:",
+    "o": [
+      "Predictive validity",
+      "Concurrent validity",
+      "Ecological validity",
+      "Internal consistency"
+    ],
+    "e": "The test predicts a criterion measured later in time, which is predictive validity, a form of criterion validity.",
+    "w": [
+      "Concurrent validity uses a criterion measured at the same time.",
+      "Ecological validity concerns generalizing to real-world settings.",
+      "Internal consistency is about items hanging together, not predicting grades."
+    ],
+    "k": "A test that forecasts a criterion measured later shows predictive validity.",
+    "h": "Predict = say before.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Validity"
+  },
+  {
+    "t": "Ch1 Validity",
+    "d": 2,
+    "q": "A panel of experts checks that an anxiety questionnaire covers cognitive, physiological and behavioural symptoms. Which kind of validity is being established?",
+    "o": [
+      "Content validity",
+      "Predictive validity",
+      "Concurrent validity",
+      "Discriminant validity"
+    ],
+    "e": "Content validity is the degree to which items represent the whole construct. A scale that only asked about worry would miss the physiological and behavioural parts of anxiety.",
+    "w": [
+      "Predictive validity needs a later criterion to forecast.",
+      "Concurrent validity needs a criterion measured at the same time.",
+      "Discriminant validity shows low correlation with unrelated constructs."
+    ],
+    "k": "Content validity = items cover the full construct, often judged by experts.",
+    "h": "Content = what's in the box.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Validity"
+  },
+  {
+    "t": "Ch1 Validity",
+    "d": 2,
+    "q": "Ecological validity refers to:",
+    "o": [
+      "Whether results generalize to real-world conditions",
+      "Whether items cover every facet of the construct",
+      "Whether scores agree with a gold-standard measure",
+      "Whether repeated measurements give the same scores"
+    ],
+    "e": "Ecological validity concerns how far findings obtained under research conditions hold in everyday life. A memory effect found with word lists in a quiet lab may not hold for remembering appointments in a busy clinic.",
+    "w": [
+      "Covering every facet of a construct is content validity.",
+      "Agreement with a gold standard is criterion validity.",
+      "Consistency across repeated measurements is reliability."
+    ],
+    "k": "Ecological validity: do findings hold in real-world conditions?",
+    "h": "Eco = home: does it work outside the lab?",
+    "r": "Stats & SPSS ch. 1 · Research methods · Validity"
+  },
+  {
+    "t": "Ch1 Reliability",
+    "d": 2,
+    "q": "A questionnaire gives almost identical scores when the same people complete it two weeks apart under the same conditions. This demonstrates:",
+    "o": [
+      "Test–retest reliability",
+      "Concurrent criterion validity",
+      "Internal consistency",
+      "Content validity"
+    ],
+    "e": "Reliability is consistency. Test–retest reliability is consistency over time: the same people measured twice should produce similar scores, as long as the trait itself has not changed.",
+    "w": [
+      "Concurrent validity needs a criterion measure, not the same test twice.",
+      "Internal consistency is measured on a single occasion across items.",
+      "Content validity concerns item coverage, not stability over time."
+    ],
+    "k": "Similar scores on two occasions = test–retest reliability.",
+    "h": "Test, retest, same result.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Reliability"
+  },
+  {
+    "t": "Ch1 Reliability",
+    "d": 3,
+    "q": "A scale returns the same anxiety score every time a person completes it, but its scores are always about 10 points above their true anxiety. The scale is:",
+    "o": [
+      "Reliable but not valid",
+      "Valid but not reliable",
+      "Neither reliable nor consistent",
+      "Both reliable and valid"
+    ],
+    "e": "It is consistent, so reliable, but it does not measure the true level, so its scores are not valid. Picture a dartboard: a tight cluster of darts away from the bullseye is reliable but not valid. Reliability is necessary for validity but does not guarantee it.",
+    "w": [
+      "A measure can't be valid without being reliable, so this combination is impossible.",
+      "It is consistent, so it is reliable; 'neither' is wrong.",
+      "It's consistently 10 points off, so it isn't valid."
+    ],
+    "k": "Consistent but biased = reliable, not valid; reliability is necessary, not sufficient, for validity.",
+    "h": "Tight dart cluster, wrong spot on the board.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Reliability and validity",
+    "n": "The reverse cannot happen: a measure cannot be valid if it is unreliable, because random inconsistency stops it tracking the true value."
+  },
+  {
+    "t": "Ch1 Measurement error",
+    "d": 2,
+    "q": "Measurement error is best defined as:",
+    "o": [
+      "The gap between the values recorded and the true values of what is measured",
+      "The difference between a sample statistic and the corresponding population parameter",
+      "The variation in scores caused by the experimental manipulation itself",
+      "The chance of rejecting a null hypothesis that is actually true"
+    ],
+    "e": "Measurement error concerns the instrument. A scale reading 64 kg for someone who weighs 62 kg has 2 kg of measurement error. Sampling error (sample versus population) and Type I error (false rejection of H0) are different ideas.",
+    "w": [
+      "Sample statistic versus population parameter is sampling error.",
+      "Variation caused by the manipulation is systematic variance, not error.",
+      "Rejecting a true null hypothesis is a Type I error."
+    ],
+    "k": "Measurement error = recorded value minus true value, due to the instrument.",
+    "h": "The scale lies, not the sample.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Measurement error"
+  },
+  {
+    "t": "Ch1 Measurement error",
+    "d": 2,
+    "q": "Asking people how often they lie is likely to underestimate lying mainly because of:",
+    "o": [
+      "Social desirability bias in self-report",
+      "Low test–retest reliability of the items",
+      "Sampling error from a small sample",
+      "Use of an interval instead of a ratio scale"
+    ],
+    "e": "Self-report is open to systematic measurement error: people present themselves favourably, so reported lying is lower than actual lying. Because the error pushes in one direction, it is bias rather than random noise.",
+    "w": [
+      "Low reliability creates random inconsistency, not a systematic underestimate.",
+      "Small samples cause sampling error in both directions, not systematic underreporting.",
+      "Scale level doesn't explain people underreporting lies."
+    ],
+    "k": "Social desirability is a systematic bias in self-report.",
+    "h": "People polish their image.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Measurement error"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "Why can a cross-sectional correlational study not show that stress causes insomnia?",
+    "o": [
+      "Nothing is manipulated, so a third variable or reverse causation may explain it",
+      "Correlation coefficients cannot be calculated when both variables are continuous ones",
+      "Cross-sectional data cannot be tested for statistical significance at all",
+      "Questionnaire data are ordinal, so causal statements are never allowed from them"
+    ],
+    "e": "In correlational research nothing is manipulated. A third variable (the 'tertium quid'), such as depression, might cause both stress and insomnia, and insomnia might cause stress rather than the reverse. Only manipulating the cause and randomizing participants rules these explanations out.",
+    "w": [
+      "Correlations are easily computed for two continuous variables.",
+      "Cross-sectional data can be tested for significance.",
+      "Causal limits come from design, not from the level of measurement."
+    ],
+    "k": "Without manipulation, third variables and reverse causation can't be ruled out.",
+    "h": "Correlation isn't causation: the tertium quid lurks.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Correlational vs experimental research"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 3,
+    "q": "Philosophers from Hume to Mill set conditions for inferring cause. Which condition does a single cross-sectional correlation between X and Y fail to establish?",
+    "o": [
+      "That X occurs before Y in time",
+      "That X and Y vary together",
+      "That the relationship can be quantified",
+      "That X and Y were both measured reliably"
+    ],
+    "e": "A correlation shows covariation, but measuring both variables at one moment says nothing about which came first. It also cannot exclude rival explanations, which is Mill's further condition. Temporal precedence and the elimination of alternatives are what experiments and longitudinal designs add.",
+    "w": [
+      "Covariation is exactly what a correlation does establish.",
+      "A correlation coefficient quantifies the relationship.",
+      "Reliability is about measurement quality, not a causal condition the correlation fails."
+    ],
+    "k": "A single correlation can't show temporal precedence or exclude alternatives.",
+    "h": "Cause must come first in time.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Causality"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 1,
+    "q": "In an experiment, the variable the researcher manipulates is the:",
+    "o": [
+      "Independent variable",
+      "Dependent variable",
+      "Outcome variable",
+      "Confounding variable"
+    ],
+    "e": "The independent variable is manipulated (for example, therapy versus waitlist), and the dependent variable is measured to see whether it changes. In correlational language, these become the predictor and the outcome.",
+    "w": [
+      "The dependent variable is measured, not manipulated.",
+      "'Outcome' is the correlational name for the dependent variable.",
+      "A confound varies alongside the IV without being intended."
+    ],
+    "k": "Manipulated = independent variable; measured = dependent variable.",
+    "h": "I change the Independent; the Dependent depends on it.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Variables in experiments"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "Patients in a drug group were all tested in the morning and placebo patients in the afternoon. Time of day is a:",
+    "o": [
+      "Confound",
+      "Moderator",
+      "Covariate measured by design",
+      "Manipulation check"
+    ],
+    "e": "A confound varies systematically with the independent variable, so any group difference could be due to the drug or to time of day. Random allocation and standardized procedures prevent confounds.",
+    "w": [
+      "A moderator changes the strength of an effect; time of day here is tangled with the IV.",
+      "A covariate is measured and controlled statistically, not built into the groups.",
+      "A manipulation check verifies the IV worked; it isn't an extra variable."
+    ],
+    "k": "A variable that varies systematically with the IV is a confound.",
+    "h": "Confound: two causes fused together.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Confounding variables"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "What is the main purpose of randomly assigning participants to conditions?",
+    "o": [
+      "So the manipulation is the only systematic difference between groups",
+      "To make the sample representative of the whole population the researcher is targeting",
+      "To guarantee that the sampling distribution of the mean is normal",
+      "To make every group exactly the same size before the analysis"
+    ],
+    "e": "Randomization spreads pre-existing differences (motivation, IQ, severity) unsystematically across groups, so differences in the outcome can be attributed to the manipulation. It concerns internal validity. Random sampling, not random assignment, concerns representativeness.",
+    "w": [
+      "Representativeness comes from random sampling, not random assignment.",
+      "Normality of the sampling distribution comes from the central limit theorem.",
+      "Group sizes can still differ with random assignment."
+    ],
+    "k": "Random assignment protects internal validity by spreading confounds evenly.",
+    "h": "Assignment for cause; sampling for generalization.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Randomization",
+    "n": "Random assignment is not the same as random sampling. A convenience sample can be randomly assigned, which supports causal claims within the sample but not generalization."
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "Compared with an independent (between-groups) design, a repeated-measures design usually:",
+    "o": [
+      "Has more power, because individual differences are removed from the error",
+      "Has less power, because each person contributes data more than once to the analysis",
+      "Removes the need for counterbalancing the order of conditions",
+      "Avoids practice effects, since people serve as their own controls"
+    ],
+    "e": "Because the same people take part in every condition, stable individual differences no longer inflate unsystematic variation. Error shrinks, the test statistic grows, and power increases for the same number of participants. The price is order effects, which require counterbalancing.",
+    "w": [
+      "Repeated measures usually increase power, because individual differences leave the error term.",
+      "Repeated measures need counterbalancing, not less of it.",
+      "Repeated measures create practice effects; they don't avoid them."
+    ],
+    "k": "Repeated measures boost power by removing individual differences from error; order effects are the cost.",
+    "h": "Same people, less noise.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Independent vs repeated-measures designs"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "Practice and boredom effects are a particular threat in which design, and how are they controlled?",
+    "o": [
+      "Repeated-measures designs; by counterbalancing the order of conditions",
+      "Independent designs; by randomly assigning people to the different groups of the study",
+      "Correlational designs; by measuring every variable at exactly the same time",
+      "Independent designs; by matching participants on key traits before testing"
+    ],
+    "e": "When people do every condition, later conditions can benefit from practice or suffer from fatigue. Counterbalancing means half the participants do A then B and half do B then A, so order effects do not line up with the manipulation.",
+    "w": [
+      "Independent designs test different people in each condition, so practice effects don't apply.",
+      "Correlational designs don't involve conditions done in sequence.",
+      "Matching helps independent designs; order effects belong to repeated measures."
+    ],
+    "k": "Order effects threaten repeated-measures designs; counterbalancing controls them.",
+    "h": "Half AB, half BA.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Order effects"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 3,
+    "q": "A test statistic such as t or F is fundamentally a ratio of:",
+    "o": [
+      "Systematic variation to unsystematic variation",
+      "Sample size to the number of variables tested",
+      "Unsystematic variation to systematic variation",
+      "The population mean to the sample mean"
+    ],
+    "e": "Systematic variation is the variation explained by the effect or model, and unsystematic variation is error. If the manipulation does nothing, the ratio is close to 1. The larger the effect relative to the noise, the larger the statistic. The same logic underlies t, F and even χ².",
+    "w": [
+      "Sample size relative to variables isn't what a test statistic measures.",
+      "This is the inverse: noise over signal would shrink as effects grow.",
+      "Comparing population and sample means isn't the general logic of t or F."
+    ],
+    "k": "Test statistic = systematic ÷ unsystematic variation (signal ÷ noise).",
+    "h": "Signal over noise; model over error.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Systematic and unsystematic variation"
+  },
+  {
+    "t": "Ch1 Hypotheses",
+    "d": 2,
+    "q": "'Clients who receive CBT will report lower anxiety than clients on the waitlist' is:",
+    "o": [
+      "A directional (one-tailed) alternative hypothesis",
+      "A non-directional (two-tailed) alternative hypothesis",
+      "A null hypothesis stating that no effect exists",
+      "A directional null hypothesis about the population"
+    ],
+    "e": "It predicts an effect (so it is an alternative hypothesis, H1) and states its direction (lower anxiety in the CBT group). A non-directional version would say only that the groups will differ. The null hypothesis would say anxiety does not differ.",
+    "w": [
+      "A non-directional hypothesis would say only that the groups differ.",
+      "A null hypothesis would predict no difference.",
+      "Null hypotheses predict no effect, so a 'directional null' isn't this statement."
+    ],
+    "k": "Predicting an effect and its direction = directional (one-tailed) H1.",
+    "h": "Arrow included: directional.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Hypotheses"
+  },
+  {
+    "t": "Ch1 Hypotheses",
+    "d": 2,
+    "q": "According to Popper, a hypothesis is scientific when it is:",
+    "o": [
+      "Falsifiable, so that some possible data could show it to be wrong",
+      "Verified, by collecting enough observations that agree with its predictions",
+      "Supported by a statistically significant result in at least one published study",
+      "Stated without reference to any particular theory or prior expectation"
+    ],
+    "e": "Popper argued that no number of confirming observations proves a theory, but a single disconfirming one can refute it. A hypothesis must therefore make predictions that could fail. 'Some people sometimes feel better' cannot fail, so it is not useful science.",
+    "w": [
+      "Popper argued no number of confirmations can verify a theory.",
+      "Significance in one study doesn't make a claim scientific.",
+      "Hypotheses usually come from theory; theory-free statements aren't his criterion."
+    ],
+    "k": "Popper: a hypothesis is scientific if it is falsifiable.",
+    "h": "If it can't fail, it can't count.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Falsification"
+  },
+  {
+    "t": "Ch1 Populations and samples",
+    "d": 1,
+    "q": "A value that describes a whole population, such as the true mean μ, is called a:",
+    "o": [
+      "Parameter",
+      "Statistic",
+      "Estimate",
+      "Sample value"
+    ],
+    "e": "Parameters describe populations (μ, σ, ρ). Statistics are computed from samples (x̄, s, r) and are used to estimate parameters. Mnemonic: Population → Parameter, Sample → Statistic.",
+    "w": [
+      "A statistic is computed from a sample.",
+      "An estimate is a sample value used to guess a parameter.",
+      "A sample value describes the sample, not the population."
+    ],
+    "k": "Population → parameter (μ, σ); sample → statistic (x̄, s).",
+    "h": "P with P, S with S.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Populations and samples"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 2,
+    "q": "Measuring the same cohort of adolescents every year for five years is an example of:",
+    "o": [
+      "A longitudinal design",
+      "A cross-sectional design",
+      "An independent-groups design",
+      "A single-case experimental design"
+    ],
+    "e": "Longitudinal research measures the same people at several time points, which shows temporal order and change. Cross-sectional research measures different people, often of different ages, at one moment.",
+    "w": [
+      "Cross-sectional designs measure different people at one time.",
+      "Independent-groups designs compare separate groups in conditions.",
+      "Single-case designs study one individual intensively."
+    ],
+    "k": "Same people measured repeatedly over time = longitudinal.",
+    "h": "Longitudinal: following lives along the timeline.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Research designs"
+  },
+  {
+    "t": "Ch1 Reliability",
+    "d": 2,
+    "q": "Internal consistency differs from test–retest reliability because it assesses whether:",
+    "o": [
+      "Items of one scale measure the same construct on a single occasion",
+      "Scores stay stable when the same scale is given again later",
+      "Two raters agree when they score the same set of responses independently of each other",
+      "The scale predicts an outcome that is measured in the future"
+    ],
+    "e": "Internal consistency (usually Cronbach's α) asks whether the items hang together on one occasion. Test–retest reliability asks about stability across occasions. Agreement between raters is inter-rater reliability.",
+    "w": [
+      "Stability over time is test–retest reliability.",
+      "Agreement between raters is inter-rater reliability.",
+      "Predicting a future outcome is predictive validity."
+    ],
+    "k": "Internal consistency (Cronbach's α): do items measure one construct on one occasion?",
+    "h": "Inside the test, one moment.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Reliability"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 1,
+    "q": "Defining 'social anxiety' as 'the total score on the Liebowitz Social Anxiety Scale' is an example of:",
+    "o": [
+      "An operational definition",
+      "A null hypothesis",
+      "A confounding variable",
+      "A directional research hypothesis"
+    ],
+    "e": "An operational definition translates an abstract construct into the specific procedure used to measure it. It makes research replicable and lets readers judge its validity.",
+    "w": [
+      "A null hypothesis predicts no effect; this defines a measure.",
+      "A confounding variable is an unwanted rival cause.",
+      "A directional hypothesis predicts a result; this specifies measurement."
+    ],
+    "k": "An operational definition specifies how a construct is measured.",
+    "h": "Operation: the procedure that turns an idea into a number.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Operationalization"
+  },
+  {
+    "t": "Ch1 Research designs",
+    "d": 3,
+    "q": "A researcher matches clients on severity and randomly assigns them to therapy or waitlist. Severity is then excluded as an explanation because:",
+    "o": [
+      "It cannot differ systematically between the conditions",
+      "It has been removed from the population being studied by the matching procedure",
+      "It now correlates strongly with the outcome variable",
+      "Matching makes the groups' outcome variances equal"
+    ],
+    "e": "Matching followed by random assignment balances severity across conditions, so it cannot vary systematically with the manipulation. A variable that does not differ between groups cannot explain a group difference. Severity still affects individual scores, but only as unsystematic variation.",
+    "w": [
+      "Matching doesn't remove severity from the population; it balances it across groups.",
+      "Severity correlating with the outcome wouldn't rule it out as an explanation.",
+      "Matching balances severity; it doesn't equalize outcome variances."
+    ],
+    "k": "A variable balanced across conditions can't explain a group difference.",
+    "h": "Balanced variables can't tilt the scales.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Controlling confounds"
+  },
+  {
+    "t": "Ch1 Variable types",
+    "d": 2,
+    "q": "Which pair correctly matches research language to experimental language?",
+    "o": [
+      "Predictor ≈ independent variable; outcome ≈ dependent variable",
+      "Predictor ≈ dependent variable; outcome ≈ independent variable",
+      "Covariate ≈ dependent variable; outcome ≈ confounding variable",
+      "Predictor ≈ confounding variable; outcome ≈ manipulation check"
+    ],
+    "e": "In correlational and regression work we speak of predictors and outcomes, because nothing is manipulated. In experiments, the manipulated variable is the independent variable and the measured result is the dependent variable. The roles map onto each other.",
+    "w": [
+      "This reverses the mapping: predictors correspond to IVs.",
+      "Covariates and confounds aren't the same as DVs and outcomes.",
+      "Predictors aren't confounds, and outcomes aren't manipulation checks."
+    ],
+    "k": "In correlational language, predictor ≈ IV and outcome ≈ DV.",
+    "h": "Predict from the cause, measure the outcome.",
+    "r": "Stats & SPSS ch. 1 · Research methods · Variables"
+  }
+]

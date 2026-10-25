@@ -1,0 +1,562 @@
+[
+  {
+    "t": "Ch1 Philosophy",
+    "d": 1,
+    "q": "According to the authors, clinical interviewing is best described as:",
+    "o": [
+      "Both art and science",
+      "A pure science, like auto mechanics",
+      "Pure art, guided by intuition alone",
+      "A manualized, evidence-based technique"
+    ],
+    "e": "The Sommers-Flanagans' first bias is that clinical interviewing is both art and science. The science side is study, research and critical thinking about what works; the art side is fine-tuning the most important instrument you bring into the room: yourself, your presence, timing and sensitivity. Neither alone is enough: technique without personal attunement feels mechanical, and intuition without knowledge is guesswork. That is why the book pairs evidence with self-awareness exercises throughout.",
+    "w": [
+      "Auto mechanics follows fixed procedures on machines; clients are people, so the authors reject a purely mechanical science view.",
+      "Intuition alone ignores research and critical thinking, the science half of the authors' first bias.",
+      "Manualized technique is only part of the science side; the authors stress the interviewer's self as an instrument."
+    ],
+    "k": "Clinical interviewing = art (yourself as instrument) + science (study and critical thinking).",
+    "h": "You are the violin and the sheet music.",
+    "r": "Sommers-Flanagan Ch1 – Teaching philosophy"
+  },
+  {
+    "t": "Ch1 Philosophy",
+    "d": 2,
+    "q": "Echoing Hippocrates, what is the authors' second core belief about the interview from the client's perspective?",
+    "o": [
+      "It should always be on the building-up (reparative) side of the ledger",
+      "It should challenge the client strongly, even if it hurts a great deal at first",
+      "It should stay strictly neutral, neither building the client up nor breaking down",
+      "It should focus mainly on diagnosis, not on how the client feels"
+    ],
+    "e": "Echoing the Hippocratic 'first, do no harm', the authors' second belief is that, from the client's perspective, the interview should always be on the building-up or reparative side of the ledger. As far as it is in your power, never let an interview harm the client. Even assessment-focused or difficult interviews should leave the client better off, or at least not damaged: feeling respected, heard and hopeful.",
+    "w": [
+      "Hard challenges that hurt the client are exactly what the reparative principle warns against.",
+      "Neutrality isn't the goal; the interview should actively build the client up.",
+      "Diagnosis matters, but never at the cost of how the client feels and whether the interview helps."
+    ],
+    "k": "An interview should always be on the building-up, reparative side for the client: first, do no harm.",
+    "h": "Hippocrates' ledger: always in the client's credit column.",
+    "r": "Sommers-Flanagan Ch1 – Teaching philosophy"
+  },
+  {
+    "t": "Ch1 Learning sequence",
+    "d": 1,
+    "q": "What is the FIRST skill in the authors' five-step learning sequence?",
+    "o": [
+      "Quiet yourself and focus on the client's communication",
+      "Obtain valid and reliable diagnostic information",
+      "Develop rapport with a wide range of different clients",
+      "Apply individualized counseling techniques"
+    ],
+    "e": "The five-step sequence is: (1) quiet yourself and focus on the client's communication; (2) develop rapport and positive working relationships with a wide range of clients; (3) obtain valid and reliable diagnostic and assessment information; (4) apply individualized techniques; (5) evaluate client outcomes. Listening comes first because nothing else works without it: you can't build rapport, assess or intervene well if you aren't attending to what the client is actually saying.",
+    "w": [
+      "Valid diagnostic information is step 3, after listening and rapport.",
+      "Rapport is step 2; it grows from first quieting yourself and listening.",
+      "Applying individualized techniques is step 4, near the end of the sequence."
+    ],
+    "k": "Learning sequence: listen → rapport → assessment → techniques → evaluate outcomes.",
+    "h": "Quiet, Connect, Check, Change, Count.",
+    "r": "Sommers-Flanagan Ch1 – Learning sequence"
+  },
+  {
+    "t": "Ch1 Learning sequence",
+    "d": 2,
+    "q": "Which of the five learning-sequence skills does the book actually focus on?",
+    "o": [
+      "The first three: quieting yourself, building rapport, and assessment",
+      "All five skills, with special emphasis on evaluating treatment outcomes",
+      "Only the last two: applying techniques and evaluating their outcomes",
+      "Only the first: quieting yourself and listening"
+    ],
+    "e": "Although the sequence has five skills, the book deliberately limits its focus to the first three: quieting yourself and listening, building rapport and positive relationships, and obtaining diagnostic and assessment information. Implementing specific therapy techniques and evaluating their outcomes are beyond its scope; they belong to later training in counseling and psychotherapy courses. The book builds the foundation that every technique later depends on.",
+    "w": [
+      "Evaluating outcomes (step 5) is outside the book's scope.",
+      "Applying techniques and evaluating outcomes (steps 4–5) are explicitly left to later training.",
+      "The book goes beyond listening to rapport and assessment."
+    ],
+    "k": "The book covers the first three skills: listening, rapport, assessment.",
+    "h": "Foundation first: the book pours the base, not the roof.",
+    "r": "Sommers-Flanagan Ch1 – Learning sequence"
+  },
+  {
+    "t": "Ch1 Learning sequence",
+    "d": 2,
+    "q": "Before using specific therapy techniques, interviewers must fulfil three conditions. Which list is correct?",
+    "o": [
+      "Listen, build a positive relationship, and identify needs through assessment",
+      "Obtain informed consent, sign a treatment contract, and schedule follow-up sessions",
+      "Choose a theory, master its treatment manual, and get the client's agreement",
+      "Give advice, reassure the client, and assign homework"
+    ],
+    "e": "Before using specific techniques, interviewers should (1) quiet themselves and listen, (2) develop a positive working relationship, and (3) identify the client's needs and goals through diagnostic and assessment procedures; beginners also need supervision. This mirrors the first three steps of the learning sequence. Jumping to techniques without them risks treating the wrong problem, or treating the right problem with a client who isn't engaged.",
+    "w": [
+      "Consent and contracts are administrative steps; the three conditions are clinical: listen, relate, assess.",
+      "Choosing a theory and manual first puts technique before the client, the reverse of the authors' order.",
+      "Advice, reassurance and homework are techniques themselves, used prematurely."
+    ],
+    "k": "Before techniques: listen, build a positive relationship, and assess needs and goals.",
+    "h": "Hear, bond, map, then act.",
+    "r": "Sommers-Flanagan Ch1 – Learning diagnostic and assessment skills"
+  },
+  {
+    "t": "Ch1 Learning sequence",
+    "d": 2,
+    "q": "Phares's analogy of physicians and plumbers is used to argue that:",
+    "o": [
+      "Assessment and diagnosis should come before intervention",
+      "Therapists should fix problems fast, like tradespeople",
+      "Diagnosis is controversial and best avoided in therapy",
+      "The relationship matters more than technical knowledge"
+    ],
+    "e": "Phares noted that physicians and plumbers both diagnose before they fix: 'Our capacity to solve clinical problems is directly related to our skill in defining them.' The authors use this to argue that assessment and diagnosis should precede intervention. Starting therapy without adequate assessment is ill-advised, unprofessional and potentially dangerous, for example treating anxiety while missing a medical cause or a suicidal crisis.",
+    "w": [
+      "The analogy is about diagnosing before fixing, not about speed.",
+      "The authors acknowledge diagnosis is debated but argue assessment must come first, not be avoided.",
+      "The relationship matters greatly, but this analogy is specifically about defining the problem."
+    ],
+    "k": "Define the problem before you fix it: assessment precedes intervention.",
+    "h": "Even a plumber finds the leak before grabbing the wrench.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Quieting yourself",
+    "d": 2,
+    "q": "Strupp and Binder advise the therapist to resist which compulsion, especially under pressure?",
+    "o": [
+      "The compulsion to do something – to intervene, perform, reassure",
+      "The compulsion to stay silent whenever the client stops talking or pauses",
+      "The compulsion to take detailed notes throughout the whole session",
+      "The compulsion to end the session on time"
+    ],
+    "e": "Strupp and Binder advise resisting the compulsion to do something, especially under pressure: to intervene, perform, reassure. Beginners often feel they must fix things immediately, but premature action usually reflects the interviewer's anxiety, not the client's need. Quieting yourself means tolerating not knowing, staying present and listening, which is why it is the first skill in the learning sequence.",
+    "w": [
+      "Staying silent is part of listening; the compulsion to resist is the urge to act.",
+      "Note-taking is a practical issue, not the compulsion they describe.",
+      "Ending on time is a professional duty, not a compulsion to resist."
+    ],
+    "k": "Resist the compulsion to do something (intervene, perform, reassure), especially under pressure.",
+    "h": "Don't just do something, sit there.",
+    "r": "Sommers-Flanagan Ch1 – Quieting yourself"
+  },
+  {
+    "t": "Ch1 Quieting yourself",
+    "d": 2,
+    "q": "Why does premature advice usually go badly, according to Chapter 1?",
+    "o": [
+      "It reflects the interviewer's narrow life experience, not the client's",
+      "Clients are legally entitled to receive professional advice only in writing",
+      "Advice is strictly forbidden in every school of counseling and therapy",
+      "Clients never want any advice, whatever the timing"
+    ],
+    "e": "Premature advice usually fails because it comes from the interviewer's own narrow slice of life experience, while the client has a different slice. What worked for you may not fit their culture, values or situation, and quick advice can feel dismissive. The authors don't ban advice: 'Giving advice is all about timing and delivery.' It works best after listening, rapport and assessment.",
+    "w": [
+      "There's no legal rule about putting advice in writing; the issue is timing and whose experience the advice reflects.",
+      "Advice isn't forbidden everywhere; the authors stress timing and delivery.",
+      "Some clients do want advice; the problem is premature advice."
+    ],
+    "k": "Premature advice reflects your narrow experience, not the client's; advice is about timing and delivery.",
+    "h": "Your map, their territory.",
+    "r": "Sommers-Flanagan Ch1 – Quieting yourself"
+  },
+  {
+    "t": "Ch1 Quieting yourself",
+    "d": 1,
+    "q": "Shea notes that in the opening phase of an interview the clinician:",
+    "o": [
+      "Speaks very little and emphasizes open-ended questions",
+      "Speaks a great deal in order to put the anxious client at ease",
+      "Asks mainly closed questions to save time",
+      "Gives a full explanation of the treatment plan and its rationale"
+    ],
+    "e": "Shea observes that in the opening phase the clinician speaks very little and emphasizes open-ended questions or statements to get the client talking. This lets the client tell their story in their own words, revealing priorities, style and emotion, and helps rapport. Closed questions and explanations come later, once the interviewer knows what needs clarifying.",
+    "w": [
+      "Talking a lot to reassure takes the floor from the client.",
+      "Closed questions narrow the client too early; the opening phase favours open-ended ones.",
+      "Explaining a treatment plan belongs later, after assessment."
+    ],
+    "k": "Opening phase: the clinician speaks little and uses open-ended questions.",
+    "h": "Open the door, then step aside.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Self-expression",
+    "d": 2,
+    "q": "Regarding client self-expression, what is the interviewer's professional responsibility?",
+    "o": [
+      "Both to encourage it and, given time limits, to limit it – skillfully",
+      "Only to encourage it fully, and never to limit it in any way at all",
+      "Only to limit it so the interview stays efficient",
+      "Neither; how much a client self-expresses is solely the client's business"
+    ],
+    "e": "The interviewer has a dual responsibility: to encourage client self-expression and, given time constraints, also to limit it. Clients need room to talk, but an interview has goals, from assessment to ending on time. The challenge is to do either skillfully and professionally, for example gently redirecting a client who talks at length without making them feel cut off.",
+    "w": [
+      "Never limiting expression ignores time limits and interview goals.",
+      "Only limiting expression sacrifices rapport and the client's story.",
+      "The interviewer is professionally responsible for managing the flow."
+    ],
+    "k": "Interviewers both encourage and, skillfully, limit client self-expression.",
+    "h": "Open the tap, but mind the bucket.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "Why do person-centered interviewers listen nondirectively?",
+    "o": [
+      "Acceptance and empathy let clients grow and change on their own",
+      "Free association lets unconscious conflicts emerge for interpretation",
+      "It lets them gather symptoms for a diagnosis",
+      "It helps them identify and target maladaptive thoughts quickly"
+    ],
+    "e": "Person-centered interviewers listen nondirectively because, for Rogers, a relationship of acceptance and empathy lets clients discover within themselves the capacity to grow: 'If I can provide a certain type of relationship, the other person will discover within himself the capacity to use that relationship for growth.' The relationship itself is the healing agent. Psychoanalytic clinicians also listen nondirectively, but for a different reason: free association.",
+    "w": [
+      "Free association and interpretation are the psychoanalytic reasons for listening nondirectively.",
+      "Symptom gathering for diagnosis is a medical-model reason, not Rogers'.",
+      "Targeting maladaptive thoughts is the cognitive-behavioral rationale, which is directive rather than nondirective."
+    ],
+    "k": "Person-centered: nondirective listening because acceptance and empathy let clients grow on their own.",
+    "h": "Rogers waters the plant; it grows itself.",
+    "r": "Sommers-Flanagan Ch1 – Theoretical orientations"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "Why do psychoanalytic interviewers listen nondirectively?",
+    "o": [
+      "Free association lets unconscious conflicts emerge for later interpretation",
+      "Empathy alone is necessary and sufficient for healing and personal growth",
+      "Clients are the best experts on their own lives and need no interpretation",
+      "It quickly identifies maladaptive behaviors"
+    ],
+    "e": "Psychoanalytic interviewers listen nondirectively so that free association can let unconscious conflicts emerge. Once material surfaces, the analyst uses interpretation to bring it into awareness. Listening is a means to reach the unconscious, not the healing agent itself, which distinguishes it from the person-centered view.",
+    "w": [
+      "Empathy as necessary and sufficient is Rogers' person-centered view.",
+      "Seeing clients as experts needing no interpretation fits constructive approaches, not analysis.",
+      "Identifying maladaptive behaviors quickly is a cognitive-behavioral goal, pursued with directive questioning."
+    ],
+    "k": "Psychoanalytic: nondirective listening so free association reveals unconscious conflicts for interpretation.",
+    "h": "Let the river run until the hidden stones show.",
+    "r": "Sommers-Flanagan Ch1 – Theoretical orientations"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "For Rogers, which three interviewer qualities are 'necessary and sufficient' for growth?",
+    "o": [
+      "Unconditional positive regard, congruence, accurate empathy",
+      "Interpretation, insight, and working through",
+      "Expertise, directiveness, and well-structured homework",
+      "Warmth, advice, reassurance"
+    ],
+    "e": "Rogers proposed three core conditions as necessary and sufficient for client growth: unconditional positive regard (warm, nonjudgmental acceptance), congruence (genuineness, being real), and accurate empathy (understanding the client's inner world and communicating it). If these are present, he argued, change follows. Chapter 5 develops them in detail.",
+    "w": [
+      "Interpretation, insight and working through are psychoanalytic processes.",
+      "Expertise, directiveness and homework describe a cognitive-behavioral style, not Rogers' core conditions.",
+      "Advice and reassurance are not Rogers' conditions, though warmth is close to unconditional positive regard."
+    ],
+    "k": "Rogers' core conditions: unconditional positive regard, congruence, accurate empathy.",
+    "h": "Prize, be real, understand: P-R-U.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 3,
+    "q": "How do psychoanalytic and cognitive-behavioral clinicians view empathic listening, compared with Rogers?",
+    "o": [
+      "Necessary but not sufficient; Rogers saw it as necessary and sufficient",
+      "Irrelevant; only the specific technique used matters for client change",
+      "Harmful, because it gratifies the client's wishes too much",
+      "Sufficient on its own, exactly as Rogers believed"
+    ],
+    "e": "Psychoanalytic and most cognitive-behavioral clinicians see empathic listening as necessary but not sufficient: it builds the relationship, but change also requires interpretation (analytic) or specific techniques (CBT). Rogers held that the core conditions were both necessary and sufficient. This distinction is a classic way to compare orientations.",
+    "w": [
+      "They don't see it as irrelevant; they see it as necessary groundwork.",
+      "They don't call it harmful; it is a needed foundation.",
+      "Sufficient on its own is Rogers' position, not theirs."
+    ],
+    "k": "Analytic and CBT: empathy necessary but not sufficient; Rogers: necessary and sufficient.",
+    "h": "Others say 'needed, not enough'; Rogers says 'enough'.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "What do constructive and solution-focused approaches share with the authors' core position?",
+    "o": [
+      "They regard clients as the best experts on their own experiences",
+      "They avoid being directive in any way",
+      "They rely on free association and interpretation of unconscious material",
+      "They take an expert role from the very start of the first interview"
+    ],
+    "e": "Constructive and solution-focused approaches are intentionally directive, steering conversation toward solutions, exceptions and 'sparkling moments'. Yet like the authors, they regard clients as the best experts on their own experiences (De Jong and Berg). The interviewer directs the process but trusts the client's knowledge of content and meaning.",
+    "w": [
+      "They are deliberately directive, steering talk toward solutions and exceptions, so 'never directive' is false.",
+      "Free association and unconscious material belong to psychoanalysis, not to solution-focused work.",
+      "They don't take an expert role about content; clients are the experts."
+    ],
+    "k": "Solution-focused/constructive approaches are directive but treat clients as experts on their own lives.",
+    "h": "You steer the boat; the client knows the waters.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "Kendall and Bemis describe the cognitive-behavioral therapist as acting as a:",
+    "o": [
+      "Diagnostician, educator and technical consultant",
+      "Mirror, container and interpreter of the transference",
+      "Friend, mentor and advocate for the client",
+      "Coach, cheerleader and judge"
+    ],
+    "e": "Kendall and Bemis describe the CBT therapist's task as acting as a diagnostician, educator and technical consultant: assessing maladaptive cognitive processes, teaching the client about them, and designing learning experiences to change them. This is a more directive, expert role than the person-centered or psychoanalytic listener.",
+    "w": [
+      "Mirror, container and interpreter of the transference describe psychoanalytic roles, not the CBT therapist.",
+      "Friend, mentor and advocate are not the professional roles described.",
+      "Coach, cheerleader and judge are not Kendall and Bemis' terms."
+    ],
+    "k": "CBT therapist (Kendall & Bemis): diagnostician, educator, technical consultant.",
+    "h": "Diagnose, Educate, Consult: the CBT 'DEC'.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 3,
+    "q": "What do controlled studies cited in Chapter 1 show about CBT versus dynamic or person-centered therapy?",
+    "o": [
+      "CBT is at least as effective and sometimes more effective",
+      "Dynamic therapy is clearly superior on every outcome measured",
+      "Person-centered therapy is the only approach proven effective",
+      "No therapy has been shown to be effective"
+    ],
+    "e": "Controlled studies show cognitive and behavioral therapies are at least as effective as dynamic or person-centered approaches, and sometimes more effective. The authors' preference for beginning nondirectively is about training foundation, not a claim that nondirective therapy is superior. Listening skills underlie every orientation, including CBT.",
+    "w": [
+      "Dynamic therapy isn't shown superior on every outcome.",
+      "Person-centered therapy isn't the only proven approach; CBT is at least as effective.",
+      "Many therapies have been shown effective in controlled studies, including CBT, dynamic and person-centered approaches."
+    ],
+    "k": "CBT is at least as effective as dynamic or person-centered therapy, sometimes more.",
+    "h": "CBT: 'at least as good, sometimes better'.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Theoretical orientations",
+    "d": 2,
+    "q": "The authors describe themselves at the treatment level as:",
+    "o": [
+      "Dogmatically eclectic",
+      "Strictly person-centered",
+      "Orthodox psychoanalytic",
+      "Purely cognitive-behavioral"
+    ],
+    "e": "At the treatment level, the authors call themselves 'dogmatically eclectic': flexible, adapting their approach to the client, problem and setting. It is not the client's job to fit the interviewer's theory. They start interviews nondirectively, but they use directive, cognitive, behavioral or other methods when those fit the client better.",
+    "w": [
+      "They value person-centered listening but are not strictly person-centered.",
+      "They draw on psychoanalytic ideas but are not orthodox analysts; they adapt to each client.",
+      "They use CBT methods when they fit, but they are not purely cognitive-behavioral."
+    ],
+    "k": "Authors: dogmatically eclectic, fitting the approach to the client rather than the client to the theory.",
+    "h": "Firmly flexible: the paradox of 'dogmatic eclecticism'.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Nondirective",
+    "d": 2,
+    "q": "Which is listed as an ADVANTAGE of beginning nondirectively (Putting It in Practice 1.1)?",
+    "o": [
+      "It is easier to shift later to a directive mode than the reverse",
+      "It guarantees the client will receive expert advice early",
+      "It removes the need for supervision during training",
+      "It is the preferred approach of every cultural group"
+    ],
+    "e": "Advantages of starting nondirectively include: it is easier to shift later to a directive mode than the reverse; directive strategies require knowledge of psychopathology that beginners lack; it enhances self-awareness; it reduces pressure to perform; there is less chance of offending the client; and it fosters client independence. Beginning nondirectively keeps options open.",
+    "w": [
+      "Nondirective work doesn't guarantee early expert advice; it withholds it.",
+      "Nondirective work doesn't remove the need for supervision; beginners still need extensive supervised practice.",
+      "Not every cultural group prefers nondirectiveness; some find it inappropriate."
+    ],
+    "k": "Nondirective start: easier to move to directive later, needs less pathology knowledge, less offence, more client independence.",
+    "h": "Start soft; you can always firm up later.",
+    "r": "Sommers-Flanagan Ch1 – Putting It in Practice 1.1"
+  },
+  {
+    "t": "Ch1 Nondirective",
+    "d": 2,
+    "q": "Which is a PITFALL of nondirectiveness (Multicultural Highlight 1.1)?",
+    "o": [
+      "Clients may see the interviewer as manipulative, evasive or weak",
+      "Clients always feel too directed and controlled by the interviewer",
+      "It makes the interviewer appear too expert, cold and authoritarian",
+      "It produces too much structure for most clients"
+    ],
+    "e": "Nondirectiveness has pitfalls: clients may see the interviewer as manipulative or evasive; clients may feel lost without structure; those expecting advice may be disappointed; and never offering an opinion may look unprofessional, ignorant or weak. In some cultural settings, where help-seekers expect an active expert, a purely nondirective stance is inappropriate.",
+    "w": [
+      "Feeling too directed is the opposite problem, a risk of overly directive interviewing.",
+      "Appearing too expert and authoritarian is a risk of directiveness.",
+      "Nondirectiveness provides too little structure, not too much."
+    ],
+    "k": "Nondirective pitfalls: seen as evasive, manipulative or weak; clients feel lost; culturally inappropriate for some.",
+    "h": "Too quiet can look like hiding.",
+    "r": "Sommers-Flanagan Ch1 – Multicultural Highlight 1.1"
+  },
+  {
+    "t": "Ch1 Nondirective",
+    "d": 1,
+    "q": "The 'old Maine proverb' quoted by Strupp and Binder says:",
+    "o": [
+      "One can seldom listen his way into trouble",
+      "Silence is golden, but wise speech is silver",
+      "Talk less, help more, and leave sooner",
+      "Ask, and the client will tell"
+    ],
+    "e": "Strupp and Binder recall an old Maine proverb: 'One can seldom listen his way into trouble.' Talking, advising and intervening all carry risks: you may offend, misunderstand or push the client in the wrong direction. Listening rarely does harm. The proverb supports the authors' advice to begin nondirectively and resist the compulsion to do something, because careful listening is both safe and informative.",
+    "w": [
+      "'Silence is golden' is a different saying; the quoted Maine proverb is about listening keeping you out of trouble.",
+      "This invented motto stresses brevity and leaving; the real proverb praises listening itself.",
+      "This line is about asking questions; the proverb is about the safety of listening."
+    ],
+    "k": "'One can seldom listen his way into trouble.'",
+    "h": "Ears rarely get you in trouble; mouths do.",
+    "r": "Sommers-Flanagan Ch1 – Putting It in Practice 1.1"
+  },
+  {
+    "t": "Ch1 Nondirective",
+    "d": 2,
+    "q": "Lao Tzu's poem 'A Leader' is used to illustrate that a good therapist:",
+    "o": [
+      "Talks little, so clients say 'We did it ourselves'",
+      "Is obeyed and acclaimed by grateful, admiring clients",
+      "Preaches clearly and often so that clients improve",
+      "Takes charge so clients feel safe"
+    ],
+    "e": "Lao Tzu's poem says a leader is best when people barely know he exists; a good leader talks little, and when the work is done, people say 'We did it ourselves.' The authors suggest substituting therapist and clients: the best help leaves clients owning their change, fostering independence rather than dependence on the helper.",
+    "w": [
+      "Being obeyed and acclaimed is what the poem ranks lower.",
+      "Preaching often is the opposite of 'talks little'.",
+      "Taking charge so clients feel safe contradicts the poem's quiet leader, who barely seems to exist."
+    ],
+    "k": "The best therapist talks little, so clients feel 'we did it ourselves'.",
+    "h": "The invisible guide.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Requirements",
+    "d": 2,
+    "q": "Which set lists the four basic requirements for clinical interviewers?",
+    "o": [
+      "Technical knowledge, self-awareness, other-awareness, extensive practice",
+      "A doctorate, a license, a theoretical orientation and a treatment manual",
+      "Warmth, humor, patience and intelligence",
+      "Accurate diagnosis, medication knowledge, referral skill and follow-up"
+    ],
+    "e": "The four basic requirements are: (1) master technical knowledge; (2) be self-aware, including of your own culture and class; (3) develop other-awareness, meaning observational and assessment skills; and (4) obtain ongoing, extensive supervised practice. Knowledge without self-awareness leads to bias; skills without practice stay theoretical.",
+    "w": [
+      "A doctorate, license, orientation and manual are credentials and tools, not the four basic requirements.",
+      "Warmth and humor are helpful traits, but not the listed requirements.",
+      "Diagnosis, medication and referral are specific tasks, not the four basics."
+    ],
+    "k": "Four requirements: technical knowledge, self-awareness, other-awareness, extensive supervised practice.",
+    "h": "Know it, know you, know them, do it.",
+    "r": "Sommers-Flanagan Ch1 – Basic requirements"
+  },
+  {
+    "t": "Ch1 Requirements",
+    "d": 2,
+    "q": "Rogers called the ability to recognize and appreciate others' perspectives:",
+    "o": [
+      "An 'empathic way of being'",
+      "Unconditional positive regard",
+      "Congruence",
+      "Accurate interpretation"
+    ],
+    "e": "Other-awareness includes recognizing and appreciating the perspectives of others, which Rogers called an 'empathic way of being'. It goes beyond a technique such as reflecting feelings: it is a stance of genuinely trying to see the world as the client does, moment to moment. This stance underlies accurate observation and assessment, because you notice what matters to the client rather than only what fits your theory.",
+    "w": [
+      "Unconditional positive regard is warm acceptance of the client, not the ability to take their perspective.",
+      "Congruence is genuineness, being real and transparent, not perspective-taking.",
+      "Interpretation is a psychoanalytic technique, not Rogers' term."
+    ],
+    "k": "Rogers' 'empathic way of being' = recognizing and appreciating others' perspectives.",
+    "h": "Empathy as a way of being, not a trick.",
+    "r": "Sommers-Flanagan Ch1 – Basic requirements"
+  },
+  {
+    "t": "Ch1 Requirements",
+    "d": 1,
+    "q": "According to Chapter 1, being a culturally insensitive clinical interviewer is:",
+    "o": [
+      "Unprofessional and unethical",
+      "Unavoidable, so not a concern",
+      "Acceptable for beginners in training",
+      "Only a problem in multicultural cities"
+    ],
+    "e": "The book is unambiguous: 'To be a culturally insensitive clinical interviewer is unprofessional and unethical' (Fouad and Arredondo; Paniagua). Cultural sensitivity is a professional and ethical requirement, not an optional extra for multicultural settings. It requires self-awareness of your own culture, biases and assumptions, plus knowledge of how culture shapes communication, help-seeking and symptoms.",
+    "w": [
+      "The book doesn't treat insensitivity as unavoidable; it calls it unethical.",
+      "Beginners aren't exempt; cultural sensitivity is an ethical requirement from the first client.",
+      "It applies everywhere, not only in multicultural cities."
+    ],
+    "k": "Cultural insensitivity in interviewing is unprofessional and unethical.",
+    "h": "Not a bonus skill, an ethical floor.",
+    "r": "Sommers-Flanagan Ch1"
+  },
+  {
+    "t": "Ch1 Perfect interviewer",
+    "d": 3,
+    "q": "A 'perfect interviewer' could stop at any moment and outline four things. Which is described as perhaps MOST important?",
+    "o": [
+      "How the client is reacting, whatever age, sex or culture",
+      "What technique they are using (technical expertise)",
+      "Why they are using it (assessment data)",
+      "Whether personal biases are interfering (self-awareness)"
+    ],
+    "e": "A perfect interviewer could stop at any moment and say (a) what they are doing (technical expertise), (b) why (assessment data), (c) whether personal issues are interfering (self-awareness), and, perhaps most importantly, (d) how the client is reacting, whatever their age, sex or culture (other-awareness). The client's reaction is the ultimate test of whether an intervention is working.",
+    "w": [
+      "Knowing your technique matters, but it isn't singled out as most important.",
+      "Knowing your rationale matters, but it isn't called most important.",
+      "Monitoring bias matters, but the client's reaction is named most important."
+    ],
+    "k": "Perfect interviewer: knows what, why, own bias, and above all how the client is reacting.",
+    "h": "Watch the client's face, not your own script.",
+    "r": "Sommers-Flanagan Ch1 – The perfect interviewer"
+  },
+  {
+    "t": "Ch1 Self-awareness",
+    "d": 2,
+    "q": "The 'Who do you see?' exercise (Multicultural Highlight 1.2) is designed mainly to:",
+    "o": [
+      "Reveal the identity labels and biases you apply to a new client",
+      "Test the client's own sense of identity during the first session",
+      "Replace the mental status exam with a quicker, simpler screening tool",
+      "Teach clients to describe their own cultural roles"
+    ],
+    "e": "In 'Who do you see?', you imagine or meet a new client and ask yourself 'Who did I see?' 5–10 times without repeating answers. This exposes the layers and valence of identity labels you apply, revealing your assumptions. The authors note 'We all make judgments… we all have residues of racist, sexist, and homophobic values.' Awareness is the first step to managing bias.",
+    "w": [
+      "It tests your labels, not the client's identity.",
+      "It is a self-awareness exercise, not a mental status screen.",
+      "It isn't for teaching clients; it targets the interviewer's biases."
+    ],
+    "k": "'Who do you see?' reveals the identity labels and biases you apply to clients.",
+    "h": "Peel the labels you stick on others.",
+    "r": "Sommers-Flanagan Ch1 – Multicultural Highlight 1.2"
+  },
+  {
+    "t": "Ch1 Self-awareness",
+    "d": 2,
+    "q": "In the 'Who are you?' exercise, the authors observed that women and people of color tend to:",
+    "o": [
+      "Mention gender and race/culture sooner than men and Whites",
+      "Refuse to answer questions about their identity altogether",
+      "Describe only their jobs, family roles and hobbies",
+      "Give the same answer repeatedly"
+    ],
+    "e": "In the 'Who are you?' exercise, the authors noticed that women and people of color often mention gender and race or cultural identity sooner than men and Whites. Identities that are marked or marginalized in a culture tend to be more salient to their holders, while dominant-group identities can feel 'invisible'. This informs self-awareness about privilege.",
+    "w": [
+      "They didn't refuse; they answered, often naming gender and culture early.",
+      "They named gender and culture, not only jobs and roles.",
+      "Repeating the same answer wasn't the observation; the point was which identities people named first."
+    ],
+    "k": "Women and people of color tend to name gender and race/culture sooner: marginalized identities are more salient.",
+    "h": "The fish doesn't notice the water; others do.",
+    "r": "Sommers-Flanagan Ch1 – Multicultural Highlight 1.2"
+  }
+]

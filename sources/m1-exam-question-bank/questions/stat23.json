@@ -1,0 +1,482 @@
+[
+  {
+    "t": "Ch23 Output: t-tests",
+    "d": 2,
+    "q": "Independent Samples Test output: Levene F = 4.12, Sig. = .048. Equal variances assumed: t = 2.31, df = 38, Sig. = .026. Not assumed: t = 2.31, df = 31.4, Sig. = .028. What should you report?",
+    "o": [
+      "t(31.4) = 2.31, p = .028, using the Welch row",
+      "t(38) = 2.31, p = .026, because Levene's test is barely significant",
+      "F(1, 38) = 4.12, p = .048, as the main result of the test",
+      "t(38) = 2.31, p = .048, combining the two rows of output"
+    ],
+    "e": "Levene's F tests the variance assumption, not the group difference. Field recommends the 'Equal variances not assumed' (Welch) row by default, which is also the row Levene's test points to here. Report its non-integer df: t(31.4) = 2.31, p = .028, plus an effect size and CI.",
+    "w": [
+      "Using the equal-variances row ignores both Field's advice and Levene's warning here.",
+      "Levene's F tests the variance assumption, not the group difference.",
+      "Mixing the t from one row with Levene's p from another produces a meaningless report."
+    ],
+    "k": "Report the Welch row ('Equal variances not assumed') with its non-integer df.",
+    "h": "Second row, safe row.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Independent t-test"
+  },
+  {
+    "t": "Ch23 Output: t-tests",
+    "d": 2,
+    "q": "Paired Samples Test (pre − post): Mean = 3.20, SD = 4.10, t = 3.49, df = 19, Sig. (2-tailed) = .002. What does this show?",
+    "o": [
+      "Scores fell significantly from pre to post, by 3.2 points on average",
+      "Scores rose significantly from pre to post, by 3.2 points on average",
+      "The pre and post scores correlate at r = .002, which is negligible",
+      "The difference is not significant, because the SD exceeds the mean"
+    ],
+    "e": "The differences were computed as pre − post, so a positive mean difference means pre-test scores were higher: scores dropped by 3.2 on average, t(19) = 3.49, p = .002. Always check the order of subtraction SPSS used (shown in the Pair label) before interpreting the sign.",
+    "w": [
+      "A positive pre − post difference means scores fell, not rose.",
+      ".002 is the p-value, not a correlation.",
+      "Significance comes from t and p, not from comparing SD with the mean."
+    ],
+    "k": "Check SPSS's subtraction order before interpreting the sign of a paired difference.",
+    "h": "Pre minus post positive means post went down.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Paired t-test"
+  },
+  {
+    "t": "Ch23 Output: ANOVA",
+    "d": 2,
+    "q": "ANOVA table: Between Groups SS = 48, df = 3, MS = 16.00, F = 7.60, Sig. = .000; Within Groups SS = 160, df = 76, MS = 2.11. Which statement is correct?",
+    "o": [
+      "F(3, 76) = 7.60, p < .001, η² = .23",
+      "F(76, 3) = 7.60, p = .000, η² = .30",
+      "F(3, 79) = 7.60, p < .05, η² = .77",
+      "F = 7.60 shows that every group differs from every other"
+    ],
+    "e": "Report the df as between, then within: F(3, 76). Sig. = .000 means p < .001. η² = SS_between / SS_total = 48 / 208 = .23. The omnibus F does not show which groups differ, so follow up with contrasts or post hoc tests.",
+    "w": [
+      "df are reversed, .000 should be p < .001, and η² = .30 divides by SS_within.",
+      "Within df is 76, not 79, and .77 is the within-group share of variance.",
+      "The omnibus F doesn't show which groups differ."
+    ],
+    "k": "Report F(df_between, df_within), p < .001 for .000, and η² = SS_between/SS_total.",
+    "h": "Between first, within second.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · One-way ANOVA"
+  },
+  {
+    "t": "Ch23 Output: ANOVA",
+    "d": 2,
+    "q": "Test of Homogeneity of Variances: Levene statistic = 4.31, df1 = 2, df2 = 57, Sig. = .018. What follows sensibly?",
+    "o": [
+      "Report Welch's F and use Games–Howell for post hoc comparisons",
+      "Ignore it, because Levene's test only matters for independent t-tests",
+      "Switch to a repeated-measures ANOVA to fix the variances",
+      "Conclude that the group means differ significantly"
+    ],
+    "e": "Significant heterogeneity, especially with unequal n, undermines the ordinary F and post hoc tests that assume equal variances. Welch's F (from Options) and Games–Howell comparisons are robust to it. Levene's test is about variances, not means.",
+    "w": [
+      "Levene's test matters for ANOVA too.",
+      "Repeated-measures ANOVA doesn't fix between-group variance problems.",
+      "Levene's test concerns variances, not means."
+    ],
+    "k": "Significant Levene's in ANOVA → Welch's F and Games–Howell.",
+    "h": "Unequal spread, Welch and Games–Howell.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Homogeneity of variance"
+  },
+  {
+    "t": "Ch23 Output: ANOVA",
+    "d": 2,
+    "q": "In a Games–Howell Multiple Comparisons table, CBT vs Waitlist: Mean Difference (I−J) = −4.20*, Sig. = .012, 95% CI [−7.6, −0.8]. What does this mean?",
+    "o": [
+      "CBT scored significantly lower than Waitlist, by about 4.2 points",
+      "CBT scored significantly higher than Waitlist, by about 4.2 points",
+      "The two groups do not differ, because the interval is negative",
+      "The difference is significant only before the Games–Howell correction"
+    ],
+    "e": "I − J = CBT − Waitlist = −4.20, so CBT's mean is 4.2 lower (good news if the outcome is anxiety). The asterisk and the adjusted Sig. of .012 mark significance, and the CI excludes zero. Games–Howell already adjusts for multiple comparisons and unequal variances.",
+    "w": [
+      "I − J negative means CBT (I) scored lower, not higher.",
+      "A negative interval that excludes zero shows a significant difference.",
+      "Games–Howell's Sig. is already adjusted for multiple comparisons."
+    ],
+    "k": "Mean difference (I − J): the sign shows which group scored higher.",
+    "h": "I minus J: negative means I is lower.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Post hoc tables"
+  },
+  {
+    "t": "Ch23 Output: regression",
+    "d": 2,
+    "q": "Coefficients table: (Constant) B = 12.40; Stress B = −0.85, SE = 0.21, Beta = −.38, t = −4.05, Sig. = .000. How is the Stress coefficient interpreted?",
+    "o": [
+      "Each one-point rise in stress predicts a 0.85-point drop in the outcome, others held constant",
+      "Each one-point rise in stress predicts a 0.38-point drop in the outcome, with nothing held constant",
+      "Stress explains 38% of the variance in the outcome, a large and significant effect",
+      "Stress is not significant, because the coefficient B is negative in the output"
+    ],
+    "e": "B is in raw units: −0.85 outcome points per stress point, controlling for the other predictors. Beta (−.38) is the same effect in SD units. t = B / SE = −4.05, p < .001. A negative B describes direction, not non-significance, and β is not a proportion of variance.",
+    "w": [
+      "0.38 is β in SD units, and others are held constant.",
+      "β isn't a proportion of variance.",
+      "A negative B shows direction; p < .001 shows significance."
+    ],
+    "k": "B = raw-unit change per predictor unit, others constant; β = same in SD units.",
+    "h": "B in raw units, Beta in SD units.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Regression coefficients"
+  },
+  {
+    "t": "Ch23 Output: regression",
+    "d": 2,
+    "q": "Model Summary: R = .62, R Square = .384, Adjusted R Square = .371, with 2 predictors and N = 100. Which conclusion is accurate?",
+    "o": [
+      "The predictors jointly explain about 38% of outcome variance (about 37% adjusted)",
+      "Each predictor explains 62% of the variance in the outcome when considered on its own",
+      "The model explains 62% of the variance in the outcome, which counts as a very large effect",
+      "The model must be significant, because R Square is greater than the α level of .05"
+    ],
+    "e": "R² = .384 is the proportion of variance explained by the model, and adjusted R² (.371) corrects for the number of predictors. R (.62) is the correlation between observed and predicted values. Significance comes from the ANOVA table: here F(2, 97) ≈ 30.2, p < .001.",
+    "w": [
+      "R² is joint variance explained, not each predictor's share.",
+      "R = .62 is a correlation; variance explained is R² = .384.",
+      "Significance comes from the ANOVA table's F, not R² versus α."
+    ],
+    "k": "R² = joint variance explained; adjusted R² corrects for predictors; F tests significance.",
+    "h": "Square R to read the share.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Model summary"
+  },
+  {
+    "t": "Ch23 Output: regression",
+    "d": 3,
+    "q": "The Model Summary shows Durbin–Watson = 0.85 for data collected daily from one client over 60 days. What is the concern?",
+    "o": [
+      "Positive autocorrelation: residuals on adjacent days correlate, so errors are not independent",
+      "Negative autocorrelation: residuals alternate in sign from each day to the next one",
+      "Multicollinearity: the predictors share too much of their variance with each other",
+      "No concern, because Durbin–Watson values below 1 indicate a well-fitting, independent model"
+    ],
+    "e": "Durbin–Watson ranges from 0 to 4, with 2 meaning no autocorrelation. Values below 1 (as here) mean adjacent residuals are positively correlated, which is common in time series. SEs will be too small, so use time-series methods or multilevel models with an AR(1) structure.",
+    "w": [
+      "Negative autocorrelation shows values toward 4.",
+      "Durbin–Watson checks residual autocorrelation, not multicollinearity.",
+      "Values below 1 are a concern, not a sign of good fit."
+    ],
+    "k": "Durbin–Watson below 1 = positive autocorrelation; errors aren't independent.",
+    "h": "Far below 2, neighbours correlate.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Durbin–Watson"
+  },
+  {
+    "t": "Ch23 Output: correlation",
+    "d": 1,
+    "q": "Correlations table: Pearson Correlation = −.41, Sig. (2-tailed) = .003, N = 50. What is the APA report?",
+    "o": [
+      "r(48) = −.41, p = .003",
+      "r(50) = −.41, p = .003",
+      "r(49) = −.003, p = .41",
+      "r = .41, p < .05, N = 48"
+    ],
+    "e": "df = N − 2 = 48. Keep the sign (negative relationship) and report the exact p. A bootstrapped CI and r² (17% shared variance) add useful context.",
+    "w": [
+      "df for r is N − 2 = 48, not N.",
+      "This swaps r and p and uses the wrong df.",
+      "The sign is dropped and N is mislabelled."
+    ],
+    "k": "Report r(N − 2) with its sign and exact p.",
+    "h": "Keep the sign, subtract two.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Correlations"
+  },
+  {
+    "t": "Ch23 Output: chi-square",
+    "d": 3,
+    "q": "Chi-Square Tests: Pearson χ² = 5.88, df = 2, Asymp. Sig. = .053, with the footnote '2 cells (33.3%) have expected count less than 5'. What should you do?",
+    "o": [
+      "Treat the χ² p-value as unreliable and use Fisher's exact test or combine categories",
+      "Report a significant result, because a p of .053 rounds down to .05 at two decimals",
+      "Ignore the footnote, because it concerns the observed counts rather than the expected counts",
+      "Report the Linear-by-Linear Association instead, since that row is always valid to use"
+    ],
+    "e": "More than 20% of cells have expected counts below 5, so the χ² approximation may be inaccurate. Use the Exact button for Fisher's exact test, or merge sparse categories if that is meaningful. A p of .053 is not significant at α = .05, and the footnote concerns expected counts.",
+    "w": [
+      ".053 isn't significant at α = .05.",
+      "The footnote concerns expected counts, which is exactly the χ² assumption.",
+      "Linear-by-linear isn't always valid or appropriate."
+    ],
+    "k": "If over 20% of expected counts are below 5, use Fisher's exact test or combine categories.",
+    "h": "Too few expected, go exact.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Chi-square tests"
+  },
+  {
+    "t": "Ch23 Output: logistic",
+    "d": 2,
+    "q": "Variables in the Equation: Sessions B = 0.693, S.E. = 0.25, Wald = 7.68, Sig. = .006, Exp(B) = 2.00. What does this mean?",
+    "o": [
+      "Each additional session doubles the odds of recovery",
+      "Each additional session doubles the probability of recovery",
+      "Each additional session raises the probability of recovery by 69%",
+      "Sessions explain 69% of the variance in whether clients recover"
+    ],
+    "e": "Exp(B) = e^0.693 = 2.00, the odds ratio, so the odds of recovery double per session. Probabilities do not simply double. B is the change in log odds, and logistic models do not give variance explained in the linear sense.",
+    "w": [
+      "Doubling the odds isn't the same as doubling the probability.",
+      "B is a change in log odds, not a 69% probability change.",
+      "Logistic regression doesn't give variance explained."
+    ],
+    "k": "Exp(B) = 2.00 means odds double per unit increase.",
+    "h": "Exp(B) multiplies the odds.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Logistic regression"
+  },
+  {
+    "t": "Ch23 Output: logistic",
+    "d": 2,
+    "q": "Hosmer and Lemeshow Test: Chi-square = 13.2, df = 8, Sig. = .105. What does it suggest?",
+    "o": [
+      "No significant evidence of poor fit, so the model fits adequately",
+      "A significant lack of fit, so the model should be rejected",
+      "The predictors are significant, as indicated by the large chi-square value",
+      "Overdispersion, because the chi-square exceeds its df"
+    ],
+    "e": "Hosmer–Lemeshow tests whether predicted and observed frequencies differ. A non-significant result (p = .105) is consistent with adequate fit. Predictor significance is judged in the Omnibus test and the Variables in the Equation table.",
+    "w": [
+      "p = .105 isn't significant, so no lack of fit.",
+      "Predictor significance comes from other tables.",
+      "Overdispersion isn't judged from the Hosmer–Lemeshow χ²."
+    ],
+    "k": "A non-significant Hosmer–Lemeshow test suggests the model fits adequately.",
+    "h": "Not significant, fit is fine.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Hosmer–Lemeshow"
+  },
+  {
+    "t": "Ch23 Output: repeated measures",
+    "d": 3,
+    "q": "Mauchly's Test: W = .62, χ²(5) = 8.90, Sig. = .113; Greenhouse–Geisser ε = .79, Huynh–Feldt ε = .87. Which reporting choice is most defensible?",
+    "o": [
+      "Note that ε departs from 1 and apply the Huynh–Feldt correction, as GG ε > .75",
+      "Use the Lower-bound row, because Mauchly's test is not significant here",
+      "Report the multivariate tests only, because the ε value is above .75",
+      "Use the Greenhouse–Geisser row, because Mauchly's test shows a significant violation of sphericity"
+    ],
+    "e": "Mauchly's test is non-significant, but it has low power, and ε = .79 shows some departure from sphericity. Many analysts correct routinely. With GG ε above .75, Girden's guideline points to Huynh–Feldt. Reporting the uncorrected test alongside, or the multivariate tests, are also defensible, provided the choice is stated.",
+    "w": [
+      "The lower-bound correction is too conservative for ε of .79.",
+      "ε above .75 points to Huynh–Feldt, not only multivariate tests.",
+      "Mauchly's test isn't significant here (p = .113)."
+    ],
+    "k": "GG ε > .75 → Huynh–Feldt; state the choice.",
+    "h": "Above .75, open Field.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Sphericity"
+  },
+  {
+    "t": "Ch23 Output: assumptions",
+    "d": 2,
+    "q": "Tests of Normality (n = 35): Kolmogorov–Smirnov = .09, Sig. = .200*; Shapiro–Wilk = .97, Sig. = .312. The footnote says '* This is a lower bound of the true significance'. What do you conclude?",
+    "o": [
+      "Neither test indicates a significant departure from normality",
+      "Both tests show significant non-normality at p < .05",
+      "The data are perfectly normal, so no plots are needed",
+      "The K–S test is significant, because its p is a lower bound"
+    ],
+    "e": "Both p-values exceed .05, so neither test detects significant non-normality, and the true K–S p is at least .200. Small samples give these tests little power, so still inspect histograms and Q–Q plots. Non-significance does not prove normality.",
+    "w": [
+      "Both p-values exceed .05, so neither test is significant.",
+      "Non-significance doesn't prove normality, so plots are still needed.",
+      "A lower-bound p of .200 means p ≥ .200."
+    ],
+    "k": "Non-significant normality tests don't prove normality; still check plots.",
+    "h": "Not significant isn't the same as normal.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Tests of normality"
+  },
+  {
+    "t": "Ch23 Output: assumptions",
+    "d": 2,
+    "q": "Descriptives show skewness = 1.85 with Std. Error = 0.24 (n = 100). What is the skew z-score, and what does it indicate?",
+    "o": [
+      "z ≈ 7.7: significant positive skew, so inspect the distribution",
+      "z ≈ 0.44: no evidence of any skew in the distribution",
+      "z ≈ 7.7: significant negative skew, so trim the lower tail of the data",
+      "z ≈ 1.85: borderline skew, right at the .05 level of significance"
+    ],
+    "e": "z = 1.85 / 0.24 ≈ 7.7, far beyond 1.96 (or 3.29). The positive sign means a long right tail. With n = 100, also consider the shape and the robustness of planned analyses, for example using bootstrapping.",
+    "w": [
+      "0.44 multiplies skew by SE instead of dividing.",
+      "Positive skewness means a long right tail.",
+      "1.85 is the skewness itself, not z."
+    ],
+    "k": "z_skew = skewness ÷ SE; the sign gives the direction of the tail.",
+    "h": "Divide, then check the sign.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Skewness"
+  },
+  {
+    "t": "Ch23 Output: factor analysis",
+    "d": 2,
+    "q": "KMO = .74; Bartlett's Test of Sphericity: χ²(45) = 512.3, Sig. = .000. What do these indicate?",
+    "o": [
+      "Sampling adequacy is middling-to-good, and the correlations are suitable for factoring",
+      "Sampling adequacy is unacceptable, so these data cannot be factor analysed at all",
+      "The factors are uncorrelated with each other, so varimax rotation must be used",
+      "Sphericity is violated here, so a Greenhouse–Geisser correction is needed"
+    ],
+    "e": "KMO in the .70s is 'middling' by Kaiser's labels and acceptable. A significant Bartlett's test shows the correlation matrix is not an identity matrix. Despite the name, Bartlett's 'sphericity' has nothing to do with repeated-measures sphericity. df = p(p − 1)/2 = 45 for 10 items.",
+    "w": [
+      "KMO .74 is middling, not unacceptable.",
+      "Bartlett's test doesn't show factor correlations.",
+      "Bartlett's sphericity is unrelated to repeated-measures sphericity."
+    ],
+    "k": "KMO .70s = middling; significant Bartlett's = correlations worth factoring.",
+    "h": "Same name, different sphericity.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · KMO and Bartlett"
+  },
+  {
+    "t": "Ch23 Output: factor analysis",
+    "d": 3,
+    "q": "In a rotated pattern matrix, item 7 loads .62 on Factor 1 and .48 on Factor 2. What is the issue?",
+    "o": [
+      "A substantial cross-loading, so the item may not belong cleanly to one factor",
+      "A perfect simple structure, since both of the item's loadings exceed .3",
+      "A Heywood case, because the item's two loadings sum to more than 1",
+      "A reverse-scored item, because it loads on two different factors at once"
+    ],
+    "e": "Items loading strongly on more than one factor (cross-loadings) complicate interpretation and scoring. Consider whether the item is ambiguous, whether a different rotation or number of factors helps, or whether to drop it, on theoretical as well as statistical grounds.",
+    "w": [
+      "Simple structure means one high loading per item.",
+      "A Heywood case involves impossible estimates.",
+      "Loading on two factors doesn't mean an item is reverse-scored."
+    ],
+    "k": "Cross-loadings mean an item may not belong cleanly to one factor.",
+    "h": "One foot in two camps.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Cross-loadings"
+  },
+  {
+    "t": "Ch23 Output: reliability",
+    "d": 2,
+    "q": "Reliability Statistics: Cronbach's α = .86 (8 items). Item-Total Statistics for item 5: Corrected Item-Total Correlation = .12, Cronbach's Alpha if Item Deleted = .89. What does this suggest?",
+    "o": [
+      "Item 5 fits poorly; check its wording or reverse-scoring before considering removing it",
+      "Item 5 is the best item on the scale, because α rises when it is included in the scale",
+      "The scale is unreliable overall, because one of its items has a low item–total correlation",
+      "Item 5 should be reverse-scored, since any item with a correlation below .3 must be negatively worded"
+    ],
+    "e": "A corrected item-total correlation below .3 and a higher α without the item flag a weak item. First check whether it was meant to be reversed, or is ambiguous. The overall α of .86 is still good.",
+    "w": [
+      "α rises when item 5 is deleted, so it isn't the best item.",
+      "Overall α of .86 is still good.",
+      "Low item–total correlations don't always mean negative wording."
+    ],
+    "k": "Low item–total r and higher α-if-deleted flag a weak item; check wording first.",
+    "h": "Weak link, check before cutting.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Item-total statistics"
+  },
+  {
+    "t": "Ch23 Output: non-parametric",
+    "d": 2,
+    "q": "Mann–Whitney output for two groups of 20: U = 120.5, Z = −2.15, Asymp. Sig. (2-tailed) = .032. What is the effect size r?",
+    "o": [
+      "About −.34",
+      "About −.05",
+      "About −.68",
+      "About −2.15"
+    ],
+    "e": "r = Z / √N = −2.15 / √40 = −.34, a medium effect, where N = 40 is the total number of cases. (Check: with 20 per group, U has mean 200 and SD 36.97, so Z = (120.5 − 200) / 36.97 = −2.15.) Report U, Z, p and r, plus each group's median, and use the mean ranks to describe which group scored higher.",
+    "w": [
+      "−.05 divides Z by N instead of √N.",
+      "−.68 doubles the correct r of about −.34.",
+      "−2.15 is Z itself, not converted to r."
+    ],
+    "k": "Effect size for rank tests: r = Z ÷ √N, using total N.",
+    "h": "Z over root N.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Mann–Whitney"
+  },
+  {
+    "t": "Ch23 Output: ANCOVA",
+    "d": 3,
+    "q": "Tests of Between-Subjects Effects: Baseline (covariate) F(1, 56) = 12.1, p = .001; Group F(2, 56) = 3.90, p = .026, partial η² = .12. What is the correct interpretation?",
+    "o": [
+      "Baseline predicts the outcome, and groups differ after adjusting for baseline",
+      "Groups differ significantly in their baseline scores, which invalidates the whole analysis",
+      "Baseline explains 12% of the variance in the grouping variable itself",
+      "Groups do not differ, because the covariate effect is larger than the group effect"
+    ],
+    "e": "The covariate row shows that baseline significantly predicts the outcome. The group row tests group differences on the adjusted means: F(2, 56) = 3.90, p = .026, partial η² = .12. Whether groups differed at baseline is a separate check. Follow up with adjusted-mean comparisons.",
+    "w": [
+      "The covariate row doesn't test baseline group differences.",
+      "Partial η² = .12 belongs to the group effect, not baseline.",
+      "Comparing effect sizes doesn't negate the significant group effect."
+    ],
+    "k": "ANCOVA: covariate row tests prediction; group row tests adjusted differences.",
+    "h": "Adjusted for baseline, groups still differ.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · ANCOVA"
+  },
+  {
+    "t": "Ch23 Output: factorial",
+    "d": 2,
+    "q": "Two-way ANOVA output: Drug F(1, 54) = 0.80, p = .375; Age F(2, 54) = 5.10, p = .009; Drug × Age F(2, 54) = 6.20, p = .004. What is the priority in interpretation?",
+    "o": [
+      "The significant interaction: examine the drug's effect within each age group",
+      "The non-significant drug main effect, which shows that the drug does nothing for anyone",
+      "The age effect, which should be reported on its own while the rest is ignored",
+      "Nothing at all, since one of the two main effects is not significant"
+    ],
+    "e": "A significant interaction means the drug's effect depends on age, possibly in opposite directions that cancel out in the main effect. Plot the cell means and run simple effects (EMMEANS … COMPARE(drug)) before drawing conclusions about the drug.",
+    "w": [
+      "A non-significant main effect can hide opposite effects by age.",
+      "Reporting age alone ignores the significant interaction.",
+      "A significant interaction is worth interpreting."
+    ],
+    "k": "A significant interaction → interpret simple effects first.",
+    "h": "Read the interaction first.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Factorial ANOVA"
+  },
+  {
+    "t": "Ch23 Output: multilevel",
+    "d": 3,
+    "q": "Estimates of Fixed Effects in a growth model: Intercept = 28.4; Time estimate = −1.40, SE = 0.30, Sig. < .001. What does the time coefficient mean?",
+    "o": [
+      "On average, scores fall by 1.4 points per unit of time",
+      "Every participant's score falls by exactly 1.4 points per unit of time",
+      "Scores start 1.4 points below the intercept at the first time point",
+      "Time explains 1.4% of the variance in scores across participants"
+    ],
+    "e": "A fixed effect is the average trajectory: a 1.4-point decline per time unit, starting from a predicted 28.4 at time = 0. Individuals vary around this if a random slope is included, which is shown in the covariance parameters, not the fixed effects.",
+    "w": [
+      "Individuals vary around the average slope.",
+      "−1.40 is the slope, not a starting offset.",
+      "Fixed effects are slopes, not percentages of variance explained."
+    ],
+    "k": "A fixed time effect is the average change per time unit.",
+    "h": "Average path, not everyone's path.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Multilevel fixed effects"
+  },
+  {
+    "t": "Ch23 Output: bootstrapping",
+    "d": 3,
+    "q": "A regression predictor has p = .041, but its bootstrapped 95% BCa CI for b is [−0.12, 0.84]. The residuals are skewed with outliers. Which conclusion is most cautious and defensible?",
+    "o": [
+      "The effect is uncertain: the robust interval includes zero and the assumptions are doubtful",
+      "The effect is clearly significant, because the ordinary parametric p-value is below .05 as required",
+      "The bootstrapped interval must be wrong, because it disagrees with the parametric p-value",
+      "The predictor has a negative effect, because the lower limit of the interval is below zero"
+    ],
+    "e": "When assumptions are violated, the bootstrap CI is usually more trustworthy than the parametric p-value. An interval spanning zero means the direction and existence of the effect are not established. Report both and interpret cautiously.",
+    "w": [
+      "With doubtful assumptions, the parametric p is less trustworthy.",
+      "Disagreement doesn't mean the bootstrap is wrong.",
+      "An interval spanning zero doesn't establish direction."
+    ],
+    "k": "With doubtful assumptions, trust the bootstrap CI; spanning zero means uncertain.",
+    "h": "When in doubt, bootstrap it out.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Bootstrap versus parametric results"
+  },
+  {
+    "t": "Ch23 Output: logistic",
+    "d": 2,
+    "q": "Omnibus Tests of Model Coefficients (Block 1): Chi-square = 18.4, df = 2, Sig. = .000. What does this test show?",
+    "o": [
+      "Adding the two predictors significantly improves fit over the constant-only model",
+      "The model fits the data perfectly, with no remaining error at all after the predictors are added",
+      "Both predictors are individually significant at p < .001 in the model",
+      "The two outcome categories occur with equal frequency in the sample"
+    ],
+    "e": "The omnibus χ² is the drop in −2LL from Block 0 to Block 1, testing the predictors jointly: χ²(2) = 18.4, p < .001. Individual predictors are judged in Variables in the Equation (Wald or LR tests).",
+    "w": [
+      "A significant χ² doesn't mean perfect fit.",
+      "Individual predictors are tested separately in Variables in the Equation.",
+      "The omnibus test doesn't test category frequencies."
+    ],
+    "k": "Omnibus χ² tests predictors jointly against the constant-only model.",
+    "h": "Block 1 beats Block 0.",
+    "r": "Stats & SPSS ch. 23 · Reading SPSS output · Omnibus test"
+  }
+]

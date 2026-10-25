@@ -1,0 +1,1102 @@
+[
+  {
+    "t": "Ch10 Opening",
+    "d": 2,
+    "q": "Frank and Frank group psychotherapy recipients into five rough categories. Which set is correct?",
+    "o": [
+      "Psychotic, neurotic/persistently disturbed, shaken, misbehaving, discontented",
+      "Anxious, depressed, psychotic, addicted, and personality-disordered",
+      "Mild, moderate, severe, extreme, chronic",
+      "Children, adolescents, adults, couples, families, and whole communities"
+    ],
+    "e": "Frank and Frank group people who receive psychotherapy into five rough categories: the psychotic; the neurotic or persistently disturbed; the shaken (people in acute distress after a crisis); the misbehaving (whose conduct troubles others); and the discontented (seeking growth or meaning). The chapter contrasts this simple, intuitive scheme with the DSM's 300-plus disorders in 943 pages.",
+    "w": [
+      "Anxious, depressed and psychotic are diagnostic groupings, not Frank and Frank's five categories.",
+      "Mild to extreme is a severity scale, not their classification.",
+      "Age groups and family units describe who is treated, not Frank and Frank's categories."
+    ],
+    "k": "Frank & Frank: psychotic, neurotic/persistently disturbed, shaken, misbehaving, discontented.",
+    "h": "Mad, chronically troubled, shaken, misbehaving, dissatisfied.",
+    "r": "Sommers-Flanagan Ch10 – Opening quote"
+  },
+  {
+    "t": "Ch10 DSM history",
+    "d": 2,
+    "q": "Which publication sequence of DSM editions is correct?",
+    "o": [
+      "1952, 1968, 1980, 1987 (III-R), 1994 (IV), 2000 (IV-TR)",
+      "1950, 1960, 1970, 1980 (III), 1990 (IV), 2000 (IV-TR)",
+      "1952, 1974, 1980, 1990 (III-R), 1994 (IV), 2002 (IV-TR)",
+      "1968, 1980, 1987 (III-R), 1994 (IV), 2000 (TR), 2004 (V)"
+    ],
+    "e": "The DSM editions appeared in 1952 (DSM-I), 1968 (DSM-II), 1980 (DSM-III), 1987 (DSM-III-R), 1994 (DSM-IV) and 2000 (DSM-IV-TR). DSM-IV-TR contains over 300 disorders in 943 pages. At the time of writing, DSM-V was scheduled for 2011 (it eventually appeared as DSM-5 in 2013).",
+    "w": [
+      "The first edition was 1952, not 1950, and the others don't fall on round decades.",
+      "DSM-II came in 1968 and DSM-III-R in 1987, not 1974 and 1990.",
+      "This sequence starts with DSM-II and invents a 2004 DSM-V."
+    ],
+    "k": "DSM: 1952, 1968, 1980, 1987 (III-R), 1994 (IV), 2000 (IV-TR).",
+    "h": "'52, '68, '80, '87, '94, 2000.",
+    "r": "Sommers-Flanagan Ch10 – Principles of psychiatric diagnosis"
+  },
+  {
+    "t": "Ch10 DSM-V",
+    "d": 3,
+    "q": "Which DSM-V workgroup considered moving to a dimensional rather than categorical system for personality disorders?",
+    "o": [
+      "Personality and Relational Disorders workgroup",
+      "Neuroscience and Genetics workgroup",
+      "Cross-Cultural Issues workgroup",
+      "Mental Disorders and Disability research workgroup"
+    ],
+    "e": "Among the DSM-V planning workgroups, the Personality and Relational Disorders workgroup considered moving personality disorders to a dimensional rather than categorical system. The Neuroscience and Genetics workgroup explored a pathophysiologically based classification, moving away from DSM's atheoretical, non-etiological stance. The authors joke about 'DSM-V Obsessive-Preoccupation Disorder'.",
+    "w": [
+      "The Neuroscience and Genetics workgroup explored a biologically based classification, not dimensional personality ratings.",
+      "The Cross-Cultural Issues workgroup focused on culture, not personality dimensions.",
+      "The Disability workgroup focused on impairment, not personality disorder structure."
+    ],
+    "k": "The Personality and Relational Disorders workgroup considered dimensional personality diagnosis.",
+    "h": "Personality on a dial, not a switch.",
+    "r": "Sommers-Flanagan Ch10 – Putting It in Practice 10.1"
+  },
+  {
+    "t": "Ch10 Definition",
+    "d": 2,
+    "q": "What does DSM-IV-TR itself admit about the concept of 'mental disorder'?",
+    "o": [
+      "No definition adequately specifies its precise boundaries",
+      "It has a precise operational definition for all situations",
+      "It is purely biological",
+      "It applies only to psychotic and severe mood conditions in adults"
+    ],
+    "e": "DSM-IV-TR itself admits that no definition adequately specifies precise boundaries for the concept of 'mental disorder'. It also concedes there is much 'physical' in 'mental' disorders and much 'mental' in 'physical' ones; the term persists only for lack of a better substitute. Diagnosis rests on carefully defined but ultimately imperfect concepts.",
+    "w": [
+      "The manual explicitly denies having a precise operational definition for all situations.",
+      "It doesn't claim mental disorders are purely biological; it notes physical and mental overlap.",
+      "The concept applies far beyond psychotic and severe mood conditions."
+    ],
+    "k": "DSM-IV-TR admits no definition precisely bounds 'mental disorder'.",
+    "h": "Even the manual can't fence it in.",
+    "r": "Sommers-Flanagan Ch10 – Defining mental disorders"
+  },
+  {
+    "t": "Ch10 Definition",
+    "d": 2,
+    "q": "DSM-IV-TR is described as a ______ and ______ system.",
+    "o": [
+      "Descriptive; categorical",
+      "Etiological; dimensional",
+      "Theoretical; continuous",
+      "Biological; prescriptive"
+    ],
+    "e": "DSM-IV-TR is descriptive and categorical. Descriptive: it lists symptom sets without assuming causes, so it is atheoretical. Categorical: individuals are classified as either having or not having a diagnosis, rather than placed on continuous dimensions of severity. Both features aid communication between professionals but limit nuance, which is why dimensional alternatives were debated for DSM-V.",
+    "w": [
+      "DSM-IV-TR is deliberately non-etiological, and it is categorical, not dimensional.",
+      "It is atheoretical, and categories rather than continua define diagnoses.",
+      "It isn't primarily biological, and it describes disorders rather than prescribing treatments."
+    ],
+    "k": "DSM-IV-TR is descriptive (symptoms, not causes) and categorical (have it or not).",
+    "h": "Describe and categorize.",
+    "r": "Sommers-Flanagan Ch10 – Defining mental disorders"
+  },
+  {
+    "t": "Ch10 Definition",
+    "d": 2,
+    "q": "The DSM-IV-TR definition of mental disorder requires a clinically significant syndrome associated with:",
+    "o": [
+      "Distress, disability, increased risk of death/pain/disability, or loss of freedom",
+      "Social deviance from cultural, religious, political or sexual norms",
+      "Conflict between the individual and society, even without inner dysfunction",
+      "Any expectable response to a loss"
+    ],
+    "e": "DSM-IV-TR defines a mental disorder as a clinically significant behavioural or psychological syndrome associated with present distress, disability, a significantly increased risk of death, pain or disability, or an important loss of freedom. Expectable, culturally sanctioned responses (such as grief after a death) are excluded, as are deviant behaviour and individual–society conflicts unless they reflect dysfunction.",
+    "w": [
+      "Social deviance alone is explicitly excluded unless it reflects dysfunction.",
+      "Conflict between the individual and society is excluded unless symptomatic of dysfunction.",
+      "An expectable response to a loss is explicitly excluded."
+    ],
+    "k": "Mental disorder (DSM-IV-TR): a syndrome with distress, disability, increased risk, or loss of freedom.",
+    "h": "Distress, Disability, Danger, lost Liberty.",
+    "r": "Sommers-Flanagan Ch10 – Defining mental disorders"
+  },
+  {
+    "t": "Ch10 Definition",
+    "d": 3,
+    "q": "Szasz's critique ('if even-temperedness is a rule of mental health, depression and elation will be signs of mental illness') argues that:",
+    "o": [
+      "Labels reflect deviation from psychiatric rules – ultimately subjective judgments",
+      "Mental disorders are purely biological brain diseases",
+      "The DSM is too lenient",
+      "Psychiatric diagnosis is fully objective once DSM criteria are applied carefully"
+    ],
+    "e": "Szasz argued that psychiatric labels reflect deviation from psychiatry's own rules: 'if even-temperedness is a rule of mental health, depression and elation will be signs of mental illness.' Diagnoses are thus ultimately subjective judgements. The authors partly agree, calling DSM criteria 'carefully studied and meticulously outlined subjective judgments'.",
+    "w": [
+      "Szasz rejected the biological brain-disease model of mental illness.",
+      "His critique concerns subjectivity of the rules, not the DSM being too lenient.",
+      "Szasz argued diagnosis is subjective, not objective."
+    ],
+    "k": "Szasz: diagnoses reflect deviation from psychiatric rules, ultimately subjective judgements.",
+    "h": "Break the rule, get the label.",
+    "r": "Sommers-Flanagan Ch10 – Defining mental disorders"
+  },
+  {
+    "t": "Ch10 Why diagnose",
+    "d": 2,
+    "q": "Morrison's term for the dehumanizing practice of affixing a label and ignoring individual qualities is:",
+    "o": [
+      "Pigeonholing",
+      "Labeling bias",
+      "Cookbook diagnosis",
+      "Diagnostic overshadowing"
+    ],
+    "e": "Morrison calls the dehumanizing practice of affixing a diagnostic label and then ignoring the person's individual qualities pigeonholing. The authors empathize with critics of diagnosis on this point, but still value diagnosis for philosophical and practical reasons, as long as the person isn't reduced to the label.",
+    "w": [
+      "Labeling bias is a general term, not Morrison's specific word.",
+      "Cookbook diagnosis refers to mechanically applying criteria, a related but different problem.",
+      "Diagnostic overshadowing means attributing symptoms to an existing diagnosis."
+    ],
+    "k": "Morrison's 'pigeonholing': labelling someone and ignoring their individuality.",
+    "h": "Don't stuff people into pigeonholes.",
+    "r": "Sommers-Flanagan Ch10 – Why diagnose?"
+  },
+  {
+    "t": "Ch10 Why diagnose",
+    "d": 2,
+    "q": "Which is a practical benefit of diagnosis described in the chapter?",
+    "o": [
+      "It can bring relief that others share the problem, and can instill hope",
+      "It eliminates the need for individualized treatment planning",
+      "It guarantees insurance payment",
+      "It removes all subjectivity from the assessment and treatment process"
+    ],
+    "e": "Diagnosis has practical benefits: it is an organized shorthand and a working hypothesis that enables communication and planned interventions. For clients, it can bring relief that others share the problem (it has a name and is known) and can instill hope that effective treatments exist.",
+    "w": [
+      "Diagnosis doesn't replace individualized treatment planning; it informs it.",
+      "Diagnosis doesn't guarantee insurance payment; coverage depends on many factors.",
+      "Diagnosis remains partly subjective, so it can't remove all subjectivity."
+    ],
+    "k": "Diagnosis can bring relief (others share this) and hope, and supports communication and planning.",
+    "h": "A name can be a relief.",
+    "r": "Sommers-Flanagan Ch10 – Practical support"
+  },
+  {
+    "t": "Ch10 GAD",
+    "d": 2,
+    "q": "Generalized anxiety disorder (DSM-IV-TR 300.02) requires excessive worry for at least:",
+    "o": [
+      "6 months, more days than not",
+      "At least 2 weeks",
+      "At least 1 month, every day",
+      "At least 12 months, continuously"
+    ],
+    "e": "Generalized anxiety disorder requires excessive anxiety and worry occurring more days than not for at least 6 months, about a number of events or activities. The person finds the worry difficult to control, and it is associated with three or more of six symptoms in adults (only one in children).",
+    "w": [
+      "Two weeks is the duration criterion for a major depressive episode.",
+      "One month every day isn't the GAD criterion.",
+      "Twelve months continuously overstates the six-month requirement."
+    ],
+    "k": "GAD: excessive worry, more days than not, for at least 6 months.",
+    "h": "Six months of worry.",
+    "r": "Sommers-Flanagan Ch10 – Table 10.1"
+  },
+  {
+    "t": "Ch10 GAD",
+    "d": 2,
+    "q": "How many of the six GAD criterion C symptoms are required for children?",
+    "o": [
+      "One",
+      "Three",
+      "Two",
+      "Four"
+    ],
+    "e": "GAD criterion C lists six symptoms: restlessness or feeling keyed up, being easily fatigued, difficulty concentrating, irritability, muscle tension and sleep disturbance. Adults need three or more; children need only one. The lower threshold reflects that children may express anxiety in fewer physical symptoms.",
+    "w": [
+      "Three or more symptoms is the adult requirement, not the child one.",
+      "Two isn't the criterion for either group.",
+      "Four exceeds both the child and adult thresholds."
+    ],
+    "k": "GAD criterion C: 3+ of 6 symptoms for adults, only 1 for children.",
+    "h": "Kids need one, adults three.",
+    "r": "Sommers-Flanagan Ch10 – Table 10.1"
+  },
+  {
+    "t": "Ch10 GAD",
+    "d": 3,
+    "q": "Widiger notes about criterion E (clinically significant distress or impairment):",
+    "o": [
+      "Nowhere in DSM-IV is 'clinically significant impairment' defined",
+      "It is precisely and operationally defined in the manual's introduction",
+      "It only applies to children",
+      "It replaces criterion A in cases of mild worry"
+    ],
+    "e": "Widiger notes that nowhere in DSM-IV is 'clinically significant impairment' actually defined, not even in the section titled 'Criteria for Clinical Significance'. This shows the inherent subjectivity of DSM diagnosis: a key threshold criterion that separates disorder from ordinary distress depends on each clinician's judgement.",
+    "w": [
+      "It isn't precisely defined anywhere in the manual.",
+      "It applies to adults as well as children.",
+      "It doesn't replace criterion A; both are required."
+    ],
+    "k": "Widiger: 'clinically significant impairment' is never defined in DSM-IV.",
+    "h": "The key threshold has no ruler.",
+    "r": "Sommers-Flanagan Ch10 – Specific diagnostic criteria"
+  },
+  {
+    "t": "Ch10 GAD",
+    "d": 2,
+    "q": "Criterion F for GAD requires that the interviewer:",
+    "o": [
+      "Rule out substances and general medical conditions (e.g., hyperthyroidism)",
+      "Rule out cultural explanations for worry first",
+      "Confirm a family history of anxiety in at least one first-degree relative",
+      "Obtain psychological testing"
+    ],
+    "e": "GAD criterion F requires ruling out the direct physiological effects of substances (drugs of abuse, medications) and general medical conditions, such as hyperthyroidism, which can cause anxiety symptoms. Ruling out substances and medical conditions is required in virtually every DSM-IV-TR diagnostic category, so medical history is always part of diagnosis.",
+    "w": [
+      "Cultural considerations matter, but criterion F concerns substances and medical conditions.",
+      "Family history isn't a GAD criterion, though it can inform assessment.",
+      "Psychological testing isn't required by criterion F."
+    ],
+    "k": "GAD criterion F: rule out substances and medical conditions (e.g., hyperthyroidism).",
+    "h": "Check the thyroid before calling it worry.",
+    "r": "Sommers-Flanagan Ch10 – Specific diagnostic criteria"
+  },
+  {
+    "t": "Ch10 Problems",
+    "d": 2,
+    "q": "Why might asking six consecutive negatively worded GAD questions be problematic?",
+    "o": [
+      "It may hurt mood and alliance, and thereby reliability and validity",
+      "It takes too little time to establish the six-month duration criterion",
+      "Clients prefer negative questions",
+      "It always produces an accurate diagnosis, but clients find it boring and tedious"
+    ],
+    "e": "Firing off six negatively worded symptom questions in a row may worsen the client's mood and strain the alliance, which in turn can reduce the reliability and validity of the information, consistent with differential activation theory. DSM criteria are 'not meant to be used in a cookbook fashion'; weave questions into a respectful conversation.",
+    "w": [
+      "The problem isn't too little time; it's the effect on mood and alliance.",
+      "Clients don't prefer strings of negative questions.",
+      "Mechanical questioning doesn't guarantee accuracy and can reduce it."
+    ],
+    "k": "Strings of negative symptom questions can harm mood and alliance, reducing data quality.",
+    "h": "Interrogation lowers accuracy.",
+    "r": "Sommers-Flanagan Ch10 – Assessment and diagnosis problems"
+  },
+  {
+    "t": "Ch10 Problems",
+    "d": 2,
+    "q": "An interviewer dislikes a client and is tempted to give a more severe diagnosis. This is an example of:",
+    "o": [
+      "Interviewer countertransference",
+      "Diagnostic comorbidity",
+      "Differential diagnosis error by the interviewer",
+      "Client deceit or misinformation about symptoms"
+    ],
+    "e": "Diagnosis can be distorted by interviewer countertransference: disliking a client may tempt you to give a more severe diagnosis, while liking a client may lead you to minimize psychopathology. Awareness of your reactions, sticking closely to criteria, and consultation with colleagues help keep diagnoses accurate and fair.",
+    "w": [
+      "Comorbidity is having more than one disorder, not interviewer bias.",
+      "Differential diagnosis error is a broader term; this specific bias comes from countertransference.",
+      "Client deceit concerns the client's reporting, not the interviewer's feelings."
+    ],
+    "k": "Countertransference can inflate (disliked client) or minimize (liked client) diagnoses.",
+    "h": "Feelings can bend the diagnosis.",
+    "r": "Sommers-Flanagan Ch10 – Assessment and diagnosis problems"
+  },
+  {
+    "t": "Ch10 Problems",
+    "d": 2,
+    "q": "With children, diagnostic comorbidity occurs:",
+    "o": [
+      "More often than not",
+      "Rarely",
+      "Only in conduct disorder",
+      "Never with anxiety"
+    ],
+    "e": "With children, diagnostic comorbidity, having two or more disorders at once, occurs more often than not. Anxiety, depression, ADHD and conduct problems frequently co-occur. This makes sorting out diagnostic labels more difficult and argues for broad, multimethod, multirater assessment rather than stopping at the first diagnosis that fits.",
+    "w": [
+      "Comorbidity in children is common, not rare.",
+      "Comorbidity isn't limited to conduct disorder; it is common across childhood disorders.",
+      "Anxiety often co-occurs with other childhood disorders."
+    ],
+    "k": "In children, comorbidity occurs more often than not.",
+    "h": "Kids rarely have just one.",
+    "r": "Sommers-Flanagan Ch10 – Assessment and diagnosis problems"
+  },
+  {
+    "t": "Ch10 Problems",
+    "d": 2,
+    "q": "When parents, teachers and children rate the same child, interrater agreement is generally:",
+    "o": [
+      "Low – yet collateral information remains essential",
+      "High, especially for anxiety symptoms",
+      "Perfect for observable behavior problems at school",
+      "Irrelevant to diagnosing children"
+    ],
+    "e": "When parents, teachers and children rate the same child, interrater agreement is generally low (Safford et al., 2005): each sees the child in different settings and from different perspectives. Yet collateral information remains essential, because each source captures something the others miss.",
+    "w": [
+      "Agreement is generally low, even for anxiety.",
+      "Agreement isn't perfect, even for observable school behaviour.",
+      "Collateral ratings are essential despite low agreement."
+    ],
+    "k": "Parent, teacher and child ratings often disagree, but all are needed.",
+    "h": "Three views, three pictures.",
+    "r": "Sommers-Flanagan Ch10 – Client deceit or misinformation"
+  },
+  {
+    "t": "Ch10 Problems",
+    "d": 2,
+    "q": "'Multimethod, multirater, multisetting' assessment means gathering information from:",
+    "o": [
+      "Various methods, various raters, and various settings",
+      "Multiple diagnoses, medications and therapists",
+      "Several sessions with one method",
+      "Different DSM editions"
+    ],
+    "e": "Multimethod, multirater, multisetting assessment gathers information through various methods (interviews, rating scales, projectives), from various raters (parents, teachers, partners) and across various settings (school, home, office, work). Combining sources compensates for each one's limitations and blind spots, especially when raters disagree, as they often do with children.",
+    "w": [
+      "Multiple diagnoses or medications aren't what 'multimethod' means.",
+      "Several sessions with one method isn't multimethod.",
+      "Different DSM editions aren't part of this approach."
+    ],
+    "k": "Multimethod, multirater, multisetting = combine methods, informants and settings.",
+    "h": "Many tools, many eyes, many places.",
+    "r": "Sommers-Flanagan Ch10 – Assessment and diagnosis problems"
+  },
+  {
+    "t": "Ch10 Structured interviews",
+    "d": 2,
+    "q": "Which is an advantage of structured diagnostic interviews?",
+    "o": [
+      "Greater interrater reliability than unstructured clinical interviews",
+      "They permit experienced experts to take shortcuts when they are confident",
+      "They emphasize rapport-building and the client's unique personal story",
+      "They are brief to administer"
+    ],
+    "e": "Structured diagnostic interviews offer greater interrater reliability than unstructured interviews, are standardized, produce DSM diagnoses and are ideal for research. Their disadvantages: they take time (the K-SADS can take 1–4 hours), allow no shortcuts, can feel rigid, and their validity is questionable.",
+    "w": [
+      "Structured interviews forbid shortcuts, even for confident experts.",
+      "They emphasize standardized questions over rapport and personal story.",
+      "They tend to be long, not brief."
+    ],
+    "k": "Structured interviews: more reliable and standardized, but long, rigid, and of uncertain validity.",
+    "h": "Reliable but rigid.",
+    "r": "Sommers-Flanagan Ch10 – Structured diagnostic interviewing"
+  },
+  {
+    "t": "Ch10 Structured interviews",
+    "d": 2,
+    "q": "In practice, who mainly uses structured diagnostic interviews?",
+    "o": [
+      "Researchers and academicians",
+      "Private practice clinicians",
+      "School counselors",
+      "Emergency room physicians and nurses"
+    ],
+    "e": "Structured diagnostic interviews are mainly used by researchers and academicians, who need standardized, reliable diagnoses. They are underutilized in clinical practice because of their time demands (Falloon et al.), even though they improve reliability. Clinicians more often use semi-structured or unstructured interviews guided by DSM criteria.",
+    "w": [
+      "Private practitioners rarely use them because of time demands.",
+      "School counselors rarely use full structured interviews.",
+      "Emergency staff need rapid assessment, not hours-long interviews."
+    ],
+    "k": "Structured diagnostic interviews are used mainly by researchers, rarely by busy clinicians.",
+    "h": "Labs, not clinics.",
+    "r": "Sommers-Flanagan Ch10 – Disadvantages"
+  },
+  {
+    "t": "Ch10 Structured interviews",
+    "d": 2,
+    "q": "The ADIS-IV and AUDADIS-IV are examples of:",
+    "o": [
+      "Circumscribed interviews evaluating specific conditions",
+      "Broad-spectrum interviews covering most DSM-IV disorders",
+      "Projective tests used to assess anxiety and alcohol use in adults",
+      "Mental status exams"
+    ],
+    "e": "The ADIS-IV (Anxiety Disorders Interview Schedule) and AUDADIS-IV (Alcohol Use Disorder and Associated Disabilities Interview Schedule) are circumscribed structured interviews that evaluate specific conditions. Broad-spectrum interviews, by contrast, assess many disorders, such as First and colleagues' interview or the Child Assessment Schedule.",
+    "w": [
+      "Broad-spectrum interviews cover many disorders; these focus on specific ones.",
+      "They are structured interviews, not projective tests.",
+      "They aren't mental status exams; they assess specific disorders."
+    ],
+    "k": "ADIS-IV and AUDADIS-IV are circumscribed interviews for specific conditions.",
+    "h": "Anxiety and alcohol specialists.",
+    "r": "Sommers-Flanagan Ch10 – Adult diagnostic interviewing"
+  },
+  {
+    "t": "Ch10 Reliability",
+    "d": 2,
+    "q": "An interview can be highly reliable but invalid when:",
+    "o": [
+      "Interviewers consistently agree on diagnoses that are incorrect",
+      "Interviewers disagree frequently about which diagnosis applies to the client",
+      "The interview is unstructured and lets the client tell the story freely",
+      "The client is honest"
+    ],
+    "e": "Reliability is consistency; validity is accuracy. An interview can be highly reliable but invalid when interviewers consistently agree on diagnoses that are wrong. Reliability is necessary but not sufficient for validity: you can hit the same wrong spot every time.",
+    "w": [
+      "Frequent disagreement means low reliability, not high reliability with low validity.",
+      "Unstructured interviews tend to have lower reliability.",
+      "Client honesty supports, rather than undermines, validity."
+    ],
+    "k": "Reliable but invalid = consistent agreement on wrong diagnoses; reliability is necessary, not sufficient.",
+    "h": "Hitting the same wrong target every time.",
+    "r": "Sommers-Flanagan Ch10 – Diagnostic reliability and validity"
+  },
+  {
+    "t": "Ch10 Reliability",
+    "d": 3,
+    "q": "Kutchins and Kirk (1997) described the DSM 'revolution in reliability' as:",
+    "o": [
+      "A revolution in rhetoric, not in reality",
+      "A complete scientific success for clinicians",
+      "Limited to the personality disorders only",
+      "Successful only with the DSM-III-R version"
+    ],
+    "e": "Kutchins and Kirk (1997) called the DSM's claimed 'revolution in reliability' a revolution in rhetoric, not in reality: no major study shows DSM is routinely used with high reliability by ordinary clinicians. Reliability achieved in research settings with structured interviews doesn't transfer automatically to practice.",
+    "w": [
+      "They didn't consider it a complete success.",
+      "Their critique wasn't limited to personality disorders.",
+      "They didn't single out DSM-III-R as successful."
+    ],
+    "k": "Kutchins & Kirk: DSM's reliability revolution was 'in rhetoric, not reality'.",
+    "h": "Talk, not proof.",
+    "r": "Sommers-Flanagan Ch10 – Diagnostic reliability and validity"
+  },
+  {
+    "t": "Ch10 Reliability",
+    "d": 3,
+    "q": "In the adolescent alcohol study (Chung & Martin), why did the criterion 'drinking more or longer than intended' make little sense to youth?",
+    "o": [
+      "Their goal was to drink until intoxication, with no pre-set limits",
+      "They did not drink at all, so the criterion could not apply to them",
+      "They misunderstood the meaning of the word 'intended' in the question",
+      "They always drank less than intended because of parental supervision"
+    ],
+    "e": "In Chung and Martin's study, the criterion 'drinking more or longer than intended' made little sense to adolescents because their goal was often to drink until intoxicated, with no pre-set limit to exceed. This shows how diagnostic criteria can fail to fit age-based subgroups, threatening validity.",
+    "w": [
+      "The youths did drink; the criterion simply didn't fit their goals.",
+      "The problem wasn't vocabulary; they had no intended limit.",
+      "Drinking less than intended because of parents isn't the finding."
+    ],
+    "k": "Criteria can misfit subgroups: teens aiming to get drunk don't drink 'more than intended'.",
+    "h": "No limit, no exceeding it.",
+    "r": "Sommers-Flanagan Ch10 – Diagnostic reliability and validity"
+  },
+  {
+    "t": "Ch10 Reliability",
+    "d": 2,
+    "q": "Which conclusion about diagnostic reliability is supported by the literature?",
+    "o": [
+      "Practitioner reliability is moderate at best, especially for personality disorders",
+      "Unstructured clinical interviews are the most reliable",
+      "Training does not affect reliability",
+      "Emphasizing individual context always increases the reliability of diagnoses"
+    ],
+    "e": "Practitioners' diagnostic reliability is moderate at best, especially for personality disorders. Sticking closely to criteria and more training increase reliability. Structured procedures that de-emphasize individual context raise reliability, but they risk a cookbook approach that misses the person and may not improve validity.",
+    "w": [
+      "Unstructured interviews tend to be less reliable.",
+      "Training does improve reliability, according to the literature.",
+      "Emphasizing context may help validity but tends to lower reliability."
+    ],
+    "k": "Clinical diagnostic reliability is moderate at best, especially for personality disorders.",
+    "h": "Moderate, and weakest for personality.",
+    "r": "Sommers-Flanagan Ch10 – Diagnostic reliability and validity"
+  },
+  {
+    "t": "Ch10 Balanced approach",
+    "d": 2,
+    "q": "Which is one of the five components of a balanced diagnostic interview?",
+    "o": [
+      "A brief mental status examination",
+      "A full psychological test battery",
+      "A structured interview for every disorder",
+      "A home visit"
+    ],
+    "e": "A balanced diagnostic interview has five components: (1) a warm introduction and role induction; (2) an extensive review of problems and goals, using DSM as a guide; (3) a brief, relevant personal history; (4) a brief mental status examination; and (5) the current situation: support, coping, health and strengths.",
+    "w": [
+      "A full test battery isn't part of the balanced interview.",
+      "A structured interview for every disorder isn't required.",
+      "Home visits aren't one of the components."
+    ],
+    "k": "Balanced diagnostic interview: introduction, problems/goals, brief history, brief MSE, current situation and strengths.",
+    "h": "Welcome, problems, past, mind, present.",
+    "r": "Sommers-Flanagan Ch10 – A balanced approach"
+  },
+  {
+    "t": "Ch10 Balanced approach",
+    "d": 2,
+    "q": "What is the purpose of asking 'Does that sound okay to you?' after the role induction?",
+    "o": [
+      "Engaging the client collaboratively – and a 'No!' is itself diagnostic",
+      "Obtaining the client's legal consent to receive a psychiatric diagnosis",
+      "Testing the client's orientation and attention before asking any questions",
+      "Ending the introduction quickly"
+    ],
+    "e": "After explaining the interview in client-friendly language ('try to understand', 'main concerns'), asking 'Does that sound okay to you?' engages the client collaboratively. If the client says 'No!', that response is itself diagnostically informative about their attitude, trust or opposition.",
+    "w": [
+      "It's collaborative engagement, not formal legal consent.",
+      "It isn't a test of orientation or attention.",
+      "It doesn't end the introduction quickly; it invites the client's input."
+    ],
+    "k": "'Does that sound okay?' invites collaboration; a 'No!' is itself diagnostic.",
+    "h": "Ask, and even a 'no' tells you something.",
+    "r": "Sommers-Flanagan Ch10 – Introduction and role induction"
+  },
+  {
+    "t": "Ch10 Self-diagnosis",
+    "d": 2,
+    "q": "A client says, 'I've been so depressed.' The astute diagnostician:",
+    "o": [
+      "Recognizes depression as a syndrome and asks about sleep, appetite, focus",
+      "Accepts the self-diagnosis, since the client knows his or her own experience",
+      "Diagnoses major depression immediately to start treatment as soon as possible",
+      "Asks only 'Are you depressed?'"
+    ],
+    "e": "When a client says 'I've been so depressed', the astute diagnostician respects the client's perspective but doesn't automatically accept the self-diagnosis. Depression is a syndrome, so ask about sleep, appetite, concentration, energy and other symptoms. Words like 'compulsive', 'panic', 'hyperactive' and 'bipolar' are also overused in everyday speech.",
+    "w": [
+      "Accepting self-diagnosis skips verifying the full syndrome.",
+      "Diagnosing immediately is premature without symptom review.",
+      "Asking only 'Are you depressed?' doesn't assess the syndrome."
+    ],
+    "k": "Don't accept self-diagnosis: explore the full syndrome (sleep, appetite, concentration…).",
+    "h": "'Depressed' is a word; depression is a syndrome.",
+    "r": "Sommers-Flanagan Ch10 – Reviewing client problems"
+  },
+  {
+    "t": "Ch10 Uncertainty",
+    "d": 2,
+    "q": "Which DSM-IV-TR code indicates 'Diagnosis or Condition Deferred'?",
+    "o": [
+      "799.9",
+      "300.9",
+      "V61.20",
+      "312.39"
+    ],
+    "e": "DSM-IV-TR provides codes for uncertainty. 799.9 means Diagnosis or Condition Deferred: there isn't yet enough information to diagnose. 300.9 means Unspecified Mental Disorder (nonpsychotic): something is present but doesn't fit a specific category. V codes mark a focus of treatment that isn't a mental disorder, such as V61.20 (parent–child relational problem) or V62.82 (bereavement). 312.39 is trichotillomania.",
+    "w": [
+      "300.9 is Unspecified Mental Disorder: a disorder is present but unnamed, not deferred.",
+      "V61.20 is a V code for a parent–child relational problem, not a deferral.",
+      "312.39 is the code for trichotillomania, a specific disorder."
+    ],
+    "k": "799.9 = diagnosis deferred; 300.9 = unspecified mental disorder; V codes = focus of treatment, not a disorder.",
+    "h": "799.9: 'nine-nine, not yet time'; 300.9: 'something's there but unnamed'.",
+    "r": "Sommers-Flanagan Ch10 – Accept that you may not diagnose after a single interview"
+  },
+  {
+    "t": "Ch10 Uncertainty",
+    "d": 2,
+    "q": "V62.82 refers to:",
+    "o": [
+      "Bereavement",
+      "Parent-child relational problem",
+      "Unspecified mental disorder",
+      "Diagnosis deferred"
+    ],
+    "e": "V codes indicate that treatment focuses on a problem that doesn't meet criteria for a mental disorder. V62.82 is bereavement: grief after a death is an expectable response, not a disorder, but it can still be a legitimate focus of counseling. V61.20 is a parent–child relational problem.",
+    "w": [
+      "Parent–child relational problem is a different V code, V61.20.",
+      "Unspecified mental disorder is 300.9, a disorder code rather than a V code.",
+      "Diagnosis deferred is 799.9, not a V code."
+    ],
+    "k": "V62.82 = bereavement, a V code (focus of treatment, not a disorder).",
+    "h": "V for 'very human' problems, not disorders.",
+    "r": "Sommers-Flanagan Ch10 – V codes"
+  },
+  {
+    "t": "Ch10 Uncertainty",
+    "d": 1,
+    "q": "The word '(provisional)' after a diagnosis indicates:",
+    "o": [
+      "A working diagnosis that additional information may modify",
+      "A confirmed final diagnosis",
+      "A diagnosis made by a trained technician using a structured interview",
+      "A rule-out statement only, with no working diagnosis assigned yet"
+    ],
+    "e": "Adding '(provisional)' after a diagnosis marks it as a working diagnosis that additional information may modify. It communicates a degree of uncertainty, appropriate after a single interview, while still allowing treatment planning. Other uncertainty tools include rule-out statements and deferred diagnosis (799.9).",
+    "w": [
+      "A confirmed, final diagnosis wouldn't carry the 'provisional' label.",
+      "'Provisional' says nothing about who made the diagnosis or how.",
+      "A rule-out statement is a separate tool; a provisional diagnosis is a working diagnosis."
+    ],
+    "k": "'Provisional' = a working diagnosis that new information may change.",
+    "h": "Pencilled in, not inked.",
+    "r": "Sommers-Flanagan Ch10 – Provisional diagnosis"
+  },
+  {
+    "t": "Ch10 History",
+    "d": 2,
+    "q": "Why is at least a minimal personal history necessary for diagnosis?",
+    "o": [
+      "Many diagnoses require it (panic history, PTSD trauma, ADHD before age 7)",
+      "History is irrelevant whenever symptoms are clear",
+      "It is needed only for insurance purposes and the billing codes used",
+      "It replaces the MSE"
+    ],
+    "e": "Many diagnoses require historical information: a history of panic attacks for panic disorder, a traumatic event for PTSD, symptoms before age 7 for ADHD in DSM-IV-TR. Diagnosis asks not only which symptoms exist but in what context and for how long. Context matters too: conduct-disordered behaviour may be adaptive in a neighbourhood with a strong culture of violence.",
+    "w": [
+      "History is relevant even when symptoms seem clear; duration and context matter.",
+      "History isn't only for insurance; many criteria require it.",
+      "History doesn't replace the MSE; both are needed."
+    ],
+    "k": "Many diagnoses require history (onset, duration, trauma, childhood symptoms) and context.",
+    "h": "Symptoms need a timeline and a backdrop.",
+    "r": "Sommers-Flanagan Ch10 – Client personal history"
+  },
+  {
+    "t": "Ch10 Current situation",
+    "d": 2,
+    "q": "Yalom found asking about the patient's ______ especially revealing (e.g., hours of computer solitaire).",
+    "o": [
+      "Daily schedule",
+      "Dreams",
+      "Earliest memory",
+      "Childhood friendships"
+    ],
+    "e": "Yalom found asking about the patient's daily schedule especially revealing, for example discovering that someone spends hours playing computer solitaire. Asking about a typical day may seem tedious, but it opens diagnostically rich information about functioning, isolation, avoidance and energy, and points toward treatment goals.",
+    "w": [
+      "Dreams are psychoanalytic material, not what Yalom highlighted here.",
+      "Earliest memories come from Adler's approach, not Yalom's daily-schedule question.",
+      "Childhood friendships are history, not the daily schedule Yalom highlighted."
+    ],
+    "k": "Yalom: ask about the daily schedule; it reveals rich diagnostic information.",
+    "h": "A day in the life tells the diagnosis.",
+    "r": "Sommers-Flanagan Ch10 – The usual or typical day"
+  },
+  {
+    "t": "Ch10 Current situation",
+    "d": 1,
+    "q": "People other than the client who provide diagnostic information are called:",
+    "o": [
+      "Collateral informants",
+      "Secondary clients",
+      "Corroborators of record",
+      "Co-therapists"
+    ],
+    "e": "People other than the client who provide diagnostic information, such as family members, partners, teachers or previous clinicians, are called collateral informants. Morrison notes that adults may be unaware of family history, and psychotic or personality-disordered patients may lack perspective on their own behaviour, so collateral information can be essential (with consent).",
+    "w": [
+      "Secondary clients isn't the term for informants.",
+      "'Corroborators of record' isn't the term used.",
+      "Co-therapists provide treatment together, not collateral information."
+    ],
+    "k": "Collateral informants = others (family, teachers) who provide diagnostic information.",
+    "h": "Collateral: information from the side.",
+    "r": "Sommers-Flanagan Ch10 – Client social support network"
+  },
+  {
+    "t": "Ch10 Current situation",
+    "d": 2,
+    "q": "Clients with anxiety disorders typically cope by ______, while those with dissociative disorders tend to ______.",
+    "o": [
+      "Avoidance; completely block out painful emotional experiences",
+      "Confrontation of fears; rumination about the past",
+      "Substance use and alcohol; seeking constant reassurance from others",
+      "Blocking out painful emotional experiences; avoiding feared situations"
+    ],
+    "e": "Coping styles vary by disorder: clients with anxiety disorders typically cope by avoidance (staying away from feared situations), while those with dissociative disorders tend to completely block out painful emotional experiences. Assess whether a client's coping moves toward mastery or worsens symptoms and restricts activities.",
+    "w": [
+      "Confronting fears is the treatment goal, not typical anxious coping.",
+      "Substance use and reassurance-seeking occur, but they aren't the contrast drawn here.",
+      "This reverses the two patterns: avoidance is anxious, blocking out is dissociative."
+    ],
+    "k": "Anxiety disorders cope by avoidance; dissociative disorders by blocking out painful emotion.",
+    "h": "Anxious people avoid; dissociative people disconnect.",
+    "r": "Sommers-Flanagan Ch10 – Coping skills assessment"
+  },
+  {
+    "t": "Ch10 Current situation",
+    "d": 2,
+    "q": "Why ask about client strengths toward the end of a diagnostic interview?",
+    "o": [
+      "It counters demoralization and provides diagnostic information",
+      "To shorten the interview and end on time",
+      "Because strengths determine which DSM diagnosis is assigned",
+      "Insurers require it"
+    ],
+    "e": "Asking about strengths near the end of a diagnostic interview counters the demoralization that problem-focused questioning can cause, and provides diagnostic information: very depressed clients struggle to name any strengths. Bertolino and O'Hanlon note that assessment can uncover abilities, resources and exceptions useful for treatment.",
+    "w": [
+      "It isn't mainly a time-saving device; it serves hope and assessment.",
+      "Strengths don't determine which DSM diagnosis is assigned.",
+      "Insurers don't require questions about strengths; clinicians ask for clinical reasons."
+    ],
+    "k": "Asking about strengths counters demoralization and is diagnostically informative.",
+    "h": "End on what's strong.",
+    "r": "Sommers-Flanagan Ch10 – Client strengths"
+  },
+  {
+    "t": "Ch10 Treatment planning",
+    "d": 2,
+    "q": "Which treatment planning mnemonic is attributed to Seligman (2004)?",
+    "o": [
+      "DO A CLIENT MAP",
+      "ADDRESSING",
+      "BASIC ID",
+      "SLAP"
+    ],
+    "e": "Seligman's (2004) treatment-planning mnemonic is DO A CLIENT MAP: Diagnosis, Objectives, Assessments, Clinician characteristics (viewed as therapeutic), Location, Interventions, Emphasis, Numbers, Timing, Medications, Adjunct services and Prognosis. It reminds the planner of every element a complete plan needs. Other models include Lazarus's BASIC ID and Jongsma's treatment planners.",
+    "w": [
+      "ADDRESSING is Hays's framework for cultural identities, not a treatment plan.",
+      "BASIC ID is Lazarus's multimodal assessment framework, not Seligman's.",
+      "SLAP evaluates the dangerousness of suicide plans."
+    ],
+    "k": "Seligman's treatment-planning mnemonic is DO A CLIENT MAP.",
+    "h": "A map to guide treatment.",
+    "r": "Sommers-Flanagan Ch10 – Treatment planning"
+  },
+  {
+    "t": "Ch10 Models",
+    "d": 2,
+    "q": "The psychosocial treatment planning model emphasizes:",
+    "o": [
+      "Collaborative problem identification over a definitive diagnosis",
+      "Accurate labeling in order to select medication",
+      "The interviewer as the DSM expert who identifies the illness",
+      "Genetic causes of disorders"
+    ],
+    "e": "The psychosocial treatment-planning model emphasizes collaborative identification of problems over a definitive diagnosis. It explores the presenting problem and goals, the person (personality, history) and the situation. The client's own definition of problems drives planning, in contrast to the biomedical model's therapist-identified diagnoses.",
+    "w": [
+      "Labelling to select medication is the biomedical model's emphasis.",
+      "The interviewer as DSM expert describes the biomedical model.",
+      "Genetic causes are emphasized in the biomedical model."
+    ],
+    "k": "Psychosocial model: collaborative problem identification over definitive diagnosis.",
+    "h": "Define the problem together.",
+    "r": "Sommers-Flanagan Ch10 – Psychosocial model"
+  },
+  {
+    "t": "Ch10 Models",
+    "d": 2,
+    "q": "In the biomedical model, a primary purpose of accurate diagnostic labeling is to:",
+    "o": [
+      "Identify appropriate medication treatment",
+      "Explore the client's family dynamics and history",
+      "Build the therapeutic alliance with the client",
+      "Set collaborative goals"
+    ],
+    "e": "In the biomedical model, problems are formulated as illnesses, the interviewer is the expert, and a primary purpose of accurate diagnosis is to identify appropriate medication. A key difference between models: client-identified problems drive psychosocial planning, while therapist-identified diagnoses drive biomedical planning.",
+    "w": [
+      "Family dynamics are explored more in psychosocial models.",
+      "Building the alliance is important but isn't the purpose of biomedical labelling.",
+      "Collaborative goal setting fits the psychosocial model."
+    ],
+    "k": "Biomedical model: accurate diagnosis mainly guides medication choice.",
+    "h": "Name the illness, pick the pill.",
+    "r": "Sommers-Flanagan Ch10 – Biomedical model"
+  },
+  {
+    "t": "Ch10 Models",
+    "d": 3,
+    "q": "Jongsma and Peterson note a paradox in third-party payers. Which?",
+    "o": [
+      "They require diagnoses but prefer behavioral indices, and favor brief unvalidated therapies",
+      "They refuse to pay for any services that require a psychiatric diagnosis on the claim form",
+      "They prefer long-term psychoanalysis because it reduces later medical costs overall",
+      "They require structured interviews"
+    ],
+    "e": "Jongsma and Peterson note that third-party payers require DSM diagnoses yet prefer behavioural indices of progress, and favour brief therapies even when these aren't validated. So interviewers must know diagnostic, problem-oriented, evidence-based and brief approaches to meet payers' demands while serving clients.",
+    "w": [
+      "Payers require diagnoses rather than refusing to pay for them.",
+      "Payers favour brief therapies, not long-term psychoanalysis.",
+      "Payers don't require structured interviews; they require diagnoses and behavioural indices."
+    ],
+    "k": "Payers paradoxically demand diagnoses but prefer behavioural indices and brief, unvalidated therapies.",
+    "h": "Diagnose me, but show me behaviour, and keep it short.",
+    "r": "Sommers-Flanagan Ch10 – Evidence-based treatment plans"
+  },
+  {
+    "t": "Ch10 Biopsychosocial",
+    "d": 3,
+    "q": "After the Dalai Lama's question to Nemeroff, the authors propose the model's order should be:",
+    "o": [
+      "Social-psycho-bio",
+      "Bio-psycho-social (unchanged)",
+      "Psycho-bio-social",
+      "Bio-social-psycho"
+    ],
+    "e": "The Dalai Lama asked Nemeroff whether, if genetically predisposed people need a trauma to trigger depression, all depression is caused by human experience. Nemeroff conceded 'Yes.' The authors therefore propose reordering the model as social-psycho-bio, putting human experience and social context first.",
+    "w": [
+      "Leaving it unchanged ignores the point that experience triggers biology.",
+      "Psycho-bio-social isn't the proposed order; social comes first.",
+      "Bio-social-psycho still puts biology first, which the argument rejects."
+    ],
+    "k": "Authors propose 'social-psycho-bio': experience and context trigger biological vulnerability.",
+    "h": "Society first, biology last.",
+    "r": "Sommers-Flanagan Ch10 – Multicultural Highlight 10.1"
+  },
+  {
+    "t": "Ch10 Biopsychosocial",
+    "d": 2,
+    "q": "Despite Engel's 1980 biopsychosocial call, what trend do the authors observe?",
+    "o": [
+      "Psychosocial fields increasingly dominated by biomedical influences",
+      "Medicine has fully integrated psychosocial factors into its training",
+      "Psychiatry abandoned medication",
+      "The biomedical model is steadily declining in psychiatry and medicine today"
+    ],
+    "e": "Despite Engel's 1980 call for a biopsychosocial model, the authors observe that psychosocial fields are increasingly dominated by biomedical influences. Biomedical and psychosocial models 'do not play well together', and the biomedical view too often dominates in practice, training, research funding and insurance reimbursement.",
+    "w": [
+      "Medicine hasn't fully integrated psychosocial factors, despite Engel's call.",
+      "Psychiatry hasn't abandoned medication; its use has grown.",
+      "The biomedical model is growing, not declining."
+    ],
+    "k": "Despite Engel, biomedical influences increasingly dominate psychosocial fields.",
+    "h": "Bio keeps winning the tug-of-war.",
+    "r": "Sommers-Flanagan Ch10 – Integrated approach"
+  },
+  {
+    "t": "Ch10 Treatment selection",
+    "d": 2,
+    "q": "Which empirical guideline is cited in the chapter?",
+    "o": [
+      "Behavior therapy for agoraphobia",
+      "Psychoanalysis for panic disorder",
+      "Medication only for bulimia",
+      "Hypnosis for depression"
+    ],
+    "e": "The chapter cites a few empirical treatment guidelines: behaviour therapy (exposure) for agoraphobia, cognitive therapy for bulimia and panic disorder, and interpersonal therapy for depression. Clear mandates don't exist for most disorders, so clinicians integrate evidence with client and therapist factors.",
+    "w": [
+      "Psychoanalysis isn't the cited treatment for panic disorder; cognitive therapy is.",
+      "Medication only isn't the cited treatment for bulimia; cognitive therapy is.",
+      "Hypnosis isn't cited as a treatment for depression."
+    ],
+    "k": "Cited guidelines: behaviour therapy for agoraphobia, CT for bulimia and panic, IPT for depression.",
+    "h": "Exposure for agoraphobia.",
+    "r": "Sommers-Flanagan Ch10 – Determining appropriate treatments"
+  },
+  {
+    "t": "Ch10 Treatment selection",
+    "d": 2,
+    "q": "A therapist untrained in EMDR wants to use it with a client. According to the chapter:",
+    "o": [
+      "The technique should not be employed",
+      "It can be used if the client agrees in writing",
+      "It's fine for brief therapy",
+      "It's acceptable with supervision afterward"
+    ],
+    "e": "Treatments must match the therapist's education, training, experience and supervision. A therapist untrained in EMDR should not employ it, regardless of how interested the client is. Practising outside one's competence is unethical and potentially harmful. Other selection factors include the evidence base and both therapist and client preferences.",
+    "w": [
+      "Client agreement doesn't make practising outside competence acceptable.",
+      "Brief therapy doesn't lift competence requirements for using a technique.",
+      "Supervision after the fact doesn't substitute for training."
+    ],
+    "k": "Don't use techniques you aren't trained in, such as EMDR without training.",
+    "h": "No training, no technique.",
+    "r": "Sommers-Flanagan Ch10 – Therapist skill or expertise"
+  },
+  {
+    "t": "Ch10 Jongsma model",
+    "d": 2,
+    "q": "The six steps of the Jongsma treatment planning model in order are:",
+    "o": [
+      "Problem selection, problem definition, goals, objectives, interventions, diagnosis",
+      "Diagnosis, problem definition, goals, objectives, interventions, outcome measurement",
+      "Assessment, diagnosis, medication, therapy, termination, follow-up",
+      "Goals, problem selection, definitions, diagnosis, objectives, interventions, outcomes"
+    ],
+    "e": "The Jongsma treatment-planning model has six steps: problem selection, problem definition, goal development, objective construction, intervention creation, and diagnosis determination. Diagnosis comes last, which shows the model leans toward the psychosocial approach, putting the client's problems and goals before diagnostic labels.",
+    "w": [
+      "Starting with diagnosis is the biomedical order; Jongsma puts it last.",
+      "Assessment, medication and termination aren't Jongsma's six steps.",
+      "Goals come after problem selection and definition."
+    ],
+    "k": "Jongsma: problem selection → definition → goals → objectives → interventions → diagnosis (last).",
+    "h": "Problems first, label last.",
+    "r": "Sommers-Flanagan Ch10 – Designing a practical treatment plan"
+  },
+  {
+    "t": "Ch10 Jongsma model",
+    "d": 2,
+    "q": "In the trichotillomania example, 'Decrease the overall frequency of impulsive actions' is a(n):",
+    "o": [
+      "Objective (short-term, measurable)",
+      "Long-term goal for therapy",
+      "Problem definition (operational, behavioral)",
+      "Intervention for the objective"
+    ],
+    "e": "In the Jongsma model, objectives are short-term, measurable steps toward goals. 'Decrease the overall frequency of impulsive actions' is an objective. The long-term goal is broader: 'Establish the ability to effectively channel impulses.' Each objective needs at least one intervention, such as self-monitoring.",
+    "w": [
+      "The long-term goal is broader: establishing the ability to channel impulses.",
+      "A problem definition describes the behaviour operationally, not a target for change.",
+      "An intervention is the method, such as self-monitoring."
+    ],
+    "k": "Objectives are short-term and measurable; goals are long-term; interventions are methods.",
+    "h": "Goal = destination, objective = milestone, intervention = vehicle.",
+    "r": "Sommers-Flanagan Ch10 – Designing a practical treatment plan"
+  },
+  {
+    "t": "Ch10 Planning steps",
+    "d": 2,
+    "q": "In the authors' amalgamated planning steps, when is termination planned?",
+    "o": [
+      "At the outset of treatment",
+      "Only after all goals are met",
+      "After the tenth session",
+      "When the insurance benefits run out"
+    ],
+    "e": "In the authors' amalgamated planning steps, termination is planned at the outset of treatment, not left until the end. Session limits can be used constructively, and termination is addressed throughout the work. Frequent check-ins with the client also strengthen the alliance and keep treatment on track toward agreed goals.",
+    "w": [
+      "Waiting until all goals are met ignores planning from the start.",
+      "There's no fixed tenth-session rule for planning termination.",
+      "Insurance limits shouldn't be the first time termination is discussed."
+    ],
+    "k": "Termination is planned from the very outset of treatment.",
+    "h": "Begin with the end in mind.",
+    "r": "Sommers-Flanagan Ch10 – Treatment planning steps"
+  },
+  {
+    "t": "Ch10 Planning steps",
+    "d": 2,
+    "q": "'Do your homework, part two' refers to:",
+    "o": [
+      "After the session: review options, consult if needed, present ranked options",
+      "Assigning homework to the client to complete before the second session",
+      "Reviewing the client's intake forms before session one",
+      "Calling collateral informants"
+    ],
+    "e": "In the authors' planning steps, 'do your homework, part one' means going over what you know, filling gaps and establishing a provisional plan collaboratively. 'Part two' happens after the session: review treatment options, consult if needed, and present ranked options to the client at the next meeting.",
+    "w": [
+      "It's the clinician's homework, not the client's.",
+      "Reviewing intake forms beforehand isn't part two.",
+      "Calling collaterals may happen, but it isn't what part two refers to."
+    ],
+    "k": "'Homework, part two': after the session, review options, consult, and present ranked choices.",
+    "h": "Your homework, not theirs.",
+    "r": "Sommers-Flanagan Ch10 – Treatment planning steps"
+  },
+  {
+    "t": "Ch10 Genogram",
+    "d": 2,
+    "q": "The Adlerian family constellation interview / genogram typically extends back to:",
+    "o": [
+      "The client's grandparents",
+      "Five generations back",
+      "Only the nuclear family",
+      "The great-great-grandparents"
+    ],
+    "e": "The Adlerian family constellation interview, or genogram, typically extends back to the client's grandparents, focusing on siblings, parents and grandparents. With collectivist clients it may be more inclusive, covering extended kin and community. Balance positive and negative questions about family members to avoid an exclusively problem-focused picture.",
+    "w": [
+      "Five generations is beyond the typical scope.",
+      "It extends beyond the nuclear family to grandparents.",
+      "Great-great-grandparents go well beyond the typical scope."
+    ],
+    "k": "Family constellation interviews/genograms typically go back to grandparents.",
+    "h": "Three generations: you, parents, grandparents.",
+    "r": "Sommers-Flanagan Ch10 – Putting It in Practice 10.3"
+  },
+  {
+    "t": "Ch10 R & R",
+    "d": 1,
+    "q": "In 'treatment planning R & R', the two Rs stand for:",
+    "o": [
+      "Resources and Relationship",
+      "Rest and Relaxation",
+      "Reliability and Responsibility",
+      "Referral and Review"
+    ],
+    "e": "Treatment planning 'R & R' stands for Resources and Relationship. Resources are fairly easy to assess: finances, insurance, motivation, ego strength and social supports. The therapeutic relationship is 'maddeningly difficult to measure', yet it is hugely influential on outcome, so it must be considered deliberately in every treatment plan rather than taken for granted.",
+    "w": [
+      "Rest and relaxation isn't the meaning here.",
+      "Reliability and responsibility aren't the two Rs.",
+      "Referral and review aren't the two Rs."
+    ],
+    "k": "Treatment planning R & R: Resources and Relationship.",
+    "h": "What they have, and what you build together.",
+    "r": "Sommers-Flanagan Ch10 – Treatment planning R & R"
+  },
+  {
+    "t": "Ch10 R & R",
+    "d": 2,
+    "q": "Besides finances and insurance, which client resources must be assessed?",
+    "o": [
+      "Motivation, ego strength, and psychological mindedness",
+      "IQ, level of education, annual income and employment status",
+      "Age, sex, race and ethnicity",
+      "The number of prior therapists and the approaches they used"
+    ],
+    "e": "Besides finances and insurance, assess client resources such as motivation, ego strength (capacity to cope with stress) and psychological mindedness (interest in and capacity for insight). Also assess your own resources: availability, willingness to reduce fees, referral network, supervision and collateral professionals.",
+    "w": [
+      "Education and income are demographics, not the psychological resources named.",
+      "Demographic characteristics aren't the resources to assess here.",
+      "Prior therapists matter, but they aren't the named resources."
+    ],
+    "k": "Client resources: motivation, ego strength, psychological mindedness (plus finances).",
+    "h": "Drive, sturdiness, curiosity about self.",
+    "r": "Sommers-Flanagan Ch10 – Resources"
+  },
+  {
+    "t": "Ch10 Cases",
+    "d": 2,
+    "q": "In the Opal case (panic attacks outside grocery stores), why did treatment remain cognitive-behavioral?",
+    "o": [
+      "Given both options, Opal declined depth work and resumed shopping after eight sessions",
+      "The counselor refused to offer depth work because of her own limited training in grief",
+      "Her insurance plan covered only cognitive-behavioral treatment for panic disorder",
+      "Her husband insisted"
+    ],
+    "e": "Opal, who had panic attacks outside grocery stores, was offered both cognitive-behavioural treatment and deeper exploratory work. She declined depth work and resumed shopping after eight sessions. The lesson: clients vary in potential and motivation for insight, so involve them in deciding what kind of treatment to pursue.",
+    "w": [
+      "The counselor offered depth work; Opal chose not to pursue it.",
+      "Insurance wasn't the deciding factor; Opal's own choice was.",
+      "Her husband didn't make the decision; she chose the approach."
+    ],
+    "k": "Involve clients in treatment choice; some prefer symptom relief over depth work.",
+    "h": "She chose the shopping cart over the couch.",
+    "r": "Sommers-Flanagan Ch10 – Case example (Opal)"
+  },
+  {
+    "t": "Ch10 Cases",
+    "d": 3,
+    "q": "What lesson does the Jane case (excessive worry about her daughter after a day-care remark) illustrate?",
+    "o": [
+      "A behavioral plan for the stated problem could miss deeper, more pressing needs",
+      "Behavioral treatment always works best for anxiety, whatever lies beneath the surface",
+      "Mothers' worries are usually irrational",
+      "Day-care staff should always be investigated first when a child makes such remarks"
+    ],
+    "e": "Jane's excessive worry about her daughter, after a day-care remark, could have been treated with a simple behavioural plan. But her overreaction was linked to her own unaddressed childhood experience, and she benefited from support groups and exploratory therapy. A plan aimed only at the stated problem could miss deeper, more pressing needs.",
+    "w": [
+      "Behavioural treatment isn't always best; Jane needed deeper work.",
+      "Her worries weren't simply irrational; they had roots in her history.",
+      "Investigating day-care staff isn't the lesson; looking beneath the stated problem is."
+    ],
+    "k": "Treating only the stated problem can miss deeper needs (Jane's own history).",
+    "h": "The worry about her daughter was about herself.",
+    "r": "Sommers-Flanagan Ch10 – Case example (Jane)"
+  },
+  {
+    "t": "Ch10 Culture",
+    "d": 3,
+    "q": "In the case of Dolores (American Indian woman fearing loss of custody of her adopted daughter), a culture-sensitive plan includes:",
+    "o": [
+      "Educating her about the Indian Child Welfare Act and consulting her tribe",
+      "Reducing her anxiety as overblown, since informal adoptions are always binding",
+      "Referring her to family court immediately to secure custody of her daughter",
+      "Focusing only on her individual self"
+    ],
+    "e": "For Dolores, a culture-sensitive plan includes educating her about the Indian Child Welfare Act and consulting her tribe, since informal adoptions and tribal law affect custody. It also explores her feelings about counseling (saying negative things about family may feel disloyal), familism, and multigenerational trauma.",
+    "w": [
+      "Dismissing her anxiety ignores real legal and cultural realities.",
+      "Immediate court referral bypasses tribal resources and her own goals.",
+      "Focusing only on her individual self ignores family and tribal context."
+    ],
+    "k": "Culture-sensitive planning for Dolores: ICWA education, tribal consultation, family and historical context.",
+    "h": "Know the law, honour the tribe.",
+    "r": "Sommers-Flanagan Ch10 – Multicultural Highlight 10.2"
+  },
+  {
+    "t": "Ch10 Relationship",
+    "d": 2,
+    "q": "When assigning bibliotherapy or homework, the authors recommend:",
+    "o": [
+      "Recommend books you've read; assign homework you would do yourself",
+      "Assign as many books as possible so the client has plenty of options to choose",
+      "Use standard manualized homework regardless of the individual client's situation",
+      "Let the client choose any book"
+    ],
+    "e": "When assigning bibliotherapy or homework, recommend only books you have read yourself and assign homework you would be willing to do. Merely matching techniques to problems, without personal knowledge and care, violates the client's humanity, and your own. The relationship remains central even in technique.",
+    "w": [
+      "Assigning many books overwhelms clients and isn't the advice.",
+      "Standard manualized homework ignores the individual client.",
+      "Letting clients choose any book gives up your professional guidance."
+    ],
+    "k": "Recommend books you've read and homework you'd do yourself.",
+    "h": "Don't prescribe what you haven't tasted.",
+    "r": "Sommers-Flanagan Ch10 – Relationship"
+  }
+]

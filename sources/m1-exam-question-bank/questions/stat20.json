@@ -1,0 +1,383 @@
+[
+  {
+    "t": "Ch20 Chi-square",
+    "d": 2,
+    "q": "In a 2 × 2 table with N = 80, a row total of 40 and a column total of 45, what is the expected frequency for that cell?",
+    "o": [
+      "22.5",
+      "20.0",
+      "45.0",
+      "11.25"
+    ],
+    "e": "E = (row total × column total) / N = (40 × 45) / 80 = 22.5. Expected frequencies are what we would observe if the two variables were independent.",
+    "w": [
+      "20.0 splits N equally across the four cells, ignoring the margins.",
+      "45.0 is the column total itself, not the expected cell count.",
+      "11.25 divides by 2N instead of N, halving the right answer."
+    ],
+    "k": "Expected frequency = (row total × column total) ÷ N.",
+    "h": "Row times column over the crowd.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Expected frequencies"
+  },
+  {
+    "t": "Ch20 Chi-square",
+    "d": 3,
+    "q": "Treatment: 30 recovered, 10 did not. Control: 15 recovered, 25 did not. What is Pearson's χ²?",
+    "o": [
+      "χ²(1) ≈ 11.43, p < .001",
+      "χ²(1) ≈ 3.21, p = .07",
+      "χ²(2) ≈ 11.43, p = .003",
+      "χ²(1) ≈ 22.86, p < .001"
+    ],
+    "e": "Expected counts are 22.5 (recovered) and 17.5 (not) in each row. χ² = Σ(O − E)²/E = 2 × (7.5²/22.5) + 2 × (7.5²/17.5) = 2 × 2.50 + 2 × 3.21 = 11.43, with df = (2 − 1)(2 − 1) = 1, p ≈ .0007.",
+    "w": [
+      "3.21 is only one cell's contribution, not the sum across all four cells.",
+      "A 2 × 2 table has (2 − 1)(2 − 1) = 1 df, not 2.",
+      "22.86 doubles the correct χ²; each cell's (O − E)²/E is counted once."
+    ],
+    "k": "χ² = Σ(O − E)²/E across all cells, with df = (r − 1)(c − 1).",
+    "h": "Square the surprises, scale by expectations, add them up.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Pearson's chi-square"
+  },
+  {
+    "t": "Ch20 Effect sizes",
+    "d": 2,
+    "q": "For the same table, what is the odds ratio for recovery (treatment vs control)?",
+    "o": [
+      "5.0",
+      "2.0",
+      "0.2",
+      "1.5"
+    ],
+    "e": "Odds of recovery: treatment 30/10 = 3.0, control 15/25 = 0.6. OR = 3.0 / 0.6 = 5.0, so the odds of recovering are five times higher with treatment. Report a CI for the OR (from Crosstabs → Statistics → Risk).",
+    "w": [
+      "2.0 is the risk ratio (.75 ÷ .375), not the odds ratio.",
+      "0.2 inverts the comparison, giving control versus treatment.",
+      "1.5 doesn't follow from the odds; 3.0 ÷ 0.6 = 5.0."
+    ],
+    "k": "Odds ratio = odds in group 1 ÷ odds in group 2.",
+    "h": "Odds over odds.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Odds ratios",
+    "n": "Odds are not probabilities: the probability of recovery with treatment is 30/40 = .75, but the odds are .75/.25 = 3."
+  },
+  {
+    "t": "Ch20 Effect sizes",
+    "d": 2,
+    "q": "For χ²(1) = 11.43 with N = 80, what is phi (φ)?",
+    "o": [
+      "About .38",
+      "About .14",
+      "About .11",
+      "About .76"
+    ],
+    "e": "φ = √(χ² / N) = √(11.43 / 80) = √.143 = .38, a medium effect in r terms. For tables larger than 2 × 2, Cramér's V generalizes φ so its maximum stays at 1.",
+    "w": [
+      ".14 is χ²/N before taking the square root.",
+      ".11 doesn't follow from the formula √(χ²/N).",
+      ".76 doubles the correct value of about .38."
+    ],
+    "k": "φ = √(χ²/N); use Cramér's V for larger tables.",
+    "h": "Phi: root of chi over N.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Phi and Cramér's V"
+  },
+  {
+    "t": "Ch20 Chi-square",
+    "d": 2,
+    "q": "What are the degrees of freedom for a chi-square test of independence on a 3 × 4 contingency table?",
+    "o": [
+      "6",
+      "12",
+      "7",
+      "11"
+    ],
+    "e": "df = (rows − 1)(columns − 1) = 2 × 3 = 6. Once the row and column totals are fixed, only that many cells are free to vary.",
+    "w": [
+      "12 is the number of cells, not the df.",
+      "7 adds rows and columns instead of multiplying (r − 1)(c − 1).",
+      "11 is cells minus 1, the goodness-of-fit logic."
+    ],
+    "k": "χ² independence df = (rows − 1)(columns − 1).",
+    "h": "One less each way, then multiply.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Degrees of freedom"
+  },
+  {
+    "t": "Ch20 Assumptions",
+    "d": 2,
+    "q": "What is the expected-frequency rule for Pearson's χ² in tables larger than 2 × 2?",
+    "o": [
+      "No more than 20% of expected counts below 5, and none below 1",
+      "Every observed count must be at least 10 in each cell",
+      "Every expected count must be exactly equal across the cells",
+      "No observed count may be zero in any cell of the table"
+    ],
+    "e": "For 2 × 2 tables, all expected counts should be at least 5. For larger tables, up to 20% may be below 5, as long as none is below 1. The rule concerns expected counts, not observed ones. SPSS's footnote to the Chi-Square Tests table reports how many cells fall below 5. If the rule fails, use Fisher's exact test (Exact button) or combine categories meaningfully.",
+    "w": [
+      "The rule concerns expected counts, not observed counts of 10.",
+      "Expected counts needn't be equal across cells.",
+      "Observed zeros are allowed; the rule concerns expected counts."
+    ],
+    "k": "Larger tables: ≤20% of expected counts below 5, none below 1.",
+    "h": "Expected, not observed.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Expected frequency assumption"
+  },
+  {
+    "t": "Ch20 Assumptions",
+    "d": 2,
+    "q": "Which situation violates the independence assumption of the chi-square test?",
+    "o": [
+      "The same participants contribute to more than one cell, e.g. classified before and after",
+      "Different participants are each counted exactly once, in a single cell of the contingency table",
+      "Expected frequencies are all above 5 in every cell of a 2 × 2 table",
+      "The two categorical variables are both measured on nominal scales"
+    ],
+    "e": "Each person must contribute to only one cell. Repeated categorical measurements on the same people need McNemar's test (two time points) or Cochran's Q (more). Nominal variables are exactly what χ² is designed for.",
+    "w": [
+      "Each person counted once in one cell satisfies independence.",
+      "Adequate expected frequencies concern a different assumption.",
+      "Nominal variables are exactly what χ² is designed for."
+    ],
+    "k": "χ² requires each person in only one cell; repeated measures need McNemar or Cochran's Q.",
+    "h": "One person, one cell.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Independence"
+  },
+  {
+    "t": "Ch20 Exact tests",
+    "d": 2,
+    "q": "Fisher's exact test is preferred over Pearson's χ² when:",
+    "o": [
+      "Samples are small and expected frequencies are too low for χ² to be accurate",
+      "The table is larger than 2 × 2 and the sample size exceeds about 1,000 participants",
+      "The two variables are ordinal, and a linear trend across categories is predicted",
+      "Participants appear in more than one cell of the contingency table"
+    ],
+    "e": "Pearson's χ² relies on a large-sample approximation. Fisher's test computes the exact probability of the observed table (and more extreme ones) given the margins, so it is valid with small expected counts. SPSS gives it automatically for 2 × 2 tables, and for larger tables via Exact.",
+    "w": [
+      "Large samples suit the χ² approximation.",
+      "Ordinal trends call for a linear-by-linear association test.",
+      "Repeated classification violates independence for any of these tests."
+    ],
+    "k": "Small samples with low expected counts → Fisher's exact test.",
+    "h": "Exact for the small.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Fisher's exact test"
+  },
+  {
+    "t": "Ch20 Chi-square",
+    "d": 3,
+    "q": "Why does Field caution against Yates's continuity correction for 2 × 2 tables?",
+    "o": [
+      "It tends to overcorrect, making the test too conservative and lowering power",
+      "It inflates the χ² values, which increases the risk of Type I errors in small samples",
+      "It is only valid for contingency tables that have more than two rows",
+      "It requires the expected frequencies to be below 5 in every single cell"
+    ],
+    "e": "Yates's correction subtracts 0.5 from each |O − E| before squaring to adjust for the discreteness of counts, but it often overcorrects, so p-values become too large. SPSS shows it as 'Continuity Correction'. Fisher's exact test is a better small-sample alternative.",
+    "w": [
+      "Yates's correction lowers χ², not inflates it.",
+      "Yates's correction applies to 2 × 2 tables.",
+      "It isn't restricted to cells with expected counts below 5."
+    ],
+    "k": "Yates's continuity correction overcorrects, making χ² too conservative.",
+    "h": "Yates yanks too hard.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Yates's correction"
+  },
+  {
+    "t": "Ch20 Chi-square",
+    "d": 2,
+    "q": "The likelihood ratio statistic (G²) in SPSS's Chi-Square Tests table is:",
+    "o": [
+      "An alternative to Pearson's χ² based on maximum likelihood, which Field favours in small samples",
+      "The test of whether the expected frequencies in every cell are large enough for a χ² test to be valid",
+      "The odds ratio converted into a chi-square value with one degree of freedom",
+      "The continuity-corrected version of Pearson's chi-square for 2 × 2 tables"
+    ],
+    "e": "G² = 2ΣO·ln(O/E) compares observed with expected frequencies using likelihoods (here G² ≈ 11.74 versus Pearson's 11.43). It is approximately χ²-distributed and is the statistic used to compare models in loglinear analysis. Field recommends it over Pearson's χ² in small samples, although some statisticians (for example Agresti) find Pearson's χ² approximates better; with very small expected counts, Fisher's exact test is safest.",
+    "w": [
+      "Checking expected frequencies isn't what G² does.",
+      "G² isn't a converted odds ratio.",
+      "The continuity-corrected Pearson's χ² is Yates's correction, a separate row."
+    ],
+    "k": "Likelihood ratio G² is an ML-based alternative to Pearson's χ², used in loglinear models.",
+    "h": "G² for likelihood.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Likelihood ratio"
+  },
+  {
+    "t": "Ch20 Follow-up",
+    "d": 2,
+    "q": "A significant χ² for a 3 × 2 table only says that the variables are associated. How do you find which cells drive the effect?",
+    "o": [
+      "Inspect the standardized residuals; values beyond ±1.96 are significant at p < .05",
+      "Run post hoc Tukey tests on the observed frequencies in each cell",
+      "Compute the mean of each row and compare the row means with a series of t-tests",
+      "Remove the cell with the largest count and then rerun the chi-square test"
+    ],
+    "e": "A standardized residual = (O − E)/√E, which is a z-score. Cells with |z| > 1.96 depart significantly from independence (|z| > 2.58 at p < .01). In SPSS, request them under Crosstabs → Cells → Residuals: Standardized (or Adjusted standardized).",
+    "w": [
+      "Tukey tests compare means, not frequencies.",
+      "Row means aren't meaningful for categorical data.",
+      "Removing cells changes the question rather than locating the effect."
+    ],
+    "k": "Standardized residuals beyond ±1.96 show which cells drive a χ² effect.",
+    "h": "Residuals reveal the hotspots.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Standardized residuals"
+  },
+  {
+    "t": "Ch20 SPSS",
+    "d": 2,
+    "q": "Which SPSS procedure and options produce χ², Cramér's V, an odds ratio and expected counts?",
+    "o": [
+      "Crosstabs, with Statistics (Chi-square, Phi and Cramér's V, Risk) and Cells (Expected)",
+      "Frequencies, with Statistics (Chi-square, Odds ratio, Cramér's V) and Charts (bar chart)",
+      "Descriptives, with Options (Chi-square) and 'Save standardized values as variables'",
+      "Means, with Options (Chi-square, Cramér's V) and Layer by the second variable"
+    ],
+    "e": "Analyze → Descriptive Statistics → Crosstabs: put one variable in Rows and the other in Columns. Statistics → Chi-square, Phi and Cramér's V and Risk (OR for 2 × 2). Cells → Observed, Expected, row or column percentages and standardized residuals. Exact → Fisher's tests.",
+    "w": [
+      "Frequencies doesn't compute χ² for two variables.",
+      "Descriptives doesn't compute χ² or any association statistic.",
+      "Means doesn't compute χ² or Cramér's V."
+    ],
+    "k": "Crosstabs: Statistics for χ², V and risk; Cells for expected counts.",
+    "h": "Cross the tabs for chi-square.",
+    "r": "Stats & SPSS ch. 20 · SPSS · Crosstabs"
+  },
+  {
+    "t": "Ch20 Goodness of fit",
+    "d": 2,
+    "q": "A chi-square goodness-of-fit test compares:",
+    "o": [
+      "Observed frequencies of one variable's categories with those expected under a hypothesis",
+      "The frequencies of two categorical variables, to test whether the variables are associated with each other",
+      "The means of several groups on a categorical outcome variable",
+      "The fit of a regression model to its residuals, case by case"
+    ],
+    "e": "For example, are the four therapy approaches chosen equally often (expected 25% each)? df = number of categories − 1. In SPSS: Analyze → Nonparametric Tests → Legacy Dialogs → Chi-square (or One Sample in the newer interface).",
+    "w": [
+      "Testing two variables' association is the test of independence.",
+      "Comparing means isn't a χ² test.",
+      "Regression residual fit isn't a χ² goodness-of-fit test."
+    ],
+    "k": "Goodness of fit: one variable's observed frequencies vs expected under H0.",
+    "h": "Does reality fit the expectation?",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Goodness of fit"
+  },
+  {
+    "t": "Ch20 Loglinear",
+    "d": 2,
+    "q": "Loglinear analysis is the appropriate technique when:",
+    "o": [
+      "Three or more categorical variables are cross-classified and their associations matter",
+      "There is one continuous outcome and several categorical predictors, each with two or more levels",
+      "Two continuous variables are measured on the same participants at two times",
+      "Expected frequencies are below 1 in most of the cells of the table"
+    ],
+    "e": "Loglinear models extend χ² to multi-way tables (for example therapy type × gender × recovery), testing main effects and interactions among categorical variables. Expected-frequency requirements still apply, and can be harder to meet in many-celled tables.",
+    "w": [
+      "A continuous outcome with categorical predictors calls for ANOVA.",
+      "Two continuous variables over time aren't loglinear data.",
+      "Very low expected frequencies are a problem for loglinear too."
+    ],
+    "k": "Loglinear analysis: three or more cross-classified categorical variables.",
+    "h": "χ² for many dimensions.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Loglinear analysis"
+  },
+  {
+    "t": "Ch20 Loglinear",
+    "d": 3,
+    "q": "Hierarchical loglinear analysis with backward elimination starts with which model, and how does it proceed?",
+    "o": [
+      "The saturated model; it removes the highest-order interaction and keeps it if fit worsens significantly",
+      "The simplest model; it adds main effects one at a time until the likelihood ratio becomes non-significant",
+      "The model with only the two-way interactions; it adds three-way terms if they improve the fit",
+      "The independence model; it adds interactions one by one until every cell is predicted exactly"
+    ],
+    "e": "The saturated model contains all effects and predicts the data perfectly. Terms are removed starting with the highest-order interaction, and the change in the likelihood ratio χ² tests whether removing a term harms fit. A significant change means that term is needed. Lower-order terms contained in a retained interaction must stay (the hierarchy principle).",
+    "w": [
+      "Backward elimination starts full and removes terms.",
+      "It starts with the saturated model, not two-way terms.",
+      "The independence model is the simplest, not the start."
+    ],
+    "k": "Backward elimination: start saturated, remove highest-order terms if fit doesn't worsen.",
+    "h": "Start full, prune from the top.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Backward elimination"
+  },
+  {
+    "t": "Ch20 Loglinear",
+    "d": 3,
+    "q": "A loglinear analysis keeps the three-way interaction gender × therapy × recovery. What does this mean?",
+    "o": [
+      "The association between therapy and recovery differs between genders",
+      "Gender, therapy and recovery each have significant main effects only",
+      "Therapy and recovery are completely independent within each gender",
+      "The saturated model fits poorly and should therefore be abandoned"
+    ],
+    "e": "A three-way association means a two-way relationship (therapy–recovery) changes across levels of the third variable (gender). Follow it up with separate χ² tests or odds ratios of therapy × recovery for men and women.",
+    "w": [
+      "A three-way interaction isn't just main effects.",
+      "Independence within gender would mean no association.",
+      "Keeping an interaction doesn't mean the model fits poorly."
+    ],
+    "k": "Three-way association: a two-way relationship differs across the third variable.",
+    "h": "It depends on the third.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Interpreting loglinear models"
+  },
+  {
+    "t": "Ch20 Reporting",
+    "d": 2,
+    "q": "Which is a complete report of a 2 × 2 chi-square analysis?",
+    "o": [
+      "χ²(1) = 11.43, p < .001, φ = .38, OR = 5.0, with the cell frequencies or percentages",
+      "χ² = 11.43, which was significant, with no further details given",
+      "t(78) = 11.43, p < .001, d = 0.38, with the group means",
+      "p < .05 for recovery and φ = .38, with no test statistic or degrees of freedom"
+    ],
+    "e": "Give the statistic with df and p, an effect size (φ, V or OR with its CI), and the frequencies or percentages so readers can see the pattern (for example 75% recovered with treatment versus 38% in the control group).",
+    "w": [
+      "This omits df, p, effect size and frequencies.",
+      "t and d aren't chi-square statistics.",
+      "This omits the test statistic and df."
+    ],
+    "k": "Report χ²(df), p, an effect size (φ, V or OR) and frequencies.",
+    "h": "Statistic, effect, pattern.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Reporting"
+  },
+  {
+    "t": "Ch20 SPSS",
+    "d": 3,
+    "q": "When data are entered as one row per cell with a frequency column, what must you do before Crosstabs gives the right χ²?",
+    "o": [
+      "Weight cases by the frequency variable (Data → Weight Cases)",
+      "Use Split File on the frequency variable before running Crosstabs",
+      "Declare the frequency variable as user-missing in Variable View",
+      "Recode the frequencies into ranks with Transform → Rank Cases"
+    ],
+    "e": "Without weighting, SPSS sees only four cases, one per row. Data → Weight Cases → 'Weight cases by' the count variable makes each row count as that many participants, so the same χ² results as if the raw data were entered.",
+    "w": [
+      "Split File runs separate analyses; it doesn't weight rows by counts.",
+      "Declaring frequencies missing removes them from the analysis.",
+      "Ranking the frequencies destroys the actual counts."
+    ],
+    "k": "Weight Cases by the frequency column before Crosstabs.",
+    "h": "Weight before you test.",
+    "r": "Stats & SPSS ch. 20 · SPSS · Weighted cases for chi-square"
+  },
+  {
+    "t": "Ch20 Effect sizes",
+    "d": 3,
+    "q": "Why can Cramér's V be preferred over φ for a 3 × 4 table?",
+    "o": [
+      "Its maximum is 1 for any table size, so it stays interpretable",
+      "It is not affected by the sample size, unlike φ, which grows with N",
+      "It shows the direction of the association, which φ cannot do",
+      "It is identical to the odds ratio for tables larger than 2 × 2"
+    ],
+    "e": "φ = √(χ²/N) can exceed 1 when both variables have more than two categories. V = √[χ² / (N × (k − 1))], where k is the smaller number of rows or columns, keeping the range from 0 to 1. For 2 × 2 tables, V and φ are equal in magnitude.",
+    "w": [
+      "Neither φ nor V grows with N; both divide χ² by the sample size.",
+      "V has no sign, so it doesn't show direction either.",
+      "V isn't the odds ratio, which exists only for 2 × 2 tables."
+    ],
+    "k": "Cramér's V stays between 0 and 1 for any table size.",
+    "h": "V keeps the ceiling at one.",
+    "r": "Stats & SPSS ch. 20 · Categorical outcomes · Cramér's V"
+  }
+]

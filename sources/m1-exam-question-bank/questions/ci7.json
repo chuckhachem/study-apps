@@ -1,0 +1,982 @@
+[
+  {
+    "t": "Ch7 Intake basics",
+    "d": 1,
+    "q": "An intake interview is primarily a(n):",
+    "o": [
+      "Assessment interview",
+      "Treatment session",
+      "Crisis intervention",
+      "Termination interview"
+    ],
+    "e": "An intake interview is primarily an assessment interview: it is designed to evaluate the client's problems, history and current functioning so that appropriate treatment can be planned, not to deliver treatment itself. Because the goal is gathering information, intake interviewers rely heavily on questions, more than in ordinary therapy sessions, while still building rapport and leaving the client better off.",
+    "w": [
+      "A treatment session aims to produce change; an intake aims to understand the problem and plan care.",
+      "Crisis intervention responds to an emergency; an intake is a planned assessment, though crises may arise.",
+      "A termination interview ends treatment; an intake begins it."
+    ],
+    "k": "An intake is an assessment interview, so it relies heavily on questions.",
+    "h": "In-take: taking information in.",
+    "r": "Sommers-Flanagan Ch7 – What is an intake interview?"
+  },
+  {
+    "t": "Ch7 Intake basics",
+    "d": 2,
+    "q": "Which is one of the critical questions an intake is designed to answer?",
+    "o": [
+      "Who should provide treatment, and in what setting?",
+      "What is the client's IQ score?",
+      "Should the client consider suing a former therapist?",
+      "Which school of therapy is best for every kind of client?"
+    ],
+    "e": "An intake is designed to answer critical questions: Is there a mental, emotional or behavioural problem? Is it serious enough to require treatment? What form of treatment is indicated? Who should provide it, and in what setting (outpatient, inpatient, specialist)? Answering these turns information into a treatment plan or referral.",
+    "w": [
+      "IQ scores come from psychological testing, not the critical intake questions.",
+      "Legal advice about suing a former therapist is outside the intake's purpose.",
+      "No single therapy is best for everyone; the intake decides what fits this client."
+    ],
+    "k": "Intake questions: Is there a problem? Does it need treatment? What treatment, by whom, and where?",
+    "h": "What, how serious, which treatment, who and where.",
+    "r": "Sommers-Flanagan Ch7"
+  },
+  {
+    "t": "Ch7 Intake basics",
+    "d": 2,
+    "q": "Why do the authors teach a more comprehensive intake than managed care usually allows?",
+    "o": [
+      "Trimming back works best from thorough knowledge; insurers shouldn't set training",
+      "Managed care companies require the most detailed intakes possible",
+      "Brief intakes are unethical in every setting",
+      "Insurers provide the best evidence-based guidelines for conducting intakes"
+    ],
+    "e": "The authors teach a comprehensive intake because it is easier to trim back from thorough knowledge than to expand a bare-bones method. Insurers regulate payment but don't provide therapy, so they shouldn't define training, and teaching only a 'bare bones' approach would be unethical. They still provide a brief intake checklist for settings with tight limits.",
+    "w": [
+      "Managed care usually limits intake time, rather than requiring detailed intakes.",
+      "Brief intakes aren't unethical everywhere; a brief checklist is still provided.",
+      "Insurers regulate payment; they aren't the source of best-practice guidelines."
+    ],
+    "k": "Learn the full intake first, then trim; insurers shouldn't define professional training.",
+    "h": "Learn the whole map before taking shortcuts.",
+    "r": "Sommers-Flanagan Ch7"
+  },
+  {
+    "t": "Ch7 Objectives",
+    "d": 1,
+    "q": "The three basic objectives of intake interviewing are:",
+    "o": [
+      "Chief complaint and goals; interpersonal style and history; current functioning",
+      "Diagnose the disorder, prescribe medication, and refer to a specialist",
+      "Build rapport, interpret transference, and plan termination",
+      "Collect fees, schedule sessions, sign forms"
+    ],
+    "e": "Intake interviewing has three basic objectives: (1) identify the client's chief complaint and goals; (2) evaluate the client's interpersonal style and gather historical background; and (3) assess current functioning, including mental status. A further objective is communicating results, usually through a written intake report.",
+    "w": [
+      "Diagnosing, prescribing and referring are possible outcomes, not the three objectives.",
+      "Interpreting transference and planning termination belong to therapy, not intake.",
+      "Fees, scheduling and forms are administrative tasks, not the clinical objectives of an intake."
+    ],
+    "k": "Intake objectives: chief complaint/goals, interpersonal style/history, current functioning (plus the report).",
+    "h": "Problem, person, present.",
+    "r": "Sommers-Flanagan Ch7 – Objectives"
+  },
+  {
+    "t": "Ch7 Problems & goals",
+    "d": 2,
+    "q": "After the opening statement, how long should be spent tracking the client to understand why he or she came?",
+    "o": [
+      "At least 5 to 15 minutes",
+      "Only 1 to 2 minutes",
+      "The entire session",
+      "About 30 to 40 minutes or more"
+    ],
+    "e": "After the opening statement, spend at least 5–15 minutes tracking the client with nondirective responses, such as paraphrases, reflections and summaries, to understand why they came, in their own words. Only then use directive information-gathering more liberally. This order respects the client's story and yields better information.",
+    "w": [
+      "One to two minutes is too brief to understand why the client came.",
+      "Spending the whole session tracking leaves no time for history and mental status.",
+      "Thirty to forty minutes is excessive in an intake with many objectives."
+    ],
+    "k": "Track the client nondirectively for at least 5–15 minutes before directive questioning.",
+    "h": "Listen first, then question.",
+    "r": "Sommers-Flanagan Ch7 – Identifying problems and goals"
+  },
+  {
+    "t": "Ch7 Problems & goals",
+    "d": 2,
+    "q": "'If I understand you correctly, what you'd like is to feel calm and relaxed and in control more often.' This intervention:",
+    "o": [
+      "Reframes a problem statement into a goal statement",
+      "Interprets the client's unconscious wishes and fears",
+      "Confronts the client's resistance",
+      "Validates the client's anxiety as normal and expected"
+    ],
+    "e": "Behind every problem is a goal. Reframing a problem statement ('I'm anxious all the time') into a goal statement ('what you'd like is to feel calm and relaxed and in control more often') instills hope, starts goal setting, and shows whether the client is open or resistant to realistic goals.",
+    "w": [
+      "It doesn't interpret unconscious wishes; it restates the client's own concern as a goal.",
+      "There's no confrontation of resistance here; the client's concern is simply restated as a goal.",
+      "It doesn't normalize anxiety; it turns the problem into a goal."
+    ],
+    "k": "Reframe problems into goals: behind every problem is a goal, and the reframe instills hope.",
+    "h": "Flip the complaint into a wish.",
+    "r": "Sommers-Flanagan Ch7 – Identifying problems and goals"
+  },
+  {
+    "t": "Ch7 Problems & goals",
+    "d": 2,
+    "q": "When client and interviewer disagree about which problem to explore first, the usual (not universal) guidance is to:",
+    "o": [
+      "Follow the client's lead and explore the chief complaint first",
+      "Insist on the problem the interviewer judges most important",
+      "Address all of the client's problems at once",
+      "Ask the family to decide"
+    ],
+    "e": "When client and interviewer disagree about priorities, it's usually best, though not universally, to follow the client's lead and explore the chief complaint first. This builds rapport and motivation. Miller and Rollnick also warn against labelling something a 'problem' if the client doesn't define it that way. Exceptions include risk issues that must take priority.",
+    "w": [
+      "Insisting on your priority risks alienating the client and reducing motivation.",
+      "Addressing all problems at once diffuses the focus.",
+      "The family doesn't decide the client's priorities; the client's chief complaint usually leads."
+    ],
+    "k": "Usually follow the client's lead and explore the chief complaint first (risk issues excepted).",
+    "h": "Their priority first, usually.",
+    "r": "Sommers-Flanagan Ch7 – Prioritizing problems"
+  },
+  {
+    "t": "Ch7 Problems & goals",
+    "d": 2,
+    "q": "Psychiatrists refer to what the client considers the main problem as the:",
+    "o": [
+      "Chief complaint",
+      "Presenting symptom cluster",
+      "Index episode",
+      "Primary diagnosis"
+    ],
+    "e": "Psychiatrists call the client's own statement of their main problem the chief complaint, often recorded in the client's words. The first section of an intake report is often labelled 'Identifying Information and Chief Complaint'. Keeping the client's framing helps treatment stay relevant to what they want.",
+    "w": [
+      "A presenting symptom cluster describes symptoms, not the client's own main concern.",
+      "An index episode is a research term for a specific episode of illness.",
+      "A primary diagnosis is the clinician's conclusion, which may differ from the chief complaint."
+    ],
+    "k": "The client's own statement of the main problem is the chief complaint.",
+    "h": "The chief worry, in the client's words.",
+    "r": "Sommers-Flanagan Ch7"
+  },
+  {
+    "t": "Ch7 Symptom analysis",
+    "d": 2,
+    "q": "What criticism do solution-focused and narrative interviewers make of the chapter's symptom-analysis question list?",
+    "o": [
+      "It mainly uses internalizing, problem-saturated language",
+      "It ignores the client's physical sensations and bodily symptoms",
+      "It asks far too few questions about symptom frequency and duration",
+      "It focuses too much on exceptions"
+    ],
+    "e": "The chapter's symptom-analysis questions (onset, frequency, intensity, duration, etc.) are mostly problem-focused, using internalizing, problem-saturated language that locates the problem inside the client. Solution-focused and narrative interviewers would instead use externalizing questions and exception questions, highlighting strengths and times the problem is absent.",
+    "w": [
+      "Physical sensations are covered; the criticism concerns problem-saturated language.",
+      "The list asks plenty about frequency and duration.",
+      "Too much focus on exceptions is the opposite of the criticism."
+    ],
+    "k": "Constructive critics say symptom analysis is problem-saturated and internalizing; they'd add exception and externalizing questions.",
+    "h": "Soaked in problems, dry on solutions.",
+    "r": "Sommers-Flanagan Ch7 – Analyzing symptoms"
+  },
+  {
+    "t": "Ch7 Symptom analysis",
+    "d": 1,
+    "q": "In Lazarus's BASIC ID, the letters stand for:",
+    "o": [
+      "Behavior, Affect, Sensation, Imagery, Cognition, Interpersonal, Drugs",
+      "Beliefs, Attitudes, Strengths, Insight, Coping, Identity, Defenses",
+      "Body, Anxiety, Sleep, Interests, Concentration, Ideation, Depression (mood)",
+      "Behavior, Anger, Stress, Impulses, Conflict, Intimacy, Desire, Dreams"
+    ],
+    "e": "Lazarus's multimodal approach assesses and treats problems across seven modalities, the BASIC ID: Behavior, Affect, Sensation, Imagery, Cognition, Interpersonal relationships, and Drugs/biology. Each modality can be examined for problems and targeted with interventions, giving a broad picture of the person.",
+    "w": [
+      "Beliefs, attitudes, strengths, insight and coping aren't Lazarus's modalities.",
+      "These are depression symptom areas, not the BASIC ID.",
+      "Anger, stress and desire aren't the BASIC ID modalities."
+    ],
+    "k": "BASIC ID: Behavior, Affect, Sensation, Imagery, Cognition, Interpersonal, Drugs/biology.",
+    "h": "BASIC ID: the seven-part ID card of a problem.",
+    "r": "Sommers-Flanagan Ch7 – Problem conceptualization systems"
+  },
+  {
+    "t": "Ch7 Symptom analysis",
+    "d": 2,
+    "q": "In BASIC ID, physical illnesses, nutrition and exercise fall under:",
+    "o": [
+      "D – Drugs (biochemical/neurological factors)",
+      "S – Sensation (bodily experiences and feelings)",
+      "B – Behavior (habits, actions, routines and choices)",
+      "A – Affect"
+    ],
+    "e": "In BASIC ID, D (Drugs) is broader than medication: it covers biochemical and neurological factors, physical illnesses, nutrition and exercise. Typical questions: 'Are you exercising? Do you take prescription drugs? How is your health?' Biology is treated as one modality interacting with the others.",
+    "w": [
+      "Sensation covers bodily experiences like pain or tension, not illnesses and nutrition.",
+      "Behavior covers actions and habits, not biological factors.",
+      "Affect covers emotions such as anxiety, sadness or anger, not physical health factors."
+    ],
+    "k": "BASIC ID 'D' includes drugs, physical illness, nutrition and exercise: the biological modality.",
+    "h": "D for the body's chemistry.",
+    "r": "Sommers-Flanagan Ch7 – BASIC ID"
+  },
+  {
+    "t": "Ch7 Symptom analysis",
+    "d": 3,
+    "q": "What weakness do the authors identify in Lazarus's BASIC ID?",
+    "o": [
+      "It overemphasizes cognition and neglects spiritual, cultural and recreational areas",
+      "It ignores observable behavior entirely and focuses only on inner experience",
+      "It has no interpersonal dimension, so relationships are left out",
+      "It cannot be used by non-behaviorists"
+    ],
+    "e": "The authors note that BASIC ID overemphasizes cognition: both Imagery and Cognition are cognitive modalities, giving thinking two of seven slots, while spiritual, cultural and recreational domains are deemphasized. They recommend knowing several conceptualization systems, such as BASIC ID, the ABC model and others, to stay flexible and fit each client.",
+    "w": [
+      "BASIC ID includes Behavior explicitly, so it doesn't ignore observable behaviour.",
+      "BASIC ID explicitly includes Interpersonal relationships as one of its seven modalities.",
+      "Non-behaviourists can use it; it's a general framework."
+    ],
+    "k": "BASIC ID overweights cognition and neglects spiritual, cultural and recreational areas.",
+    "h": "Two slots for thinking, none for spirit.",
+    "r": "Sommers-Flanagan Ch7 – BASIC ID"
+  },
+  {
+    "t": "Ch7 Symptom analysis",
+    "d": 2,
+    "q": "The behavioral ABC model refers to:",
+    "o": [
+      "Antecedents, the Behavior itself, and Consequences",
+      "Affect, Behavior, and Cognition, in that exact order",
+      "Accurate, Brief, Clear",
+      "Assessment, Behavior change, and the Closing summary"
+    ],
+    "e": "The behavioural ABC model (Thoresen and Mahoney) analyses a problem by its Antecedents (what precedes it), the Behavior itself (precisely, operationally defined), and its Consequences (what follows and may maintain it). It can be applied across all BASIC ID modalities to understand how a problem is triggered and maintained.",
+    "w": [
+      "Affect, Behavior, Cognition is a different 'ABC' of psychological domains.",
+      "Accurate, Brief, Clear is the ABC of documentation.",
+      "Assessment, behaviour change and closing summary isn't the ABC model."
+    ],
+    "k": "The behavioural ABC model: Antecedents, the Behavior itself, and its Consequences.",
+    "h": "Before, during, after.",
+    "r": "Sommers-Flanagan Ch7 – ABC model"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "Which three general information sources are used in an intake to assess personality and mental condition?",
+    "o": [
+      "Personal history, interpersonal manner, and a mental status evaluation",
+      "Psychological tests, family reports, and school records",
+      "Diagnosis, medication, prognosis",
+      "Dreams, fantasies, early memories, and slips of the tongue in session"
+    ],
+    "e": "An intake assesses personality and mental condition through three general sources: the client's personal history, their interpersonal manner with you during the interview, and a formal mental status evaluation (Chapter 8). Together they show how the client got here, how they relate, and how they're functioning now.",
+    "w": [
+      "Tests, family reports and school records can supplement an intake but aren't the three core sources.",
+      "Diagnosis, medication and prognosis are outcomes, not information sources.",
+      "Dreams and slips of the tongue are psychoanalytic material, not the intake's core sources."
+    ],
+    "k": "Intake sources: personal history, interpersonal manner, mental status evaluation.",
+    "h": "Past, presence, present state.",
+    "r": "Sommers-Flanagan Ch7 – Background and historical information"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "What is the purpose of the 'why now' question?",
+    "o": [
+      "To identify what prompted the client to seek help at this time",
+      "To test whether the client is being truthful",
+      "To end the problem-exploration phase as quickly as possible",
+      "To assess the client's intelligence"
+    ],
+    "e": "The 'why now' question identifies what prompted the client to seek help at this particular time: a precipitating event, a crisis, or pressure from someone else. It reveals whether the client is willing or coerced, and bridges problem exploration and psychosocial history. Pursue it gently if the client balks.",
+    "w": [
+      "It isn't a lie-detection test; it explores the timing of help-seeking.",
+      "It doesn't end problem exploration abruptly; it bridges to history.",
+      "It isn't an intelligence measure; it asks about the timing and trigger of help-seeking."
+    ],
+    "k": "'Why now?' reveals the precipitant and whether the client came willingly.",
+    "h": "What tipped the scale today?",
+    "r": "Sommers-Flanagan Ch7 – Shifting to personal history"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "Immediately after shifting to psychosocial history, the interviewer should usually:",
+    "o": [
+      "Become nondirective again for a few minutes",
+      "Ask specific, detailed questions about past traumas",
+      "Read through Table 7.1's eighteen areas in order",
+      "Give a diagnosis"
+    ],
+    "e": "After shifting to psychosocial history, become nondirective again for a few minutes ('Tell me about your background'). Clients reveal much by what they choose to focus on and what they avoid. After 2–5 nondirective minutes, provide structure and specific questions to cover the important areas.",
+    "w": [
+      "Detailed trauma questions are discouraged in intakes, especially at the start of history taking.",
+      "Reading through 18 areas in order is mechanical and loses the client's own emphasis.",
+      "Diagnosis comes after the information is gathered, not at the start of history taking."
+    ],
+    "k": "Start psychosocial history nondirectively for 2–5 minutes, then add structure.",
+    "h": "Let them choose the first chapter.",
+    "r": "Sommers-Flanagan Ch7 – Nondirective historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "A client says, 'My childhood is mostly a blank.' Recommended response:",
+    "o": [
+      "Psychoeducation: memory returns in bits, and you won't force painful topics",
+      "Insist the client try harder to remember, since the past holds the answers",
+      "Suggest hypnosis or guided imagery to recover the missing memories",
+      "Assume the client was abused"
+    ],
+    "e": "When a client says their childhood is mostly a blank, offer psychoeducation and reassurance: 'Memory is a funny thing… My job is not to force you into talking about difficult past experiences but to let you talk about whatever past events you want to talk about.' Memories often return in bits. Pushing or using recovery techniques risks distress and distortion.",
+    "w": [
+      "Insisting they try harder pressures the client and can backfire.",
+      "Hypnosis or guided imagery to 'recover' memories risks creating false memories.",
+      "Assuming abuse from a memory gap is an unfounded leap that could bias the whole assessment."
+    ],
+    "k": "'Childhood is a blank': normalize it, don't force recall; memories may return in bits.",
+    "h": "Don't dig; let it surface.",
+    "r": "Sommers-Flanagan Ch7 – Nondirective historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "How should intake interviewers handle disclosure of past trauma?",
+    "o": [
+      "Allow disclosure but discourage details until a therapy relationship exists",
+      "Ask detailed questions to document the trauma fully",
+      "Avoid the topic entirely",
+      "Interpret the trauma's meaning immediately to promote early insight"
+    ],
+    "e": "Intakes generally don't involve direct questioning about specific traumas. Give clients the opportunity to disclose, listen well and supportively, and discourage detailed accounts until a therapy relationship is established, because detailed retelling early can overwhelm the client without the support needed to process it.",
+    "w": [
+      "Detailed documentation can retraumatize the client before support is in place.",
+      "Avoiding the topic entirely denies the client a chance to disclose.",
+      "Interpreting the trauma's meaning immediately is premature before a relationship exists."
+    ],
+    "k": "In intakes, allow trauma disclosure but discourage details until a therapeutic relationship exists.",
+    "h": "Acknowledge the wound, don't reopen it yet.",
+    "r": "Sommers-Flanagan Ch7 – Nondirective historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "A client becomes stuck in painful memories. Which strategy helps?",
+    "o": [
+      "Separate then from now, highlight coping, and lead gradually to the present",
+      "Probe the worst details so the client can achieve catharsis",
+      "End the session immediately",
+      "Tell the client firmly that the past no longer matters and move on"
+    ],
+    "e": "When a client gets stuck in painful memories, help separate then from now, highlight the strengths and coping they showed during hard times, and lead gradually back to the present, for example: 'When your daughter was born… How old is she now?' This contains distress without dismissing the past.",
+    "w": [
+      "Probing the worst details can overwhelm the client in an intake.",
+      "Ending abruptly leaves the client stuck in distress.",
+      "Dismissing the past as irrelevant invalidates the client's pain."
+    ],
+    "k": "If stuck in painful memories: separate then and now, highlight coping, and move gradually to the present.",
+    "h": "Walk them back to today.",
+    "r": "Sommers-Flanagan Ch7 – Nondirective historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "Asking for the client's earliest memory is rooted in the work of:",
+    "o": [
+      "Alfred Adler",
+      "Carl Rogers",
+      "Aaron Beck",
+      "Arnold Lazarus"
+    ],
+    "e": "Asking for the client's earliest memory comes from Alfred Adler, who believed early memories often represent major themes the client currently struggles with. In the book's example, a man's earliest memory of being urged by his brothers into a pickup truck paralleled his later pattern of performing outrageous acts for approval.",
+    "w": [
+      "Rogers focused on present experience, not early memories as diagnostic themes.",
+      "Beck's cognitive therapy focuses on current thoughts and beliefs.",
+      "Lazarus developed BASIC ID, not early recollection analysis."
+    ],
+    "k": "Earliest-memory questions come from Adler: early recollections mirror current life themes.",
+    "h": "Adler: your first memory is your life's headline.",
+    "r": "Sommers-Flanagan Ch7 – Directive historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 3,
+    "q": "A client recalls only negative childhood memories even when asked for a positive one. This may suggest:",
+    "o": [
+      "A depressive disorder – note it without pointing it out",
+      "Denial or repression of positive experiences",
+      "Excellent insight into the past and its lasting effects",
+      "That the client is lying"
+    ],
+    "e": "If a client recalls only negative memories even when asked for a positive one, this may suggest a depressive disorder. Conversely, never mentioning negative memories may suggest denial, repression or dissociation (Mosak). The interviewer simply notes the quality of the memories and moves on, without pointing it out.",
+    "w": [
+      "Denial or repression would show up as only positive memories, not only negative ones.",
+      "An all-negative pattern suggests depressive filtering rather than balanced insight.",
+      "Recalling only negative memories isn't evidence of lying; it may reflect mood."
+    ],
+    "k": "Only negative memories may suggest depression; only positive ones may suggest denial. Note it, don't point it out.",
+    "h": "Grey lenses on the past can signal a grey present.",
+    "r": "Sommers-Flanagan Ch7 – Directive historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 1,
+    "q": "A standard method for exploring parent-child relationships is to ask the client to:",
+    "o": [
+      "Give three words that describe each parent",
+      "Draw a detailed family tree for each parent",
+      "Rate each parent from 1 to 10 on warmth and strictness",
+      "Recall each parent's birthday"
+    ],
+    "e": "A standard method for exploring parent–child relationships: 'Give me three words to describe your mother', then the father or other caregivers, and ask for specific examples that fit each word. The words reveal the emotional quality of the relationship, and the examples ground them in actual experience.",
+    "w": [
+      "A detailed family tree maps structure, not the quality of each relationship.",
+      "Numerical ratings give less rich information than words and examples.",
+      "Parents' birthdays reveal nothing about the emotional quality of the relationship."
+    ],
+    "k": "Ask for three words describing each parent, then examples for each word.",
+    "h": "Three words, then the stories behind them.",
+    "r": "Sommers-Flanagan Ch7 – Directive historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "The natural flow of history taking is:",
+    "o": [
+      "First memories → parents/siblings → school/peers → work → other",
+      "Work history → school → parents and siblings → first memories → other",
+      "Legal → medical → sexual → recreational",
+      "Spiritual → developmental → military → romantic → legal and other history"
+    ],
+    "e": "History taking flows naturally in roughly developmental order: (a) first memories; (b) parents and siblings; (c) school and peer relations; (d) work; and (e) other areas, from among the 18 content areas in Table 7.1, such as medical, legal, sexual, military, spiritual and recreational history.",
+    "w": [
+      "Starting with work history reverses the natural developmental order of a life story.",
+      "Legal, medical, sexual and recreational are 'other' areas that come later, not the main sequence.",
+      "Spiritual, military and romantic are 'other' areas, not the opening sequence."
+    ],
+    "k": "History flow: first memories → family → school/peers → work → other areas.",
+    "h": "Follow the life course.",
+    "r": "Sommers-Flanagan Ch7 – Directive historical leads"
+  },
+  {
+    "t": "Ch7 History",
+    "d": 2,
+    "q": "What advantage of computer-administered intakes does research suggest?",
+    "o": [
+      "Computers don't forget questions, and some clients disclose more to them",
+      "They build rapport better than people, especially with anxious clients",
+      "They replace the need for clinicians",
+      "They are always more accurate than human interviewers"
+    ],
+    "e": "Computer-administered intakes are impersonal, but research suggests two advantages: computers don't forget questions, and some clients feel more comfortable disclosing sensitive information, such as drug use, sexual history or HIV status, to a computer than to a person. They can complement, not replace, clinical interviews.",
+    "w": [
+      "Computers are impersonal; they don't build rapport better than people.",
+      "They don't replace clinicians; they supplement data gathering.",
+      "They aren't always more accurate; human judgement remains essential."
+    ],
+    "k": "Computer intakes never forget a question, and some clients disclose more to them.",
+    "h": "The machine doesn't blush.",
+    "r": "Sommers-Flanagan Ch7"
+  },
+  {
+    "t": "Ch7 Interpersonal style",
+    "d": 2,
+    "q": "Which three data sources help evaluate a client's interpersonal style?",
+    "o": [
+      "Past relationships, current relationships, and in-session behavior",
+      "Psychological test scores, school records, and previous medical files",
+      "Reports from the client's family members, friends, coworkers and employer",
+      "Dreams, slips of the tongue, jokes"
+    ],
+    "e": "Interpersonal style is evaluated through three data sources: the client's descriptions of past relationships, information about their current relationships, and their interactions with you during the session. In-session behaviour is especially valuable because you observe it directly rather than relying on the client's report, and it often mirrors how the client relates to others.",
+    "w": [
+      "Test scores and records can inform assessment but aren't the three interpersonal sources.",
+      "Reports from others may be useful, but the three named sources come from the client and the session.",
+      "Dreams and jokes aren't the named sources; the three are past, current and in-session relating."
+    ],
+    "k": "Interpersonal style: past relationships, current relationships, and in-session behaviour.",
+    "h": "Then, now, and here with me.",
+    "r": "Sommers-Flanagan Ch7 – Evaluating interpersonal style"
+  },
+  {
+    "t": "Ch7 Interpersonal style",
+    "d": 3,
+    "q": "Teyber suggests how to judge whether your reaction to a client reflects the client or your countertransference. Which?",
+    "o": [
+      "If others react the same way, it's the client; if only you do, it may be yours",
+      "If the reaction is strong or intense, it is always your own countertransference",
+      "If the client denies causing it, the reaction must be your countertransference",
+      "Reactions should never be used as data"
+    ],
+    "e": "Teyber suggests attending to the feelings clients elicit in you (bored, aroused, annoyed, protective) as data about their interpersonal style. To judge whether a reaction reflects the client or your own countertransference, compare it with how others react: if many people respond the same way, it probably reflects the client's behaviour; if only you react that way, it may be your own issue.",
+    "w": [
+      "Strength of a reaction doesn't decide its source; intense reactions can be client-elicited.",
+      "A client's denial doesn't prove the reaction is yours; clients are often unaware of their impact.",
+      "Reactions are valuable data about interpersonal style when examined carefully."
+    ],
+    "k": "Teyber: if others react the same way, it's probably the client; if only you do, consider countertransference.",
+    "h": "Shared reaction = their pattern; solo reaction = your stuff.",
+    "r": "Sommers-Flanagan Ch7 – Evaluating interpersonal style"
+  },
+  {
+    "t": "Ch7 Current functioning",
+    "d": 2,
+    "q": "Why should the intake end with a focus on current functioning?",
+    "o": [
+      "To return the client to the present and future, emphasizing strengths",
+      "Because history is irrelevant",
+      "To save the hardest and most painful questions for the very end",
+      "Because clients talk much less about the present"
+    ],
+    "e": "Ending the intake with current functioning provides a symbolic and concrete return to the present after exploring problems and history. Emphasize the client's strengths and environmental resources, such as supports, coping and routines, rather than past problems. This helps the client leave grounded and more hopeful.",
+    "w": [
+      "History isn't irrelevant; it's covered earlier, and the intake then returns to the present.",
+      "Saving the hardest questions for last risks sending the client out upset.",
+      "Clients do talk about the present; the reason is grounding and strengths."
+    ],
+    "k": "End intakes with current functioning: return to the present and emphasize strengths and resources.",
+    "h": "Finish in the here and now, on solid ground.",
+    "r": "Sommers-Flanagan Ch7 – Assessment of current functioning"
+  },
+  {
+    "t": "Ch7 Current functioning",
+    "d": 2,
+    "q": "A grieving mother is still very upset near the end of the intake. Which two strategies are recommended?",
+    "o": [
+      "Validate her feelings and instill hope",
+      "Change the subject to small talk and end",
+      "Probe the loss further to promote catharsis",
+      "Refer her immediately to a psychiatrist"
+    ],
+    "e": "When clients become upset late in an intake, two strategies help: (a) validate their feelings, since grief this intense makes sense; and (b) instill hope, for example by saying that talking about grief is the right thing to do and will help over time. Together they acknowledge pain and point forward, helping the client leave intact.",
+    "w": [
+      "Switching to small talk dismisses her distress and leaves her grief unacknowledged.",
+      "Probing the loss further near the end deepens distress without time to recover.",
+      "Immediate psychiatric referral isn't indicated just because she's upset."
+    ],
+    "k": "Client still upset at the end: validate feelings and instill hope.",
+    "h": "Honour the pain, light the path.",
+    "r": "Sommers-Flanagan Ch7 – Current functioning"
+  },
+  {
+    "t": "Ch7 Current functioning",
+    "d": 2,
+    "q": "Which is listed as a technique for helping a client regain emotional control before leaving (Putting It in Practice 7.1)?",
+    "o": [
+      "Ask about plans for the rest of the day",
+      "Ask about the worst memory once more, to finish it",
+      "Remain silent until the client calms down",
+      "Give a diagnosis"
+    ],
+    "e": "Putting It in Practice 7.1 lists ways to help a client regain emotional control before leaving, each prefaced by empathy: refocus on the present and near future (such as plans for the rest of the day), ask how they usually self-soothe, return to a positive topic, compliment their openness, or ask what positives they'll take away.",
+    "w": [
+      "Revisiting the worst memory reopens distress before the client leaves.",
+      "Silence alone may prolong distress at the end of a session.",
+      "Giving a diagnosis doesn't help regain emotional control."
+    ],
+    "k": "Help clients regain control before leaving: focus on the near future, self-soothing, positives, all with empathy.",
+    "h": "'What are you doing after this?'",
+    "r": "Sommers-Flanagan Ch7 – Putting It in Practice 7.1"
+  },
+  {
+    "t": "Ch7 Factors",
+    "d": 2,
+    "q": "Why can 10–15-page intake questionnaires be a problem?",
+    "o": [
+      "Very personal questions may offend or intimidate unless explained",
+      "They give the clinician too little useful information to plan with",
+      "They are illegal in most states without a separate consent form",
+      "They replace the interview entirely"
+    ],
+    "e": "Registration forms are helpful in moderation, covering biographical data, previous therapists and physicians. But extensive 10–15-page questionnaires full of very personal questions may offend or intimidate clients unless their purpose is explained. Clients may feel interrogated before they've even met the clinician.",
+    "w": [
+      "Long questionnaires usually give a lot of information; the risk is offending clients.",
+      "They aren't illegal; the concern is clinical and relational.",
+      "They don't replace the interview; they only gather background before it."
+    ],
+    "k": "Very long, personal intake questionnaires may offend or intimidate unless explained.",
+    "h": "Fifteen pages before hello feels like an interrogation.",
+    "r": "Sommers-Flanagan Ch7 – Client registration forms"
+  },
+  {
+    "t": "Ch7 Factors",
+    "d": 2,
+    "q": "Which professional group, in the authors' survey, emphasized the mental status exam and DSM diagnostic interviewing?",
+    "o": [
+      "Psychiatrists",
+      "Counselors",
+      "Marriage and family therapists",
+      "Clinical social workers"
+    ],
+    "e": "The authors' survey found intakes vary by profession. Psychiatrists emphasized the mental status exam and DSM diagnostic interviewing. Clinical psychologists emphasized assessment plus behavioural and cognitive analysis. Counselors emphasized listening and helping; social workers, psychosocial history and treatment planning; and marriage and family therapists, family and social systems.",
+    "w": [
+      "Counselors emphasized listening and helping rather than MSE and DSM diagnosis.",
+      "MFTs emphasized family and social systems rather than the MSE and DSM diagnosis.",
+      "Clinical social workers emphasized psychosocial history and treatment planning."
+    ],
+    "k": "Psychiatrists' intakes emphasize MSE and DSM diagnosis; other professions emphasize other areas.",
+    "h": "Psychiatrists: mental status and the manual.",
+    "r": "Sommers-Flanagan Ch7 – Professional background"
+  },
+  {
+    "t": "Ch7 Factors",
+    "d": 2,
+    "q": "Which theoretical orientation tends to focus an intake on the future and potential solutions?",
+    "o": [
+      "Solution-oriented",
+      "Psychoanalytic",
+      "Person-centered",
+      "Cognitive-behavioral"
+    ],
+    "e": "Theoretical orientation shapes intake focus. Behavioural and cognitive clinicians focus on current problems; psychoanalytic clinicians on history; person-centered clinicians on the current situation and the gap between real and ideal self; and solution-oriented clinicians on the future and potential solutions.",
+    "w": [
+      "Psychoanalytic intakes focus on the client's history and its links to present problems.",
+      "Person-centered intakes focus on the current situation and real versus ideal self.",
+      "Cognitive-behavioral intakes focus on current problems and the thoughts and behaviours maintaining them."
+    ],
+    "k": "Solution-oriented intakes focus on the future and solutions; psychoanalytic on history; CBT on current problems.",
+    "h": "Future = solution-focused.",
+    "r": "Sommers-Flanagan Ch7 – Theoretical orientation"
+  },
+  {
+    "t": "Ch7 Brief intake",
+    "d": 2,
+    "q": "Which three modifications are needed for brief (managed care) intakes?",
+    "o": [
+      "More forms, more questions, less time on history and interpersonal style",
+      "Longer sessions, fewer questions, and more time on history",
+      "No registration forms, only free association, and no specific goals",
+      "Skipping consent, diagnosis and treatment plans"
+    ],
+    "e": "Brief, managed-care intakes keep the same objectives but need three modifications: rely on pre-session registration forms, ask more questions with less client-directed expression, and spend less time on history and interpersonal style. The interviewer becomes more structured to cover essentials in less time.",
+    "w": [
+      "Longer sessions and more history contradict the time limits of brief intakes.",
+      "Dropping forms and goals would make brief intakes impossible.",
+      "Consent, diagnosis and treatment plans can't be skipped."
+    ],
+    "k": "Brief intakes: more forms, more questions, less time on history and interpersonal style.",
+    "h": "Fewer stories, more forms and questions.",
+    "r": "Sommers-Flanagan Ch7 – Brief intake interviewing"
+  },
+  {
+    "t": "Ch7 Brief intake",
+    "d": 2,
+    "q": "In the brief intake checklist, by when should specific diagnostic questions begin?",
+    "o": [
+      "Toward the 10-minute mark, if not before",
+      "After about 30 minutes of open, nondirective listening",
+      "Only in the second or third session",
+      "In the last 5 minutes"
+    ],
+    "e": "In brief intakes (Table 7.2), allow clients no more than about 10 minutes to introduce themselves and their problems, then begin specific diagnostic questions toward the 10-minute mark, if not before. This compresses the nondirective phase so there's time to cover diagnosis, risk and planning.",
+    "w": [
+      "Thirty minutes of nondirective listening would leave too little time in a brief intake.",
+      "Waiting until the second or third session isn't possible in a brief format.",
+      "The last 5 minutes are for closing, not starting diagnosis."
+    ],
+    "k": "Brief intake: begin diagnostic questions around the 10-minute mark.",
+    "h": "Ten minutes of story, then questions.",
+    "r": "Sommers-Flanagan Ch7 – Table 7.2"
+  },
+  {
+    "t": "Ch7 Brief intake",
+    "d": 3,
+    "q": "In a brief intake, how is personal history obtained efficiently?",
+    "o": [
+      "Ask for 2–3 critical events and screen for abuse, trauma, suicide, violence",
+      "Skip personal history entirely, since time is too limited",
+      "Ask every question in Table 7.1, only more quickly and with closed questions",
+      "Rely only on the family's report"
+    ],
+    "e": "In a brief intake, ask for the most essential history or 2–3 critical events, and screen key risk areas: sexual or physical abuse, trauma, suicide attempts, violence or loss of control, brain injuries or medical problems, and current suicidal or homicidal impulses. A 2–3 page written autobiography may be requested to fill in the rest.",
+    "w": [
+      "Skipping history entirely misses critical risk information such as trauma or prior suicide attempts.",
+      "Asking every Table 7.1 question isn't feasible in a brief intake.",
+      "Relying only on family misses the client's own account."
+    ],
+    "k": "Brief history: 2–3 critical events plus screening for abuse, trauma, suicide, violence and medical issues.",
+    "h": "Headlines plus the danger checks.",
+    "r": "Sommers-Flanagan Ch7 – Table 7.2"
+  },
+  {
+    "t": "Ch7 Brief intake",
+    "d": 2,
+    "q": "In time-limited intakes, interpersonal style information may be handled by:",
+    "o": [
+      "A personality-disorder checklist, an abbreviated MSE note, or reflection",
+      "A full projective test battery given before the first session",
+      "Weekly family interviews",
+      "Ignoring all interpersonal data completely, in order to save valuable session time"
+    ],
+    "e": "In time-limited intakes, interpersonal style can be handled efficiently: note it only if personality-disorder characteristics appear (using a checklist), record 'attitude toward the interviewer' in an abbreviated mental status note, or reflect on the interaction afterward and write hypotheses. Interpersonal data matter even when time is short.",
+    "w": [
+      "A projective test battery is time-consuming and not suggested here.",
+      "Weekly family interviews aren't the efficient option described.",
+      "Ignoring interpersonal data loses important clinical information about how the client relates."
+    ],
+    "k": "Brief intakes: capture interpersonal style via a checklist, an MSE attitude note, or post-session reflection.",
+    "h": "Jot it, check it, or think it over after.",
+    "r": "Sommers-Flanagan Ch7 – Obtaining historical and interpersonal information"
+  },
+  {
+    "t": "Ch7 Brief intake",
+    "d": 2,
+    "q": "Why can asking a talkative client to write an autobiography help in managed care?",
+    "o": [
+      "Clients are often more succinct in writing than in talk",
+      "Writing replaces the need for any face-to-face interview",
+      "It tests the client's literacy and level of verbal intelligence",
+      "It is required by insurers"
+    ],
+    "e": "'Often, clients are willing to talk about particular issues at great length, but when asked to write about those issues, they are much more succinct.' Asking a talkative client to write a brief autobiography therefore gathers history efficiently in managed-care settings, saving session time for other objectives.",
+    "w": [
+      "Writing supplements the interview but doesn't replace face-to-face assessment.",
+      "It isn't a literacy or intelligence test; its purpose is efficient history gathering.",
+      "Insurers don't require autobiographies; it's an efficiency strategy chosen by the clinician."
+    ],
+    "k": "Talkative clients are often more succinct in writing, so an autobiography saves time.",
+    "h": "The pen trims what the tongue rambles.",
+    "r": "Sommers-Flanagan Ch7 – Putting It in Practice 7.2"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Which five dimensions must be considered in report writing?",
+    "o": [
+      "Audience, structure/content, clarity, confidentiality, sharing with client",
+      "Diagnosis, prognosis, medication, fees, and specific referral recommendations",
+      "Length, font, format, margins, and signature requirements",
+      "History, MSE, testing, family, school"
+    ],
+    "e": "Five dimensions guide intake report writing: determine your audience; choose the structure and content; write clearly and concisely; keep the report confidential; and share the report with your client. Each affects how useful, safe and fair the report will be.",
+    "w": [
+      "Diagnosis and prognosis are report contents, not the five dimensions of writing.",
+      "Font and margins are formatting details, not the five dimensions.",
+      "History, MSE and testing are sections, not the five dimensions."
+    ],
+    "k": "Report writing: audience, structure/content, clarity, confidentiality, sharing with the client.",
+    "h": "Who, what, how clearly, how safely, and with them.",
+    "r": "Sommers-Flanagan Ch7 – The intake report"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Who should you imagine 'looking over your shoulder' when writing an intake report?",
+    "o": [
+      "Just about everybody – client, supervisor, attorney, insurer, boards",
+      "Only your clinical supervisor, who will sign the report",
+      "Only the insurance company that is paying for the client's services",
+      "Only yourself"
+    ],
+    "e": "Write intake reports for a diverse audience: imagine just about everybody looking over your shoulder, including the client, your supervisor, administrators, the client's attorney, insurers, colleagues, and professional and state ethics boards. Writing two versions doesn't work; the client can read whatever you write.",
+    "w": [
+      "Supervisors aren't the only readers; clients, attorneys and insurers may read it too.",
+      "Insurers aren't the only readers; clients, attorneys and ethics boards may read reports too.",
+      "Reports are read by many others, not just you."
+    ],
+    "k": "Write reports as if everyone (client, attorney, insurer, ethics board) is reading.",
+    "h": "Write for the whole jury.",
+    "r": "Sommers-Flanagan Ch7 – Determining your audience"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Which phrasing follows the authors' preference for person-first language in mental health?",
+    "o": [
+      "'The boy with ADHD'",
+      "'The ADHD boy'",
+      "'A chronically depressed woman'",
+      "'The schizophrenic in room 4'"
+    ],
+    "e": "The authors lead with the person when referring to mental disorders: 'the boy with ADHD', not 'the ADHD boy' or 'the schizophrenic'. Person-first language avoids reducing people to diagnoses. They respect that some people with physical disabilities prefer identity-first language (such as 'Deaf person').",
+    "w": [
+      "'The ADHD boy' puts the diagnosis before the person.",
+      "'A chronically depressed woman' leads with the condition rather than the person.",
+      "'The schizophrenic in room 4' reduces the person to a diagnosis."
+    ],
+    "k": "Use person-first language for mental disorders: 'the boy with ADHD'.",
+    "h": "Person before label.",
+    "r": "Sommers-Flanagan Ch7 – Multicultural Highlight 7.1"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "The intake report moves in which general direction?",
+    "o": [
+      "From concrete, objective data toward subjective judgments",
+      "From diagnosis toward history",
+      "From the treatment plan back toward identifying information",
+      "From subjective impressions back toward objective test data"
+    ],
+    "e": "An intake report moves from concrete, objective data toward subjective judgements: it begins with identifying information and behavioural observations, continues through history and mental status, and ends with diagnostic impressions, case formulation and the treatment plan. Readers can see the evidence before the conclusions.",
+    "w": [
+      "Diagnosis comes near the end, after history, not before it.",
+      "The treatment plan is the final section, not the starting point.",
+      "This reverses the direction: objective data come first."
+    ],
+    "k": "Intake reports run from objective data to subjective judgements (diagnosis, formulation, plan).",
+    "h": "Facts first, conclusions last.",
+    "r": "Sommers-Flanagan Ch7 – Choosing structure and content"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "In the 'History of the Present Problem' section, what is a 'rule-out statement'?",
+    "o": [
+      "A relevant negative, e.g., 'denied any history of manic episodes'",
+      "A statement ruling out the client's need for any further therapy services",
+      "A list of medications that have been ruled out for the client",
+      "A note excluding family history"
+    ],
+    "e": "In the History of the Present Problem section, problem descriptions are followed by relevant negatives, or rule-out statements, such as 'denied any history of manic episodes' for a depressed client. These show which related conditions were checked and excluded, sharpening the diagnostic picture.",
+    "w": [
+      "It doesn't rule out further therapy; it records a relevant negative symptom.",
+      "It isn't a list of excluded medications; it records a relevant symptom the client denied.",
+      "It doesn't exclude family history; it notes symptoms the client denied."
+    ],
+    "k": "A rule-out statement is a relevant negative (e.g., 'denied manic episodes').",
+    "h": "What's not there matters too.",
+    "r": "Sommers-Flanagan Ch7 – Putting It in Practice 7.3"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 3,
+    "q": "Why was Mr. Smith given a provisional adjustment disorder rather than major depression?",
+    "o": [
+      "Morrison's least-severe-label rule: symptoms followed job loss, no prior history",
+      "Because he did not meet the DSM-IV-TR criteria for major depression",
+      "Because adjustment disorder diagnoses are reimbursed better by insurers",
+      "Because he refused medication"
+    ],
+    "e": "Mr. Smith met criteria for major depression, but his symptoms were strongly tied to his job loss, and he had no personal and minimal family history of depression. Following Morrison's rule of choosing the least severe label that fits, he received a provisional adjustment disorder, with major depression listed as a rule-out.",
+    "w": [
+      "He actually met criteria for major depression; the choice reflected context and history.",
+      "Reimbursement wasn't the reason; the choice followed Morrison's least-severe-label rule.",
+      "Refusing medication isn't the reason; his symptoms were tied to the job loss."
+    ],
+    "k": "Morrison's least-severe-label rule: provisional adjustment disorder, with major depression as rule-out.",
+    "h": "Choose the lightest label that fits.",
+    "r": "Sommers-Flanagan Ch7 – Diagnostic impressions"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Why do the authors recommend reporting the GAF as a range (e.g., 51–60)?",
+    "o": [
+      "Because GAF ratings are inherently subjective",
+      "Because insurers require GAF ranges on claim forms",
+      "Because single numbers are illegal",
+      "Because the client chooses his own score in the interview"
+    ],
+    "e": "GAF ratings are inherently subjective (Piersma and Boes), so the authors report a range, such as 51–60, rather than a falsely precise single number. More broadly, they use DSM tools for expressing uncertainty: 'provisional' diagnoses, 'rule-out' statements and GAF ranges.",
+    "w": [
+      "Insurers don't require ranges; the reason is subjectivity.",
+      "Single GAF numbers aren't illegal; a range simply reflects their subjectivity more accurately.",
+      "The client doesn't choose their own score; the clinician rates it."
+    ],
+    "k": "Report the GAF as a range because ratings are inherently subjective.",
+    "h": "A fuzzy measure deserves a range.",
+    "r": "Sommers-Flanagan Ch7 – Diagnostic impressions"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Mr. Smith's treatment plan has which two simultaneous goals?",
+    "o": [
+      "Seeking employment consistently, and expanding identity beyond work",
+      "Starting antidepressant medication, and joining a job-loss support group",
+      "Exploring childhood, and resolving transference",
+      "Retiring immediately, and moving closer to his extended family members"
+    ],
+    "e": "Mr. Smith's plan has two simultaneous goals: (1) seek employment consistently, with objectives such as analyzing barriers and developing physical, cognitive, social and emotional coping; and (2) expand his identity beyond work, valuing relationships outside work, using kinder self-talk, and exploring retirement plans. His spouse may join some sessions.",
+    "w": [
+      "Medication and a support group aren't his two goals.",
+      "Childhood exploration and transference resolution aren't part of this plan.",
+      "Retiring and moving aren't the goals; exploring retirement plans is one objective."
+    ],
+    "k": "Mr. Smith's plan: seek work consistently, and expand identity beyond work.",
+    "h": "Find a job, and find yourself beyond it.",
+    "r": "Sommers-Flanagan Ch7 – Case formulation and treatment plan"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "Which is a recommendation for writing reports more easily?",
+    "o": [
+      "Write as soon as possible after the session, from an outline",
+      "Wait a week or so after the session, so that impressions can settle",
+      "Write without any outline in order to stay creative and natural",
+      "Write only after several sessions"
+    ],
+    "e": "To write reports more easily: write as soon as possible after the session, draft and then edit, follow an outline, learn your setting's expectations, and use sample reports as models. Seasoned professionals can dictate full intakes in 20–30 minutes; memory fades quickly, so delay costs accuracy.",
+    "w": [
+      "Waiting a week loses detail and accuracy, since memory of the session fades.",
+      "An outline makes writing faster and more complete.",
+      "Waiting several sessions delays documentation and risks inaccuracy."
+    ],
+    "k": "Write reports right after the session, from an outline, then edit.",
+    "h": "Write while it's fresh.",
+    "r": "Sommers-Flanagan Ch7 – Writing clearly and concisely"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "For electronic records, the authors advise:",
+    "o": [
+      "Keep at least two electronic copies and restrict access with passwords",
+      "Keep a single copy on one hard drive to limit risk",
+      "Email reports to yourself for backup",
+      "Store reports in shared public cloud folders for easy colleague access"
+    ],
+    "e": "For electronic records, the authors advise keeping at least two electronic copies, because disks and drives fail, and restricting access with codes and passwords. Reports should be stamped CONFIDENTIAL and stored securely, whether on paper or electronically, and laws such as HIPAA may govern how they are handled and shared.",
+    "w": [
+      "A single copy risks losing records if the drive fails.",
+      "Emailing reports to yourself risks interception and breaches.",
+      "Shared public cloud folders expose records to others and breach confidentiality."
+    ],
+    "k": "Electronic records: keep at least two copies and protect access with passwords.",
+    "h": "Two copies, one lock.",
+    "r": "Sommers-Flanagan Ch7 – Keeping your report confidential"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 2,
+    "q": "A current client asks for their records. The recommended approach is:",
+    "o": [
+      "Acknowledge their right and schedule a free meeting to review together",
+      "Refuse, since records legally belong to the clinic rather than the client",
+      "Mail the complete records immediately, without any comment or meeting",
+      "Release only the diagnosis"
+    ],
+    "e": "Clients have the right to access their records, and should be told at the outset that records exist and are accessible. When a current client asks, acknowledge the right and schedule a free meeting to review the records together, to prevent misinterpretation. If the client refuses to meet, release them directly or to another licensed professional, and consult your supervisor.",
+    "w": [
+      "Clients have a right to access their records, so refusing violates it.",
+      "Mailing records without discussion risks misinterpretation and distress.",
+      "Releasing only the diagnosis ignores the client's right to their records."
+    ],
+    "k": "Client requests records: acknowledge the right and offer a free meeting to review them together.",
+    "h": "Read it together.",
+    "r": "Sommers-Flanagan Ch7 – Sharing the report with your client"
+  },
+  {
+    "t": "Ch7 Report",
+    "d": 1,
+    "q": "According to the APA and ACA codes, failing to maintain appropriate client records is:",
+    "o": [
+      "Unethical and in some cases illegal",
+      "Acceptable for brief therapy",
+      "Required in order to protect client privacy",
+      "Only a problem for psychiatrists and physicians"
+    ],
+    "e": "Both the APA and ACA ethics codes require clinicians to create and maintain the records necessary for professional services. Failing to keep appropriate records is unethical, and in some cases illegal. Records protect clients, support continuity of care and document professional decisions.",
+    "w": [
+      "Brief therapy still requires appropriate records under both ethics codes.",
+      "Not keeping records doesn't protect privacy; secure records do.",
+      "The requirement applies to all mental health professionals."
+    ],
+    "k": "Failing to maintain appropriate records is unethical and sometimes illegal (APA, ACA).",
+    "h": "No notes, no defence.",
+    "r": "Sommers-Flanagan Ch7 – The intake report"
+  }
+]

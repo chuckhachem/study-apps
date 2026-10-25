@@ -1,0 +1,562 @@
+[
+  {
+    "t": "Role of the clinician",
+    "d": 1,
+    "q": "According to the course, what are the three major strategies of psychological assessment?",
+    "o": [
+      "Interviewing, observing behavior and psychological testing",
+      "Diagnosis, prognosis and treatment planning",
+      "Projective testing, objective testing and neuropsychological testing",
+      "Case history, medical records and police reports"
+    ],
+    "e": "Chapter 1 follows the sequence practitioners use in an evaluation: clarify their role and the referral question, choose procedures, and remember the pitfalls of clinical judgment. They then choose among three major strategies: interviewing, observing behavior and psychological testing. The interview usually comes first and is essential for interpreting test scores and behavioral observations. Behavioral assessment can be an end in itself or an adjunct to testing, measuring overt behaviors, cognitions, physiological changes or self-report.",
+    "w": [
+      "These are outputs of an assessment, not its data-gathering strategies.",
+      "These are kinds of tests; testing is only one of the three strategies.",
+      "These are sources of collateral information, not the three strategies."
+    ],
+    "k": "Three assessment strategies: interview (first, and key to interpreting everything else), behavioral observation, psychological testing.",
+    "h": "Ask, watch, test.",
+    "r": "Psychological Tools & Strategies course (Dr. Razzouk) – Ch. 1 Introduction"
+  },
+  {
+    "t": "Role of the clinician",
+    "d": 2,
+    "q": "What distinguishes a clinician conducting psychological assessment from a psychometrist, according to the course?",
+    "o": [
+      "The clinician uses scores to generate hypotheses about a person in a problem situation",
+      "The clinician simply administers a larger number of tests than the psychometrist does",
+      "The psychometrist integrates history and context, while the clinician only scores tests",
+      "The psychometrist assesses personality, while the clinician assesses only intelligence"
+    ],
+    "e": "Psychometrists use tests mainly to obtain data; their task emphasizes clerical and technical aspects, and the product is a list of traits or abilities unrelated to the person's overall context. Psychological assessment instead evaluates an individual in a problem situation so the information helps solve the problem. Tests are only one way of gathering data, and scores are means of generating hypotheses, not end products. The focus is problem-solving and decision-making.",
+    "w": [
+      "The number of tests is not the difference; the use of the scores is.",
+      "This reverses the roles: integration is the clinician's task.",
+      "The distinction is about approach, not about the type of test."
+    ],
+    "k": "Psychometrist: data-oriented, scores as end products. Clinician: problem-oriented, scores as hypotheses within the person's context.",
+    "h": "Metrist measures; clinician makes sense.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Role of the clinician"
+  },
+  {
+    "t": "Role of the clinician",
+    "d": 2,
+    "q": "According to the course, for which kind of assessment is the purely objective psychometric approach MOST appropriate?",
+    "o": [
+      "Ability tests such as intelligence or mechanical skills",
+      "Personality traits such as dependence or anxiety",
+      "Problems in living such as resolving interpersonal relationships",
+      "The likely underlying causes of a client's distress"
+    ],
+    "e": "Early group intelligence tests were very successful in military and industrial settings: they looked objective, reduced interviewer bias and produced many true positives in classification. The course says the objective psychometric approach is most applicable to ability tests (intelligence, mechanical skills). Its usefulness decreases for personality traits such as dependence, authoritarianism or anxiety, which must be validated in the context of history, observations and relationships, and it is questionable for problems in living.",
+    "w": [
+      "Personality traits are too complex for a purely objective approach; they need context.",
+      "Problems in living are where the purely psychometric approach is least useful.",
+      "Understanding underlying causes is the strength of full psychological assessment."
+    ],
+    "k": "Objective psychometrics suits ability testing; personality and problems in living require contextual psychological assessment.",
+    "h": "Numbers fit abilities; people need context.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Role of the clinician"
+  },
+  {
+    "t": "Role of the clinician",
+    "d": 2,
+    "q": "A moderately elevated score on a 'high energy level' scale is obtained by a high-functioning physician and by a person with a history of mood disorders. What point does the course make with this example?",
+    "o": [
+      "The same score takes on an entirely different meaning depending on the person's history and context",
+      "The score proves that both people have bipolar disorder",
+      "The score is invalid for physicians and must be discarded",
+      "Elevated scores always indicate psychopathology regardless of context"
+    ],
+    "e": "The course uses this example to show why personality variables need validation in the context of history, behavioral observations and interpersonal relationships. A moderately elevated energy score may reflect productive drive in a high-functioning physician, but carry very different implications for someone with mood disorders and work and interpersonal difficulties. Scores must be connected to each other and to the context in which they emerge; this is why psychological assessment goes beyond psychometric testing.",
+    "w": [
+      "One scale score never proves a diagnosis; context is needed.",
+      "The score is not invalid; it simply means something different.",
+      "The example shows the opposite: meaning depends on context."
+    ],
+    "k": "Identical scores can mean different things; interpret them in light of history, observation and relationships.",
+    "h": "Same number, different story.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Role of the clinician"
+  },
+  {
+    "t": "Test usage",
+    "d": 2,
+    "q": "Why does the course say the Rorschach and TAT keep a strong foothold in clinical practice despite criticism?",
+    "o": [
+      "Lack of time to learn new tools, internship expectations, few alternatives, trust in experience",
+      "Research has shown that they have excellent norms and fully objective scoring systems",
+      "They take less time to learn and to administer than the objective alternatives",
+      "They have been detached from psychoanalytic theory and now rest on learning theory"
+    ],
+    "e": "Projective techniques have declined in use and status. Criticisms include overly complex scoring, questionable norms, subjective scoring, poor predictive utility, inadequate validity, long training time, heavy reliance on psychoanalytic theory, and the greater efficiency of objective tests. Still, the Rorschach and TAT keep a foothold because practitioners lack time to learn new techniques, interns are expected to know them, practical alternatives are unavailable, and practitioners usually give more weight to clinical experience than to empirical evidence.",
+    "w": [
+      "The course lists questionable norms and subjective scoring among the criticisms.",
+      "The course says they take a long time to learn and objective tests are more efficient.",
+      "Heavy reliance on psychoanalytic theory is listed as a criticism."
+    ],
+    "k": "Projectives persist through habit, training expectations, lack of alternatives and preference for experience over evidence, not psychometric strength.",
+    "h": "Habit, not proof, keeps the inkblots.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Patterns of test usage"
+  },
+  {
+    "t": "Evaluating a test",
+    "d": 2,
+    "q": "According to Table 1.1, roughly how high should reliability estimates be for clinical decision-making versus research?",
+    "o": [
+      "Around .90 for clinical decisions and around .70 for research",
+      "Around .70 for clinical decisions and around .90 for research",
+      "Around .50 for both purposes",
+      "Exactly 1.00 for clinical decisions and .80 for research"
+    ],
+    "e": "Table 1.1 lists questions to ask before using a test. Theoretical orientation: do you understand the construct, and do items match it? Practical considerations: reading level, length. Standardization: similar population, adequate sample, subgroup norms, standardized instructions. Reliability: estimates generally around .90 for clinical decision-making and around .70 for research, considering trait stability, method and format. Validity: which criteria and procedures validated the test, and will it be accurate in your context and purpose?",
+    "w": [
+      "This reverses the two thresholds; clinical decisions need the higher value.",
+      ".50 is far below either recommended level.",
+      "Perfect reliability is never required or realistic."
+    ],
+    "k": "Reliability: ≈ .90 for decisions about an individual client, ≈ .70 for research.",
+    "h": "Nine for a person, seven for a paper.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Table 1.1 Evaluating a psychological test"
+  },
+  {
+    "t": "Evaluating a test",
+    "d": 2,
+    "q": "Which question belongs to the 'Standardization' heading of Table 1.1?",
+    "o": [
+      "Is the population to be tested similar to the population the test was standardized on?",
+      "Does the examinee's reading ability match the level required by the test?",
+      "Do the test items correspond to the theoretical description of the construct?",
+      "What criteria and procedures were used to validate the test?"
+    ],
+    "e": "Table 1.1 has five headings. Standardization asks whether the tested population resembles the standardization population, whether the standardization sample was large enough, whether specialized subgroup norms exist, and whether the instructions permit standardized administration. Reading level and test length are practical considerations; the match between items and construct is theoretical orientation; validation criteria and procedures belong to validity.",
+    "w": [
+      "Reading level is a practical consideration.",
+      "The fit between items and construct is theoretical orientation.",
+      "Validation criteria and procedures belong to validity."
+    ],
+    "k": "Table 1.1: theoretical orientation, practical considerations, standardization, reliability, validity.",
+    "h": "T-P-S-R-V: Theory, Practice, Sample, Repeatability, Validity.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Table 1.1"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 2,
+    "q": "According to the course, why is rapport essential in data gathering?",
+    "o": [
+      "It raises the chance of optimum performance; without it, data grow increasingly inaccurate",
+      "It allows the clinician to skip structured instruments and checklists altogether",
+      "It guarantees that the client will not fake any of the responses given",
+      "It is required only for projective tests, not for interviews or objective tests"
+    ],
+    "e": "Clinical judgment is a special instance of perception, using test data, case history, medical records, journals and verbal and nonverbal observations. One of the most essential elements of data gathering is an optimum level of rapport: it increases the likelihood that clients will give their optimum performance, and if rapport is insufficient the data are increasingly likely to be inaccurate. Responses may still be non-representative because of transient conditions or conscious or unconscious faking.",
+    "w": [
+      "Rapport does not replace structured approaches, which the course recommends.",
+      "Responses can still be distorted by faking or transient states despite rapport.",
+      "Rapport matters for every source of data."
+    ],
+    "k": "Good rapport → optimum client performance; poor rapport → increasingly inaccurate data.",
+    "h": "No rapport, no real data.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical judgment: data gathering"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 2,
+    "q": "A client's interview answers may be non-representative. Which reasons does the course give?",
+    "o": [
+      "Transient states (a stressful day, poor sleep) and conscious or unconscious faking",
+      "The clinician's use of semi-structured interviews and intake checklists",
+      "The clinician's careful attention to the base rates of the disorder",
+      "The presence of collateral information from teachers and parents"
+    ],
+    "e": "The interview is guided by the client's responses and the clinician's reactions. The course notes that responses can be non-representative because of a transient condition (a stressful day, a poor night's sleep) or conscious or unconscious faking. Responses must also be interpreted, through personality theory, research and the clinician's experience. Hypotheses are then tested with further questions and tests, leading to confirmation, alteration or elimination. Bias can enter through the questions, first impressions, rapport or theory.",
+    "w": [
+      "Structured aids reduce error; they do not make answers non-representative.",
+      "Base rates improve accuracy; they do not distort a client's answers.",
+      "Collateral information helps check consistency; it does not distort answers."
+    ],
+    "k": "Non-representative responses: transient states (stress, poor sleep) and conscious or unconscious faking.",
+    "h": "A bad day or a mask.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical judgment: data gathering"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 2,
+    "q": "A clinician forms an impression of a client in the first five minutes and that early information carries more weight than everything learned later. What is this error called?",
+    "o": [
+      "The primacy effect",
+      "The base rate fallacy",
+      "The halo effect",
+      "Actuarial prediction"
+    ],
+    "e": "The course describes the primacy effect twice: clinicians may develop incorrect hypotheses based on first impressions, and information obtained earlier in data collection is frequently given more importance than information received later. As a result, different starting points can lead to different conclusions. The error is reinforced when clinicians make early judgments and then seek supporting information, which becomes confirmatory bias.",
+    "w": [
+      "Base-rate neglect means ignoring how common a condition is.",
+      "The halo effect is listed separately among biases; primacy concerns the order of information.",
+      "Actuarial prediction is a formula-based method, not an error."
+    ],
+    "k": "Primacy effect: first impressions and early information are overweighted, so the starting point shapes the conclusion.",
+    "h": "First in, loudest.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Accuracy of clinical judgments"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 2,
+    "q": "According to the course, when is confirmatory bias especially likely, and what is its most problematic form?",
+    "o": [
+      "During hypothesis testing without seeking disconfirming data; worst when persuading the client",
+      "When structured interviews are used; worst when contradictory evidence is listed",
+      "When base rates are consulted; worst when the condition being assessed is rare",
+      "When feedback is received from referral sources; worst in educational settings"
+    ],
+    "e": "After making early judgments, clinicians may work to confirm them by seeking supporting information. The course says this confirmatory bias is especially likely in hypothesis testing when clinicians do not adequately seek information that could disconfirm as well as confirm their hypothesis. The most problematic examples occur when clinicians interpret a client's behavior and then work to persuade the client that their interpretation is correct.",
+    "w": [
+      "Structured interviews and listing contrary evidence are remedies, not causes.",
+      "Consulting base rates improves accuracy rather than causing bias.",
+      "Feedback is recommended to correct errors."
+    ],
+    "k": "Confirmatory bias: seeking only supporting evidence; worst when the clinician convinces the client of a biased interpretation.",
+    "h": "Looking only for 'yes'.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Accuracy of clinical judgments"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 3,
+    "q": "A test is 90% accurate for schizophrenia (5% false positives, 5% false negatives) and about 1% of the population has schizophrenia. A person tests positive. What does the course conclude?",
+    "o": [
+      "Well over a 10% chance the person does NOT have it, because the base rate is low",
+      "A 90% chance the person has schizophrenia, matching the test's accuracy",
+      "A 95% chance the person has schizophrenia, since false positives are 5%",
+      "Certainty that the person has schizophrenia, since the test is accurate"
+    ],
+    "e": "Clinicians frequently ignore the base rate, the rate at which a behavior, trait or diagnosis occurs in the population. With a rare condition (about 1%), even a test that is 90% accurate produces many false positives relative to true positives, because most people tested do not have the disorder. The course concludes that a positive result does not mean a 90% or 95% chance of schizophrenia; there is actually a much greater than 10% chance the person does not have it.",
+    "w": [
+      "Test accuracy is not the probability of having the disorder when the base rate is low.",
+      "The 95% figure also ignores the low base rate.",
+      "With rare conditions, false positives can outnumber true positives."
+    ],
+    "k": "Low base rate → a positive result on an accurate test can still be wrong most of the time; always consider how common the condition is.",
+    "h": "Rare disease, many false alarms.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Accuracy of clinical judgments: base rates"
+  },
+  {
+    "t": "Clinical judgment",
+    "d": 2,
+    "q": "Why does the course say inaccurate judgment strategies may persist among clinicians?",
+    "o": [
+      "Clinicians rarely get feedback on the accuracy of their judgments",
+      "Clinicians rely on too many structured interview instruments",
+      "Clinicians consult base rates too often when making predictions",
+      "Clinicians write reports too long for referral sources to read"
+    ],
+    "e": "The course notes that it is rare for clinicians to receive feedback on the accuracy of their diagnoses or other judgments, such as behavioral predictions, personality traits or the success of their recommendations. Without feedback, inaccurate strategies can continue with little likelihood of correction. This is why one of the steps to improve accuracy is to seek feedback, for example rating forms completed by referral sources about the report's clarity, precision, accuracy and usefulness.",
+    "w": [
+      "Structured instruments are recommended to reduce error.",
+      "Consulting base rates improves accuracy; it is not the reason given.",
+      "Report length is not the reason given."
+    ],
+    "k": "Lack of feedback lets inaccurate judgment strategies persist; seek follow-up ratings from referral sources.",
+    "h": "No feedback, no correction.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Accuracy of clinical judgments"
+  },
+  {
+    "t": "Improving accuracy",
+    "d": 2,
+    "q": "Which step does the course recommend specifically to reduce hindsight and confirmatory bias?",
+    "o": [
+      "Carefully consider, or even list, the evidence that does NOT support one's hypotheses",
+      "Rely on memory rather than notes to keep a global impression",
+      "Make an early diagnosis and then gather supporting data",
+      "Avoid formal diagnostic criteria to stay flexible"
+    ],
+    "e": "The course lists steps to improve accuracy: use comprehensive structured or semi-structured interviews (especially when urgent decisions about danger arise); consider or list evidence that does not support hypotheses, which reduces hindsight and confirmatory bias; base diagnoses on specific DSM-5 or ICD-10 criteria, avoiding gender- and ethnicity-biased inferences; refer to careful notes rather than memory; attend to base rates; seek feedback; learn the literature on the person or group; and know the clinical judgment literature.",
+    "w": [
+      "The course says memory is reconstructive; use careful notes instead.",
+      "This is the very sequence that creates confirmatory bias.",
+      "The course recommends careful attention to DSM-5/ICD criteria."
+    ],
+    "k": "Against confirmatory and hindsight bias: actively list disconfirming evidence for each hypothesis.",
+    "h": "Argue against yourself on paper.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Steps to improve accuracy"
+  },
+  {
+    "t": "Improving accuracy",
+    "d": 2,
+    "q": "Why does the course advise clinicians to refer to careful notes rather than relying on memory?",
+    "o": [
+      "Memory can be a reconstructive process subject to errors",
+      "Notes are required by law in every country",
+      "Clients prefer clinicians who read from notes",
+      "Memory is reliable only for test scores, not for interviews"
+    ],
+    "e": "Among the steps to improve the accuracy of clinical judgment, the course states that because memory can be a reconstructive process subject to possible errors, clinicians should avoid relying on memory and refer to careful notes as much as possible. Chapter 3 adds that ongoing note-taking captures more detail and causes less memory distortion than recording after the interview, so an intermediate amount of note-taking during the interview is recommended.",
+    "w": [
+      "The reason given is the reconstructive nature of memory, not legal requirements.",
+      "Client preference is not the rationale.",
+      "Memory is reconstructive for all material."
+    ],
+    "k": "Memory reconstructs and distorts; base judgments on careful notes.",
+    "h": "Ink beats memory.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Steps to improve accuracy; Ch. 3 note-taking"
+  },
+  {
+    "t": "Clinical vs actuarial",
+    "d": 2,
+    "q": "What is actuarial prediction, and how much more accurate is it than clinical judgment according to the course?",
+    "o": [
+      "Formulas such as cutoffs and regression equations; about 13% more accurate",
+      "The clinician's intuition and experience; about 13% less accurate",
+      "Interpretation of projective tests; about 50% more accurate",
+      "Client self-report alone, without formulas; equally accurate"
+    ],
+    "e": "Actuarial prediction makes predictions about future behavior from statistical data and algorithms rather than from a clinician's subjective judgment. It uses empirically derived formulas such as single or multiple cutoffs and regression equations. The course estimates a 13% greater accuracy for actuarial methods compared with clinical judgment. It nonetheless discusses practical and theoretical limits of a purely actuarial approach.",
+    "w": [
+      "Intuition defines the clinical approach, not the actuarial one.",
+      "Projective tests are not actuarial formulas, and 50% is not the figure given.",
+      "The course reports an advantage for actuarial methods."
+    ],
+    "k": "Actuarial = formulas (cutoffs, regression equations); ≈ 13% more accurate than clinical judgment.",
+    "h": "Thirteen points for the formula.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical versus actuarial prediction"
+  },
+  {
+    "t": "Clinical vs actuarial",
+    "d": 3,
+    "q": "Which is a limitation of a purely actuarial approach described in the course?",
+    "o": [
+      "It assumes a stable, static world, though people, criteria and situations change",
+      "It has always been shown to be less accurate than clinical judgment",
+      "It cannot include regression equations or multiple cutoff scores",
+      "It requires the clinician to interview every client for several hours"
+    ],
+    "e": "The clinical approach lets the clinician explore areas formulas cannot measure; the interview is often the only way to observe behavior and unique history, and rare idiosyncratic events can change conclusions. When the focus moves from institutional to individual decisions, statistical rules become less practical. Also, reliability, validity and actuarial formulas require conceiving the world as stable and static, whereas practitioners face a constantly changing world subject to chance.",
+    "w": [
+      "Controlled studies generally favor the actuarial approach.",
+      "Regression equations are themselves actuarial tools.",
+      "Long interviews characterize the clinical approach, not the actuarial one."
+    ],
+    "k": "Actuarial limits: assumes static people and criteria, ignores rare idiosyncratic events, fits institutional more than individual decisions.",
+    "h": "Formulas freeze a moving world.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical versus actuarial prediction"
+  },
+  {
+    "t": "Clinical vs actuarial",
+    "d": 2,
+    "q": "To resolve the clinical–actuarial dilemma, the course suggests replacing 'prediction' with which term?",
+    "o": [
+      "Anticipation",
+      "Diagnosis",
+      "Classification",
+      "Calculation"
+    ],
+    "e": "The course proposes altering mechanistic views of prediction by speaking of anticipation. Anticipating future possibilities implies a cognitive constructional process rather than a mechanical one: there is no average person in an average situation, clients take an active part in formulating and evaluating their goals, and they share responsibility for the future. The likelihood of future events depends on the client's constructions and the client–environment interaction.",
+    "w": [
+      "Diagnosis classifies current problems; it is not the proposed replacement.",
+      "Classification is what early group tests did well.",
+      "Calculation suggests the mechanistic view the course wants to move beyond."
+    ],
+    "k": "'Anticipation' replaces mechanical 'prediction': the future is co-constructed with an active client.",
+    "h": "Anticipate with the client; don't predict about the client.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical versus actuarial prediction"
+  },
+  {
+    "t": "Clinical vs actuarial",
+    "d": 2,
+    "q": "In which situations does the course say actuarial approaches are particularly important?",
+    "o": [
+      "Defined outcomes, costly errors, maximal accountability (suicide, violence, recidivism)",
+      "Exploring a client's unique childhood memories and the meaning given to them",
+      "Building rapport and a working alliance during a first interview",
+      "Describing a client's internal experience and relationships in depth"
+    ],
+    "e": "Ideally, clinicians should know and use actuarial approaches, such as multiple cutoffs and regression equations, whenever available. The course says this is particularly important where outcomes are clearly defined, errors are costly and clinicians need maximum accountability: suicide, violence, sexual offending, recidivism, relapse, post-parole adjustment, malingering, response to psychotherapy, academic performance, vocational success, psychiatric prognosis or success in training programs.",
+    "w": [
+      "Unique history is where clinical exploration is strongest.",
+      "Rapport building is a clinical skill, not an actuarial one.",
+      "In-depth description of internal experience is a clinical task."
+    ],
+    "k": "Use actuarial formulas when outcomes are defined, errors costly and accountability maximal (suicide, violence, recidivism, malingering…).",
+    "h": "High stakes → use the formula.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Clinical versus actuarial prediction"
+  },
+  {
+    "t": "Phases of assessment",
+    "d": 2,
+    "q": "According to the course, which is a key requirement when evaluating the referral question?",
+    "o": [
+      "Understand the vocabulary, conceptual model, dynamics and expectations of the referral setting, and uncover hidden agendas",
+      "Accept the initial request as adequately stated and begin testing immediately",
+      "Always provide a general, global assessment rather than answer specific questions",
+      "Avoid contacting the referral source to remain objective"
+    ],
+    "e": "Many practical limitations of evaluations come from inadequate clarification of the problem. Clinicians must clarify requests and cannot assume initial requests are adequately stated; they may need to uncover hidden agendas, unspoken expectations and complex relationships. They must understand the vocabulary, conceptual model, dynamics and expectations of the referral setting, judge whether the questions suit psychological assessment and whether they are competent, and may contact the referral source at different stages.",
+    "w": [
+      "The course says initial requests cannot be assumed to be adequately stated.",
+      "Clinicians are rarely asked for a global assessment; they answer specific questions.",
+      "Contacting the referral source at various stages is often helpful."
+    ],
+    "k": "Clarify the referral: hidden agendas, setting's language and expectations, appropriateness and competence; recontact the source as needed.",
+    "h": "Ask what they really need to decide.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phases: evaluating the referral question"
+  },
+  {
+    "t": "Phases of assessment",
+    "d": 2,
+    "q": "For assessing suicide risk, what does the course say is more helpful than a high MMPI-2 depression score?",
+    "o": [
+      "History: number and details of past attempts and duration of depression",
+      "A second administration of the same MMPI-2 depression scale",
+      "The client's full-scale IQ score from a recent intelligence test",
+      "A projective drawing test scored for signs of self-harm"
+    ],
+    "e": "In the data collection phase, the course stresses that tests are a single tool and the case history is of equal importance, providing context and making scores meaningful. A client's history may matter even more for predictions and for judging seriousness. Its example: a high MMPI-2 depression score is less helpful in assessing suicide risk than historical factors such as the number of previous attempts, details of those attempts and the length of time the client has been depressed.",
+    "w": [
+      "Repeating the test does not add history.",
+      "IQ is not the relevant predictor here.",
+      "Projective drawings are not cited as superior to history."
+    ],
+    "k": "History (previous attempts, their details, duration of depression) predicts suicide risk better than a test score.",
+    "h": "Past attempts speak louder than scales.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phases: data collection"
+  },
+  {
+    "t": "Phases of assessment",
+    "d": 2,
+    "q": "Which is an example of collateral information named in the course?",
+    "o": [
+      "School, medical or police records, prior reports, interviews with parents or teachers",
+      "The client's scaled scores on the WISC-V subtests given during the session",
+      "The clinician's first impression of the client in the waiting room",
+      "The client's answers to the MMPI-2 validity scales during testing"
+    ],
+    "e": "During data collection, information comes from a wide variety of sources, most frequently interview data, collateral information, behavioral observations and test scores. The course lists collateral information as school records, previous psychological reports, medical records, police reports, or interviews with parents or teachers. For specific problem-solving and decision-making, clinicians must rely on multiple sources and check the consistency of their observations.",
+    "w": [
+      "Test scores are a separate source of data.",
+      "First impressions are a source of bias (primacy effect), not collateral data.",
+      "Validity scale answers are test data."
+    ],
+    "k": "Collateral information: school, medical and police records, prior reports, interviews with parents and teachers.",
+    "h": "Collateral = from people and papers around the client.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phases: data collection"
+  },
+  {
+    "t": "Phases of assessment",
+    "d": 2,
+    "q": "When describing etiology, which interacting causes does the course say clinicians should consider?",
+    "o": [
+      "Primary, predisposing, precipitating and reinforcing causes",
+      "Only the single most obvious cause",
+      "Genetic causes alone",
+      "Causes reported by the referral source alone"
+    ],
+    "e": "The end product of assessment is a set of clear, specific and reasonable recommendations, supported by a description of the client's current level of functioning, etiology and prognosis. Etiologic descriptions should avoid simplistic formulas and focus on several interacting factors: primary, predisposing, precipitating and reinforcing causes. A systems perspective may also be used, examining interaction patterns and two-way influences. Description should not be mere labeling.",
+    "w": [
+      "The course warns against simplistic single-cause formulas.",
+      "Genetic causes alone would be a simplistic formula.",
+      "The referral source's view is one source among many."
+    ],
+    "k": "Etiology = interacting primary, predisposing, precipitating and reinforcing causes, not a simple formula.",
+    "h": "Prime, Prone, Push, Prolong: primary, predisposing, precipitating, reinforcing.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phases: interpreting the data"
+  },
+  {
+    "t": "Wright's eight phases",
+    "d": 2,
+    "q": "Which sequence matches Wright's (2010) eight-phase hypothesis-testing model?",
+    "o": [
+      "Clarify referral question → clinical and collateral interviews → develop hypotheses → select tests → gather test evidence → accept/modify/reject hypotheses → dynamic model of the person → recommendations",
+      "Select tests → clarify referral question → develop hypotheses → interviews → recommendations → gather test evidence → dynamic model → evaluate hypotheses",
+      "Interviews → recommendations → select tests → clarify referral question → dynamic model → develop hypotheses → gather evidence → evaluate hypotheses",
+      "Develop hypotheses → gather test evidence → clarify referral question → interviews → select tests → recommendations → evaluate hypotheses → dynamic model"
+    ],
+    "e": "Figure 1.1 (Wright, 2010): Phase 1 clarify and evaluate the referral question; Phase 2 conduct clinical and collateral interviews; Phase 3 develop hypotheses; Phase 4 select tests; Phase 5 gather test evidence (administer and score); Phase 6 evaluate the evidence to reject, modify or accept hypotheses; Phase 7 create a dynamic model of the person; Phase 8 develop recommendations. Phases often overlap, and Phases 4 to 6 are iterative and recursive.",
+    "w": [
+      "Tests are selected only after hypotheses exist, and the referral question comes first.",
+      "Recommendations are the final phase, not an early one.",
+      "The referral question opens the process, before hypotheses."
+    ],
+    "k": "Wright: Referral → Interviews → Hypotheses → Tests chosen → Testing → Hypotheses judged → Dynamic model → Recommendations.",
+    "h": "Refer, Interview, Hypothesize, Select, Test, Judge, Model, Recommend.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Figure 1.1 (Wright, 2010)"
+  },
+  {
+    "t": "Wright's eight phases",
+    "d": 3,
+    "q": "A child obtains a very high Working Memory Index (WMI) on the WISC-V. What can the clinician conclude about the inattentive type of ADHD, according to the course?",
+    "o": [
+      "It is likely ruled out, but a LOW WMI could not have ruled ADHD in",
+      "ADHD is confirmed, because high WMI is a sign of ADHD",
+      "Nothing at all, because the WMI is unrelated to attention",
+      "ADHD is ruled in only if the PSI is also high"
+    ],
+    "e": "In Phases 5 and 6, hypotheses are rejected, modified or accepted. Rejecting is often straightforward; accepting is harder. A test can often rule a hypothesis out but not in. A high WISC-V WMI may rule out inattentive ADHD, because a child with ADHD would find it very difficult to excel on WMI tasks requiring selective and sustained attention. A low WMI cannot rule ADHD in, because many factors affect WMI performance, so more testing would be needed.",
+    "w": [
+      "A high WMI argues against, not for, inattentive ADHD.",
+      "WMI tasks require selective and sustained attention.",
+      "The course does not make a high PSI the criterion."
+    ],
+    "k": "Tests rule out more easily than they rule in: high WMI argues against inattentive ADHD; low WMI proves nothing alone.",
+    "h": "Excellence excludes; weakness doesn't convict.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phases 5 and 6"
+  },
+  {
+    "t": "Wright's eight phases",
+    "d": 2,
+    "q": "In Phase 7, how should a clinician present the findings, according to the course?",
+    "o": [
+      "As a dynamic model of how factors interact to explain the client's situation",
+      "As a list of strengths and weaknesses presented without any context",
+      "Test by test, letting the audience decide what matters and connect the dots",
+      "As a single diagnostic label, without explanation of how it was reached"
+    ],
+    "e": "Phase 7 asks the clinician to make sense of all the data in a way that can be clearly communicated to the client and referral source. Rather than an acontextual list of strengths and weaknesses or, worse, data presented test by test (forcing the audience to decide what matters and connect the dots), clinicians should create a dynamic understanding of how factors interact to explain what is happening for the client. This requires training, supervision and experience.",
+    "w": [
+      "An acontextual list is what the course warns against.",
+      "Test-by-test presentation is described as even worse.",
+      "Mere labeling does not provide understanding."
+    ],
+    "k": "Phase 7 = a dynamic, integrated model of the person, not lists or test-by-test reporting.",
+    "h": "Connect the dots for them.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phase 7"
+  },
+  {
+    "t": "Wright's eight phases",
+    "d": 2,
+    "q": "Which recommendation best fits the course's Phase 8 standards?",
+    "o": [
+      "Weekly CBT for the panic cycle found in the assessment, at an affordable clinic nearby",
+      "The client should get some kind of therapy at some point in the future",
+      "The client should see the best specialist abroad, whatever the cost",
+      "The client should be re-tested with every instrument available"
+    ],
+    "e": "Phase 8 links results to clear, specific and reasonable recommendations likely to improve the client's life. Clinicians must understand what addresses the specific problems and dynamics found, and the research on how effective interventions are. Recommendations cannot be vague or broad, such as simply recommending 'therapy'. They must also be reasonable: a treatment that is unavailable to the client for geographic or financial reasons will not ultimately help.",
+    "w": [
+      "This is the vague recommendation the course explicitly criticizes.",
+      "An unaffordable or inaccessible treatment is not reasonable.",
+      "Re-testing everything is not a recommendation that improves functioning."
+    ],
+    "k": "Phase 8: recommendations must be clear, specific, evidence-based and reasonable (available and affordable for this client).",
+    "h": "Specific, supported, doable.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Phase 8"
+  },
+  {
+    "t": "Psychological report",
+    "d": 1,
+    "q": "According to the course, what should be the focus of the psychological report?",
+    "o": [
+      "Clear communication of the clinician's interpretations, conclusions and recommendations",
+      "A complete list of every raw score obtained",
+      "A description of the tests' history and authors",
+      "The clinician's personal opinion of the client's character"
+    ],
+    "e": "An accurate and effective psychological report requires clinicians to clarify their thinking and crystallize their interpretations. The report ties together all sources of information, often combining complex interprofessional and interpersonal issues, and all the advantages and limitations of clinical judgment affect it. The course states that the focus should be a clear communication of the clinician's interpretations, conclusions and recommendations.",
+    "w": [
+      "Raw score lists are not the focus; interpretations are.",
+      "Test history is irrelevant to the referral question.",
+      "Personal opinions about character are not the aim."
+    ],
+    "k": "Report = integrates all sources; focuses on clearly communicated interpretations, conclusions and recommendations.",
+    "h": "Say what it means and what to do.",
+    "r": "Psychological Tools & Strategies course – Ch. 1 Psychological report"
+  }
+]

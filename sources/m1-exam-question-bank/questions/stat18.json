@@ -1,0 +1,282 @@
+[
+  {
+    "t": "Ch18 Purpose",
+    "d": 2,
+    "q": "Why use a MANOVA instead of separate ANOVAs on several related outcomes?",
+    "o": [
+      "It tests the outcomes together, controlling Type I error and detecting effects on combinations",
+      "It always has more power than separate univariate ANOVAs, for every single outcome variable included",
+      "It removes the need to check any assumptions about the outcome variables or the groups",
+      "It tells you directly which individual outcome variable differs between the groups"
+    ],
+    "e": "Separate ANOVAs inflate the familywise error rate and ignore how outcomes relate to each other. MANOVA tests group differences on linear combinations of the outcomes (variates), so it can detect effects that only emerge when outcomes are considered together. Follow-up analyses are still needed to see which outcomes drive the effect.",
+    "w": [
+      "MANOVA isn't always more powerful; unrelated outcomes can dilute its power.",
+      "MANOVA adds assumptions, such as multivariate normality and equal covariance matrices.",
+      "MANOVA doesn't say which outcome differs; follow-up analyses are needed for that."
+    ],
+    "k": "MANOVA tests outcomes together, controlling Type I error and detecting combined effects.",
+    "h": "Many outcomes, one test.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Why MANOVA"
+  },
+  {
+    "t": "Ch18 Variates",
+    "d": 3,
+    "q": "A MANOVA has 3 groups and 4 outcome variables. How many discriminant functions (variates) can it produce?",
+    "o": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "e": "The number of variates = min(p, k − 1) = min(4, 3 − 1) = 2. Each variate is a weighted combination of the outcomes that maximally separates the groups, uncorrelated with the previous variates.",
+    "w": [
+      "3 is the number of groups; variates are limited by k − 1 = 2.",
+      "4 is the number of outcomes, but k − 1 = 2 is smaller.",
+      "12 multiplies groups by outcomes, which isn't the rule."
+    ],
+    "k": "Number of variates = min(p, k − 1).",
+    "h": "The smaller of outcomes or groups minus one.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Number of variates"
+  },
+  {
+    "t": "Ch18 Test statistics",
+    "d": 2,
+    "q": "Which MANOVA test statistic is generally the most robust to violations of assumptions, especially with unequal group sizes?",
+    "o": [
+      "Pillai–Bartlett trace",
+      "Roy's largest root (θ)",
+      "Hotelling's trace (T²)",
+      "Wilks's lambda (Λ)"
+    ],
+    "e": "Olson's simulations showed that Pillai's trace holds its Type I error rate best when assumptions such as homogeneity of covariance matrices are violated, particularly with unequal n. Field therefore recommends it as the default.",
+    "w": [
+      "Roy's root is the least robust of the four.",
+      "Hotelling's trace is less robust than Pillai's.",
+      "Wilks's lambda is less robust than Pillai's with unequal n."
+    ],
+    "k": "Pillai's trace is the most robust MANOVA statistic; use it by default.",
+    "h": "Pillai is the pillar, the sturdiest of the four.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Pillai's trace"
+  },
+  {
+    "t": "Ch18 Test statistics",
+    "d": 3,
+    "q": "Wilks's lambda is best described as:",
+    "o": [
+      "The product of the unexplained variance on each variate, so smaller values mean larger effects",
+      "The sum of the proportions of explained variance across each of the variates, so larger values mean larger effects",
+      "The largest eigenvalue of the model-to-error matrix, considered on its own",
+      "The correlation between the group codes and the first variate of the analysis"
+    ],
+    "e": "Λ = Π 1/(1 + λᵢ), where λᵢ are the eigenvalues of HE⁻¹, which is the proportion of variance not explained, multiplied across variates. Pillai's trace sums explained-variance proportions, Hotelling's trace sums the eigenvalues, and Roy's root uses only the largest eigenvalue.",
+    "w": [
+      "Summing explained-variance proportions describes Pillai's trace.",
+      "Using only the largest eigenvalue describes Roy's root.",
+      "A correlation with the first variate isn't Wilks's lambda."
+    ],
+    "k": "Wilks's Λ = product of unexplained variance across variates; smaller = bigger effect.",
+    "h": "Lambda is left-over variance.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Wilks's lambda"
+  },
+  {
+    "t": "Ch18 Test statistics",
+    "d": 3,
+    "q": "When is Roy's largest root the most powerful MANOVA statistic, and what is its weakness?",
+    "o": [
+      "When group differences lie on one variate; it is the least robust to assumption violations",
+      "When group differences are spread evenly across all variates; it ignores the first variate entirely",
+      "When sample sizes are very unequal; it requires multivariate normality to be exactly met",
+      "When there is only one outcome; it cannot be used with more than one"
+    ],
+    "e": "Roy's root looks only at the first (largest) variate, so it is powerful when one dimension separates the groups but misses differences on later variates, and it is the most affected by violations. Hotelling's trace and Wilks's lambda fall between Roy's and Pillai's in robustness.",
+    "w": [
+      "Roy's root focuses on the first variate, not effects spread evenly.",
+      "Roy's root isn't designed for very unequal sample sizes.",
+      "Roy's root applies to multiple outcomes."
+    ],
+    "k": "Roy's root: powerful when one variate separates groups, but least robust.",
+    "h": "Roy rules one dimension only.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Roy's largest root"
+  },
+  {
+    "t": "Ch18 Assumptions",
+    "d": 2,
+    "q": "In MANOVA, Box's M test examines:",
+    "o": [
+      "Whether the variance–covariance matrices of the outcomes are equal across groups",
+      "Whether each outcome variable is normally distributed within every group",
+      "Whether the outcome variables are significantly correlated with each other overall",
+      "Whether sphericity holds for each of the repeated-measures outcomes"
+    ],
+    "e": "MANOVA assumes homogeneity of covariance matrices, the multivariate extension of homogeneity of variance. Box's M is highly sensitive, especially in large samples or with non-normal data. With equal group sizes Field suggests largely ignoring it and relying on Pillai's trace.",
+    "w": [
+      "Univariate normality within groups is checked separately, not by Box's M.",
+      "Correlations among the outcomes aren't what Box's M tests.",
+      "Sphericity concerns repeated measures and is checked with Mauchly's test."
+    ],
+    "k": "Box's M tests equality of covariance matrices across groups.",
+    "h": "Box compares the covariance boxes.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Box's test"
+  },
+  {
+    "t": "Ch18 Assumptions",
+    "d": 2,
+    "q": "Which assumption is specific to MANOVA rather than ANOVA?",
+    "o": [
+      "Multivariate normality of the outcomes within each group",
+      "Independence of the participants' observations from one another",
+      "Random sampling of participants from the population of interest",
+      "Homogeneity of variance for each outcome variable taken separately"
+    ],
+    "e": "MANOVA requires the outcomes to be jointly (multivariate) normal within groups, which is stronger than each one being normal on its own. SPSS cannot test this directly, so researchers check univariate normality as a partial proxy. Independence and random sampling apply to both techniques.",
+    "w": [
+      "Independence of observations applies to ANOVA and MANOVA alike.",
+      "Random sampling applies to ANOVA and MANOVA alike.",
+      "Homogeneity of variance for each outcome applies to ANOVA too."
+    ],
+    "k": "MANOVA-specific assumption: the outcomes are multivariate normal within each group.",
+    "h": "Normal together, not just alone.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Multivariate normality"
+  },
+  {
+    "t": "Ch18 Follow-up",
+    "d": 3,
+    "q": "Why does Field prefer discriminant function analysis over separate ANOVAs as a follow-up to a significant MANOVA?",
+    "o": [
+      "It shows how the outcomes combine to separate the groups, which is what MANOVA detected",
+      "It always finds more significant effects than the separate univariate ANOVAs on each outcome would find",
+      "Separate ANOVAs cannot legitimately be run on outcomes that were already used in a MANOVA",
+      "It removes the need to report the original MANOVA results in the write-up"
+    ],
+    "e": "The MANOVA effect lies in a combination of outcomes. Separate ANOVAs look at each outcome alone, so they can miss that combination, and the idea that a significant MANOVA 'protects' them is not sound. DFA examines the variates directly: their coefficients, structure correlations and group centroids.",
+    "w": [
+      "DFA doesn't always find more effects than separate ANOVAs.",
+      "Separate ANOVAs can be run; they just miss combinations.",
+      "The original MANOVA results still need reporting before the follow-up."
+    ],
+    "k": "Follow MANOVA with DFA to see how outcomes combine to separate groups.",
+    "h": "See the combination MANOVA found.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Discriminant function analysis"
+  },
+  {
+    "t": "Ch18 Follow-up",
+    "d": 3,
+    "q": "In discriminant function analysis output, the structure matrix shows:",
+    "o": [
+      "The correlations between each outcome and each discriminant function",
+      "The unstandardized weights used to compute each person's discriminant scores",
+      "The mean discriminant score of each group on each function",
+      "The proportion of cases correctly classified into each group"
+    ],
+    "e": "Structure coefficients (loadings) show how strongly each outcome relates to a variate and are usually the best guide to naming it. Standardized canonical coefficients show each outcome's unique contribution, group centroids are the group means on each function, and the classification table reports accuracy.",
+    "w": [
+      "Unstandardized weights compute each person's discriminant scores.",
+      "Group means on the functions are the centroids.",
+      "Classification accuracy appears in the classification table."
+    ],
+    "k": "Structure matrix = correlations between outcomes and functions; use it to name variates.",
+    "h": "Structure shows what the function is built from.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Interpreting DFA"
+  },
+  {
+    "t": "Ch18 Follow-up",
+    "d": 2,
+    "q": "In discriminant function analysis, group centroids are:",
+    "o": [
+      "The mean score of each group on each discriminant function",
+      "The correlation between each outcome and each function",
+      "The eigenvalue associated with each discriminant function",
+      "The weights that each outcome receives in the function"
+    ],
+    "e": "Centroids show where each group falls on each variate, and therefore which groups each function separates. For example, function 1 might separate the CBT group from both other groups, while function 2 separates the remaining two.",
+    "w": [
+      "Correlations with functions form the structure matrix.",
+      "Eigenvalues show each function's strength, not group positions.",
+      "Weights are the function coefficients applied to outcomes."
+    ],
+    "k": "Centroids = group means on each discriminant function.",
+    "h": "Centroid: the group's centre on the function.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Group centroids"
+  },
+  {
+    "t": "Ch18 SPSS",
+    "d": 1,
+    "q": "Where are MANOVA and discriminant function analysis run in SPSS?",
+    "o": [
+      "GLM → Multivariate for MANOVA; Classify → Discriminant for DFA",
+      "GLM → Univariate for MANOVA; Regression → Linear for DFA",
+      "Compare Means → One-Way ANOVA for MANOVA; Correlate for DFA",
+      "GLM → Repeated Measures for MANOVA; Dimension Reduction for DFA"
+    ],
+    "e": "Analyze → General Linear Model → Multivariate takes several dependent variables and one or more fixed factors. Analyze → Classify → Discriminant uses the group as the grouping variable and the outcomes as independents, a reversal of roles that reflects predicting group membership from the variates.",
+    "w": [
+      "Univariate handles one outcome; Regression isn't DFA.",
+      "One-Way ANOVA handles only one outcome, and Correlate doesn't run DFA.",
+      "Repeated Measures isn't MANOVA; Dimension Reduction is factor analysis."
+    ],
+    "k": "SPSS: GLM → Multivariate for MANOVA; Classify → Discriminant for DFA.",
+    "h": "Multivariate for many outcomes.",
+    "r": "Stats & SPSS ch. 18 · SPSS · MANOVA and DFA"
+  },
+  {
+    "t": "Ch18 Design",
+    "d": 2,
+    "q": "What does Field advise about choosing outcome variables for a MANOVA?",
+    "o": [
+      "Include only outcomes with a theoretical reason, not every variable available",
+      "Include as many outcomes as possible, since more outcomes always add power",
+      "Include only outcomes that are uncorrelated, so each adds new information",
+      "Include only outcomes that were significant in separate ANOVAs first"
+    ],
+    "e": "Adding unrelated outcomes dilutes power and makes the variates harder to interpret. Choose outcomes that theory says should be affected together. Selecting outcomes because they were significant in ANOVAs is circular.",
+    "w": [
+      "More outcomes don't always add power; unrelated ones dilute it.",
+      "MANOVA is meant for related outcomes, not uncorrelated ones.",
+      "Selecting by prior ANOVAs is circular."
+    ],
+    "k": "Choose MANOVA outcomes on theoretical grounds, not availability.",
+    "h": "Theory picks the team.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Choosing outcomes"
+  },
+  {
+    "t": "Ch18 Test statistics",
+    "d": 2,
+    "q": "In SPSS's Multivariate Tests table for a group effect, Pillai's trace = .34, F(4, 116) = 5.92, p < .001. What should be reported?",
+    "o": [
+      "V = 0.34, F(4, 116) = 5.92, p < .001, followed by a follow-up analysis",
+      "Wilks's λ only, because it is listed second in the table",
+      "The univariate F for each outcome on its own, without reporting the multivariate test",
+      "Box's M, because it determines whether the effect is significant"
+    ],
+    "e": "Report the multivariate statistic you chose (Pillai's V is recommended), its approximate F, df and p, then the follow-up DFA or univariate tests. Box's M is an assumption check, not the effect.",
+    "w": [
+      "Table position doesn't decide which statistic to report.",
+      "Univariate Fs alone skip the multivariate test.",
+      "Box's M is an assumption check, not the effect."
+    ],
+    "k": "Report Pillai's V with F, df and p, then follow-up analyses.",
+    "h": "V for verdict.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · Reporting"
+  },
+  {
+    "t": "Ch18 Matrices",
+    "d": 3,
+    "q": "In MANOVA, the hypothesis SSCP matrix (H) plays the role that which quantity plays in ANOVA?",
+    "o": [
+      "The model sum of squares, SSM",
+      "The residual sum of squares, SSR",
+      "The total sum of squares, SST",
+      "The F ratio itself"
+    ],
+    "e": "MANOVA replaces sums of squares with sums-of-squares-and-cross-products (SSCP) matrices. H is the model (between-groups) matrix, E is the error (within-groups) matrix, and T = H + E. The test statistics are built from the eigenvalues of HE⁻¹, the multivariate analogue of SSM/SSR.",
+    "w": [
+      "The residual SS corresponds to E.",
+      "The total SS corresponds to T.",
+      "F corresponds to statistics built from HE⁻¹."
+    ],
+    "k": "H = model SSCP (like SSM); E = error SSCP; T = H + E.",
+    "h": "H for hypothesis, E for error.",
+    "r": "Stats & SPSS ch. 18 · MANOVA · SSCP matrices"
+  }
+]

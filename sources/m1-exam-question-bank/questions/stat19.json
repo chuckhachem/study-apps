@@ -1,0 +1,462 @@
+[
+  {
+    "t": "Ch19 Purpose",
+    "d": 2,
+    "q": "Exploratory factor analysis is used mainly to:",
+    "o": [
+      "Identify a smaller set of latent dimensions that explain the correlations among items",
+      "Test whether group means differ on several correlated outcome variables at once, controlling Type I error",
+      "Predict a single continuous outcome from a large set of correlated predictors",
+      "Confirm that a pre-specified factor model fits the observed data perfectly"
+    ],
+    "e": "EFA looks for clusters of variables that correlate highly with each other, interpreted as underlying factors (for example the items of an anxiety questionnaire forming 'worry' and 'somatic' factors). Testing a pre-specified structure is confirmatory factor analysis, done in SEM software rather than SPSS's Factor procedure.",
+    "w": [
+      "Testing group differences on several correlated outcomes is the job of MANOVA, not EFA.",
+      "Predicting one outcome from many predictors is multiple regression, not factor analysis.",
+      "Testing a pre-specified structure is confirmatory factor analysis, done in SEM software."
+    ],
+    "k": "EFA finds a few latent factors that explain correlations among many items.",
+    "h": "Factor analysis finds the hidden family behind the items.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Purpose"
+  },
+  {
+    "t": "Ch19 PCA vs FA",
+    "d": 3,
+    "q": "What is the key conceptual difference between principal component analysis and factor analysis?",
+    "o": [
+      "PCA analyses total variance; FA models only the variance the items share (common variance)",
+      "PCA requires an oblique rotation, whereas FA can only be used with orthogonal rotation",
+      "PCA can only ever extract one component, whereas FA can extract any number of factors",
+      "PCA is used for categorical items, while FA is used for continuous items measured on rating scales"
+    ],
+    "e": "PCA treats each variable's communality as 1 (all variance), giving components that are composites of the observed variables, which suits data reduction. FA estimates communalities, separating shared variance from unique variance and error, which suits latent constructs. Results often look similar, but the theory differs.",
+    "w": [
+      "Either method can use orthogonal or oblique rotation.",
+      "PCA can extract as many components as there are variables.",
+      "Both PCA and FA are typically applied to continuous rating-scale items."
+    ],
+    "k": "PCA analyses total variance; FA models only common (shared) variance.",
+    "h": "PCA packs everything; FA keeps only what's shared.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · PCA versus FA"
+  },
+  {
+    "t": "Ch19 Communality",
+    "d": 2,
+    "q": "An item's communality is:",
+    "o": [
+      "The proportion of its variance that it shares with the other variables, explained by the factors",
+      "Its correlation with the single item it is most similar to, which is the item it duplicates most closely",
+      "The number of factors on which the item has a loading greater than .3",
+      "Its reliability, as estimated by Cronbach's alpha with the item deleted"
+    ],
+    "e": "Communality (h²) = common variance / total variance. An item with communality .70 shares 70% of its variance with the factors, and the remaining 30% is unique variance plus error. Low communalities (below about .3) suggest an item does not fit the factor structure.",
+    "w": [
+      "Communality isn't a single correlation with its most similar item.",
+      "Communality isn't a count of loadings above .3.",
+      "Cronbach's alpha with the item deleted is a reliability statistic, not communality."
+    ],
+    "k": "Communality (h²) = proportion of an item's variance explained by the factors.",
+    "h": "Communality: how much the item shares with the community.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Communalities"
+  },
+  {
+    "t": "Ch19 Data screening",
+    "d": 2,
+    "q": "Before running a factor analysis, what should you check in the correlation matrix (R-matrix)?",
+    "o": [
+      "That items correlate reasonably (above about .3) but none extremely highly (above about .9)",
+      "That all items are uncorrelated with each other, so that each factor measures something entirely unique",
+      "That every correlation in the matrix is exactly the same size as every other",
+      "That no correlation is positive, since factors require negative relations between items"
+    ],
+    "e": "Items that correlate with nothing cannot share a factor, so consider removing them. Items that correlate above about .9 (singularity) or a very small determinant (below 0.00001) indicate multicollinearity, which makes estimates unstable.",
+    "w": [
+      "Uncorrelated items can't share factors, so there'd be nothing to extract.",
+      "Equal correlations everywhere isn't a requirement.",
+      "Factors arise from positive or negative correlations; all-negative isn't required."
+    ],
+    "k": "Screen the R-matrix: items should correlate above .3 but below .9.",
+    "h": "Related, but not twins.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Screening the R-matrix"
+  },
+  {
+    "t": "Ch19 Data screening",
+    "d": 2,
+    "q": "The Kaiser–Meyer–Olkin (KMO) measure of sampling adequacy is .83. By Kaiser's labels, this is:",
+    "o": [
+      "Meritorious, comfortably acceptable for factor analysis",
+      "Miserable, which is too low for a factor analysis",
+      "Unacceptable, so more data must be collected before any analysis",
+      "Marvellous, the highest category that is possible"
+    ],
+    "e": "Kaiser (1974): .90s marvellous, .80s meritorious, .70s middling, .60s mediocre, .50s miserable, below .50 unacceptable. KMO compares correlations with partial correlations: high values mean the patterns are compact enough to yield distinct factors. Check individual-item KMOs (the anti-image diagonal) too.",
+    "w": [
+      "Miserable is Kaiser's label for the .50s, well below .83.",
+      "Unacceptable means below .50, far below .83.",
+      "Marvellous is Kaiser's label for the .90s, not the .80s."
+    ],
+    "k": "KMO .80s = meritorious; .90s marvellous; below .50 unacceptable.",
+    "h": "Marvellous, meritorious, middling, mediocre, miserable.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · KMO"
+  },
+  {
+    "t": "Ch19 Data screening",
+    "d": 2,
+    "q": "Bartlett's test of sphericity in factor analysis tests whether:",
+    "o": [
+      "The correlation matrix differs significantly from an identity matrix",
+      "The variances of the differences between each pair of items are equal",
+      "The factor loadings are equal across all of the extracted factors",
+      "The items are normally distributed in the population being studied"
+    ],
+    "e": "An identity matrix means all correlations are zero, so there is nothing to factor. A significant Bartlett's test, which is almost guaranteed with a decent sample, shows some correlations exist. It is a minimal check, not evidence of a good structure, and is unrelated to sphericity in repeated-measures ANOVA despite the name.",
+    "w": [
+      "Equal variances of item differences is repeated-measures sphericity, a different idea.",
+      "Bartlett's test doesn't compare factor loadings.",
+      "Bartlett's test doesn't test item normality."
+    ],
+    "k": "Bartlett's test checks that the correlation matrix isn't an identity matrix.",
+    "h": "Is there anything to factor at all?",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Bartlett's test"
+  },
+  {
+    "t": "Ch19 Retention",
+    "d": 2,
+    "q": "Kaiser's criterion retains factors with:",
+    "o": [
+      "Eigenvalues greater than 1",
+      "Eigenvalues greater than 0.5",
+      "Loadings greater than 0.3",
+      "Communalities greater than 1"
+    ],
+    "e": "An eigenvalue above 1 means a factor explains more variance than a single standardized variable. Kaiser's rule is accurate when there are fewer than 30 variables with high communalities (above .7), or N > 250 with an average communality of .6 or more. Otherwise it often retains too many factors. Jolliffe's more lenient cut-off is 0.7.",
+    "w": [
+      "0.5 is too lenient; Jolliffe's lenient cut-off is 0.7.",
+      "Loadings above 0.3 guide interpretation, not retention.",
+      "Communalities are proportions and can't exceed 1."
+    ],
+    "k": "Kaiser's criterion: retain factors with eigenvalues above 1.",
+    "h": "Keep factors worth more than one variable.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Kaiser's criterion"
+  },
+  {
+    "t": "Ch19 Retention",
+    "d": 2,
+    "q": "When using a scree plot to decide how many factors to retain, you keep the factors:",
+    "o": [
+      "Before the point of inflexion, where the curve levels off",
+      "After the point of inflexion, where the curve levels off",
+      "With an eigenvalue exactly equal to 1 on the plot",
+      "Plotted in the flattest part of the right-hand tail"
+    ],
+    "e": "Cattell's scree test plots eigenvalues in descending order. Retain the factors on the steep cliff, before the 'elbow' where the plot flattens into rubble ('scree'). It is reasonably reliable with N > 200, but locating the elbow can be subjective.",
+    "w": [
+      "Factors after the elbow are the rubble to discard.",
+      "Eigenvalue exactly 1 is Kaiser's rule, not the scree test.",
+      "The flat tail is the scree to discard."
+    ],
+    "k": "Scree plot: keep factors before the elbow where the curve flattens.",
+    "h": "Keep the cliff, discard the scree.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Scree plot"
+  },
+  {
+    "t": "Ch19 Retention",
+    "d": 3,
+    "q": "Parallel analysis decides how many factors to keep by:",
+    "o": [
+      "Keeping factors whose eigenvalues exceed those from random data of the same size",
+      "Keeping factors whose loadings are the same in two random halves of the data, split at random",
+      "Keeping factors that are significant in a chi-square goodness-of-fit test",
+      "Keeping factors whose eigenvalues are higher than the average communality"
+    ],
+    "e": "Random datasets with the same N and number of variables are generated, and their eigenvalues averaged (or their 95th percentile taken). Only factors with real eigenvalues above the random benchmark are retained. Simulations show this is among the most accurate methods. SPSS needs syntax or an extension to run it.",
+    "w": [
+      "Split-half replication of loadings isn't parallel analysis.",
+      "Chi-square goodness-of-fit tests aren't parallel analysis.",
+      "The average communality isn't the benchmark; random-data eigenvalues are."
+    ],
+    "k": "Parallel analysis keeps factors with eigenvalues above those from random data.",
+    "h": "Beat random noise to stay.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Parallel analysis"
+  },
+  {
+    "t": "Ch19 Rotation",
+    "d": 2,
+    "q": "Why are factors rotated after extraction?",
+    "o": [
+      "To achieve a simpler structure in which each item loads highly on one factor",
+      "To increase the total variance explained by the extracted factors as a set",
+      "To make the factors uncorrelated with the original variables they summarize",
+      "To reduce the number of factors that are retained by Kaiser's criterion"
+    ],
+    "e": "Unrotated solutions often have most items loading on the first factor. Rotation redistributes the explained variance among the factors, without changing the total, so each item loads mainly on one factor, which aids interpretation.",
+    "w": [
+      "Rotation doesn't change the total variance explained.",
+      "Rotation doesn't make factors uncorrelated with their variables.",
+      "Rotation doesn't change how many factors are retained."
+    ],
+    "k": "Rotation simplifies structure so each item loads mainly on one factor.",
+    "h": "Turn the axes, sharpen the picture.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Purpose of rotation"
+  },
+  {
+    "t": "Ch19 Rotation",
+    "d": 2,
+    "q": "When should an oblique rotation, such as direct oblimin or promax, be chosen over varimax?",
+    "o": [
+      "When the underlying factors are expected to correlate, as most psychological constructs do",
+      "When the researcher wants to ensure that the factors are completely independent of each other",
+      "When the sample is very small and there are only a few items included in the analysis",
+      "When the factors are expected to be uncorrelated with each other and of equal importance"
+    ],
+    "e": "Varimax is orthogonal and forces the factors to be uncorrelated. Psychological constructs such as facets of anxiety usually correlate, so oblique rotation is more realistic. If the factors turn out uncorrelated, oblique and orthogonal solutions converge anyway.",
+    "w": [
+      "Forcing independence is what orthogonal rotation does.",
+      "Oblique rotation isn't chosen because of a small sample.",
+      "Expecting uncorrelated factors is the case for orthogonal rotation."
+    ],
+    "k": "Use oblique rotation when factors are expected to correlate, as most psychological ones do.",
+    "h": "Oblique for overlapping constructs.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Oblique rotation"
+  },
+  {
+    "t": "Ch19 Rotation",
+    "d": 3,
+    "q": "What is the difference between varimax and quartimax rotations?",
+    "o": [
+      "Varimax simplifies factors (few high loadings each); quartimax simplifies variables (few factors each)",
+      "Varimax allows the factors to correlate with each other; quartimax forces them to be uncorrelated",
+      "Varimax is used for principal component analysis only; quartimax is used for factor analysis only",
+      "Varimax retains more factors than quartimax because it uses a lower eigenvalue cut-off for extraction"
+    ],
+    "e": "Both are orthogonal. Varimax maximizes the spread of loadings within each factor, giving clean, interpretable factors, and is Field's usual orthogonal choice. Quartimax maximizes the spread of each variable's loadings across factors, often producing one big general factor. Equamax is a hybrid of the two.",
+    "w": [
+      "Both varimax and quartimax are orthogonal.",
+      "Both can be used with PCA or FA.",
+      "Rotation doesn't affect how many factors are retained."
+    ],
+    "k": "Varimax simplifies factors; quartimax simplifies variables; both are orthogonal.",
+    "h": "Varimax varies within factors.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Orthogonal rotations"
+  },
+  {
+    "t": "Ch19 Interpretation",
+    "d": 3,
+    "q": "After an oblique rotation, SPSS gives a pattern matrix and a structure matrix. Which is usually interpreted, and why?",
+    "o": [
+      "The pattern matrix, because it shows each item's unique relationship with each factor",
+      "The structure matrix, because it is the only one with values between −1 and +1",
+      "The pattern matrix, because its loadings are always larger than the structure loadings",
+      "The structure matrix, because it removes the correlations between the factors"
+    ],
+    "e": "Pattern loadings are like regression coefficients, showing an item's unique contribution to a factor with the other factors held constant. Structure loadings are simple correlations, inflated by factor intercorrelations. Field recommends interpreting the pattern matrix, while also reporting the structure matrix and the factor correlation matrix.",
+    "w": [
+      "Both matrices can contain values between −1 and +1.",
+      "Pattern loadings aren't always larger than structure loadings.",
+      "The structure matrix includes factor intercorrelations rather than removing them."
+    ],
+    "k": "Interpret the pattern matrix (unique contributions) after oblique rotation.",
+    "h": "Pattern shows the unique print.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Pattern vs structure matrix"
+  },
+  {
+    "t": "Ch19 Interpretation",
+    "d": 2,
+    "q": "Why does a meaningful loading threshold depend on sample size?",
+    "o": [
+      "Smaller samples need larger loadings for them to be statistically meaningful",
+      "Larger samples need larger loadings, because they inflate the significance of every loading",
+      "Loadings must always be above .7, regardless of the sample size",
+      "Sample size changes the factor loadings themselves, not their significance"
+    ],
+    "e": "Stevens suggests that a loading needs to be about .722 to be significant with n = 50, .512 with n = 100, .364 with n = 200, .298 with n = 300 and .21 with n = 600. Many researchers instead use a fixed rule of interpreting loadings above .3 or .4. Significance alone does not mean a loading matters.",
+    "w": [
+      "Larger samples need smaller loadings for significance.",
+      "Fixed thresholds of .7 aren't required.",
+      "Sample size affects significance, not the loadings' definition."
+    ],
+    "k": "Smaller samples need larger loadings to be significant (Stevens).",
+    "h": "Small sample, high bar.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Interpreting loadings"
+  },
+  {
+    "t": "Ch19 Sample size",
+    "d": 2,
+    "q": "Which statement about sample size for factor analysis is most accurate?",
+    "o": [
+      "Larger is better, but high communalities and well-defined factors reduce the N needed",
+      "A sample of 30 is always sufficient, regardless of the number of items or the strength of the factors",
+      "The sample size does not matter at all, provided that the KMO value is above .5",
+      "You need exactly 10 participants per item, and no other rule or consideration applies"
+    ],
+    "e": "Common rules of thumb include 10–15 cases per variable and 300 or more as good (Comrey & Lee). Research (MacCallum and colleagues) shows that with high communalities (above .6) and several items per factor, much smaller samples can recover the structure. KMO helps judge adequacy but does not replace an adequate N.",
+    "w": [
+      "A sample of 30 is rarely sufficient for factor analysis.",
+      "KMO doesn't replace an adequate N.",
+      "Cases-per-item rules are rough guides only."
+    ],
+    "k": "Larger N is better, but high communalities and strong factors reduce the N needed.",
+    "h": "Strong factors need fewer people.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Sample size"
+  },
+  {
+    "t": "Ch19 Factor scores",
+    "d": 3,
+    "q": "Which factor score method produces scores that are uncorrelated and standardized, even when the factors themselves are correlated?",
+    "o": [
+      "Anderson–Rubin",
+      "Regression method",
+      "Bartlett method",
+      "Simple sum of the items"
+    ],
+    "e": "The Anderson–Rubin method adjusts Bartlett scores so the scores are uncorrelated with a mean of 0 and SD of 1, useful when uncorrelated predictors are needed later (for example in regression). Regression scores can correlate with each other and with other factors, and Bartlett scores are unbiased but can still correlate.",
+    "w": [
+      "Regression scores can correlate with each other.",
+      "Bartlett scores are unbiased but can correlate.",
+      "Simple sums aren't standardized or uncorrelated."
+    ],
+    "k": "Anderson–Rubin scores are uncorrelated and standardized (mean 0, SD 1).",
+    "h": "Anderson–Rubin: uncorrelated and unit-sized.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Factor scores"
+  },
+  {
+    "t": "Ch19 SPSS",
+    "d": 2,
+    "q": "In Analyze → Dimension Reduction → Factor, which options make a rotated loading table easiest to read?",
+    "o": [
+      "Options: 'Sorted by size' and 'Suppress small coefficients' (for example below .3)",
+      "Descriptives: 'Reproduced' and 'Anti-image' correlation matrices displayed",
+      "Extraction: 'Unrotated factor solution' only, with no rotation",
+      "Scores: 'Save as variables', using the regression method"
+    ],
+    "e": "Sorting groups items by their highest-loading factor, and suppressing small loadings leaves a clean pattern. Under Descriptives also request KMO and Bartlett's test and the determinant, under Extraction a scree plot, and under Rotation the method chosen.",
+    "w": [
+      "Reproduced and anti-image matrices don't simplify the loading table.",
+      "Unrotated solutions are harder to read.",
+      "Saving scores doesn't change the loading table's readability."
+    ],
+    "k": "Sort loadings by size and suppress small coefficients for clarity.",
+    "h": "Sort and suppress.",
+    "r": "Stats & SPSS ch. 19 · SPSS · Factor analysis options"
+  },
+  {
+    "t": "Ch19 Reliability",
+    "d": 2,
+    "q": "Cronbach's alpha is calculated for a scale. What must be done first with negatively worded items?",
+    "o": [
+      "Reverse-score them, so that high scores mean the same thing on every item",
+      "Delete them, since alpha cannot be computed with negatively worded items",
+      "Leave them as they are, since alpha automatically accounts for the item direction",
+      "Standardize them into z-scores, which automatically corrects their direction"
+    ],
+    "e": "An unreversed item correlates negatively with the others and drags α down, sometimes below zero. SPSS's Reliability Analysis does not reverse items for you. Reverse them with Compute or Recode first.",
+    "w": [
+      "Negatively worded items can be kept once reversed.",
+      "Alpha doesn't account for item direction automatically.",
+      "Converting to z-scores doesn't reverse an item's direction."
+    ],
+    "k": "Reverse-score negatively worded items before computing Cronbach's alpha.",
+    "h": "Flip before you sum.",
+    "r": "Stats & SPSS ch. 19 · Reliability · Reverse-scored items"
+  },
+  {
+    "t": "Ch19 Reliability",
+    "d": 2,
+    "q": "For a scale with several subscales identified by factor analysis, how should Cronbach's alpha be computed?",
+    "o": [
+      "Separately for each subscale",
+      "Once, for all items of the questionnaire together",
+      "Only for the subscale with the most items",
+      "For each item separately, then averaged"
+    ],
+    "e": "α assumes the items measure one construct, so each factor or subscale needs its own α. A single α across a multidimensional questionnaire can look high simply because there are many items, while hiding poor subscales.",
+    "w": [
+      "One alpha across subscales can hide poor subscales.",
+      "All subscales need their own alpha.",
+      "Alpha is a scale statistic, not computed for single items."
+    ],
+    "k": "Compute Cronbach's alpha separately for each subscale, never once overall.",
+    "h": "One construct, one alpha.",
+    "r": "Stats & SPSS ch. 19 · Reliability · Subscales"
+  },
+  {
+    "t": "Ch19 Reliability",
+    "d": 3,
+    "q": "Ten items have an average inter-item correlation of .30. What is the standardized alpha, and what would 20 such items give?",
+    "o": [
+      "About .81 with 10 items, rising to about .90 with 20",
+      "About .30 with 10 items, staying at .30 with 20",
+      "About .68 with 10 items, falling to about .50 with 20",
+      "About .81 with 10 items, staying at .81 with 20"
+    ],
+    "e": "α = k·r̄ / [1 + (k − 1)·r̄]: 10 × .30 / (1 + 9 × .30) = 3 / 3.7 = .81, and with k = 20, 6 / 6.7 = .90. α rises with the number of items even when items are no more related, which is why a high α does not prove a scale is good or unidimensional.",
+    "w": [
+      ".30 is the average correlation itself, and alpha rises with more items.",
+      "Alpha rises, not falls, as items are added.",
+      "Alpha rises with more items; it doesn't stay at .81."
+    ],
+    "k": "Standardized alpha = k·r̄ ÷ [1 + (k − 1)·r̄]; it rises with the number of items.",
+    "h": "More items, higher alpha, same quality.",
+    "r": "Stats & SPSS ch. 19 · Reliability · Alpha and the number of items"
+  },
+  {
+    "t": "Ch19 Reliability",
+    "d": 2,
+    "q": "In SPSS's Item-Total Statistics, which result most clearly flags a problem item?",
+    "o": [
+      "A corrected item–total correlation below .3 and a higher 'alpha if item deleted'",
+      "A corrected item–total correlation of .65 for that item",
+      "An 'alpha if item deleted' that is slightly below the overall alpha for the scale",
+      "A scale mean that drops when the item is deleted from the scale"
+    ],
+    "e": "A low corrected item–total correlation means the item does not correlate well with the rest of the scale. If α would rise when it is removed, the item is reducing reliability. Request these in Analyze → Scale → Reliability Analysis → Statistics → 'Scale if item deleted'. Removing items should still make theoretical sense.",
+    "w": [
+      "An item–total correlation of .65 is good.",
+      "Alpha falling when deleted means the item helps.",
+      "Scale means drop whenever any item is deleted."
+    ],
+    "k": "Problem item: item–total r below .3 and alpha rising if deleted.",
+    "h": "Low link, better without.",
+    "r": "Stats & SPSS ch. 19 · Reliability · Item-total statistics"
+  },
+  {
+    "t": "Ch19 Reliability",
+    "d": 2,
+    "q": "Which guideline for interpreting Cronbach's alpha is commonly cited, with an important caveat?",
+    "o": [
+      "Values of .7 to .8 or above are acceptable, but α depends on the number of items",
+      "Values below .5 are excellent, provided that the scale contains more than ten items",
+      "Any α above zero shows that the scale measures a single underlying construct",
+      "Values of exactly 1.0 are the ideal to aim for in clinical questionnaires"
+    ],
+    "e": "Field cites Kline: about .8 for cognitive tests such as intelligence tests and .7 for ability tests, with lower values realistic for some psychological constructs. Context matters: very high α (above .95) may mean redundant items, and α does not indicate unidimensionality.",
+    "w": [
+      "Values below .5 are poor, not excellent.",
+      "A positive alpha doesn't prove the scale is unidimensional.",
+      "Alpha of 1.0 suggests redundant items."
+    ],
+    "k": "Alpha .7–.8+ is acceptable, but it rises with more items and doesn't show unidimensionality.",
+    "h": "High alpha isn't proof of one construct.",
+    "r": "Stats & SPSS ch. 19 · Reliability · Interpreting alpha"
+  },
+  {
+    "t": "Ch19 Extraction",
+    "d": 3,
+    "q": "The 'Total Variance Explained' table shows a factor's eigenvalue changing from 3.2 before rotation to 2.6 after rotation. Why?",
+    "o": [
+      "Rotation redistributes the variance among the factors; the total explained stays the same",
+      "Rotation removes the variance due to measurement error, which lowers every factor's eigenvalue",
+      "Some of the factor's items were deleted during rotation, which reduced its variance",
+      "The eigenvalue fell because the communalities were all reset to one during rotation"
+    ],
+    "e": "Rotation spins the axes so loadings are spread more evenly. The variance explained by each factor (its sum of squared loadings) changes, but the total common variance is unchanged. With oblique rotation, sums of squared loadings cannot be added to get a total, because the factors overlap.",
+    "w": [
+      "Rotation doesn't remove measurement error from any factor.",
+      "Rotation doesn't delete items from the analysis.",
+      "Rotation doesn't reset communalities to one."
+    ],
+    "k": "Rotation redistributes variance among factors; the total stays the same.",
+    "h": "Same pie, new slices.",
+    "r": "Stats & SPSS ch. 19 · Exploratory factor analysis · Variance after rotation"
+  }
+]

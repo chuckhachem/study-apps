@@ -1,0 +1,1324 @@
+[
+  {
+    "t": "Ch8 Objectivity",
+    "d": 2,
+    "q": "Why do the authors open the MSE chapter with Laing's quote and Capra's Tao of Physics?",
+    "o": [
+      "To stress that total objectivity is impossible; we participate and observe",
+      "To argue that mental status exams should be abandoned in favor of testing",
+      "To show that physics methods transfer directly to psychiatry",
+      "To prove that clinicians can achieve emotional neutrality"
+    ],
+    "e": "The authors open the mental status chapter with R. D. Laing and Capra's Tao of Physics to make one point: total objectivity is impossible, because the observer participates in what is observed. Neither complete objectivity nor full emotional neutrality exists in an MSE. The critical challenge is to combine emotional sensitivity with an appropriate degree of objective detachment when describing another person's mind.",
+    "w": [
+      "The authors use the MSE throughout the chapter; they don't argue for replacing it with testing.",
+      "The physics reference illustrates that observers participate, not that physics methods transfer to psychiatry.",
+      "The point is the opposite: complete emotional neutrality isn't achievable."
+    ],
+    "k": "MSEs can't be fully objective: combine emotional sensitivity with appropriate detachment.",
+    "h": "The observer is always in the picture.",
+    "r": "Sommers-Flanagan Ch8 – Objectivity"
+  },
+  {
+    "t": "Ch8 Definition",
+    "d": 1,
+    "q": "The primary purpose of the mental status exam (in the Strub & Black tradition) is to:",
+    "o": [
+      "Evaluate current cognitive processes",
+      "Obtain a complete developmental history",
+      "Establish a DSM diagnosis",
+      "Measure IQ precisely"
+    ],
+    "e": "In the Strub and Black tradition, the mental status examination organizes clinical observations, and its primary purpose is to evaluate current cognitive processes: attention, orientation, memory, thinking and so on, right now. It is not primarily a diagnostic procedure or a formal psychometric test (Polanski and Hinkle), though its findings feed into diagnosis.",
+    "w": [
+      "Developmental history belongs to the psychosocial history, not the MSE.",
+      "A DSM diagnosis draws on the MSE but isn't its primary purpose.",
+      "Precise IQ requires standardized testing; the MSE only estimates intelligence."
+    ],
+    "k": "The MSE's primary purpose is to evaluate current cognitive processes.",
+    "h": "A snapshot of the mind today.",
+    "r": "Sommers-Flanagan Ch8 – What is a mental status examination?"
+  },
+  {
+    "t": "Ch8 Definition",
+    "d": 2,
+    "q": "For psychiatrists, the mental status exam is compared to:",
+    "o": [
+      "The physical examination in general medicine",
+      "A standardized personality test",
+      "A structured diagnostic interview like the SCID",
+      "A brief neuropsychological test battery for memory"
+    ],
+    "e": "Siassi compares the mental status exam to the physical examination in general medicine: a systematic survey of current functioning. In hospitals, daily MSEs may be requested for acutely disturbed patients, typically reported in about one medium-length paragraph per patient, tracking changes over time.",
+    "w": [
+      "A personality test is a standardized psychometric tool, unlike the observational MSE.",
+      "The SCID is a structured diagnostic interview, not the MSE's analogy.",
+      "A neuropsychological battery is formal testing, more detailed than an MSE."
+    ],
+    "k": "The MSE is psychiatry's equivalent of the physical exam.",
+    "h": "Vital signs for the mind.",
+    "r": "Sommers-Flanagan Ch8"
+  },
+  {
+    "t": "Ch8 Categories",
+    "d": 1,
+    "q": "How many main categories does the authors' generic MSE contain?",
+    "o": [
+      "Nine",
+      "Five",
+      "Seven",
+      "Twelve"
+    ],
+    "e": "The authors' generic MSE has nine categories: appearance; behaviour or psychomotor activity; attitude toward the examiner; affect and mood; speech and thought; perceptual disturbances; orientation and consciousness; memory and intelligence; and reliability, judgement and insight. Covering all nine gives a systematic picture of current mental functioning.",
+    "w": [
+      "Five is too few; it omits several of the nine categories.",
+      "Seven is too few for the authors' generic MSE.",
+      "Twelve is more than the authors' nine categories."
+    ],
+    "k": "The generic MSE has nine categories, from appearance to reliability, judgement and insight.",
+    "h": "'A Big Angry Affect Speaks; Perhaps Our Memory Reflects.'",
+    "r": "Sommers-Flanagan Ch8 – The generic MSE"
+  },
+  {
+    "t": "Ch8 Sample reports",
+    "d": 2,
+    "q": "In Mental Status Report 1, Gary Sparrow believed God had told him to become a professional golfer. This is an example of:",
+    "o": [
+      "An auditory hallucination",
+      "A visual illusion",
+      "An obsessive thought about golf",
+      "A somatic delusion about his body"
+    ],
+    "e": "Gary Sparrow reported that God told him to quit his job and become a professional golfer: hearing a voice is an auditory hallucination. His report also showed grandiose delusions about sexual and athletic performance, pressured speech, flight of ideas and labile affect, with absent insight, a picture consistent with mania with psychotic features.",
+    "w": [
+      "A visual illusion is a misperception of something seen; he reported hearing God.",
+      "An obsessive thought is intrusive and unwanted; he experienced a command he believed.",
+      "A somatic delusion concerns the body; his beliefs concerned God and performance."
+    ],
+    "k": "Hearing God's voice telling him what to do = an auditory hallucination.",
+    "h": "Voices heard = auditory.",
+    "r": "Sommers-Flanagan Ch8 – Putting It in Practice 8.1"
+  },
+  {
+    "t": "Ch8 Sample reports",
+    "d": 2,
+    "q": "Ms. Rosa Jackson (Report 2) gave the date as January 9, 1981, recalled zero of three items, and gave concrete proverb interpretations. She was oriented to:",
+    "o": [
+      "Person and place",
+      "Time only",
+      "Person, place and time",
+      "Place only"
+    ],
+    "e": "Ms. Rosa Jackson was oriented to person and place but not to time: she gave a wrong date. She recalled zero of three items, couldn't do serial sevens, interpreted proverbs concretely, and had significantly impaired judgement, reliability and insight. This profile suggests cognitive impairment such as dementia.",
+    "w": [
+      "She was disoriented to time, since she gave the wrong date.",
+      "She wasn't oriented to all three; time was impaired.",
+      "She knew who she was as well as where she was."
+    ],
+    "k": "Rosa Jackson: oriented to person and place, not time (wrong date).",
+    "h": "Knew who and where, but not when.",
+    "r": "Sommers-Flanagan Ch8 – Putting It in Practice 8.1"
+  },
+  {
+    "t": "Ch8 Culture",
+    "d": 2,
+    "q": "The Achebe excerpt (Okonkwo and the missionary) illustrates that:",
+    "o": [
+      "The perception of madness depends on one's cultural perspective",
+      "Religious beliefs are usually delusional in nature",
+      "Interpreters inevitably distort cross-cultural clinical interviews",
+      "Missionaries were often mentally ill in that era"
+    ],
+    "e": "In Achebe's excerpt, Okonkwo concludes that the Christian missionary is mad. The point: the perception of madness depends on one's cultural perspective. Specific cultural, especially spiritual, beliefs may sound delusional to outsiders. For example, fasting can be pathology in one context and spiritual practice in another, so MSE judgements must consider culture.",
+    "w": [
+      "The excerpt shows that judging religious beliefs as delusional depends on perspective.",
+      "Interpreters aren't the focus of the excerpt.",
+      "The missionary wasn't mentally ill; he seemed mad to someone from another culture."
+    ],
+    "k": "What looks like madness depends on cultural perspective; consider culture in MSE judgements.",
+    "h": "One culture's faith is another's 'delusion'.",
+    "r": "Sommers-Flanagan Ch8 – Individual and cultural considerations"
+  },
+  {
+    "t": "Ch8 Appearance",
+    "d": 2,
+    "q": "In the MSE, dilated pupils are sometimes associated with:",
+    "o": [
+      "Drug intoxication (though not conclusive evidence)",
+      "Drug withdrawal in every case, without exception",
+      "Depression",
+      "Normal anxiety only, never a substance effect"
+    ],
+    "e": "In this text, dilated pupils are sometimes associated with drug intoxication, and pinpoint pupils with withdrawal. This is only one piece of the puzzle, never conclusive evidence: lighting, medications and individual differences affect pupil size. Appearance observations raise hypotheses to check against other information.",
+    "w": [
+      "Dilated pupils aren't always withdrawal; the text links pinpoint pupils to withdrawal.",
+      "Depression isn't linked to pupil size here.",
+      "Pupil size can reflect substance effects, not only normal anxiety."
+    ],
+    "k": "In this text: dilated pupils → possible intoxication; pinpoint → possible withdrawal (never conclusive).",
+    "h": "Big pupils, high; tiny pupils, coming down (per this text).",
+    "r": "Sommers-Flanagan Ch8 – Appearance",
+    "n": "Watch the reversal trap: in this text, dilated = intoxication, pinpoint = withdrawal."
+  },
+  {
+    "t": "Ch8 Appearance",
+    "d": 2,
+    "q": "A client appears much older than her stated age. The authors (citing Othmer & Othmer) note this could relate to:",
+    "o": [
+      "Substance abuse, severe depression, chronic or long-term illness",
+      "Histrionic traits and a strong wish for attention",
+      "High intelligence combined with chronic stress at work",
+      "A recent manic episode with weeks of poor sleep"
+    ],
+    "e": "A client looking much older than her stated age may reflect substance abuse, severe depression, or chronic or long-term illness (Othmer and Othmer). But appearance can also reflect circumstances: Maxine Kane looked younger than her age, wearing a miniskirt and heavy makeup, because she came straight from a soap-opera set. Interpret appearance in context.",
+    "w": [
+      "Histrionic traits relate to attention-seeking style, not looking older.",
+      "High intelligence isn't linked to looking older.",
+      "A brief manic episode isn't the association given for looking much older."
+    ],
+    "k": "Looking much older than stated age may relate to substance abuse, severe depression or chronic illness.",
+    "h": "Hard living ages the face.",
+    "r": "Sommers-Flanagan Ch8 – Appearance"
+  },
+  {
+    "t": "Ch8 Behavior",
+    "d": 2,
+    "q": "Severe depression is more likely to be associated with:",
+    "o": [
+      "Psychomotor retardation",
+      "Psychomotor agitation",
+      "Constant visual scanning",
+      "Repetitive lint-picking"
+    ],
+    "e": "Depression can show either agitation or retardation, but severe depression is much more likely to involve psychomotor retardation, slowed movement and speech (Iverson). Other psychomotor clues: constant visual scanning may suggest paranoia; repeated dusting of shoes, OCD; and picking at imagined lint, delirium or toxic drug reactions.",
+    "w": [
+      "Agitation can occur in depression, but severe depression is more often retarded.",
+      "Constant visual scanning of the room suggests paranoid vigilance, not depression.",
+      "Lint-picking suggests delirium or toxic drug reactions."
+    ],
+    "k": "Severe depression is most often linked to psychomotor retardation.",
+    "h": "Deep depression slows the body.",
+    "r": "Sommers-Flanagan Ch8 – Behavior or psychomotor activity"
+  },
+  {
+    "t": "Ch8 Behavior",
+    "d": 2,
+    "q": "A hospitalized patient repeatedly picks imagined lint off her clothes and skin. This is sometimes associated with:",
+    "o": [
+      "Delirium or toxic reactions to drugs",
+      "Obsessive-compulsive disorder (contamination)",
+      "Catatonic schizophrenia",
+      "Histrionic traits"
+    ],
+    "e": "Repeatedly picking imagined lint or dirt off clothes or skin is sometimes associated with delirium or toxic reactions to drugs, conditions that disturb consciousness and perception. Repeated purposeful movements, such as dusting off shoes, may instead suggest obsessive-compulsive disorder. In a hospital patient, this calls for medical evaluation.",
+    "w": [
+      "OCD rituals are purposeful and repetitive; picking imagined lint suggests delirium.",
+      "Catatonia involves motor immobility or bizarre posturing.",
+      "Histrionic traits involve attention-seeking, not picking imagined lint."
+    ],
+    "k": "Picking at imagined lint is sometimes associated with delirium or toxic drug reactions.",
+    "h": "Picking at nothing: think delirium.",
+    "r": "Sommers-Flanagan Ch8 – Behavior"
+  },
+  {
+    "t": "Ch8 Attitude",
+    "d": 2,
+    "q": "In the MSE, 'attitude toward the interviewer' is defined as:",
+    "o": [
+      "Behavior that occurs in an interpersonal context",
+      "The client's stated opinion of therapy and therapists",
+      "The client's personality traits",
+      "The client's feelings about the clinic and its staff"
+    ],
+    "e": "In the MSE, attitude toward the interviewer is behaviour that occurs in an interpersonal context: how the client relates to you (cooperative, hostile, seductive, guarded). Because judgements rely on the interviewer's own reactions, they are subject to bias, for example a male interviewer inferring seductiveness from wishful thinking. Avoid overinterpreting.",
+    "w": [
+      "It isn't the client's opinion of therapy; it's observed interpersonal behaviour.",
+      "Personality traits are broader patterns inferred over time, not this MSE category.",
+      "Feelings about the clinic aren't the definition."
+    ],
+    "k": "Attitude toward the interviewer = interpersonal behaviour in the session, judged with awareness of your bias.",
+    "h": "How they treat you, filtered through you.",
+    "r": "Sommers-Flanagan Ch8 – Attitude toward examiner"
+  },
+  {
+    "t": "Ch8 Attitude",
+    "d": 3,
+    "q": "A client's behavior disturbs you but not anyone else in the client's life. According to the authors, this suggests:",
+    "o": [
+      "The interview may be eliciting it, or it may be your own issue",
+      "The client has a personality disorder others tolerate",
+      "The client's family is in denial about the client's problems",
+      "The behavior is maladaptive"
+    ],
+    "e": "If a client's behaviour disturbs you but nobody else in their life, the interview may be eliciting it, or it may reflect your own issue (countertransference). Before attributing an attitude, ask: Is it unusual? Is it disturbing to the client or others? Is it maladaptive? Can environmental or cultural factors justify it?",
+    "w": [
+      "If others aren't disturbed, a personality disorder others tolerate is a less likely explanation.",
+      "Assuming family denial isn't supported by this pattern.",
+      "If it disturbs only you, it may not be maladaptive in the client's life."
+    ],
+    "k": "If only you are disturbed, consider the interview context or your own reaction before labelling the client.",
+    "h": "Check your own lens.",
+    "r": "Sommers-Flanagan Ch8 – Attitude toward examiner"
+  },
+  {
+    "t": "Ch8 Attitude",
+    "d": 2,
+    "q": "A client says, 'His behavior isn't fair, is it, Doctor?' In Table 8.1 this best fits which attitude?",
+    "o": [
+      "Manipulative",
+      "Ingratiating",
+      "Hostile",
+      "Passive"
+    ],
+    "e": "In Table 8.1, manipulative clients try to use the examiner for their own purposes, for example soliciting agreement ('His behaviour isn't fair, is it, Doctor?') to recruit the interviewer to their side. Ingratiating clients, by contrast, are obsequious and approval-seeking, trying to please the examiner rather than use them.",
+    "w": [
+      "Ingratiating clients try to please and win approval rather than enlist you against someone.",
+      "Hostile clients are indirectly nasty, such as sarcastic.",
+      "Passive clients defer and participate little, rather than trying to enlist you."
+    ],
+    "k": "Manipulative attitude: trying to use the examiner for one's own purposes (e.g., soliciting agreement).",
+    "h": "Recruiting you to their team.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.1"
+  },
+  {
+    "t": "Ch8 Attitude",
+    "d": 2,
+    "q": "Sarcasm, eye-rolling and a sour grimace – indirectly nasty or biting behavior – is labeled:",
+    "o": [
+      "Hostile",
+      "Aggressive",
+      "Negativistic",
+      "Impatient"
+    ],
+    "e": "In Table 8.1, hostile means indirectly nasty or biting behaviour: sarcasm, eye-rolling, a sour grimace, common among delinquent teenagers. Aggressive means direct physical or verbal attack. Negativistic (oppositional) means opposing virtually everything. Impatient means wanting to hurry or end the interview.",
+    "w": [
+      "Aggressive means a direct physical or verbal attack, not indirect sarcasm.",
+      "Negativistic means opposing virtually everything, such as refusing to answer.",
+      "Impatient means wanting the interview to end."
+    ],
+    "k": "Hostile = indirectly nasty (sarcasm, eye-rolls); aggressive = direct attack.",
+    "h": "Hostile hisses; aggressive strikes.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.1"
+  },
+  {
+    "t": "Ch8 Attitude",
+    "d": 2,
+    "q": "A client disagrees with clearly accurate paraphrases and refuses to answer questions. This attitude is:",
+    "o": [
+      "Negativistic (oppositional)",
+      "Indifferent (apathetic, bored)",
+      "Suspicious (guarded)",
+      "Passive (compliant)"
+    ],
+    "e": "A negativistic (oppositional) client opposes virtually everything: disagreeing even with clearly accurate paraphrases, refusing to answer, or remaining silent. A passive client offers little opposition or participation ('Whatever you think'). Indifferent clients seem apathetic or bored; suspicious clients are guarded.",
+    "w": [
+      "Indifferent clients seem bored or apathetic rather than actively opposing.",
+      "Suspicious clients are guarded and wary, not opposing everything.",
+      "Passive clients go along with little opposition."
+    ],
+    "k": "Negativistic (oppositional) = opposing virtually everything, even accurate paraphrases.",
+    "h": "'No' to everything.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.1"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 1,
+    "q": "Affect differs from mood in that affect is:",
+    "o": [
+      "Observed moment-to-moment tone; mood is the sustained self-report",
+      "Self-reported by the client; mood is what the interviewer observes",
+      "Longer-lasting and more stable than mood over the course of a day",
+      "Always identical to mood"
+    ],
+    "e": "Affect is the emotional tone the interviewer observes moment to moment: facial expression, voice and behaviour. Mood is what the client reports: it lasts longer, changes less spontaneously and forms the emotional background. The text's analogy: mood is to affect as climate is to weather.",
+    "w": [
+      "This reverses them: mood is self-reported, affect is observed.",
+      "Mood, not affect, is the longer-lasting state.",
+      "Affect and mood often differ, and the discrepancy is clinically useful."
+    ],
+    "k": "Affect = observed, moment-to-moment; mood = self-reported, sustained (climate vs weather).",
+    "h": "Affect is the weather; mood is the climate.",
+    "r": "Sommers-Flanagan Ch8 – Affect and mood",
+    "n": "Analogy from the text: mood is to affect as climate is to weather."
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 2,
+    "q": "Affect is typically described along which four dimensions?",
+    "o": [
+      "Content/type, range and duration, appropriateness, depth/intensity",
+      "Rate, volume, amount, and response latency of speech",
+      "Remote, recent, immediate, and sensory memory for feelings",
+      "Absent, poor, partial, and good levels"
+    ],
+    "e": "Affect is described along four dimensions: content or type (sad, anxious, angry), range and duration (how varied and how long), appropriateness (does it fit the content?), and depth or intensity. Content is described most commonly, then range and duration; appropriateness and intensity less often.",
+    "w": [
+      "Rate, volume and latency describe speech, not affect.",
+      "Remote, recent and immediate describe types of memory.",
+      "Absent, poor, partial and good are typical insight ratings."
+    ],
+    "k": "Affect is described by content, range/duration, appropriateness and intensity.",
+    "h": "What, how wide, how fitting, how deep.",
+    "r": "Sommers-Flanagan Ch8 – Affect"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 2,
+    "q": "A client on antipsychotic medication shows an emotional response that is present but restricted. This is best described as:",
+    "o": [
+      "Blunted affect",
+      "Flat affect",
+      "Labile affect",
+      "La belle indifference"
+    ],
+    "e": "Blunted affect is present but restricted or minimal emotional expression, often seen with antipsychotic medication. Flat affect is little or no emotional display, seen in schizophrenia, severe depression and Parkinson's disease. Labile affect shifts rapidly. Distinguishing degrees of restriction helps track illness and medication effects.",
+    "w": [
+      "Flat affect is little or no emotional display, more severe than this.",
+      "Labile affect involves rapid shifts, not restriction.",
+      "La belle indifference is unconcern about physical symptoms."
+    ],
+    "k": "Blunted = present but restricted (often antipsychotics); flat = little or none.",
+    "h": "Blunted knife still cuts a little; flat line shows nothing.",
+    "r": "Sommers-Flanagan Ch8 – Range and duration"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 2,
+    "q": "Rapid shifts from happiness to sadness and back, typical of manic or histrionic clients, describe a(n):",
+    "o": [
+      "Labile affect",
+      "Constricted affect",
+      "Flat affect",
+      "Blunted affect"
+    ],
+    "e": "Labile affect describes rapid shifts between emotions, such as happiness to sadness and back, an excessively wide range typical of manic or histrionic clients. Compulsive traits, by contrast, typically show constricted affect, a narrow range. Flat and blunted affect describe reduced expression.",
+    "w": [
+      "Constricted affect is a narrow range, typical of compulsive traits.",
+      "Flat affect is little or no emotional display.",
+      "Blunted affect is restricted, minimal expression, not rapid shifting."
+    ],
+    "k": "Labile affect = rapid emotional shifts (mania, histrionic traits).",
+    "h": "Labile = liable to swing.",
+    "r": "Sommers-Flanagan Ch8 – Range and duration"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 3,
+    "q": "La belle indifference is most commonly associated with:",
+    "o": [
+      "Conversion, somatization or dissociative disorders",
+      "Schizophrenia, paranoid type",
+      "Bipolar disorder, manic phase",
+      "Obsessive-compulsive disorder or other anxiety disorders"
+    ],
+    "e": "La belle indifference is a striking indifference to one's own physical problems, such as calmly describing paralysis. It is most commonly associated with conversion, somatization or dissociative disorders. Research (Stone et al., 2006) suggests it can be reliably identified but may not distinguish these disorders from organic or neurological conditions.",
+    "w": [
+      "Paranoid schizophrenia isn't characterized by indifference to physical symptoms.",
+      "Mania involves elevated mood, not calm unconcern about physical problems.",
+      "Anxiety disorders involve worry, the opposite of indifference."
+    ],
+    "k": "La belle indifference (unconcern about physical symptoms) is linked to conversion, somatization and dissociative disorders.",
+    "h": "'Beautiful indifference' to a paralysed arm.",
+    "r": "Sommers-Flanagan Ch8 – Appropriateness"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 2,
+    "q": "Why should affect appropriateness be judged cautiously?",
+    "o": [
+      "Idiosyncratic or cultural reasons may make odd-seeming affect understandable",
+      "Because only psychiatrists can judge appropriateness",
+      "Because affect never relates to the content of the client's speech anyway",
+      "Because appropriateness is rarely reported"
+    ],
+    "e": "Affect that seems inappropriate may be understandable for idiosyncratic or cultural reasons. Smiling after a long-ill loved one dies may reflect relief or religious beliefs about heaven; some cultures discourage showing emotion in front of professionals. Ask about meaning before labelling affect inappropriate.",
+    "w": [
+      "Any trained interviewer can judge appropriateness, not only psychiatrists.",
+      "Affect does relate to content; that's how appropriateness is judged.",
+      "Appropriateness is reported, though less often than content."
+    ],
+    "k": "Judge affect appropriateness cautiously: cultural or personal reasons may explain it.",
+    "h": "A smile at a funeral may be faith or relief.",
+    "r": "Sommers-Flanagan Ch8 – Appropriateness"
+  },
+  {
+    "t": "Ch8 Affect & mood",
+    "d": 2,
+    "q": "The recommended way to assess mood is:",
+    "o": [
+      "An open question ('Would you describe your mood?'), recorded verbatim",
+      "A direct closed question such as 'Are you depressed right now?'",
+      "Inferring it from facial expression and posture",
+      "Asking family members"
+    ],
+    "e": "Assess mood with an open question such as 'Would you describe your mood?' and record the answer verbatim, so changes can be compared over time. Avoid leading questions ('Are you depressed?'). Then compare self-reported mood with observed affect and thought content; discrepancies are clinically informative.",
+    "w": [
+      "A leading closed question suggests the answer instead of eliciting the client's description.",
+      "Facial expression shows affect, not self-reported mood.",
+      "Family reports don't replace the client's own description of mood."
+    ],
+    "k": "Assess mood with an open question and record the client's words verbatim.",
+    "h": "Ask openly, write it down exactly.",
+    "r": "Sommers-Flanagan Ch8 – Mood"
+  },
+  {
+    "t": "Ch8 Speech",
+    "d": 2,
+    "q": "Speech is ordinarily described in terms of:",
+    "o": [
+      "Rate, volume and amount",
+      "Content, range and depth",
+      "Process and content",
+      "Fluency, grammar and vocabulary"
+    ],
+    "e": "Speech is described by rate, volume and amount. Rate and volume are high, normal or low (pressured or loud, normal, slow or soft). Freely flowing speech is 'spontaneous'; brief replies indicate 'poverty of speech'; slow replies, 'increased latency'. Articulation problems are noted separately.",
+    "w": [
+      "Content, range and depth describe affect, not speech.",
+      "Process and content describe thought, not speech.",
+      "Grammar and vocabulary aren't the standard speech dimensions."
+    ],
+    "k": "Speech: rate, volume and amount (e.g., pressured, poverty of speech, increased latency).",
+    "h": "How fast, how loud, how much.",
+    "r": "Sommers-Flanagan Ch8 – Speech"
+  },
+  {
+    "t": "Ch8 Speech",
+    "d": 3,
+    "q": "Rapid, disorganized, tongue-tied speech is called:",
+    "o": [
+      "Cluttering",
+      "Dysarthria",
+      "Dysprosody",
+      "Stuttering"
+    ],
+    "e": "Cluttering is rapid, disorganized, tongue-tied speech. Dysarthria is a problem with articulation, such as slurring. Dysprosody is a problem with speech rhythm: mumbling or long pauses between syllables. Stuttering involves repetitions, prolongations or blocks of sounds. These speech observations can point to neurological, developmental or emotional factors.",
+    "w": [
+      "Dysarthria is slurred or poorly articulated speech.",
+      "Dysprosody is a disturbance of speech rhythm.",
+      "Stuttering involves repeated or prolonged sounds, not rapid tongue-tied speech."
+    ],
+    "k": "Cluttering = rapid, disorganized, tongue-tied speech; dysarthria = slurring; dysprosody = rhythm problems.",
+    "h": "Clutter = a messy rush of words.",
+    "r": "Sommers-Flanagan Ch8 – Speech"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 1,
+    "q": "Thought process refers to ______ a client thinks; thought content refers to ______ the client thinks.",
+    "o": [
+      "How; what",
+      "What; how",
+      "Why; when",
+      "When; why"
+    ],
+    "e": "Thought process is how a client thinks: the organization and logic of thinking, assessed through speech, such as circumstantiality, flight of ideas and loose associations. Thought content is what the client thinks: delusions, obsessions, suicidal or homicidal thoughts, phobias and preoccupations.",
+    "w": [
+      "This reverses them: process is how, content is what.",
+      "Why and when aren't the process/content distinction.",
+      "When and why aren't the distinction either."
+    ],
+    "k": "Thought process = how someone thinks; thought content = what they think.",
+    "h": "Process is the road, content is the cargo.",
+    "r": "Sommers-Flanagan Ch8 – Thought process / content"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "The client's letter to 'Bill' starts with loosely connected sentences and, after the word 'doctor', becomes:",
+    "o": [
+      "Word salad – complete incoherence",
+      "Clang associations and rhyming speech",
+      "Circumstantial, overdetailed speech",
+      "Perseveration on one idea"
+    ],
+    "e": "The letter to 'Bill' begins with loosely connected sentences (loosening of associations) and, after the word 'doctor', decompensates into word salad: complete incoherence, a jumble of words with no logical connection. Word salad is the highest level of thought disorganization.",
+    "w": [
+      "Clang associations link words by sound, such as rhyming.",
+      "Circumstantial speech is overdetailed but reaches its point.",
+      "Perseveration repeats the same idea or word."
+    ],
+    "k": "Word salad = complete incoherence, the most severe thought disorganization.",
+    "h": "Words tossed like salad.",
+    "r": "Sommers-Flanagan Ch8 – Thought process"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 3,
+    "q": "Which ordering from LEAST to MOST thought disturbance is consistent with Table 8.2?",
+    "o": [
+      "Circumstantiality → tangentiality → loose associations → word salad",
+      "Tangentiality → circumstantiality → word salad → loose associations",
+      "Word salad → loose associations → tangentiality → circumstantiality",
+      "Loose associations → circumstantiality → tangentiality → word salad"
+    ],
+    "e": "Table 8.2 implies an order of severity: circumstantiality (overdetailed but reaches the point) is least disturbed; tangentiality (never returns to the point) is more disturbed; loose associations (weak logical links between ideas) more still; and word salad (complete incoherence) is the most disorganized.",
+    "w": [
+      "Circumstantiality is milder than tangentiality, and word salad is the most severe, so this is wrong.",
+      "This runs from most to least severe, the reverse of the question.",
+      "Loose associations are more disturbed than circumstantiality and tangentiality."
+    ],
+    "k": "Severity: circumstantiality < tangentiality < loose associations < word salad.",
+    "h": "Detours, wrong turns, broken road, no road.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "A professor gives excessive detail but eventually makes his point. This is:",
+    "o": [
+      "Circumstantiality",
+      "Tangential speech",
+      "Flight of ideas",
+      "Blocking"
+    ],
+    "e": "Circumstantiality is excessive, unnecessary detail with eventual arrival at the point, like the professor who eventually gets there. Tangential speakers never return to the point. Circumstantiality can also reflect defensiveness or a paranoid style, as the speaker hedges every detail.",
+    "w": [
+      "Tangential speakers never return to the point.",
+      "Flight of ideas is rapid, overproductive jumping between ideas.",
+      "Blocking is a sudden stop in speech."
+    ],
+    "k": "Circumstantiality = overdetailed but reaches the point; tangentiality never does.",
+    "h": "Circumstantial: the scenic route, but you arrive.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 3,
+    "q": "How is flight of ideas distinguished from loose associations and from tangentiality?",
+    "o": [
+      "It keeps logical links (unlike loose associations) and is overproductive (unlike tangentiality)",
+      "It has no logical connections at all, unlike loose associations, and it is much less productive",
+      "It always reaches the original point eventually, like circumstantial speech does",
+      "It is underproductive speech"
+    ],
+    "e": "Flight of ideas is continuous, overproductive, fragmented speech that jumps between ideas while keeping logical links, but never reaches the point. It is typical of mania (or excess caffeine). Unlike loose associations, the links are logical; unlike tangentiality, the speech is overproductive and rapid.",
+    "w": [
+      "Flight of ideas keeps logical links and is overproductive, so this reverses both.",
+      "Flight of ideas never reaches the point, unlike circumstantial speech.",
+      "Flight of ideas is overproductive, not underproductive."
+    ],
+    "k": "Flight of ideas: rapid, overproductive, logically linked, never reaching the point (mania).",
+    "h": "Ideas take flight, each landing near the last.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "'I'm slime, dime, do some mime' illustrates:",
+    "o": [
+      "Clang associations",
+      "Neologisms (invented words)",
+      "Perseveration",
+      "Word salad"
+    ],
+    "e": "Clang associations combine words because of their sound, such as rhyming or alliteration, rather than meaning: 'I'm slime, dime, do some mime.' They usually appear in very disturbed clients, such as in mania or psychosis, but are not abnormal when a subculture encourages them, as in rap music.",
+    "w": [
+      "Neologisms are newly invented words, not rhymes of existing words.",
+      "Perseveration repeats the same idea or word.",
+      "Word salad has no organizing link at all; clang associations are linked by sound."
+    ],
+    "k": "Clang associations link words by sound (rhyme, alliteration) rather than meaning.",
+    "h": "Clang: words that ring alike.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "A client uses the word 'temperaturific'. Before labeling it a neologism, you should:",
+    "o": [
+      "Ask the client about the word's meaning and origin",
+      "Record it immediately as clear evidence of psychosis",
+      "Ignore it as a simple slip of the tongue",
+      "Ask family members whether the client invents words"
+    ],
+    "e": "Neologisms are spontaneously invented words associated with psychosis. But unusual words may be real, slang, or come from songs or TV shows. Before labelling 'temperaturific' a neologism, ask the client about the word's meaning and origin. Their answer helps distinguish creativity or culture from thought disorder.",
+    "w": [
+      "Recording it immediately as psychosis skips checking whether the word has a source.",
+      "Ignoring it misses a possibly important sign.",
+      "Asking family first bypasses the simplest check: asking the client."
+    ],
+    "k": "Before calling an odd word a neologism, ask the client what it means and where it comes from.",
+    "h": "Ask before you diagnose a word.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "Sudden cessation of speech mid-stream with no clear external reason, which the client can't explain, is:",
+    "o": [
+      "Blocking",
+      "Mutism",
+      "Poverty of speech",
+      "Increased latency"
+    ],
+    "e": "Blocking is a sudden stop in speech mid-stream, with no clear external reason, which the client can't explain. It may indicate an anxiety-laden topic or the intrusion of delusions or perceptual disturbances. Paniagua cautions that clients not fluent in English may show apparent blocking, so beware cultural misjudgement.",
+    "w": [
+      "Mutism is a complete absence of speech, not a mid-sentence stop.",
+      "Poverty of speech is consistently brief replies.",
+      "Increased latency is a delay before responding."
+    ],
+    "k": "Blocking = sudden, unexplained stop in speech; consider anxiety, psychosis, or language barriers.",
+    "h": "The train of thought suddenly stops.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought process",
+    "d": 2,
+    "q": "How does the text distinguish perseveration from a teenager's persistence?",
+    "o": [
+      "Persistent teens can stop themselves voluntarily if properly motivated",
+      "Perseveration is verbal, while persistence is physical",
+      "Perseveration is voluntary",
+      "Normal teenagers never persist with a request after being told no"
+    ],
+    "e": "Perseveration is the involuntary repetition of a response or idea, often linked with brain damage or disease, or with psychosis: the person can't stop, even when it no longer fits. A persistent teenager who keeps asking for something can stop voluntarily if properly motivated. Voluntary control is the dividing line.",
+    "w": [
+      "Both can be verbal; the distinction is voluntary control, not modality.",
+      "Perseveration is involuntary; that's what separates it from persistence.",
+      "Normal teens often persist after being told no; they just can choose to stop."
+    ],
+    "k": "Perseveration is involuntary repetition (brain disease, psychosis); persistence can be stopped voluntarily.",
+    "h": "Can't stop vs won't stop.",
+    "r": "Sommers-Flanagan Ch8 – Table 8.2"
+  },
+  {
+    "t": "Ch8 Thought content",
+    "d": 2,
+    "q": "For a belief to be considered a delusion, it must be:",
+    "o": [
+      "False and unexplained by cultural, religious and educational background",
+      "Shared by at least one member of the client's family or wider community",
+      "Distressing to the client",
+      "Present for at least six months and resistant to all medication"
+    ],
+    "e": "A delusion is a deeply held false belief, representing a break from reality, that cannot be explained by the person's cultural, religious or educational background. Don't dispute delusions directly, which usually entrenches them; explore them instead ('How do you know this is the case?') to understand their content and conviction.",
+    "w": [
+      "Beliefs shared by the family or community are more likely cultural, not delusional.",
+      "Distress isn't required; many delusions, such as grandiose ones, aren't distressing.",
+      "There's no six-month or medication-resistance requirement for a delusion."
+    ],
+    "k": "Delusion = a false, firmly held belief not explained by culture, religion or education.",
+    "h": "False, fixed, and not from their culture.",
+    "r": "Sommers-Flanagan Ch8 – Thought content"
+  },
+  {
+    "t": "Ch8 Thought content",
+    "d": 2,
+    "q": "A hospitalized man believes the TV news broadcasts his life story nightly. This is a(n):",
+    "o": [
+      "Idea of reference",
+      "Delusion of alien control",
+      "Somatic delusion",
+      "Illusion"
+    ],
+    "e": "Believing the TV news broadcasts your life story is an idea of reference: the belief that ordinary events, such as broadcasts, conversations or license plates, refer specifically to you. Clients with paranoid delusions often have ideas of reference. It reflects a breakdown in distinguishing personal from impersonal events.",
+    "w": [
+      "Delusions of alien control involve feeling controlled by outside forces.",
+      "Somatic delusions concern false beliefs about the body, not broadcasts.",
+      "An illusion is a misperception of a real stimulus, not a belief about meaning."
+    ],
+    "k": "Idea of reference = believing ordinary events (like TV news) refer specifically to you.",
+    "h": "'The news is about me.'",
+    "r": "Sommers-Flanagan Ch8 – Thought content"
+  },
+  {
+    "t": "Ch8 Thought content",
+    "d": 2,
+    "q": "Feeling like a puppet controlled by an outside force is a delusion of:",
+    "o": [
+      "Alien control",
+      "Grandeur",
+      "Persecution",
+      "Self-deprecation"
+    ],
+    "e": "Delusions of alien control involve disowning one's own volition: feeling like a puppet moved by an outside force. Themes change with the times: formerly being 'controlled by the Russians', more recently possession or alien abduction. The core is the experience that one's thoughts or actions aren't one's own.",
+    "w": [
+      "Delusions of grandeur involve inflated importance or powers.",
+      "Persecutory delusions involve being harmed or plotted against.",
+      "Delusions of self-deprecation involve worthlessness or sin."
+    ],
+    "k": "Delusion of alien control: feeling one's actions or thoughts are controlled by an outside force.",
+    "h": "The puppet and the strings.",
+    "r": "Sommers-Flanagan Ch8 – Thought content"
+  },
+  {
+    "t": "Ch8 Thought content",
+    "d": 3,
+    "q": "About what percentage of hospitalized patients with depression report delusions (Maj, 2008)?",
+    "o": [
+      "25 percent",
+      "15 percent",
+      "About 5 percent",
+      "50 percent"
+    ],
+    "e": "Maj (2008) reports that about 25% of hospitalized patients and 15% of outpatients with depression report delusions, most often of self-deprecation: sinfulness, ugliness or stupidity. These mood-congruent delusions mark more severe, psychotic depression, which changes both the treatment plan (often adding antipsychotic medication) and the assessment of risk.",
+    "w": [
+      "15% is the figure for outpatients with depression, not hospitalized patients.",
+      "About 5% understates delusions in hospitalized depression.",
+      "50% overstates it; about one in four hospitalized depressed patients report delusions."
+    ],
+    "k": "About 25% of hospitalized (15% of outpatient) depressed patients report delusions, often self-deprecating.",
+    "h": "One in four inpatients.",
+    "r": "Sommers-Flanagan Ch8 – Thought content"
+  },
+  {
+    "t": "Ch8 Thought content",
+    "d": 2,
+    "q": "What should happen when a client presents with a suspected somatic delusion?",
+    "o": [
+      "A physician should examine the client to rule out a medical condition",
+      "Confront the belief directly with factual evidence",
+      "Diagnose a psychotic disorder based on the belief alone",
+      "Ignore it unless it becomes bizarre or the client is distressed"
+    ],
+    "e": "With a suspected somatic delusion, first seek factual evidence: a physician should examine the client to rule out a medical condition. A belief that seems bizarre may have a real cause. The book's example: a young man shouting obscenities may have Tourette's disorder rather than a psychological dynamic.",
+    "w": [
+      "Confronting with evidence tends to entrench beliefs and skips medical evaluation.",
+      "Diagnosing psychosis from the belief alone risks missing a medical cause.",
+      "Ignoring it risks missing both medical illness and psychosis."
+    ],
+    "k": "Suspected somatic delusion: have a physician rule out a medical condition first.",
+    "h": "Check the body before calling it delusion.",
+    "r": "Sommers-Flanagan Ch8 – Thought content"
+  },
+  {
+    "t": "Ch8 Obsessions",
+    "d": 2,
+    "q": "Obsessions are characterized primarily by:",
+    "o": [
+      "A sense of doubt",
+      "A sense of grandiosity",
+      "Perceptual distortion",
+      "Loss of orientation"
+    ],
+    "e": "Obsessions are characterized primarily by a sense of doubt: 'Are my hands clean? Did I lock the door?' Most compulsions involve washing or checking to relieve that doubt, and clinically significant compulsions are virtually always preceded by obsessions. Doubt drives the cycle.",
+    "w": [
+      "Grandiosity characterizes mania or narcissism, not obsessions.",
+      "Perceptual distortions are hallucinations or illusions, a separate MSE category.",
+      "Loss of orientation suggests delirium or dementia."
+    ],
+    "k": "Obsessions are driven by doubt ('Did I lock the door?'); compulsions relieve it.",
+    "h": "Obsession = 'Are you sure?' on repeat.",
+    "r": "Sommers-Flanagan Ch8 – Obsessions"
+  },
+  {
+    "t": "Ch8 Obsessions",
+    "d": 3,
+    "q": "A client always counts stairs but functions well at work, school and home. The authors would say this is:",
+    "o": [
+      "Clinically, not necessarily diagnostically, significant (a 'normal obsession')",
+      "Diagnostic of obsessive-compulsive disorder, regardless of daily functioning",
+      "Irrelevant and not worth noting in a mental status examination report",
+      "A delusion of control"
+    ],
+    "e": "Counting stairs without impairment is clinically, not necessarily diagnostically, significant. Clinical significance means it may contribute to understanding or treatment; diagnostic significance means it contributes to a diagnosis. Rassin and colleagues call such harmless thoughts and rituals 'normal obsessions'. OCD requires distress or impairment.",
+    "w": [
+      "OCD requires significant distress or impairment, which this client lacks.",
+      "It's still worth noting as clinically relevant information.",
+      "Counting stairs isn't a delusion of being controlled."
+    ],
+    "k": "Harmless rituals without impairment are clinically, not diagnostically, significant ('normal obsessions').",
+    "h": "Quirky isn't the same as disordered.",
+    "r": "Sommers-Flanagan Ch8 – Obsessions"
+  },
+  {
+    "t": "Ch8 Perception",
+    "d": 1,
+    "q": "Hallucinations differ from illusions in that hallucinations are:",
+    "o": [
+      "False sensory experiences; illusions distort existing stimuli",
+      "Distortions of real stimuli; illusions are false experiences",
+      "Always visual",
+      "Always caused by drugs or alcohol"
+    ],
+    "e": "Hallucinations are false sensory experiences with no external stimulus, such as hearing a voice in an empty room. Illusions are distortions of an existing stimulus, such as seeing a coat as a person. Auditory hallucinations are most commonly reported, usually with affective disorders or schizophrenia, sometimes with intoxication or acute traumatic stress.",
+    "w": [
+      "This reverses them: illusions distort real stimuli, hallucinations have no stimulus.",
+      "Hallucinations can involve any sense; auditory ones are most common.",
+      "They can have many causes, not only drugs or alcohol."
+    ],
+    "k": "Hallucination = perception without a stimulus; illusion = distortion of a real stimulus.",
+    "h": "Hallucination from nothing; illusion from something.",
+    "r": "Sommers-Flanagan Ch8 – Perceptual disturbances"
+  },
+  {
+    "t": "Ch8 Perception",
+    "d": 2,
+    "q": "Odd perceptions occurring only while falling asleep or waking are:",
+    "o": [
+      "Relatively normal and less diagnostically relevant",
+      "Strong evidence of schizophrenia or another psychosis",
+      "Signs of delirium that require urgent medical evaluation",
+      "Always tactile"
+    ],
+    "e": "Odd perceptions occurring only while falling asleep (hypnagogic) or waking (hypnopompic) are relatively normal and less diagnostically relevant. They are associated with sleep paralysis and the felt presence of another person (Cheyne and Girard). Always ask when unusual perceptual experiences occur.",
+    "w": [
+      "Sleep-transition perceptions are common and don't by themselves suggest psychosis.",
+      "They don't signal delirium, which involves disturbed consciousness while awake.",
+      "They can be visual, auditory or felt, not only tactile."
+    ],
+    "k": "Perceptions only at sleep onset or waking are relatively normal; always ask when experiences occur.",
+    "h": "Twilight-zone sleep images are usually normal.",
+    "r": "Sommers-Flanagan Ch8 – Perceptual disturbances"
+  },
+  {
+    "t": "Ch8 Perception",
+    "d": 2,
+    "q": "Robinson's three-part approach to questioning about delusions includes all EXCEPT:",
+    "o": [
+      "Challenge the belief with contrary evidence",
+      "Grease the wheels",
+      "Uncover the logic",
+      "Determine distance from the delusion (insight)"
+    ],
+    "e": "Robinson's three-part approach to questioning about delusions: (1) grease the wheels ('Tell me more'); (2) uncover the logic ('Why would someone want to do this to you?'); and (3) determine distance from the delusion, a measure of insight ('How do you know that this is the situation?'). Challenging the belief with contrary evidence isn't part of it, because it entrenches beliefs and damages rapport.",
+    "w": [
+      "Greasing the wheels, encouraging the client to say more, is part of the approach.",
+      "Uncovering the logic behind the belief is part of the approach.",
+      "Determining the client's distance from the delusion is part of the approach."
+    ],
+    "k": "Robinson: grease the wheels, uncover the logic, gauge distance from the delusion; don't challenge it.",
+    "h": "Open it, follow it, measure it.",
+    "r": "Sommers-Flanagan Ch8 – Perceptual disturbances"
+  },
+  {
+    "t": "Ch8 Perception",
+    "d": 2,
+    "q": "'You seem to be a pretty sensitive person. Is your hearing especially good?' This question:",
+    "o": [
+      "Normalizes the experience before asking about hallucinations",
+      "Confronts a possible delusion indirectly, with gentle humor and warmth",
+      "Assesses orientation to person and place in a friendly, indirect way",
+      "Tests remote memory for sensory events"
+    ],
+    "e": "'You seem to be a pretty sensitive person. Is your hearing especially good?' normalizes unusual perceptual experiences before asking about hallucinations, making disclosure less stigmatizing. Similarly, mentioning 'a song stuck in your head' normalizes obsessions. It's akin to Robinson's 'greasing the wheels'.",
+    "w": [
+      "It doesn't confront a delusion; it gently opens the topic of perceptions.",
+      "Orientation is assessed with questions about person, place and time.",
+      "It doesn't test memory; it prepares the ground for asking about hallucinations."
+    ],
+    "k": "Normalize before asking about hallucinations ('Is your hearing especially good?').",
+    "h": "Make it ordinary before asking about the extraordinary.",
+    "r": "Sommers-Flanagan Ch8 – Perceptual disturbances"
+  },
+  {
+    "t": "Ch8 Perception",
+    "d": 2,
+    "q": "Visual or tactile hallucinations (e.g., picking at insects on skin) usually call for:",
+    "o": [
+      "Immediate medical evaluation and intervention",
+      "A full intellectual and memory assessment first",
+      "Waiting a few weeks to see if they resolve on their own",
+      "Family therapy"
+    ],
+    "e": "Visual or tactile hallucinations, such as feeling and picking at insects on the skin, are often linked to organic conditions: intoxication, withdrawal (e.g., alcohol), brain trauma or disease. They are usually serious and call for immediate medical evaluation and intervention, not watchful waiting.",
+    "w": [
+      "A full intellectual assessment would delay urgent medical care.",
+      "Waiting weeks risks a medical emergency such as delirium or withdrawal.",
+      "Family therapy doesn't address a likely organic cause."
+    ],
+    "k": "Visual or tactile hallucinations usually signal organic causes: get immediate medical evaluation.",
+    "h": "Bugs on the skin: call the doctor now.",
+    "r": "Sommers-Flanagan Ch8 – Perceptual disturbances"
+  },
+  {
+    "t": "Ch8 Orientation",
+    "d": 1,
+    "q": "A client answering name, place and date correctly is recorded as:",
+    "o": [
+      "OX3 (oriented times three)",
+      "OX1 (oriented to person only)",
+      "MSE-3 (three domains intact)",
+      "AAO2 (alert and oriented twice)"
+    ],
+    "e": "Orientation is assessed for person, place and time. A client who answers all three correctly is recorded as 'oriented times three' (OX3). Note that resisting or refusing orientation questions may itself indicate disorientation, since clients may avoid exposing what they don't know.",
+    "w": [
+      "OX1 would mean oriented to person only.",
+      "MSE-3 isn't a standard notation; orientation is recorded as OX1 to OX3.",
+      "AAO2 would mean oriented to only two spheres."
+    ],
+    "k": "Oriented to person, place and time = OX3.",
+    "h": "Who, where, when: three for three.",
+    "r": "Sommers-Flanagan Ch8 – Orientation"
+  },
+  {
+    "t": "Ch8 Orientation",
+    "d": 3,
+    "q": "When clients become disoriented (e.g., in delirium), they usually lose orientation in which order?",
+    "o": [
+      "Time, then place, then person",
+      "Person, then place, then time",
+      "Place, then time, then person",
+      "All three at once, then recovered at once"
+    ],
+    "e": "When clients become disoriented, as in delirium, orientation is usually lost in the order time, then place, then person, and recovered in the reverse order: person, then place, then time. Time is the most fragile because it changes constantly; identity is the most deeply anchored.",
+    "w": [
+      "Person is usually the last to be lost, not the first.",
+      "Time, not place, is usually lost first.",
+      "Orientation is lost and recovered in a sequence, not all at once."
+    ],
+    "k": "Orientation is lost time → place → person, and regained person → place → time.",
+    "h": "When goes first, who goes last.",
+    "r": "Sommers-Flanagan Ch8 – Orientation and consciousness"
+  },
+  {
+    "t": "Ch8 Orientation",
+    "d": 2,
+    "q": "In the head-trauma example, the interviewer asked the day of the week rather than the date because:",
+    "o": [
+      "It was a simpler orientation-to-time question to start with",
+      "The exact date was unknown to the interviewer at the time of the interview",
+      "Questions about dates are culturally biased for most patients",
+      "It tests remote memory"
+    ],
+    "e": "In the head-trauma example, the interviewer asked the day of the week, a simpler orientation-to-time question, to start with. The patient kept evading (asking for water, talking about his bike accident), and that evasion itself suggested disorientation. Starting simple lets you gauge the level of impairment.",
+    "w": [
+      "The interviewer knew the date; the choice was about simplicity.",
+      "Date questions aren't described as culturally biased here.",
+      "It tests orientation to time, not remote memory."
+    ],
+    "k": "Start orientation-to-time questions simply (day of the week); evasion can signal disorientation.",
+    "h": "Easy question first; dodging is data.",
+    "r": "Sommers-Flanagan Ch8 – Orientation"
+  },
+  {
+    "t": "Ch8 Orientation",
+    "d": 2,
+    "q": "Consciousness descriptors range on a continuum. Which is listed?",
+    "o": [
+      "Alert, confused, clouded, stuporous, unconscious, comatose",
+      "Cooperative, hostile, passive, open, seductive, suspicious, intense",
+      "Absent, poor, partial, good, excellent",
+      "Remote, recent, immediate, working"
+    ],
+    "e": "Consciousness is described on a continuum: alert, confused, clouded, stuporous, unconscious, comatose. Consciousness and orientation are related but not identical: a person can be fully alert yet disoriented, as in some dementias, so both are evaluated separately in the MSE. Changes in consciousness, especially sudden ones, can signal medical emergencies such as delirium.",
+    "w": [
+      "Cooperative, hostile and passive describe attitude toward the examiner.",
+      "Absent, poor, partial and good describe insight.",
+      "Remote, recent and immediate describe memory types."
+    ],
+    "k": "Consciousness continuum: alert → confused → clouded → stuporous → unconscious → comatose.",
+    "h": "From wide awake to unreachable.",
+    "r": "Sommers-Flanagan Ch8 – Orientation and consciousness"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 2,
+    "q": "Three types of memory assessed in the MSE are:",
+    "o": [
+      "Remote, recent (past week or so), and immediate (minutes)",
+      "Episodic, semantic, and procedural memory",
+      "Short-term, working, and long-term memory systems (Baddeley)",
+      "Explicit, implicit, and autobiographical (episodic) memory systems"
+    ],
+    "e": "The MSE assesses remote memory (distant past), recent memory (roughly the past week), and immediate memory (the last few minutes). Remote memory is hard to verify because of possible confabulation; recent and immediate memory are easier to check, for example by asking what the client had for breakfast or recalling three words.",
+    "w": [
+      "Episodic, semantic and procedural are cognitive psychology memory types, not the MSE trio.",
+      "Baddeley's working memory model isn't the MSE framework.",
+      "Explicit and implicit memory systems aren't the MSE categories."
+    ],
+    "k": "MSE memory: remote, recent (past week), immediate (minutes).",
+    "h": "Long ago, lately, just now.",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 2,
+    "q": "In the presidents example, the client answered 'William Washington' after the examiner said 'All you need is one more.' This shows:",
+    "o": [
+      "Confabulation caused by examiner pressure, even supportive pressure",
+      "Pseudodementia caused by underlying depression",
+      "Perseveration on the names of the earlier presidents he recalled",
+      "Malingering to avoid further testing"
+    ],
+    "e": "Confabulation is the spontaneous fabrication or distortion of memories. When the examiner said 'All you need is one more', the client produced 'William Washington'. Under pressure, even supportive pressure, people tend to make something up rather than admit not knowing. Examiners must avoid pushing.",
+    "w": [
+      "Pseudodementia is depression-related cognitive impairment, not a fabricated answer.",
+      "Perseveration would repeat an earlier answer rather than invent a new one.",
+      "Nothing suggests deliberate malingering; pressure prompted the invention."
+    ],
+    "k": "Pressure from the examiner, even encouraging pressure, can produce confabulation.",
+    "h": "Push for one more, get a made-up one.",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 3,
+    "q": "Which statement about memory complaints is supported by the text?",
+    "o": [
+      "Brain-injured clients may deny memory problems; depressed ones exaggerate",
+      "Admitting memory problems proves organic impairment",
+      "Depressed clients never have any real cognitive impairment at all",
+      "Brain-injured clients usually exaggerate deficits"
+    ],
+    "e": "Memory complaints can be misleading. Brain-injured clients may deny or minimize memory problems, while depressed clients tend to exaggerate them. Depressed clients may show real cognitive impairment without an organic cause, called pseudodementia, which often resolves when the depression lifts.",
+    "w": [
+      "Admitting memory problems doesn't prove organic impairment; depressed clients often complain.",
+      "Depressed clients can have real cognitive impairment (pseudodementia).",
+      "Brain-injured clients usually minimize, not exaggerate, deficits."
+    ],
+    "k": "Brain-injured clients often deny memory problems; depressed clients exaggerate them (pseudodementia).",
+    "h": "The injured downplay, the depressed overplay.",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 2,
+    "q": "The most common formal tests of immediate memory/attention in the MSE are:",
+    "o": [
+      "Serial sevens, recall of brief stories, and digit span",
+      "Proverbs, similarities, and vocabulary items from IQ tests",
+      "Three words to describe each parent, plus early memories",
+      "The BASIC ID and ABC model"
+    ],
+    "e": "The most common formal MSE tests of immediate memory and attention are serial sevens ('begin with 100 and count backwards by 7'), recall of brief stories, and digit span. Research on serial sevens is weak, and anxiety, culture and education strongly affect performance, so results should be interpreted cautiously.",
+    "w": [
+      "Proverbs and similarities assess abstract thinking, not immediate memory.",
+      "Three words for each parent is a history-taking technique.",
+      "BASIC ID and ABC are problem-conceptualization frameworks."
+    ],
+    "k": "Immediate memory/attention tests: serial sevens, story recall, digit span (interpret cautiously).",
+    "h": "100, 93, 86…",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 2,
+    "q": "During digit span, the client repeats 8–5–9–7–3 for 8–5–9–3–7. What does the examiner do?",
+    "o": [
+      "Gives another set of the same length without pointing out the error",
+      "Corrects the client and then repeats the same set again",
+      "Stops the test and records the span as four digits",
+      "Moves on to a longer series to test the ceiling"
+    ],
+    "e": "During digit span, if the client makes an error, the examiner gives another set of the same length without pointing out the mistake. Usually, if the client gets one of two trials correct at a length, proceed to the next length, until both trials at a length are wrong. Then digit span backward is tested.",
+    "w": [
+      "Correcting the client and repeating the set contaminates the test.",
+      "One error doesn't end the test; a second trial at that length is given.",
+      "A longer series comes only after success at the current length."
+    ],
+    "k": "Digit span error: give another set of the same length, without pointing out the error.",
+    "h": "Second chance at the same length.",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Memory",
+    "d": 2,
+    "q": "When clients are referred specifically for memory problems, after the initial MSE the interviewer should:",
+    "o": [
+      "Interview family about onset, duration and severity; arrange further assessment",
+      "Rely on the MSE findings alone to diagnose dementia and plan treatment",
+      "Avoid involving any family members at all, in order to protect confidentiality",
+      "Repeat serial sevens weekly"
+    ],
+    "e": "The MSE is only a screen. For clients referred specifically for memory problems, interview family members about the onset, duration and severity of the difficulties, and arrange further assessment, typically formal neuropsychological testing, to specify the nature of the impairment.",
+    "w": [
+      "An MSE alone can't diagnose dementia; it's only a screen.",
+      "Family input is important, with appropriate consent.",
+      "Repeating serial sevens weekly isn't a proper assessment."
+    ],
+    "k": "Memory referrals: interview family about onset and course, and arrange neuropsychological assessment.",
+    "h": "Screen, then specialize.",
+    "r": "Sommers-Flanagan Ch8 – Memory"
+  },
+  {
+    "t": "Ch8 Intelligence",
+    "d": 2,
+    "q": "Sternberg and Wagner's triarchic theory identifies which three forms of intelligence?",
+    "o": [
+      "Academic problem solving, practical, creative",
+      "Verbal, spatial, and logical-mathematical intelligence",
+      "Fluid, crystallized, and general (g) intelligence",
+      "Emotional, social, academic"
+    ],
+    "e": "Sternberg and Wagner's triarchic theory identifies academic problem-solving, practical and creative intelligence. A client may have strong practical skills, such as street survival or mechanical creativity, yet appear unintelligent on academic tasks. MSE estimates of intelligence should consider all three.",
+    "w": [
+      "Verbal, spatial and logical-mathematical come from Gardner's multiple intelligences.",
+      "Fluid, crystallized and g come from psychometric models like Cattell's.",
+      "Emotional and social intelligence aren't Sternberg's three."
+    ],
+    "k": "Sternberg's triarchic theory: academic, practical and creative intelligence.",
+    "h": "Book smart, street smart, inventive.",
+    "r": "Sommers-Flanagan Ch8 – Intelligence"
+  },
+  {
+    "t": "Ch8 Intelligence",
+    "d": 2,
+    "q": "Which is described as the single strongest predictor of IQ?",
+    "o": [
+      "Vocabulary",
+      "Education level",
+      "Fund of knowledge",
+      "Abstract thinking"
+    ],
+    "e": "Vocabulary is described as the single strongest predictor of IQ. Yet vocabulary is biased in favour of the formally educated and against cultural minorities (Ortiz and Ochoa), so a limited vocabulary may reflect opportunity rather than ability. Statements about intelligence in an MSE should be tentative.",
+    "w": [
+      "Education level relates to IQ but isn't named the strongest predictor.",
+      "Fund of knowledge is one indicator, but vocabulary is named strongest.",
+      "Abstract thinking is another indicator, not the strongest predictor."
+    ],
+    "k": "Vocabulary is the strongest single predictor of IQ, but it's biased by education and culture.",
+    "h": "Words predict IQ, but words depend on schooling.",
+    "r": "Sommers-Flanagan Ch8 – Intelligence"
+  },
+  {
+    "t": "Ch8 Intelligence",
+    "d": 2,
+    "q": "Wechsler defined intelligence as a person's:",
+    "o": [
+      "Global capacity to act purposefully, think rationally, and deal effectively with the environment",
+      "Ability to solve abstract academic problems quickly and to learn from formal schooling",
+      "Score on standardized tests compared with others of the same age and culture",
+      "Speed of information processing"
+    ],
+    "e": "Wechsler defined intelligence as a person's global capacity to act purposefully, think rationally and deal effectively with the environment. This practical definition guides MSE questions: Is the client resourceful across life domains? Do mistakes stem from limited intellect rather than psychopathology?",
+    "w": [
+      "Academic speed and schooling are too narrow for Wechsler's definition.",
+      "Test scores measure intelligence; they aren't Wechsler's definition of it.",
+      "Processing speed is one component, not his global definition."
+    ],
+    "k": "Wechsler: intelligence = global capacity to act purposefully, think rationally and deal effectively with the environment.",
+    "h": "Purpose, reason, effectiveness.",
+    "r": "Sommers-Flanagan Ch8 – Intelligence"
+  },
+  {
+    "t": "Ch8 Reliability",
+    "d": 2,
+    "q": "A depressed patient says he's 'too depressed to move' and the next day runs away from the hospital. This illustrates poor:",
+    "o": [
+      "Reliability",
+      "Orientation",
+      "Insight",
+      "Consciousness"
+    ],
+    "e": "Reliability is the credibility and trustworthiness of the client's report. A patient who says he's 'too depressed to move' and runs away from the hospital the next day gave unreliable information. Vague or defensive answers also suggest unreliability; corroborate with family or employers and note reservations in the report.",
+    "w": [
+      "Orientation concerns knowing person, place and time.",
+      "Insight concerns awareness of one's own problems, not credibility.",
+      "Consciousness concerns the level of alertness, not trustworthiness."
+    ],
+    "k": "Reliability = credibility of the client's report; corroborate and note doubts.",
+    "h": "Can we trust the story?",
+    "r": "Sommers-Flanagan Ch8 – Reliability"
+  },
+  {
+    "t": "Ch8 Judgment",
+    "d": 2,
+    "q": "Judgment in the MSE is assessed through:",
+    "o": [
+      "Activity, relationship and vocational choices, plus hypothetical scenarios",
+      "Proverb interpretation and similarities only",
+      "Serial sevens",
+      "Clients' own explanations of the causes of their symptoms and problems"
+    ],
+    "e": "Judgement is assessed through the client's actual choices about activities, relationships and work, plus hypothetical scenarios such as 'What would you do if you found a gun in a park?' Examples: the 17-year-old busboy who impulsively quit, or manic patients' reckless spending. Real decisions are more telling than hypothetical answers.",
+    "w": [
+      "Proverbs and similarities assess abstract thinking, not judgement.",
+      "Serial sevens assess attention and concentration, not judgement.",
+      "Clients' explanations of their symptoms assess insight."
+    ],
+    "k": "Judgement: real-life decisions plus hypothetical scenarios (e.g., finding a gun).",
+    "h": "What do they actually choose?",
+    "r": "Sommers-Flanagan Ch8 – Judgment"
+  },
+  {
+    "t": "Ch8 Insight",
+    "d": 3,
+    "q": "A client admits a minor problem but attributes it entirely to physical or situational causes and wants only medication. Insight is:",
+    "o": [
+      "Poor",
+      "Absent",
+      "Partial",
+      "Good"
+    ],
+    "e": "Insight levels: absent (denies any problem); poor (admits a minor problem but gives only physical or situational explanations and wants only medication); partial (often admits a problem, sometimes sees emotional factors, may leave treatment early); good (readily admits problems and takes responsibility). This client shows poor insight.",
+    "w": [
+      "Absent insight would deny any problem at all.",
+      "Partial insight would see some emotional factors.",
+      "Good insight would readily accept psychological factors and responsibility."
+    ],
+    "k": "Poor insight: admits a minor problem but sees only physical or situational causes.",
+    "h": "'It's just my back and my boss.'",
+    "r": "Sommers-Flanagan Ch8 – Insight"
+  },
+  {
+    "t": "Ch8 Insight",
+    "d": 2,
+    "q": "The exhausted man with clenched fists who insists 'I don't have a problem with tension' showed:",
+    "o": [
+      "Absent insight",
+      "Partial insight",
+      "Poor reliability",
+      "Clouded consciousness"
+    ],
+    "e": "The exhausted man with clenched fists who insisted 'I don't have a problem with tension' showed absent insight: complete denial of an obvious problem. Asking clients near the end of the interview to speculate on the causes of their symptoms helps rate insight.",
+    "w": [
+      "Partial insight would acknowledge the problem at least sometimes.",
+      "Reliability concerns credibility of reports, not awareness of problems.",
+      "Clouded consciousness is a reduced level of alertness."
+    ],
+    "k": "Absent insight means denying a problem that is obvious to others.",
+    "h": "Fists clenched, 'I'm not tense.'",
+    "r": "Sommers-Flanagan Ch8 – Insight"
+  },
+  {
+    "t": "Ch8 When to use",
+    "d": 2,
+    "q": "Basic guideline for when to use a formal MSE:",
+    "o": [
+      "It becomes more necessary as suspected psychopathology increases",
+      "Use it with every client in every setting",
+      "Use it only with children",
+      "Never use it with outpatients, only with hospitalized patients"
+    ],
+    "e": "A formal MSE becomes more necessary as suspected psychopathology increases. Well-adjusted outpatients in nonmedical settings rarely need a full MSE, while in medical settings with diagnostic questions it's routine. Informal observation of mental status, such as appearance, mood and thinking, happens in every interview, even when no formal exam is given.",
+    "w": [
+      "A full formal MSE isn't needed with every client in every setting.",
+      "MSEs aren't limited to children; they're used with clients of all ages.",
+      "Outpatients with suspected psychopathology may need an MSE too."
+    ],
+    "k": "The more psychopathology is suspected, the more a formal MSE is needed.",
+    "h": "More concern, more formal exam.",
+    "r": "Sommers-Flanagan Ch8 – When to use MSEs"
+  },
+  {
+    "t": "Ch8 Culture",
+    "d": 2,
+    "q": "In Multicultural Highlight 8.2, a Native client reporting visions might be invalidly judged psychotic when:",
+    "o": [
+      "The visions are consistent with Native culture",
+      "The client has many tattoos and piercings",
+      "The client speaks English as a third language under stress",
+      "The client is a recent immigrant to the United States"
+    ],
+    "e": "Multicultural Highlight 8.2 shows how MSE findings can be invalid across cultures: a Native client's visions consistent with Native culture might be misjudged as psychotic. Other examples: downcast eyes as culturally appropriate rather than depressed; hostility reflecting abusive experiences with the dominant culture; not recalling presidents due to immigrant status.",
+    "w": [
+      "Tattoos and piercings aren't the example linked to misjudging visions.",
+      "Language stress is a different risk, not the visions example.",
+      "Immigrant status relates to the presidents example, not visions."
+    ],
+    "k": "Culturally normative visions can be misjudged as psychosis; interpret MSE findings in cultural context.",
+    "h": "A vision in one culture, a symptom in another.",
+    "r": "Sommers-Flanagan Ch8 – Multicultural Highlight 8.2"
+  },
+  {
+    "t": "Ch8 Culture",
+    "d": 2,
+    "q": "Paniagua's position on traditional MSEs with multicultural clients is that they are:",
+    "o": [
+      "Nearly always inappropriate",
+      "Always appropriate",
+      "Appropriate only with interpreters",
+      "Better than any other procedure"
+    ],
+    "e": "Paniagua argues traditional MSEs are nearly always inappropriate with multicultural clients, because their norms and items reflect the dominant culture. The authors take a more moderate position: MSEs should at least be used cautiously with diverse clients, recognizing that all evaluation procedures are culturally biased in some way.",
+    "w": [
+      "Paniagua doesn't consider them always appropriate; he sees them as nearly always inappropriate.",
+      "Interpreters don't solve the cultural bias he describes.",
+      "He doesn't consider them superior to other procedures."
+    ],
+    "k": "Paniagua: traditional MSEs are nearly always inappropriate with multicultural clients; the authors urge caution.",
+    "h": "One-size MSE doesn't fit all cultures.",
+    "r": "Sommers-Flanagan Ch8 – When to use MSEs"
+  }
+]

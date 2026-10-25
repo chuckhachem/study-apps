@@ -1,0 +1,963 @@
+[
+  {
+    "t": "Ch11 Resistance",
+    "d": 2,
+    "q": "In the traditional Freudian-influenced view, which could be considered a sign of resistance?",
+    "o": [
+      "Both arriving late and arriving early",
+      "Only missing sessions without calling ahead",
+      "Only refusing to talk",
+      "Only open hostility directed toward the therapist"
+    ],
+    "e": "In the traditional Freudian-influenced view, virtually any behaviour can be interpreted as resistance: talking too much or too little, arriving late or early, being under- or over-prepared, showing too much or too little emotional control. Because opposites both count, the concept became so broad that critics argued it explained everything and therefore nothing.",
+    "w": [
+      "Missing sessions counts, but the traditional view includes far more, even early arrival.",
+      "Refusing to talk counts, but so does talking too much.",
+      "Open hostility counts, but so do subtle behaviours like over-preparation."
+    ],
+    "k": "In the Freudian-influenced view, almost any behaviour (even opposites like late and early) can be resistance.",
+    "h": "Late? Resistance. Early? Also resistance.",
+    "r": "Sommers-Flanagan Ch11 – Defining and exploring resistance"
+  },
+  {
+    "t": "Ch11 Resistance",
+    "d": 2,
+    "q": "In 1984, Steve de Shazer pronounced:",
+    "o": [
+      "The 'Death of Resistance'",
+      "The 'Birth of Motivation'",
+      "The 'End of Diagnosis'",
+      "The 'Stages of Change'"
+    ],
+    "e": "In 1984, Steve de Shazer pronounced the 'Death of Resistance'. Constructive theorists argue that resistance is a linguistic creation of directive therapists, a label that blames clients when the therapist's approach doesn't fit, rather than a problem within the client's psyche. Cooperation, they say, is the therapist's job.",
+    "w": [
+      "The 'Birth of Motivation' isn't de Shazer's phrase.",
+      "The 'End of Diagnosis' isn't what he pronounced.",
+      "The 'Stages of Change' is Prochaska and DiClemente's model."
+    ],
+    "k": "De Shazer (1984): the 'Death of Resistance', resistance as a therapist-created label.",
+    "h": "RIP resistance, said de Shazer.",
+    "r": "Sommers-Flanagan Ch11 – Defining resistance"
+  },
+  {
+    "t": "Ch11 Resistance",
+    "d": 2,
+    "q": "What is the authors' own position on resistance?",
+    "o": [
+      "Neither inevitable nor dead – sometimes real, sometimes interviewer-created",
+      "Resistance doesn't exist; it is a linguistic creation",
+      "All client behavior is resistance",
+      "Resistance always comes from the client's pathology and must be interpreted"
+    ],
+    "e": "The authors take a middle position: resistance is neither inevitable nor dead. Some clients actively oppose treatment despite skilled interviewing; others cooperate naturally. Sometimes resistance is real and rooted in the client or the situation; sometimes it's created by the interviewer's approach. Both possibilities should be considered.",
+    "w": [
+      "Calling resistance purely a linguistic creation is de Shazer's view, not the authors'.",
+      "Seeing all behaviour as resistance is the overly broad traditional view.",
+      "Resistance doesn't always come from client pathology; interviewers can create it."
+    ],
+    "k": "Authors: resistance is sometimes real, sometimes interviewer-created; neither inevitable nor dead.",
+    "h": "Sometimes them, sometimes us.",
+    "r": "Sommers-Flanagan Ch11 – Defining resistance"
+  },
+  {
+    "t": "Ch11 Resistance",
+    "d": 2,
+    "q": "The authors prefer the term 'natural resistance' because it:",
+    "o": [
+      "Offers empathy for a hard situation while acknowledging the need for strategies",
+      "Implies that resistance is a pathological defense rooted deep in the client's psyche",
+      "Avoids discussing challenging client behavior so that the alliance isn't damaged",
+      "Is the DSM term"
+    ],
+    "e": "The authors prefer 'natural resistance' because it offers empathy for a difficult situation while still acknowledging the need for specific strategies. Mandated clients, for example, often have negative expectations with a legitimate, rational basis, such as prior poor treatment by authorities. Resistance is a natural response, not pathology.",
+    "w": [
+      "'Natural' implies the opposite of a deep pathological defense.",
+      "The term is used to discuss challenging behaviour openly, not to avoid it.",
+      "It isn't a DSM term; the authors coined it to frame resistance empathically."
+    ],
+    "k": "'Natural resistance' empathizes with a hard situation while acknowledging strategies are needed.",
+    "h": "Anyone dragged in would resist.",
+    "r": "Sommers-Flanagan Ch11 – Resistance as a function of the situation"
+  },
+  {
+    "t": "Ch11 Stages of change",
+    "d": 1,
+    "q": "Prochaska and DiClemente's six stages of change are:",
+    "o": [
+      "Precontemplation, contemplation, preparation, action, maintenance, termination",
+      "Denial, anger, bargaining, depression, acceptance, recovery, and transcendence",
+      "Awareness, insight, action, relapse, relapse prevention, maintenance, termination",
+      "Engagement, assessment, intervention, evaluation, follow-up, closure"
+    ],
+    "e": "Prochaska and DiClemente's transtheoretical model has six stages: precontemplation (not considering change), contemplation (thinking about it, ambivalent), preparation (planning), action (making changes), maintenance (sustaining them) and termination (no temptation to relapse). Clients not yet in preparation, action or maintenance will resist action-based efforts like homework and advice.",
+    "w": [
+      "Denial through acceptance resembles Kübler-Ross's grief stages, not the stages of change.",
+      "Awareness, insight and relapse prevention aren't the model's six stages.",
+      "Engagement through closure describes a treatment process, not the client's stages of change."
+    ],
+    "k": "Stages of change: precontemplation, contemplation, preparation, action, maintenance, termination.",
+    "h": "'Please Can People Actually Maintain Transformation?'",
+    "r": "Sommers-Flanagan Ch11 – Readiness to change"
+  },
+  {
+    "t": "Ch11 Stages of change",
+    "d": 3,
+    "q": "What criticism does West (2005) raise about the stages of change model?",
+    "o": [
+      "Research doesn't show clients in different stages respond differently to treatments",
+      "It has too few stages to describe real change",
+      "It ignores motivation entirely and focuses only on observable behavior change",
+      "It was never applied to substance use"
+    ],
+    "e": "West (2005) and others (Brug, Sutton) note that, although the stages of change model is logical and popular, research doesn't show that clients in different stages respond differently to stage-matched treatments. The empirical support for tailoring interventions by stage is lacking, even if the model is a useful way to think about readiness.",
+    "w": [
+      "Having too few stages isn't the criticism.",
+      "The model centres on readiness, which is about motivation.",
+      "It has been applied extensively to substance use."
+    ],
+    "k": "West: evidence doesn't show that stage-matched interventions work better.",
+    "h": "Logical map, weak evidence.",
+    "r": "Sommers-Flanagan Ch11 – Readiness to change"
+  },
+  {
+    "t": "Ch11 MI",
+    "d": 2,
+    "q": "According to Miller and Rollnick, what happens when a therapist argues for change with an ambivalent client?",
+    "o": [
+      "The client tends to argue the opposite side of the ambivalence",
+      "The client quickly agrees and commits to change",
+      "The client becomes steadily more motivated as the evidence mounts",
+      "Resistance disappears once the facts are presented clearly and calmly"
+    ],
+    "e": "Miller and Rollnick observe that when a therapist argues for change with an ambivalent client, the client tends to argue the opposite side of the ambivalence, defending the status quo. 'It is the client who should be voicing the arguments for change.' Resistance can be understood as siding with the less healthy side of ambivalence, often provoked by the therapist's push.",
+    "w": [
+      "Clients rarely agree quickly when pushed; they push back.",
+      "Mounting evidence tends to increase defensiveness, not motivation.",
+      "Presenting facts doesn't dissolve resistance; it often fuels it."
+    ],
+    "k": "Arguing for change makes ambivalent clients argue against it; let the client voice change talk.",
+    "h": "Push, and they push back.",
+    "r": "Sommers-Flanagan Ch11 – Recognizing and managing resistance"
+  },
+  {
+    "t": "Ch11 Openings",
+    "d": 2,
+    "q": "In Cheng's ER example, when the patient says 'just let me die', the clinician:",
+    "o": [
+      "Looks for the underlying healthy goal (coping with depression and fighting)",
+      "Immediately confronts the suicidal statement and begins a commitment contract",
+      "Ends the interview",
+      "Lectures the patient about the value of life and the effects on the family"
+    ],
+    "e": "In Cheng's emergency-room example, when the patient says 'just let me die', the clinician looks for the underlying healthy goal: coping with depression and fighting it. Even while exploring pain, listen for unfulfilled positive goals, and externalize unhealthy thoughts as 'part of the depression' rather than the whole person.",
+    "w": [
+      "Confronting immediately and starting a contract skips understanding and the client's goals.",
+      "Ending the interview abandons a patient at risk.",
+      "Lecturing about life's value invites resistance and misses the patient's own goals."
+    ],
+    "k": "Listen for the healthy goal beneath despair; externalize hopeless thoughts as part of the depression.",
+    "h": "Find the fighter inside 'let me die'.",
+    "r": "Sommers-Flanagan Ch11 – Opening questions and goal-setting"
+  },
+  {
+    "t": "Ch11 Reflection",
+    "d": 2,
+    "q": "'Who are you to give me advice? You've never even smoked a joint!' – 'It's hard to imagine how I could possibly understand.' This response is a:",
+    "o": [
+      "Simple reflection that reduces the client's need to resist",
+      "Gentle confrontation of the client's hostility and defensiveness",
+      "Amplified reflection of the client's own position and stance",
+      "Coming alongside the client's resistance"
+    ],
+    "e": "'It's hard to imagine how I could possibly understand' is a simple reflection: it restates the client's point without defending or arguing. This reduces the client's need to resist, because there's nothing to push against. Research on motivational interviewing shows simple reflections are powerful tools for managing resistance.",
+    "w": [
+      "It doesn't confront the hostility; it accepts the client's point.",
+      "An amplified reflection would overstate the client's position.",
+      "Coming alongside agrees with the side of ambivalence favouring no change."
+    ],
+    "k": "Simple reflections of resistant statements reduce the client's need to resist.",
+    "h": "Nothing to push against.",
+    "r": "Sommers-Flanagan Ch11 – Using reflection"
+  },
+  {
+    "t": "Ch11 Reflection",
+    "d": 2,
+    "q": "An interviewer intentionally overstates a client's position so the client clarifies the healthier side. This MI technique is:",
+    "o": [
+      "Amplified reflection",
+      "Coming alongside the client",
+      "Radical acceptance",
+      "Positive reframing"
+    ],
+    "e": "Amplified reflection intentionally overstates the client's position so the client clarifies the healthier side: 'You really need to be home 24–7 and turn off any needs you have…' prompts 'Actually, sometimes I need breaks.' It must be used with genuine empathy, not sarcasm or manipulation, or it backfires.",
+    "w": [
+      "Coming alongside agrees with not changing, rather than overstating.",
+      "Radical acceptance welcomes any comment without overstating it.",
+      "Positive reframing gives a new, positive meaning, not an exaggeration."
+    ],
+    "k": "Amplified reflection overstates the client's position so they voice the healthier side.",
+    "h": "Turn up the volume so they turn it down.",
+    "r": "Sommers-Flanagan Ch11 – Using reflection"
+  },
+  {
+    "t": "Ch11 Validation",
+    "d": 2,
+    "q": "A teen says, 'I'm not talking and you can't make me.' The recommended response:",
+    "o": [
+      "'You're absolutely right. I can't make you talk…' – full concession",
+      "'You'll have to talk if you want to leave early today, so it's up to you.'",
+      "'Your parents are paying good money for this, so let's not waste it.'",
+      "Silence until the client talks"
+    ],
+    "e": "With a teen who says 'I'm not talking and you can't make me', the recommended response is full concession: 'You're absolutely right. I can't make you talk…' This validates the teen's need for power and control and concedes an initial victory, removing the power struggle. Knesper notes that chastising difficult patients makes matters worse.",
+    "w": [
+      "Conditions about leaving early create a power struggle.",
+      "Invoking parents' money adds guilt and pressure.",
+      "Silence alone can feel like a battle of wills."
+    ],
+    "k": "Concede power to an oppositional teen ('You're right, I can't make you') to defuse the struggle.",
+    "h": "Give them the win to end the war.",
+    "r": "Sommers-Flanagan Ch11 – Emotional validation"
+  },
+  {
+    "t": "Ch11 Validation",
+    "d": 2,
+    "q": "'Wow. Thanks for being so honest… Lots of people hate psychologists but pretend to cooperate.' This is:",
+    "o": [
+      "Radical acceptance",
+      "Amplified reflection",
+      "Coming alongside",
+      "Interpretation"
+    ],
+    "e": "'Wow. Thanks for being so honest… Lots of people hate psychologists but pretend to cooperate' is radical acceptance. Based on person-centered theory, it actively welcomes any and all client comments, even provocative ones, which disarms the client and builds rapport through genuine acceptance.",
+    "w": [
+      "Amplified reflection would overstate the client's position.",
+      "Coming alongside agrees with the side of ambivalence that favours not changing.",
+      "Interpretation would suggest an unconscious meaning rather than welcoming the comment."
+    ],
+    "k": "Radical acceptance actively welcomes even provocative comments (thank them for their candour).",
+    "h": "Welcome the punch.",
+    "r": "Sommers-Flanagan Ch11 – Radical acceptance"
+  },
+  {
+    "t": "Ch11 Validation",
+    "d": 2,
+    "q": "A father mandated by a judge says counseling is bullshit. 'You must really love your daughter a lot to come here…' This is the:",
+    "o": [
+      "Love reframe",
+      "Paradoxical injunction",
+      "Amplified reflection",
+      "Miracle question"
+    ],
+    "e": "'You must really love your daughter a lot to come here…' is the love reframe (Sommers-Flanagan and Barr): it reframes a mandated parent's attendance as an expression of love for the child. Clients nearly always agree, which turns the interview toward a more positive and cooperative focus.",
+    "w": [
+      "A paradoxical injunction prescribes the symptom, which this doesn't do.",
+      "An amplified reflection would exaggerate his complaint.",
+      "The miracle question asks about a problem-free future."
+    ],
+    "k": "The love reframe recasts mandated attendance as love for one's child.",
+    "h": "'You came because you love her.'",
+    "r": "Sommers-Flanagan Ch11 – Reframing"
+  },
+  {
+    "t": "Ch11 Validation",
+    "d": 2,
+    "q": "With very angry clients, the authors often find no better approach than:",
+    "o": [
+      "Reflect and validate feelings, give honest feedback, then ask a solution question",
+      "Set firm limits on the anger and end the session",
+      "Interpret the anger's origins in the client's early relationships with authority",
+      "Ignore the anger"
+    ],
+    "e": "With very angry clients, the authors often reflect and validate the feelings, give honest feedback, then ask a solution-focused question: 'We can sit here and stare at each other… or talk about how you might dig yourself out of this legal hole. I can go either way.' This combines empathy, candour and choice.",
+    "w": [
+      "Ending the session abandons the client and confirms their expectations.",
+      "Interpreting early origins of anger is premature and may inflame it.",
+      "Ignoring the anger leaves the client unheard."
+    ],
+    "k": "With angry clients: validate, give honest feedback, then ask a solution question.",
+    "h": "Feel it, name it, offer a way out.",
+    "r": "Sommers-Flanagan Ch11 – Genuine feedback"
+  },
+  {
+    "t": "Ch11 Paradox",
+    "d": 2,
+    "q": "'It may just be worth it to you to keep on drinking as you have, even though it causes some problems.' Miller and Rollnick call this:",
+    "o": [
+      "Coming alongside",
+      "Amplified reflection",
+      "Radical acceptance",
+      "Confrontation of denial"
+    ],
+    "e": "Coming alongside means siding with the client's side of the ambivalence that favours not changing: 'It may just be worth it to you to keep on drinking as you have.' Paradoxically, this often prompts the client to argue for change. It requires deep empathy for the motivation to continue; Miller and Rollnick reject 'clever' paradox that dupes people.",
+    "w": [
+      "Amplified reflection exaggerates; coming alongside simply agrees with not changing.",
+      "Radical acceptance welcomes provocative comments rather than siding with no change.",
+      "Confronting denial is the opposite of coming alongside."
+    ],
+    "k": "Coming alongside: genuinely side with the no-change position, which often prompts change talk.",
+    "h": "Walk beside the resistance.",
+    "r": "Sommers-Flanagan Ch11 – Coming alongside"
+  },
+  {
+    "t": "Ch11 Core attitudes",
+    "d": 3,
+    "q": "According to Natalie Rogers, translating person-centered core conditions into concrete behaviors indicates:",
+    "o": [
+      "The writer or therapist doesn't understand person-centered principles",
+      "Excellent operationalization of Rogers's theory",
+      "Advanced behavioral training in microcounseling skills",
+      "A research-based approach that improves training and therapy outcomes"
+    ],
+    "e": "Natalie Rogers argues that translating person-centered core conditions into concrete behaviours indicates the writer or therapist doesn't understand person-centered principles. The core conditions are attitudes, communicated mostly indirectly; directly declaring them ('I know how you feel', as Kurt Kraus notes) often contradicts them.",
+    "w": [
+      "She sees operationalization as a misunderstanding, not excellent practice.",
+      "Microcounseling skills training isn't what she endorses here.",
+      "She doesn't present it as research-based improvement."
+    ],
+    "k": "Natalie Rogers: core conditions are attitudes; reducing them to behaviours misunderstands them.",
+    "h": "Attitudes, not checklists.",
+    "r": "Sommers-Flanagan Ch11 – Putting It in Practice 11.1"
+  },
+  {
+    "t": "Ch11 Lying",
+    "d": 2,
+    "q": "A possibly delusional client asks, 'Do you believe me?' Robinson suggests responding:",
+    "o": [
+      "'I'm keeping an open mind.'",
+      "'Yes, of course I believe you.'",
+      "'No, that sounds impossible.'",
+      "'It doesn't matter what I believe.'"
+    ],
+    "e": "When a possibly delusional client asks 'Do you believe me?', either yes or no leads down a poor path: 'yes' colludes with the delusion, 'no' destroys rapport. Robinson suggests 'I'm keeping an open mind.' Alternatives include 'My job is to understand what your views are' or asking for more detail.",
+    "w": [
+      "Saying yes colludes with a possible delusion.",
+      "Saying no damages rapport and invites argument.",
+      "Saying it doesn't matter sounds dismissive of what the client cares about."
+    ],
+    "k": "Asked 'Do you believe me?' by a possibly delusional client: 'I'm keeping an open mind.'",
+    "h": "Open mind, closed debate.",
+    "r": "Sommers-Flanagan Ch11 – Clients who may be lying or delusional"
+  },
+  {
+    "t": "Ch11 Lying",
+    "d": 2,
+    "q": "The authors' philosophy regarding clients who may be lying is:",
+    "o": [
+      "It's not our job to judge truth but to help people tell their story",
+      "Always confront inconsistencies as soon as you notice them in the story",
+      "Report suspected lies to the referral source or to the appropriate authorities",
+      "Refuse to continue the interview until the full truth finally emerges"
+    ],
+    "e": "The authors' philosophy: it's not our job to judge truth but to help people tell their story. In therapy, 'the facts are almost always less important than the feelings'. Research suggests that working through resistance increases positive outcomes (Mahalik), so interviewers avoid becoming detectives.",
+    "w": [
+      "Confronting every inconsistency turns the interview into an interrogation.",
+      "Reporting suspected lies breaches trust and isn't the stance described.",
+      "Refusing to continue abandons the client and ends any chance of helping."
+    ],
+    "k": "Don't be a lie detector: help clients tell their story; feelings matter more than facts.",
+    "h": "Therapist, not detective.",
+    "r": "Sommers-Flanagan Ch11 – Clients who may be lying"
+  },
+  {
+    "t": "Ch11 Substance",
+    "d": 2,
+    "q": "What do the authors say about counselors who have their own substance abuse history?",
+    "o": [
+      "It can be a benefit (empathy) or a liability (projecting own solutions)",
+      "It always improves effectiveness with substance-using clients",
+      "It disqualifies them from substance abuse work",
+      "It is irrelevant if they have been sober for years"
+    ],
+    "e": "A counselor's own substance abuse history can be a benefit, bringing empathy and credibility, or a liability, leading them to project their own solutions ('what worked for me') onto clients. Counselors should explore their own and their family's attitudes and history (Putting It in Practice 11.2).",
+    "w": [
+      "It doesn't always improve effectiveness; it can also distort judgement.",
+      "It doesn't disqualify them; it requires self-awareness.",
+      "Years of sobriety don't make it irrelevant."
+    ],
+    "k": "A counselor's own substance history can help (empathy) or hurt (projecting solutions).",
+    "h": "Your recovery isn't their recipe.",
+    "r": "Sommers-Flanagan Ch11 – Interviewing clients with substance issues"
+  },
+  {
+    "t": "Ch11 CAGE",
+    "d": 1,
+    "q": "In the CAGE questionnaire, the four letters stand for:",
+    "o": [
+      "Cut down, Annoyed, Guilty, Eye-opener (Early morning drink)",
+      "Craving, Abuse, Gambling, and Escape from daily problems",
+      "Control, Alcohol, Guilt, Emotional dependence",
+      "Count drinks, Avoid triggers, Give up, End use"
+    ],
+    "e": "The CAGE questionnaire asks four questions: Have you felt you should Cut down? Have people Annoyed you by criticizing your drinking? Have you felt Guilty about drinking? Have you needed an Eye-opener (a drink first thing in the morning)? Many interviewers and the NIAAA treat a 'yes' to any one as evidence of a problem, but never diagnose from CAGE alone.",
+    "w": [
+      "Craving, abuse, gambling and escape aren't the CAGE items.",
+      "Control, alcohol, guilt and dependence aren't the CAGE items.",
+      "Count, avoid, give up and end aren't the CAGE items."
+    ],
+    "k": "CAGE: Cut down, Annoyed, Guilty, Eye-opener; one 'yes' suggests a problem, but don't diagnose from it alone.",
+    "h": "Is drinking putting you in a CAGE?",
+    "r": "Sommers-Flanagan Ch11 – Gathering information"
+  },
+  {
+    "t": "Ch11 CAGE",
+    "d": 2,
+    "q": "According to the NIAAA criteria cited, problematic drinking for men is:",
+    "o": [
+      "More than 14 drinks a week or 4 per occasion",
+      "More than 7 drinks a week or 3 drinks per occasion",
+      "More than 21 drinks a week or 6 drinks per occasion",
+      "Any daily drinking, regardless of amount"
+    ],
+    "e": "According to NIAAA criteria cited (Friedmann et al., 2001), problematic drinking for men is more than 14 drinks a week or more than 4 per occasion. For women, it's more than 7 a week or more than 3 per occasion. The women's weekly limit is half the men's.",
+    "w": [
+      "7 a week or 3 per occasion are the women's thresholds.",
+      "21 a week or 6 per occasion exceed the cited men's thresholds.",
+      "Any daily drinking isn't the criterion; amounts matter."
+    ],
+    "k": "NIAAA: men >14/week or >4/occasion; women >7/week or >3/occasion.",
+    "h": "Men 14/4, women 7/3.",
+    "r": "Sommers-Flanagan Ch11 – Gathering information",
+    "n": "Men 14/4, women 7/3 – the women's weekly limit is half the men's."
+  },
+  {
+    "t": "Ch11 Confrontation",
+    "d": 2,
+    "q": "What did research suggest about the traditional 'confrontation of denial' approach?",
+    "o": [
+      "Often negative outcomes; denial may partly react to harsh confrontation",
+      "It was the most effective approach for problem drinkers in controlled trials",
+      "It works best with adolescents, who need firm limits to face their use",
+      "It is required for diagnosis"
+    ],
+    "e": "The traditional 'confrontation of denial' approach, popular in the 1970s and early 1980s, often produced negative outcomes. Research suggested that denial may partly be a reaction to harsh confrontation itself. Motivational interviewing is now the most respected, empirically validated approach for substance problems.",
+    "w": [
+      "Controlled trials didn't show confrontation was most effective.",
+      "Adolescents don't respond better to harsh confrontation.",
+      "Confrontation isn't required for diagnosis; screening and history are."
+    ],
+    "k": "Confronting denial often backfires; denial may be partly a reaction to confrontation.",
+    "h": "Push harder, deny harder.",
+    "r": "Sommers-Flanagan Ch11 – Traditional approach"
+  },
+  {
+    "t": "Ch11 MI",
+    "d": 2,
+    "q": "Rollnick and Miller (1995) define motivational interviewing as:",
+    "o": [
+      "A directive, client-centered style for eliciting change by resolving ambivalence",
+      "A confrontational technique for breaking through denial",
+      "A purely nondirective, person-centered therapy without any goals or direction",
+      "A diagnostic interview for substance disorders"
+    ],
+    "e": "Rollnick and Miller (1995) define motivational interviewing as a directive, client-centered counseling style for eliciting behaviour change by helping clients explore and resolve ambivalence. It began with Miller's 1983 work with problem drinkers (book 1991, 2nd ed. 2002) and is used for addictions, HIV risk, smoking, diet, domestic violence and justice settings.",
+    "w": [
+      "MI is the opposite of confrontational denial-busting.",
+      "MI is directive about resolving ambivalence, not purely nondirective.",
+      "MI is a counseling style, not a diagnostic interview."
+    ],
+    "k": "MI: a directive, client-centered style for eliciting change by resolving ambivalence.",
+    "h": "Guide, don't push; resolve, don't argue.",
+    "r": "Sommers-Flanagan Ch11 – Motivational interviewing"
+  },
+  {
+    "t": "Ch11 MI steps",
+    "d": 2,
+    "q": "In Rollnick and Bell's 10 content areas, how is substance use first brought up?",
+    "o": [
+      "After 5–10 minutes of rapport, via a summary and permission-seeking swing question",
+      "Immediately, at the very start of the interview",
+      "Only if the client mentions alcohol or drugs first, so as to avoid resistance",
+      "Through a written questionnaire"
+    ],
+    "e": "In Rollnick and Bell's approach, substance use is first raised after about 5–10 minutes of rapport building, through a summary and a permission-seeking swing question: 'Would you mind if I asked you now about your use of alcohol?' The tentative wording gives the client control and reduces defensiveness.",
+    "w": [
+      "Raising it immediately skips rapport and invites resistance.",
+      "Waiting for the client to mention it may mean it never comes up.",
+      "A written questionnaire isn't the method described."
+    ],
+    "k": "Raise substance use after 5–10 minutes of rapport, with a permission-seeking question.",
+    "h": "'Would you mind if I asked…?'",
+    "r": "Sommers-Flanagan Ch11 – MI procedures"
+  },
+  {
+    "t": "Ch11 MI steps",
+    "d": 3,
+    "q": "Rollnick and Bell suggest exploring the good and less good things about:",
+    "o": [
+      "'Having a drink' rather than 'your drinking'",
+      "'Your alcoholism' rather than 'your alcohol use'",
+      "'Your addiction problem' rather than 'your habit'",
+      "'Your denial' of the drinking problem"
+    ],
+    "e": "Rollnick and Bell suggest exploring the good things and the 'less good' things about 'having a drink', rather than 'your drinking'. The neutral, everyday phrase avoids the implied accusation of a problem and reduces defensiveness. The aim is to expand the 'less good' things gradually until the client recognizes them as concerns.",
+    "w": [
+      "'Your alcoholism' is a loaded label that provokes defensiveness.",
+      "'Your addiction problem' presumes a diagnosis the client may reject.",
+      "'Your denial' is accusatory and increases resistance."
+    ],
+    "k": "Ask about the good and less good things of 'having a drink', not 'your drinking'.",
+    "h": "Neutral words, open doors.",
+    "r": "Sommers-Flanagan Ch11 – MI procedures"
+  },
+  {
+    "t": "Ch11 MI steps",
+    "d": 2,
+    "q": "When providing addiction information in MI, the interviewer should:",
+    "o": [
+      "Ask permission to share, then ask 'What do you think?'",
+      "Lecture clearly as the expert on addiction",
+      "Avoid giving any information that might cause defensiveness",
+      "Give pamphlets without discussion, in order to respect autonomy"
+    ],
+    "e": "In motivational interviewing, information is offered respectfully: ask permission to share it, give it briefly, then ask 'What do you think?' For example, asking permission before sharing facts about marijuana potency and amotivational syndrome. This keeps the client in control and invites their own conclusions.",
+    "w": [
+      "Lecturing as the expert provokes resistance in ambivalent clients.",
+      "Withholding all information deprives the client of useful facts.",
+      "Handing out pamphlets without discussion misses the client's reaction."
+    ],
+    "k": "MI information sharing: ask permission, share, then ask what the client thinks.",
+    "h": "Ask, tell, ask.",
+    "r": "Sommers-Flanagan Ch11 – MI procedures"
+  },
+  {
+    "t": "Ch11 MI steps",
+    "d": 2,
+    "q": "Which is the preferred way to ask about concerns in MI?",
+    "o": [
+      "'What concerns do you have about your alcohol use?'",
+      "'Are you at all concerned about your use of alcohol?'",
+      "'Don't you think you drink too much?'",
+      "'Why do you drink so much?'"
+    ],
+    "e": "In MI, concerns are elicited with open questions: 'What concerns do you have about your alcohol use?' This presumes the client may have concerns and invites elaboration. Closed or leading questions invite 'no' or defensiveness. The final step reflects and looks ahead: 'It sounds like you are concerned… I wonder, what's the next step?'",
+    "w": [
+      "'Are you at all concerned…?' is closed and easily answered 'no'.",
+      "'Don't you think you drink too much?' is leading and confrontational.",
+      "'Why do you drink so much?' invites defensiveness."
+    ],
+    "k": "Elicit concerns with open questions: 'What concerns do you have about…?'",
+    "h": "'What concerns…', not 'Are you concerned…?'",
+    "r": "Sommers-Flanagan Ch11 – MI procedures"
+  },
+  {
+    "t": "Ch11 MI steps",
+    "d": 2,
+    "q": "Why move from substances to lifestyle and stress and back again?",
+    "o": [
+      "It shows interest beyond information gathering and often opens clients up",
+      "To avoid the topic of substances when clients are defensive",
+      "To shorten the interview and save the remaining time for planning",
+      "To screen for and diagnose co-occurring anxiety disorders"
+    ],
+    "e": "Moving from substances to lifestyle and stress and back shows genuine interest in the client's life beyond information gathering, and often opens clients up. For example: 'What kinds of things are happening in your life that are so nice to get away from when you kick back and smoke?' Context makes substance use understandable.",
+    "w": [
+      "It isn't avoidance; the interviewer returns to substances.",
+      "It isn't about shortening the interview; it builds engagement.",
+      "Screening for anxiety disorders isn't the stated purpose."
+    ],
+    "k": "Weaving between substances and life stress shows interest and opens clients up.",
+    "h": "Ask about the life, not just the drink.",
+    "r": "Sommers-Flanagan Ch11 – MI procedures"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 2,
+    "q": "Legally, to justify reporting potential violence, the interviewer generally must hear:",
+    "o": [
+      "A specific threat to a specific person (or plan for dangerous damage)",
+      "Any expression of anger or hostility toward another identifiable person",
+      "Vague hostile feelings or fantasies about getting revenge on someone someday",
+      "Violent dreams or images with no stated target"
+    ],
+    "e": "To justify reporting potential violence (a duty to warn or protect), the interviewer generally must hear a specific threat to a specific, identifiable person, or a plan for dangerous property damage. The first and most important question is: did the client make a specific threat? Vague anger or fantasies don't meet the legal threshold.",
+    "w": [
+      "General anger toward someone doesn't meet the threshold without a specific threat.",
+      "Vague revenge fantasies aren't specific threats against an identifiable person.",
+      "Violent dreams without a target don't meet the legal standard."
+    ],
+    "k": "Duty to warn generally requires a specific threat to a specific person.",
+    "h": "Specific threat, specific victim.",
+    "r": "Sommers-Flanagan Ch11 – Assessment and prediction of violence"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 2,
+    "q": "Research comparing violence prediction approaches shows that:",
+    "o": [
+      "Actuarial approaches are more accurate than clinical judgment",
+      "Clinical intuition from experienced interviewers is the most accurate",
+      "Combined clinical and actuarial approaches clearly outperform either one",
+      "No approach has any accuracy"
+    ],
+    "e": "Research shows actuarial (statistical) approaches to violence prediction are more accurate than clinical judgement. Hilton, Harris and Rice found no improvement in the accuracy of clinical judgement over 56 years. Clinicians should know actuarial risk factors, while recognizing the limits of applying them to individuals.",
+    "w": [
+      "Clinical intuition is less accurate than actuarial methods.",
+      "Combining approaches isn't shown to clearly outperform actuarial methods.",
+      "Actuarial approaches do have some accuracy, more than clinical judgement."
+    ],
+    "k": "Actuarial approaches predict violence better than clinical judgement.",
+    "h": "Formulas beat gut feelings.",
+    "r": "Sommers-Flanagan Ch11 – Assessment of violence potential"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 3,
+    "q": "Why do the authors prefer the term 'violence assessment' over 'violence prediction' for school and agency work?",
+    "o": [
+      "Actuarial research uses forensic samples and recidivism, which may not generalize",
+      "Violence prediction is illegal in most schools and agencies",
+      "Assessment is always more accurate than prediction in research on schools",
+      "Insurers require the term"
+    ],
+    "e": "Actuarial violence research uses forensic samples and recidivism as outcomes, which may not generalize to schools and community agencies. What clinicians do in general settings falls far short of scientific, actuarial prediction. So the authors prefer 'violence assessment', which is more modest and accurate about what is possible.",
+    "w": [
+      "Violence prediction isn't illegal; the issue is scientific generalizability.",
+      "Assessment isn't shown to be more accurate; the term is more modest.",
+      "Insurers don't require this term; it reflects scientific caution."
+    ],
+    "k": "Use 'violence assessment': actuarial prediction research may not generalize beyond forensic samples.",
+    "h": "Assess, don't prophesy.",
+    "r": "Sommers-Flanagan Ch11 – Assessment of violence potential"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 1,
+    "q": "The basic psychological principle guiding violence assessment is:",
+    "o": [
+      "Past behavior is the best predictor of future behavior",
+      "Intense anger is the single best predictor of later violence",
+      "Psychosis is the best predictor of violence",
+      "Low intelligence is the single best predictor of violent behavior"
+    ],
+    "e": "The guiding principle of violence assessment: past behaviour is the best predictor of future behaviour. Violence tends to be stable and repetitive, and its form, such as firearms, knives or hands, tends to be consistent within individuals. So a careful history of past violence is the core of assessment.",
+    "w": [
+      "Intense anger matters, but past violence predicts better.",
+      "Psychosis is a weak predictor, even slightly protective.",
+      "Low intelligence isn't the best predictor; past violence is."
+    ],
+    "k": "Past violent behaviour is the best predictor of future violence.",
+    "h": "What they did is what they'll do.",
+    "r": "Sommers-Flanagan Ch11 – Risk factors"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 3,
+    "q": "The PCL-R correlates with future violence at about r = .32, which means it accounts for about:",
+    "o": [
+      "10 percent of the variation",
+      "32 percent of the variation",
+      "50 percent of the variation",
+      "3 percent of the variation"
+    ],
+    "e": "A correlation of r = .32 means r² ≈ .10, so the PCL-R (Psychopathy Checklist–Revised) accounts for about 10% of the variation in future violence. Even the best single predictor of violent recidivism has low predictive validity, which is why individual prediction remains uncertain.",
+    "w": [
+      "32% confuses r with r²; you must square the correlation.",
+      "50% of variance would require a correlation of about r = .71.",
+      "3% understates it; .32² is about .10."
+    ],
+    "k": "r = .32 → r² ≈ .10: the PCL-R explains about 10% of violence variance.",
+    "h": "Square r to get variance: .32² ≈ .10.",
+    "r": "Sommers-Flanagan Ch11 – Risk factors"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 3,
+    "q": "Contrary to public myth, a diagnosis of schizophrenia or psychotic symptoms is:",
+    "o": [
+      "A small protective factor against violence (r ≈ –.13)",
+      "The strongest single predictor of later violent behavior",
+      "Completely unrelated to violence in either direction overall",
+      "A strong predictor of fire setting in adolescents"
+    ],
+    "e": "Contrary to public myth, a diagnosis of schizophrenia or psychotic symptoms is a small protective factor against violence (r ≈ –.13) in this research. The best diagnostic predictors are any personality disorder, especially the 'list B' items of antisocial personality criteria (Bonta et al.).",
+    "w": [
+      "Psychosis isn't the strongest predictor; it's slightly protective.",
+      "It isn't completely unrelated; it shows a small negative correlation.",
+      "It isn't described as a predictor of adolescent fire setting."
+    ],
+    "k": "Schizophrenia/psychosis is a small protective factor against violence (r ≈ –.13); personality disorders predict more.",
+    "h": "The myth of the violent schizophrenic.",
+    "r": "Sommers-Flanagan Ch11 – Risk factors"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 2,
+    "q": "Which item belongs on the general violence assessment checklist (Table 11.2)?",
+    "o": [
+      "Ask about access to a weapon or means",
+      "Administer a brief IQ screening test",
+      "Ask about childhood dreams and nightmares",
+      "Rate the client's current mood from 1 to 10"
+    ],
+    "e": "Table 11.2's violence assessment checklist includes asking about access to a weapon or means, asking about violence history (possibly from a collateral informant), identifying potential victims, and listening for the specificity of any plan. Access to means sharply increases the danger of a threat.",
+    "w": [
+      "IQ screening isn't on the violence checklist.",
+      "Dreams and nightmares aren't items on the violence checklist.",
+      "Mood ratings belong to depression assessment, not the violence checklist."
+    ],
+    "k": "Violence checklist: weapon access, violence history, potential victims, plan specificity.",
+    "h": "Means, history, target, plan.",
+    "r": "Sommers-Flanagan Ch11 – Table 11.2"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 3,
+    "q": "In Mackay et al.'s fire-setting predictors, which relationship is correct?",
+    "o": [
+      "Lower aggression scores predicted fire setting",
+      "Higher aggression scores predicted fire setting",
+      "Older age at first fire predicted repeat fire setting",
+      "Acting in groups predicted fire setting"
+    ],
+    "e": "Mackay and colleagues found that fire setting was predicted by younger age at first fire, more offences, lower IQ, additional criminality, acting alone, and lower aggression scores. Fire setting is predicted by past fire setting, not by general aggression, so it requires specific assessment.",
+    "w": [
+      "Higher aggression didn't predict fire setting; lower aggression did.",
+      "Younger, not older, age at first fire predicted repeat fire setting.",
+      "Acting alone, not in groups, predicted fire setting."
+    ],
+    "k": "Fire setting is predicted by younger onset, past fires, acting alone and lower aggression.",
+    "h": "The quiet loner with matches.",
+    "r": "Sommers-Flanagan Ch11 – Fire setting"
+  },
+  {
+    "t": "Ch11 Violence",
+    "d": 3,
+    "q": "In Loeber et al.'s Pittsburgh study, boys with at least four of nine risk factors were how much more likely to have a later homicide conviction?",
+    "o": [
+      "14 times",
+      "4 times",
+      "9 times",
+      "63 times"
+    ],
+    "e": "Loeber and colleagues tracked 63 risk factors in 1,517 inner-city boys; violent offenders scored higher on 49 of 63. Nine factors predicted later homicide, including conduct disorder, weapon carrying, gang fights and selling hard drugs. Boys with at least four of the nine were 14 times more likely to have a later homicide conviction.",
+    "w": [
+      "4 is the number of risk factors, not the increase in likelihood.",
+      "9 is the number of homicide risk factors.",
+      "63 is the number of factors tracked."
+    ],
+    "k": "Loeber: four or more of nine risk factors → 14 times more likely to be convicted of homicide.",
+    "h": "Four of nine, fourteen times.",
+    "r": "Sommers-Flanagan Ch11 – Homicide among young men"
+  },
+  {
+    "t": "Ch11 Disaster",
+    "d": 2,
+    "q": "In disaster settings, informed consent is most likely to be:",
+    "o": [
+      "A brief, interactive verbal process",
+      "Lengthy paperwork with insurance forms",
+      "Unnecessary",
+      "Obtained only afterwards"
+    ],
+    "e": "In disaster settings, informed consent is usually a brief, interactive verbal process, not lengthy paperwork. Cover who you are, why you're there, how long and how often you'll meet, confidentiality limits, expected gains, techniques, referrals and case notes. 'Remember not to forget' consent, even in chaos.",
+    "w": [
+      "Lengthy paperwork is impractical in disaster settings.",
+      "Consent is still necessary in disasters, just briefer.",
+      "Consent is obtained at the start, not afterward."
+    ],
+    "k": "Disaster informed consent: brief, interactive and verbal, but never skipped.",
+    "h": "Short consent, still consent.",
+    "r": "Sommers-Flanagan Ch11 – Informed consent and record-keeping"
+  },
+  {
+    "t": "Ch11 Disaster",
+    "d": 2,
+    "q": "Disaster survivors paradoxically need:",
+    "o": [
+      "To regain control while also receiving more structure and direction",
+      "Total control over the interview, without structure",
+      "Only directive advice about where to go and what to do next",
+      "No intervention at all until the acute phase has fully passed"
+    ],
+    "e": "Disaster survivors paradoxically need both to regain control and to receive more structure and direction than usual. The interviewer offers a protective structure with as much client control as possible, being willing both to follow and to lead as the survivor's needs shift.",
+    "w": [
+      "Total control without structure can overwhelm survivors.",
+      "Only directive advice removes the survivor's sense of control.",
+      "Waiting until the acute phase passes withholds needed support."
+    ],
+    "k": "Disaster survivors need both regained control and more structure; follow and lead.",
+    "h": "A firm hand that hands back control.",
+    "r": "Sommers-Flanagan Ch11 – Informed consent"
+  },
+  {
+    "t": "Ch11 Disaster",
+    "d": 2,
+    "q": "Smith (2006) notes a frequent error by poorly trained disaster workers:",
+    "o": [
+      "Pathologizing normal reactions to abnormal, extremely stressful events",
+      "Failing to diagnose PTSD quickly enough to qualify survivors for aftercare",
+      "Providing too much privacy, which isolates survivors from their community",
+      "Giving excessive referrals"
+    ],
+    "e": "Smith (2006) notes that poorly trained disaster workers often pathologize normal reactions to abnormal, extremely stressful events, treating expectable distress as disorder. Trauma responses vary with the crisis, the person's coping, ego strength and resources, and cultural beliefs (Chiang et al.).",
+    "w": [
+      "Rushing to diagnose PTSD is part of the pathologizing error.",
+      "Privacy isn't the error described; pathologizing normal reactions is.",
+      "Excessive referrals aren't the error named; pathologizing normal reactions is."
+    ],
+    "k": "Don't pathologize normal reactions to abnormal events (Smith, 2006).",
+    "h": "Normal people, abnormal events.",
+    "r": "Sommers-Flanagan Ch11 – Assessment decisions"
+  },
+  {
+    "t": "Ch11 Disaster",
+    "d": 2,
+    "q": "An interviewer returning from disaster work feels strong pressure to share survivors' horrific stories. The authors advise:",
+    "o": [
+      "Don't reveal specifics without permission; seek your own therapy to talk confidentially",
+      "Share the stories publicly to raise awareness and help the survivors receive more aid",
+      "Write a public blog that changes names but keeps the details of what happened",
+      "Discussing them with friends"
+    ],
+    "e": "After disaster work, interviewers may feel strong pressure to share survivors' horrific stories. Don't reveal specifics without permission; confidentiality still applies. Seek your own therapy or consultation to talk confidentially about what you witnessed, and consult before discussing even general parameters publicly.",
+    "w": [
+      "Sharing stories publicly breaches confidentiality, whatever the motive.",
+      "Changing names while keeping details can still identify survivors.",
+      "Discussing them with friends breaches confidentiality, even informally."
+    ],
+    "k": "Don't share survivors' stories without permission; process them in your own therapy.",
+    "h": "Their stories aren't yours to tell.",
+    "r": "Sommers-Flanagan Ch11 – Confidentiality"
+  },
+  {
+    "t": "Ch11 Vicarious trauma",
+    "d": 2,
+    "q": "Who introduced the term 'vicarious trauma' (1990)?",
+    "o": [
+      "McCann and Pearlman",
+      "Figley",
+      "Herman",
+      "Trippany, Kress and Wilcoxon"
+    ],
+    "e": "McCann and Pearlman introduced the term 'vicarious trauma' in 1990. It is more comprehensive than burnout or countertransference, the earlier framing associated with Figley's compassion fatigue. Vicarious trauma can include flashbacks or nightmares about scenes the helper never directly experienced, changing their view of the world.",
+    "w": [
+      "Figley is associated with compassion fatigue, an earlier framing.",
+      "Herman wrote about trauma and recovery, not this term.",
+      "Trippany, Kress and Wilcoxon described its effects, not the term's origin."
+    ],
+    "k": "McCann and Pearlman introduced the term 'vicarious trauma' in 1990.",
+    "h": "McCann coined it.",
+    "r": "Sommers-Flanagan Ch11 – Secondary or vicarious trauma"
+  },
+  {
+    "t": "Ch11 Vicarious trauma",
+    "d": 2,
+    "q": "Trippany et al. identify five needs affected by trauma work. Which set?",
+    "o": [
+      "Safety, trust, esteem, intimacy, control",
+      "Food, shelter, safety, love, esteem",
+      "Autonomy, competence, relatedness, purpose, meaning",
+      "Sleep, appetite, energy, concentration, mood"
+    ],
+    "e": "Trippany and colleagues identify five psychological needs that trauma work can disrupt in helpers: safety, trust, esteem, intimacy and control. Hearing repeated trauma stories can make helpers feel less safe, less trusting and less in control of their world. Countermeasures include supervision, a reasonable caseload, education and training, and self-care.",
+    "w": [
+      "Food, shelter and love resemble Maslow's hierarchy, not Trippany's list.",
+      "Autonomy, competence and relatedness come from self-determination theory.",
+      "Sleep, appetite and energy are symptoms, not needs."
+    ],
+    "k": "Trauma work affects helpers' needs for safety, trust, esteem, intimacy and control.",
+    "h": "STEIC: Safety, Trust, Esteem, Intimacy, Control.",
+    "r": "Sommers-Flanagan Ch11 – Secondary or vicarious trauma"
+  },
+  {
+    "t": "Ch11 Boundaries",
+    "d": 2,
+    "q": "Which is a sign that boundaries have not been maintained in crisis work?",
+    "o": [
+      "Survivors begin consoling their interviewers",
+      "The interviewer shows empathy and emotion",
+      "The interviewer offers water, a blanket, and a quiet seat",
+      "The interviewer keeps brief notes of each contact"
+    ],
+    "e": "A clear sign that boundaries have slipped in crisis work: survivors begin consoling their interviewers. Be open and empathic, but not so immersed that only shared misery remains. Also beware traumatic bonding and romantic transference, which can arise in intense crisis situations.",
+    "w": [
+      "Showing empathy and emotion is appropriate in crisis work.",
+      "Offering basic comfort like water and a blanket is appropriate.",
+      "Keeping brief notes of each contact is appropriate practice."
+    ],
+    "k": "When survivors start consoling you, boundaries have slipped.",
+    "h": "If they're comforting you, step back.",
+    "r": "Sommers-Flanagan Ch11 – Boundary concerns"
+  },
+  {
+    "t": "Ch11 Boundaries",
+    "d": 2,
+    "q": "The APA Disaster Response Network and Red Cross stance on self-referral is:",
+    "o": [
+      "None unless there's absolutely no other option, with national office approval",
+      "Self-referrals are encouraged, since continuity of care helps disaster survivors",
+      "Self-referrals are allowed after one session, if the survivor requests it in writing",
+      "Self-referrals are allowed if the client pays"
+    ],
+    "e": "The APA Disaster Response Network and Red Cross prohibit self-referral, referring survivors to one's own private practice, unless there's absolutely no other option, and then only with national office approval. It's a key boundary rule protecting vulnerable survivors from exploitation.",
+    "w": [
+      "Self-referral isn't encouraged; it risks exploiting vulnerable survivors.",
+      "A written request doesn't make self-referral acceptable.",
+      "Payment doesn't make self-referral acceptable under these guidelines."
+    ],
+    "k": "Disaster work: no self-referrals unless absolutely no other option, with national approval.",
+    "h": "Don't recruit clients from the rubble.",
+    "r": "Sommers-Flanagan Ch11 – Boundary concerns"
+  },
+  {
+    "t": "Ch11 Trauma",
+    "d": 2,
+    "q": "Why did Herman say the DSM-III definition of trauma ('outside the range of usual human experience') proved inaccurate?",
+    "o": [
+      "Many people, especially women, experience abuse, rape or battering as usual experience",
+      "Trauma is always rare, so the definition was too broad",
+      "It included too many events, such as divorce and job loss, that are not traumatic",
+      "It excluded war"
+    ],
+    "e": "DSM-III defined trauma as 'outside the range of usual human experience'. Herman pointed out this was inaccurate: many people, especially women, experience abuse, rape or battering as part of usual experience. DSM-IV changed the definition to actual or threatened death, serious injury or threat to physical integrity, plus intense fear, helplessness or horror.",
+    "w": [
+      "Trauma isn't rare, which is exactly Herman's point.",
+      "Including divorce and job loss wasn't her critique.",
+      "DSM-III didn't exclude war; combat was a central example."
+    ],
+    "k": "Herman: trauma isn't 'outside usual experience'; abuse and battering are common, especially for women.",
+    "h": "Sadly, not unusual.",
+    "r": "Sommers-Flanagan Ch11 – Defining trauma"
+  },
+  {
+    "t": "Ch11 Trauma",
+    "d": 2,
+    "q": "Traumatized people are often reluctant to talk about trauma for three reasons. Which is one?",
+    "o": [
+      "Survivor guilt and shame that the event happened to them",
+      "They have usually forgotten the event entirely",
+      "They believe that talking about trauma is always harmful to them",
+      "They prefer medication to any kind of talking therapy after trauma"
+    ],
+    "e": "Traumatized people are often reluctant to talk about trauma for three reasons: survivor guilt and shame that it happened to them; talking brings up extremely uncomfortable feelings; and trauma often involves betrayal, which makes trust difficult (Foa and Riggs). Interviewers must build safety before expecting disclosure.",
+    "w": [
+      "Most survivors remember the event; forgetting isn't the usual reason.",
+      "They don't usually believe talking is always harmful.",
+      "Preferring medication isn't one of the reasons."
+    ],
+    "k": "Trauma survivors hesitate to talk because of guilt/shame, painful feelings, and betrayed trust.",
+    "h": "Shame, pain, and broken trust.",
+    "r": "Sommers-Flanagan Ch11 – Interviewing clients who have experienced trauma"
+  },
+  {
+    "t": "Ch11 Trauma",
+    "d": 3,
+    "q": "What conflict do interviewers face with recent trauma survivors?",
+    "o": [
+      "Survivors benefit from talking within ~48 hours, but trust takes time",
+      "Survivors must wait at least a year before talking, which delays rapport",
+      "Talking always re-traumatizes survivors, so trust cannot be built safely",
+      "Trust is instant after trauma"
+    ],
+    "e": "Interviewers face a conflict with recent trauma survivors: survivors may benefit from talking within about 48 hours (Campfield and Hills, 2001), yet trust takes time to build. If trauma is disclosed in a first session, allow time to regroup and focus on symptoms and problem-solving rather than the trauma details.",
+    "w": [
+      "There's no rule to wait a year before talking.",
+      "Talking doesn't always re-traumatize, especially with good support.",
+      "Trust after trauma is usually hard, not instant."
+    ],
+    "k": "Recent trauma: early talking can help (~48 hours), but trust takes time; focus on coping first.",
+    "h": "Talk soon, but gently.",
+    "r": "Sommers-Flanagan Ch11 – Trauma issues and challenges"
+  }
+]

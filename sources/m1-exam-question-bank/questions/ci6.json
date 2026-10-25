@@ -1,0 +1,882 @@
+[
+  {
+    "t": "Ch6 Structural models",
+    "d": 1,
+    "q": "Shea's five phases of the interview, in order, are:",
+    "o": [
+      "Introduction, opening, body, closing, termination",
+      "Rapport, assessment, diagnosis, treatment, follow-up",
+      "Opening, introduction, body, termination, closing",
+      "Greeting, history, mental status, plan, goodbye"
+    ],
+    "e": "Shea's generic, atheoretical model divides every interview into five phases: (1) introduction, from first contact until the clinician is ready to ask why the client came; (2) opening, a brief nondirective phase where the client tells their story; (3) body, where most information is gathered; (4) closing, which prepares the client to leave; and (5) termination, the actual parting. It expands the simple 'beginning, middle and end'.",
+    "w": [
+      "Rapport, assessment, diagnosis, treatment and follow-up describe a treatment course, not Shea's phases of one interview.",
+      "This swaps opening with introduction and closing with termination, so the order is wrong.",
+      "Greeting, history, mental status, plan and goodbye describe content tasks, not Shea's named phases."
+    ],
+    "k": "Shea's phases: introduction → opening → body → closing → termination.",
+    "h": "I Open the Body, Close, and Terminate: I-O-B-C-T.",
+    "r": "Sommers-Flanagan Ch6 – Structural models"
+  },
+  {
+    "t": "Ch6 Structural models",
+    "d": 2,
+    "q": "Foley and Sharf's five interviewer tasks are:",
+    "o": [
+      "Put at ease, elicit information, maintain control and rapport, bring closure",
+      "Rapport, problem definition, goals, alternatives, generalization",
+      "Introduction, opening, body, closing, termination",
+      "Listen, reflect, question, interpret, and finally advise the client"
+    ],
+    "e": "Foley and Sharf's model lists the interviewer's actual duties: put the client at ease, elicit information, maintain control of the interview, maintain rapport, and bring closure. Unlike Shea's phase model, it describes what the interviewer must keep doing throughout, giving a practical glimpse of the job.",
+    "w": [
+      "Rapport, problem definition, goals, alternatives and generalization come from Ivey and Ivey's stages.",
+      "Introduction, opening, body, closing and termination is Shea's five-phase model, not Foley and Sharf's tasks.",
+      "Listen, reflect, question, interpret and advise is a sequence of responses, not Foley and Sharf's tasks."
+    ],
+    "k": "Foley & Sharf: put at ease, elicit information, maintain control, maintain rapport, bring closure.",
+    "h": "Ease, Elicit, Control, Connect, Close.",
+    "r": "Sommers-Flanagan Ch6 – Structural models"
+  },
+  {
+    "t": "Ch6 Structural models",
+    "d": 2,
+    "q": "Which stage belongs to Ivey and Ivey's model?",
+    "o": [
+      "Encouraging generalization of skills outside therapy",
+      "Watching carefully for doorknob statements at the end",
+      "Putting the patient at ease with friendly small talk first",
+      "The termination phase of the interview"
+    ],
+    "e": "Ivey and Ivey's five-stage model is: (1) rapport and structuring; (2) gathering information, defining the problem and identifying assets; (3) determining outcomes; (4) exploring alternatives and confronting incongruities; and (5) encouraging generalization, transferring learning to life outside therapy. It is more treatment-oriented than Shea's phases.",
+    "w": [
+      "Watching for doorknob statements belongs to the closing phase in Shea's model.",
+      "Putting the patient at ease with small talk belongs to Shea's introduction or Foley and Sharf's tasks.",
+      "Termination is Shea's fifth phase, not one of Ivey and Ivey's stages."
+    ],
+    "k": "Ivey & Ivey: rapport/structuring → information and assets → outcomes → alternatives/confronting → generalization.",
+    "h": "Ivey ends by taking skills home.",
+    "r": "Sommers-Flanagan Ch6 – Structural models"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Shea defines the introduction phase as ending when:",
+    "o": [
+      "The clinician feels ready to begin inquiring why the patient came",
+      "The client has read and signed all of the consent forms",
+      "The first open question has been fully answered by the client in detail",
+      "Five minutes have passed"
+    ],
+    "e": "Shea: 'The introduction begins when the clinician and the patient first see one another. It ends when the clinician feels comfortable enough to begin an inquiry into the reasons the patient has sought help.' The end point is defined by the clinician's readiness, not by paperwork or a clock. The introduction covers greetings, seating, confidentiality and purpose.",
+    "w": [
+      "Signing consent forms is one task, but the phase is defined by readiness to ask why the client came.",
+      "Answering the first open question happens in the opening phase that follows.",
+      "The introduction has no fixed time limit; it depends on readiness."
+    ],
+    "k": "Shea: the introduction ends when the clinician is ready to ask why the client came.",
+    "h": "Introduction over when 'what brings you here?' feels natural.",
+    "r": "Sommers-Flanagan Ch6 – The introduction"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "In a first phone call to schedule, why should you avoid 'Check in with the receptionist and I'll be right out'?",
+    "o": [
+      "You can't know when the client will arrive or be sure to follow through",
+      "It sounds too informal for a new client's first contact",
+      "Receptionists should never be involved in greeting new clients",
+      "It breaks confidentiality"
+    ],
+    "e": "Saying 'Check in with the receptionist and I'll be right out' promises something you may not be able to deliver. If the client arrives 25 minutes early, you either see them early, blurring boundaries, or fail to do what you said. Make only promises you can keep, and avoid disclosing personal reasons you can't meet at certain times.",
+    "w": [
+      "Informality isn't the issue; the problem is promising what you can't control.",
+      "Receptionists can be involved; the issue is your promise.",
+      "It doesn't breach confidentiality; it risks breaking your word."
+    ],
+    "k": "Don't promise 'I'll be right out': you can't control when the client arrives.",
+    "h": "Promise only what you can keep.",
+    "r": "Sommers-Flanagan Ch6 – Telephone contact"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Why do some professionals use a standardized greeting ritual (handshake, offer of a drink, neutral chat)?",
+    "o": [
+      "Consistency lets differences in reactions reflect the client, aiding reliability",
+      "It is legally required for new clients in most licensed clinics and agencies",
+      "It removes the need for rapport building",
+      "It prevents clients from forming any first impressions of the interviewer"
+    ],
+    "e": "A standardized greeting ritual, such as a handshake, an offer of water and neutral chat, is good psychological science: if your routine is consistent, differences in clients' reactions reflect the clients rather than you, which aids reliable observation. The downside is that excessive standardization can seem inauthentic or mechanical.",
+    "w": [
+      "No law requires a particular greeting ritual; the rationale is observational consistency.",
+      "Standardization doesn't replace rapport building; it supports observation.",
+      "Clients still form first impressions; the ritual just keeps your part constant."
+    ],
+    "k": "A consistent greeting lets clients' different reactions reflect them, not you.",
+    "h": "Hold your behaviour constant to read theirs.",
+    "r": "Sommers-Flanagan Ch6 – Putting It in Practice 6.1"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "The two guidelines for adapting introductions to different individuals are:",
+    "o": [
+      "Go with the base rates, and choose the least offensive alternative",
+      "Always shake hands, and always use the client's first name",
+      "Mirror the client, and match their language",
+      "Ask about culture first, and avoid any small talk until rapport forms"
+    ],
+    "e": "Two guidelines help adapt introductions: (1) go with the base rates, greeting people in ways consistent with their demographics (culture, age, sex); and (2) choose the least offensive alternative, so that if you make a mistake, it's a minor one. For example, using a title and last name with an older client is a safer error than over-familiarity.",
+    "w": [
+      "Always shaking hands and using first names ignores cultural and individual differences.",
+      "Mirroring and matching language are attending skills, not the two introduction guidelines.",
+      "Avoiding all small talk can feel cold; the guidelines are base rates and least offence."
+    ],
+    "k": "Introductions: go with base rates, and choose the least offensive alternative.",
+    "h": "Play the odds; err small.",
+    "r": "Sommers-Flanagan Ch6 – Putting It in Practice 6.1"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Lazarus's term for interviewers who size up each client and offer whatever seems called for is:",
+    "o": [
+      "An authentic chameleon",
+      "A blank screen",
+      "A participant-observer",
+      "A scientist-practitioner"
+    ],
+    "e": "Not every interviewer uses a fixed greeting ritual. Lazarus describes those who size up each client and flexibly offer whatever seems called for as authentic chameleons: they adapt their style while remaining genuine. This contrasts with standardization, which keeps behaviour constant for observational reliability.",
+    "w": [
+      "A blank screen is the neutral psychoanalytic stance, the opposite of adaptive flexibility.",
+      "Participant-observer is Sullivan's term for the interviewer's dual role.",
+      "Scientist-practitioner is a training model, not Lazarus's term."
+    ],
+    "k": "Lazarus's 'authentic chameleon': flexibly adapting to each client while staying genuine.",
+    "h": "Change colours, keep your skin.",
+    "r": "Sommers-Flanagan Ch6 – Initial face-to-face meeting"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "When in doubt about how to address a client, the authors suggest:",
+    "o": [
+      "Use first and last name, ask the preferred form, correct yourself",
+      "Always use the client's first name, in order to build warmth quickly",
+      "Always use a title such as Mr. or Ms.",
+      "Avoid using any name at all until the client volunteers a preference"
+    ],
+    "e": "When in doubt, be appropriately polite: use the client's first and last name, later ask how they prefer to be addressed, and apologize and correct yourself if you got it wrong. This communicates respect (respeto), important in many cultures. Assuming first-name familiarity can feel disrespectful, especially to older or culturally formal clients.",
+    "w": [
+      "Always using first names assumes familiarity some clients find disrespectful.",
+      "Always using titles can feel stiff to clients who prefer first names.",
+      "Avoiding names altogether feels awkward and impersonal, and misses a chance to show respect."
+    ],
+    "k": "Unsure how to address a client? Use first and last name, ask their preference, correct if needed.",
+    "h": "Ask, don't assume; respeto.",
+    "r": "Sommers-Flanagan Ch6 – Initial face-to-face meeting"
+  },
+  {
+    "t": "Ch6 Rapport",
+    "d": 2,
+    "q": "According to Rogers (1942), the only promising type of reassurance is that which:",
+    "o": [
+      "Relieves the client's feeling of peculiarity or isolation",
+      "Promises that the client's problem will be solved fairly soon",
+      "Tells the client nothing is seriously wrong",
+      "Compliments the client's personal strengths and past achievements"
+    ],
+    "e": "Rogers (1942) argued that generic or premature reassurance is patronizing. The only promising type relieves the client's feeling of peculiarity or isolation, facilitating universality: 'Lots of people feel uncomfortable at first.' It normalizes the client's experience without promising outcomes or dismissing concerns, so the client feels less alone but still taken seriously.",
+    "w": [
+      "Promising quick solutions is premature reassurance that can't be guaranteed.",
+      "Saying nothing is wrong dismisses the client's concerns.",
+      "Complimenting strengths is approval, not the reassurance Rogers endorsed."
+    ],
+    "k": "Rogers: the only useful reassurance relieves feelings of peculiarity or isolation (universality).",
+    "h": "'You're not the only one.'",
+    "r": "Sommers-Flanagan Ch6 – Establishing rapport"
+  },
+  {
+    "t": "Ch6 Rapport",
+    "d": 2,
+    "q": "Why might clients treat the interviewer as they treat physicians or teachers?",
+    "o": [
+      "Interviewers are authority figures, triggering past authority expectations",
+      "Clients assume all helping professionals play the same role",
+      "Clients are legally required to defer to therapists, as with physicians",
+      "Interviewers usually dress like physicians"
+    ],
+    "e": "Interviewers occupy an authority role, so clients bring conscious and unconscious assumptions about authority figures, such as doctors and teachers: deferring, seeking approval or bracing for judgement. Power resides in the role itself. Framing the relationship as a collaborative partnership early helps counter these expectations.",
+    "w": [
+      "Clients don't assume all helpers are identical; the authority role triggers past expectations.",
+      "There's no legal duty for clients to defer to therapists.",
+      "Dress isn't the explanation; the authority role is."
+    ],
+    "k": "Clients transfer expectations of authority figures (doctors, teachers) onto interviewers; frame collaboration early.",
+    "h": "The role carries the power.",
+    "r": "Sommers-Flanagan Ch6 – Common client fears"
+  },
+  {
+    "t": "Ch6 Rapport",
+    "d": 2,
+    "q": "The Latino principle of personalismo emphasizes:",
+    "o": [
+      "Informal social connection that makes the interviewer a real person",
+      "Strict formality and consistent use of professional titles",
+      "Avoiding any self-disclosure",
+      "Respecting silence before speaking"
+    ],
+    "e": "Personalismo, an informal social connection that makes the interviewer a real person, can be crucial for rapport with many Latino clients. Similar values appear elsewhere: African Americans speak of 'person-to-person connection', and American Indians of 'respect and reciprocity' (Hays). A purely formal stance may feel cold to such clients.",
+    "w": [
+      "Strict formality and titles relate to respeto, not personalismo's warmth.",
+      "Personalismo often welcomes some self-disclosure to build connection.",
+      "Respecting silence is valued in some cultures, but it isn't personalismo."
+    ],
+    "k": "Personalismo: informal social connection that makes the interviewer a real person.",
+    "h": "Person first, professional second.",
+    "r": "Sommers-Flanagan Ch6 – Conversation and small talk"
+  },
+  {
+    "t": "Ch6 Rapport",
+    "d": 2,
+    "q": "What risk does excessive small talk or self-disclosure at the start carry?",
+    "o": [
+      "Misleading the client into seeing it as a usual social encounter",
+      "Making the interviewer seem too formal and distant",
+      "Breaking confidentiality",
+      "Causing the client to talk too little about the main concerns"
+    ],
+    "e": "Some small talk builds rapport, but too much, or excessive self-disclosure, can mislead the client into seeing the meeting as an ordinary social encounter. Self-disclosure should build rapport, not social friendship. Weiner's example, 'Hi, my name is Fred, and I'm feeling a little anxious because you remind me of a fellow I knew in college…', seems unreal and unprofessional.",
+    "w": [
+      "Excessive small talk makes the interviewer seem too casual, not too formal.",
+      "Small talk doesn't breach confidentiality; its risk is turning the meeting into a social visit.",
+      "The risk isn't that the client says too little; it's confusing the role."
+    ],
+    "k": "Too much small talk or disclosure at the start makes the interview feel like a social visit.",
+    "h": "Rapport, not a coffee date.",
+    "r": "Sommers-Flanagan Ch6 – Conversation and small talk"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Benjamin's classic line to AVOID when stating the interview's purpose is:",
+    "o": [
+      "'We both know why you are here.'",
+      "'Tell me what brings you here today.'",
+      "'How can I be of help?'",
+      "'What would you like to talk about?'"
+    ],
+    "e": "Benjamin warns against 'We both know why you are here', which can destroy any hope of initial rapport: it sounds accusatory, presumptuous or ominous, especially with referred or mandated clients. State the purpose clearly, straightforwardly and truthfully, and let the client describe their own view of why they've come.",
+    "w": [
+      "'Tell me what brings you here today' is a good, open way to begin.",
+      "'How can I be of help?' is acceptable, though it assumes a helping role.",
+      "'What would you like to talk about?' is open and nonjudgmental."
+    ],
+    "k": "Avoid 'We both know why you are here'; state the purpose clearly and truthfully.",
+    "h": "Don't open with a verdict.",
+    "r": "Sommers-Flanagan Ch6 – Educating clients"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Should confidentiality be discussed even if the client already signed a lengthy consent form?",
+    "o": [
+      "Yes – no mound of paperwork substitutes for a conversation",
+      "No – the signed consent form is sufficient",
+      "Only if the client asks",
+      "Only for clients under 18 and their parents or guardians"
+    ],
+    "e": "Yes: no mound of paperwork substitutes for a conversation. Even with a signed consent form, explain confidentiality and its limits simply, straightforwardly and interactively, so the client really understands. Also disclose if a supervisor or others will have access to session material.",
+    "w": [
+      "A signed form doesn't ensure understanding; clients often don't read or grasp it.",
+      "Waiting for the client to ask leaves them uninformed.",
+      "Confidentiality must be discussed with clients of every age."
+    ],
+    "k": "Discuss confidentiality in person even after forms are signed; paperwork isn't understanding.",
+    "h": "Signed isn't explained.",
+    "r": "Sommers-Flanagan Ch6 – Educating clients"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "A client jokes after the confidentiality explanation: 'Well, I'm not planning to kill my mother-in-law.' Or asks who can see the files. The authors suggest:",
+    "o": [
+      "Answer directly – it may reflect curiosity, trust issues or risk thoughts",
+      "Ignore the comment, in order to avoid any awkwardness early in the session",
+      "Interpret it as hostility",
+      "End the interview immediately in order to assess homicide risk"
+    ],
+    "e": "Comments or questions after the confidentiality explanation, such as 'I'm not planning to kill my mother-in-law' or 'Who can see my file?', may reflect curiosity, concerns about trust, or real suicidal or homicidal thoughts. Respond directly and clearly, answering the question and staying alert to what it might signal.",
+    "w": [
+      "Ignoring it misses potential information about trust or risk.",
+      "Interpreting it as hostility is premature and may alienate the client.",
+      "Ending the interview is an overreaction; a direct, clear response comes first."
+    ],
+    "k": "Questions after the confidentiality talk may signal curiosity, trust issues or risk: answer directly.",
+    "h": "A joke can carry a message.",
+    "r": "Sommers-Flanagan Ch6 – Educating clients"
+  },
+  {
+    "t": "Ch6 Introduction",
+    "d": 2,
+    "q": "Which is the 9th task on the introduction-phase checklist (Table 6.1)?",
+    "o": [
+      "Check client expectations for compatibility with your purpose",
+      "Explain confidentiality and each of its specific legal limits",
+      "Clarify the time limits of the session and the fee",
+      "Introduce yourself"
+    ],
+    "e": "Table 6.1's introduction checklist: (1) schedule the appointment; (2) introduce yourself; (3) ask how the client likes to be addressed; (4) small talk; (5) seat the client; (6) present credentials; (7) explain confidentiality; (8) state the purpose; (9) check client expectations for compatibility with your purpose; and (10) clarify time limits. Checking expectations prevents working at cross-purposes.",
+    "w": [
+      "Explaining confidentiality is task 7, before purpose and expectations.",
+      "Time limits are task 10, the last item.",
+      "Introducing yourself is task 2, right after scheduling."
+    ],
+    "k": "Introduction checklist ends: purpose (8), check expectations (9), time limits (10).",
+    "h": "Purpose, then 'Is that what you expected?', then the clock.",
+    "r": "Sommers-Flanagan Ch6 – Table 6.1"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "In Shea's model, the opening phase lasts about:",
+    "o": [
+      "5 to 8 minutes",
+      "1 to 2 minutes",
+      "20 to 25 minutes",
+      "The whole first half of the session"
+    ],
+    "e": "In Shea's model, the opening is a nondirective phase of about 5–8 minutes. Its main task is to stay out of the way so clients can tell their story in their own words. This reveals their priorities, communication style and emotional state, and builds rapport before more structured questioning in the body.",
+    "w": [
+      "One to two minutes is too short for the client to tell their story.",
+      "Twenty to twenty-five minutes describes the body of the interview, not the opening.",
+      "The first half of the session is far longer than Shea's opening."
+    ],
+    "k": "Shea's opening phase: about 5–8 nondirective minutes; stay out of the way.",
+    "h": "Five to eight minutes of their story, not your questions.",
+    "r": "Sommers-Flanagan Ch6 – The opening"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "Stanley Sue's 'scientific mindedness' means:",
+    "o": [
+      "Forming tentative hypotheses and revising or discarding them",
+      "Using standardized tests before forming any impression of the client",
+      "Diagnosing quickly and confidently from first observations alone",
+      "Avoiding any hypotheses until the end"
+    ],
+    "e": "Stanley Sue's 'scientific mindedness' means forming tentative hypotheses about clients and testing, revising or discarding them as information comes in, rather than jumping to conclusions. For example, a client who keeps her coat on might be chilled, feel unsafe, or simply have forgotten. Holding hypotheses lightly protects against cultural bias.",
+    "w": [
+      "Standardized tests aren't required before forming impressions; tentative hypotheses are.",
+      "Quick confident diagnosis is the premature closure Sue warns against.",
+      "Avoiding hypotheses entirely isn't scientific; the key is holding them tentatively."
+    ],
+    "k": "Scientific mindedness: form tentative hypotheses and revise or discard them.",
+    "h": "Think like a scientist: hypothesis, not verdict.",
+    "r": "Sommers-Flanagan Ch6 – The opening"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "In 'Tell me what brings you to counseling at this time,' what does 'at this time' accomplish?",
+    "o": [
+      "Directs the client to why the decision was made now; timing matters",
+      "Limits the client to discussing only the events of the last week",
+      "Signals to the client that the session will be short and tightly focused",
+      "Asks about childhood history"
+    ],
+    "e": "Each part of 'Tell me what brings you to counseling at this time' has a function: 'Tell me' makes the client responsible for telling; 'what brings you' is open yet specific; 'to counseling' acknowledges it's an out-of-the-ordinary step; and 'at this time' directs the client to why they decided to come now. Timing often reveals precipitating events.",
+    "w": [
+      "It doesn't restrict the client to last week; it asks why now.",
+      "It doesn't signal a short session; it asks about the timing of the decision.",
+      "It asks about the present decision, not childhood."
+    ],
+    "k": "'At this time' asks why the client decided to come now; timing reveals precipitants.",
+    "h": "Why now? Something tipped the balance.",
+    "r": "Sommers-Flanagan Ch6 – Opening statement"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "If you open with Shea's 'What are some of the stresses you have been coping with recently?', you will likely hear about:",
+    "o": [
+      "Stressors and coping responses",
+      "A casual social report about the day",
+      "Only the past week",
+      "Childhood experiences and early memories"
+    ],
+    "e": "'If you ask about it, you might get it.' Opening with 'What are some of the stresses you've been coping with recently?' will likely elicit stressors and coping responses. 'How's it going?' gets a social report; 'How has your week been?' gets the past week; 'How can I be of help?' casts you as helper. No opening is completely nondirective.",
+    "w": [
+      "A casual social report comes from 'How's it going?'.",
+      "Focusing on the past week comes from 'How has your week been?'.",
+      "Childhood memories aren't what this opening invites; it asks about recent stresses."
+    ],
+    "k": "Every opening shapes the answer: ask about stresses, hear about stressors and coping.",
+    "h": "Ask about stress, get stress.",
+    "r": "Sommers-Flanagan Ch6 – Opening statement"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "A client begins: 'There are three things going on in my life I'm having difficulty with.' A possible disadvantage of such an organized opening is:",
+    "o": [
+      "It may signal a 'rehearsed interview' – factual but distant",
+      "It means the client is probably psychotic and highly disorganized",
+      "It shows the client lacks insight into the nature of the problems",
+      "It prevents any rapport"
+    ],
+    "e": "Organized openings can help an interview move efficiently. But excessive directness may signal a 'rehearsed interview': factual but emotionally distant, possibly reflecting defensive stock responses, discomfort with unstructured situations, or experience telling the story many times (Shea). The interviewer should notice what's missing, often emotion.",
+    "w": [
+      "An organized opening suggests the opposite of psychotic disorganization.",
+      "Organization doesn't show lack of insight; it may show distance from feelings.",
+      "It doesn't prevent rapport; it may keep emotion at a distance."
+    ],
+    "k": "A highly organized opening may be a rehearsed, emotionally distant account.",
+    "h": "A polished speech can hide the person.",
+    "r": "Sommers-Flanagan Ch6 – Rehearsed client responses"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "A client asks, 'So what am I supposed to talk about?' The recommended sequence is:",
+    "o": [
+      "Allow a brief struggle, then offer support, then add structure",
+      "Immediately give the client a written list of suggested topics to discuss",
+      "Ask a series of closed questions",
+      "Explain the psychoanalytic theory of free association in detail"
+    ],
+    "e": "When a client asks 'What am I supposed to talk about?', the recommended sequence is graduated. First let them struggle briefly: this lets you assess how they cope with ambiguity and express themselves, and gives them a chance to recover. Respond with 'Whatever you'd like'. If they still falter, offer support for the difficulty ('It can be hard to know where to start'), then add structure, such as a more focused question.",
+    "w": [
+      "A written topic list removes the chance to see how the client copes with an open situation.",
+      "Jumping to closed questions skips the brief struggle and support steps.",
+      "Lecturing on free association is unhelpful and shifts focus to theory."
+    ],
+    "k": "Client unsure what to say: allow a brief struggle, then offer support, then add structure.",
+    "h": "Wait, soothe, then steer.",
+    "r": "Sommers-Flanagan Ch6 – Helping clients who struggle"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 2,
+    "q": "'My boss is rude and stupid… my life would be fine if I never had to deal with another man again' illustrates a client who is an:",
+    "o": [
+      "Externalizer",
+      "Internalizer",
+      "Rehearsed interviewee",
+      "Customer for change"
+    ],
+    "e": "Clients can be roughly sorted by where they locate their problems. Externalizers say, in effect, 'I'm fine, but there's something wrong with all those other people': here, the rude boss and men in general. Internalizers self-criticize: 'There's something wrong with me.' Each style suggests different approaches and risks: externalizers may resist self-examination, internalizers may be prone to depression.",
+    "w": [
+      "Internalizers blame themselves, the opposite of this client.",
+      "A rehearsed interviewee gives an organized, distant account; this one blames others emotionally.",
+      "A customer for change is motivated to change themselves, not others."
+    ],
+    "k": "Externalizers blame others ('they're the problem'); internalizers blame themselves.",
+    "h": "Ex-ternal = the problem is out there.",
+    "r": "Sommers-Flanagan Ch6 – Evaluating client verbal behavior"
+  },
+  {
+    "t": "Ch6 Opening",
+    "d": 3,
+    "q": "In Multicultural Highlight 6.1, which order runs from most individual to most social view of where client problems reside?",
+    "o": [
+      "Biological psychiatry → DSM-IV-TR → Minuchin → Smail",
+      "DSM-IV-TR → Biological psychiatry → Smail → Minuchin",
+      "Minuchin → Smail → DSM-IV-TR → Biological psychiatry",
+      "Smail → Minuchin → Biological psychiatry → DSM-IV-TR"
+    ],
+    "e": "Multicultural Highlight 6.1 places views of where problems reside on a continuum. Biological psychiatry locates them in genes and biology (most individual). DSM-IV-TR locates them in the individual, sometimes provoked by social factors. Minuchin's family systems approach locates them in the family and environment. Smail locates them in the social, cultural and political context (most social).",
+    "w": [
+      "DSM-IV-TR is less biological than biological psychiatry, and Smail is more social than Minuchin, so both pairs are reversed.",
+      "This runs from family to biology, nearly the reverse of the correct order.",
+      "This starts with the most social view and mixes the order of the rest."
+    ],
+    "k": "Individual → social: biological psychiatry → DSM → Minuchin (family) → Smail (sociopolitical).",
+    "h": "Genes, person, family, society.",
+    "r": "Sommers-Flanagan Ch6 – Multicultural Highlight 6.1"
+  },
+  {
+    "t": "Ch6 Body",
+    "d": 2,
+    "q": "What primarily happens in the body of an initial or assessment interview?",
+    "o": [
+      "Information gathering, focused by the interview's purpose",
+      "Instilling hope and scheduling all of the next appointments",
+      "Explaining confidentiality",
+      "Small talk and rapport building, with no information gathering"
+    ],
+    "e": "The body is the heart of the interview: information gathering, focused by the interview's purpose, such as diagnosis and treatment planning in an intake. Its focus can shift: if a client reveals suicidal thoughts, the body becomes a suicide assessment. The body follows the opening's nondirective storytelling with more directive questioning.",
+    "w": [
+      "Instilling hope and scheduling belong to the closing.",
+      "Confidentiality is explained in the introduction, before the body begins.",
+      "Small talk and rapport-building are introduction tasks; the body gathers information."
+    ],
+    "k": "The body of an interview is for information gathering, focused by its purpose.",
+    "h": "Body = the meat of the interview.",
+    "r": "Sommers-Flanagan Ch6 – The body"
+  },
+  {
+    "t": "Ch6 Psychopathology",
+    "d": 2,
+    "q": "Why should behavior never be judged disordered on statistical infrequency alone?",
+    "o": [
+      "It would label exceptional, creative or culturally divergent people",
+      "Statistics are too unreliable in psychology to be used for any judgment",
+      "Infrequent behavior is always healthy, by definition, in every culture",
+      "Only clinicians can judge frequency"
+    ],
+    "e": "Statistical infrequency alone can't define disorder, or exceptional, creative or culturally divergent people would be labelled disordered. As the authors note, most professional basketball players would have a 'height disorder' and published poets a 'thinking disorder'. Rare behaviour must be evaluated against other criteria: distress, maladaptiveness and justifiability.",
+    "w": [
+      "Statistics can inform judgement; they just aren't sufficient alone.",
+      "Infrequent behaviour isn't always healthy; it simply isn't automatically disordered.",
+      "Anyone can judge frequency; the issue is that rarity isn't pathology."
+    ],
+    "k": "Rarity alone isn't disorder; otherwise tall athletes and poets would be 'disordered'.",
+    "h": "Unusual isn't the same as unwell.",
+    "r": "Sommers-Flanagan Ch6 – Statistical infrequency"
+  },
+  {
+    "t": "Ch6 Psychopathology",
+    "d": 2,
+    "q": "The four general guidelines for judging possible psychopathology are:",
+    "o": [
+      "Infrequent, disturbing to self/others, maladaptive, unjustifiable",
+      "Onset, duration, severity, frequency, and family history of symptoms",
+      "Genes, family, culture, society",
+      "Thoughts, feelings, behaviors, relationships, and the spiritual life"
+    ],
+    "e": "The four general guidelines for judging possible psychopathology: the behaviour is statistically infrequent, disturbing to self or others, maladaptive (interferes with functioning), and rationally or culturally unjustifiable. These are guidelines, not diagnostic criteria, and no single one should determine that someone has a disorder.",
+    "w": [
+      "Onset, duration, severity and frequency describe symptoms but aren't the four guidelines.",
+      "Genes, family, culture and society are levels of causation, not criteria.",
+      "Thoughts, feelings, behaviours and relationships are domains, not the guidelines."
+    ],
+    "k": "Psychopathology guidelines: infrequent, disturbing, maladaptive, unjustifiable; none is decisive alone.",
+    "h": "Rare, Distressing, Dysfunctional, Unjustified.",
+    "r": "Sommers-Flanagan Ch6 – Defining psychological disorders"
+  },
+  {
+    "t": "Ch6 Psychopathology",
+    "d": 2,
+    "q": "By definition, a behavior pattern is maladaptive when it:",
+    "o": [
+      "Interferes with occupational, social, physical or recreational life",
+      "Is unusual or rare when compared with the general population",
+      "Bothers the client's family members and close friends",
+      "Has no cultural explanation"
+    ],
+    "e": "A maladaptive pattern is a repeating, self-defeating behaviour, belief or emotion that interferes with effective occupational, social, physical or recreational functioning. For example, screaming at a teenager to clean her room may backfire and worsen the relationship. The test is impact on functioning, not rarity or others' annoyance.",
+    "w": [
+      "Rarity is statistical infrequency, a separate guideline from maladaptiveness.",
+      "Bothering others is the 'disturbing to others' guideline.",
+      "Lacking a cultural explanation is the 'unjustifiable' guideline."
+    ],
+    "k": "Maladaptive = a repeating, self-defeating pattern that interferes with life functioning.",
+    "h": "Maladaptive: it backfires on your own life.",
+    "r": "Sommers-Flanagan Ch6 – Maladaptive behaviors"
+  },
+  {
+    "t": "Ch6 Psychopathology",
+    "d": 3,
+    "q": "A man forces his capable mid-40s wife to eat and sleep when he decides, because her brother had an intellectual disability. Which criteria does his behavior meet?",
+    "o": [
+      "Rationally unjustifiable, infrequent, disturbing and maladaptive",
+      "Only statistically infrequent, since such control is rare in marriages",
+      "None of them, since the behavior may simply be cultural tradition",
+      "Only disturbing to the client himself"
+    ],
+    "e": "This man's behaviour meets all four guidelines: rationally unjustifiable (his wife can care for herself; her brother's disability doesn't apply to her), statistically infrequent (few people do this), disturbing (to his wife) and maladaptive (it contributed to a marital crisis). Cultural justification still has to be considered before concluding it is pathological.",
+    "w": [
+      "Infrequency alone would never be enough, and here several other criteria are also met.",
+      "Cultural tradition must be considered, but his controlling behaviour still meets the criteria.",
+      "The behaviour disturbs his wife, not mainly himself."
+    ],
+    "k": "The controlling husband meets all four: unjustifiable, infrequent, disturbing, maladaptive.",
+    "h": "Four out of four warning lights.",
+    "r": "Sommers-Flanagan Ch6 – Rationally or culturally unjustifiable"
+  },
+  {
+    "t": "Ch6 Psychopathology",
+    "d": 2,
+    "q": "Personality disorders are mentioned as an example of disorders that are particularly:",
+    "o": [
+      "Disturbing to people who live or work with the person",
+      "Distressing mainly to the person who has them",
+      "Statistically common",
+      "Culturally justifiable in most societies and eras"
+    ],
+    "e": "With personality disorders, the people who live or work with the person often experience more distress than the person does, and may insist they get counseling. So it helps to ask clients whether anyone is bothered by their behaviour, since the person may see their traits as normal (ego-syntonic).",
+    "w": [
+      "People with personality disorders often feel less distress than those around them.",
+      "Personality disorders aren't presented as statistically common in this context.",
+      "They aren't described as culturally justifiable in most societies."
+    ],
+    "k": "Personality disorders are often more disturbing to others than to the person.",
+    "h": "They're fine; everyone else is suffering.",
+    "r": "Sommers-Flanagan Ch6 – Disturbing to self or others"
+  },
+  {
+    "t": "Ch6 Interventions",
+    "d": 2,
+    "q": "'Therapists are not just taking history, they're making history' reflects which view?",
+    "o": [
+      "Constructive – assessment and intervention are inseparable via language",
+      "Psychoanalytic – history explains present symptoms",
+      "Behavioral – learning history predicts current behavior patterns",
+      "Medical – history leads to diagnosis"
+    ],
+    "e": "From a constructive perspective, all change is founded on linguistic construction: how interviewer and client talk about experience shapes it. So assessment and intervention are inseparable; asking questions already begins change. 'Therapists are not just taking history, they're making history.'",
+    "w": [
+      "Psychoanalysis uses history to explain symptoms, not to construct change through language.",
+      "Behavioural learning history predicts behaviour; it isn't the constructive view.",
+      "The medical model takes history to diagnose, separating assessment from treatment."
+    ],
+    "k": "Constructive view: talk itself constructs change, so assessment and intervention are inseparable.",
+    "h": "Asking writes the story.",
+    "r": "Sommers-Flanagan Ch6 – Applying interventions"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "When should you stop gathering new information to allow a smooth closing?",
+    "o": [
+      "5 to 10 minutes before the end",
+      "In the last minute",
+      "Halfway through the session",
+      "15 to 20 minutes before the end"
+    ],
+    "e": "Stop gathering new information about 5–10 minutes before the end, leaving time to summarize, instill hope, answer questions and handle logistics. Shea notes a frequent supervision problem: over-extending the body and rushing the closing, so the client leaves without a sense of completion.",
+    "w": [
+      "The last minute is too late for a proper closing.",
+      "Halfway through cuts information gathering far too short.",
+      "15–20 minutes is longer than needed for the closing."
+    ],
+    "k": "Stop gathering new information 5–10 minutes before the end.",
+    "h": "Ten minutes out, start landing the plane.",
+    "r": "Sommers-Flanagan Ch6 – The closing"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "In which two areas do clients need reassurance and support during the closing?",
+    "o": [
+      "Their expressive efforts, and their decision to seek help",
+      "Their diagnosis, and their likely long-term prognosis for recovery",
+      "Their family, and their job",
+      "Their intelligence, and their personal attractiveness to others"
+    ],
+    "e": "During the closing, clients need reassurance and support in two areas: their expressive efforts ('You covered lots of ground today') and their decision to seek help, siding with their hope ('Coming in is a sign of strength'). Talking about personal problems is hard, and acknowledging it encourages return.",
+    "w": [
+      "Diagnosis and prognosis aren't the two support areas named.",
+      "Family and job aren't the support areas named.",
+      "Intelligence and attractiveness aren't what clients need support on here."
+    ],
+    "k": "In closing, support the client's expressive efforts and their decision to seek help.",
+    "h": "You talked, and you came: both deserve credit.",
+    "r": "Sommers-Flanagan Ch6 – Reassuring and supporting"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "According to Shea, perhaps the most important task of the closing is:",
+    "o": [
+      "Solidifying the desire to return or follow the referral",
+      "Collecting the fee and confirming insurance",
+      "Completing the diagnosis and writing the report",
+      "Assigning homework for the coming week"
+    ],
+    "e": "For Shea, perhaps the most important closing task is solidifying the client's desire to return, or to follow through with a referral. One of the best ways is to clearly identify why the client came and summarize crucial themes: a good summary shows you heard and understood, and enhances your credibility.",
+    "w": [
+      "Fees and insurance are administrative loose ends, not the most important task.",
+      "Diagnosis and report writing happen after the interview.",
+      "Homework isn't the central closing task in an initial interview."
+    ],
+    "k": "Shea: the key closing task is strengthening the client's wish to return or follow the referral.",
+    "h": "Make them want to come back.",
+    "r": "Sommers-Flanagan Ch6 – Summarizing crucial themes"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "An early interpretation at the close of a first session should be:",
+    "o": [
+      "Brief, tentative, understandable, cognitive rather than deep",
+      "A deep interpretation of childhood trauma and its effects on the present",
+      "Delivered confidently, without asking the client's permission first",
+      "Saved until termination of therapy"
+    ],
+    "e": "Based on Adler's Individual Psychology, an early interpretation at the close of a first session should be brief, tentative and understandable, cognitive rather than deep: for example, suggesting that perfectionism may underlie anger. Ask permission first ('Would you like to hear an idea?'), then offer it clearly and politely.",
+    "w": [
+      "Deep interpretation of childhood trauma is premature in a first session.",
+      "Early interpretations should be tentative and offered with permission.",
+      "Saving it until termination misses a chance to engage the client early."
+    ],
+    "k": "Early interpretations: brief, tentative, understandable, cognitive, offered with permission.",
+    "h": "A light touch, not a deep dig.",
+    "r": "Sommers-Flanagan Ch6 – Providing an early interpretation"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "Which statement best instills hope at the close, consistent with your professional opinion?",
+    "o": [
+      "'Most people who use therapy are successful; you're likely to do well.'",
+      "'Don't worry – everything is going to be fine very soon.'",
+      "'Therapy always works quickly.'",
+      "'I'm quite sure you have no serious problems at all to worry about.'"
+    ],
+    "e": "Hope is a central force in therapy outcome (Frank and Frank). At the close, make a brief positive statement consistent with your professional judgement, such as 'Most people who use therapy are successful; you're likely to do well', while acknowledging not everyone improves quickly. Blanket guarantees are misleading.",
+    "w": [
+      "'Everything will be fine soon' is a promise you can't keep.",
+      "'Therapy always works quickly' is false and sets up disappointment.",
+      "Saying they have no serious problems dismisses their concerns."
+    ],
+    "k": "Instill hope with realistic, evidence-based optimism, not guarantees.",
+    "h": "Hope, not hype.",
+    "r": "Sommers-Flanagan Ch6 – Instilling hope"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 2,
+    "q": "'I've done all the questioning here. I wonder if you have any questions for me?' serves to:",
+    "o": [
+      "Give power and control back to the client",
+      "Delay the end of the session",
+      "Test the client's intelligence and insight",
+      "Assess suicide risk"
+    ],
+    "e": "Initial interviews are one-sided: the interviewer asks, the client answers. Near the end, guiding and empowering means giving power and control back to the client: 'I've done all the questioning here. I wonder if you have any questions for me?' or 'Has this been as you expected? Any areas we missed?'",
+    "w": [
+      "It's part of closing, not a way to delay the end.",
+      "It isn't a test of intelligence; it rebalances power.",
+      "It's not a suicide assessment question; it invites the client's own questions."
+    ],
+    "k": "Inviting the client's questions at the end gives power and control back to them.",
+    "h": "Hand them the microphone.",
+    "r": "Sommers-Flanagan Ch6 – Guiding and empowering"
+  },
+  {
+    "t": "Ch6 Closing",
+    "d": 1,
+    "q": "The final formal task of the closing is:",
+    "o": [
+      "Tying up loose ends – further contact, scheduling, fees",
+      "Reviewing confidentiality and its specific legal limits once more",
+      "Offering a deep interpretation of the client's personal history",
+      "Taking the client's history"
+    ],
+    "e": "The final formal task of the closing is tying up loose ends (Table 6.4): clarifying whether there will be further contact, scheduling appointments, and handling fees and administrative issues. Taking care of these details keeps the relationship professional and ensures the client knows what happens next.",
+    "w": [
+      "Confidentiality is reviewed in the introduction, not as the final closing task.",
+      "Deep interpretations don't belong at the close of an initial interview.",
+      "History taking happens in the body of the interview, not at the close."
+    ],
+    "k": "Final closing task: tie up loose ends (further contact, scheduling, fees).",
+    "h": "Last: the logistics.",
+    "r": "Sommers-Flanagan Ch6 – Tying up loose ends"
+  },
+  {
+    "t": "Ch6 Termination",
+    "d": 2,
+    "q": "A client says at the door, 'By the way, my thoughts about killing myself have intensified.' This is a:",
+    "o": [
+      "Doorknob statement that requires immediate attention",
+      "Typical goodbye ritual that can safely be ignored by the interviewer",
+      "Sign the session went well",
+      "Statement that can safely be deferred until next week"
+    ],
+    "e": "Doorknob statements are disclosures made at the very end of a session, sometimes the most important of all. Some can be deferred ('That will give us an excellent place to begin next week'), but others, such as intensified suicidal thoughts, require immediate attention: a risk assessment and safety plan before the client leaves.",
+    "w": [
+      "Suicidal thoughts can't be ignored as a goodbye ritual.",
+      "Last-minute risk disclosures aren't a sign the session went well.",
+      "Intensified suicidal thoughts can't wait until next week."
+    ],
+    "k": "Doorknob statements about suicide require immediate attention; others can be deferred.",
+    "h": "Hand on the door, life on the line.",
+    "r": "Sommers-Flanagan Ch6 – Putting It in Practice 6.2"
+  },
+  {
+    "t": "Ch6 Termination",
+    "d": 2,
+    "q": "An adult client stands up 10 minutes early: 'I'm done talking for today.' A recommended strategy is:",
+    "o": [
+      "'I wonder why you want to leave early' – avoid a power struggle",
+      "Insist firmly that the client stay seated until the hour is over",
+      "Let the client go without comment and say nothing at the next session",
+      "Charge for the missed minutes"
+    ],
+    "e": "Wanting to leave early may defend against anxiety stirred up in the session. Explore it gently ('I wonder why you want to leave early'), ask about their reactions, and note 'We still have plenty of time.' Never engage in a power struggle: an adult has the right to leave, and the door should stay open for a future return.",
+    "w": [
+      "Insisting the client stay seated creates a power struggle.",
+      "Letting them go without comment misses important material.",
+      "Charging for missed minutes is punitive and not recommended."
+    ],
+    "k": "Client leaving early: explore it gently, avoid power struggles, invite a return.",
+    "h": "Curious, not controlling.",
+    "r": "Sommers-Flanagan Ch6 – Guiding or controlling termination"
+  },
+  {
+    "t": "Ch6 Termination",
+    "d": 3,
+    "q": "Why do the authors say allowing a client 'just a little extra time' may not serve the client?",
+    "o": [
+      "Wishing for special status may be what the client must face",
+      "Clients always dislike extra time and feel controlled by it",
+      "It is illegal to extend sessions for insurance-funded clients",
+      "Extra time reduces rapport"
+    ],
+    "e": "Ending kindly and on time models that therapy, like life, has real limits. A client's wish for special status may be exactly what they need to face. The authors suggest conveying: 'I play by the rules, and I believe you can, too… I can't work magic or change the reality of time constraints.'",
+    "w": [
+      "Many clients welcome extra time; the issue is reinforcing a wish for special treatment.",
+      "It's not illegal; the concern is that it is clinically unhelpful.",
+      "Extra time doesn't reduce rapport; it can undermine the frame."
+    ],
+    "k": "Ending on time models real-world limits; extra time can feed a wish for special status.",
+    "h": "No magic minutes.",
+    "r": "Sommers-Flanagan Ch6 – Facing termination"
+  },
+  {
+    "t": "Ch6 Termination",
+    "d": 2,
+    "q": "How a client copes with the end of a session may:",
+    "o": [
+      "Foreshadow therapy's termination and separation-individuation issues",
+      "Be irrelevant to clinical understanding",
+      "Show only fatigue",
+      "Indicate the interviewer's competence more than the client's issues"
+    ],
+    "e": "How clients cope with session endings varies: some bolt, some linger, some feel anger, sadness or relief. These reactions may foreshadow how they'll handle therapy's termination, and reflect separation and individuation conflicts from development. Session endings are therefore clinical information.",
+    "w": [
+      "Session endings are clinically relevant information, not irrelevant details.",
+      "Reactions to endings show more than fatigue; they can reveal separation conflicts.",
+      "They mainly reflect the client's issues, not the interviewer's competence."
+    ],
+    "k": "Reactions to session endings may foreshadow termination and reveal separation issues.",
+    "h": "Every goodbye rehearses the final one.",
+    "r": "Sommers-Flanagan Ch6 – Termination"
+  },
+  {
+    "t": "Ch6 Body",
+    "d": 2,
+    "q": "According to Table 6.3, what is the FIRST task of the body phase?",
+    "o": [
+      "Shift from nondirective to directive listening, explaining it if needed",
+      "Instill hope and optimism about the eventual outcome of therapy",
+      "Explain confidentiality and its legal limits in much more detail",
+      "Watch the clock and plan for the closing"
+    ],
+    "e": "Table 6.3's body checklist: (1) shift from nondirective to directive listening, explaining the change if needed (role induction); (2) gather information; (3) obtain diagnostic information; (4) apply interventions; and (5) shift toward preparing for the closing. Explaining the shift tells the client why you'll now ask more questions.",
+    "w": [
+      "Instilling hope belongs to the closing phase, not the start of the body.",
+      "Confidentiality belongs to the introduction phase, not the body.",
+      "Planning for the closing is the body's last task, not its first."
+    ],
+    "k": "Body phase starts by shifting to directive listening and explaining it (role induction).",
+    "h": "'I'm going to ask more specific questions now.'",
+    "r": "Sommers-Flanagan Ch6 – Table 6.3"
+  }
+]

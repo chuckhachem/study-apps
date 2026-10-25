@@ -1,0 +1,422 @@
+[
+  {
+    "t": "Files and windows",
+    "d": 1,
+    "q": "According to the SPSS slides, which three main types of SPSS files are there?",
+    "o": [
+      "Data (.sav), Output (analysis results) and Syntax (commands saved as code)",
+      "Data (.xlsx), Chart files and Help files saved by the program",
+      "Variable files, Case files and Label files for each data set",
+      "Output (.sav), Data (.spv) and Script files saved as Word documents"
+    ],
+    "e": "When SPSS is launched you can create a new file or open an existing one. The slides list three types: Data, the data file (.sav) where most operations are carried out; Output, the file containing the results of the analyses (saved as .spv, as Dr. Geryes' exams require when they ask you to save 'Output 1' and export it as PDF); and Syntax, tests saved in the form of a programming language. A new data file is named 'Untitled 1' by default and must be saved under another name.",
+    "w": [
+      ".xlsx is an Excel file that SPSS can import; it is not an SPSS file type.",
+      "Variables, cases and labels are parts of a data file, not file types.",
+      "This swaps the extensions: data are .sav and output is .spv."
+    ],
+    "k": "SPSS files: Data (.sav), Output (results, .spv) and Syntax (commands as code).",
+    "h": "Data, results, code.",
+    "r": "SPSS slides (French) – Introduction; SPSS final exam 2019–2020 (Dr. Geryes)"
+  },
+  {
+    "t": "Files and windows",
+    "d": 1,
+    "q": "In Data View, what do rows, columns and cells represent, according to the slides?",
+    "o": [
+      "Rows are cases (each row a questionnaire), columns are variables (each column a question), cells hold the values",
+      "Rows are variables, columns are cases, cells hold the labels",
+      "Rows are questions, columns are participants, cells hold the codes' meanings",
+      "Rows are value labels, columns are measures, cells hold the decimals"
+    ],
+    "e": "The slides describe the data window, with Data View for viewing and modifying the data and Variable View for modifying the characteristics of the variables. In Data View, rows are cases (each row is one questionnaire, one participant), columns are variables (each column is one question), and cells contain the values of the data, the raw data. Variable View lets you set each variable's name, type, label, values and measure.",
+    "w": [
+      "This reverses the roles of rows and columns.",
+      "Participants are rows, not columns, in Data View.",
+      "Value labels and measures are set in Variable View, not displayed as rows."
+    ],
+    "k": "Data View: row = case (questionnaire), column = variable (question), cell = value.",
+    "h": "Each row a person, each column a question.",
+    "r": "SPSS slides (French) – Data View"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "Gender is coded 1 = male and 2 = female with a Numeric type. Which Measure should be chosen, according to the slides?",
+    "o": [
+      "Nominal, because the codes name unordered categories",
+      "Scale, because the variable's type is numeric",
+      "Ordinal, because the code 2 is larger than the code 1",
+      "String, because gender is really a word, not a number"
+    ],
+    "e": "The slides distinguish the Type (what you type in: numeric or string) from the Measure (the nature of the variable). Measure can be Scale (a quantitative variable), Ordinal (a qualitative ordinal variable) or Nominal (a qualitative nominal variable). Even when gender is entered as numeric codes 1 and 2, its measure is nominal: male/female has no order or quantity. The Values column records what each code means.",
+    "w": [
+      "A numeric type does not make a variable quantitative; the codes are labels.",
+      "The numbers are arbitrary codes; female is not 'more' than male.",
+      "String is a type, not a measure."
+    ],
+    "k": "Type = how values are entered (numeric/string); Measure = Scale (quantitative), Ordinal or Nominal (qualitative); coded gender is nominal.",
+    "h": "Numbers as name tags stay nominal.",
+    "r": "SPSS slides (French) – Variable View"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "Why do the slides advise avoiding the String type for variables?",
+    "o": [
+      "String (text) variables limit certain analyses, so categories should be coded as numbers",
+      "String variables cannot be displayed in Data View",
+      "String variables are automatically deleted when the file is saved",
+      "String variables are measured as Scale by default"
+    ],
+    "e": "In Variable View, the slides say to define the type and to avoid String (character) variables because they limit certain analyses. The recommended practice is to code categories numerically (e.g. M = 1, F = 2), give the full name of the variable in Label, state the meaning of each code in Values, and set the appropriate Measure. In the exercise where gender is typed as letters, String must be chosen, which is why recoding into numbers follows.",
+    "w": [
+      "String values are displayed in Data View; the problem is analysis.",
+      "Nothing is deleted when the file is saved.",
+      "String variables are typically nominal, not Scale."
+    ],
+    "k": "Avoid String variables: they limit analyses; code categories as numbers and label them in Values.",
+    "h": "Words in, numbers out.",
+    "r": "SPSS slides (French) – Variable View"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "Which variable name is valid under the SPSS slides' naming rules?",
+    "o": [
+      "anxiety_score",
+      "anxiety score",
+      "score.",
+      "with"
+    ],
+    "e": "The slides' naming rules: names must be unique and recognizable; start with a letter; other characters can be letters, digits, a period or the symbols @ _ # $ (all other symbols are forbidden); a name cannot end with a period; spaces are not allowed (use _); upper and lower case are not distinguished; SPSS keywords cannot be used (ALL, AND, BY, EQ, GE, GT, LE, LT, NE, NOT, OR, TO, WITH); and accented letters should be avoided. 'anxiety_score' respects every rule.",
+    "w": [
+      "Spaces are not allowed; use an underscore.",
+      "A name cannot end with a period.",
+      "WITH is a reserved SPSS keyword."
+    ],
+    "k": "Names: start with a letter; letters, digits, . @ _ # $ only; no final period; no spaces; no keywords (ALL, AND, BY, WITH…); no accents.",
+    "h": "Underscore instead of space; never a keyword.",
+    "r": "SPSS slides (French) – Rules for naming variables"
+  },
+  {
+    "t": "Data entry",
+    "d": 2,
+    "q": "You start typing values directly into an empty column in Data View without defining a variable first. What happens, according to the slides?",
+    "o": [
+      "SPSS automatically creates a variable with a name like VAR00001, which you can rename in Variable View",
+      "SPSS refuses the entry until a variable is defined in Variable View",
+      "SPSS creates a variable named 'Untitled 1'",
+      "SPSS deletes the values when you switch to Variable View"
+    ],
+    "e": "After data collection, data entry has two successive steps: create and define the variables, mainly in Variable View, then enter the data in Data View (each row one participant). A variable can be created in two ways: in Variable View, by giving it a name (it is created automatically), or in Data View, by starting to type values, in which case SPSS creates a variable named in the form VAR00001, which you can then modify in Variable View.",
+    "w": [
+      "SPSS accepts the entry and creates the variable itself.",
+      "'Untitled 1' is the default name of a new data file, not of a variable.",
+      "The values are kept; only the variable name is generic."
+    ],
+    "k": "Data entry: define variables in Variable View, then enter data in Data View; typing first creates VAR00001.",
+    "h": "Type first, get VAR00001.",
+    "r": "SPSS slides (French) – Data entry"
+  },
+  {
+    "t": "Data entry",
+    "d": 2,
+    "q": "How do you insert a new participant between two existing rows in Data View?",
+    "o": [
+      "Select the row above which you want the new case, right-click and choose Insert Cases",
+      "Select the column before which you want it and choose Insert Variables",
+      "Type the new values at the bottom; SPSS sorts them automatically",
+      "Go to Variable View and press Delete on the row"
+    ],
+    "e": "The slides give the editing commands. In Data View, to delete a case select the row and press Delete (or right-click → Clear); to insert a case between two others, select the row above which you want to insert it and right-click → Insert Cases. To delete a variable select the column and press Delete; to insert a variable select the column before which you want it and right-click → Insert Variables. In Variable View, variables are rows, so you select the row and right-click → Insert Variable.",
+    "w": [
+      "Insert Variables adds a column (a variable), not a participant.",
+      "SPSS does not sort new rows automatically.",
+      "Delete removes; it does not insert."
+    ],
+    "k": "Data View: Insert Cases adds a row (participant); Insert Variables adds a column; Delete or Clear removes.",
+    "h": "Cases are rows, variables are columns.",
+    "r": "SPSS slides (French) – Deleting and inserting observations"
+  },
+  {
+    "t": "Data entry",
+    "d": 2,
+    "q": "When importing an Excel file whose first row contains the column names, which option must be selected?",
+    "o": [
+      "Read variable names from the first row of data",
+      "Ignore hidden rows and columns",
+      "Remove leading spaces from string values",
+      "Convert numeric strings to numbers"
+    ],
+    "e": "The slides' procedure for importing an Excel database: make sure the first row contains the variable names, close the Excel file, open SPSS and choose File → Open → Data, selecting the Excel file type. Because the first row holds the names, you tick 'Read variable names from the first row of data', so SPSS uses them in Variable View. Then always look at the data to make sure the import worked.",
+    "w": [
+      "This option deals with hidden rows, not variable names.",
+      "This option trims spaces in text values.",
+      "This option converts text that looks like numbers; it does not read names."
+    ],
+    "k": "Excel import: close Excel → File → Open → Data → tick 'Read variable names from the first row of data' → check the data.",
+    "h": "First row = names.",
+    "r": "SPSS slides (French) – Importing from Excel"
+  },
+  {
+    "t": "Transformations",
+    "d": 2,
+    "q": "According to the slides' decision chart, when do you use Recode into SAME Variables rather than Recode into DIFFERENT Variables?",
+    "o": [
+      "When the number of choices after recoding equals the number before (e.g. M/F → 1/2)",
+      "When the number of choices after recoding is smaller than before (e.g. ages → age classes)",
+      "Whenever you need to calculate a new score from several items",
+      "Whenever you want to analyse only part of the sample"
+    ],
+    "e": "The slides' three-step chart: (1) Are recodings needed? If the number of possible choices after recoding equals the number before, use Recode into Same Variables (e.g. coding sex M = 1, F = 2, typed exactly as in the column, capitals included); if it is smaller, use Recode into Different Variables, keeping the original. (2) Are calculations needed? Use Compute (sometimes step 2 comes before step 1). (3) Does the question concern the whole sample or only part? For a part, use Select Cases.",
+    "w": [
+      "Fewer categories after recoding calls for Recode into Different Variables, keeping the original.",
+      "Calculations use Compute Variable, not recoding.",
+      "Working on a sub-sample uses Select Cases."
+    ],
+    "k": "Same number of choices → Recode into Same; fewer → Recode into Different; calculations → Compute; sub-sample → Select Cases.",
+    "h": "Same count, same variable; fewer, different variable.",
+    "r": "SPSS slides (French) – Steps to follow; Recode into same variables"
+  },
+  {
+    "t": "Transformations",
+    "d": 2,
+    "q": "How do you compute Body Mass Index (BMI) for each participant, according to the slides?",
+    "o": [
+      "Transform → Compute Variable; Target variable: BMI; Numeric expression: weight / (height * height)",
+      "Transform → Recode into Same Variables; Old value: weight; New value: height",
+      "Analyze → Descriptive Statistics → Frequencies; select weight and height",
+      "Data → Select Cases; If: weight / height"
+    ],
+    "e": "Compute Variable is the second transformation in the slides' chart, used when calculations are needed. For BMI: Transform → Compute Variable, type the Target Variable name (BMI, following the same naming rules as any variable) and the Numeric Expression weight / (height * height), using the calculator pad or functions. Every new variable is created at the end of the data set, in the last column.",
+    "w": [
+      "Recoding changes codes; it does not calculate a formula.",
+      "Frequencies describes variables; it does not create a new one.",
+      "Select Cases chooses a sub-sample; it does not calculate."
+    ],
+    "k": "Calculations: Transform → Compute Variable (target name + numeric expression); new variables appear in the last column.",
+    "h": "Compute = calculator for new columns.",
+    "r": "SPSS slides (French) – Compute"
+  },
+  {
+    "t": "Transformations",
+    "d": 3,
+    "q": "You recode age into classes [40–60[, [60–80[ and 80 or more, keeping the original age variable. Which caution do the slides stress?",
+    "o": [
+      "Avoid overlapping bounds and watch decimals (e.g. 59.5) so every age gets one class",
+      "Use Recode into Same Variables so that the original ages are replaced by the classes",
+      "Make sure each age class contains exactly the same number of participants",
+      "Type each participant's class by hand in a new column of Data View"
+    ],
+    "e": "Recode into Different Variables is used when the number of choices decreases, here turning a continuous age into classes, while keeping the original variable. The slides warn that if the same value is included in two intervals, SPSS will not know which interval it belongs to, so boundaries must not overlap; they also warn about decimals ('chiffres après la virgule'), since an age such as 59.5 must still fall into a class. Then check the result in the new last column.",
+    "w": [
+      "Recode into Same would overwrite the original ages, which the task wants to keep.",
+      "Classes are defined by age bounds, not equal group sizes.",
+      "Recoding is done through the Transform menu, not by typing in Data View."
+    ],
+    "k": "Recode into Different for classes: non-overlapping bounds, watch decimals, keep the original, check the new last column.",
+    "h": "No value in two boxes; no value in none.",
+    "r": "SPSS slides (French) – Discretizing a continuous variable"
+  },
+  {
+    "t": "Transformations",
+    "d": 2,
+    "q": "How do the slides tell discontinuous (discrete) variables from continuous variables in SPSS?",
+    "o": [
+      "Discontinuous variables have codes that repeat; continuous variables have a multitude of possible values",
+      "Discontinuous variables are always String; continuous variables are always Numeric",
+      "Discontinuous variables have decimals; continuous variables never do",
+      "Discontinuous variables are placed in Variable View; continuous variables in Data View"
+    ],
+    "e": "The slides advise learning to differentiate the two kinds of variables in a data set. Discontinuous variables are made of codes that repeat (for example 1 and 2 for gender, 1 to 4 for marital status). Continuous variables can take a multitude of possible values (age in years, weight, height, income). This distinction drives the choice of transformation and of statistical test.",
+    "w": [
+      "Both kinds of variable are usually numeric; type does not define them.",
+      "Continuous variables are the ones that may have decimals.",
+      "Every variable appears in both Variable View and Data View."
+    ],
+    "k": "Discontinuous = a few repeated codes; continuous = many possible values; this guides the choice of test.",
+    "h": "Repeating codes vs a smooth range.",
+    "r": "SPSS slides (French) – Remark on variables"
+  },
+  {
+    "t": "Select cases",
+    "d": 2,
+    "q": "You want the mean age of the women only (gender = 2). Which path do the slides give?",
+    "o": [
+      "Data → Select Cases → If condition is satisfied → If…: gender = 2",
+      "Transform → Recode into Same Variables → gender = 2",
+      "Analyze → Compare Means → One-Sample T Test → gender = 2",
+      "Data → Sort Cases → gender, then delete the men"
+    ],
+    "e": "Select Cases is used when you want to work only on a sub-sample. To get the mean age of the women: Data → Select Cases → 'If condition is satisfied' → If…: gender = 2, then return to Data View to check the selection. You can combine two variables, e.g. women aged 50 or over: gender = 2 & age >= 50.",
+    "w": [
+      "Recoding changes codes; it does not select a sub-sample.",
+      "A one-sample t-test compares a mean to a value; it does not select cases.",
+      "Deleting data is never needed; Select Cases filters them."
+    ],
+    "k": "Sub-sample: Data → Select Cases → If condition is satisfied (e.g. gender = 2 & age >= 50).",
+    "h": "Select, don't delete.",
+    "r": "SPSS slides (French) – Select Cases"
+  },
+  {
+    "t": "Select cases",
+    "d": 2,
+    "q": "After analysing only the women with Select Cases, what must you remember to do before the next analysis on the whole sample?",
+    "o": [
+      "Go back to Data → Select Cases → All cases → OK",
+      "Save the file under a new name",
+      "Delete the column filter_$ by hand",
+      "Restart SPSS to clear the selection"
+    ],
+    "e": "The slides insist: when you have used Select Cases, remember to redo Data → Select Cases → All cases → OK before moving on to another analysis that does not need the selection. Otherwise every following analysis is silently run on the sub-sample only. The decision chart's third step asks exactly this: does the question concern the whole sample (remove any earlier selection) or only part of it (Select Cases)?",
+    "w": [
+      "Saving does not undo the selection.",
+      "The slides' instruction is to reselect All cases, not to edit columns by hand.",
+      "Restarting is unnecessary; the menu option restores all cases."
+    ],
+    "k": "After Select Cases, reset with Data → Select Cases → All cases before analysing the whole sample.",
+    "h": "Select, analyse, then select all again.",
+    "r": "SPSS slides (French) – Select Cases: warning"
+  },
+  {
+    "t": "Choosing a test",
+    "d": 2,
+    "q": "According to the slides' test-selection chart, what is the non-parametric alternative to the independent-samples t-test?",
+    "o": [
+      "Mann-Whitney test",
+      "Wilcoxon test",
+      "Kruskal-Wallis test",
+      "Friedman test"
+    ],
+    "e": "The chart pairs each parametric test with a non-parametric alternative. Comparing the means of two independent samples (one continuous variable and one dichotomous variable): independent-samples t-test, or Mann-Whitney. More than two independent groups: ANOVA, or Kruskal-Wallis. Two paired measures (before/after): paired-samples t-test, or Wilcoxon. Three or more paired measures: repeated-measures ANOVA, or Friedman.",
+    "w": [
+      "Wilcoxon replaces the paired-samples t-test (before/after).",
+      "Kruskal-Wallis replaces ANOVA with more than two independent groups.",
+      "Friedman replaces the repeated-measures ANOVA (3+ measures)."
+    ],
+    "k": "Non-parametric pairs: independent t → Mann-Whitney; ANOVA → Kruskal-Wallis; paired t → Wilcoxon; repeated ANOVA → Friedman.",
+    "h": "Mann-Whitney for two Mann-ers of people (independent groups).",
+    "r": "SPSS slides (French) – Test-selection chart"
+  },
+  {
+    "t": "Choosing a test",
+    "d": 3,
+    "q": "The same patients answer yes/no to 'Do you smoke?' before and after a programme. Which test compares the two paired percentages, according to the slides' chart?",
+    "o": [
+      "McNemar test",
+      "Pearson chi-square test",
+      "Cochran's Q test",
+      "Paired-samples t-test"
+    ],
+    "e": "For two discontinuous (categorical) measures of the same thing on the same people (before/after), the chart compares the percentages of two paired samples with the McNemar test. With three or more paired categorical measures (before/during/after), it uses Cochran's Q. Two categorical variables measuring different things are tested with the ordinary chi-square. Paired continuous scores use the paired-samples t-test.",
+    "w": [
+      "The ordinary chi-square is for two different categorical variables on independent observations.",
+      "Cochran's Q is for three or more paired categorical measures.",
+      "A paired t-test needs continuous scores, not yes/no answers."
+    ],
+    "k": "Paired categorical: 2 times → McNemar; 3+ times → Cochran's Q; different categorical variables → chi-square.",
+    "h": "Same people, yes/no twice → McNemar.",
+    "r": "SPSS slides (French) – Test-selection chart"
+  },
+  {
+    "t": "Choosing a test",
+    "d": 2,
+    "q": "According to the slides' chart, which test compares one sample's mean with a constant?",
+    "o": [
+      "One-sample t-test",
+      "Independent-samples t-test",
+      "Paired-samples t-test",
+      "Repeated-measures ANOVA"
+    ],
+    "e": "The chart starts with one variable (univariate analysis). Comparing the mean of one continuous variable with a constant uses the one-sample t-test; this is the test behind Dr. Geryes' exam item comparing the IQ of 9 people with the worldwide mean of 100. Two-variable cases then lead to the independent-samples t-test (two independent groups), the paired-samples t-test (same measure twice) or correlation and regression (two different continuous measures).",
+    "w": [
+      "The independent-samples t-test compares two separate groups.",
+      "The paired t-test compares two measures from the same people.",
+      "Repeated-measures ANOVA compares three or more paired measures."
+    ],
+    "k": "One mean vs a constant → one-sample t-test (e.g. sample IQ vs 100).",
+    "h": "One group, one fixed number.",
+    "r": "SPSS slides (French) – Test-selection chart; SPSS exams (Dr. Geryes)"
+  },
+  {
+    "t": "Exam applications",
+    "d": 3,
+    "q": "In Dr. Geryes' exam dataset, 15 heights are: 45, 155, 158, 158, 159, 163, 166, 170, 170, 175, 177, 180, 188, 190, 285. With Q1 ≈ 158.5 and Q3 ≈ 178.5, which values will the boxplot flag, and how?",
+    "o": [
+      "45 and 285, both as extreme outliers (asterisks)",
+      "Only 285, as a mild outlier (circle)",
+      "45, 155 and 285, all as mild outliers (circles)",
+      "None, because 15 cases are too few to have outliers"
+    ],
+    "e": "IQR = 178.5 − 158.5 = 20. Mild fences lie 1.5 × IQR = 30 beyond the box (128.5 and 208.5); extreme fences lie 3 × IQR = 60 beyond (98.5 and 238.5). 45 is below 98.5 and 285 is above 238.5, so both are extreme outliers, marked with asterisks and their case numbers (rows 5 and 12). 155 is inside the fences. Such values (a 45 cm or 285 cm adult) are data-entry errors to check in Data View.",
+    "w": [
+      "285 is beyond the extreme fence (238.5), and 45 is also flagged.",
+      "155 lies inside the fences; 45 and 285 are extreme, not mild.",
+      "Outliers are defined by the IQR rule, whatever the sample size."
+    ],
+    "k": "Fences: Q1/Q3 ± 1.5 IQR (mild, circle) and ± 3 IQR (extreme, asterisk); heights 45 and 285 are extreme.",
+    "h": "IQR 20: mild 30 out, extreme 60 out.",
+    "r": "SPSS final exams 2020–2021 (Dr. Geryes) – Height and weight dataset; SPSS course – IQR rule"
+  },
+  {
+    "t": "Exam applications",
+    "d": 3,
+    "q": "In the same exam dataset, the weights have Q1 = 69 and Q3 = 90, and the lowest weight is 12 kg. How will the boxplot show it?",
+    "o": [
+      "As a mild outlier (circle): below the 1.5 IQR fence (37.5) but above the 3 IQR fence (6)",
+      "As an extreme outlier (asterisk), below the 3 IQR fence",
+      "It will not be flagged, because it is inside the whiskers",
+      "As a missing value, because weights below 20 kg are impossible"
+    ],
+    "e": "IQR = 90 − 69 = 21. The low mild fence is 69 − 1.5 × 21 = 69 − 31.5 = 37.5; the low extreme fence is 69 − 3 × 21 = 69 − 63 = 6. 12 kg lies below 37.5 but above 6, so SPSS marks it as a mild outlier with a circle and its case number (row 10). It is very likely a typing error to be checked in Data View; SPSS never deletes it automatically.",
+    "w": [
+      "12 is above the extreme fence of 6, so it is mild, not extreme.",
+      "12 is below the mild fence of 37.5, outside the whiskers.",
+      "SPSS does not treat implausible values as missing; the researcher decides."
+    ],
+    "k": "Weight IQR = 21: mild fence 37.5, extreme fence 6; 12 kg is a mild outlier (circle) to check in Data View.",
+    "h": "Between the two fences → circle.",
+    "r": "SPSS final exams 2020–2021 (Dr. Geryes) – Height and weight dataset; SPSS course – IQR rule"
+  },
+  {
+    "t": "Exam applications",
+    "d": 2,
+    "q": "Dr. Geryes' exam gives caffeine doses (50 to 300 mg) and IQ scores (100 to 135) for 20 people, with IQ rising as dose rises. What does the scatter plot show?",
+    "o": [
+      "A positive linear relationship: points rise from bottom-left to top-right",
+      "A negative linear relationship: points fall from top-left to bottom-right",
+      "No relationship: points form a round cloud",
+      "A curved U-shaped relationship"
+    ],
+    "e": "Plotting caffeine dose on the X-axis and IQ score on the Y-axis, low doses (50–90 mg) go with IQs of 100–107 and high doses (250–300 mg) with IQs of 127–135. The points rise from bottom-left to top-right in a roughly straight band: a positive linear relationship. Computed on these data, r ≈ .92, a strong positive correlation, and the regression slope is about 0.13 IQ points per mg.",
+    "w": [
+      "IQ increases with dose, so the relationship is positive.",
+      "The points form a clear rising band, not a round cloud.",
+      "The trend is roughly straight, not U-shaped."
+    ],
+    "k": "Scatter plot rising from bottom-left to top-right = positive linear relationship (caffeine–IQ, r ≈ .92).",
+    "h": "Up together = positive.",
+    "r": "SPSS final exam 2020–2021 (Dr. Geryes) – Caffeine and IQ"
+  },
+  {
+    "t": "Exam applications",
+    "d": 3,
+    "q": "To write the regression equation predicting IQ from caffeine dose, which values from the SPSS Coefficients table do you use?",
+    "o": [
+      "The unstandardized B values of the (Constant) and of the predictor",
+      "The standardized Beta of the predictor and its Sig. value",
+      "R Square and Adjusted R Square from the Model Summary table",
+      "The t value of the predictor and its 95% confidence bounds"
+    ],
+    "e": "Run a linear regression with IQ as the dependent variable and caffeine dose as the predictor. In the Coefficients table, the Unstandardized Coefficients column B gives the intercept (row '(Constant)') and the slope (row of the predictor), so IQ predicted = B(constant) + B(dose) × dose. With these data, roughly IQ = 91.3 + 0.134 × dose. The French SPSS appendix shows the same table: B, Std. Error, Beta, t, Sig. and the 95% CI for B.",
+    "w": [
+      "Beta is the standardized slope and Sig. tests it; neither gives the raw equation.",
+      "R Square describes fit, not the equation's coefficients.",
+      "t and the confidence bounds test the coefficients; they are not the equation."
+    ],
+    "k": "Regression equation: Ŷ = B(Constant) + B(predictor) × X, from the unstandardized B column of the Coefficients table.",
+    "h": "Use the B column: start value plus slope.",
+    "r": "SPSS final exam 2020–2021 (Dr. Geryes) + SPSS appendix (French course notes) – 12. Regression"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "t": "Ch15 Factorial designs",
+    "d": 1,
+    "q": "A study crosses therapy type (CBT, psychodynamic, waitlist) with gender (male, female), with different people in every cell. This is a:",
+    "o": [
+      "3 × 2 independent factorial design",
+      "3 × 2 repeated-measures design",
+      "Six-group one-way design with no factors",
+      "2 × 2 mixed design with one covariate"
+    ],
+    "e": "Two independent variables (factors) with 3 and 2 levels, crossed so every combination exists (six cells), and different participants in each cell. Each design is named by its number of levels and whether factors are between- or within-subjects.",
+    "w": [
+      "Repeated measures would need the same people in every cell, but here each cell has different people.",
+      "Treating six cells as one factor throws away the two-factor structure and the interaction.",
+      "Therapy has three levels, not two, and no covariate is involved."
+    ],
+    "k": "Name factorial designs by levels per factor and whether factors are between or within.",
+    "h": "Levels times levels, crossed.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Naming designs"
+  },
+  {
+    "t": "Ch15 Partitioning variance",
+    "d": 2,
+    "q": "In a two-way independent ANOVA, the model sum of squares is partitioned into:",
+    "o": [
+      "The main effect of A, the main effect of B, and the A × B interaction",
+      "The main effect of A and the residual (within-cell) error only",
+      "The between-groups, within-groups and total sums of squares for each factor",
+      "The separate effect of each cell, compared against the grand mean"
+    ],
+    "e": "SSM (the variation between the cell means) splits into SS_A, SS_B and SS_A×B, which add up to SSM in a balanced design. The residual SS is still the variation within cells.",
+    "w": [
+      "This leaves out factor B and the interaction from the model SS.",
+      "Between, within and total describe a one-way partition, not the factorial split of SSM.",
+      "Cell-by-cell effects aren't how SSM is partitioned in a factorial design."
+    ],
+    "k": "SSM = SS_A + SS_B + SS_A×B (balanced design).",
+    "h": "A, B and their tango.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Partitioning SSM"
+  },
+  {
+    "t": "Ch15 Partitioning variance",
+    "d": 2,
+    "q": "For a 2 × 3 independent design with 8 people per cell (N = 48), what are the df for A, B, the interaction and the residual?",
+    "o": [
+      "1, 2, 2 and 42",
+      "1, 2, 6 and 47",
+      "2, 3, 6 and 42",
+      "1, 2, 2 and 47"
+    ],
+    "e": "df_A = a − 1 = 1, df_B = b − 1 = 2, df_A×B = (a − 1)(b − 1) = 2, and df_residual = N − ab = 48 − 6 = 42. The model df (1 + 2 + 2 = 5) equals the number of cells minus 1.",
+    "w": [
+      "Interaction df is (a − 1)(b − 1) = 2, and residual df is N − ab = 42.",
+      "df use levels minus 1: A has 1 and B has 2.",
+      "Residual df is N − ab = 42, not N − 1 = 47."
+    ],
+    "k": "df_A = a − 1; df_B = b − 1; df_A×B = (a − 1)(b − 1); df_R = N − ab.",
+    "h": "Interaction df = product of main-effect df.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Degrees of freedom"
+  },
+  {
+    "t": "Ch15 Partitioning variance",
+    "d": 3,
+    "q": "With SS_A = 10, SS_B = 40, SS_A×B = 30, SSR = 168 and the df from the 2 × 3 design above, what is the F for the interaction?",
+    "o": [
+      "F(2, 42) = 3.75",
+      "F(2, 42) = 7.50",
+      "F(2, 47) = 3.75",
+      "F(1, 42) = 7.50"
+    ],
+    "e": "MSR = 168 / 42 = 4, MS_A×B = 30 / 2 = 15, so F = 15 / 4 = 3.75 with df 2 and 42 (p ≈ .03). Similarly F_A = 10 / 4 = 2.5 and F_B = 20 / 4 = 5.0, all tested against the same MSR.",
+    "w": [
+      "7.50 divides the interaction SS by MSR without dividing by its df.",
+      "The residual df is 42, not 47.",
+      "Interaction df is 2, and 7.50 forgets to divide by it."
+    ],
+    "k": "Interaction F = (SS_A×B ÷ df_A×B) ÷ MSR, using the shared error term.",
+    "h": "Mean square over mean square.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Computing F"
+  },
+  {
+    "t": "Ch15 Effect sizes",
+    "d": 2,
+    "q": "From the same output (SS_A×B = 30, SSR = 168), what is the partial η² for the interaction?",
+    "o": [
+      "About .15",
+      "About .18",
+      "About .30",
+      "About .06"
+    ],
+    "e": "Partial η² = SS_effect / (SS_effect + SSR) = 30 / (30 + 168) = .15. Each effect's partial η² ignores the other effects, so partial values do not sum to the total proportion explained. Field also recommends reporting ω² for factorial effects.",
+    "w": [
+      ".18 divides the effect by SSR alone instead of effect plus SSR.",
+      ".30 doesn't follow; the denominator should be 30 + 168 = 198.",
+      ".06 is too small; 30 ÷ 198 gives about .15."
+    ],
+    "k": "Partial η² = SS_effect ÷ (SS_effect + SSR).",
+    "h": "Effect over effect plus error.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Partial eta squared"
+  },
+  {
+    "t": "Ch15 Interactions",
+    "d": 2,
+    "q": "A significant A × B interaction means that:",
+    "o": [
+      "The effect of A differs depending on the level of B",
+      "Both A and B have significant main effects as well",
+      "A and B are correlated with each other in the sample",
+      "The cell sizes differ across the levels of A and B in the design"
+    ],
+    "e": "An interaction is a difference in differences: for example, an attractive-face effect that is present after several drinks but absent when sober. It is about combined effects on the outcome, not about the factors being related to each other.",
+    "w": [
+      "An interaction can be significant without any significant main effects.",
+      "An interaction concerns the outcome, not correlation between factors.",
+      "Cell sizes don't define an interaction."
+    ],
+    "k": "Interaction = A's effect depends on B (a difference in differences).",
+    "h": "It depends on B.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Interactions"
+  },
+  {
+    "t": "Ch15 Interactions",
+    "d": 2,
+    "q": "On an interaction graph, what pattern suggests no interaction?",
+    "o": [
+      "The lines are roughly parallel",
+      "The lines cross each other",
+      "The lines diverge as the x-axis increases",
+      "One line is flat and the other slopes"
+    ],
+    "e": "Parallel lines mean the effect of the factor on the x-axis is the same at each level of the other factor. Crossing, converging or diverging lines suggest an interaction, which the F test then evaluates. Error bars help in judging whether non-parallelism might be noise.",
+    "w": [
+      "Crossing lines suggest a disordinal interaction.",
+      "Diverging lines suggest an ordinal interaction.",
+      "One flat and one sloping line suggests an interaction."
+    ],
+    "k": "Parallel lines = no interaction; non-parallel lines suggest one.",
+    "h": "Parallel paths never interact.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Interaction graphs"
+  },
+  {
+    "t": "Ch15 Interactions",
+    "d": 3,
+    "q": "A drug improves memory in young adults but worsens it in older adults, and the overall main effect of the drug is non-significant. What should you conclude?",
+    "o": [
+      "The drug matters; its main effect is misleading because of the crossover interaction",
+      "The drug has no effect on memory, because its main effect averaged across age groups is not significant",
+      "The interaction is probably a Type I error, so it should simply be ignored in the write-up",
+      "The age main effect explains the whole result, so the drug itself is irrelevant to memory"
+    ],
+    "e": "With a crossover (disordinal) interaction, opposite effects in subgroups cancel out in the main effect. Main effects must be interpreted in light of significant interactions, and here the simple effects (the drug's effect in each age group) tell the real story.",
+    "w": [
+      "Opposite effects cancel in the main effect, hiding a real drug effect.",
+      "Ignoring a significant interaction would hide the key finding.",
+      "The crossover shows the drug matters, differently by age."
+    ],
+    "k": "Crossover interactions can hide real effects; interpret simple effects, not main effects.",
+    "h": "Up for some, down for others, flat on average.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Interpreting main effects"
+  },
+  {
+    "t": "Ch15 Simple effects",
+    "d": 2,
+    "q": "Simple effects analysis examines:",
+    "o": [
+      "The effect of one factor separately at each level of the other factor",
+      "The main effects of each factor, while ignoring the interaction between the factors",
+      "Every possible pairwise comparison among all of the cells of the design",
+      "The linear trend across the levels of both factors combined into one"
+    ],
+    "e": "Following up an interaction, simple effects ask, for example, whether the drug's effect is significant among young adults and among older adults separately. In SPSS they are obtained with syntax such as /EMMEANS = TABLES(drug*age) COMPARE(drug) ADJ(BONFERRONI).",
+    "w": [
+      "Simple effects follow up an interaction; they don't ignore it.",
+      "Every pairwise cell comparison is a post hoc approach.",
+      "Trends across combined factors aren't simple effects."
+    ],
+    "k": "Simple effects: one factor's effect at each level of the other.",
+    "h": "Slice the design, test each slice.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Simple effects"
+  },
+  {
+    "t": "Ch15 SPSS",
+    "d": 3,
+    "q": "Which syntax subcommand in SPSS's GLM produces simple effects of factor A at each level of factor B?",
+    "o": [
+      "/EMMEANS = TABLES(A*B) COMPARE(A) ADJ(BONFERRONI)",
+      "/POSTHOC = A B (TUKEY) /PRINT = DESCRIPTIVE",
+      "/CONTRAST(A) = SIMPLE /PRINT = ETASQ",
+      "/PLOT = PROFILE(A*B) /EMMEANS = TABLES(A)"
+    ],
+    "e": "EMMEANS with TABLES(A*B) and COMPARE(A) tests differences between the levels of A within each level of B, with Bonferroni-adjusted pairwise tests. The Paste button gives the base syntax, and you add the COMPARE keyword. POSTHOC only handles main effects, and PLOT draws the interaction graph.",
+    "w": [
+      "POSTHOC only handles main effects, not effects within each level.",
+      "CONTRAST sets contrasts, not simple effects at each level.",
+      "PLOT draws interaction graphs; TABLES(A) gives marginal means."
+    ],
+    "k": "Simple effects in SPSS: /EMMEANS = TABLES(A*B) COMPARE(A).",
+    "h": "COMPARE inside the TABLES.",
+    "r": "Stats & SPSS ch. 15 · SPSS · Simple effects syntax"
+  },
+  {
+    "t": "Ch15 Post hoc",
+    "d": 2,
+    "q": "In a factorial ANOVA, post hoc tests from the Post Hoc button apply to:",
+    "o": [
+      "The main effects only, collapsing across the other factor",
+      "Every cell of the design, comparing all of the possible combinations",
+      "The interaction term specifically, cell by cell",
+      "The covariates included in the model"
+    ],
+    "e": "Post Hoc tests compare levels of one factor averaged over the other. They do not dissect an interaction, which needs simple effects analysis or interaction contrasts.",
+    "w": [
+      "Post Hoc tests don't compare every cell combination.",
+      "Post Hoc tests can't dissect the interaction term.",
+      "Post Hoc tests don't apply to covariates in the model."
+    ],
+    "k": "Post Hoc button tests main effects only; interactions need simple effects.",
+    "h": "Post hoc for main roads, simple effects for junctions.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Post hoc tests in factorial designs"
+  },
+  {
+    "t": "Ch15 Interactions",
+    "d": 3,
+    "q": "An 'ordinal' interaction differs from a 'disordinal' interaction in that:",
+    "o": [
+      "The lines do not cross, so one condition stays higher at every level",
+      "The lines cross, so the effect of one factor reverses direction",
+      "The factors are ordinal (ordered) rather than nominal categorical variables",
+      "The interaction is not significant but the main effects are"
+    ],
+    "e": "In an ordinal interaction the size of an effect changes but its direction does not (lines diverge without crossing), so main effects can still be cautiously interpreted. In a disordinal (crossover) interaction the direction reverses, so main effects can be misleading.",
+    "w": [
+      "Crossing lines describe a disordinal interaction.",
+      "Ordinal here refers to the interaction pattern, not factor type.",
+      "Ordinal interactions are still significant interactions."
+    ],
+    "k": "Ordinal interaction: lines don't cross; disordinal: lines cross and the effect reverses.",
+    "h": "Dis-ordinal: the order is disrupted.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Types of interaction"
+  },
+  {
+    "t": "Ch15 Assumptions",
+    "d": 2,
+    "q": "In a two-way independent ANOVA, homogeneity of variance must hold across:",
+    "o": [
+      "All cells of the design (every combination of the factor levels)",
+      "The levels of the first factor only, ignoring the second factor",
+      "The two factors, comparing each factor's overall variance with the other's",
+      "The main effects and the interaction term, each tested separately"
+    ],
+    "e": "The error term pools variance across every cell, so each cell's variance should be similar. Levene's test in GLM Univariate (Options → Homogeneity tests) tests this across all cells. Robust or bootstrapped estimates are alternatives when it fails.",
+    "w": [
+      "All cells matter, not just one factor's levels.",
+      "Comparing factors' overall variances isn't the assumption.",
+      "Effects aren't tested for variance homogeneity separately."
+    ],
+    "k": "Factorial ANOVA assumes similar variances across all cells of the design.",
+    "h": "Every cell, similar spread.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Homogeneity in factorial designs"
+  },
+  {
+    "t": "Ch15 Factorial designs",
+    "d": 2,
+    "q": "Why can a factorial design be more informative than two separate one-way experiments?",
+    "o": [
+      "It can reveal interactions, which separate experiments cannot detect",
+      "It always needs fewer participants than even a single one-way experiment would",
+      "It removes the need for random assignment of participants to the conditions",
+      "It guarantees that both of the main effects will turn out to be significant"
+    ],
+    "e": "Testing factors together answers questions such as 'does the effect of therapy depend on gender?', which separate studies cannot. Factorial designs are also efficient, since each participant contributes to the test of both factors.",
+    "w": [
+      "Factorial designs don't always need fewer participants.",
+      "Random assignment is still needed in a factorial experiment.",
+      "Factorial designs don't guarantee that any effect will be significant."
+    ],
+    "k": "Factorial designs reveal interactions that separate studies can't.",
+    "h": "Together, you see the 'it depends'.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Benefits of factorial designs"
+  },
+  {
+    "t": "Ch15 SPSS",
+    "d": 1,
+    "q": "In SPSS, a two-way independent ANOVA is run through:",
+    "o": [
+      "Analyze → General Linear Model → Univariate, with both factors as Fixed Factors",
+      "Analyze → Compare Means → One-Way ANOVA, entering both factors in the Factor box",
+      "Analyze → General Linear Model → Repeated Measures, with two factors",
+      "Analyze → Compare Means → Means, with the second factor as a layer"
+    ],
+    "e": "Univariate accepts several fixed factors and fits the full factorial model (main effects plus interactions) by default. Use Plots for the interaction graph, EM Means for marginal means, and Options for effect sizes and Levene's test.",
+    "w": [
+      "One-Way ANOVA handles only one factor.",
+      "Repeated Measures is for within-subjects factors.",
+      "Means with layers doesn't test factorial effects."
+    ],
+    "k": "Two-way independent ANOVA: GLM → Univariate with two fixed factors.",
+    "h": "Univariate takes many factors.",
+    "r": "Stats & SPSS ch. 15 · SPSS · Two-way ANOVA"
+  },
+  {
+    "t": "Ch15 Interactions",
+    "d": 3,
+    "q": "A 2 × 2 design has cell means A1B1 = 10, A1B2 = 14, A2B1 = 12 and A2B2 = 20. What is the interaction contrast, the difference in differences?",
+    "o": [
+      "4",
+      "8",
+      "6",
+      "2"
+    ],
+    "e": "The B effect at A1 is 14 − 10 = 4, and at A2 it is 20 − 12 = 8. The difference between these is 8 − 4 = 4, which is non-zero, so the cell means show an interaction. Whether it is significant depends on the error variance and sample size.",
+    "w": [
+      "8 is only the B effect at A2, not the difference in differences.",
+      "6 is the A effect at B2 (20 − 14), not the interaction contrast.",
+      "2 is the A effect at B1 (12 − 10), not the interaction contrast."
+    ],
+    "k": "Interaction contrast = difference between the simple effects.",
+    "h": "Difference of differences.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Interaction contrasts"
+  },
+  {
+    "t": "Ch15 Reporting",
+    "d": 2,
+    "q": "When the interaction in a factorial ANOVA is significant, a good report should:",
+    "o": [
+      "Describe the interaction, with a graph and the follow-up simple effects",
+      "Report only the main effects, because they are easier to interpret",
+      "Omit the main effects completely from the write-up",
+      "Report the interaction only if both main effects are non-significant"
+    ],
+    "e": "Report all effects (F, df, p, effect size), but give the interaction pride of place: show it graphically and explain it with simple effects or interaction contrasts, noting where main effects are qualified by it.",
+    "w": [
+      "Main effects alone can mislead when an interaction exists.",
+      "Main effects should still be reported.",
+      "Report the interaction whatever the main effects show."
+    ],
+    "k": "Significant interaction: report all effects, but explain the interaction with a graph and simple effects.",
+    "h": "Lead with the interaction.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Reporting"
+  },
+  {
+    "t": "Ch15 Factorial designs",
+    "d": 3,
+    "q": "Why does SPSS's default Type III sum of squares matter in an unbalanced factorial design?",
+    "o": [
+      "With unequal cells the effects are correlated, so Type III tests each one adjusting for all others",
+      "With unequal cell sizes, Type III SS first make every cell size equal by deleting cases before the analysis",
+      "Type III SS are only used when there is no interaction term included in the model",
+      "Type III SS ignore the cell sizes completely and compare the unweighted cell medians instead"
+    ],
+    "e": "With unequal cells, factors and the interaction are no longer orthogonal, so the SS do not partition cleanly, and the order or type of SS matters. Type III evaluates each effect as if entered last, which corresponds to comparing unweighted marginal means, the usual choice in experiments.",
+    "w": [
+      "Type III SS don't delete cases to balance the cells.",
+      "Type III SS are used whether or not an interaction is in the model.",
+      "Type III SS compare unweighted means, not cell medians."
+    ],
+    "k": "Unbalanced designs: Type III tests each effect adjusted for all others.",
+    "h": "Unequal cells, Type III for fairness.",
+    "r": "Stats & SPSS ch. 15 · GLM 3 (factorial ANOVA) · Unbalanced designs"
+  }
+]

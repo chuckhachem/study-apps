@@ -1,0 +1,1762 @@
+[
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "According to the Intervention Techniques midterm summary, which kind of question should you avoid opening a first interview with?",
+    "o": [
+      "Basic identifying questions such as name, age or gender",
+      "Questions about when the symptoms started",
+      "Questions about the client's support system",
+      "Questions asking the client to rate distress from 1 to 10"
+    ],
+    "e": "The summary's question list opens with a rule: do not open with basic questions like name, age or gender. Identifying details are client information, collected on the intake form or in the 'Gathering client information' section of the plan. They are not interview questions. Opening with a string of closed, form-filling questions makes the first minutes feel like an administrative check, and the client learns to give short answers. Opening with the client's concerns signals that the session is about their experience.",
+    "w": [
+      "Asking when symptoms started is Question 2 (onset and evolution), a core interview question you do want to ask.",
+      "The support system is Question 8 (protective factors and resources), something the interview should explore.",
+      "A 1–10 rating is Question 6. It turns a vague 'bad' into a number you can track across sessions."
+    ],
+    "k": "Do not open a first interview with name, age or gender; those are intake data. Open with the client's concerns.",
+    "h": "Picture the intake form as a clipboard: the clipboard collects name, age and gender, while your mouth asks about the person.",
+    "r": "IT Midterm – Questions"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "\"How do your symptoms affect your daily life? Which tasks do they interfere with?\" mainly assesses:",
+    "o": [
+      "Functional impairment",
+      "Treatment history",
+      "Protective factors",
+      "Onset and evolution"
+    ],
+    "e": "Functional impairment is how much the symptoms get in the way of ordinary life: work, school, chores, relationships, self-care. The summary's Question 4 bundles it with frequency, severity, duration and intensity, because together these say how disabling the problem is, not just whether it exists. The cue here is 'affect your daily life' and 'interfere with tasks'. Impairment matters clinically: it separates a diagnosable disorder from ordinary worry, and it is the outcome therapy aims to improve (the first long-term goal names functional impairment).",
+    "w": [
+      "Treatment history (Question 10) is about what the client has already tried: techniques, therapy, prior treatment.",
+      "Protective factors (Question 8) are the client's supports and resources, such as family, friends and strengths.",
+      "Onset and evolution (Question 2) asks when the symptoms first began and how they have changed since."
+    ],
+    "k": "'How does it interfere with your daily tasks?' measures functional impairment: the disabling impact of the symptoms.",
+    "r": "IT Midterm – Questions #4"
+  },
+  {
+    "t": "Interview questions",
+    "d": 2,
+    "q": "\"What do you do when the intrusive thought comes? What happens if you don't?\" is aimed at identifying the client's:",
+    "o": [
+      "Coping strategies and emotional regulation patterns",
+      "Triggers and the situations that set symptoms off",
+      "Personal background and current living situation",
+      "Medical history and current medications"
+    ],
+    "e": "These questions ask what the client does with the distress once it arrives: rituals, avoidance, reassurance-seeking, distraction, rumination. That is the client's coping and emotional-regulation pattern (Question 5). 'What happens if you don't?' is especially revealing in OCD and anxiety, because it exposes the feared consequence and shows how the coping behaviour (for example a compulsion) relieves anxiety in the short term and keeps the problem going in the long term. Knowing the pattern tells you which CBT technique to aim at it.",
+    "w": [
+      "Triggers (Question 3) are what sets the symptoms off and when they occur, not what the client does afterwards.",
+      "Personal background (Question 1) covers education, occupation and living situation.",
+      "Medical history (Question 11) covers medications and medical conditions."
+    ],
+    "k": "'What do you do when it comes, and what happens if you don't?' reveals coping and emotional-regulation patterns.",
+    "r": "IT Midterm – Questions #5"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "Asking \"When during the day do you usually experience these symptoms?\" explores:",
+    "o": [
+      "Triggers",
+      "Onset and evolution",
+      "Functional impairment",
+      "Protective factors"
+    ],
+    "e": "Asking when, during the day, the symptoms show up locates their triggers: the situations, times, places or internal states that set them off (Question 3). Triggers are the entry point of a CBT case formulation, because thoughts, feelings and behaviours are mapped from the moment of the trigger onward. Do not confuse this with Question 2: 'when did it start?' is about the history of the problem (onset), whereas 'when during the day?' is about its moment-to-moment cues.",
+    "w": [
+      "Onset and evolution (Question 2) is when the problem first began and how it developed, not its daily timing.",
+      "Functional impairment (Question 4) is how much the symptoms interfere with daily tasks.",
+      "Protective factors (Question 8) are the client's support system and resources."
+    ],
+    "k": "'When during the day?' means triggers; 'when did it first start?' means onset and evolution.",
+    "h": "A trigger is pulled at a moment in the day; onset is the start date on the calendar.",
+    "r": "IT Midterm – Questions #3"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "Asking about the client's support system is meant to assess:",
+    "o": [
+      "Protective factors and resources available",
+      "Genetic predisposition to the disorder",
+      "Functional impairment in daily tasks",
+      "Treatment history and prior therapies"
+    ],
+    "e": "The support system (family, friends, partner, community) is one of the client's main protective factors: the resources that buffer stress and help recovery. The summary's Question 8 labels it 'protective factors and resources available'. Clinically it matters twice. It informs risk (an isolated client is more vulnerable), and it identifies people who can be recruited in treatment, for example parents in family therapy or friends for behavioural activation.",
+    "w": [
+      "Genetic predisposition is explored through family dynamics and history (Question 9), not the support system.",
+      "Functional impairment (Question 4) is how symptoms interfere with daily tasks.",
+      "Treatment history (Question 10) is what the client has already tried before therapy."
+    ],
+    "k": "Support system = protective factors and resources; it buffers risk and supplies allies for treatment.",
+    "h": "Support holds you up like scaffolding: protective factors are the scaffolding around a shaky building.",
+    "r": "IT Midterm – Questions #8"
+  },
+  {
+    "t": "Interview questions",
+    "d": 2,
+    "q": "Exploring family dynamics and family history helps the clinician detect:",
+    "o": [
+      "Possible learned behavior or a genetic predisposition",
+      "The client's current coping and regulation strategies",
+      "How symptoms interfere with school or work tasks",
+      "The onset and evolution of the presenting symptoms"
+    ],
+    "e": "Family questions do two jobs (Question 9). Family dynamics show what the client may have learned from the environment, for example an anxious parent modelling avoidance or a critical parent shaping low self-worth. Family history of mental illness points to possible genetic predisposition. Both help explain why this person developed this problem, which is the 'predisposing factors' part of a case formulation. In the course's case study, the child's insecure attachment is traced to an emotionally unavailable, controlling mother: a family-dynamics finding.",
+    "w": [
+      "Coping and regulation strategies are explored with Question 5: what the client does when symptoms come.",
+      "Interference with school or work tasks is functional impairment (Question 4).",
+      "Onset and evolution (Question 2) is when symptoms first started and how they changed."
+    ],
+    "k": "Family dynamics and history reveal learned behaviour (environment) and genetic predisposition (heredity).",
+    "h": "Family gives you two inheritances: the genes in your cells and the habits in your house.",
+    "r": "IT Midterm – Questions #9"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "\"What techniques did you try before coming to therapy, and have you had prior treatment?\" collects the client's:",
+    "o": [
+      "Treatment history",
+      "Medical history",
+      "Personal background",
+      "Coping strategies"
+    ],
+    "e": "Everything the client has already tried to fix the problem, whether self-help techniques, earlier therapy or prior treatments, is their treatment history (Question 10). It saves time and builds the alliance: you learn what helped, what failed and why, and you avoid offering a technique the client already found useless without adapting it. Keep it separate from Question 11, medical history, which covers current medications and medical conditions, even though a past medication trial can sit on the border of both.",
+    "w": [
+      "Medical history (Question 11) covers medications and medical conditions, not the techniques and therapies tried.",
+      "Personal background (Question 1) covers socio-demographic details such as education, occupation and living situation.",
+      "Coping strategies (Question 5) are what the client does in the moment when symptoms arise, not prior treatment."
+    ],
+    "k": "What the client tried before (techniques, prior therapy, treatments) = treatment history; medications and conditions = medical history.",
+    "r": "IT Midterm – Questions #10–11"
+  },
+  {
+    "t": "Interview questions",
+    "d": 2,
+    "q": "Education, occupation and living situation fall under which interview area?",
+    "o": [
+      "Socio-demographic details (personal background)",
+      "Functional impairment (daily-life interference)",
+      "Protective factors (support system resources)",
+      "Treatment history (prior therapies tried)"
+    ],
+    "e": "Education, occupation and living situation are socio-demographic details, the client's personal background (Question 1). They set the context for everything else: a student's exam stress, an unemployed client's low mood or a crowded home all shape symptoms and what is realistic in treatment. Note the contrast with the rule in it-0: you do not open with name, age and gender, but you do explore the person's life situation, because it is clinically meaningful.",
+    "w": [
+      "Functional impairment (Question 4) is how symptoms interfere with daily tasks, not the life situation itself.",
+      "Protective factors (Question 8) are the support system and resources available.",
+      "Treatment history (Question 10) is the techniques and therapies tried before."
+    ],
+    "k": "Education, job and living situation = socio-demographic background, the context the symptoms live in.",
+    "h": "Socio-demographic: 'socio' = society, 'demo' = people, 'graphic' = described; a sketch of where this person sits in society.",
+    "r": "IT Midterm – Questions #1"
+  },
+  {
+    "t": "First interview",
+    "d": 1,
+    "q": "In the 7-step first-interview approach, what is Step 1?",
+    "o": [
+      "Build rapport and establish safety",
+      "Gather presenting information",
+      "Introduce initial CBT concepts",
+      "Collaborative goal setting"
+    ],
+    "e": "Step 1 is building rapport and establishing safety, because nothing else works without it. The summary lists what this looks like: greeting warmly, creating a comfortable environment, acknowledging feelings and validating the client's experience, active listening and open-ended questions, respecting silence, and explaining confidentiality and its limits clearly. A client who feels judged or unsafe will hold back the very information Steps 2 and 3 need, so information gathering comes only after safety.",
+    "w": [
+      "Gathering presenting information is Step 2: it builds on the trust created in Step 1.",
+      "Introducing initial CBT concepts is Step 4, after the problem and history are understood.",
+      "Collaborative goal setting is Step 5, once the client understands the CBT framework."
+    ],
+    "k": "First-interview Step 1 is rapport and safety: warmth, validation, active listening, silence, confidentiality and its limits.",
+    "h": "You cannot build a house before the foundation: rapport is the foundation slab of the seven-step house.",
+    "r": "IT Midterm – First Interview, Step 1"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Explaining confidentiality and its limits belongs to which step of the first interview?",
+    "o": [
+      "Step 1 – Build rapport and establish safety",
+      "Step 3 – Assess client history and resources",
+      "Step 5 – Collaborative goal setting",
+      "Step 6 – Assessment tools and next steps"
+    ],
+    "e": "Confidentiality and its limits are explained in Step 1, as part of creating safety. Clients need to know at the start what stays private and when it cannot (for example risk of serious harm to self or others), so that they can decide what to share with informed consent. Explaining it early prevents a betrayal later. Step 7, closing, returns to it: the therapist reassures the client about confidentiality and the collaborative nature of therapy. Explained in Step 1, reassured in Step 7.",
+    "w": [
+      "Step 3 explores psychosocial, medical and psychiatric history, past coping and strengths, not confidentiality.",
+      "Step 5 is collaborative goal setting: identifying and prioritizing the client's goals.",
+      "Step 6 introduces questionnaires or mood tracking and explains the next steps."
+    ],
+    "k": "Confidentiality and its limits: explained in Step 1 (safety), reassured again in Step 7 (closing).",
+    "h": "Confidentiality bookends the interview: the first and last steps hold it, like bookends at both ends of a shelf.",
+    "r": "IT Midterm – First Interview, Steps 1 & 7"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Which sequence correctly orders the first-interview steps?",
+    "o": [
+      "Rapport → Presenting information → History & resources → CBT concepts → Goal setting → Assessment tools & next steps → Closing",
+      "Rapport → CBT concepts → Presenting information → Goal setting → History & resources → Closing → Assessment tools",
+      "Presenting information → Rapport → Goal setting → CBT concepts → History & resources → Assessment tools → Closing",
+      "Rapport → History & resources → Presenting information → Goal setting → CBT concepts → Assessment tools → Closing"
+    ],
+    "e": "The order follows clinical logic. You first make the client safe (1, rapport). Then you learn the present problem (2, presenting information) and its background (3, history and resources). Only then can you explain how CBT understands it (4, CBT concepts) and agree what to work on (5, goal setting). You pick tools to measure it and plan the next steps (6), and you close by summarizing and reassuring (7). Each step needs the one before: goals set before the problem is understood would be guesses.",
+    "w": [
+      "CBT concepts come before the problem has been heard, and closing comes before the assessment tools.",
+      "Presenting information comes before rapport; asking for painful details before safety exists makes clients hold back.",
+      "History comes before the presenting problem and goals before CBT concepts; the present comes first, then its past."
+    ],
+    "k": "Safety → present problem → history → explain CBT → goals → tools and next steps → close.",
+    "h": "'Really Pleasant Hosts Cook Great Apple Crumble': Rapport, Presenting, History, CBT, Goals, Assessment, Closing.",
+    "r": "IT Midterm – First Interview"
+  },
+  {
+    "t": "First interview",
+    "d": 1,
+    "q": "In Step 4, the CBT framework is explained to the client as:",
+    "o": [
+      "Thoughts influence emotions and behaviors, so changing unhelpful thinking improves outcomes",
+      "Emotions come from unconscious childhood conflicts, so symptoms fade once these are uncovered",
+      "Behavior is shaped only by reinforcement, so changing rewards alone changes the emotions",
+      "Symptoms are mainly biological, so therapy focuses on accepting rather than changing thoughts"
+    ],
+    "e": "The core of CBT is the cognitive model: how we interpret events (thoughts) shapes how we feel (emotions) and what we do (behaviours), and the three keep feeding one another. So changing unhelpful thinking patterns improves emotional and behavioural outcomes. Step 4 asks you to explain this briefly, in simple language with relatable examples (for example, two people hear a noise at night; one thinks 'burglar' and panics, the other thinks 'the cat' and sleeps), and to stress that therapy is collaborative.",
+    "w": [
+      "Unconscious childhood conflict that fades once uncovered is the psychodynamic model, not CBT.",
+      "Behaviour shaped only by reinforcement is strict behaviourism; CBT adds thoughts as a central lever.",
+      "A mainly biological view focused on acceptance describes neither CBT's model nor its aim of changing thoughts."
+    ],
+    "k": "CBT model: thoughts → emotions and behaviours; change unhelpful thinking and feelings and actions change too.",
+    "h": "Same event, different thought, different feeling: 'burglar' versus 'cat' at 3 a.m.",
+    "r": "IT Midterm – First Interview, Step 4"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Why does Step 4 ask the therapist to 'normalize distress'?",
+    "o": [
+      "To reduce shame and self-criticism while showing change is possible",
+      "To show the client the symptoms are normal and need no treatment",
+      "To avoid naming the diagnosis until the treatment plan is written",
+      "To replace goal setting, since normal distress needs no goals"
+    ],
+    "e": "Many clients arrive ashamed, convinced that their symptoms mean they are weak, crazy or broken. Normalizing tells them that the distress is an understandable human reaction that many people share, which lowers shame and self-criticism and makes them more willing to talk and try new things. The summary pairs it with a second message: change is possible. Normalizing without that would imply nothing needs doing; with it, the message is 'this makes sense, and it can get better.'",
+    "w": [
+      "Normalizing is not saying the symptoms need no treatment; the summary adds that change is possible.",
+      "Normalizing has nothing to do with delaying the diagnosis; it targets shame, not paperwork.",
+      "Goal setting is Step 5 and still happens; normalizing prepares the client for it rather than replacing it."
+    ],
+    "k": "Normalize distress to reduce shame and self-criticism, while stressing that change is possible.",
+    "r": "IT Midterm – First Interview, Step 4"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "In collaborative goal setting, problems to target first are prioritized according to:",
+    "o": [
+      "Their distress and their impact",
+      "Which is easiest to treat",
+      "The therapist's preferred technique",
+      "The order the client mentioned them"
+    ],
+    "e": "When a client brings several problems, Step 5 says to prioritize the ones causing the most distress and the most impact on functioning. This is clinically sound and it motivates: the client sees therapy tackling what hurts most and what costs them most in daily life. 'Collaborative' means the client takes part in choosing; the therapist's convenience, preferred technique or the order in which things were mentioned are not the criteria.",
+    "w": [
+      "Choosing what is easiest to treat ignores what matters most to the client's suffering and functioning.",
+      "The therapist's preferred technique should serve the goals, not decide them.",
+      "The order of mention reflects how the conversation flowed, not how severe or disabling each problem is."
+    ],
+    "k": "Prioritize targets by distress and impact on functioning, chosen together with the client.",
+    "h": "Treat the loudest alarm first: distress is the volume, impact is how much of the house is on fire.",
+    "r": "IT Midterm – First Interview, Step 5"
+  },
+  {
+    "t": "First interview",
+    "d": 1,
+    "q": "Introducing symptom questionnaires or thought/mood tracking belongs to:",
+    "o": [
+      "Step 6 – Initial assessment tools and planning next steps",
+      "Step 2 – Gather presenting information and observe cues",
+      "Step 4 – Introduce initial CBT concepts and collaboration",
+      "Step 7 – Closing the session and summarizing key points"
+    ],
+    "e": "Step 6, initial assessment tools and planning next steps, is where the therapist introduces symptom questionnaires (for example PHQ-9 or GAD-7) or thought and mood tracking, if appropriate, and explains what will happen in the coming sessions. Tools give a baseline to measure change against and start the habit of self-monitoring that CBT relies on. Explaining the next steps reduces uncertainty and supports commitment to treatment.",
+    "w": [
+      "Step 2 gathers presenting information and observes verbal and non-verbal cues, without formal tools.",
+      "Step 4 explains the CBT model and emphasizes collaboration; it does not hand out measures.",
+      "Step 7 summarizes key points, validates and reassures about confidentiality."
+    ],
+    "k": "Step 6 = introduce questionnaires or thought/mood tracking and explain the next steps.",
+    "r": "IT Midterm – First Interview, Step 6"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Which element is part of Step 2 (gathering presenting information)?",
+    "o": [
+      "Observing verbal and non-verbal cues",
+      "Explaining the CBT model",
+      "Exploring past coping strategies and prior medication",
+      "Summarizing key points"
+    ],
+    "e": "In Step 2 the therapist asks carefully about the current concerns (symptoms, frequency, intensity, duration, triggers and impact on daily functioning) and observes verbal and non-verbal cues: tone, posture, eye contact, tearfulness, agitation. Non-verbal behaviour often says what the client cannot yet put into words, for example a sudden silence when a topic comes up. The cue in the question is 'presenting information', the here-and-now problem.",
+    "w": [
+      "Explaining the CBT model is Step 4, after the problem and history have been gathered.",
+      "Past coping strategies and prior medication belong to Step 3, assessing history and resources.",
+      "Summarizing key points is part of Step 7, closing the session."
+    ],
+    "k": "Step 2: ask about current symptoms (frequency, intensity, duration, triggers, impact) and watch verbal and non-verbal cues.",
+    "h": "Step 2: 'two channels', what they say and what their body says.",
+    "r": "IT Midterm – First Interview, Step 2"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Focusing on the client's strengths and resources is explicitly part of:",
+    "o": [
+      "Step 3 – Assess client history and resources",
+      "Step 1 – Build rapport and establish safety",
+      "Step 5 – Collaborative goal setting",
+      "Step 7 – Closing the session"
+    ],
+    "e": "Step 3 looks backward and outward: psychosocial, medical and psychiatric history, past coping strategies, any prior therapy or medication, and the client's strengths and resources. The summary deliberately includes strengths, because an assessment that lists only deficits is incomplete and discouraging. Strengths, such as persistence, humour, a good friend or past success in coping, become tools in treatment and build hope.",
+    "w": [
+      "Step 1 creates safety and rapport; it does not systematically assess strengths.",
+      "Step 5 sets and prioritizes goals; it uses the strengths found in Step 3 but does not assess them.",
+      "Step 7 summarizes and validates at the end of the session."
+    ],
+    "k": "Step 3 assesses history (psychosocial, medical, psychiatric, past coping, prior treatment) and the client's strengths and resources.",
+    "h": "Step 3 = the 3 Rs: Records (history), Remedies tried, Resources.",
+    "r": "IT Midterm – First Interview, Step 3"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "In the CBT treatment plan, 'steps that lead to long-term change' is the definition of:",
+    "o": [
+      "Short-term goals",
+      "Long-term goals",
+      "Outcome measures",
+      "Relapse prevention"
+    ],
+    "e": "The plan separates two levels of goals. Long-term goals are the destination: reduced distress and impairment, modified maladaptive thoughts and core beliefs, better coping and better overall functioning. Short-term goals are the steps that lead there: concrete, achievable targets for the coming weeks, for example completing a thought record three times this week or reducing a ritual from 30 to 20 minutes. Small wins build motivation and show the long-term goals are reachable.",
+    "w": [
+      "Long-term goals are the destination (for example reduced distress, modified core beliefs), not the steps.",
+      "Outcome measures (section 6) track progress: rating scales, attendance, symptom reduction, monitoring.",
+      "Relapse prevention (section 9) plans how to keep gains after therapy."
+    ],
+    "k": "Short-term goals are the steps that lead to long-term change; long-term goals are the destination.",
+    "h": "Short-term goals are stairs; the long-term goal is the floor you're climbing to.",
+    "r": "IT Midterm – Treatment Plan §3"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Which is NOT one of the four listed long-term goals of the CBT treatment plan?",
+    "o": [
+      "Eliminate all negative emotions permanently",
+      "Reduce emotional distress and functional impairment",
+      "Modify maladaptive thoughts and core beliefs",
+      "Enhance coping strategies, emotional regulation and problem-solving"
+    ],
+    "e": "The four long-term goals are realistic: (1) reduce emotional distress and functional impairment, (2) modify maladaptive thoughts and core beliefs, (3) enhance coping strategies, emotional regulation and problem-solving, and (4) improve overall functioning. 'Eliminate all negative emotions permanently' is neither listed nor clinically sensible. Negative emotions such as fear, sadness and anger are normal and useful; CBT aims to make them proportionate and manageable, not to erase them.",
+    "w": [
+      "Reducing emotional distress and functional impairment is long-term goal 1.",
+      "Modifying maladaptive thoughts and core beliefs is long-term goal 2, the cognitive heart of CBT.",
+      "Enhancing coping, emotional regulation and problem-solving is long-term goal 3."
+    ],
+    "k": "CBT's long-term goals: less distress and impairment, changed beliefs, better coping, better functioning. Never 'no negative emotions'.",
+    "r": "IT Midterm – Treatment Plan §3"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Which relaxation techniques are listed under skills training?",
+    "o": [
+      "Deep breathing, progressive muscle relaxation, guided imagery",
+      "Flooding, exposure, activity scheduling",
+      "Cognitive restructuring, Socratic questioning, thought records",
+      "Free association, dream analysis, interpretation"
+    ],
+    "e": "The summary lists three relaxation techniques under skills training: deep breathing (slow diaphragmatic breaths that calm the body's stress response), progressive muscle relaxation (tensing and releasing muscle groups one by one), and guided imagery (vividly imagining a calm scene). They lower physiological arousal, which is useful on its own for anxiety and as the relaxation half of systematic desensitization. Mindfulness and grounding are listed beside them as a separate skill.",
+    "w": [
+      "Flooding and exposure are behavioural strategies for facing fear, not relaxation; activity scheduling serves behavioural activation.",
+      "Cognitive restructuring, Socratic questioning and thought records are cognitive interventions, not relaxation.",
+      "Free association, dream analysis and interpretation are psychoanalytic techniques, not CBT skills training."
+    ],
+    "k": "Relaxation techniques: deep breathing, progressive muscle relaxation, guided imagery.",
+    "h": "Breathe, Release, Picture: lungs, muscles, mind's eye.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Mindfulness and grounding are used in the plan to:",
+    "o": [
+      "Focus on the present moment to reduce distress",
+      "Gradually face feared situations",
+      "Replace distorted thoughts with balanced ones",
+      "Schedule enjoyable activities"
+    ],
+    "e": "Mindfulness and grounding bring attention back to the present moment, which reduces distress. Anxiety lives in the feared future and rumination in the regretted past; noticing the breath, the senses, or one's feet on the floor (for example the 5-4-3-2-1 senses exercise) interrupts that spiral. Grounding is especially useful during panic, flashbacks or dissociation, when the client needs to feel 'here and safe' again.",
+    "w": [
+      "Gradually facing feared situations is exposure therapy, a behavioural strategy.",
+      "Replacing distorted thoughts with balanced ones is cognitive restructuring.",
+      "Scheduling enjoyable activities is behavioural activation, used for depression."
+    ],
+    "k": "Mindfulness and grounding anchor attention in the present moment to reduce distress.",
+    "h": "Grounding: like an electrical ground wire, it drains the excess charge into the earth, here and now.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Behavioral activation encourages enjoyable or meaningful activities and is mainly used for:",
+    "o": [
+      "Depression",
+      "Specific phobia",
+      "OCD",
+      "Panic disorder"
+    ],
+    "e": "Depression creates a vicious circle: low mood leads to withdrawal and inactivity, which removes sources of pleasure and achievement, which deepens the low mood. Behavioural activation breaks the circle from the behaviour side by scheduling enjoyable or meaningful activities, so that action comes first and mood follows. The summary ties it explicitly to depression. In the case study it appears among the coping strategies taught to the child.",
+    "w": [
+      "Specific phobia is treated mainly with exposure or systematic desensitization, not behavioural activation.",
+      "OCD is treated mainly with exposure (and response prevention) or systematic desensitization.",
+      "Panic disorder is treated with exposure, breathing skills and cognitive work, not mainly behavioural activation."
+    ],
+    "k": "Behavioural activation = scheduling enjoyable or meaningful activities to break depression's withdrawal cycle.",
+    "h": "Activation re-starts the stalled engine: don't wait to feel like it; move, and the mood follows.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Which technique means confronting the fear all at once and must be used carefully?",
+    "o": [
+      "Flooding",
+      "Systematic desensitization",
+      "Graded exposure",
+      "Behavioral activation"
+    ],
+    "e": "Flooding means confronting the most feared situation all at once and staying in it until the anxiety falls, without working up a hierarchy. It can work quickly, but it is intensely distressing, risks dropout, and can strengthen fear if the person escapes early, which is why the summary says 'used carefully'. Graded exposure climbs a fear ladder step by step, and systematic desensitization adds relaxation to each step.",
+    "w": [
+      "Systematic desensitization combines gradual exposure with relaxation; it is the gentlest of the three.",
+      "Graded exposure faces fears gradually, step by step up a hierarchy, not all at once.",
+      "Behavioural activation schedules enjoyable activities for depression; it does not involve fear exposure."
+    ],
+    "k": "Flooding = all at once (use carefully); exposure = gradual; systematic desensitization = gradual plus relaxation.",
+    "h": "A flood hits all at once; a staircase (exposure) goes one step at a time.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Systematic desensitization, as defined in the summary, is:",
+    "o": [
+      "Gradual exposure combined with relaxation, often for phobias or OCD",
+      "Confronting the most feared stimulus all at once, without relaxation, used carefully",
+      "Replacing distorted thoughts with realistic ones",
+      "Scheduling pleasant activities"
+    ],
+    "e": "Systematic desensitization (Wolpe) pairs gradual exposure with relaxation. The client builds a hierarchy from least to most feared situations, learns relaxation (breathing, muscle relaxation), then faces each step while relaxed, moving up only when the current step no longer causes strong anxiety. The idea is that relaxation and anxiety cannot coexist, so the feared cue gets paired with calm instead. The summary notes it is often used for phobias or OCD.",
+    "w": [
+      "Confronting the most feared stimulus all at once without relaxation is flooding, the opposite of systematic.",
+      "Replacing distorted thoughts with realistic ones is cognitive restructuring, a cognitive technique.",
+      "Scheduling pleasant activities is behavioural activation, used for depression."
+    ],
+    "k": "Systematic desensitization = gradual exposure up a hierarchy combined with relaxation (phobias, OCD).",
+    "h": "De-SENSITIZE systematically: step by step, the alarm gets less sensitive while you stay relaxed.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "In cognitive restructuring:",
+    "o": [
+      "Distorted thoughts are replaced with more realistic, balanced ones",
+      "The client faces feared situations gradually, one step at a time",
+      "The client learns slow breathing and muscle relaxation routines",
+      "The client schedules enjoyable activities to lift low mood"
+    ],
+    "e": "Cognitive restructuring identifies negative or distorted automatic thoughts (catastrophizing, mind-reading, all-or-nothing thinking), examines the evidence for and against them, and replaces them with more realistic, balanced ones. The goal is not 'positive thinking' but accurate thinking: 'I'll definitely fail' becomes 'I'm worried, but I've prepared and passed similar exams.' In the case study it is listed as cognitive restructuring (reframing).",
+    "w": [
+      "Facing feared situations gradually is exposure therapy, a behavioural strategy.",
+      "Slow breathing and muscle relaxation are relaxation techniques from skills training.",
+      "Scheduling enjoyable activities is behavioural activation, which changes behaviour rather than restructuring the thoughts themselves."
+    ],
+    "k": "Cognitive restructuring replaces distorted thoughts with realistic, balanced ones, not with forced positivity.",
+    "h": "Re-STRUCTURE: knock down the crooked thought-building and rebuild it straight.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "What is the order of a CBT session according to the treatment plan?",
+    "o": [
+      "Check-in and agenda → CBT techniques → homework and brief review with feedback",
+      "Homework review → free discussion → agenda for next week → feedback",
+      "CBT techniques → check-in → agenda setting → homework assignment",
+      "Agenda → homework assignment → check-in → feedback and summary"
+    ],
+    "e": "The summary's session structure has three phases. It opens with a quick check-in (mood, events of the week) and setting the agenda, the focus of the session agreed with the client. The middle uses CBT techniques on the agenda items. It ends with a homework task and a brief review with feedback, so the client practises between sessions and the therapist learns what helped. The structure makes sessions efficient, collaborative and predictable, which suits anxious clients.",
+    "w": [
+      "This puts the agenda at the end and free discussion in the middle; CBT sessions set the agenda first.",
+      "Techniques before the check-in and agenda reverses the opening; you need the focus before the work.",
+      "Homework assigned before the check-in has nothing to build on; homework comes at the end."
+    ],
+    "k": "CBT session: check-in and agenda → CBT techniques → homework and brief review with feedback.",
+    "r": "IT Midterm – Treatment Plan §5"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Which rating scales are given as outcome measures for MDD and GAD?",
+    "o": [
+      "PHQ-9 for MDD and GAD-7 for GAD",
+      "BDI-II for GAD and PHQ-9 for MDD",
+      "GAD-7 for MDD and PHQ-9 for GAD",
+      "WISC-V for both"
+    ],
+    "e": "The PHQ-9 (Patient Health Questionnaire, 9 items) measures depressive symptoms, so it goes with major depressive disorder. The GAD-7 (Generalized Anxiety Disorder scale, 7 items) measures anxiety, so it goes with GAD. Short self-report scales like these are repeated across treatment to show whether symptoms are falling. The names carry their content: 'GAD' is in the GAD-7's name, and the PHQ-9's nine items mirror the nine DSM criteria for a major depressive episode.",
+    "w": [
+      "The BDI-II is a depression measure, not an anxiety one, so pairing it with GAD is wrong.",
+      "The pairing is reversed: GAD-7 measures anxiety and PHQ-9 measures depression.",
+      "The WISC-V is a children's intelligence test, not a symptom rating scale."
+    ],
+    "k": "Outcome measures: PHQ-9 tracks depression (MDD); GAD-7 tracks generalized anxiety (GAD).",
+    "h": "PHQ-9 ↔ 9 DSM depression symptoms; GAD-7 says its disorder in its own name.",
+    "r": "IT Midterm – Treatment Plan §6"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Which of the following is NOT listed as a way to track progress (outcome measures)?",
+    "o": [
+      "The therapist's personal impression alone",
+      "Rating scales such as PHQ-9 and GAD-7",
+      "Attendance and symptom reduction",
+      "Behavior monitoring tools"
+    ],
+    "e": "The plan's outcome measures are objective, repeatable indicators: rating scales (PHQ-9, GAD-7), attendance, symptom reduction and behaviour-monitoring tools such as diaries and trackers. The therapist's impression alone is not listed, because clinical judgment is prone to bias: therapists tend to overestimate progress. Measuring makes progress visible to client and therapist and shows when the plan needs to change (section 9).",
+    "w": [
+      "Rating scales such as PHQ-9 and GAD-7 are the first outcome measure listed.",
+      "Attendance and symptom reduction are both listed as ways to track progress.",
+      "Behaviour-monitoring tools are listed as an outcome measure."
+    ],
+    "k": "Track progress with measures (rating scales, attendance, symptom reduction, behaviour monitoring), not impressions alone.",
+    "r": "IT Midterm – Treatment Plan §6"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Section 8 (Risk & Safety) requires:",
+    "o": [
+      "A risk assessment and safety plan for suicidality, self-harm, substances",
+      "A plan for the total number, frequency and length of sessions",
+      "The choice of outcome measures such as PHQ-9 and GAD-7",
+      "A relapse prevention plan reviewed near the end of therapy"
+    ],
+    "e": "Section 8 requires a risk assessment and a safety plan for suicidality, self-harm and substance abuse. Safety comes before any symptom goal: a CBT plan for anxiety means nothing if the client is at risk of harm. A safety plan typically lists warning signs, coping steps, people and places to contact, professional and emergency contacts, and ways to limit access to means. Risk is reassessed throughout treatment, not only at intake.",
+    "w": [
+      "Number, frequency and length of sessions are decided in section 7, plan duration and frequency.",
+      "Choosing outcome measures such as PHQ-9 and GAD-7 is section 6.",
+      "The relapse prevention plan belongs to section 9, review and relapse prevention."
+    ],
+    "k": "Section 8 = risk assessment and a safety plan for suicidality, self-harm and substance abuse.",
+    "r": "IT Midterm – Treatment Plan §8"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Section 7 'Plan duration & frequency' decides:",
+    "o": [
+      "Total sessions, frequency per week and duration per session",
+      "Which diagnosis to give and which rating scale to use",
+      "Which homework to assign after each weekly session",
+      "Which family members attend and how often they come"
+    ],
+    "e": "Section 7 sets the practical frame of therapy: the total number of sessions, how many per week, and how long each session lasts. A clear frame helps the client commit, helps the therapist pace the interventions and sets a point for formal review. CBT is typically time-limited and structured, so agreeing on the frame early fits its collaborative, goal-directed style.",
+    "w": [
+      "Diagnosis comes from client information and assessment (section 1), and rating scales from outcome measures (section 6).",
+      "Homework is part of the session structure (section 5), set at the end of each session.",
+      "Who attends is a treatment decision (for example family therapy), not what section 7 decides."
+    ],
+    "k": "Section 7 = total sessions, sessions per week and session length: the frame of therapy.",
+    "r": "IT Midterm – Treatment Plan §7"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "What does section 9 'Review and relapse prevention' include?",
+    "o": [
+      "Evaluate progress, modify goals or interventions, and plan relapse prevention",
+      "Collect name, age and gender, then confirm the presenting problem",
+      "Explain the CBT model and normalize the client's current distress",
+      "Assign the first thought record and introduce self-monitoring"
+    ],
+    "e": "Section 9 closes the loop of the plan. The therapist evaluates progress and the skills the client has acquired (using the outcome measures of section 6), modifies goals or interventions if something is not working, and develops a relapse prevention plan: warning signs of setback, the skills to use, and when to seek help again. Treatment plans are living documents, revised when the data say so, and the end of therapy is planned rather than abrupt.",
+    "w": [
+      "Collecting name, age and gender belongs to section 1, gathering client information, at the start of the plan.",
+      "Explaining the CBT model and normalizing distress is Step 4 of the first interview, not the review section.",
+      "The first thought record and self-monitoring belong to the first sessions, not the final review."
+    ],
+    "k": "Section 9: evaluate progress and skills, adjust goals or interventions if needed, and build a relapse prevention plan.",
+    "h": "Review = re-view: look at the whole plan again, then lock the gains in.",
+    "r": "IT Midterm – Treatment Plan §9"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "In the treatment plan, psychoeducation about the diagnosis helps:",
+    "o": [
+      "Clients and parents understand the condition and learn coping strategies",
+      "The therapist alone chooses techniques without involving the family",
+      "The school adjusts grades and exams while the child is in therapy",
+      "The psychiatrist chooses the right medication for the diagnosis"
+    ],
+    "e": "Psychoeducation means teaching the client, and with children the parents too, what the condition is, what maintains it and how treatment works. The summary says it helps clients and parents understand the condition and learn coping strategies that support treatment. Understanding reduces fear and blame ('he's not doing it on purpose'), improves adherence to homework, and turns parents into co-therapists at home. It sits under 'psychoeducation and skill building', the foundation of the intervention plan.",
+    "w": [
+      "Psychoeducation involves the family; the therapist choosing techniques alone is the opposite of its purpose.",
+      "Adjusting grades and exams is a school accommodation, not psychoeducation about the diagnosis.",
+      "Choosing medication is a psychiatric decision; psychoeducation is teaching the client and parents about the condition."
+    ],
+    "k": "Psychoeducation teaches clients and parents what the condition is and how to cope, so they can support treatment.",
+    "h": "Psycho-EDUCATION: the therapist becomes a teacher, and the family becomes the class.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "In the Finals summary's first intervention session, what comes right after 'Psychoeducation on CBT'?",
+    "o": [
+      "Initial case formulation",
+      "Goal setting",
+      "Homework assignment",
+      "Assessment of presenting problems"
+    ],
+    "e": "The Finals first intervention session has 8 steps: 1 rapport and safety, 2 assessment of presenting problems, 3 psychoeducation on CBT, 4 initial case formulation, 5 goal setting, 6 introduce CBT techniques, 7 homework, 8 session summary and feedback. Case formulation follows psychoeducation for a reason: once the client understands that thoughts, feelings and behaviours interact, you can map their own problem onto that model together, and that shared map grounds the goals in step 5.",
+    "w": [
+      "Goal setting is step 5, after the case formulation, not directly after psychoeducation.",
+      "Homework is step 7, near the end of the session.",
+      "Assessment of presenting problems is step 2, before psychoeducation."
+    ],
+    "k": "Finals session order: rapport → assessment → psychoeducation → case formulation → goals → techniques → homework → summary.",
+    "h": "Teach the map (psychoeducation), then draw their map (formulation).",
+    "r": "IT Finals – First Intervention Session"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "In the first intervention session, the initial case formulation means understanding:",
+    "o": [
+      "The main problems, what led to them, triggers, thoughts, feelings, behaviors and links",
+      "Only the DSM diagnosis, the severity ratings from questionnaires and the medication plan",
+      "Only the family history and the client's early childhood experiences",
+      "The number of sessions and the homework needed for each week"
+    ],
+    "e": "A case formulation is the therapist's working explanation of this person's problem. The summary defines it as understanding the main problems, what led the person to the current state, the triggers, thoughts, feelings and behaviours, and how these all connect. It goes beyond a diagnosis: two clients with the same diagnosis can have very different formulations, and the formulation, not the label, tells you which interventions to choose. It is 'initial' because it is revised as you learn more.",
+    "w": [
+      "A diagnosis, severity scores and medication describe the problem but do not explain how it developed and is maintained.",
+      "Family history and childhood are only one part, the predisposing factors; the formulation also covers triggers and current patterns.",
+      "Number of sessions and weekly homework are plan logistics, not an understanding of the problem."
+    ],
+    "k": "Case formulation = main problems + what led to them + triggers, thoughts, feelings, behaviours + how they connect.",
+    "h": "A formulation is the 'story of the problem': how it started, what sets it off, what keeps it going.",
+    "r": "IT Finals – First Intervention Session #4"
+  },
+  {
+    "t": "First intervention session",
+    "d": 1,
+    "q": "Which technique is suggested as a basic CBT strategy to start with in the first intervention session?",
+    "o": [
+      "Self-monitoring of thoughts, emotions or behaviors",
+      "Flooding with the most feared situation at once",
+      "Interpretation of transference toward the therapist",
+      "Systematic desensitization with a full hierarchy"
+    ],
+    "e": "Step 6 says to begin with basic strategies, such as self-monitoring of thoughts, emotions or behaviours. Self-monitoring is the entry point of CBT: you cannot challenge a thought or change a behaviour you have not noticed. Recording when distress happens, what went through one's mind and what one did builds awareness, gives the therapist data for the formulation, and needs no prior skills, which makes it ideal for a first session.",
+    "w": [
+      "Flooding is intense and 'used carefully'; it is never a first-session starter.",
+      "Interpreting transference is a psychodynamic technique, not a basic CBT strategy.",
+      "Systematic desensitization needs a hierarchy and relaxation training first, so it comes later."
+    ],
+    "k": "Start CBT with self-monitoring of thoughts, emotions or behaviours: awareness comes before change.",
+    "h": "You can't fix what you can't see: monitoring turns on the light.",
+    "r": "IT Finals – First Intervention Session #6"
+  },
+  {
+    "t": "First intervention session",
+    "d": 1,
+    "q": "Which homework is given as an example for the first intervention session?",
+    "o": [
+      "A thought or mood record",
+      "A full exposure hierarchy",
+      "Writing an autobiography",
+      "Stopping all medication"
+    ],
+    "e": "Step 7 assigns a simple, practical task, for example a thought or mood record, to increase awareness between sessions. Early homework should be small enough to succeed, so it builds confidence. It also connects naturally to step 6, self-monitoring. Between-session practice is what makes CBT work: change happens in the client's daily life, not only in the therapy room.",
+    "w": [
+      "A full exposure hierarchy is a bigger task built later in treatment, not a first-session assignment.",
+      "An autobiography is not the summary's example and does not target between-session awareness.",
+      "Stopping medication is never homework a psychologist assigns; medication changes are medical decisions."
+    ],
+    "k": "First-session homework: simple and practical, such as a thought or mood record, to build awareness.",
+    "h": "Homework #1 is a diary, not a marathon.",
+    "r": "IT Finals – First Intervention Session #7"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "How many steps does the Finals 'first intervention session' have, and what is the last one?",
+    "o": [
+      "8 steps; session summary and feedback",
+      "7 steps; closing the session with reassurance about confidentiality",
+      "8 steps; homework assignment",
+      "6 steps; goal setting"
+    ],
+    "e": "Keep the two course frameworks apart. The Midterm 'first interview approach' has 7 steps and ends with closing the session (summarizing, validating, reassuring about confidentiality). The Finals 'first intervention session' has 8 steps and ends with session summary and feedback: reviewing main points, checking understanding and encouraging engagement. The Finals version adds case formulation and homework as explicit steps.",
+    "w": [
+      "7 steps ending with confidentiality reassurance is the Midterm first interview, not the Finals session.",
+      "Homework is step 7 of 8; the last step is session summary and feedback.",
+      "Goal setting is step 5, and the Finals session has 8 steps, not 6."
+    ],
+    "k": "Midterm first interview = 7 steps ending in closing; Finals first intervention session = 8 steps ending in summary and feedback.",
+    "h": "Finals is the bigger exam, so it gets the bigger number: 8 versus 7.",
+    "r": "IT Finals vs Midterm"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "In the Finals case study example, the insecure attachment style is attributed to:",
+    "o": [
+      "An emotionally unavailable and controlling mother",
+      "An overly strict and emotionally distant father",
+      "Repeated bullying and teasing by classmates",
+      "A genetic predisposition to anxiety and depression"
+    ],
+    "e": "The case study attributes the child's unsafe or insecure attachment style to an emotionally unavailable and controlling mother. Attachment theory explains why: a child whose caregiver is not emotionally available or responsive, and who controls rather than attunes, does not learn that relationships are a safe base. This can show up as anxiety, low self-worth and difficulty regulating emotions, which fits the case's depression, anxiety and eating problems.",
+    "w": [
+      "The father in the case is distant, but the summary ties the insecure attachment to the mother.",
+      "Bullying is a separate stressor in the case, addressed at school, not the cause given for the attachment style.",
+      "No genetic cause is given; the summary names the mother's style of caregiving."
+    ],
+    "k": "In the case study, insecure attachment is due to an emotionally unavailable and controlling mother.",
+    "h": "Attachment is built where the child is held: an unavailable, controlling hold gives an insecure bond.",
+    "r": "IT Finals – Case Study"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which set of diagnoses is listed in the Finals case study example?",
+    "o": [
+      "Eating disorder, adjustment disorder, depression, anxiety, social anxiety",
+      "ADHD, oppositional defiant disorder, conduct disorder, anxiety",
+      "Autism spectrum disorder, intellectual disability, social anxiety",
+      "Bipolar disorder, psychosis, depression, generalized anxiety"
+    ],
+    "e": "The case lists five diagnoses: eating disorder, adjustment disorder, depression, anxiety and social anxiety. They fit together: weight-focused criticism at home and bullying at school feed the eating problems and social anxiety, and the stressors and the child's reaction to them explain the adjustment disorder, depression and anxiety. Many children present with several overlapping problems, which is why the plan combines individual, play and family therapy with school collaboration.",
+    "w": [
+      "ADHD, ODD and conduct disorder are externalizing diagnoses that do not appear in the case.",
+      "Autism and intellectual disability are neurodevelopmental diagnoses not listed in the case.",
+      "Bipolar disorder and psychosis are not part of the case; only depression overlaps."
+    ],
+    "k": "Case diagnoses: eating disorder, adjustment disorder, depression, anxiety, social anxiety.",
+    "h": "'Every Average Day Again Scared': Eating, Adjustment, Depression, Anxiety, Social anxiety.",
+    "r": "IT Finals – Case Study"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Lucas (8) gets diets and scolding from his mother, treats 'to calm him' from his distant father, and bullying at school. Which short-term intervention targets the parents' contradictory messages?",
+    "o": [
+      "Family therapy, including psychoeducation for parents",
+      "Flooding to confront food-related fears at once",
+      "Relapse prevention through scouts and sports",
+      "Referral to a psychiatrist for medication only"
+    ],
+    "e": "The mother pushes diets and scolds; the distant father gives treats 'to calm him'. Lucas receives opposite messages about food, comfort and his body, which leaves him confused and ashamed and keeps the eating problem going. The problem lives in the family system, so the short-term plan includes family therapy with psychoeducation for the parents: helping them understand his difficulties and agree on a consistent, loving approach. Treating Lucas alone while the messages continue would undo the work.",
+    "w": [
+      "Flooding is not indicated for an 8-year-old's food issues and does nothing about the parents' messages.",
+      "Scouts and sports belong to long-term relapse prevention, not the short-term work on the family.",
+      "Medication alone does not address contradictory parenting, and the plan does not call for it."
+    ],
+    "k": "When parents send contradictory messages, involve them: family therapy with psychoeducation for parents.",
+    "h": "Two drivers pulling the wheel opposite ways: family therapy gets them steering together.",
+    "r": "IT Finals – Case + Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 1,
+    "q": "Which treatments are listed in the short-term plan of the case example?",
+    "o": [
+      "Individual CBT for kids, play therapy, family therapy",
+      "Psychoanalysis, hypnosis, dream analysis and long-term inpatient care",
+      "Medication, hospitalization and group therapy",
+      "Group therapy, couple therapy, flooding"
+    ],
+    "e": "The short-term plan combines three modalities: individual therapy (CBT adapted for kids), play therapy, and family therapy (including psychoeducation for the parents). Play therapy suits an 8-year-old, who often expresses feelings through play rather than words. Around these, the psychologist collaborates with the school (bullying awareness, special attention, the school counsellor) and suggests a dietician. The plan works at several levels at once: child, family, school and health.",
+    "w": [
+      "Psychoanalysis, hypnosis, dream analysis and inpatient care are not in the plan, which is CBT-based.",
+      "Medication and hospitalization are not listed; the plan is psychological and collaborative.",
+      "Couple therapy is a parent-support option 'if needed', and flooding is not listed for this child."
+    ],
+    "k": "Short-term plan: individual CBT for kids, play therapy, family therapy, plus school and dietician collaboration.",
+    "h": "Child (CBT), Play, Parents (family therapy): the three-legged stool of the short-term plan.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "What school-level action does the case plan recommend for the clinical psychologist?",
+    "o": [
+      "Advise awareness sessions on bullying and work with the school counselor",
+      "Ask the school to expel the bullies and report them to their parents",
+      "Move the child to another school immediately to stop the bullying",
+      "Avoid contacting the school at all for reasons of confidentiality"
+    ],
+    "e": "The school is where the bullying happens, so the plan works with it: the psychologist talks to the school about the need for awareness sessions on bullying, notifies the school that the child needs special attention, and collaborates with the school's psychologist or counsellor to stay updated. This is systemic intervention: changing the environment that maintains the problem, not just the child. (Contact with the school still requires the family's consent.)",
+    "w": [
+      "Expelling the bullies is not the psychologist's role, and the plan aims for awareness, not punishment.",
+      "Moving schools is not recommended; the plan improves the current school environment.",
+      "The plan explicitly involves the school; confidentiality is handled through consent, not by avoiding contact."
+    ],
+    "k": "At school: push for bullying-awareness sessions, ask for special attention, and coordinate with the school counsellor.",
+    "h": "Fix the playground, not just the child.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 1,
+    "q": "Which professional does the plan suggest collaborating with because of the eating difficulties?",
+    "o": [
+      "A dietician",
+      "A neurologist",
+      "A speech therapist",
+      "An occupational therapist"
+    ],
+    "e": "Because the case includes an eating disorder and the mother's diets, the plan suggests the child see a dietician, with whom the psychologist can collaborate. A dietician provides safe, age-appropriate nutrition guidance, replacing harmful dieting with healthy eating, while the psychologist handles the emotional and family side. Interdisciplinary collaboration is a recurring theme of the plan: school counsellor, dietician, and parents.",
+    "w": [
+      "A neurologist treats nervous-system disorders; nothing in the case calls for one.",
+      "A speech therapist works on speech and language, unrelated to the eating difficulties.",
+      "An occupational therapist works on daily functional skills, not nutrition."
+    ],
+    "k": "For the case's eating difficulties, the plan suggests collaborating with a dietician.",
+    "h": "Diet problems → dietician: the profession is in the word.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which belongs to the LONG-term (relapse prevention) plan rather than the short-term plan?",
+    "o": [
+      "Hobbies such as scouts, sports or music",
+      "Psychoeducation and gaining insight",
+      "Reducing immediate distress",
+      "Teaching breathing techniques"
+    ],
+    "e": "Long-term relapse prevention aims at keeping gains after therapy ends. It includes enjoyable, suitable activities and hobbies (scouts, sports, music) to develop talents and a sense of purpose, a support group of friends and peers, follow-up sessions, and an action plan for crises. Hobbies build identity, competence and friendships that protect against relapse. Psychoeducation and insight, reducing immediate distress and breathing techniques are the short-term therapy work.",
+    "w": [
+      "Psychoeducation and gaining insight are listed in the short-term individual therapy.",
+      "Reducing immediate distress is a short-term goal of individual therapy.",
+      "Breathing techniques are among the coping strategies taught in the short-term plan."
+    ],
+    "k": "Long-term (relapse prevention): hobbies, peer support, follow-up sessions, crisis action plan.",
+    "h": "Short-term is the repair; long-term is the maintenance schedule.",
+    "r": "IT Finals – Long-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "In long-term psychoeducation, parents are guided to prioritize:",
+    "o": [
+      "Mental health over academic performance",
+      "Academic performance over mental health",
+      "Strict dieting",
+      "Limiting peer contact"
+    ],
+    "e": "The summary says to guide parents on long-term ways to support their child, prioritizing mental health over academic performance. Many families put heavy weight on grades, and for a child with depression, anxiety and an eating disorder, pressure on achievement is a stressor that can trigger relapse. Teaching parents to value wellbeing first, and to see that a child who is well learns better anyway, protects the gains of therapy after it ends.",
+    "w": [
+      "Putting academics over mental health is the exact opposite of the guidance.",
+      "Strict dieting is part of what harmed the child; it is never the long-term guidance.",
+      "Limiting peer contact contradicts the plan, which builds peer support as relapse prevention."
+    ],
+    "k": "Long-term parent guidance: prioritize the child's mental health over academic performance.",
+    "h": "Health before homework.",
+    "r": "IT Finals – Long-term goals"
+  },
+  {
+    "t": "Working with parents",
+    "d": 2,
+    "q": "Why does the summary encourage self-care for parents?",
+    "o": [
+      "Neglecting themselves harms their caregiving; self-care prevents burnout",
+      "Parents should step back so the child learns to cope independently",
+      "Self-care for parents replaces the need for family therapy sessions",
+      "Self-care is assigned as homework that the child must supervise"
+    ],
+    "e": "Caring for a struggling child is exhausting, and parents who neglect themselves burn out, becoming irritable, depleted and less able to care well. The summary says neglecting themselves can affect how they care for their child, so it encourages balancing family and personal time with moments for relaxation, exercise and self-care. This prevents burnout and supports sustainable caregiving. It is the oxygen-mask rule: secure your own first so you can help the child.",
+    "w": [
+      "Self-care is not stepping back from the child; it keeps parents able to stay involved.",
+      "Self-care complements family therapy; it does not replace it.",
+      "Making the child supervise the parents' self-care would reverse roles and burden the child."
+    ],
+    "k": "Parental self-care prevents burnout and keeps caregiving sustainable.",
+    "h": "The oxygen-mask rule: parents put theirs on first.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Working with parents",
+    "d": 2,
+    "q": "'Help parents reframe guilt and blame, manage anger and confusion, and provide reassurance' describes:",
+    "o": [
+      "Offering emotional support",
+      "Providing tools and strategies",
+      "Suggesting couple therapy",
+      "Psychoeducation about the child's difficulties"
+    ],
+    "e": "This is offering emotional support, the last item of 'how to work with and support parents'. Parents of a struggling child often feel guilt ('it's my fault'), blame each other or the child, and feel anger and confusion. Helping them reframe guilt and blame, manage these feelings and providing reassurance supports them as people, which also makes them better partners in treatment. The cue is that every verb targets the parents' feelings.",
+    "w": [
+      "Tools and strategies are practical skills (communication, parenting) for use at home, not emotional support.",
+      "Couple therapy is a separate suggestion made 'if needed'.",
+      "Psychoeducation teaches parents about the child's difficulties and how to manage them; it informs rather than soothes."
+    ],
+    "k": "Emotional support for parents = reframing guilt and blame, managing anger and confusion, reassurance.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Working with parents",
+    "d": 1,
+    "q": "Which practical tools are parents offered for use at home?",
+    "o": [
+      "Communication and parenting skills, plus loving the child unconditionally",
+      "Strict punishment and reward schedules for every eating behavior",
+      "Food restriction plans and daily weighing at home",
+      "Medication management and symptom monitoring charts"
+    ],
+    "e": "Under 'provide tools and strategies', parents are offered practical strategies for home: communication skills and parenting skills, while the summary emphasizes the importance of loving their child unconditionally. For this case, unconditional love counters the message that the child is acceptable only if thinner or better behaved, which is at the root of his shame. Skills give parents something concrete to do differently.",
+    "w": [
+      "Strict punishment and reward schedules for eating would increase pressure and shame around food.",
+      "Food restriction and daily weighing are harmful in an eating disorder and contradict the plan.",
+      "Medication management is a medical task; the parent tools are communication and parenting skills."
+    ],
+    "k": "Parent tools: communication and parenting skills, with unconditional love for the child.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Working with parents",
+    "d": 2,
+    "q": "According to the summary, when should couple therapy be suggested?",
+    "o": [
+      "If needed",
+      "Always, before treating the child",
+      "Never; it is outside the psychologist's role",
+      "Only after the child finishes therapy"
+    ],
+    "e": "The first bullet of 'how to work with and support parents' is: suggest couple therapy if needed. A child's symptoms can reflect or be worsened by tension between the parents, for example the opposite messages about food in the case. When parental conflict maintains the problem, couple therapy helps; when it does not, it is unnecessary. The criterion is clinical need, not a fixed rule.",
+    "w": [
+      "Couple therapy is not a precondition for treating the child; it is suggested only if needed.",
+      "It is within the plan: the psychologist can suggest it as part of supporting the parents.",
+      "Timing is not fixed to after the child's therapy; it is suggested when the need appears."
+    ],
+    "k": "Couple therapy for the parents is suggested only if needed, when their relationship affects the child.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which coping strategy is listed among those taught to the child in the short-term plan?",
+    "o": [
+      "Positive self-talk and distraction techniques",
+      "Thought suppression and avoiding triggers",
+      "Avoidance of school until bullying stops",
+      "Food restriction to regain control"
+    ],
+    "e": "The short-term plan lists many coping strategies: cognitive restructuring (reframing), behavioural activation, relaxation and breathing techniques, mindfulness and grounding, exposure therapy, activity scheduling, self-monitoring, positive self-talk and distraction techniques. Positive self-talk replaces harsh inner criticism with kinder, realistic statements, and distraction helps a child ride out a wave of distress. All the listed strategies are adaptive, approach-oriented skills.",
+    "w": [
+      "Thought suppression and avoiding triggers tend to strengthen anxiety; they are not on the list.",
+      "School avoidance would deepen anxiety and isolation; the plan works with the school instead.",
+      "Food restriction is part of the eating problem, not a coping skill."
+    ],
+    "k": "Child coping list includes reframing, activation, relaxation, breathing, grounding, exposure, scheduling, self-monitoring, positive self-talk, distraction.",
+    "h": "Avoidance feeds fear; skills starve it.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "\"When did these symptoms first start, and how have they changed since?\" explores which interview area?",
+    "o": [
+      "Onset and evolution",
+      "Triggers",
+      "Functional impairment",
+      "Treatment history"
+    ],
+    "e": "'When did it start and how has it changed?' is Question 2, onset and evolution: the history of the problem over time. Onset tells you what was happening in the client's life when it began (a loss, a move, bullying), which often reveals precipitating factors. Evolution tells you whether it is getting worse, better or fluctuating. Contrast Question 3: 'when during the day?' explores triggers, the moment-to-moment cues.",
+    "w": [
+      "Triggers (Question 3) are the situations or times of day that set symptoms off, not when the problem began.",
+      "Functional impairment (Question 4) is how much symptoms interfere with daily tasks.",
+      "Treatment history (Question 10) is what the client has already tried to fix it."
+    ],
+    "k": "'When did it start and how has it changed?' = onset and evolution, the timeline of the problem.",
+    "h": "Onset = the problem's birthday; evolution = how it has grown up since.",
+    "r": "IT Midterm – Questions #2"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "\"On a scale of 1 to 10, how strong is the urge?\" is used in the first interview to:",
+    "o": [
+      "Quantify how strong the symptom or distress is",
+      "Identify the client's protective factors",
+      "Collect the client's treatment history",
+      "Detect a genetic predisposition"
+    ],
+    "e": "A 1–10 rating (Question 6) turns a subjective experience into a number. It quantifies how strong the symptom or distress is right now, which helps the therapist judge severity, lets the client notice small changes ('it went from 8 to 6'), and gives a baseline to track over sessions. The same idea underlies the SUDS ratings (Subjective Units of Distress) used to build exposure hierarchies.",
+    "w": [
+      "Protective factors are explored by asking about the support system (Question 8).",
+      "Treatment history comes from asking what was tried before (Question 10).",
+      "Genetic predisposition is explored through family history (Question 9)."
+    ],
+    "k": "A 1–10 rating quantifies symptom or distress intensity so it can be tracked over time.",
+    "r": "IT Midterm – Questions #6"
+  },
+  {
+    "t": "Interview questions",
+    "d": 2,
+    "q": "\"What thoughts go through your mind when you touch the door handle?\" corresponds to which item in the interview list?",
+    "o": [
+      "Verbalizing intrusive thoughts",
+      "Coping strategies and emotional regulation",
+      "Triggers during the day",
+      "Family dynamics and history"
+    ],
+    "e": "Asking 'what thoughts go through your mind when…' invites the client to put the intrusive thought into words (Question 7, verbalizing intrusive thoughts), for example 'I'll catch a disease and give it to my family.' Naming the thought is essential in CBT: it reveals the feared consequence, and an identified thought can be examined and challenged. Keep it apart from Question 5, which asks what the client does in response (the ritual, the coping).",
+    "w": [
+      "Coping and emotional regulation (Question 5) is what the client does in response, not the thought itself.",
+      "The door handle is a trigger, but the question asks for the thought, not when symptoms occur.",
+      "Family dynamics and history (Question 9) explore learned behaviour and genetic predisposition."
+    ],
+    "k": "'What goes through your mind when…?' = verbalizing intrusive thoughts (thinking); 'what do you do?' = coping (doing).",
+    "h": "Thoughts are words in the head: verbalize = put them into verbs and words out loud.",
+    "r": "IT Midterm – Questions #5 & #7"
+  },
+  {
+    "t": "Interview questions",
+    "d": 1,
+    "q": "Asking about medications and medical conditions gathers the client's:",
+    "o": [
+      "Medical history",
+      "Treatment history",
+      "Personal background",
+      "Protective factors"
+    ],
+    "e": "Medications and medical conditions form the medical history (Question 11). They matter psychologically: thyroid problems can mimic anxiety or depression, some medications affect mood, and chronic illness is a major stressor. They also signal when to coordinate with a physician. Keep it apart from treatment history (Question 10), the techniques and therapies the client has tried for the psychological problem.",
+    "w": [
+      "Treatment history (Question 10) is techniques and therapies already tried, not medications and conditions.",
+      "Personal background (Question 1) covers education, occupation and living situation.",
+      "Protective factors (Question 8) are the support system and resources."
+    ],
+    "k": "Medications and medical conditions = medical history (Question 11).",
+    "h": "Medical history = what's in the medicine cabinet and the doctor's file.",
+    "r": "IT Midterm – Questions #11"
+  },
+  {
+    "t": "Interview questions",
+    "d": 3,
+    "q": "A client says: 'I counted the stairs again, and if I don't, I panic until I go back and count.' Which two interview areas does this single answer inform most directly?",
+    "o": [
+      "Coping/emotional regulation patterns and verbalized intrusive thoughts",
+      "Onset and evolution of the symptoms, and the family history",
+      "Protective factors and resources, and prior treatment history",
+      "Personal background and medical history"
+    ],
+    "e": "Break the answer into its parts. 'I counted the stairs again' and 'I go back and count' describe what the client does when the urge comes: his coping and regulation pattern, a compulsion (Question 5). 'If I don't, I panic' reveals the feared consequence and the anxious thought behind it, which is what Question 7 (verbalizing intrusive thoughts) targets. This is the OCD cycle in one sentence: thought → anxiety → ritual → relief, which keeps the ritual going.",
+    "w": [
+      "Nothing in the answer says when the symptom began or anything about the family.",
+      "The answer mentions no supports, resources or previous treatment.",
+      "It contains no socio-demographic or medical information."
+    ],
+    "k": "One answer can serve several interview areas: what the client does (coping) and what he fears (intrusive thoughts).",
+    "h": "The OCD loop: thought → panic → count → relief → repeat.",
+    "r": "IT Midterm – Questions #5 & #7"
+  },
+  {
+    "t": "Interview questions",
+    "d": 2,
+    "q": "How many items are in the midterm summary's list of what to ask about in the first interview?",
+    "o": [
+      "11",
+      "7",
+      "8",
+      "9"
+    ],
+    "e": "The midterm list of what to ask has 11 items: 1 personal background, 2 onset and evolution, 3 triggers, 4 functional impairment, 5 coping and emotional regulation, 6 the 1–10 rating, 7 verbalizing intrusive thoughts, 8 support system (protective factors), 9 family dynamics and history, 10 treatment history, 11 medical history. Don't confuse the numbers: 7 is the number of first-interview steps, and 8 is the number of steps in the Finals first intervention session.",
+    "w": [
+      "7 is the number of first-interview steps (Midterm), not interview questions.",
+      "8 is the number of steps in the Finals first intervention session.",
+      "9 does not match any of the course's lists."
+    ],
+    "k": "The midterm interview list has 11 areas, from personal background (1) to medical history (11).",
+    "h": "Eleven questions, like a football team of eleven players covering the whole field.",
+    "r": "IT Midterm – Questions"
+  },
+  {
+    "t": "First interview",
+    "d": 1,
+    "q": "Which behavior is listed under Step 1 of the first interview?",
+    "o": [
+      "Respecting silence and giving the client time to think and respond",
+      "Filling every pause quickly so the client never feels uncomfortable",
+      "Starting with a symptom questionnaire before any conversation",
+      "Explaining the CBT model before hearing the presenting problem"
+    ],
+    "e": "Step 1 explicitly includes respecting silence, allowing the client time to think and respond. Silence is often productive: the client is gathering courage or feeling something. Rushing to fill it signals discomfort and can cut off what was about to be said. The other Step 1 behaviours are greeting warmly, acknowledging and validating feelings, active listening, open-ended questions, and explaining confidentiality and its limits.",
+    "w": [
+      "Filling every pause is the opposite of respecting silence and can stop the client from opening up.",
+      "Opening with a questionnaire before any conversation skips rapport; tools come in Step 6.",
+      "Explaining the CBT model before hearing the problem reverses the steps; CBT concepts are Step 4."
+    ],
+    "k": "Step 1 includes respecting silence: give the client time to think and respond.",
+    "h": "Silence is the client's thinking room; don't barge in.",
+    "r": "IT Midterm – First Interview, Step 1"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "What does Step 7 (closing the session) include?",
+    "o": [
+      "Summarizing, validating, and reassuring about confidentiality and collaboration",
+      "Assigning flooding homework and fixing the total number of sessions",
+      "Taking a full medical and psychiatric history before the client leaves",
+      "Giving the diagnosis and its prognosis to the client in technical terms"
+    ],
+    "e": "Step 7 closes the session by summarizing the key points (showing you listened and helping the client hold onto what was covered), validating the client's experiences, and reassuring them about confidentiality and the collaborative nature of therapy. Ending this way leaves the client feeling understood and safe enough to come back, which matters because many clients drop out after the first session.",
+    "w": [
+      "Flooding is not first-interview homework, and session numbers are decided in the treatment plan.",
+      "A full medical and psychiatric history belongs to Step 3, not the closing minutes.",
+      "Giving a technical diagnosis and prognosis at the door is not in Step 7, which summarizes, validates and reassures."
+    ],
+    "k": "Step 7: summarize key points, validate, and reassure about confidentiality and collaboration.",
+    "h": "Close with S-V-R: Summarize, Validate, Reassure.",
+    "r": "IT Midterm – First Interview, Step 7"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "In Step 5, goals are discussed as:",
+    "o": [
+      "Short-term and long-term goals in clear, realistic terms",
+      "Long-term goals only, decided by the therapist from the diagnosis",
+      "Goals copied from the diagnostic manual for that particular disorder",
+      "Goals postponed until after the first month"
+    ],
+    "e": "Step 5, collaborative goal setting, invites the client to identify therapy goals and discusses both short-term and long-term goals in clear, realistic terms, then prioritizes problems by distress and impact. 'Clear and realistic' means specific and achievable ('go to class four days a week'), not vague ('be happy'). Goals the client helped choose are goals the client works toward.",
+    "w": [
+      "Goals are not therapist-only or long-term only; Step 5 is collaborative and includes short-term goals.",
+      "Goals come from the client's life and priorities, not copied from a diagnostic manual.",
+      "Goals are set in the first interview (Step 5), not postponed."
+    ],
+    "k": "Step 5: client-identified short- and long-term goals, clear and realistic, prioritized by distress and impact.",
+    "r": "IT Midterm – First Interview, Step 5"
+  },
+  {
+    "t": "First interview",
+    "d": 2,
+    "q": "Exploring psychosocial, medical and psychiatric history belongs to which first-interview step?",
+    "o": [
+      "Step 3 – Assess client history and resources",
+      "Step 2 – Gather presenting information",
+      "Step 4 – Introduce initial CBT concepts",
+      "Step 6 – Assessment tools and next steps"
+    ],
+    "e": "Step 3, assess client history and resources, explores the background behind the presenting problem: psychosocial history (family, school or work, relationships, stressors), medical history and psychiatric history (previous episodes, diagnoses, hospitalizations). It also asks about past coping strategies, prior therapy or medications, and focuses on strengths and resources. Step 2 covers the current problem; Step 3 places it in the person's life story.",
+    "w": [
+      "Step 2 gathers the present problem (symptoms, frequency, triggers, impact), not the background history.",
+      "Step 4 explains the CBT model; it does not collect history.",
+      "Step 6 introduces questionnaires or tracking and plans next steps."
+    ],
+    "k": "Step 3 = psychosocial, medical and psychiatric history, past coping and prior treatment, strengths and resources.",
+    "h": "Step 2 = the present; Step 3 = the past behind it.",
+    "r": "IT Midterm – First Interview, Step 3"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "In the CBT treatment plan, exposure therapy is defined as:",
+    "o": [
+      "Gradually facing fears",
+      "Confronting fear all at once",
+      "Gradual exposure combined with relaxation",
+      "Doing enjoyable activities to lift mood"
+    ],
+    "e": "Exposure therapy is gradually facing feared situations, usually by climbing a hierarchy from mildly to strongly feared steps and staying with each until the anxiety comes down. Avoidance keeps fear alive, because the person never learns that the feared outcome does not happen or that the anxiety passes. Repeated, gradual contact teaches the brain the situation is safe. The summary places it among the behavioural strategies tailored to the disorder, alongside flooding and systematic desensitization.",
+    "w": [
+      "Confronting fear all at once is flooding, the intense, 'used carefully' version.",
+      "Gradual exposure plus relaxation is systematic desensitization.",
+      "Doing enjoyable activities to lift mood is behavioural activation, used for depression."
+    ],
+    "k": "Exposure = gradually facing fears; avoidance maintains fear, gradual contact dissolves it.",
+    "h": "Expose = 'ex-pose', put yourself out in front of the fear, one step at a time.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Mnemonic check: Exposure = gradual; Flooding = all at once; Systematic Desensitization = ?",
+    "o": [
+      "Gradual exposure + relaxation",
+      "All at once + relaxation",
+      "Relaxation without any exposure",
+      "Gradual exposure without relaxation"
+    ],
+    "e": "The three fear treatments differ on two dimensions: pace and relaxation. Exposure is gradual without a relaxation component, flooding is all at once without relaxation, and systematic desensitization is gradual plus relaxation, often used for phobias or OCD. The relaxation is the defining ingredient of systematic desensitization: the client learns to stay calm (breathing, muscle relaxation) while stepping closer to the feared cue, so calm replaces the old fear response.",
+    "w": [
+      "'All at once' is flooding's pace; systematic desensitization is gradual, and flooding has no relaxation.",
+      "Relaxation without exposure is just relaxation training; desensitization needs contact with the feared cue.",
+      "Gradual exposure without relaxation is plain exposure therapy."
+    ],
+    "k": "Exposure = gradual; flooding = all at once; systematic desensitization = gradual + relaxation.",
+    "h": "De-SENS-itize: calm the senses while stepping closer.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "Which is the 4th long-term goal of the CBT treatment plan?",
+    "o": [
+      "Improve overall functioning",
+      "Eliminate all symptoms within ten sessions",
+      "Stop all medications",
+      "Change the family structure"
+    ],
+    "e": "The fourth long-term goal is to improve overall functioning: work, school, relationships, self-care, enjoyment. It ties the plan to what matters in the client's life, not just to symptom scores. The four goals move from symptoms to mechanisms to skills to life: (1) reduce distress and functional impairment, (2) modify maladaptive thoughts and core beliefs, (3) enhance coping, emotional regulation and problem-solving, (4) improve overall functioning.",
+    "w": [
+      "A fixed number of sessions for eliminating all symptoms is unrealistic and is not in the plan.",
+      "Stopping medication is not a psychological treatment goal and is decided medically.",
+      "Changing the family structure is not one of the four long-term goals."
+    ],
+    "k": "Long-term goal 4 = improve overall functioning: the plan ends where life happens.",
+    "h": "Symptoms → beliefs → skills → life: goal 4 is the 'life' goal.",
+    "r": "IT Midterm – Treatment Plan §3"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 1,
+    "q": "What goes in section 1 of the CBT treatment plan (gathering client information)?",
+    "o": [
+      "Name, age, gender, history and diagnosis if applicable",
+      "The client's goals for therapy, short- and long-term",
+      "The relapse prevention plan and follow-up",
+      "Rating scales and behavior monitoring tools"
+    ],
+    "e": "Section 1, gathering client information, holds the identifying and background data: name, age, gender, history and diagnosis (if applicable). This is why the summary says not to ask name, age and gender as interview questions: they belong in the file, often collected on an intake form, while the interview explores the client's experience. Section 1 is the factual header of the plan; everything else builds on it.",
+    "w": [
+      "The client's short- and long-term goals belong to section 3, goals of therapy.",
+      "Relapse prevention and follow-up belong to section 9, review and relapse prevention.",
+      "Rating scales and monitoring tools are section 6, outcome measures."
+    ],
+    "k": "Plan section 1 = name, age, gender, history, diagnosis (if applicable): identifying information.",
+    "h": "Section 1 = ID card.",
+    "r": "IT Midterm – Treatment Plan §1"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Section 2 of the treatment plan, the presenting problem, contains:",
+    "o": [
+      "A brief description of the main concerns and how symptoms affect daily functioning",
+      "The list of CBT techniques that will be used in each of the sessions",
+      "The total number of sessions, their weekly frequency and their length",
+      "The risk assessment and the safety plan"
+    ],
+    "e": "Section 2, the presenting problem, is a brief description of the client's main concerns and how the symptoms affect daily functioning. It is the 'why are we here' of the plan: concise, in observable terms, and linked to impact. Everything later in the plan (goals, interventions, outcome measures) should answer the presenting problem, so a clear Section 2 keeps the plan focused.",
+    "w": [
+      "The CBT techniques to be used belong to section 4, the intervention plan.",
+      "Number, frequency and length of sessions are section 7, plan duration and frequency.",
+      "The risk assessment and safety plan are section 8."
+    ],
+    "k": "Plan section 2 = presenting problem: main concerns plus how symptoms affect daily functioning.",
+    "h": "Section 2 answers 'what brings you here, and what is it costing you?'",
+    "r": "IT Midterm – Treatment Plan §2"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "In the 9-section CBT treatment plan, which section comes immediately after 'Session structure'?",
+    "o": [
+      "Outcome measures",
+      "Plan duration & frequency",
+      "Intervention plan",
+      "Consider risk & safety"
+    ],
+    "e": "The nine sections run: 1 client information, 2 presenting problem, 3 goals, 4 intervention plan, 5 session structure, 6 outcome measures, 7 duration and frequency, 8 risk and safety, 9 review and relapse prevention. After deciding how sessions will run (5), you decide how progress will be measured (6). The logic is who → what problem → where we're going → how → in what format → how we'll know → how long → keeping safe → reviewing.",
+    "w": [
+      "Plan duration and frequency is section 7, after outcome measures.",
+      "The intervention plan is section 4, before session structure.",
+      "Risk and safety is section 8, not the one that follows session structure; outcome measures come next."
+    ],
+    "k": "Treatment plan order: info, problem, goals, interventions, session structure, outcome measures, duration, risk, review.",
+    "h": "'I Picked Good Ice cream So Others Don't Rush Rudely': Info, Problem, Goals, Intervention, Structure, Outcomes, Duration, Risk, Review.",
+    "r": "IT Midterm – Treatment Plan"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 3,
+    "q": "Order these treatment-plan sections correctly: risk & safety, outcome measures, duration & frequency, review & relapse prevention.",
+    "o": [
+      "Outcome measures → duration & frequency → risk & safety → review & relapse prevention",
+      "Risk & safety → outcome measures → duration & frequency → review & relapse prevention",
+      "Duration & frequency → outcome measures → review & relapse prevention → risk & safety",
+      "Outcome measures → risk & safety → duration & frequency → review & relapse prevention"
+    ],
+    "e": "The last four sections are 6 outcome measures, 7 plan duration and frequency, 8 risk and safety, and 9 review and relapse prevention. Measures come first because they define what success looks like. Duration then sets the frame, risk and safety secures the client, and the review uses the measures to evaluate progress and plan relapse prevention. Review is naturally last: it looks back over everything else.",
+    "w": [
+      "Risk and safety is section 8; it does not come before outcome measures (6) and duration (7).",
+      "Review and relapse prevention is section 9, the final section; it cannot come before risk and safety.",
+      "Risk and safety (8) comes after duration and frequency (7), not before it."
+    ],
+    "k": "Sections 6–9: outcome measures → duration and frequency → risk and safety → review and relapse prevention.",
+    "r": "IT Midterm – Treatment Plan §6–9"
+  },
+  {
+    "t": "Treatment plan",
+    "d": 2,
+    "q": "Under 'Intervention plan', the two headings are:",
+    "o": [
+      "Psychoeducation & skill building; cognitive & behavioral interventions",
+      "Assessment & diagnosis; medication & referral to a psychiatrist",
+      "Family therapy & school collaboration; relapse prevention & follow-up",
+      "Rapport & safety; goal setting & closing"
+    ],
+    "e": "Section 4, the CBT-focused intervention plan, has two blocks. 'Psychoeducation and skill building' contains psychoeducation about the diagnosis and skills training (relaxation techniques; mindfulness and grounding). 'Cognitive and behavioural interventions' contains cognitive restructuring and behavioural strategies tailored to the disorder (behavioural activation, exposure, flooding, systematic desensitization). The headings mirror CBT itself: understand and build skills, then change thoughts and behaviours.",
+    "w": [
+      "Assessment, diagnosis, medication and psychiatric referral are not the two intervention headings.",
+      "Family therapy, school collaboration and relapse prevention come from the Finals case plan, not section 4.",
+      "Rapport, safety, goal setting and closing are steps of the first interview, not intervention headings."
+    ],
+    "k": "Intervention plan = (1) psychoeducation and skill building, (2) cognitive and behavioural interventions.",
+    "h": "Learn and train, then think and do.",
+    "r": "IT Midterm – Treatment Plan §4"
+  },
+  {
+    "t": "First intervention session",
+    "d": 1,
+    "q": "What is step 1 of the Finals 'first intervention session'?",
+    "o": [
+      "Establish rapport and safety, explaining confidentiality and the collaborative nature of CBT",
+      "Assess the presenting problems, their duration and their impact on functioning",
+      "Assign a simple thought or mood record to increase awareness between sessions",
+      "Write the initial case formulation"
+    ],
+    "e": "Step 1 of the Finals session is to establish rapport and safety: create a supportive, non-judgmental environment and explain confidentiality and the collaborative nature of CBT. It matches Step 1 of the Midterm interview, with one addition worth noticing: the Finals version names collaboration up front. CBT is a partnership in which the client is an active participant who sets goals and does homework, so saying so from the start shapes the client's expectations.",
+    "w": [
+      "Assessing presenting problems is step 2 of the Finals session.",
+      "A thought or mood record is the homework of step 7.",
+      "The initial case formulation is step 4."
+    ],
+    "k": "Finals step 1: supportive, non-judgmental rapport plus confidentiality and CBT's collaborative nature.",
+    "r": "IT Finals – First Intervention Session #1"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "In the first intervention session, goals are defined as:",
+    "o": [
+      "Specific, achievable and aligned with the client's needs, set collaboratively",
+      "Long-term only, chosen by the therapist on the basis of the diagnosis",
+      "Identical for every client who presents with the same diagnosis and age",
+      "Left vague so the client does not feel pressured"
+    ],
+    "e": "Step 5 of the Finals session says to collaboratively define specific, achievable therapy goals aligned with the client's needs. 'Specific' means you can tell when it is reached, 'achievable' means realistic, 'aligned with the client's needs' means it matters to them, and 'collaboratively' means they help choose it. This is close to the SMART logic (specific, measurable, achievable, relevant, time-bound) widely used in CBT goal setting.",
+    "w": [
+      "Goals are not therapist-chosen or long-term only; the step stresses collaboration and achievability.",
+      "Identical goals for everyone with a diagnosis ignore the client's own needs, which goals must match.",
+      "Vague goals cannot be achieved or measured; the step asks for specific goals."
+    ],
+    "k": "Finals goal setting: specific, achievable goals aligned with the client's needs, set together.",
+    "h": "SMART goals: Specific, Measurable, Achievable, Relevant, Time-bound.",
+    "r": "IT Finals – First Intervention Session #5"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "What is the stated purpose of the homework in the first intervention session?",
+    "o": [
+      "To increase awareness between sessions",
+      "To test whether the client is motivated enough",
+      "To replace the next session",
+      "To expose the client to the most feared situation"
+    ],
+    "e": "The summary states the purpose: to increase awareness between sessions. A simple thought or mood record makes the client notice when distress comes, what they were thinking and what they did, which is the raw material for the case formulation and later techniques. Homework also carries therapy into the 167 hours of the week outside the session.",
+    "w": [
+      "Homework is not a motivation test; it is a learning task.",
+      "Homework does not replace sessions; it connects them.",
+      "Exposure to the most feared situation is never a first-session homework."
+    ],
+    "k": "First-session homework exists to increase awareness between sessions.",
+    "h": "One hour in session, 167 hours outside: homework covers the 167.",
+    "r": "IT Finals – First Intervention Session #7"
+  },
+  {
+    "t": "First intervention session",
+    "d": 2,
+    "q": "Step 8 of the first intervention session (summary and feedback) asks the therapist to:",
+    "o": [
+      "Review main points, check understanding and encourage engagement",
+      "Give the final diagnosis and decide on the medication with the psychiatrist",
+      "Assign exposure to the most feared situation as homework for the week",
+      "Collect name, age and gender for the file"
+    ],
+    "e": "Step 8 asks the therapist to review the main points, check understanding, and encourage engagement in the therapeutic process. Checking understanding is a key CBT habit: asking 'what will you take away from today?' catches misunderstandings early. Asking for feedback ('what was helpful, what wasn't?') models collaboration and strengthens the alliance. Encouraging engagement increases the chance the client returns and does the homework.",
+    "w": [
+      "Final diagnosis and medication decisions are not part of the session summary.",
+      "Exposure to the most feared situation is never first-session homework.",
+      "Identifying data belong in the client file and are not part of the closing step."
+    ],
+    "k": "Finals step 8: review main points, check understanding, encourage engagement.",
+    "r": "IT Finals – First Intervention Session #8"
+  },
+  {
+    "t": "First intervention session",
+    "d": 3,
+    "q": "Comparing the two summaries: where does explaining the CBT model fall in each sequence?",
+    "o": [
+      "Step 4 of the Midterm interview; step 3 of the Finals session",
+      "Step 1 in both sequences, right after greeting the client warmly",
+      "Step 3 of the Midterm first interview; step 4 of the Finals session",
+      "Only in the Finals sequence; the Midterm never mentions it"
+    ],
+    "e": "Both sequences explain CBT, but at different points. In the Midterm first interview it is Step 4 ('introduce initial CBT concepts'), after rapport (1), presenting information (2) and history and resources (3). In the Finals first intervention session it is step 3 ('psychoeducation on CBT'), after rapport (1) and assessment of presenting problems (2), and it is followed by the initial case formulation (4). Both explain CBT only after hearing the problem.",
+    "w": [
+      "Neither sequence explains CBT at step 1; both begin with rapport and safety.",
+      "This reverses the two: it is Midterm Step 4 and Finals step 3.",
+      "The Midterm explains CBT in Step 4, 'Introduce initial CBT concepts'."
+    ],
+    "k": "Explaining CBT: Midterm Step 4 (after history); Finals step 3 (before case formulation).",
+    "h": "Midterm explains CBT at 4; Finals at 3: the Finals drops one step earlier.",
+    "r": "IT Midterm vs Finals"
+  },
+  {
+    "t": "First intervention session",
+    "d": 3,
+    "q": "Which element appears as its own step in the Finals first intervention session but NOT as a step of the Midterm first interview?",
+    "o": [
+      "Initial case formulation",
+      "Building rapport and safety",
+      "Collaborative goal setting",
+      "Explaining confidentiality"
+    ],
+    "e": "The Finals sequence adds step 4, 'initial case formulation': understanding the main problems, what led to them, triggers, thoughts, feelings and behaviours, and how they connect. The Midterm interview gathers this information (Steps 2 and 3) but has no step that pulls it together into a formulation. Rapport, goal setting and confidentiality appear in both. The formulation is what turns information into a treatment rationale.",
+    "w": [
+      "Rapport and safety is Step 1 in both sequences.",
+      "Collaborative goal setting appears in both (Midterm Step 5, Finals step 5).",
+      "Confidentiality is explained in Step 1 of both, and reassured in the Midterm Step 7."
+    ],
+    "k": "Only the Finals session has case formulation as its own step (step 4).",
+    "h": "Finals = 'Formulation': both begin with F.",
+    "r": "IT Midterm vs Finals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 1,
+    "q": "How old is Lucas in the Finals case vignette?",
+    "o": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "e": "The vignette opens: 'At eight years old, Lucas moves through his days carrying a weight far heavier than his body alone.' Age shapes the whole plan. At 8, individual work must be CBT adapted for kids and play therapy, parents must be central (family therapy, psychoeducation), and the school is part of the child's world and of the intervention. An adult plan would rely far more on talk and independent homework.",
+    "w": [
+      "Six is too young for this vignette; Lucas is 8.",
+      "Ten is wrong; the vignette states eight years old.",
+      "Twelve is wrong; the vignette states eight years old."
+    ],
+    "k": "Lucas is 8, which is why the plan uses CBT for kids, play therapy and heavy parent and school involvement.",
+    "h": "A heavy weight for an EIGHT-year-old: 'weight' and 'eight' rhyme.",
+    "r": "IT Finals – Lucas vignette"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "In the vignette, how does Lucas's mother relate to his eating?",
+    "o": [
+      "She anxiously monitors what he eats, scolds him for snacks and pushes new diets",
+      "She gives him treats to calm him, even when she knows it breaks the rules",
+      "She ignores his eating entirely and leaves every meal decision to him",
+      "She praises his older brother's eating and compares them"
+    ],
+    "e": "The mother 'anxiously monitors everything he eats, scolding him for wanting snacks and insisting he \"try harder\" with every new diet she discovers.' Her control comes from anxiety, but it teaches Lucas that his body and appetite are shameful. It fits the case study's note that his insecure attachment is due to an emotionally unavailable and controlling mother. Treats come from the father, which sets up the contradictory messages.",
+    "w": [
+      "Giving treats to calm him is the father's behaviour, not the mother's.",
+      "She does the opposite of ignoring his eating; she monitors everything he eats.",
+      "No comparison with a brother is described for her; the father favours the older brother."
+    ],
+    "k": "Lucas's mother: anxious monitoring, scolding for snacks, pushing new diets.",
+    "h": "Mother = Monitors; Father = Food treats.",
+    "r": "IT Finals – Lucas vignette"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "How does Lucas's father respond to him, according to the vignette?",
+    "o": [
+      "Distant and overwhelmed, he favors the older brother and comforts Lucas only with treats",
+      "He enforces his mother's diets strictly and scolds Lucas for wanting snacks",
+      "He is warm and consistent, the one stable figure in Lucas's life at home",
+      "He is rarely at home, so Lucas almost never sees him at all"
+    ],
+    "e": "The father is 'distant and easily overwhelmed', favoured Lucas's older brother, and offers comfort only as treats ('Don't worry, it's just a treat'), even though this undermines the mother's rules. He means well, but he teaches Lucas to soothe emotions with food and leaves him without real emotional connection. Together with the mother's dieting, it creates the mixed messages at the heart of the case.",
+    "w": [
+      "Enforcing the diets and scolding for snacks describes the mother, not the father.",
+      "He is not warm and consistent; the vignette calls him distant and easily overwhelmed.",
+      "He is present enough to give treats; the problem is emotional distance, not physical absence."
+    ],
+    "k": "Lucas's father: distant, overwhelmed, favours the older brother, comforts only with treats.",
+    "h": "Dad's 'it's just a treat' = feelings fed with food.",
+    "r": "IT Finals – Lucas vignette"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "According to the vignette, what do the parents' mixed messages leave Lucas feeling?",
+    "o": [
+      "Confused, ashamed and unsure of what to believe about himself",
+      "Angry and openly defiant toward both of his parents at home",
+      "Proud of resisting his mother's diets and secure about himself",
+      "Relieved, because the two approaches balance each other out"
+    ],
+    "e": "'Neither parent sees how their mixed messages leave Lucas confused, ashamed, and unsure of what to believe about himself.' When one parent says his appetite is a problem and the other uses food as comfort, a child cannot form a stable view of his body or his worth. Confusion and shame then feed low self-esteem, poor body image and eating problems, which are exactly the unhelpful patterns the short-term CBT targets.",
+    "w": [
+      "Lucas is not described as openly defiant; he internalizes rather than acts out.",
+      "He is neither proud nor secure; the vignette describes shame and uncertainty.",
+      "The approaches do not balance out; their contradiction is what confuses him."
+    ],
+    "k": "Mixed parental messages leave Lucas confused, ashamed and unsure what to believe about himself.",
+    "h": "Two maps pointing opposite ways leave you lost: confused, ashamed, unsure.",
+    "r": "IT Finals – Lucas vignette"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which school experiences are described in Lucas's vignette?",
+    "o": [
+      "Classmates poke his belly, call him names and exclude him; he eats lunch alone",
+      "Teachers punish him publicly for eating during class and call his parents",
+      "He is a popular student, but his grades have been dropping all year",
+      "He refuses to go to school and stays home"
+    ],
+    "e": "At school, classmates poke his belly and call him names when teachers aren't looking, others ignore him and whisper about his size, and he often eats lunch alone. This is bullying in physical (poking), verbal (names) and relational (exclusion, whispering) forms. Eating alone matters clinically: it signals isolation and links the bullying to his eating. It explains the social anxiety diagnosis and why the plan works with the school.",
+    "w": [
+      "Teachers are not the ones mistreating him; the bullying happens when teachers aren't looking.",
+      "He is not popular; he is excluded and often eats alone.",
+      "School refusal is not described; he attends and endures the bullying."
+    ],
+    "k": "Lucas at school: poked, called names, ignored, whispered about, eats lunch alone (bullying and exclusion).",
+    "h": "Three kinds of bullying: hands (poking), words (names), walls (exclusion).",
+    "r": "IT Finals – Lucas vignette"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 3,
+    "q": "Lucas's father comforts him with treats 'to make him feel calm'. In CBT terms, which short-term target fits this pattern best?",
+    "o": [
+      "Identifying unhelpful patterns, teaching coping strategies, and parent psychoeducation",
+      "Flooding with forbidden foods to break the fear of eating in front of others",
+      "Relapse prevention through scouts and sports before any other intervention",
+      "Referral to a psychiatrist for appetite medication before any therapy begins"
+    ],
+    "e": "Soothing feelings with food is an unhelpful pattern: it teaches that distress is handled by eating, which maintains both the emotional problem and the eating problem. The short-term plan fits it well. Individual CBT identifies unhelpful patterns and teaches healthier coping strategies (relaxation, breathing, mindfulness, distraction, positive self-talk), and family therapy with psychoeducation helps the father find other ways to comfort his son.",
+    "w": [
+      "Flooding with forbidden foods is not in the plan and would be harmful for an 8-year-old.",
+      "Scouts and sports are long-term relapse prevention, not the first response to this pattern.",
+      "Appetite medication is not part of the plan and does not address emotional eating."
+    ],
+    "k": "Food-as-comfort is an unhelpful pattern: target it with coping skills for the child and psychoeducation for the parents.",
+    "h": "Swap the snack for a skill.",
+    "r": "IT Finals – Lucas vignette + Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which unhelpful patterns does the short-term plan explicitly target in the case example?",
+    "o": [
+      "Low self-esteem, automatic thoughts and body image",
+      "Defiance, lying, aggression and rule-breaking",
+      "Hallucinations and delusional beliefs about food",
+      "Attention problems and hyperactivity"
+    ],
+    "e": "The short-term individual CBT lists 'identifying unhelpful patterns: working on low self-esteem, automatic thoughts, body image…'. These follow from the vignette: shame about his body (body image), feeling unworthy compared with his brother and peers (self-esteem), and thoughts like 'I'm disgusting' or 'nobody likes me' (automatic thoughts). Automatic thoughts are the quick, unquestioned interpretations that CBT teaches the client to notice and test.",
+    "w": [
+      "Defiance, lying, aggression and rule-breaking are externalizing behaviours not described in Lucas.",
+      "Hallucinations and delusions are psychotic symptoms with no place in this case.",
+      "Attention problems and hyperactivity describe ADHD, which is not part of the case."
+    ],
+    "k": "Short-term CBT targets low self-esteem, automatic thoughts and body image.",
+    "h": "Self, thoughts, body: how he sees himself, what he tells himself, how he sees his body.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Besides awareness sessions on bullying, what else does the plan ask the psychologist to tell the school?",
+    "o": [
+      "That this child needs special attention",
+      "That the child should repeat the school year",
+      "That the child must be moved to a separate class",
+      "That the bullies' parents must be called in by the psychologist"
+    ],
+    "e": "The school actions are: talk to the school about awareness sessions on bullying, notify the school that this child needs special attention, and collaborate with the school's psychologist or counsellor to stay updated. 'Special attention' means staff watch over Lucas, intervene in bullying and support his inclusion, for example at lunch, where he often eats alone. It changes his daily environment without singling him out.",
+    "w": [
+      "Repeating the year is not suggested; the problem is bullying and wellbeing, not academic failure.",
+      "Moving him to a separate class would isolate him further; the plan asks for attention, not separation.",
+      "Calling in the bullies' parents is the school's business; the psychologist's role is awareness and coordination."
+    ],
+    "k": "Tell the school: run bullying awareness, give this child special attention, coordinate with the counsellor.",
+    "h": "Awareness, Attention, Alliance: three A's for the school.",
+    "r": "IT Finals – Short-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Which item is part of the LONG-term relapse-prevention plan?",
+    "o": [
+      "A crisis action plan: if symptoms reappear, seek help and consider returning",
+      "Teaching breathing, grounding and relaxation techniques in early sessions",
+      "Reducing immediate distress and gaining insight through psychoeducation",
+      "Identifying automatic thoughts about his body in individual CBT"
+    ],
+    "e": "Long-term psychoeducation includes an action plan for times of crisis: if symptoms reappear, seek help and consider returning to therapy. Relapse is common, and a plan prepared in calm times means the family recognizes warning signs early and acts instead of panicking or waiting. The other items are short-term CBT work done during therapy.",
+    "w": [
+      "Breathing, grounding and relaxation are coping skills taught in the short-term plan.",
+      "Reducing immediate distress and gaining insight through psychoeducation are short-term aims.",
+      "Identifying automatic thoughts is short-term individual CBT work on unhelpful patterns."
+    ],
+    "k": "Long-term plan includes a crisis action plan: if symptoms return, seek help and consider returning to therapy.",
+    "h": "A fire-escape plan is drawn before the fire.",
+    "r": "IT Finals – Long-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 1,
+    "q": "The long-term plan's 'support group' refers to:",
+    "o": [
+      "Friends and peer relationships built through common activities",
+      "A formal support group for parents of obese children",
+      "An inpatient eating-disorder group",
+      "The school's disciplinary committee"
+    ],
+    "e": "The summary defines it as 'friends, peer relationships (through common activities…)'. For a child excluded at school, real friendships are among the strongest protections against relapse: they counter loneliness and shame and build social confidence. This is why the support group is tied to hobbies such as scouts, sports and music, where shared activities create natural friendships.",
+    "w": [
+      "It is not a formal parents' group; it refers to the child's own friends and peers.",
+      "No inpatient group is mentioned; the plan is outpatient and community-based.",
+      "A disciplinary committee is not a support group and is not part of the plan."
+    ],
+    "k": "Long-term 'support group' = friends and peer relationships built through shared activities.",
+    "r": "IT Finals – Long-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "Why does the long-term plan encourage hobbies such as scouts, sports or music?",
+    "o": [
+      "To develop talents and build a sense of purpose",
+      "To keep the child busy so that he eats less",
+      "To reward good grades and good behavior at school",
+      "To replace follow-up therapy sessions"
+    ],
+    "e": "The summary says hobbies help 'develop talents and build a sense of purpose'. For a child whose identity has been shaped by criticism and bullying, being good at something and belonging somewhere rebuild self-esteem from the inside. Activities also create friendships (the support group) and healthy routines. They are a relapse-prevention tool, not a weight-loss tool.",
+    "w": [
+      "Using activities to make him eat less would repeat the harmful focus on his weight.",
+      "Hobbies are not rewards for grades; the plan prioritizes mental health over academic performance.",
+      "Hobbies do not replace follow-up sessions, which are listed separately in the long-term plan."
+    ],
+    "k": "Hobbies develop talents and a sense of purpose, and build friendships that protect against relapse.",
+    "r": "IT Finals – Long-term goals"
+  },
+  {
+    "t": "Case study (Lucas)",
+    "d": 2,
+    "q": "'Short-term = ?' and 'Long-term = ?' in the Finals case plan:",
+    "o": [
+      "Short-term = therapy, the CBT plan; long-term = planning for the patient, relapse prevention",
+      "Short-term = medication and diet; long-term = therapy and family sessions",
+      "Short-term = relapse prevention; long-term = psychoeducation and CBT for kids",
+      "Short-term = school collaboration only; long-term = family therapy only"
+    ],
+    "e": "The summary labels them directly: short-term = therapy, the CBT plan (individual CBT for kids, play therapy, family therapy, school and dietician collaboration); long-term = planning for the patient, relapse prevention (hobbies, peer support, follow-up, crisis plan). Short-term treats the current problem; long-term protects the gains after therapy ends.",
+    "w": [
+      "Medication and diet are not the short-term plan, and therapy is short-term, not long-term.",
+      "This reverses them: relapse prevention is long-term, and CBT for kids is short-term.",
+      "Both are too narrow: school and family work are both part of the short-term therapy plan."
+    ],
+    "k": "Short-term = the CBT therapy plan; long-term = relapse prevention.",
+    "h": "Short-term repairs the damage; long-term keeps the repair standing.",
+    "r": "IT Finals – Goals"
+  },
+  {
+    "t": "Working with parents",
+    "d": 2,
+    "q": "Psychoeducation for parents about their child's difficulties includes:",
+    "o": [
+      "How to prevent setbacks, manage critical situations and handle stress",
+      "How to diagnose the child themselves and choose the right treatment",
+      "How to choose and adjust medication doses when symptoms get worse",
+      "How to supervise the child's homework"
+    ],
+    "e": "Parent psychoeducation covers the child's difficulties, 'including how to prevent setbacks, manage critical situations, and handle stress effectively'. Parents learn what the condition is, what makes it worse, the early warning signs of setback, what to do in a crisis, and how to manage their own stress so they stay calm and consistent. It turns worried parents into informed allies.",
+    "w": [
+      "Parents are not taught to diagnose or choose treatment; that remains the clinician's role.",
+      "Medication doses are a medical responsibility, never part of parent psychoeducation.",
+      "Homework supervision is not what this item covers; it targets setbacks, crises and stress."
+    ],
+    "k": "Parent psychoeducation: understand the difficulties, prevent setbacks, manage crises, handle stress.",
+    "h": "Prevent, manage, cope: before, during and after a hard moment.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Working with parents",
+    "d": 3,
+    "q": "Lucas's mother feels guilty and angry that 'nothing works'. Which parent-support item fits best?",
+    "o": [
+      "Offer emotional support: reframe guilt and blame, and reassure her",
+      "Suggest she enforces a stricter diet and weighs the child every day",
+      "Advise her to step back from parenting and let the father take over",
+      "Provide a daily weighing chart and a food diary for her to fill in at home"
+    ],
+    "e": "Her guilt ('it's my fault') and anger ('nothing works') call for emotional support: help her reframe guilt and blame, manage anger and confusion, and provide reassurance. A parent who feels blamed becomes defensive or gives up. One who feels supported can hear psychoeducation and change her approach, for example moving from dieting and scolding toward unconditional acceptance. Support comes before skills when emotions run high.",
+    "w": [
+      "A stricter diet and daily weighing would intensify the harmful focus on his weight.",
+      "Telling her to step back alienates her and ignores her feelings; the plan supports both parents.",
+      "Weighing charts and food diaries keep the focus on weight and do not address her guilt and anger."
+    ],
+    "k": "Guilty, angry, confused parent → emotional support: reframe guilt and blame, reassure.",
+    "h": "Feelings first, tools second.",
+    "r": "IT Finals – Working with parents"
+  },
+  {
+    "t": "Working with parents",
+    "d": 1,
+    "q": "How many support strategies for parents are listed in the Finals summary?",
+    "o": [
+      "5",
+      "3",
+      "4",
+      "8"
+    ],
+    "e": "The Finals summary lists five ways to work with and support parents: (1) suggest couple therapy if needed, (2) psychoeducation about the child's difficulties, (3) provide tools and strategies (communication and parenting skills, unconditional love), (4) encourage self-care, and (5) offer emotional support. Together they address the parents as a couple, as learners, as practitioners at home, as people who need rest, and as people who feel.",
+    "w": [
+      "Three leaves out two of the five listed strategies.",
+      "Four leaves out one of the five listed strategies.",
+      "Eight is the number of steps in the Finals first intervention session."
+    ],
+    "k": "Five parent strategies: couple therapy if needed, psychoeducation, tools and strategies, self-care, emotional support.",
+    "h": "'Couples Prefer Tea, Sugar, Empathy': Couple therapy, Psychoeducation, Tools, Self-care, Emotional support.",
+    "r": "IT Finals – Working with parents"
+  }
+]

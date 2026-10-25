@@ -1,0 +1,742 @@
+[
+  {
+    "t": "Techniques: foundations",
+    "d": 1,
+    "q": "How do the course notes distinguish a 'technique' from a 'method' in psychology?",
+    "o": [
+      "A technique is a set of methodical procedures to obtain a result; a method organizes techniques toward an objective",
+      "A technique is always statistical, whereas a method is always clinical and qualitative",
+      "A method is a single procedure, whereas a technique is a whole research design with hypotheses",
+      "They are opposite approaches, one experimental and the other purely introspective"
+    ],
+    "e": "A technique is a set of methodical procedures, grounded in scientific knowledge, used to obtain a determined result: 'the way of acting.' A method is the codified organization of techniques and means implemented to reach an objective. The notes add that the boundary is not sharp. Psychology uses observational, experimental, clinical (in-depth individual case study), statistical and comparative methods, for example comparing children of different ages.",
+    "w": [
+      "Techniques are not defined as statistical, nor methods as clinical.",
+      "The notes reverse this: the method is the broader organization.",
+      "They are complementary levels, not opposed approaches."
+    ],
+    "k": "Technique = methodical procedures for a result ('way of acting'); method = codified organization of techniques toward an objective.",
+    "h": "Technique is the tool, method the toolbox plan (Greek methodos, 'the road after').",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Introduction: technique, method, methodology"
+  },
+  {
+    "t": "Techniques: foundations",
+    "d": 2,
+    "q": "In the five steps of research methodology in the notes, what does the second step consist of?",
+    "o": [
+      "Formulating hypotheses linking an independent variable (cause) to a dependent variable (effect)",
+      "Collecting data from the chosen sample in the field with observation, surveys and tests",
+      "Reviewing prior research to build the theoretical approach to the problem",
+      "Interpreting whether a constant general relation exists and how far hypotheses hold"
+    ],
+    "e": "The notes list five steps: (1) formulate the problem and determine the variables, defined operationally as observable and measurable behaviors; (2) formulate hypotheses, a relation between an independent variable (cause) and a dependent variable (effect), for example the influence of socioeconomic status on intelligence; (3) the theoretical approach, reviewing prior research; (4) the practical approach, collecting data in the field; (5) interpretation and analysis of results.",
+    "w": [
+      "Field data collection is the fourth step, the practical approach.",
+      "Reviewing prior research is the third step, the theoretical approach.",
+      "Interpretation and analysis is the fifth and final step."
+    ],
+    "k": "Methodology: problem + variables → hypotheses (IV→DV) → theoretical review → field data → interpretation.",
+    "h": "Problem, Prediction, Papers, Practice, Proof.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Introduction: methodology"
+  },
+  {
+    "t": "Techniques: foundations",
+    "d": 2,
+    "q": "According to the historical outline in the notes, what replaced introspection as psychology's basic method in the early 20th century?",
+    "o": [
+      "Observation of behavior, after Watson's behaviorist revolution",
+      "Psychometric testing, after the arrival of computing",
+      "Free association, after the rise of psychoanalysis",
+      "Opinion polling, after large social surveys"
+    ],
+    "e": "In the second half of the 19th century, introspection was the basic method, psychology being defined as the science of inner life. The early 20th century brought the behaviorist revolution (Watson), which redirected psychology toward the study of behavior through observation. From the mid-20th century, new techniques borrowed from other sciences, notably computing, spread: psychometrics, surveys, questionnaires, tests and interviews.",
+    "w": [
+      "Psychometrics and computing belong to the mid-20th-century wave.",
+      "Psychoanalysis is not the turning point named in the notes.",
+      "Surveys arrived later with the mid-century techniques."
+    ],
+    "k": "19th c.: introspection; early 20th c.: Watson's behaviorism → observation; mid-20th c.: psychometrics, surveys, questionnaires, tests, interviews.",
+    "h": "Watson watches: behavior you can see replaced the look inward.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Introduction: history of techniques"
+  },
+  {
+    "t": "Techniques: foundations",
+    "d": 2,
+    "q": "The notes describe three kinds of silence in an interview. Which is the 'empty' silence?",
+    "o": [
+      "Silence reflecting inhibition or a mental block",
+      "Silence in which the client is thinking productively",
+      "Silence in which anger is ruminated before acting",
+      "Silence chosen by the clinician to show empathy"
+    ],
+    "e": "Under body language, the notes distinguish three silences. Destructive silence is the one in which the person ruminates anger before acting out. Constructive silence means the person is thinking. Empty silence reflects inhibition or blockage. Recognizing which one is present tells the clinician whether the person is reflecting, brewing anger or blocked.",
+    "w": [
+      "Productive thinking defines the constructive silence.",
+      "Ruminating anger defines the destructive silence.",
+      "The three types describe the client's silences, not the clinician's technique."
+    ],
+    "k": "Silences: destructive (brewing anger), constructive (thinking), empty (inhibition/blockage).",
+    "h": "Destroy, Construct, Empty: a bomb, a building site, a vacant lot.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Introduction: body language"
+  },
+  {
+    "t": "Observation: definition",
+    "d": 1,
+    "q": "According to the notes, what is the primary function of scientific observation?",
+    "o": [
+      "To collect information on a phenomenon so as to quantify behaviors and test a hypothesis",
+      "To understand the unconscious meaning hidden behind each gesture of the subject",
+      "To replace every other technique, since observation needs no instruments or plan",
+      "To describe a person's personality from a single, chance encounter"
+    ],
+    "e": "Scientific observation is a process involving an observation plan, a category grid, a type of recording, a coding grid, interpretation of results, scientific knowledge and trained observer know-how. Its primary function is to collect information on a psychological phenomenon or situation in order to quantify behaviors, turning them into numbers, to answer a research question or confirm a hypothesis. Secondary functions are descriptive, evaluative, heuristic and verification.",
+    "w": [
+      "The notes stress quantification, not unconscious interpretation.",
+      "Scientific observation requires a plan, grids and trained observers.",
+      "Chance (fortuitous) observation is explicitly not scientific."
+    ],
+    "k": "Observation's primary function: quantify behaviors (turn them into numbers) to answer the research question or confirm a hypothesis.",
+    "h": "Count it to prove it.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: definition and functions"
+  },
+  {
+    "t": "Observation: definition",
+    "d": 2,
+    "q": "A researcher spends time in a schoolyard with no prior hypothesis, noting behaviors in order to build one for later testing. Which function of observation is this?",
+    "o": [
+      "Heuristic",
+      "Verification",
+      "Evaluative",
+      "Descriptive"
+    ],
+    "e": "The notes list four functions besides quantification. Descriptive observation gives a precise picture, for example of teacher–pupil interactions. Evaluative observation judges something, such as a teacher's method. Heuristic observation is carried out in the field to discover behaviors and build a hypothesis to test later. Verification observation provokes a situation to check an existing hypothesis. Generating a hypothesis from open field observation is therefore heuristic.",
+    "w": [
+      "Verification provokes a situation to check a hypothesis already held.",
+      "Evaluative observation judges something such as a teaching method.",
+      "Descriptive observation paints a precise picture without building hypotheses."
+    ],
+    "k": "Heuristic = discover to hypothesize; verification = provoke to test; descriptive = depict; evaluative = judge.",
+    "h": "Heuristic comes from Greek heuriskein, 'to find', as in Eureka!",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: functions"
+  },
+  {
+    "t": "Observation: definition",
+    "d": 1,
+    "q": "How do the notes classify fortuitous (chance) observation?",
+    "o": [
+      "As not scientific, unlike systematic observation",
+      "As the most rigorous form of observation",
+      "As identical to laboratory observation",
+      "As a form of indirect observation by tests"
+    ],
+    "e": "Observation can bear on facts (behaviors, conduct, characteristics of a situation, interactions) and on representations (opinions). The notes contrast fortuitous or occasional observation, which is not scientific, with systematic observation, which has all the qualities of scientific observation: it is intentional, organized, centered on a determined phenomenon and recorded according to precise rules.",
+    "w": [
+      "Chance observation lacks the plan and rules that rigor requires.",
+      "Laboratory observation is planned and controlled, not fortuitous.",
+      "Indirect observation uses instruments such as intelligence tests."
+    ],
+    "k": "Fortuitous observation is not scientific; systematic observation (intentional, organized, rule-bound) is.",
+    "h": "Fortune is luck, and luck is not science.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: ways of talking about observation"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "A researcher provokes a behavior in a controlled situation to make significant behaviors appear and test a prior hypothesis. How is this observation classified by place?",
+    "o": [
+      "Laboratory observation",
+      "Field observation",
+      "Participant observation",
+      "Longitudinal observation"
+    ],
+    "e": "Classified by place, field observation takes place in the natural milieu (social, school or professional); it records the nature and frequency of behaviors and helps discover the main variables to prepare or verify hypotheses. Laboratory observation provokes behavior in a controlled situation in order to make significant behaviors appear and to test a prior hypothesis. Participant and longitudinal belong to other classification criteria (mode and time).",
+    "w": [
+      "Field observation takes place in the natural milieu without provocation.",
+      "Participant describes the observer's mode of involvement, not the place.",
+      "Longitudinal is a classification by time, not by place."
+    ],
+    "k": "By place: field (natural milieu, discover variables) vs laboratory (provoked behavior, controlled, test hypothesis).",
+    "h": "Lab = Lever pulled on purpose; field = free life.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by place"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "How do the notes define clinical observation?",
+    "o": [
+      "Systematic observation in an artificial situation, such as an interview or test, aimed at a diagnosis",
+      "Casual observation of patients in a hospital corridor without any specific aim",
+      "Observation that records only the verbal content of a patient's answers",
+      "Observation conducted exclusively through one-way mirrors in a laboratory"
+    ],
+    "e": "Classified by nature, observation is systematic or clinical. Clinical observation is systematic observation in an artificial situation, during an interview, test administration or role play, observing verbal and nonverbal (motor) behaviors and interactions in order to make a diagnosis. The clinician attends to tone, facial expression, gaze, posture, physical and clothing appearance, voice pitch and neurovegetative manifestations such as crying, tears, laughter, blushing and scratching.",
+    "w": [
+      "Clinical observation is systematic and diagnostic, not casual.",
+      "Nonverbal and neurovegetative signs are central to it.",
+      "One-way mirrors are optional devices, not its definition."
+    ],
+    "k": "Clinical observation: systematic, in interview/test/role play, verbal + nonverbal + neurovegetative signs, for diagnosis.",
+    "h": "Clinic comes from Greek klinē, 'bed': observing at the bedside to diagnose.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by nature"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "Blushing, tears and scratching noted during an interview belong to which category of signs in clinical observation?",
+    "o": [
+      "Neurovegetative manifestations",
+      "Verbal content of the discourse",
+      "Physical and clothing appearance",
+      "Responses to test instructions"
+    ],
+    "e": "In clinical observation the notes ask the clinician to attend to tone, facial expression, gaze, posture, physical and clothing appearance and voice pitch, and to neurovegetative manifestations: crying, tears, laughter, blushing and scratching. These are bodily, largely autonomic signs, distinct from what the person says, from how the person looks or dresses, and from the person's reactions to test instructions.",
+    "w": [
+      "These signs are bodily, not part of what the person says.",
+      "Appearance concerns body build and clothing, not autonomic signs.",
+      "Responses to instructions are one of Binet's test-observation directions."
+    ],
+    "k": "Neurovegetative signs: crying, tears, laughter, blushing, scratching; observed alongside tone, gaze, posture, appearance, voice.",
+    "h": "Neuro-vegetative: the 'vegetable' (automatic) nervous system blushes for you.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: clinical observation"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "An observer joins a group of homeless people, follows its rules and talks with members while taking notes. Which mode of observation is this?",
+    "o": [
+      "Participant observation",
+      "Non-participant observation",
+      "Indirect observation",
+      "Laboratory observation"
+    ],
+    "e": "In participant observation the observer integrates into the group in the field, conforms to its rules, discusses with subjects and observes directly or by camera, noting in a notebook. It is used in ethnographic studies of another culture, of marginal groups (homeless people, drug users, delinquents) and of closed milieus (family, hospital, factory). Non-participant observation watches naturally occurring behavior neutrally without joining the group.",
+    "w": [
+      "Non-participant observers do not integrate into the group.",
+      "Indirect observation uses instruments such as tests.",
+      "This takes place in the field, not in a controlled setting."
+    ],
+    "k": "Participant observation: join the group, follow its rules; used for other cultures, marginal groups and closed milieus.",
+    "h": "Participate = take part, become part of the group.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by mode"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 3,
+    "q": "In which two cases do the notes say non-participant observation is used?",
+    "o": [
+      "Naturalistic observation and content analysis of written materials",
+      "Ethnographic studies and studies of closed milieus",
+      "Intelligence testing and projective testing",
+      "Longitudinal and cross-sectional studies"
+    ],
+    "e": "Non-participant observation watches naturally occurring behaviors in complete neutrality, possibly with instruments; the observer listens and observes without integrating into the group. The notes say it is used in two cases: naturalistic observation, and content analysis of written materials. Ethnographic studies and closed milieus such as families, hospitals and factories are, by contrast, the classic uses of participant observation.",
+    "w": [
+      "Ethnography and closed milieus are uses of participant observation.",
+      "Tests are instruments of indirect observation, not this category.",
+      "These are classifications by time, not by mode."
+    ],
+    "k": "Non-participant observation: neutral, not integrated; used for naturalistic observation and content analysis of written materials.",
+    "h": "Not a part of it: watch nature, read the text.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by mode"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "Why is assessing intelligence with an intelligence test an example of indirect observation?",
+    "o": [
+      "It infers a hypothetical entity from its manifestations via an instrument",
+      "The observer watches the child with the senses and no instrument",
+      "The subject observes and records his or her own behavior",
+      "The observer joins the child's class and follows its rules"
+    ],
+    "e": "Classified by object, direct observation is done by the researcher with the sense organs, without instruments and without addressing the subject, for example noting step by step how a child solves a calculation aloud. Indirect observation captures the manifestations of a hypothetical entity, such as intelligence, through instruments such as intelligence tests; such observation never bears directly on intelligence itself.",
+    "w": [
+      "Using only the senses without instruments defines direct observation.",
+      "Recording one's own behavior defines self-observation.",
+      "Joining the group defines participant observation."
+    ],
+    "k": "Direct = senses, no instrument; indirect = instrument captures manifestations of a hypothetical entity (e.g. intelligence).",
+    "h": "Nobody has ever seen 'intelligence'; we only see its footprints.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by object"
+  },
+  {
+    "t": "Observation: classification",
+    "d": 2,
+    "q": "A study compares the effect of reinforcement on separate groups of children aged 5, 8 and 12. How is it classified by time?",
+    "o": [
+      "Cross-sectional",
+      "Longitudinal",
+      "Developmental follow-up",
+      "Continuous"
+    ],
+    "e": "Classified by time, longitudinal (developmental) observation follows the same subjects over time, as in the work of Piaget and Gesell. Cross-sectional observation compares groups of different ages at one time, for example the effect of reinforcement on children aged 5, 8 and 12. Continuous observation is an observation method (recording without stopping during a period), not a time-based classification of designs.",
+    "w": [
+      "Longitudinal designs follow the same children over years.",
+      "Developmental follow-up is another name for longitudinal observation.",
+      "Continuous is an observation method, not a time classification."
+    ],
+    "k": "Longitudinal = same subjects over time (Piaget, Gesell); cross-sectional = different-age groups at once.",
+    "h": "Cross-section: one slice across the ages; longitude: one long line through time.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: classification by time"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "Defining 'aggressiveness' as 'hitting, breaking, tearing' satisfies which required property of grid categories?",
+    "o": [
+      "Objective",
+      "Exhaustive",
+      "Homogeneous",
+      "Exclusive"
+    ],
+    "e": "Following De Ketele (1987), a category grid is a systematic system of observing others, run by one or more independent observers, with rigorously set procedures for selecting, provoking, recording and coding facts. Categories must be homogeneous (same criterion), exhaustive (every observed behavior can be classified), exclusive (each behavior fits a single category) and objective: precisely and operationally defined in observable, measurable terms, as in 'aggressiveness = hitting, breaking, tearing.'",
+    "w": [
+      "Exhaustive means every observed behavior can be classified.",
+      "Homogeneous means all categories follow the same criterion.",
+      "Exclusive means each behavior fits only one category."
+    ],
+    "k": "Grid categories: homogeneous, exhaustive, exclusive, objective (operational, observable, measurable).",
+    "h": "HEEO: Hold Every Entry Once, Objectively.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: category grids (De Ketele, 1987)"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "What does a checklist record, and how many observers do the notes require when observers fill it?",
+    "o": [
+      "Presence or absence of a behavior without judgment; at least three independent observers",
+      "Intensity of a behavior on a 7-point scale; a single trained observer is enough",
+      "Duration of one behavior with a stopwatch; two observers taking turns",
+      "Antecedents and consequences of one behavior; the parents only"
+    ],
+    "e": "The checklist is the most elementary form of questionnaire: an inventory sheet guiding observation and noting the presence or absence of a phenomenon per unit of time (yes/no, agree/disagree, true/false) without appreciation or judgment, convenient for frequencies. When observers fill it, at least three observe the same subject simultaneously but independently. When the subject fills it (self-observation), it is repeated a few days apart.",
+    "w": [
+      "Intensity ratings define rating scales, not checklists.",
+      "Duration recording defines the duration grid.",
+      "Antecedents and consequences belong to the frequency-and-duration grid."
+    ],
+    "k": "Checklist: presence/absence, no judgment; ≥3 simultaneous independent observers, or self-observation repeated days apart.",
+    "h": "Check = tick or no tick; three judges, no opinions.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: checklist"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "What does a rating scale add to a checklist, according to the notes?",
+    "o": [
+      "A quantitative estimate of degree, usually on 5 or 7 steps",
+      "A record of antecedents and consequences of behavior",
+      "An exact duration for each behavior measured by stopwatch",
+      "A sketch of the subject's movements in the playground"
+    ],
+    "e": "Rating scales add a quantitative estimate to the mere presence or absence of a behavior, usually with 5 or 7 steps. Forms include the graphic scale (a line marked from 'extremely attentive' to 'very little'), the numerical or Likert scale (numbers always explained, e.g. 0 not at all to 4 extremely), the combined graphic-numerical scale and the descriptive scale. Steps always run in increasing or decreasing order.",
+    "w": [
+      "Antecedents and consequences belong to the frequency-and-duration grid.",
+      "Exact durations are recorded with a duration grid.",
+      "Sketches are used to record movements, not degrees."
+    ],
+    "k": "Rating scale = checklist + degree (5 or 7 steps): graphic, numerical (Likert), combined, descriptive; ordered steps.",
+    "h": "Rate = how much, not just whether.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: rating scales"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "What do the notes require when using a numerical (Likert) rating scale?",
+    "o": [
+      "Always explain what each number means, with steps in a consistent order",
+      "Never label the numbers so as to avoid influencing the respondent",
+      "Mix increasing and decreasing steps to prevent automatic answering",
+      "Use only two steps so that scoring is as quick as possible"
+    ],
+    "e": "On a numerical (Likert) scale the respondent circles or underlines a number, and the meaning of each number must always be explained: 'Do you like reading? 0 not at all, 1 a little, 2 moderately, 3 a lot, 4 extremely', where 2 is the middle. The notes add that steps are always in increasing or decreasing order. Rating scales usually have 5 or 7 steps and serve objective observation, revealing personality traits and self-observation.",
+    "w": [
+      "Unlabeled numbers are ambiguous; the notes require explaining them.",
+      "Steps must always run in one increasing or decreasing order.",
+      "Rating scales usually use 5 or 7 steps, not two."
+    ],
+    "k": "Likert: explain every number (e.g. 0 not at all … 4 extremely); steps always in increasing or decreasing order.",
+    "h": "Label the ladder, and keep it pointing one way.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: rating scales"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "An agitated child is observed for one class hour; aggression, chatting, vocal noises and moving about are listed vertically, 10-minute periods horizontally, with an X for each occurrence. Which instrument is this?",
+    "o": [
+      "Frequency grid",
+      "Duration grid",
+      "Checklist",
+      "Descriptive rating scale"
+    ],
+    "e": "A frequency grid records the frequency of given behaviors continuously using a category grid of different behaviors, ignoring behaviors outside the chosen categories. In the notes' example, an agitated child is observed for one hour of class: behaviors (aggression, disturbing classmates, chatting, vocal noises, motor activity, moving about) on the vertical axis, 10-minute periods on the horizontal axis, an X for each occurrence and a total at the end. It is demanding but helps select working hypotheses early.",
+    "w": [
+      "A duration grid times a single behavior rather than counting several.",
+      "A checklist notes only presence or absence, not counts per period.",
+      "A rating scale estimates degree, not number of occurrences."
+    ],
+    "k": "Frequency grid: several behaviors × time periods, tally each occurrence, total at the end.",
+    "h": "Frequency = how often: tally marks in a table.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: frequency grid"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "A child's attention during 20-minute math exercises totals 46 minutes out of 100 over a week. What is the main limit of the instrument used?",
+    "o": [
+      "It cannot observe several behaviors at once and demands sustained attention",
+      "It records only presence or absence, so duration is lost",
+      "It cannot be used outside the laboratory",
+      "It requires at least five observers for every session"
+    ],
+    "e": "In a duration grid, duration is the variable: one behavior is observed continuously and its duration noted. In the notes' example, a child's attention during individual 20-minute math exercises is timed with a stopwatch: Monday 12, Tuesday 8, Wednesday 9, Thursday 6, Friday 11, giving 46 of 100 minutes. It is simple and needs little material, but it cannot observe several behaviors simultaneously and demands sustained attention.",
+    "w": [
+      "Recording presence or absence is the checklist's limit.",
+      "The example itself takes place in a classroom.",
+      "The notes set no five-observer requirement."
+    ],
+    "k": "Duration grid: one behavior, timed continuously (e.g. 46'/100'); simple, but one behavior only and attention-demanding.",
+    "h": "Duration = one stopwatch, one behavior.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: duration grid"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "Which grid records where, when and how long one behavior occurs, together with its antecedents and consequences?",
+    "o": [
+      "Frequency-and-duration grid",
+      "Simple frequency grid",
+      "Checklist",
+      "Graphic rating scale"
+    ],
+    "e": "The frequency-and-duration grid follows one behavior, describing it and recording its frequency, where, when and how long it occurs, the antecedents that provoked it and its consequences. Example: at home at 9 a.m., a 5-minute episode after a brother took a toy, followed by the mother punishing; remark: a new birth in the family. It is used for child behavior disorders such as hyperactivity, aggressiveness and attention disorders, mostly in child psychotherapy.",
+    "w": [
+      "A frequency grid counts several behaviors without antecedents.",
+      "A checklist only notes presence or absence.",
+      "A graphic scale marks degree on a line."
+    ],
+    "k": "Frequency-and-duration grid: one behavior + where/when/how long + antecedents + consequences; child behavior disorders.",
+    "h": "ABC on a timetable: Antecedent, Behavior (with clock), Consequence.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: frequency-and-duration grid"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 3,
+    "q": "A student observed an 8-year-old's crying fits with a frequency-and-duration grid. Why did the notes then recommend a frequency grid?",
+    "o": [
+      "The first grid suits one behavior; several behaviors are needed for a full diagnosis",
+      "Frequency-and-duration grids are not allowed in schools",
+      "Crying cannot be timed, so its duration is meaningless",
+      "A frequency grid needs no observer at all"
+    ],
+    "e": "In the student project, an 8-year-old boy cried at school after a new birth and his grandmother's death; the frequency-and-duration grid captured where (school), when (7:30–8:20), duration (10 minutes), antecedent (mother not giving enough attention in the morning) and consequence (sent to the prefect). The conclusion: this grid suits one behavior but is insufficient for several behaviors needed for a complete diagnosis, so a frequency grid followed, suggesting depression to confirm with other tools.",
+    "w": [
+      "Nothing in the notes forbids this grid in schools.",
+      "The crying episodes were in fact timed (10 minutes).",
+      "Every grid requires an observer to record it."
+    ],
+    "k": "Frequency-and-duration grid = one behavior in depth; frequency grid = several behaviors for a fuller diagnostic picture.",
+    "h": "One behavior, deep; many behaviors, wide.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Student observation project"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "Which recording aid do the notes recommend for studying who talks to whom in a group discussion?",
+    "o": [
+      "Graphs",
+      "Sketches",
+      "Signs such as '?' and '??'",
+      "A duration grid"
+    ],
+    "e": "For behaviors that unfold quickly, observers use a system of symbols or codes and record only the behaviors in the grid. Signs mark events: '?' when someone asks for an example, '??' when someone does not understand, '↔' for a conflict. Sketches record movements, such as a child's moves in the playground. Graphs represent discussion in a group and interpersonal relations, showing who talks to whom.",
+    "w": [
+      "Sketches record movements such as a child's path in the playground.",
+      "These signs mark single events like questions or misunderstanding.",
+      "A duration grid times one behavior, not interactions."
+    ],
+    "k": "Codes/signs for fast behaviors; sketches for movements; graphs for group interactions (who talks to whom).",
+    "h": "Graph the gab, sketch the steps.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: codes, signs, sketches, graphs"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "Why do the notes say an observation grid is often preferable to video recording?",
+    "o": [
+      "Cameras raise legal and ethical problems, and transcription is very difficult",
+      "Video is never accepted as scientific evidence in psychology",
+      "Video records only verbal behavior and loses gestures",
+      "Grids allow observation without any training"
+    ],
+    "e": "Observation devices include television, video, cameras, recorders, one-way mirrors, tape recorders and ultrasound, the latter especially to observe fetal behavior; they serve to study child development and record interviews. However, cameras and videos raise legal and deontological (ethical) problems, and transcription is very difficult, so the notes conclude that an observation grid is better.",
+    "w": [
+      "Devices are listed as legitimate observation aids.",
+      "Video in fact captures gestures as well as speech.",
+      "Every observation method requires trained observers."
+    ],
+    "k": "Devices (video, one-way mirror, ultrasound…) help, but legal/ethical issues and hard transcription favor a grid.",
+    "h": "A camera sees all and transcribes nothing.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: observation devices"
+  },
+  {
+    "t": "Observation: instruments",
+    "d": 2,
+    "q": "Which of the following is one of Binet's seven directions for observing a subject during test administration?",
+    "o": [
+      "Reaction to material incidents and to failures: stopping or insisting",
+      "The subject's dream content reported after the test",
+      "The examiner's own feelings toward the subject",
+      "The subject's family income and housing"
+    ],
+    "e": "Binet advised observing the subject during test administration along seven directions: attitudes at the start (opposition or passivity versus cooperation or enthusiasm); attitudes during the exam (way of responding, irritability, spontaneity); responses to instructions; uncontrolled activity and movement (agitation); speech, pronunciation, articulation and verbal and nonverbal expression; the spontaneous work method used to solve a problem; and reaction to material incidents (blocks falling), failures and difficulties.",
+    "w": [
+      "Dream content is not among Binet's directions.",
+      "The examiner's feelings are a bias, not an observation direction.",
+      "Income and housing belong to identity questions in surveys."
+    ],
+    "k": "Binet's 7: start attitude, attitude during exam, instructions, agitation, speech/expression, work method, reaction to incidents/failure.",
+    "h": "Start, Stay, Steer, Stir, Speak, Strategy, Stumble.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: tests (Binet)"
+  },
+  {
+    "t": "Observation: methods",
+    "d": 2,
+    "q": "Pupils' attention in a 35-minute English class is checked at the end of each of 7 five-minute periods (Marc: 6/7). Which method is this?",
+    "o": [
+      "Time sampling",
+      "Continuous observation",
+      "Interval observation",
+      "Self-observation"
+    ],
+    "e": "In time sampling, a behavior is observed briefly at precise successive moments: the number and length of equal units are fixed and, at the end of each, the observer notes whether the target behavior is present. The collective example divides a 35-minute English class into 7 periods of 5 minutes; an individual example checks a child's tic 7 times a day between 8:00 and 20:00, 20 seconds each. It requires trained observers, gives only frequency and suits very frequent behaviors.",
+    "w": [
+      "Continuous observation records every occurrence without stopping.",
+      "Interval observation alternates short observe and score periods.",
+      "Self-observation is done by the subject, not by the observer."
+    ],
+    "k": "Time sampling: equal units, note presence at set moments; frequency only; for very frequent behaviors.",
+    "h": "Sample the clock: snapshots, not a film.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation methods: time sampling"
+  },
+  {
+    "t": "Observation: methods",
+    "d": 3,
+    "q": "What are the advantage and the main limit of interval observation (e.g. 10 s observing, 10 s scoring)?",
+    "o": [
+      "Several behaviors at once, but only frequency and behaviors in unobserved time are missed",
+      "Exact durations of one behavior, but it cannot be used with children",
+      "Rich antecedent data, but it needs no stopwatch or grid",
+      "No training needed, but it records only verbal behavior"
+    ],
+    "e": "In interval observation, time is split into equal intervals of 5 seconds to 2 minutes, alternating an observation period and a scoring period, recording occurrence or absence during each interval. Example: a child in class, 10 seconds observing and 10 seconds scoring, with a prepared grid and stopwatch, using codes such as D moving, M motor activity, X chatting, A aggression. Its advantage is observing several behaviors at once; but it gives only frequency and misses unobserved time, so continuous observation is sometimes preferred.",
+    "w": [
+      "It records occurrence, not exact duration, and suits children well.",
+      "It relies on a prepared grid and a stopwatch.",
+      "It demands great availability; adding an observer is useful."
+    ],
+    "k": "Interval observation (5 s–2 min, observe/score alternating): many behaviors, but frequency only and gaps missed.",
+    "h": "Blink and score: what happens during the blink is lost.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation methods: interval observation"
+  },
+  {
+    "t": "Observation: methods",
+    "d": 2,
+    "q": "Which conditions do the notes require for a subject to use self-observation?",
+    "o": [
+      "Sufficient intellectual development, capacity for critical reflection and a non-dissociated self",
+      "A university degree, a stopwatch and at least three observers present",
+      "Severe symptoms, hospitalization and a family member's supervision",
+      "No awareness of the target behavior, to avoid reactivity"
+    ],
+    "e": "Self-observation is an effective way to motivate the subject by making the person aware of his or her own behavior: the subject records the frequency and/or duration of a target behavior on a grid (a tic, or hand-washing: Monday 12, Tuesday 7, Wednesday 4). It is applied at work, for emotions and in psychotherapy (anorexia, smoking, alcoholism, neurotic or psychiatric disorders). It requires some intellectual development, capacity for critical reflection and a non-dissociated self.",
+    "w": [
+      "No degree or extra observers are required.",
+      "Hospitalization and supervision are not among the conditions.",
+      "Awareness of the behavior is the very point of self-observation."
+    ],
+    "k": "Self-observation motivates by awareness; needs intellectual development, critical reflection, non-dissociated self.",
+    "h": "To watch yourself, you need a whole self to watch with.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation methods: self-observation"
+  },
+  {
+    "t": "Observation: process",
+    "d": 2,
+    "q": "What is the correct order of the five phases of systematic observation?",
+    "o": [
+      "Preliminary stage → pre-observation → observation plan → data collection → quantitative formulation and interpretation",
+      "Observation plan → preliminary stage → data collection → pre-observation → interpretation",
+      "Data collection → pre-observation → preliminary stage → interpretation → observation plan",
+      "Pre-observation → data collection → preliminary stage → observation plan → interpretation"
+    ],
+    "e": "Phase I, the preliminary stage, gives the first theoretical formulation: what and who (phenomenon, sample, variables). Phase II, pre-observation in the field, defines categories operationally, the method, instrument, number and timing of sessions. Phase III, the observation plan, fixes place, sample, instruments, method, coding system, durations, observers and their position. Phase IV is data collection proper. Phase V formulates observations in quantitative language and interprets them.",
+    "w": [
+      "The plan is drawn up only after the preliminary stage and pre-observation.",
+      "Data collection cannot precede the plan that organizes it.",
+      "Pre-observation follows the preliminary theoretical formulation."
+    ],
+    "k": "Systematic observation: preliminary → pre-observation → plan → field data collection → quantify and interpret.",
+    "h": "Think, Try, Tabulate the plan, Take data, Tally and Tell.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation process: five phases"
+  },
+  {
+    "t": "Observation: process",
+    "d": 3,
+    "q": "During field data collection, which rule do the notes give for recording behavior?",
+    "o": [
+      "Note words in direct style and do not assign meaning to gestures or mimicry",
+      "Summarize what the subject meant rather than what was said",
+      "Interpret each gesture immediately to save time later",
+      "Make sure subjects know exactly when they are watched"
+    ],
+    "e": "During data collection the instrument is used precisely, noting as many behaviors as possible per period; a recording is transcribed fully, coded (abbreviated) and only then interpreted. Words are noted in direct style, without giving meaning to gestures, mimicry or behavior. Subjects should be observed without noticing, because they modify their behavior. Two or three observers trained in coding compare notes immediately after each session; points of disagreement are not counted in the analysis.",
+    "w": [
+      "Paraphrasing meaning introduces the observer's interpretation.",
+      "Interpretation comes only after transcription and coding.",
+      "Subjects who know they are watched modify their behavior."
+    ],
+    "k": "Field recording: direct style, no interpretation of gestures, unnoticed observation, 2–3 trained observers, discard disagreements.",
+    "h": "Write it like a court reporter, not a novelist.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: data collection"
+  },
+  {
+    "t": "Observation: process",
+    "d": 2,
+    "q": "Why do the notes advise observing subjects without their noticing?",
+    "o": [
+      "Subjects who know they are observed modify their behavior",
+      "Observation of unaware subjects needs no ethical reflection",
+      "Hidden observation removes the need for a grid",
+      "It allows the observer to interpret gestures freely"
+    ],
+    "e": "The notes instruct observers to watch subjects without their noticing because subjects modify their behavior when they know they are observed. Among the difficulties of observation the notes list the same problem: the observed subject shows artificial behavior when aware of being watched. Unnoticed observation does not replace method: a grid and trained observers are still needed to record what happens.",
+    "w": [
+      "The notes raise legal and ethical issues with recording devices.",
+      "A grid is still needed to record behaviors systematically.",
+      "Observers must not assign meaning to gestures."
+    ],
+    "k": "Observe unnoticed: awareness of being watched produces artificial, modified behavior.",
+    "h": "The watched pot behaves differently.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: data collection; difficulties"
+  },
+  {
+    "t": "Observation: process",
+    "d": 2,
+    "q": "Two observers using continuous observation record 20 and 25 occurrences of a behavior. What is the reliability index?",
+    "o": [
+      "80%, considered reliable",
+      "125%, considered reliable",
+      "45%, considered unreliable",
+      "20%, considered unreliable"
+    ],
+    "e": "For continuous observation, the notes compute the reliability index as the smaller number of observations divided by the larger, multiplied by 100: 20 ÷ 25 × 100 = 80%, which is reliable. For time sampling, the index is total agreements divided by agreements plus disagreements, multiplied by 100. Dividing the larger by the smaller would exceed 100%, which is impossible for an agreement index.",
+    "w": [
+      "Larger over smaller gives over 100%, impossible for an index.",
+      "45 is the sum of the counts, not a ratio.",
+      "20 is one observer's count, not the index."
+    ],
+    "k": "Continuous observation reliability = smaller ÷ larger × 100 (20/25 = 80%).",
+    "h": "Small over big, times a hundred.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: reliability index"
+  },
+  {
+    "t": "Observation: process",
+    "d": 2,
+    "q": "With time sampling, two observers agree on 20 intervals and disagree on 10. What is the reliability index?",
+    "o": [
+      "About 67% (20 ÷ 30 × 100)",
+      "200% (20 ÷ 10 × 100)",
+      "50% (10 ÷ 20 × 100)",
+      "33% (10 ÷ 30 × 100)"
+    ],
+    "e": "For time sampling, the reliability index equals total agreements divided by agreements plus disagreements, multiplied by 100: 20 ÷ (20 + 10) × 100 ≈ 66.7%, which the notes round to 66% and treat as reliable. Dividing agreements by disagreements alone, or disagreements by agreements, does not give a proportion of agreement, and 10 ÷ 30 is the proportion of disagreement.",
+    "w": [
+      "Agreements must be divided by all decisions, not disagreements alone.",
+      "This divides disagreements by agreements, which is not agreement.",
+      "This is the proportion of disagreement, not agreement."
+    ],
+    "k": "Time-sampling reliability = agreements ÷ (agreements + disagreements) × 100 (20/30 ≈ 66.7%).",
+    "h": "Agree over everything.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: reliability index"
+  },
+  {
+    "t": "Observation: process",
+    "d": 3,
+    "q": "In the coding scheme for teachers' evaluations, how is 'a good point given to two pupils for being well-behaved' coded?",
+    "o": [
+      "EV̄+/C/G: positive nonverbal evaluation, of behavior, to a group",
+      "EV+/T/E: positive verbal evaluation, of work, to one pupil",
+      "EV−/C/C: negative verbal evaluation, of behavior, to the class",
+      "EV̄−/T/G: negative nonverbal evaluation, of work, to a group"
+    ],
+    "e": "The notes' example codes teachers' evaluations in class. EV is verbal evaluation (EV+ 'bravo', 'excellent'; EV− 'mediocre', 'impolite'); EV̄ is nonverbal (EV̄+ sticking a star or a good point; EV̄− setting a pupil aside or a bad remark in the notebook). Subcategories mark the target: T work, C behavior; and the addressee: E one pupil, G a group, C the class. A good point to two well-behaved pupils is positive, nonverbal, about behavior, to a group: EV̄+/C/G.",
+    "w": [
+      "No words were spoken, and the point concerned behavior, not work.",
+      "The evaluation was positive and addressed to two pupils.",
+      "The evaluation was positive and concerned behavior."
+    ],
+    "k": "Coding: EV (verbal)/EV̄ (nonverbal) ± ; T work / C behavior ; E pupil, G group, C class.",
+    "h": "Sign / subject / size of audience.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: coding"
+  },
+  {
+    "t": "Observation: process",
+    "d": 1,
+    "q": "In a session, 20 of 50 recorded behaviors fall in one category. What is that category's relative frequency?",
+    "o": [
+      "40%",
+      "20%",
+      "60%",
+      "250%"
+    ],
+    "e": "In the quantitative phase, frequencies are summed and presented in tables of frequencies, percentages and means, with χ² computed where relevant and histograms by session. The relative frequency of a category equals its frequency divided by the total number of behaviors, multiplied by 100: 20 ÷ 50 × 100 = 40%. The notes specify that qualitative analysis comes first, then quantitative analysis.",
+    "w": [
+      "20 is the raw frequency, not the percentage.",
+      "60% is the share of the other categories.",
+      "Inverting the ratio gives an impossible percentage."
+    ],
+    "k": "Relative frequency = category frequency ÷ total behaviors × 100 (20/50 = 40%).",
+    "h": "Part over whole, times a hundred.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Systematic observation: quantitative analysis"
+  },
+  {
+    "t": "Observation: evaluation",
+    "d": 2,
+    "q": "Which of the following is listed in the notes as an advantage of observation?",
+    "o": [
+      "It eliminates the artificiality of the laboratory",
+      "It is quick and requires no training",
+      "It captures every behavior continuously",
+      "It is free from the observer's personality"
+    ],
+    "e": "Advantages: observation studies human behavior directly in natural circumstances, can predict an individual's behavior precisely, eliminates laboratory artificiality, works in different settings (school, factory), domains and ages, yields qualitative and quantitative data and records when a behavior occurs. Difficulties: it is arduous (effort, time, training, experience), cannot observe everything, subjects act artificially when they know they are watched, and the observer's personality (projection of feelings, motivations, attitudes) can distort interpretation.",
+    "w": [
+      "The notes call observation arduous and training-dependent.",
+      "It is not continuous in time and cannot observe everything.",
+      "Observer projection is listed as a major difficulty."
+    ],
+    "k": "Observation: natural, no lab artificiality, versatile, qual + quant; but arduous, partial, reactive, observer projection.",
+    "h": "Real life, real effort, real bias.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: advantages and difficulties"
+  },
+  {
+    "t": "Observation: evaluation",
+    "d": 3,
+    "q": "An observer attributes his own frustration to a child he is watching and misreads the child's behavior. Which difficulty of observation is this?",
+    "o": [
+      "The observer's personality distorting interpretation through projection",
+      "The subject's artificial behavior from knowing he is watched",
+      "The impossibility of observing continuously in time",
+      "The arduousness of training and experience required"
+    ],
+    "e": "The notes describe observation as the most difficult and potentially most distorting method. One difficulty is that the observer's personality modifies what is observed: the observer attributes his or her own feelings (projection), motivations and attitudes to the subject, which may lead to a wrong explanation or interpretation. This is distinct from the subject's reactivity, the incomplete coverage in time, and the effort and training required.",
+    "w": [
+      "Here the distortion comes from the observer, not the child's awareness.",
+      "Gaps in time coverage are a separate difficulty.",
+      "Effort and training are a cost, not this distortion."
+    ],
+    "k": "Observer bias: projection of one's own feelings, motivations and attitudes → wrong interpretation.",
+    "h": "Projection: the observer becomes the movie projector, painting his own film on the child.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 1 Observation: difficulties"
+  }
+]

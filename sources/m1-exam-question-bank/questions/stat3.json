@@ -1,0 +1,604 @@
+[
+  {
+    "t": "Ch3 SPINE overview",
+    "d": 1,
+    "q": "In Field's acronym SPINE, the five core ideas of statistics are:",
+    "o": [
+      "Standard error, Parameters, Interval estimates, Null hypothesis testing, Estimation",
+      "Sampling, Probability, Inference, Normal distributions and Error variance estimation",
+      "Significance, Power, Independence, Normality and Effect-size estimation methods",
+      "Standard deviation, P-values, Interaction terms, N and the Error variance of a model"
+    ],
+    "e": "SPINE: Standard error, Parameters, Interval estimates (confidence intervals), Null hypothesis significance testing, and Estimation. Field presents these as the backbone that every later technique hangs on.",
+    "w": [
+      "Sampling and probability are background ideas, but SPINE's S is Standard error and its P is Parameters.",
+      "Power and normality matter, but SPINE's letters stand for Standard error, Parameters, Interval estimates, NHST and Estimation.",
+      "Standard deviation and p-values aren't the SPINE letters; S is the standard error and P is parameters."
+    ],
+    "k": "SPINE = Standard error, Parameters, Interval estimates, Null hypothesis testing, Estimation.",
+    "h": "Every test in the book has a SPINE: estimate Parameters, judge them with the SE, build Intervals, test with NHST.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Overview"
+  },
+  {
+    "t": "Ch3 Sampling distributions",
+    "d": 2,
+    "q": "A sampling distribution is:",
+    "o": [
+      "The distribution of a statistic, such as the mean, across many possible samples",
+      "The distribution of the raw scores that were observed within one particular sample",
+      "The frequency distribution of the whole population on the variable being studied",
+      "The plot showing how changing the sample size changes the value of the sample mean"
+    ],
+    "e": "Imagine drawing sample after sample from a population and computing the mean each time. The distribution of those means is the sampling distribution. Its SD is the standard error, which tells you how much sample means typically differ from the population mean.",
+    "w": [
+      "Raw scores in one sample form a sample distribution, not a sampling distribution.",
+      "The population's own distribution of scores isn't a distribution of statistics.",
+      "Plotting the mean against n isn't a sampling distribution; it's one statistic across many samples."
+    ],
+    "k": "A sampling distribution is the distribution of a statistic across many samples; its SD is the standard error.",
+    "h": "Sampling distribution: a crowd of sample means.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Sampling distributions"
+  },
+  {
+    "t": "Ch3 Standard error",
+    "d": 1,
+    "q": "A sample of 100 has an SD of 20. What is the standard error of the mean?",
+    "o": [
+      "2",
+      "0.2",
+      "20",
+      "200"
+    ],
+    "e": "SE = s / √n = 20 / √100 = 20 / 10 = 2. The SE measures how much sample means would vary around the population mean, not how much individual scores vary.",
+    "w": [
+      "0.2 divides by n (100) instead of √n (10).",
+      "20 is the SD itself, not divided by √n.",
+      "200 multiplies by √n instead of dividing."
+    ],
+    "k": "SE of the mean = s/√n, so it shrinks as the sample grows.",
+    "h": "Shrink the SD by root n.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Standard error"
+  },
+  {
+    "t": "Ch3 Standard error",
+    "d": 2,
+    "q": "If the sample size is quadrupled while the SD stays the same, the standard error of the mean:",
+    "o": [
+      "Halves",
+      "Quarters",
+      "Doubles",
+      "Stays the same"
+    ],
+    "e": "SE = s / √n. Multiplying n by 4 multiplies √n by 2, so the SE halves. Precision improves with the square root of n, which is why each extra gain in precision costs more and more participants.",
+    "w": [
+      "Quartering would happen if SE depended on n, but it depends on √n.",
+      "More participants shrink the SE; they never double it.",
+      "The SD may stay the same, but the SE falls as n grows."
+    ],
+    "k": "Quadruple n to halve the SE, because SE = s/√n.",
+    "h": "Four times the people, half the wobble.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Standard error and sample size"
+  },
+  {
+    "t": "Ch3 Standard error",
+    "d": 2,
+    "q": "What is the key difference between the standard deviation and the standard error?",
+    "o": [
+      "The SD describes spread of scores; the SE describes spread of sample means",
+      "The SD is used only for samples; the SE is used only for populations",
+      "The SD shrinks as n increases; the SE is unaffected by the sample size",
+      "The SD is a squared quantity; the SE is in the original units of the data"
+    ],
+    "e": "The SD summarizes how individual scores differ from the mean. The SE is the SD of the sampling distribution, telling you how precisely the sample mean estimates μ. Adding participants does not systematically change the SD but it does shrink the SE.",
+    "w": [
+      "Both are computed from samples; the difference is scores versus sample means.",
+      "This reverses it: the SE shrinks with n, the SD doesn't.",
+      "The variance is squared; both the SD and the SE are in original units."
+    ],
+    "k": "SD = spread of individual scores; SE = spread of sample means (precision of the mean).",
+    "h": "SD for people, SE for estimates.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · SD versus SE"
+  },
+  {
+    "t": "Ch3 Central limit theorem",
+    "d": 2,
+    "q": "The central limit theorem states that, as sample size grows (roughly beyond 30):",
+    "o": [
+      "The sampling distribution of the mean approaches normal, whatever the population's shape",
+      "The scores within each sample become normally distributed around the population mean",
+      "The population distribution itself becomes normal as more people are measured",
+      "The standard error of the mean approaches the population standard deviation"
+    ],
+    "e": "Even when the population is skewed, the means of large samples are approximately normally distributed around μ with SD = σ/√n. This is why tests based on means are fairly robust to non-normal data in large samples. The raw scores do not become normal.",
+    "w": [
+      "The raw scores keep the population's shape; only the sample means become normal.",
+      "The population doesn't change shape because we measure more people.",
+      "The SE shrinks toward zero as n grows; it doesn't approach σ."
+    ],
+    "k": "CLT: with large samples, the sampling distribution of the mean is roughly normal whatever the population's shape.",
+    "h": "Means of many get normal, even from a weird crowd.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Central limit theorem",
+    "n": "The normality assumption of t-tests, ANOVA and regression concerns the sampling distribution (or the residuals), not the raw data. The CLT is why it matters less in large samples."
+  },
+  {
+    "t": "Ch3 Confidence intervals",
+    "d": 2,
+    "q": "A sample of 100 has a mean of 50 and SE = 2. Using the normal approximation, the 95% confidence interval is about:",
+    "o": [
+      "46.08 to 53.92",
+      "48.00 to 52.00",
+      "44.84 to 55.16",
+      "10.80 to 89.20"
+    ],
+    "e": "95% CI ≈ mean ± 1.96 × SE = 50 ± 3.92, giving 46.08 to 53.92. With n = 100 the exact t value (1.98) gives almost the same answer. 44.84–55.16 is the 99% interval (±2.58 SE).",
+    "w": [
+      "48 to 52 is mean ± 1 SE, about a 68% interval.",
+      "44.84 to 55.16 uses ±2.58 SE, the 99% interval.",
+      "10.80 to 89.20 uses the SD (20) instead of the SE (2)."
+    ],
+    "k": "95% CI ≈ mean ± 1.96 × SE.",
+    "h": "Mean plus or minus two SEs, roughly.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Confidence intervals"
+  },
+  {
+    "t": "Ch3 Confidence intervals",
+    "d": 3,
+    "q": "Which interpretation of a 95% confidence interval is correct in the frequentist framework?",
+    "o": [
+      "If we repeated the study many times, 95% of the intervals built this way would contain the population value",
+      "There is a 95% probability that the population value lies inside this particular interval that we computed",
+      "95% of the scores in the sample fall between the lower and the upper limits of this confidence interval",
+      "If the study were repeated many times, 95% of the future sample means would fall within this interval"
+    ],
+    "e": "The population value is fixed. It is the interval that varies from sample to sample. 95% describes the long-run success rate of the procedure, and any single interval either contains μ or does not. The CI concerns the parameter, not individual scores, and it is not a prediction interval for future means.",
+    "w": [
+      "This is the common misreading: a single computed interval either contains μ or doesn't.",
+      "A CI concerns the parameter, not where individual scores fall.",
+      "A CI isn't a prediction interval for future sample means."
+    ],
+    "k": "95% refers to the long-run success rate of the procedure, not to one interval.",
+    "h": "95 out of 100 nets catch the fish; any single net has it or doesn't.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Interpreting confidence intervals",
+    "n": "A Bayesian credible interval does support the statement 'there is a 95% probability the parameter is in this interval'. That is one reason Bayesian estimation appeals to many researchers."
+  },
+  {
+    "t": "Ch3 Confidence intervals",
+    "d": 2,
+    "q": "Which change makes a 95% confidence interval for a mean narrower?",
+    "o": [
+      "Collecting a larger sample",
+      "Choosing a 99% confidence level",
+      "Studying a more variable population",
+      "Using a one-sample instead of a paired design"
+    ],
+    "e": "Interval width = critical value × SE, and SE = s/√n. A larger n shrinks the SE and narrows the interval. Higher confidence (99%) widens it, and more variable data (larger s) widen it.",
+    "w": [
+      "A 99% level uses a larger critical value, widening the interval.",
+      "More variability increases s and the SE, widening the interval.",
+      "Switching to a one-sample design doesn't narrow it; paired designs often reduce error."
+    ],
+    "k": "CI width = critical value × SE; larger n shrinks the SE and narrows the CI.",
+    "h": "More data, tighter net.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Width of confidence intervals"
+  },
+  {
+    "t": "Ch3 Confidence intervals",
+    "d": 2,
+    "q": "Why are confidence intervals for small samples built with t rather than z critical values?",
+    "o": [
+      "The SD is estimated from the sample, so extra uncertainty is captured by the heavier-tailed t distribution",
+      "The t distribution is narrower than z, which gives smaller samples a fairer chance of significance",
+      "The z distribution only applies when the data are measured at the ratio level",
+      "The t distribution corrects for the skewness that is usually present in the raw scores of small samples"
+    ],
+    "e": "With σ unknown and estimated by s, the standardized mean follows a t distribution with n − 1 degrees of freedom. It has heavier tails than z, so its critical values are larger (2.06 for df = 24 versus 1.96), widening the CI to reflect the extra uncertainty. As df grows, t converges to z.",
+    "w": [
+      "t is wider (heavier-tailed) than z, not narrower.",
+      "z isn't restricted to ratio-level data.",
+      "t doesn't correct skew; it accounts for estimating the SD."
+    ],
+    "k": "t has heavier tails to account for estimating σ from s; it approaches z as df grow.",
+    "h": "t for 'tentative SD'.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · The t distribution"
+  },
+  {
+    "t": "Ch3 Confidence intervals",
+    "d": 3,
+    "q": "Two independent group means have 95% CIs of similar width. By Cumming and Finch's rule of thumb, what does it suggest if the intervals overlap by about half of one interval's margin of error?",
+    "o": [
+      "p ≈ .05 for the difference between the means",
+      "p ≈ .50, so the difference is clearly not significant",
+      "p < .001, since the intervals still partly overlap",
+      "Nothing at all, because overlapping intervals cannot be interpreted"
+    ],
+    "e": "A common error is to think any overlap means 'not significant'. For independent means with similar SEs, overlap of about half a margin of error corresponds roughly to p ≈ .05, and intervals that just touch correspond to about p ≈ .01. Clearly separated intervals imply a smaller p. The rule does not apply to repeated-measures designs.",
+    "w": [
+      "Half-margin overlap corresponds to p ≈ .05, not .50.",
+      "Intervals that just touch suggest p ≈ .01; overlapping ones don't suggest p < .001.",
+      "Overlap can be interpreted using this rule of thumb for independent means."
+    ],
+    "k": "Cumming and Finch: half-margin overlap ≈ p .05; just touching ≈ p .01.",
+    "h": "Half overlap, half a chance of .05.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Comparing confidence intervals"
+  },
+  {
+    "t": "Ch3 Estimation",
+    "d": 2,
+    "q": "The method of least squares estimates a model's parameters by choosing the values that:",
+    "o": [
+      "Minimize the sum of squared differences between observed and predicted values",
+      "Maximize the correlation between the predictor and the residuals of the model",
+      "Make the predicted values match the observed values exactly for every case",
+      "Minimize the number of cases that are flagged as outliers in the data"
+    ],
+    "e": "Ordinary least squares picks the parameter estimates (the mean, or b0 and b1 in regression) that make the squared errors as small as possible. The mean is itself the least-squares estimate of the centre of the data. Residuals from a least-squares model are uncorrelated with the predictors by construction.",
+    "w": [
+      "Least-squares residuals are uncorrelated with predictors by construction; maximizing that correlation isn't the aim.",
+      "Exact prediction of every case is usually impossible; least squares minimizes error.",
+      "Outlier counts aren't part of the least-squares criterion."
+    ],
+    "k": "Least squares picks parameters that minimize the sum of squared errors.",
+    "h": "Least squares: smallest total of squared misses.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Estimation"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "A p-value of .03 means:",
+    "o": [
+      "If the null hypothesis were true, data at least this extreme would occur 3% of the time",
+      "There is a 3% probability that the null hypothesis is true, given these data",
+      "There is a 97% probability that the alternative hypothesis is true in the population",
+      "The effect found is small, explaining only about 3% of the variance in the outcome"
+    ],
+    "e": "p is a conditional probability: P(data at least this extreme | H0 true). It says nothing directly about the probability of H0 or H1, which would require Bayesian reasoning, and nothing about effect size. Very large samples give tiny p-values for trivial effects.",
+    "w": [
+      "p isn't the probability that H0 is true; that needs Bayesian reasoning.",
+      "p doesn't give the probability that H1 is true.",
+      "p doesn't measure effect size or variance explained."
+    ],
+    "k": "p = P(data at least this extreme | H0 true), not P(H0 | data).",
+    "h": "p is computed as if H0 were true, so it can't judge H0's truth.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Interpreting p-values"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "A Type I error is:",
+    "o": [
+      "Rejecting the null hypothesis when it is actually true",
+      "Retaining the null hypothesis when it is actually false",
+      "Using a one-tailed test when a two-tailed test was needed",
+      "Detecting a real effect but estimating its size wrongly"
+    ],
+    "e": "Type I = a false positive (finding an effect that is not there), with probability α, usually .05. Type II = a false negative (missing a real effect), with probability β. Mnemonic: Type I, 'I see an effect that isn't there'; Type II, 'too blind to see the real one'.",
+    "w": [
+      "Retaining a false null is a Type II error.",
+      "Test tail choice isn't a Type I error.",
+      "Misestimating effect size isn't a Type I error."
+    ],
+    "k": "Type I = false positive (α); Type II = false negative (β).",
+    "h": "Type I: I see an effect that isn't there.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Type I and Type II errors"
+  },
+  {
+    "t": "Ch3 Power",
+    "d": 2,
+    "q": "Statistical power is:",
+    "o": [
+      "The probability of detecting an effect that genuinely exists (1 − β)",
+      "The probability of falsely detecting an effect (α)",
+      "The proportion of variance in the outcome that the statistical model explains",
+      "The probability that the null hypothesis is true, given the data"
+    ],
+    "e": "Power is the chance a test will be significant when the alternative is true. Cohen suggested .80 as a minimum, which accepts β = .20. Power rises with larger effect sizes, larger samples and a more lenient α.",
+    "w": [
+      "α is the Type I error rate, not power.",
+      "Variance explained is R² or another effect size, not power.",
+      "Power doesn't give the probability that H0 is true."
+    ],
+    "k": "Power = 1 − β, the probability of detecting a real effect; aim for .80.",
+    "h": "Power finds what's really there.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Power"
+  },
+  {
+    "t": "Ch3 Power",
+    "d": 2,
+    "q": "Which of these does NOT increase the power of a test?",
+    "o": [
+      "Lowering α from .05 to .01",
+      "Increasing the sample size",
+      "Studying a larger true effect",
+      "Reducing measurement error in the outcome"
+    ],
+    "e": "A stricter α makes significance harder to reach, so power falls. Larger samples shrink the SE, larger effects are easier to detect, and less noise in the outcome increases the signal-to-noise ratio. All three raise power.",
+    "w": [
+      "Larger samples shrink the SE and increase power.",
+      "Larger true effects are easier to detect.",
+      "Reducing measurement error increases the signal-to-noise ratio and power."
+    ],
+    "k": "Lowering α reduces power; larger n, larger effects and less noise increase it.",
+    "h": "Stricter bar, fewer hits.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Determinants of power"
+  },
+  {
+    "t": "Ch3 Power",
+    "d": 3,
+    "q": "Before a study, a researcher computes the sample size needed for power = .80 to detect d = 0.5 at α = .05. This is:",
+    "o": [
+      "An a priori power analysis",
+      "A post hoc power analysis",
+      "A Bonferroni correction",
+      "An equivalence test"
+    ],
+    "e": "A priori power analysis uses the expected effect size, α and the desired power to find the n needed (programs such as G*Power do this; about 64 per group here for an independent t-test). Post hoc ('observed') power computed from the obtained p-value adds no information, because it is a direct function of p.",
+    "w": [
+      "Post hoc power is computed after the data, from the observed effect.",
+      "Bonferroni adjusts α for multiple tests; it doesn't plan n.",
+      "Equivalence tests check whether an effect is negligible."
+    ],
+    "k": "Planning n from expected effect, α and power = a priori power analysis.",
+    "h": "A priori: before the first participant.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Planning sample size"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "When is a one-tailed test justified?",
+    "o": [
+      "When the direction was predicted in advance and a result in the other direction would be treated as no effect",
+      "When a two-tailed test gave p = .07 and the researcher expects that a one-tailed version of the test will be significant",
+      "When the sample is too small for SPSS to be able to calculate the two-tailed version of the test",
+      "When the effect found in the sample turned out to be in the direction the researcher expected all along"
+    ],
+    "e": "A one-tailed test puts all of α in the predicted tail, so it can only detect effects in that direction. Choosing it after seeing the data (to halve p) inflates the Type I error rate and is a questionable research practice. Many researchers and journals therefore default to two-tailed tests.",
+    "w": [
+      "Switching after seeing p = .07 inflates the Type I error rate.",
+      "SPSS can compute two-tailed tests for any sample size.",
+      "Deciding after seeing the direction is post hoc and inflates α."
+    ],
+    "k": "One-tailed only when the direction is predicted in advance and the other direction would count as no effect.",
+    "h": "Call the shot before shooting.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · One- and two-tailed tests"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "A researcher runs five independent tests, each at α = .05. What is the familywise probability of at least one Type I error if every null hypothesis is true?",
+    "o": [
+      "About .23",
+      "Exactly .05",
+      "About .25",
+      "Exactly .01"
+    ],
+    "e": "Familywise error = 1 − (1 − α)^k = 1 − .95⁵ = 1 − .774 = .226. Simply adding (5 × .05 = .25) overstates it slightly. This inflation is why we use omnibus tests such as ANOVA or corrections such as Bonferroni.",
+    "w": [
+      ".05 is the per-test rate, not the familywise rate.",
+      ".25 simply adds the rates, overstating it slightly.",
+      ".01 is the Bonferroni per-test α, not the familywise error."
+    ],
+    "k": "Familywise error = 1 − (1 − α)^k.",
+    "h": "More tests, more false alarms.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Familywise error"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "Using a Bonferroni correction for five tests with an overall α of .05, each test is evaluated against:",
+    "o": [
+      ".01",
+      ".05",
+      ".25",
+      ".0025"
+    ],
+    "e": "Bonferroni divides α by the number of tests: .05 / 5 = .01. It controls the familywise error rate strictly but costs power, especially with many comparisons. SPSS's 'Bonferroni' option instead multiplies each p by k, which is equivalent.",
+    "w": [
+      ".05 is the uncorrected α; it ignores the five tests.",
+      ".25 multiplies α instead of dividing.",
+      ".0025 is far too strict; Bonferroni divides α once by k."
+    ],
+    "k": "Bonferroni: per-test α = overall α ÷ number of tests.",
+    "h": "Split the alpha pie equally.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Bonferroni correction"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "Fisher's and Neyman–Pearson's approaches differ in that Neyman–Pearson:",
+    "o": [
+      "Set α and β before the study and make a binary decision to reject or retain H0",
+      "Treated the exact p-value as a continuous measure of evidence against H0",
+      "Rejected the idea of a null hypothesis in favour of estimating effect sizes",
+      "Used Bayes factors to quantify support for the alternative hypothesis"
+    ],
+    "e": "Fisher viewed p as graded evidence. Neyman and Pearson built a decision procedure with fixed long-run error rates (α and β) and an alternative hypothesis, with power as a planning tool. Modern NHST is an uneasy hybrid of the two.",
+    "w": [
+      "Treating p as graded evidence was Fisher's view.",
+      "Neyman–Pearson used null hypotheses with fixed error rates.",
+      "Bayes factors aren't part of Neyman–Pearson's approach."
+    ],
+    "k": "Fisher: p as graded evidence; Neyman–Pearson: fixed α and β, binary decision.",
+    "h": "Neyman–Pearson make a decision; Fisher weighs evidence.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · History of NHST"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "A non-significant result (p = .30) allows the researcher to conclude that:",
+    "o": [
+      "The data are not strong enough to reject the null hypothesis",
+      "The null hypothesis has been shown to be true in the population",
+      "The population effect is exactly zero, so the theory must be wrong",
+      "The study had high power to detect any effect that might exist"
+    ],
+    "e": "Absence of evidence is not evidence of absence. A non-significant p might reflect no effect, a small effect or low power. To claim an effect is negligible, use equivalence testing or Bayesian methods, or examine the CI and show it excludes meaningful values.",
+    "w": [
+      "Non-significance doesn't prove H0; the data simply aren't strong enough to reject it.",
+      "A non-significant result can't establish an effect of exactly zero.",
+      "A non-significant p shows nothing about high power; it may in fact reflect low power."
+    ],
+    "k": "Absence of evidence isn't evidence of absence; use equivalence tests or CIs to argue an effect is negligible.",
+    "h": "Not guilty isn't innocent.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Non-significant results"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 3,
+    "q": "With 10,000 participants, a correlation of r = .03 is significant at p < .01. The best conclusion is that the relationship is:",
+    "o": [
+      "Very likely non-zero but trivially small",
+      "Large and of clear practical importance",
+      "Probably a Type I error, given the low r",
+      "Causal, because the sample is so large"
+    ],
+    "e": "Significance depends on effect size and sample size. With huge n, even r = .03 (0.09% of variance) is detectable. Statistical significance is not practical importance, which is why effect sizes and CIs must accompany p-values.",
+    "w": [
+      "r = .03 explains under 0.1% of variance, so it's tiny.",
+      "With such large n, p < .01 is unlikely to be a Type I error.",
+      "A large sample makes estimates precise but can't turn a correlation into a cause."
+    ],
+    "k": "With huge samples, trivial effects become significant; report effect sizes.",
+    "h": "Significant isn't the same as big.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Significance versus importance"
+  },
+  {
+    "t": "Ch3 Degrees of freedom",
+    "d": 2,
+    "q": "Degrees of freedom are best described as:",
+    "o": [
+      "The number of values that are free to vary once parameters are estimated from the data",
+      "The number of participants who completed every single condition of the study",
+      "The number of statistical tests that can be run on a dataset before a correction is needed",
+      "The number of groups in the design minus the number of outcome variables measured"
+    ],
+    "e": "If four scores must have a mean of 10, three can be anything but the fourth is then fixed, giving df = n − 1 = 3. Each parameter estimated from the data costs a degree of freedom, and df determine which t, F or χ² distribution a statistic is compared against.",
+    "w": [
+      "df aren't the number of participants completing every condition.",
+      "df aren't a count of tests before correction.",
+      "df aren't groups minus outcome variables."
+    ],
+    "k": "df = values free to vary once parameters are estimated.",
+    "h": "Fix the mean, and the last score has no freedom.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Degrees of freedom"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "The critical value of a test statistic is:",
+    "o": [
+      "The value the statistic must exceed for p to fall below α",
+      "The value of the statistic expected when the null is true",
+      "The largest value that the statistic can possibly take",
+      "The value that guarantees a power of at least .80 for the test"
+    ],
+    "e": "For a two-tailed test at α = .05 with a z statistic, the critical value is ±1.96. If the observed statistic is more extreme, p < .05. Software reports exact p-values, but the logic is the same.",
+    "w": [
+      "The expected value under H0 is usually 0, not the critical value.",
+      "Test statistics have no fixed maximum.",
+      "Critical values come from α and df; power depends on n and effect size."
+    ],
+    "k": "Critical value = the threshold the statistic must pass for p < α.",
+    "h": "Cross the line, reject the null.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Critical values"
+  },
+  {
+    "t": "Ch3 Estimation",
+    "d": 3,
+    "q": "Which statement about the standard error of a regression coefficient b is correct?",
+    "o": [
+      "It measures how much b would vary across samples, and b / SE gives the t statistic",
+      "It measures the spread of the residuals around the line and is identical for every predictor",
+      "It is the standardized version of b expressed in units of standard deviations",
+      "It equals the square root of R² and indicates the model's overall fit"
+    ],
+    "e": "Like any statistic, b has a sampling distribution, and its SD is the SE of b. Dividing b by its SE gives t, which tests whether b differs from 0, and ±t_crit × SE gives the CI for b. The standardized coefficient is β, and R relates to overall fit.",
+    "w": [
+      "Residual spread is the standard error of the estimate, not the SE of each b.",
+      "The standardized version of b is β, a different quantity from its SE.",
+      "√R² is R, the multiple correlation."
+    ],
+    "k": "SE of b shows sampling variability of b; t = b/SE(b).",
+    "h": "b over its wobble gives t.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Standard errors of parameters"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 1,
+    "q": "In SPSS output, the column labelled 'Sig.' reports:",
+    "o": [
+      "The p-value",
+      "The test statistic",
+      "The effect size",
+      "The standard error"
+    ],
+    "e": "SPSS labels p-values 'Sig.' (significance), sometimes with qualifiers such as 'Sig. (2-tailed)' or 'Asymp. Sig.'. A value displayed as .000 means p < .0005 and should be reported as p < .001, never as p = .000.",
+    "w": [
+      "The test statistic appears as t, F or similar, not Sig.",
+      "Effect sizes such as partial η² appear in their own columns, not under Sig.",
+      "Standard errors are labelled Std. Error."
+    ],
+    "k": "SPSS 'Sig.' = p-value; report .000 as p < .001.",
+    "h": "Sig. = significance = p.",
+    "r": "Stats & SPSS ch. 3 · SPSS · Reading output"
+  },
+  {
+    "t": "Ch3 Sampling distributions",
+    "d": 3,
+    "q": "Which population value is the mean of the sampling distribution of the sample mean equal to?",
+    "o": [
+      "The population mean μ",
+      "The population SD σ",
+      "The standard error σ/√n",
+      "The median of a single sample"
+    ],
+    "e": "The sample mean is an unbiased estimator: across all possible samples, sample means average out to μ. Their spread around μ is the standard error σ/√n.",
+    "w": [
+      "σ describes score spread, not the centre of sample means.",
+      "σ/√n is the spread of sample means, not their centre.",
+      "A single sample's median isn't the centre of the sampling distribution."
+    ],
+    "k": "Sample means average to μ: the mean is unbiased.",
+    "h": "Many means meet at μ.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Unbiased estimators"
+  },
+  {
+    "t": "Ch3 Power",
+    "d": 3,
+    "q": "A literature full of small, underpowered studies that all report significant effects most likely reflects:",
+    "o": [
+      "Publication bias and inflated effect sizes",
+      "Exceptionally large and robust true effects",
+      "Conservative use of two-tailed tests",
+      "Correct control of the familywise error rate"
+    ],
+    "e": "When power is low, only studies that happened to overestimate the effect reach significance, and those are the ones published. This 'winner's curse' inflates published effect sizes, and many such findings fail to replicate. A high proportion of significant results from low-powered studies is statistically implausible.",
+    "w": [
+      "Large true effects wouldn't need low power to be found; the pattern is implausible.",
+      "Two-tailed tests don't explain an excess of significant results.",
+      "Familywise control would reduce false positives, not create this pattern."
+    ],
+    "k": "Many significant results from underpowered studies suggest publication bias and inflated effects.",
+    "h": "Winner's curse: the lucky overestimates get published.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · Power and replicability"
+  },
+  {
+    "t": "Ch3 NHST",
+    "d": 2,
+    "q": "If a 95% CI for a mean difference runs from 0.4 to 3.1, a two-tailed test of 'difference = 0' at α = .05 will be:",
+    "o": [
+      "Significant, because 0 lies outside the interval",
+      "Non-significant, because the interval is fairly wide",
+      "Significant only if the test is one-tailed",
+      "Impossible to judge without the exact p-value"
+    ],
+    "e": "A 95% CI contains every null value that a two-tailed test at α = .05 would not reject. Because 0 is outside [0.4, 3.1], the difference is significant at p < .05. The interval also shows the plausible size of the effect, which p alone cannot.",
+    "w": [
+      "Width doesn't decide significance; whether the CI excludes 0 does.",
+      "A two-tailed test is significant whenever 0 lies outside the 95% CI.",
+      "You can judge significance from the CI without the exact p."
+    ],
+    "k": "If a 95% CI excludes 0, the two-tailed test at .05 is significant.",
+    "h": "Zero outside, significant inside.",
+    "r": "Stats & SPSS ch. 3 · The SPINE of statistics · CIs and significance tests"
+  }
+]

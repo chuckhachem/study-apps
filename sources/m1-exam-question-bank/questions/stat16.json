@@ -1,0 +1,362 @@
+[
+  {
+    "t": "Ch16 Sphericity",
+    "d": 2,
+    "q": "The assumption of sphericity in repeated-measures ANOVA states that:",
+    "o": [
+      "The variances of the differences between every pair of conditions are equal",
+      "The variances of the raw scores in every one of the conditions are equal",
+      "The correlations between all pairs of conditions are exactly zero",
+      "The scores in every condition are normally distributed in the population"
+    ],
+    "e": "For conditions A, B and C, compute the differences A−B, A−C and B−C for each person. Sphericity means these three difference scores have equal variances. Compound symmetry, with equal variances and equal covariances, is a stricter condition that implies sphericity.",
+    "w": [
+      "Equal raw-score variances aren't the requirement; sphericity concerns difference scores.",
+      "Conditions are expected to correlate in repeated measures; zero correlation isn't required.",
+      "Normality is a separate assumption from sphericity."
+    ],
+    "k": "Sphericity = equal variances of the differences between every pair of conditions.",
+    "h": "Spherical: the differences are equally round.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Sphericity"
+  },
+  {
+    "t": "Ch16 Sphericity",
+    "d": 2,
+    "q": "Why is sphericity not an issue when a repeated-measures factor has only two levels?",
+    "o": [
+      "There is only one set of difference scores, so there are no variances to compare",
+      "With only two levels, the data must be normally distributed by definition",
+      "Two levels always have equal variances when the same people are tested in both of them",
+      "SPSS automatically applies the Greenhouse–Geisser correction to two-level factors"
+    ],
+    "e": "Sphericity compares the variances of different difference scores. With two conditions there is only one difference (A − B), so the assumption is met by default, and Mauchly's test is not computed. It becomes relevant with three or more levels.",
+    "w": [
+      "Having two levels says nothing about whether the data are normal.",
+      "Equal variances aren't guaranteed by testing the same people twice.",
+      "No correction is applied to two-level factors because none is needed."
+    ],
+    "k": "Two levels give one difference score, so sphericity is automatically met.",
+    "h": "One difference, nothing to compare.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Two-level factors"
+  },
+  {
+    "t": "Ch16 Sphericity",
+    "d": 2,
+    "q": "Mauchly's test is significant (p = .01). What does this indicate?",
+    "o": [
+      "Sphericity is violated, so a correction to the degrees of freedom is needed",
+      "Sphericity holds, so the 'Sphericity Assumed' row of the table can be used",
+      "The main effect of the repeated-measures factor is statistically significant",
+      "The data are not normally distributed in at least one of the repeated-measures conditions"
+    ],
+    "e": "Mauchly's test takes sphericity as the null hypothesis, so a significant result means a violation. Like other assumption tests, it lacks power in small samples and is oversensitive in large ones, so many researchers apply a correction routinely or look at the size of ε instead.",
+    "w": [
+      "A significant Mauchly's test means sphericity is violated, not met.",
+      "Mauchly's test concerns the assumption, not the main effect.",
+      "Mauchly's test isn't a normality test."
+    ],
+    "k": "Significant Mauchly's = sphericity violated; correct the df.",
+    "h": "Mauchly significant, sphere broken.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Mauchly's test"
+  },
+  {
+    "t": "Ch16 Corrections",
+    "d": 2,
+    "q": "For a repeated-measures factor with 4 levels, what is the lower-bound value of ε?",
+    "o": [
+      "0.33",
+      "0.25",
+      "0.75",
+      "1.00"
+    ],
+    "e": "The lower bound = 1 / (k − 1) = 1/3 ≈ 0.33. ε = 1 means perfect sphericity, and smaller values mean worse violations. The lower-bound correction assumes the worst case and is very conservative.",
+    "w": [
+      "0.25 uses 1/k instead of 1/(k − 1).",
+      "0.75 is Girden's decision threshold, not the lower bound.",
+      "1.00 is the upper bound: perfect sphericity."
+    ],
+    "k": "Lower-bound ε = 1/(k − 1); ε = 1 means perfect sphericity.",
+    "h": "One over levels minus one.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Epsilon"
+  },
+  {
+    "t": "Ch16 Corrections",
+    "d": 3,
+    "q": "Greenhouse–Geisser ε = 0.60 for a factor with 4 levels and 20 participants (uncorrected df = 3 and 57). What are the corrected df?",
+    "o": [
+      "1.80 and 34.20",
+      "3.00 and 57.00",
+      "0.60 and 11.40",
+      "1.80 and 57.00"
+    ],
+    "e": "Both df are multiplied by ε: 3 × 0.60 = 1.80 and 57 × 0.60 = 34.20. F is unchanged, but it is now compared with an F distribution on fewer df, which gives a larger, more honest p-value.",
+    "w": [
+      "3 and 57 are the uncorrected df.",
+      "0.60 and 11.40 multiply ε by 1 and by n − 1 instead of by each df.",
+      "Both df must be multiplied by ε, not just the effect df."
+    ],
+    "k": "Corrected df = original df × ε, for both effect and error.",
+    "h": "Shrink both df by ε.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Applying corrections"
+  },
+  {
+    "t": "Ch16 Corrections",
+    "d": 2,
+    "q": "Following Girden's (1992) guideline that Field cites, which correction should be used when the Greenhouse–Geisser ε is 0.82?",
+    "o": [
+      "Huynh–Feldt",
+      "Greenhouse–Geisser",
+      "Lower-bound",
+      "No correction at all"
+    ],
+    "e": "When the GG estimate is above .75, it tends to be too conservative, so Huynh–Feldt is used. When it is below .75, use Greenhouse–Geisser. Another option is to report the multivariate tests or a multilevel model, which do not assume sphericity.",
+    "w": [
+      "Greenhouse–Geisser is used when ε is below .75, not .82.",
+      "The lower-bound correction is extremely conservative and costs power.",
+      "With ε below 1 some violation exists, so a correction is still advisable."
+    ],
+    "k": "GG ε > .75 → Huynh–Feldt; ε < .75 → Greenhouse–Geisser.",
+    "h": "Above .75 the Field (Huynh–Feldt) is open; below .75 stay in the Greenhouse.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Choosing a correction"
+  },
+  {
+    "t": "Ch16 Corrections",
+    "d": 3,
+    "q": "Why can the multivariate tests (Pillai's trace and others) in SPSS's repeated-measures output be useful?",
+    "o": [
+      "They do not assume sphericity, so they are an alternative when it is badly violated",
+      "They always have more power than the corrected univariate F tests do",
+      "They test the between-subjects effects in the design rather than the within-subjects effects",
+      "They automatically apply a Bonferroni correction to all of the main effects"
+    ],
+    "e": "The multivariate approach treats the k − 1 difference scores as several outcomes, so sphericity is not required. It can have less power than corrected univariate tests when n is small or violations are mild, but it is robust to sphericity violations.",
+    "w": [
+      "Multivariate tests can be less powerful with small n.",
+      "They test within-subjects effects, not between-subjects ones.",
+      "They don't apply Bonferroni corrections automatically."
+    ],
+    "k": "Multivariate tests don't assume sphericity, so they help when it's badly violated.",
+    "h": "Pillai doesn't need a sphere.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Multivariate approach"
+  },
+  {
+    "t": "Ch16 Partitioning variance",
+    "d": 3,
+    "q": "In a one-way repeated-measures ANOVA, the error term (SSR) is:",
+    "o": [
+      "Within-participant variation left after removing the effect of the manipulation",
+      "Between-participant variation due to individual differences in overall level",
+      "Total variation of all of the scores around the grand mean",
+      "Variation of the condition means around the grand mean of all scores"
+    ],
+    "e": "SST splits into between-participant variance (individual differences, removed from the analysis) and within-participant variance, which then splits into SSM (the condition effect) and SSR (residual within-person noise). Removing individual differences from the error is why repeated measures gain power.",
+    "w": [
+      "Between-participant variance is removed, not used as error.",
+      "Total variation of all scores around the grand mean is SST, not SSR.",
+      "Condition means around the grand mean is SSM."
+    ],
+    "k": "Repeated-measures SSR = within-person noise after the condition effect.",
+    "h": "Individual differences leave the error.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Partitioning variance"
+  },
+  {
+    "t": "Ch16 Partitioning variance",
+    "d": 2,
+    "q": "A one-way repeated-measures ANOVA has 4 conditions and 20 participants. Without any correction, what are the df for the effect and the error?",
+    "o": [
+      "3 and 57",
+      "3 and 76",
+      "4 and 80",
+      "3 and 19"
+    ],
+    "e": "df_M = k − 1 = 3, and df_R = (k − 1)(n − 1) = 3 × 19 = 57. The independent-groups equivalent would have N − k = 80 − 4 = 76, but repeated measures use fewer df because individual differences are estimated and removed.",
+    "w": [
+      "76 is the independent-groups error df (N − k).",
+      "4 and 80 use k and total scores instead of k − 1 and (k − 1)(n − 1).",
+      "19 is n − 1 alone, not (k − 1)(n − 1)."
+    ],
+    "k": "RM ANOVA df: effect k − 1; error (k − 1)(n − 1).",
+    "h": "Error df = conditions − 1 times people − 1.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Degrees of freedom"
+  },
+  {
+    "t": "Ch16 SPSS",
+    "d": 2,
+    "q": "In SPSS, what is the first step when setting up a repeated-measures ANOVA?",
+    "o": [
+      "Name the within-subjects factor and give its number of levels in 'Define Factor(s)'",
+      "Enter the conditions into the Fixed Factor(s) box of the GLM Univariate dialog box",
+      "Create a grouping variable coding which condition each row of the data belongs to",
+      "Restructure the data so that each condition has its own row for each person"
+    ],
+    "e": "Analyze → General Linear Model → Repeated Measures opens a box where you name the factor (for example 'time') and give its levels (3), click Add, then Define. You then move each condition's column into the matching slot, in the right order, because contrasts depend on that order.",
+    "w": [
+      "Univariate's Fixed Factors are for between-subjects factors.",
+      "Wide data doesn't need a condition coding variable.",
+      "Restructuring to long format isn't needed for GLM Repeated Measures."
+    ],
+    "k": "SPSS repeated measures: first Define Factor(s) with a name and number of levels.",
+    "h": "Name it, count it, then fill it.",
+    "r": "Stats & SPSS ch. 16 · SPSS · Defining a repeated-measures factor"
+  },
+  {
+    "t": "Ch16 SPSS",
+    "d": 2,
+    "q": "In SPSS's 'Tests of Within-Subjects Effects' table, the rows labelled Sphericity Assumed, Greenhouse–Geisser, Huynh–Feldt and Lower-bound differ in:",
+    "o": [
+      "Their df and p-values; the F ratio is the same in every row",
+      "Their F ratios; the df and p-values are the same in every row",
+      "The effects they test; each row tests a different factor",
+      "The sample they use; each row uses a different subset of cases"
+    ],
+    "e": "Each correction multiplies the df by its ε, so the sums of squares, mean squares and F stay the same, while the df and p change. Pick the row by your correction decision and report the corrected df, for example F(1.80, 34.20) = 5.10, p = .014.",
+    "w": [
+      "F is identical across the correction rows; only df and p change.",
+      "All four rows test the same within-subjects effect.",
+      "All four rows use the same cases and data."
+    ],
+    "k": "Correction rows share F but differ in df and p.",
+    "h": "Same F, different df.",
+    "r": "Stats & SPSS ch. 16 · SPSS · Reading repeated-measures output"
+  },
+  {
+    "t": "Ch16 Follow-up",
+    "d": 2,
+    "q": "Which post hoc correction does Field recommend for repeated-measures comparisons, particularly when sphericity may be violated?",
+    "o": [
+      "Bonferroni",
+      "Tukey's HSD",
+      "Fisher's LSD",
+      "Scheffé's test"
+    ],
+    "e": "Studies such as Maxwell (1980) found that Bonferroni-corrected paired comparisons control Type I error well even when sphericity is violated, while methods based on the pooled error term do not. In SPSS, use EM Means → Compare main effects → Bonferroni (Tukey is not offered for within-subjects factors).",
+    "w": [
+      "Tukey isn't offered for within-subjects factors in SPSS.",
+      "Fisher's LSD doesn't control familywise error at all.",
+      "Scheffé isn't recommended for repeated-measures comparisons."
+    ],
+    "k": "For repeated-measures post hoc comparisons, use the Bonferroni correction.",
+    "h": "Bonferroni for the same people.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Post hoc tests"
+  },
+  {
+    "t": "Ch16 Follow-up",
+    "d": 2,
+    "q": "By default, SPSS's Repeated Measures procedure applies which contrast to the within-subjects factor?",
+    "o": [
+      "Polynomial (trend) contrasts",
+      "Simple contrasts against the first level",
+      "Helmert contrasts (each vs later levels)",
+      "Deviation contrasts (each vs grand mean)"
+    ],
+    "e": "The 'Tests of Within-Subjects Contrasts' table shows linear, quadratic and higher trends by default, which make sense when levels are ordered (time points, doses). For unordered conditions, choose another contrast under the Contrasts button, or use Bonferroni pairwise comparisons.",
+    "w": [
+      "Simple contrasts must be chosen manually.",
+      "Helmert contrasts must be chosen manually.",
+      "Deviation contrasts must be chosen manually."
+    ],
+    "k": "SPSS repeated measures defaults to polynomial (trend) contrasts.",
+    "h": "Time trends by default.",
+    "r": "Stats & SPSS ch. 16 · SPSS · Within-subjects contrasts"
+  },
+  {
+    "t": "Ch16 Factorial repeated measures",
+    "d": 3,
+    "q": "In a two-way repeated-measures ANOVA (both factors within subjects), how are the effects tested?",
+    "o": [
+      "Each effect has its own error term: its interaction with participants",
+      "All effects share one pooled error term, as in independent designs",
+      "Only the interaction is tested, because the main effects are confounded",
+      "Effects are tested against the between-participants variance"
+    ],
+    "e": "Each within-subjects effect (A, B, A × B) is tested against its own interaction with subjects. That is why the output lists a separate 'Error' row for each effect, and why sphericity is checked separately for each effect with more than two levels.",
+    "w": [
+      "Repeated measures don't use one pooled error term.",
+      "Main effects are tested separately and aren't confounded with each other.",
+      "Between-participant variance is removed, not used as the error term."
+    ],
+    "k": "Each within-subjects effect has its own error term: effect × participants.",
+    "h": "Each effect, its own error.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Factorial repeated measures"
+  },
+  {
+    "t": "Ch16 Alternatives",
+    "d": 3,
+    "q": "What advantage does a multilevel model have over repeated-measures ANOVA for repeated data?",
+    "o": [
+      "It does not require sphericity and can use people with missing time points",
+      "It always produces larger F ratios than repeated-measures ANOVA for the same data",
+      "It requires every participant to complete every condition, with no missing data",
+      "It cannot include continuous predictors or any time-varying covariates"
+    ],
+    "e": "Multilevel models estimate the covariance structure (for example AR(1) or unstructured) instead of assuming sphericity. They use all available observations, so people with a missing time point are not dropped listwise, and they handle continuous time and time-varying covariates.",
+    "w": [
+      "Multilevel models don't always give larger F.",
+      "Multilevel models handle missing time points.",
+      "Multilevel models handle continuous and time-varying predictors."
+    ],
+    "k": "Multilevel models skip sphericity and keep people with missing time points.",
+    "h": "Flexible about time, forgiving about gaps.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Multilevel alternative"
+  },
+  {
+    "t": "Ch16 Effect sizes",
+    "d": 2,
+    "q": "SPSS reports partial η² for a repeated-measures effect. Why should it be compared cautiously with η² from a between-groups study?",
+    "o": [
+      "Its denominator excludes between-person variance, so it is usually larger for the same effect",
+      "Its denominator includes every effect in the whole design, so it is usually much smaller",
+      "It is computed from the corrected df, so it changes with the chosen correction",
+      "It only describes the linear trend, not the overall effect"
+    ],
+    "e": "Partial η² = SS_effect / (SS_effect + SS_error). Because repeated-measures designs remove individual differences from the error, this ratio tends to be inflated compared with between-subjects designs. Field recommends focused effect sizes, such as r for specific contrasts.",
+    "w": [
+      "Partial η²'s denominator excludes other effects, so it's larger, not smaller.",
+      "Partial η² isn't computed from corrected df.",
+      "Partial η² covers the whole effect, not just a trend."
+    ],
+    "k": "RM partial η² excludes between-person variance, so it's inflated relative to between-groups η².",
+    "h": "Smaller denominator, bigger number.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Effect sizes"
+  },
+  {
+    "t": "Ch16 Assumptions",
+    "d": 2,
+    "q": "Besides sphericity, which assumption is still important in repeated-measures ANOVA?",
+    "o": [
+      "Independence between participants, and roughly normal residuals in small samples",
+      "Independence of each person's scores across the different conditions of the design",
+      "Equal variances in independent groups formed by each of the conditions",
+      "Equal numbers of men and women taking part in each of the conditions"
+    ],
+    "e": "Scores within a person are expected to correlate, which is the whole point of the design. Different participants must be independent of one another, and residuals (or difference scores) should be roughly normal in small samples. Between-groups homogeneity only enters with between-subjects factors.",
+    "w": [
+      "Scores within a person are expected to correlate.",
+      "The conditions aren't independent groups, so between-groups homogeneity doesn't apply.",
+      "Equal gender numbers isn't an assumption of the analysis."
+    ],
+    "k": "RM ANOVA still needs independence between participants and roughly normal residuals.",
+    "h": "People independent, scores linked.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Other assumptions"
+  },
+  {
+    "t": "Ch16 Reporting",
+    "d": 2,
+    "q": "Which is an appropriate report after a Greenhouse–Geisser correction?",
+    "o": [
+      "Mauchly's W reported, then F(1.80, 34.20) = 5.10, p = .014, with ε = .60 noted",
+      "F(3, 57) = 5.10, p = .003, using the Sphericity Assumed row after correcting",
+      "F = 5.10, p < .05, with no df reported because a correction was applied",
+      "χ²(5) = 12.4, p = .03, reported as the main effect of the repeated factor"
+    ],
+    "e": "Report the sphericity test (Mauchly's W, χ², df, p) or say that a correction was applied, give ε, and report F with the corrected df and p, plus an effect size and follow-up tests. χ² from Mauchly's test is the assumption test, not the main effect.",
+    "w": [
+      "After correcting, report the corrected df and p, not the Sphericity Assumed row.",
+      "Corrected df must always be reported with the F.",
+      "χ² from Mauchly's test is the assumption test, not the effect."
+    ],
+    "k": "Report Mauchly's test, ε, and F with corrected df.",
+    "h": "Say how you corrected.",
+    "r": "Stats & SPSS ch. 16 · GLM 4 (repeated measures) · Reporting"
+  }
+]

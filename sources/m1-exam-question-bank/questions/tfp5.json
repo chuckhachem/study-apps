@@ -1,0 +1,796 @@
+[
+  {
+    "t": "Ch5 Assessment",
+    "d": 2,
+    "q": "The TFP clinical assessment covers which three areas?",
+    "o": [
+      "Subjective experience, observable behaviors, psychological structures",
+      "Childhood history, dreams and early transference reactions",
+      "Symptoms, medication history and family psychiatric history",
+      "IQ, personality questionnaires and projective tests"
+    ],
+    "e": "The TFP assessment looks at three levels. Subjective experience: the patient's symptoms and suffering. Observable behaviours: how the patient actually invests in relationships, work or study, and leisure. Psychological structures: identity (integration versus diffusion), defenses (mature versus primitive) and reality testing. The third level is what places the patient on Kernberg's spectrum of personality organization (neurotic, borderline, psychotic) and guides treatment choice.",
+    "w": [
+      "Childhood, dreams and early transference are not the three assessment areas.",
+      "Symptoms, medication and family history are part of the picture but not the structural framework.",
+      "Testing (IQ, questionnaires, projectives) may help, but the three areas are experience, behaviour and structure."
+    ],
+    "k": "TFP assessment: subjective experience (symptoms), observable behaviours (relationships, work), psychological structures (identity, defenses, reality testing).",
+    "h": "What they feel, what they do, how they're built.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Assessment",
+    "d": 1,
+    "q": "How many sessions does the clinical assessment usually take before contracting?",
+    "o": [
+      "One to three",
+      "Six to eight",
+      "Ten to twelve",
+      "Twenty or more"
+    ],
+    "e": "The clinical assessment is usually completed in one to three sessions before treatment contracting begins. That is enough to evaluate symptoms, functioning and structure (often with the structural interview), gather information about prior treatments, and decide whether TFP is indicated. Then the contracting phase sets the frame.",
+    "w": [
+      "Six to eight sessions is longer than the usual assessment.",
+      "Ten to twelve sessions would be an extended evaluation, not the typical one.",
+      "Twenty or more sessions would already be a treatment."
+    ],
+    "k": "TFP assessment usually takes one to three sessions, before contracting.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Assessment",
+    "d": 2,
+    "q": "A patient in self-defined crisis wants to 'begin therapy' immediately. TFP's approach:",
+    "o": [
+      "Acknowledge it tactfully but assess and contract first; send true crises to emergency services",
+      "Begin therapy immediately, since delaying would confirm the patient's feeling of being rejected",
+      "Refuse to see the patient until the crisis has fully resolved through other services",
+      "Prescribe medication for the crisis and start therapy the same day"
+    ],
+    "e": "Patients often arrive in what they call a crisis, wanting to 'start therapy now'. TFP acknowledges the distress tactfully but still does the assessment and contracting first, because effective help depends on understanding the background and having a clear agreement. A genuine emergency (for example acute suicide risk) is sent to emergency services, with assessment later. Starting without a frame would begin treatment in the chaos that the frame is meant to contain.",
+    "w": [
+      "Starting immediately skips the assessment and contract that make TFP work.",
+      "Refusing to see the patient until the crisis resolves abandons them.",
+      "Medication plus same-day therapy also skips assessment and contracting."
+    ],
+    "k": "In a self-defined crisis: acknowledge it, but assess and contract first; send true emergencies to emergency services.",
+    "h": "Urgency doesn't skip the foundation.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Assessment",
+    "d": 2,
+    "q": "Why does the assessment pay special attention to prior treatments?",
+    "o": [
+      "Relationships with prior therapists and how treatments ended inform the contract",
+      "To identify faults in previous therapists so the patient feels understood",
+      "To copy the previous treatment plan, since continuity is important",
+      "For insurance and billing records required before therapy can start"
+    ],
+    "e": "How previous treatments went, especially the quality of the relationships with former therapists and how they ended, predicts what will happen in TFP. A patient who quit three therapies after feeling misunderstood is likely to bring the same dyad into this one. That information shapes the contract, which can anticipate those threats. With permission, calling former therapists about how treatments were disrupted is useful.",
+    "w": [
+      "The aim is not to blame previous therapists; it is to anticipate patterns.",
+      "TFP doesn't copy earlier treatment plans; it learns from how they went.",
+      "Billing records are irrelevant; the point is relational patterns."
+    ],
+    "k": "Prior treatments (relationships and endings) predict threats to TFP and inform the contract.",
+    "h": "How the last therapies ended is a preview of how this one could.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Structural interview",
+    "d": 2,
+    "q": "Kernberg's structural interview differs from a decision-tree interview because it:",
+    "o": [
+      "It cycles back over anchoring symptoms to retest findings",
+      "It follows a fixed decision tree of questions in a predetermined order",
+      "It assesses symptoms only, not personality",
+      "It is fully standardized for research scoring"
+    ],
+    "e": "In a decision-tree interview, questions follow a fixed path from one branch to the next. In Kernberg's structural interview, the anchoring symptoms are pictured on the perimeter of a circle: the interviewer can return to the start, revisit symptoms, and recycle the inquiry to retest findings in light of new information. This flexibility suits personality assessment, where structure shows in how a patient handles questions, not just in the answers.",
+    "w": [
+      "A fixed decision tree is exactly what the structural interview avoids.",
+      "It assesses personality structure, not only symptoms.",
+      "It is a clinical interview; the STIPO is the standardized research version."
+    ],
+    "k": "The structural interview cycles back over anchoring symptoms to retest findings, unlike a fixed decision tree.",
+    "h": "A circle you can walk around again, not a one-way path.",
+    "r": "Clarkin Ch5 – Structural interview"
+  },
+  {
+    "t": "Ch5 Structural interview",
+    "d": 2,
+    "q": "What are the three parts of the structural interview?",
+    "o": [
+      "Symptoms and attitude to treatment; self and others (identity); brief past",
+      "Childhood; adolescence; adulthood, explored in chronological order",
+      "Diagnosis; medication; treatment contract and fees",
+      "Dreams; fantasies; earliest memories and family secrets"
+    ],
+    "e": "The structural interview has three parts. Part 1 explores symptoms and the patient's approach to treatment. Part 2 explores self and others, to assess identity (integration versus diffusion). Part 3 covers a brief past, only as far as it is relevant to current difficulties. Throughout, the interviewer tests defenses and reality testing by tactfully confronting contradictions.",
+    "w": [
+      "A chronological life history is not the structure; the past is covered only briefly.",
+      "Diagnosis, medication and fees are not the interview's parts.",
+      "Dreams and early memories are not the interview's focus."
+    ],
+    "k": "Structural interview: (1) symptoms and attitude to treatment, (2) self and others (identity), (3) brief relevant past.",
+    "h": "Problem, person, past.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Structural interview",
+    "d": 1,
+    "q": "How does the structural interview open?",
+    "o": [
+      "'What brought you here, what are your difficulties, what do you expect?'",
+      "'Tell me about your mother and your earliest memories of her.'",
+      "'What was your very first memory, and how old were you?'",
+      "'Describe a recent dream and what comes to mind about it.'"
+    ],
+    "e": "The interview opens with an open, orienting question: the interviewer knows nothing about the patient and asks what brought them, what their difficulties are and what they expect from treatment. Starting this way shows how the patient organizes and presents their story: coherent or chaotic, insightful or blaming, which is already structural information. Questions about mothers, memories or dreams are not how it begins.",
+    "w": [
+      "Asking first about the mother skips the patient's own account of the problem.",
+      "Earliest memories belong to classic analytic history-taking; the structural interview opens with the present problem and expectations.",
+      "Dreams are not the opening; the interview starts with why the patient came, the difficulties and expectations of treatment."
+    ],
+    "k": "The structural interview opens: what brought you, what are your difficulties, what do you expect from treatment?",
+    "h": "Why here, what's wrong, what do you hope for?",
+    "r": "Clarkin Ch5 – Initial phase"
+  },
+  {
+    "t": "Ch5 Structural interview",
+    "d": 2,
+    "q": "Besides content, what does the interviewer attend to in every section?",
+    "o": [
+      "Form of answers, difficulty responding, attitude to problems",
+      "Only the factual content of what the patient reports",
+      "Only the patient's appearance and dress",
+      "Only the interviewer's own feelings"
+    ],
+    "e": "In every section, the interviewer attends not only to content but to form: how answers are given (coherent or tangential), difficulties in responding (confusion, evasiveness, irritation), and the patient's attitude toward their problems (curious, denying, blaming others). Form often reveals structure better than content: an integrated person describes problems with nuance, while identity diffusion shows in contradictions the patient cannot reconcile.",
+    "w": [
+      "Content alone misses how the patient handles the questions.",
+      "Appearance is noted, but form, difficulties and attitude matter more.",
+      "The interviewer's feelings help, but form and attitude are what's named here."
+    ],
+    "k": "Attend to form, difficulty responding and attitude to problems, not just content.",
+    "h": "How they answer tells you as much as what they answer.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Depression",
+    "d": 2,
+    "q": "Which three kinds of depression must be distinguished?",
+    "o": [
+      "Biological, characterological, and appropriate to life circumstances",
+      "Mild, moderate and severe, according to symptom counts",
+      "Unipolar, bipolar and psychotic, according to DSM",
+      "Seasonal, postpartum and atypical, according to specifiers"
+    ],
+    "e": "Depression in personality-disordered patients can be biological (a mood disorder with consistent neurovegetative signs such as sleep, appetite and energy changes, usually responsive to medication), characterological (rooted in personality structure and object relations, for example chronic emptiness or self-devaluation), or appropriate to the person's life circumstances (a reasonable response to real losses). The distinction guides treatment: medication, psychotherapy, or support.",
+    "w": [
+      "Mild, moderate and severe are severity levels, not these three kinds.",
+      "Unipolar, bipolar and psychotic are DSM categories, not these three kinds.",
+      "Seasonal, postpartum and atypical are specifiers, not these three kinds."
+    ],
+    "k": "Distinguish biological, characterological, and circumstantial (appropriate) depression.",
+    "h": "Body, character, or circumstances?",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Depression",
+    "d": 3,
+    "q": "The 35-year-old woman lay in bed thinking of the fame she'd have as an author but for her 'incurable depression'. What did this reveal?",
+    "o": [
+      "Grandiose self-representations suggesting narcissistic pathology",
+      "Biological melancholia requiring a new antidepressant",
+      "Psychotic delusions of grandeur requiring neuroleptics",
+      "Normal sadness at the loss of a writing career"
+    ],
+    "e": "While lying in bed 'depressed', she fantasized about the fame she would have as an author were it not for her 'incurable depression'. That revealed grandiose self-representations, with the depression functioning partly as an excuse that protects a grandiose self from testing. It alerted the therapist to narcissistic pathology. The final diagnosis was borderline organization with narcissistic features and characterological depression.",
+    "w": [
+      "The pattern pointed to character, not a biological melancholia.",
+      "There was no psychotic delusion; reality testing was intact.",
+      "It wasn't simple sadness at a loss; it revealed a grandiose fantasy."
+    ],
+    "k": "Grandiose fantasies inside 'depression' point to narcissistic pathology and characterological depression.",
+    "h": "'I'd be famous if not for my depression' = grandiosity in disguise.",
+    "r": "Clarkin Ch5 – case"
+  },
+  {
+    "t": "Ch5 Identity",
+    "d": 2,
+    "q": "How is identity assessed in the structural interview?",
+    "o": [
+      "By asking for descriptions of self and significant others and judging their depth and integration",
+      "By administering a standardized identity questionnaire and comparing it with norms",
+      "By IQ testing, since integration of identity depends mainly on intelligence",
+      "By asking about dreams, which reveal the unconscious identity structure"
+    ],
+    "e": "The interviewer asks the patient to describe themselves ('what is important for me to know to get a real feeling for you as a person?') and then significant others. A lucid, multilayered description, with good and bad qualities combined into a believable person, indicates an integrated identity. Vague, contradictory or one-sided descriptions (all good or all bad) point to identity diffusion. Identity is judged from the quality of these descriptions, not from a questionnaire score.",
+    "w": [
+      "Identity is judged clinically from descriptions, not from a standardized questionnaire.",
+      "Identity integration isn't measured by IQ; very intelligent patients can have severe identity diffusion.",
+      "Dreams are not the method used in the structural interview."
+    ],
+    "k": "Identity is assessed by asking for descriptions of self and significant others and judging their depth and integration.",
+    "h": "Can they paint a 3D portrait of themselves and others?",
+    "r": "Clarkin Ch5 – Middle phase"
+  },
+  {
+    "t": "Ch5 Identity",
+    "d": 2,
+    "q": "The patient calls her father 'like Hitler' and later says 'he does his best'; confronted, she reverts to 'He was like Hitler'. This indicates:",
+    "o": [
+      "Split internal structure and identity diffusion",
+      "Integrated identity with normal ambivalence",
+      "Psychotic loss of reality testing",
+      "Accurate perception of a complex father"
+    ],
+    "e": "She describes her father as 'like Hitler' and later as someone who 'does his best'. Two partial representations exist side by side, unconnected. When the interviewer tactfully confronts the contradiction, she cannot integrate them and simply reverts to 'He was like Hitler'. An integrated person would say something like 'he could be harsh, but he tried'. The inability to integrate when confronted shows a split structure and identity diffusion.",
+    "w": [
+      "Normal ambivalence integrates both views into one person; she can't.",
+      "Reality testing is intact; the problem is splitting, not psychosis.",
+      "An accurate complex perception would hold both views together."
+    ],
+    "k": "Contradictory views of the same person that can't be integrated when confronted = splitting and identity diffusion.",
+    "h": "Two fathers in one head who never meet.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Past",
+    "d": 2,
+    "q": "When exploring the past of BPO patients, which two elements matter most?",
+    "o": [
+      "Meaningful relationships (good sign) and antisocial behavior (bad sign)",
+      "School grades (good sign) and the number of hobbies and leisure activities (bad sign)",
+      "Birth order (good sign) and number of siblings (bad sign)",
+      "Recurrent dreams (good sign) and fantasies (bad sign)"
+    ],
+    "e": "With borderline patients, the past is explored only along general lines, since memories are coloured by current splitting. Two elements matter most for prognosis: the presence of meaningful interpersonal relationships (a good sign, showing capacity for attachment) and antisocial behaviour (a bad sign, reflecting superego pathology). These mirror the chapter 1 prognostic factors: intense relationships and superego integrity.",
+    "w": [
+      "School grades and hobbies are not the key prognostic elements.",
+      "Birth order and number of siblings are not named.",
+      "Dreams and fantasies are not the prognostic markers here."
+    ],
+    "k": "In the past of BPO patients, look for meaningful relationships (good sign) and antisocial behaviour (bad sign).",
+    "h": "Did they ever love someone? Did they ever break the law?",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Reality testing",
+    "d": 2,
+    "q": "How does the structural interview differentiate BPO from psychosis?",
+    "o": [
+      "Tactfully confront strangeness; empathizing with the interviewer's puzzlement shows intact reality testing",
+      "Order brain imaging to rule out an organic cause before making any structural diagnosis at all",
+      "Ask about a family history of schizophrenia, which decides between BPO and psychosis",
+      "Use the IQ score, since low intelligence indicates loss of reality testing"
+    ],
+    "e": "To test reality testing, the interviewer tactfully confronts something strange in the patient's behaviour or speech, sharing their own puzzlement: 'I'm a bit confused by this; how would you understand my reaction?' A patient who can empathize with the interviewer's view, recognizing how it looks by ordinary social criteria, has intact reality testing (personality disorder). Inability to do so suggests psychosis or organic illness.",
+    "w": [
+      "Brain imaging is not how the structural interview tests reality testing.",
+      "Family history doesn't decide between BPO and psychosis.",
+      "IQ is not the criterion; reality testing is assessed by confrontation."
+    ],
+    "k": "Reality testing: tactfully confront strangeness; if the patient can see the interviewer's view, reality testing is intact (BPO).",
+    "h": "Can they see what you see when you show them?",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Reality testing",
+    "d": 2,
+    "q": "Asked if she's convinced people on the bus talk about her, the patient says 'How do I know? You think I can read minds?' This shows:",
+    "o": [
+      "Capacity to consider alternative views",
+      "A fixed, unshakeable delusion",
+      "Manic grandiosity and pressured speech",
+      "Dementia with memory impairment"
+    ],
+    "e": "Asked whether she is convinced people on the bus talk about her, she answers 'How do I know? You think I can read minds?' The reply is irritable, but it shows she can consider that she might be wrong, that there are alternative points of view. A delusional patient would insist with certainty. So reality testing is intact despite the paranoid flavour.",
+    "w": [
+      "A fixed delusion would be held with certainty; she admits uncertainty.",
+      "Nothing suggests mania; her angry 'How do I know?' shows trouble considering other views, not pressured speech.",
+      "Dementia would show memory impairment, not this kind of reply."
+    ],
+    "k": "Admitting uncertainty about a suspicious belief shows the capacity to consider alternatives: reality testing intact.",
+    "h": "'How would I know?' = doubt = not delusional.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Structural interview",
+    "d": 1,
+    "q": "A helpful question in the final phase of the structural interview is:",
+    "o": [
+      "'What do you think I should have asked you and have not yet asked?'",
+      "'Why have you been lying to me during today's interview?'",
+      "'When will you be able to pay the fee for the treatment?'",
+      "'Who referred you here, and what exactly did they tell you?'"
+    ],
+    "e": "The final phase acknowledges that the interview is ending and invites anything not yet covered: 'What do you think I should have asked you and have not yet asked?' It gives the patient a chance to add something important, shows respect for their perspective, and sometimes reveals what they were afraid to bring up. Accusatory, administrative or referral questions do not serve this purpose.",
+    "w": [
+      "An accusation of lying would damage the interview and is not the final-phase question.",
+      "Fees belong to contracting, not the interview's final phase.",
+      "Referral details are not the final-phase question."
+    ],
+    "k": "Close the structural interview by asking what you should have asked but haven't.",
+    "r": "Clarkin Ch5 – Final phase"
+  },
+  {
+    "t": "Ch5 Case",
+    "d": 3,
+    "q": "Why was the patient's depression judged characterological rather than biological?",
+    "o": [
+      "Links to object relations, inconsistent neurovegetative signs, poor response to repeated medication",
+      "A family history of bipolar disorder and a good past response to mood stabilizers and lithium",
+      "Psychotic features with mood-congruent delusions during episodes",
+      "A good response to ECT and to tricyclic antidepressants in the past"
+    ],
+    "e": "The depression was judged characterological, rooted in personality, for several reasons: its clinical features, its clear links to the patient's internal object relations (for example the grandiose fantasies), the lack of consistent neurovegetative symptoms, and its poor response to repeated medication trials. Biological depression would show consistent physical signs and respond better to medication.",
+    "w": [
+      "Bipolar family history and good response to lithium would point toward a biological mood disorder.",
+      "Mood-congruent psychotic features would suggest a biological, possibly psychotic depression.",
+      "A good response to ECT and tricyclics would suggest biological depression."
+    ],
+    "k": "Characterological depression: tied to object relations, inconsistent neurovegetative signs, poor response to medication.",
+    "h": "Doesn't respond to pills, does respond to meaning.",
+    "r": "Clarkin Ch5 – Summary"
+  },
+  {
+    "t": "Ch5 STIPO",
+    "d": 2,
+    "q": "The STIPO assesses how many essential constructs?",
+    "o": [
+      "Seven: identity, coping/rigidity, defenses, reality testing, object relations, aggression, values",
+      "Five: identity, primitive defenses, reality testing, object relations and aggression, without values",
+      "Three: subjective experience, observable behavior and psychological structure",
+      "Nine: the DSM criteria for borderline personality disorder"
+    ],
+    "e": "The STIPO (Structured Interview of Personality Organization) assesses seven constructs: identity, coping and rigidity, primitive defenses, reality testing, quality of object relations, aggression, and moral values. Together they place a patient on Kernberg's spectrum of personality organization in a standardized, scorable way suited to research.",
+    "w": [
+      "Five leaves out coping/rigidity and moral values.",
+      "Three describes the clinical assessment's broad areas, not the STIPO constructs.",
+      "Nine is the number of DSM criteria for BPD, not the STIPO."
+    ],
+    "k": "STIPO's seven constructs: identity, coping/rigidity, primitive defenses, reality testing, object relations, aggression, moral values.",
+    "r": "Clarkin Ch5 – STIPO"
+  },
+  {
+    "t": "Ch5 STIPO",
+    "d": 2,
+    "q": "Compared with high-level BPO, low-level BPO is most prominently worse in:",
+    "o": [
+      "Object relations, aggression, and absence of organized values",
+      "Intelligence, memory, abstract reasoning and language",
+      "Reality testing, which is completely lost",
+      "Coping style and rigidity only"
+    ],
+    "e": "Low-level BPO is distinguished from high-level BPO most prominently by poor object relations (little empathy, exploitative relationships), dangerous aggression, and absence of organized values (antisocial features). These map onto chapter 1's view that aggression and superego pathology drive severity. Reality testing remains intact in both, and intelligence is not the defining difference.",
+    "w": [
+      "Intelligence and cognition are not what separates the levels.",
+      "Reality testing is not completely lost in BPO; that would be psychosis.",
+      "Coping and rigidity alone don't define low-level BPO."
+    ],
+    "k": "Low-level BPO: worse object relations, dangerous aggression, and absent organized values.",
+    "h": "Lower level: colder bonds, hotter aggression, missing moral compass.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 STIPO",
+    "d": 2,
+    "q": "What is the main advantage of the STIPO over the structural interview?",
+    "o": [
+      "Standardized gathering and objective scoring for research",
+      "Greater clinical intuition and subtlety than the interview",
+      "A shorter duration that suits busy clinics",
+      "It replaces the need for a treatment contract"
+    ],
+    "e": "The STIPO lacks some of the subtlety and flexibility of the clinical structural interview, but it provides standardized information-gathering and objective scoring, which is essential for research and for comparing patients reliably across clinicians. The structural interview remains better for nuanced clinical understanding.",
+    "w": [
+      "The structural interview is the more subtle, intuitive one.",
+      "Shorter duration isn't the claimed advantage; the STIPO's value is standardized gathering and objective scoring for research.",
+      "No interview replaces the treatment contract, which is a separate step after assessment."
+    ],
+    "k": "STIPO: less subtle than the structural interview, but standardized and objectively scorable (research).",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Indications",
+    "d": 2,
+    "q": "TFP is indicated for BPO patients who have:",
+    "o": [
+      "At least average intelligence and moderate to severe symptoms",
+      "Below-average intelligence and mild symptoms that do not interfere with work",
+      "Antisocial personality disorder",
+      "Only neurotic organization"
+    ],
+    "e": "TFP is indicated for patients with borderline personality organization who have at least average intelligence and moderate to severe symptoms. Self-reflection is an asset but not required, since TFP is designed to build it. Antisocial personality disorder is a contraindication, and neurotic-level patients are better served by other approaches such as psychoanalysis or dynamic therapy.",
+    "w": [
+      "Below-average intelligence and mild symptoms don't match TFP's indication.",
+      "Antisocial personality disorder is practically untreatable by psychotherapy.",
+      "Neurotic organization calls for other treatments; TFP targets BPO."
+    ],
+    "k": "TFP indication: BPO, at least average intelligence, moderate to severe symptoms; self-reflection helps but isn't required.",
+    "h": "Borderline structure, average-plus mind, real symptoms.",
+    "r": "Clarkin Ch5 – Treatment indications"
+  },
+  {
+    "t": "Ch5 Indications",
+    "d": 3,
+    "q": "A suicidal BPO patient with minimal self-reflection who accepts advice (not severely narcissistic) is best suited first for:",
+    "o": [
+      "Dialectical behavior therapy",
+      "Psychoanalysis",
+      "TFP for neurotic organization",
+      "No treatment"
+    ],
+    "e": "For a suicidal borderline patient with minimal self-reflection who accepts advice and is not severely narcissistic, the authors suggest DBT first. DBT's skills, coaching and directive structure fit a patient who can use advice. If the patient doesn't respond, TFP could be attempted. Treatment choice is matched to the patient's characteristics, not one-size-fits-all.",
+    "w": [
+      "Psychoanalysis requires more stability and reflective capacity.",
+      "TFP is for BPO, not neurotic organization, and DBT suits this profile first.",
+      "Withholding treatment from a suicidal patient is never the answer."
+    ],
+    "k": "Suicidal BPO with little self-reflection who accepts advice (not severely narcissistic) → DBT first; TFP if no response.",
+    "h": "Takes advice well → skills first (DBT).",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Indications",
+    "d": 2,
+    "q": "Multiple symptoms, negative attitude toward treatment, few resources, poor adherence history – which approach?",
+    "o": [
+      "Supportive psychotherapy",
+      "Psychoanalysis",
+      "Transference-focused psychotherapy",
+      "Dialectical behavior therapy"
+    ],
+    "e": "A patient with multiple symptoms, a negative attitude toward treatment, few resources and a history of poor adherence is unlikely to manage an intensive expressive treatment. For such borderline patients, the chapter suggests a supportive approach (Rockland's supportive psychotherapy), which strengthens adaptive functioning without the demands of transference interpretation.",
+    "w": [
+      "Psychoanalysis demands far more motivation and resources.",
+      "TFP needs a capacity to commit to a demanding frame.",
+      "DBT also requires commitment; the chapter points to supportive therapy here."
+    ],
+    "k": "Many symptoms, negative attitude, few resources, poor adherence → supportive psychotherapy (Rockland).",
+    "h": "Little fuel in the tank → supportive therapy.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Indications",
+    "d": 2,
+    "q": "Which characteristic predicts that treatment will be DIFFICULT?",
+    "o": [
+      "Severe arrogance interfering with learning from the therapist",
+      "Strong motivation for change despite severe symptoms",
+      "Above-average intelligence and some real talent",
+      "Taking responsibility for the treatment and its conditions"
+    ],
+    "e": "The chapter lists prognostic factors. Negatives: antisocial behaviour, severe arrogance that interferes with learning from the therapist, strong secondary gain, poor object relations, disruption by substances, and an unchangeable, very difficult life situation. Positives: motivation, time available, taking responsibility, intelligence, talent and attractiveness. Severe arrogance is negative because it blocks taking anything in from the therapist.",
+    "w": [
+      "Strong motivation for change is a favourable prognostic factor, even when symptoms are severe.",
+      "Above-average intelligence and talent are positive factors.",
+      "Taking responsibility for the treatment and its conditions is a favourable prognostic factor."
+    ],
+    "k": "Negative prognostic signs include antisocial behaviour, severe arrogance, secondary gain, poor object relations and substance disruption.",
+    "h": "Arrogance shuts the door the therapist needs to walk through.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "According to Soloff (Table 5–2), first-choice medication for affective dysregulation is:",
+    "o": [
+      "SSRIs",
+      "Low-dose neuroleptics",
+      "Clozapine",
+      "MAOIs"
+    ],
+    "e": "Soloff's algorithm (Table 5–2) matches medication to symptom domains in borderline patients. For affective dysregulation (mood lability, depression, anger), the first choice is SSRIs, the second MAOIs, and the third mood stabilizers. Low-dose neuroleptics are for cognitive-perceptual symptoms. Medication in TFP is an adjunct for specific symptom domains, not a substitute for the psychotherapy, and its meaning to the patient is explored like anything else.",
+    "w": [
+      "Low-dose neuroleptics are Soloff's first choice for cognitive-perceptual symptoms, not affective dysregulation.",
+      "Clozapine is a late option for impulsive-behavioural dyscontrol.",
+      "MAOIs are the second choice for affective dysregulation."
+    ],
+    "k": "Soloff, affective dysregulation: 1st SSRIs, 2nd MAOIs, 3rd mood stabilizers.",
+    "h": "Mood swings start with SSRIs.",
+    "r": "Clarkin Ch5 – Table 5–2"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "Cognitive-perceptual symptoms are targeted with:",
+    "o": [
+      "Low-dose neuroleptics",
+      "SSRIs first, then MAOIs, then mood stabilizers",
+      "Lithium only",
+      "Benzodiazepines"
+    ],
+    "e": "Cognitive-perceptual symptoms in borderline patients (suspiciousness, ideas of reference, brief transient psychotic-like experiences, dissociation) are targeted with low-dose neuroleptics in Soloff's algorithm (Table 5–2). The SSRI → MAOI → mood-stabilizer sequence is for affective dysregulation. These symptoms are often transient and stress-related in borderline patients, so doses are low and the need is reviewed regularly; the transference meaning of taking medication is still explored.",
+    "w": [
+      "SSRIs, then MAOIs, then mood stabilizers is the affective dysregulation sequence.",
+      "Lithium alone is not the recommendation for cognitive-perceptual symptoms.",
+      "Benzodiazepines are not recommended for these symptoms."
+    ],
+    "k": "Soloff, cognitive-perceptual symptoms: low-dose neuroleptics.",
+    "r": "Clarkin Ch5 – Table 5–2"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 3,
+    "q": "For impulsive-behavioral dyscontrol, what is the fourth choice in Table 5–2?",
+    "o": [
+      "Clozapine",
+      "SSRIs",
+      "Lithium",
+      "Divalproex"
+    ],
+    "e": "For impulsive-behavioural dyscontrol, Table 5–2 lists: first SSRIs and related antidepressants; second MAOIs (with caution) or lithium; third divalproex or carbamazepine; fourth clozapine. Clozapine comes last because of its serious side effects and monitoring requirements. The order reflects increasing risk and monitoring burden: safer, better-studied options first, and clozapine (which requires blood monitoring) only when others have failed.",
+    "w": [
+      "SSRIs are the first choice for impulsive-behavioral dyscontrol, not the fourth.",
+      "Lithium is an earlier-line option for impulsive dyscontrol, before clozapine.",
+      "Divalproex is an earlier-line option for impulsive dyscontrol, before clozapine."
+    ],
+    "k": "Soloff, impulsive-behavioural dyscontrol: SSRIs → MAOIs or lithium → divalproex/carbamazepine → clozapine.",
+    "h": "Clozapine is the last resort for impulsivity.",
+    "r": "Clarkin Ch5 – Table 5–2"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "Alexopoulos recommends keeping a BPD patient on a medication only if:",
+    "o": [
+      "Clear continued benefit after 3+ months, trying one drug at a time",
+      "The patient asks to continue it and reports feeling better",
+      "It worked well during the first week of treatment",
+      "It is inexpensive and covered by insurance"
+    ],
+    "e": "Alexopoulos recommends systematic, successive, response-based trials of one medication at a time, keeping a drug only if there is clear, continuing benefit after at least 3 months. This prevents polypharmacy, which is common in borderline patients, where many drugs accumulate without clear benefit. Patient preference or a good first week is not enough.",
+    "w": [
+      "Patient preference alone isn't the criterion; clear benefit is.",
+      "One good week is not sustained benefit.",
+      "Cost and insurance are not clinical criteria."
+    ],
+    "k": "Medication in BPD: one drug at a time; keep it only with clear continuing benefit after ≥3 months.",
+    "h": "One at a time, three months, clear gain, or let it go.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "How do labile mood and true hypomania differ (Table 5–1)?",
+    "o": [
+      "Labile mood is marked by the rapidity of mood changes",
+      "Labile mood always involves psychotic features",
+      "Labile mood and hypomania are identical states",
+      "Hypomania changes faster than labile mood"
+    ],
+    "e": "Borderline mood lability can resemble hypomania, mania or depression. Table 5–1's distinguishing feature is the rapidity of mood changes: borderline lability shifts within hours or in reaction to interpersonal events, whereas a true hypomanic episode is a sustained change lasting days. Getting this right avoids misdiagnosing bipolar disorder and overmedicating.",
+    "w": [
+      "Labile mood does not usually involve psychotic features.",
+      "They are different states, distinguished by the speed of change.",
+      "Hypomania is sustained; labile mood changes faster."
+    ],
+    "k": "Borderline labile mood is distinguished from hypomania by the rapidity of mood changes.",
+    "h": "Lability flips by the hour; hypomania lasts for days.",
+    "r": "Clarkin Ch5 – Table 5–1"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 3,
+    "q": "A patient develops panic attacks during TFP. The authors' usual first view is:",
+    "o": [
+      "Usually a response to transference or life events, resolved by understanding its meaning",
+      "Always a comorbid anxiety disorder that requires medication before therapy continues",
+      "A reason to stop TFP and switch to a structured cognitive-behavioral treatment",
+      "Malingering, aimed at obtaining benzodiazepines or extra sessions"
+    ],
+    "e": "When anxiety or panic symptoms appear during TFP, the authors' first view is that they usually represent responses to the transference or to life events, and understanding their origin and meaning usually leads to resolution. They are explored rather than automatically medicated. True comorbid episodes, such as a genuine panic disorder, do need biological treatment.",
+    "w": [
+      "They are not always a comorbid disorder; usually they reflect the transference or events.",
+      "Stopping TFP is not the first response; the symptom is explored.",
+      "The authors don't assume malingering; new panic usually reflects transference or life events and is understood first."
+    ],
+    "k": "New symptoms (e.g., panic) during TFP are usually responses to the transference or life events; explore their meaning first.",
+    "h": "First ask what the panic is saying.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "From which three vantage points should the meaning of medication be assessed?",
+    "o": [
+      "Conscious beliefs, the current transference, the countertransference",
+      "Cost, dose, side-effect profile and the patient's insurance coverage",
+      "Family, school and work environment",
+      "Diagnosis, prognosis and insurance coverage"
+    ],
+    "e": "Medication carries psychological meaning, assessed from three vantage points. The patient's conscious beliefs and fantasies ('pills mean I'm crazy' or 'pills will fix everything'). Its meaning in the current transference (a gift, a poison, proof the therapist gave up on talking). And its meaning in the countertransference (is the therapist prescribing out of hopelessness or a wish for distance?).",
+    "w": [
+      "Cost, dose and side effects are practical, not the three meaning vantage points.",
+      "Family, school and work are environments, not the vantage points.",
+      "Diagnosis, prognosis and insurance don't address the meaning of medication."
+    ],
+    "k": "Assess medication's meaning from the patient's conscious beliefs, the transference and the countertransference.",
+    "h": "What the pill means to them, between you, and to you.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "When might a therapist be tempted to turn to medication for countertransference reasons?",
+    "o": [
+      "When feeling powerless, hopeless, de-skilled, or wanting distance",
+      "Only when the symptoms are clearly biological in origin",
+      "Never; medication decisions are free of countertransference",
+      "When the patient is improving and wants to consolidate gains"
+    ],
+    "e": "Therapists may turn to medication for countertransference reasons: when they feel powerless or hopeless, when the patient makes them feel de-skilled, or when they want distance from an exhausting patient. Prescribing then becomes an acting out, a way of doing something instead of understanding the dyad. Noticing these motives helps the therapist decide on medication for clinical reasons only.",
+    "w": [
+      "Clearly biological symptoms are a clinical reason, not a countertransference one.",
+      "Medication decisions can be shaped by countertransference.",
+      "Consolidating gains is a clinical decision, not the countertransference temptation."
+    ],
+    "k": "Countertransference can push toward medication: feeling powerless, hopeless, de-skilled, or wanting distance.",
+    "h": "When you reach for the prescription pad, ask whether you're reaching for distance.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 3,
+    "q": "Biological vs psychological self-representation in combined treatment: how can either be used defensively?",
+    "o": [
+      "Blaming chemistry to avoid conflict, or denying medication's role (noncompliance, minimizing)",
+      "Neither view can be used defensively, since both are scientifically valid",
+      "Only the biological view can be defensive; the psychological view is always accurate",
+      "Only the psychological view can be defensive; the biological view is always accurate"
+    ],
+    "e": "In combined treatment, both perspectives can be used defensively. A patient may attribute everything to chemistry ('it's my serotonin') to avoid looking at conflicts. Or a patient may deny medication's role through noncompliance or by minimizing the improvement it brought, perhaps because needing a drug feels like defeat. The therapist interprets these positions instead of taking sides.",
+    "w": [
+      "Both views can be used defensively, even if both are valid in principle.",
+      "The psychological view can also be defensive (for example denying a drug's help).",
+      "The biological view can also be defensive (for example blaming chemistry)."
+    ],
+    "k": "Patients can defend by blaming chemistry or by denying medication's role; interpret both positions.",
+    "h": "'It's just my brain' and 'I don't need pills' can both be hiding places.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "What physical contact limit is stated for the therapist?",
+    "o": [
+      "No physical examination; at most taking blood pressure",
+      "Full physical examinations are fine if medically trained",
+      "No contact at all, not even taking blood pressure",
+      "Physical examinations only for medicated patients"
+    ],
+    "e": "The chapter states that a therapist should never conduct a physical examination of a psychotherapy patient; the limit is taking blood pressure (for example when monitoring medication). Physical examination would blur the frame, stimulate fantasies, and complicate the transference. Medical examinations are done by another physician.",
+    "w": [
+      "Full physical examinations are not done by the therapist, even if medically trained.",
+      "Taking blood pressure is the one allowed contact; physical examinations are excluded.",
+      "The limit applies to all patients, not just medicated ones."
+    ],
+    "k": "The therapist never physically examines the patient; at most, takes blood pressure.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "If the therapist also prescribes, what practical arrangement protects the therapy?",
+    "o": [
+      "A fixed slot (e.g., weekly at session start); medication talk outside it is examined",
+      "Discuss medication whenever the patient raises it, to show responsiveness",
+      "Never discuss medication in sessions; send all questions to a colleague",
+      "Hand over prescriptions at the door without any discussion"
+    ],
+    "e": "When the therapist also prescribes, a fixed slot, for example a few minutes at the start of a session weekly, lets medication be monitored without taking over the therapy. If the patient brings up medication at other times, that can be examined as possible avoidance or trivialization of the therapeutic work. The structure keeps the two functions separate.",
+    "w": [
+      "Discussing medication whenever raised lets it become an escape from the therapy.",
+      "Never discussing it isn't workable if the therapist is the prescriber.",
+      "Handing prescriptions over without discussion ignores monitoring."
+    ],
+    "k": "If the therapist prescribes, use a fixed medication slot; medication talk outside it is examined.",
+    "h": "Medication has its own small window, not the whole house.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 3,
+    "q": "The patient praises the pharmacologist and vilifies the therapist as cold. Which intervention fits?",
+    "o": [
+      "Ask how she reconciles a 'cold' therapist arranging the nurturing pharmacologist",
+      "Agree that he has been too distant and become warmer and more available",
+      "Stop the medication so the split between the two treaters disappears",
+      "Ask the pharmacologist to be colder so both treaters seem the same"
+    ],
+    "e": "The patient idealizes the pharmacologist and calls the therapist cold, a split between two treaters. TFP works with the split rather than changing behaviour: the therapist explores the motives attributed to the 'cold' therapist and points to the contradiction that this 'cold' therapist is the one who arranged the referral to the nurturing pharmacologist, and has been consistently available. The patient is invited to reconcile the two images.",
+    "w": [
+      "Becoming warmer acts on the split instead of interpreting it.",
+      "Stopping medication doesn't resolve the split; it relocates it.",
+      "Changing the pharmacologist's manner manipulates reality rather than interpreting the split."
+    ],
+    "k": "When treaters are split (one ideal, one bad), interpret the split and its contradictions; don't change behaviour to fix it.",
+    "h": "Ask how the 'cold' one arranged the 'warm' one.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 3,
+    "q": "When the pharmacologist is vilified while the therapist is idealized, this often indicates:",
+    "o": [
+      "Split-off negative transference, or paranoid anger censored for fear of retaliation",
+      "Proof of misconduct by the pharmacologist, which the therapist should formally report",
+      "Successful integration of good and bad images of the treaters",
+      "An absence of transference toward the therapist"
+    ],
+    "e": "When the pharmacologist becomes the bad one and the therapist the ideal, it often indicates a split-off negative transference: the anger really belongs in the relationship with the therapist but is censored for fear of retaliation and displaced onto the pharmacologist. It may be a paranoid transference masquerading as idealization. The therapist explores whether the patient is protecting him from her hostility.",
+    "w": [
+      "Vilification doesn't prove misconduct; it is usually split-off transference.",
+      "An idealized therapist and a vilified colleague is splitting, not integration.",
+      "There is transference toward the therapist; its negative part has been displaced."
+    ],
+    "k": "A vilified co-treater with an idealized therapist often means split-off negative (paranoid) transference toward the therapist.",
+    "h": "The anger aimed next door may be meant for you.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "Why prescribe tricyclics weekly or bimonthly rather than monthly?",
+    "o": [
+      "To avoid a lethal supply, which may also be read as indifference or a temptation",
+      "To increase the number of visits, and therefore the clinic's income and the patient's monitoring",
+      "Because pharmacies are legally required to dispense weekly amounts",
+      "For the patient's convenience in remembering to take the tablets"
+    ],
+    "e": "Tricyclic antidepressants are lethal in overdose, and borderline patients are at risk of suicidal acts. Prescribing weekly or every two weeks avoids handing over a lethal supply. The transference matters too: a large supply could be read as indifference ('he doesn't care if I take them all') or as a temptation, and a therapist's medication used in a suicide attempt can express hostility toward the therapist.",
+    "w": [
+      "Clinic income is not the reason; safety is.",
+      "There's no such legal requirement; it's a clinical choice.",
+      "Convenience is not the reason; limiting lethal supply is."
+    ],
+    "k": "Prescribe tricyclics in small amounts to avoid a lethal supply, which also carries transference meaning.",
+    "h": "Never hand over enough to die with.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Medication",
+    "d": 2,
+    "q": "If a patient obtains tranquilizers from several doctors, the first priority is:",
+    "o": [
+      "Determine whether addiction needs detox or a substance program",
+      "Prescribe a larger supply so she stops visiting other doctors",
+      "Ignore it, since it concerns other doctors, not the therapy",
+      "Report her to the police for obtaining controlled drugs"
+    ],
+    "e": "Getting tranquilizers from several doctors raises two issues, in order. First, safety: determine whether there is an addiction requiring inpatient detox or a substance program. Second, honesty: make clear that this kind of dishonesty disables treatment, since therapy cannot work while important facts are hidden. Prescribing more, ignoring it, or calling the police are not appropriate first steps.",
+    "w": [
+      "A larger supply rewards and increases the risk.",
+      "It concerns the therapy directly: it's dishonesty and possible addiction.",
+      "Police involvement is not the clinical first step."
+    ],
+    "k": "A patient doctor-shopping for tranquilizers: first assess addiction (detox or program), then address the dishonesty.",
+    "h": "Safety first, honesty second.",
+    "r": "Clarkin Ch5"
+  },
+  {
+    "t": "Ch5 Combinations",
+    "d": 1,
+    "q": "Which ancillary treatment can be combined with TFP?",
+    "o": [
+      "12-step groups, nutritional therapy, skills training, couples therapy",
+      "A second TFP therapist seen in parallel each week",
+      "Unlimited between-session phone contact with the therapist",
+      "No other treatments; TFP must always be used alone"
+    ],
+    "e": "TFP can be combined with appropriate ancillary treatments: 12-step programs, Weight Watchers, nutritional therapy, internist care, skills training, couples treatment, or a day hospital. What it cannot be combined with is a second individual psychotherapist seen in parallel (this invites splitting) or unlimited phone contact with the TFP therapist (which breaks the frame).",
+    "w": [
+      "A second TFP therapist in parallel invites splitting and is a listed threat.",
+      "Unlimited between-session contact breaks the frame and rewards acting out.",
+      "TFP can be combined with ancillary treatments; it need not be used alone."
+    ],
+    "k": "Ancillary treatments compatible with TFP: 12-step, nutrition, internist, skills training, couples therapy, day hospital.",
+    "h": "Add supports, not a second therapist.",
+    "r": "Clarkin Ch5 – TFP combined with skills"
+  }
+]

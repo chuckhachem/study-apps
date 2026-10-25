@@ -1,0 +1,1016 @@
+[
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "What is the typical sequence for initiating TFP?",
+    "o": [
+      "Evaluation (~3 sessions) → contract (~2–3 sessions) → therapy if both agree",
+      "Contract (~1 session) → evaluation (~3 sessions) → therapy if both agree",
+      "Therapy starts at once → contract added after the first crisis",
+      "Medication review → evaluation → contract only if symptoms persist"
+    ],
+    "e": "TFP begins in three stages. First, evaluation and history, about three sessions. Second, contract setting, about two or three sessions (more in complicated cases). Third, therapy proper, if both patient and therapist agree on the contract. Starting therapy before the contract would mean beginning without the frame that makes exploration safe, so the contract is never added after a crisis.",
+    "w": [
+      "The contract can't come before evaluation; you need to know the patient to tailor it.",
+      "Starting therapy and adding a contract after a crisis is exactly what TFP avoids.",
+      "Medication review is not a gate before evaluation, and the contract isn't conditional on symptoms persisting."
+    ],
+    "k": "TFP sequence: evaluation (~3 sessions) → contract (~2–3 sessions) → therapy if both agree.",
+    "h": "Know them, agree, then begin.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "What are the two aims of the treatment contract?",
+    "o": [
+      "Conditions for exploration (therapist safe to stay neutral) and limiting secondary gain",
+      "Guaranteeing the patient's safety and protecting the therapist from lawsuits",
+      "Establishing the diagnosis and deciding on medication before therapy",
+      "Replacing the therapeutic alliance with a written set of rules"
+    ],
+    "e": "The contract has two aims. First, to establish the conditions for exploration: a frame in which the therapist feels safe enough to stay neutral and think clearly, rather than being pulled into crisis management. Second, to limit secondary gain, so the illness doesn't earn extra access to the therapist, disability benefits or control over others. Both protect the therapy as a space for understanding.",
+    "w": [
+      "Protection from lawsuits is not an aim, and no contract can guarantee safety.",
+      "Diagnosis and medication are decided in evaluation, not by the contract.",
+      "The contract supports the alliance; it doesn't replace it."
+    ],
+    "k": "Contract aims: create conditions for exploration (a neutral, thinking therapist) and limit secondary gain.",
+    "h": "Make room to think; remove the rewards for illness.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "The contract details which set of conditions?",
+    "o": [
+      "The least restrictive set necessary for therapy to unfold",
+      "The maximum set of rules covering every possible event",
+      "Only the fee and the schedule of sessions",
+      "Only the patient's duties, not the therapist's"
+    ],
+    "e": "The contract details the least restrictive set of conditions necessary for therapy to unfold. It is not a rulebook covering every possible event: too many rules would turn therapy into compliance and power struggles. Instead it covers what is essential for this patient (attendance, fee, how to handle suicidality or substance use), tailored to their specific threats to treatment.",
+    "w": [
+      "A maximal rulebook invites power struggles and is not the aim.",
+      "Fee and schedule are included, but the contract also covers the patient's specific threats.",
+      "The contract lists both patient and therapist responsibilities."
+    ],
+    "k": "The contract sets the least restrictive conditions necessary for therapy to unfold.",
+    "h": "As few rules as possible, as many as necessary.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "Which is a patient responsibility in Table 6–1?",
+    "o": [
+      "Reporting thoughts and feelings freely, without censoring, and reflecting on them",
+      "Attending to the schedule, clarifying the limits of involvement, and helping the patient understand",
+      "Making the effort to help the patient understand himself",
+      "Maintaining confidentiality"
+    ],
+    "e": "Table 6–1 divides responsibilities. The patient attends and participates, pays the fee, reports thoughts and feelings freely without censoring, and reflects on them with the therapist. The therapist attends to the schedule, makes the effort to help the patient understand, clarifies the limits of their involvement, and maintains confidentiality (with its exceptions). Free reporting is the patient's core task, just as understanding is the therapist's.",
+    "w": [
+      "Attending to the schedule, clarifying limits and helping understanding are therapist responsibilities.",
+      "Making the effort to help the patient understand is the therapist's responsibility.",
+      "Maintaining confidentiality is a therapist responsibility in Table 6–1; the patient's is free reporting and reflection."
+    ],
+    "k": "Patient: attend, pay, report thoughts and feelings freely, reflect. Therapist: schedule, help understanding, clarify limits, confidentiality.",
+    "r": "Clarkin Ch6 – Table 6–1"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "What analogy do the authors use for refusing to treat a patient who rejects the essential conditions?",
+    "o": [
+      "A surgeon who won't operate without a sterile field",
+      "A teacher who won't teach without homework done",
+      "A lawyer who won't defend a client who lies",
+      "A pilot who won't fly in bad weather"
+    ],
+    "e": "The authors compare it to a surgeon who will not operate without a sterile field. Some conditions are essential for the treatment to work at all; without them, proceeding would be unsafe and ineffective. If a patient rejects the essential conditions, it is better for them to seek another treatment than to start one they object to, and that refusal is not a rejection of the person.",
+    "w": [
+      "The teacher-and-homework image is not the authors' analogy.",
+      "A lawyer refusing a lying client is not the book's image; it uses a surgeon needing a sterile field.",
+      "A pilot refusing bad weather is not the book's image; essential conditions are like a surgeon's sterile field."
+    ],
+    "k": "Refusing to treat without essential conditions is like a surgeon refusing to operate without a sterile field.",
+    "h": "No sterile field, no surgery; no frame, no TFP.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "When is a meeting with the patient's parents or spouse indicated during contracting?",
+    "o": [
+      "When the patient depends on them and they may not grasp the illness or the lack of guarantees",
+      "Always, with every borderline patient, before any treatment begins, regardless of age or dependency",
+      "Never, since involving the family breaks confidentiality",
+      "Only when the patient is a minor living at home"
+    ],
+    "e": "A meeting with parents or a spouse during contracting is indicated when the patient depends on them (financially or practically) and they may not grasp the nature of the illness or that treatment offers no guarantees (for example against suicide). Without this, the therapist may feel counterproductive pressure to be a 'saviour', which pushes him out of the exploratory role. It is not routine for every patient.",
+    "w": [
+      "It is not required for every borderline patient; it depends on dependency and understanding.",
+      "Involving family is possible with consent and is sometimes necessary.",
+      "It isn't limited to minors; adults dependent on family may need it too."
+    ],
+    "k": "Meet parents or spouse when the patient depends on them and they may not understand the illness or the lack of guarantees.",
+    "h": "Tell the family the truth so the therapist isn't cast as a saviour.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Contract",
+    "d": 2,
+    "q": "Agreeing to 'heroic' treatment arrangements is a clue to:",
+    "o": [
+      "Beginning countertransference difficulties that reinforce self-destructiveness",
+      "Excellent dedication that will strengthen the alliance with the patient",
+      "A good prognosis, since the patient has accepted the treatment",
+      "Technical neutrality, since the therapist takes no side"
+    ],
+    "e": "'Heroic' arrangements (unlimited calls, extra sessions, rescuing the patient from consequences) feel like dedication, but they are a clue to beginning countertransference difficulties. They often reinforce the patient's self-destructiveness, by rewarding crises with more involvement. The guideline is to ask what a 'good enough' therapist would do, and examine one's motives for going beyond it.",
+    "w": [
+      "Heroic arrangements often reinforce self-destructiveness rather than strengthening the alliance.",
+      "Acceptance of heroic terms doesn't predict a good outcome.",
+      "Going beyond the frame takes the rescuer's side; it isn't neutral."
+    ],
+    "k": "Heroic treatment arrangements signal countertransference and tend to reinforce self-destructiveness.",
+    "h": "Good enough beats heroic.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Patient responsibilities",
+    "d": 2,
+    "q": "If the patient objects to the attendance requirement, the therapist:",
+    "o": [
+      "Notes the objection as useful, restates attendance as a precondition; not working together is valid",
+      "Drops the attendance requirement for now so the patient will agree to begin treatment",
+      "Interprets the objection in depth to uncover the unconscious meaning before going on",
+      "Ends the evaluation immediately, since an objection shows the patient is unsuitable"
+    ],
+    "e": "The basic parameters, such as attendance, are a sine qua non. If the patient objects, the therapist notes the objection as useful information, restates that attendance is a precondition, and accepts that deciding not to work together is a valid outcome. Interpretations are generally avoided during contracting, because the task is to establish whether treatment is possible, unless there is a risk the patient won't return.",
+    "w": [
+      "Dropping the requirement to secure agreement undermines the frame.",
+      "Deep interpretation is generally avoided during contracting.",
+      "An objection is information, not proof of unsuitability."
+    ],
+    "k": "If the patient objects to a basic condition: note the objection, restate the condition, and accept that not working together is valid.",
+    "h": "Essential conditions are not up for bargaining, but objections are welcome data.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Patient responsibilities",
+    "d": 2,
+    "q": "Why are interpretations generally avoided during the contract-setting phase?",
+    "o": [
+      "The task is to decide whether treatment can occur under minimal conditions",
+      "Interpretation is never used in TFP at any stage of the therapy",
+      "Patients cannot understand interpretations until the midphase",
+      "It wastes time that should be spent on gathering history"
+    ],
+    "e": "During contracting, the task is to decide whether treatment can take place under the minimal necessary conditions, not to start the therapy. Interpreting would blur this and pull the patient into treatment before agreeing to its frame. The therapist uses clarification and confrontation instead. The exception: if there is a risk the patient will not return, an interpretation may be needed to keep the treatment possible.",
+    "w": [
+      "Interpretation is TFP's key technique; it is only postponed during contracting.",
+      "Patients can understand interpretations earlier; the issue is the purpose of the contracting phase.",
+      "The reason is the contracting task, not time spent on history."
+    ],
+    "k": "During contracting, avoid interpretation (use clarification and confrontation); exception: risk of the patient not returning.",
+    "h": "First agree on the rules of the game; then play.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Fee",
+    "d": 2,
+    "q": "Regarding fee policy, what do the authors require?",
+    "o": [
+      "Any policy, as long as it is consistent, stated and followed through",
+      "A fixed fee schedule identical for all therapists and patients",
+      "No fee for borderline patients receiving disability benefits",
+      "Payment only for attended sessions, never for missed ones"
+    ],
+    "e": "The authors don't prescribe a specific fee policy (whether missed sessions are charged, for example). What matters is that the therapist describes a consistent policy, states it clearly, and follows through. Inconsistency invites testing and splitting, and a therapist who can't follow through on the fee will struggle with the rest of the frame.",
+    "w": [
+      "No identical schedule is required for all therapists and patients.",
+      "Disability benefits don't automatically mean no fee.",
+      "Charging for missed sessions is not forbidden; consistency is what matters."
+    ],
+    "k": "Fee policy: any consistent policy, clearly stated and followed through.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Fee",
+    "d": 3,
+    "q": "A patient stops paying while raging that her deprived past should exempt her from adult responsibilities. The therapist should:",
+    "o": [
+      "Raise the unpaid bill, since nonpayment acts out the theme she discusses",
+      "Waive the fee for now, given her history of early deprivation",
+      "Avoid the topic to keep her anger away from the therapist",
+      "Terminate treatment immediately for breach of contract"
+    ],
+    "e": "She stops paying while raging that her deprived childhood should exempt her from adult responsibilities. Nonpayment is the theme she is talking about, acted out in the frame. The therapist must raise the unpaid bill: his reluctance to do so likely reflects the transference meaning of the material (for example being cast as the depriving parent). Nonpayment is always treated as acting out in relation to the frame.",
+    "w": [
+      "Waiving the fee enacts the theme of exemption instead of exploring it.",
+      "Avoiding the topic keeps her anger out of the transference.",
+      "Immediate termination skips exploring the meaning of the acting out."
+    ],
+    "k": "Nonpayment is acting out in relation to the frame: raise it, especially when it mirrors the theme being discussed.",
+    "h": "She's not just talking about being exempt; she's living it with you.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Fee",
+    "d": 2,
+    "q": "What does stating the fee in a neutral way communicate?",
+    "o": [
+      "The fee pays for time and effort, not outcome, so progress can't reward or punish him",
+      "The therapist is greedy, which the patient will inevitably notice and resent",
+      "Payment guarantees a good outcome, which motivates the patient to attend",
+      "The patient owes gratitude in addition to money for the therapist's help"
+    ],
+    "e": "Stating the fee neutrally communicates that it pays for the therapist's time and effort, not for an outcome. So the patient's progress cannot reward the therapist, and lack of progress cannot punish him, which protects neutrality. When patients develop attitudes about the therapist's investment in their improvement ('you just want me better for your own pride'), those attitudes can be analysed as transference.",
+    "w": [
+      "Stating a fee neutrally does not imply greed; the point is separating payment from outcome.",
+      "The fee buys time and effort, never an outcome; tying payment to results would let progress reward or punish.",
+      "The fee is payment for time, not a demand for gratitude."
+    ],
+    "k": "A neutrally stated fee pays for time and effort, not outcome, so progress can't reward or punish the therapist.",
+    "h": "Pay for the hours, not the results.",
+    "r": "Clarkin Ch6 – Statement of fee"
+  },
+  {
+    "t": "Ch6 Method",
+    "d": 2,
+    "q": "Besides speaking freely, which must the patient bring up BEFORE anything else?",
+    "o": [
+      "Anything risking harm to self/others or the treatment's continuity",
+      "Dreams from the previous night, before they are forgotten",
+      "Childhood memories that come up during the week",
+      "Questions about the therapist's personal life"
+    ],
+    "e": "The patient is asked to speak freely, with one exception that comes first: anything that risks harm to self or others, or to the continuity of the treatment (for example plans to drop out, suicidal intent, or a dangerous situation), must be raised before anything else. This mirrors the priority hierarchy: danger and the treatment's survival outrank all other material.",
+    "w": [
+      "Dreams are welcome, but they don't take precedence over risks.",
+      "Childhood memories come up freely but are not the priority.",
+      "Questions about the therapist's life are not what must come first."
+    ],
+    "k": "Free speech with one rule: risks to self, others or the treatment's continuity must be brought up first.",
+    "h": "Danger first, then whatever comes to mind.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Therapist responsibilities",
+    "d": 2,
+    "q": "In the sample statement, how much notice does the therapist give of planned absences?",
+    "o": [
+      "At least 1 month, unless an emergency",
+      "At least 1 day, unless an emergency",
+      "At least 1 week, unless an emergency",
+      "No set notice; absences are announced as they arise"
+    ],
+    "e": "The sample contract states the therapist's commitment: barring an emergency, he will announce planned absences at least one month in advance, and sessions are twice a week for 45 minutes. Reliable notice gives the patient time to anticipate and work through reactions to separations, which often trigger intense transference, rather than being blindsided.",
+    "w": [
+      "One day's notice would leave no time to work through the separation.",
+      "One week's notice is shorter than the sample statement's commitment.",
+      "The sample statement sets a clear notice period."
+    ],
+    "k": "Sample contract: the therapist gives at least one month's notice of planned absences (sessions twice weekly, 45 minutes).",
+    "r": "Clarkin Ch6 – Scheduling"
+  },
+  {
+    "t": "Ch6 Therapist responsibilities",
+    "d": 2,
+    "q": "How many sessions per week do the authors teach as the minimum for TFP?",
+    "o": [
+      "Two",
+      "One",
+      "Four",
+      "Five"
+    ],
+    "e": "The authors teach two sessions per week as the minimum for TFP, which provides enough continuity for the transference to develop and be worked with, and enough containment for borderline intensity. Once-weekly TFP was being studied for feasibility at the time of writing. Four or five sessions per week describes psychoanalysis.",
+    "w": [
+      "Once weekly was only being observed for feasibility, not taught as the standard.",
+      "Four sessions per week is a psychoanalytic frequency.",
+      "Five sessions is a classical psychoanalytic frequency."
+    ],
+    "k": "TFP minimum: two sessions per week.",
+    "h": "Twice a week keeps the thread unbroken.",
+    "r": "Clarkin Ch6 – footnote"
+  },
+  {
+    "t": "Ch6 Confidentiality",
+    "d": 2,
+    "q": "What is the exception to confidentiality in the contract?",
+    "o": [
+      "If the patient poses a threat to his own or someone else's life",
+      "If the family asks for information about the treatment",
+      "If the patient misses several sessions without notice",
+      "There is no exception; confidentiality is absolute"
+    ],
+    "e": "Confidentiality has one exception in the contract: if the patient poses a threat to their own or someone else's life, the patient forces the therapist to take the necessary steps to protect them or others, possibly violating confidentiality. Framing it this way places responsibility for the breach on the patient's behaviour, not on the therapist's choice. Family requests or missed sessions are not exceptions.",
+    "w": [
+      "Family requests don't override confidentiality; only a threat to the patient's or someone else's life does.",
+      "Missed sessions are not an exception to confidentiality.",
+      "Confidentiality is not absolute; threats to life are the exception."
+    ],
+    "k": "Confidentiality exception: a threat to the patient's or someone else's life.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Emergencies",
+    "d": 2,
+    "q": "In TFP, what counts as an emergency justifying a between-session call?",
+    "o": [
+      "A major unforeseen event (death of a parent, cancer diagnosis, house fire)",
+      "Feeling upset or suicidal in the usual, chronic way after a stressful day",
+      "Wanting to talk about something important before the next session",
+      "Disagreeing strongly with something the therapist said in session"
+    ],
+    "e": "In TFP an emergency is a major, unforeseen event, such as the death of a parent, a cancer diagnosis, or a house fire. Chronic feelings, including chronic suicidal feelings after a hard day, are not emergencies in this sense: the patient deals with them outside sessions (using agreed plans) or goes to the emergency room. This keeps the therapist out of the loop of chronic crises and prevents secondary gain.",
+    "w": [
+      "Chronic, familiar suicidal feelings are handled by the safety plan or ER, not therapist calls.",
+      "Something important can wait for the next session.",
+      "Disagreeing with the therapist is material for the next session, not a major unforeseen emergency."
+    ],
+    "k": "A between-session emergency is a major unforeseen event (death, diagnosis, fire), not chronic distress.",
+    "h": "Unforeseen catastrophe, yes; familiar storm, no.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Emergencies",
+    "d": 3,
+    "q": "A narcissistic patient becomes intensely anxious, even suicidal, as dependency on the therapist emerges. What may the therapist do?",
+    "o": [
+      "Acknowledge it, confirm it may be needed for change, allow calls during urges, state availability",
+      "Refuse all contact between sessions, since any phone call would gratify dependency and secondary gain",
+      "Hospitalize immediately, since suicidal ideation always requires admission",
+      "End therapy, since the patient cannot tolerate the treatment frame"
+    ],
+    "e": "In chronic narcissistic or paranoid transferences, the emergence of dependency on the therapist can itself trigger an emergency: needing someone feels unbearable and dangerous. Here the therapist may acknowledge what is happening, confirm that this painful experience may be necessary for change, allow calls during urges, and state availability. This exception supports the work, because the crisis is a transference development, not routine acting out.",
+    "w": [
+      "Refusing all contact ignores that this crisis is a transference development that may need support.",
+      "Suicidal ideation doesn't always require admission; it requires assessment.",
+      "Ending therapy abandons the patient at the moment of real change."
+    ],
+    "k": "Emerging dependency can create a genuine transference emergency in narcissistic patients; acknowledge it and allow limited contact.",
+    "h": "For the patient who never needed anyone, needing you can feel like dying.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 3,
+    "q": "Which patient response is MOST promising for collaboration?",
+    "o": [
+      "'Yes, but…' – thoughtful reservations while considering the conditions",
+      "Enthusiastic, total agreement with every condition, without any questions or reservations",
+      "'Let's stop obsessing about details and get to work'",
+      "'If I have to agree, you're not the doctor for me'"
+    ],
+    "e": "Thoughtful reservations ('yes, but…') show the patient is really considering the conditions and can voice disagreement, which predicts collaboration. Enthusiastic total agreement may be compliance that hides objections that will later be acted out; the therapist should wonder aloud about it. Dismissing the details or rejecting the therapist outright signals contempt or entitlement.",
+    "w": [
+      "Total agreement without questions may be compliance; the therapist should wonder about it.",
+      "Dismissing the details as 'obsessing' devalues the frame.",
+      "'If I have to agree, you're not for me' rejects the frame outright."
+    ],
+    "k": "'Yes, but…' with thoughtful reservations is the most promising response to the contract; total agreement deserves curiosity.",
+    "h": "Objections spoken now are objections not acted out later.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 2,
+    "q": "Rejection of the contract is especially frequent with:",
+    "o": [
+      "Narcissistic borderline patients offended in their entitlement",
+      "Dependent patients who fear losing the therapist if they object",
+      "Neurotic patients with excessive guilt",
+      "Children and adolescents brought by parents"
+    ],
+    "e": "Narcissistic borderline patients often react to the contract with massive refusal, because conditions offend their sense of entitlement: being asked to follow rules feels like humiliation and an attack on their specialness. Anticipating this helps the therapist present the contract calmly and explore the reaction, rather than taking it personally or softening the conditions.",
+    "w": [
+      "Dependent patients are more likely to over-agree, fearing loss.",
+      "Guilt-ridden neurotic patients tend to comply, not reject.",
+      "Children and adolescents are not the group named."
+    ],
+    "k": "Narcissistic borderline patients are especially likely to reject the contract, feeling their entitlement offended.",
+    "h": "'Rules are for other people' = narcissistic refusal.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 2,
+    "q": "What distinguishes contracting in TFP from cognitive therapies?",
+    "o": [
+      "The therapist actively pursues the patient's response instead of assuming acceptance",
+      "TFP has no contract at all, while cognitive therapy uses a written one",
+      "Cognitive therapy uses longer, more detailed contracts than TFP does",
+      "In TFP the contract is written by the patient rather than the therapist"
+    ],
+    "e": "In TFP the therapist actively pursues the patient's response to each part of the contract, inviting objections, doubts and reactions, instead of assuming acceptance once the conditions are stated. This active exploration is a major factor in establishing an adequate frame, because it brings hidden reservations into the open where they can be discussed rather than acted out later.",
+    "w": [
+      "TFP does use a contract, typically verbal and explicitly discussed.",
+      "Length of the contract is not the distinction.",
+      "The therapist, not the patient, presents the contract."
+    ],
+    "k": "TFP contracting actively pursues the patient's response to every condition, rather than assuming acceptance.",
+    "h": "Don't just read the terms; ask how they land.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 2,
+    "q": "The therapist postpones mentioning some responsibilities so the patient can be 'eased in'. This indicates:",
+    "o": [
+      "A countertransference issue likely to resurface as avoiding grandiosity or aggression",
+      "Good clinical judgment that eases a fragile patient into treatment gradually",
+      "Technical neutrality, since the therapist avoids imposing conditions",
+      "A required technique for narcissistic patients in the first session"
+    ],
+    "e": "Whenever the clinician avoids discussing some aspect of the contract, for example to 'ease in' a fragile patient, it signals a countertransference issue: perhaps fear of the patient's grandiosity or aggression. The avoided topic tends to resurface later, often in crisis. The contract should be complete from the start, presented respectfully, with the patient's reactions explored.",
+    "w": [
+      "Postponing conditions may feel kind but signals countertransference and invites later crises.",
+      "Avoiding conditions is not neutrality; it's avoidance.",
+      "No technique requires withholding conditions from narcissistic patients."
+    ],
+    "k": "Avoiding part of the contract signals countertransference; the avoided issue will resurface.",
+    "h": "What you leave out of the contract will come back through the window.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 3,
+    "q": "Which is an example of the therapist UNDOING a stated condition?",
+    "o": [
+      "'We agreed on X dollars, but if that's too hard, pay what you think is right.'",
+      "Restating that attendance is essential after the patient objects to it",
+      "Asking, 'Could you tell me your understanding of these conditions?'",
+      "Pointing out that two evaluation sessions have already been missed"
+    ],
+    "e": "Undoing means stating a condition and then taking it back, often out of guilt or fear: 'We agreed on X dollars, but if that's too hard, pay what you think is right.' Other examples are promising to make up for lateness or racing through the conditions without leaving time to respond. Each communicates that conditions aren't real, which invites testing.",
+    "w": [
+      "Restating attendance after an objection maintains the condition.",
+      "Asking for the patient's understanding is good contracting practice.",
+      "Pointing out missed evaluation sessions addresses behaviour around the contract."
+    ],
+    "k": "Undoing a condition (e.g., 'pay what you think is right') communicates that conditions aren't real.",
+    "h": "A rule undone in the same breath was never a rule.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Response",
+    "d": 2,
+    "q": "A patient agreed to twice weekly but has missed two evaluation sessions. The therapist should say:",
+    "o": [
+      "The missed sessions suggest reservations to voice openly, not act out",
+      "Nothing, since therapy has not started and behavior is irrelevant",
+      "A deep interpretation of the unconscious reason for missing sessions",
+      "That the evaluation is over because the patient is unreliable"
+    ],
+    "e": "She agreed to twice-weekly sessions but has already missed two evaluation sessions. Without shifting into therapy (no deep interpretation yet), the therapist addresses the behaviour around the contract: the missed sessions suggest reservations that she can voice openly rather than act out. Behaviour during contracting is an important source of information about how she will engage with treatment.",
+    "w": [
+      "Behaviour before therapy starts is very relevant; it previews engagement.",
+      "Deep interpretation is generally avoided during contracting.",
+      "Ending the evaluation skips discussing the reservations."
+    ],
+    "k": "Behaviour during contracting (e.g., missed evaluation sessions) is information: invite the patient to voice reservations rather than act them out.",
+    "h": "Missing the audition says something about the role.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Specific threats",
+    "d": 2,
+    "q": "Threats to the treatment are generally grounded in:",
+    "o": [
+      "Resistance (primitive defenses keeping a split status quo) and secondary gain",
+      "Lack of intelligence, which prevents understanding of the treatment frame",
+      "Therapist error alone, usually an unclear or overly rigid contract",
+      "Medication side effects, which impair the patient's self-control"
+    ],
+    "e": "Threats to treatment are generally grounded in two things. Resistance: primitive defenses working to keep the split status quo, avoiding the pain of integration. And secondary gain: external benefits the illness brings. Eliminating secondary gain is a task of the first phase, and it clears the field for interpreting the primitive defenses.",
+    "w": [
+      "Intelligence is not the usual source of threats to treatment.",
+      "Therapist error alone doesn't explain most threats.",
+      "Medication side effects are not the grounding identified."
+    ],
+    "k": "Threats to treatment stem from resistance (keeping the split status quo) and secondary gain.",
+    "h": "The status quo protects itself, and the illness pays dividends.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Specific threats",
+    "d": 2,
+    "q": "What do the authors say about chronically passive patients whose only activity is therapy?",
+    "o": [
+      "Work or study may be a condition; accepting indefinite inactivity colludes with helplessness",
+      "They should be left alone, since pressure to work increases their suicide risk",
+      "They are untreatable with TFP and should be referred to case management",
+      "They need more sessions per week to compensate for their lack of activity"
+    ],
+    "e": "For chronically passive patients whose only activity is therapy, the authors may make work or study a condition of treatment. Accepting indefinite inactivity colludes with the patient's helplessness and turns therapy into a way of life (secondary gain). They note that it is very rare for a borderline patient to be unable to improve and achieve independent functioning, so expecting productive activity is realistic.",
+    "w": [
+      "Leaving them alone colludes with helplessness; the authors set expectations.",
+      "They are not considered untreatable; activity can be required.",
+      "More sessions would deepen the dependency on treatment."
+    ],
+    "k": "With chronically passive patients, productive activity (work or study) may be a condition; accepting inactivity colludes with helplessness.",
+    "h": "Therapy is for living, not instead of living.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Diagnosis",
+    "d": 3,
+    "q": "Mid-contracting, the therapist suddenly suspects a major depressive episode and wants to soften conditions. Recommended technique:",
+    "o": [
+      "Shift clearly to reassessing the diagnosis, hold the contract, and check countertransference",
+      "Immediately soften the contract conditions, since a depressed patient cannot meet them",
+      "Ignore the doubt and finish the contract, since doubts are always countertransference",
+      "Start antidepressant medication and continue contracting at the same time"
+    ],
+    "e": "If the therapist suddenly doubts the diagnosis mid-contracting (for example suspecting a major depressive episode) and feels the urge to soften the conditions, the recommended technique is to shift clearly to reassessing the diagnosis, hold the contract as it is, and check the countertransference. Changing the conditions as if the doubt required it risks acting out the countertransference, for instance guilt at 'asking too much'. Diagnosis and frame are separate questions.",
+    "w": [
+      "Softening the contract on a suspicion acts on the countertransference.",
+      "Doubts aren't always countertransference; the diagnosis should be reassessed.",
+      "Starting medication while contracting mixes tasks without clarifying the diagnosis."
+    ],
+    "k": "If diagnostic doubt arises during contracting, reassess the diagnosis explicitly, hold the contract, and check the countertransference.",
+    "h": "Reassess the patient, not the rules.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Diagnosis",
+    "d": 2,
+    "q": "In layperson's terms, which four features does the therapist give for borderline personality?",
+    "o": [
+      "Rapidly changing emotions; stormy relationships; impulsive acts; unclear sense of self",
+      "Hallucinations; delusions; disorganized speech; flat affect; social withdrawal",
+      "Low mood; low energy; poor sleep; excessive guilt",
+      "Obsessions; compulsions; perfectionism; rigidity"
+    ],
+    "e": "When explaining the diagnosis, the therapist uses plain language: rapidly changing emotions, stormy relationships, impulsive acts, and an unclear sense of self. The fourth, an underlying lack of clarity about who one is (identity diffusion), is presented as the root of the other three. This connects the familiar symptoms to TFP's target: integrating the sense of self and others.",
+    "w": [
+      "Hallucinations, delusions and disorganized speech describe psychosis.",
+      "Low mood, energy, sleep and guilt describe depression.",
+      "Obsessions, compulsions, perfectionism and rigidity describe obsessive-compulsive problems."
+    ],
+    "k": "Lay explanation of BPD: shifting emotions, stormy relationships, impulsivity, unclear sense of self (the root).",
+    "h": "Moods, mates, moves, me: the last one drives the rest.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Diagnosis",
+    "d": 3,
+    "q": "What did Critchfield et al. (2004) find about impulsivity and aggression in borderline patients?",
+    "o": [
+      "They are two separate traits",
+      "They are the same trait ('impulsive aggression')",
+      "Aggression is absent",
+      "Impulsivity is absent"
+    ],
+    "e": "Critchfield and colleagues (2004) found that, contrary to the common phrase 'impulsive aggression', impulsivity and aggression in borderline patients are two separate traits. A patient can be highly impulsive without being very aggressive, or aggressive in a controlled, chronic way (hatred) without impulsivity. Assessing them separately matters for treatment planning and prognosis.",
+    "w": [
+      "The finding was that they are distinct, not the same trait.",
+      "Aggression is present in borderline patients; the finding concerned its separation from impulsivity.",
+      "Impulsivity is present; the finding concerned its separation from aggression."
+    ],
+    "k": "Critchfield et al. (2004): impulsivity and aggression are separate traits in borderline patients.",
+    "r": "Clarkin Ch6 – footnote"
+  },
+  {
+    "t": "Ch6 Specific threats",
+    "d": 2,
+    "q": "Which data source is MOST useful for anticipating threats, ahead even of prior treatment history?",
+    "o": [
+      "The patient's here-and-now behavior with the clinician",
+      "Reports from family members about past behavior",
+      "Hospital discharge records from previous admissions",
+      "Self-report questionnaires completed before the interview"
+    ],
+    "e": "The most useful source for anticipating threats to treatment is the patient's here-and-now behaviour with the clinician: lateness, hostility, seductiveness, testing limits, during evaluation and contracting. It is observed directly, not reported, so it is less distorted. Prior treatment history comes second. Family reports, records and questionnaires add information but are secondhand.",
+    "w": [
+      "Family reports are secondhand and come after direct observation.",
+      "Hospital records describe the past, not the patient's behaviour with you now.",
+      "Questionnaires are self-report and less revealing than observed behaviour."
+    ],
+    "k": "Best predictor of threats: the patient's here-and-now behaviour with the clinician; prior treatment history is second.",
+    "h": "What they do with you today predicts what they'll do in treatment.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Specific threats",
+    "d": 2,
+    "q": "When setting a parameter, how does the therapist answer 'Why are you insisting on these things?'",
+    "o": [
+      "Showing the need comes from the patient's own behavior and history",
+      "Explaining that this is simply the therapist's personal rule",
+      "Dropping the parameter if the patient strongly objects",
+      "Citing hospital policy as the reason for the condition"
+    ],
+    "e": "When the patient asks why the therapist insists on a condition, the answer shows that the need comes from the patient's own behaviour and history: 'You came intoxicated to the last two sessions, so drinking is interfering with our work.' This grounds the parameter in reality and in the patient's responsibility, rather than in the therapist's personal rule or an external policy, and it is harder to dismiss.",
+    "w": [
+      "Calling it a personal rule makes it arbitrary and invites power struggles.",
+      "Dropping the parameter under objection teaches that limits collapse.",
+      "Citing hospital policy avoids the clinical reason rooted in the patient's behaviour."
+    ],
+    "k": "Justify parameters with the patient's own behaviour and history, not personal rules or policy.",
+    "h": "'Because of what you've shown me', not 'because I say so'.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Specific threats",
+    "d": 2,
+    "q": "If the patient cannot acknowledge a documented threat (e.g., drinking), the therapist:",
+    "o": [
+      "States a contract isn't possible without agreement, leaves the door open, refers elsewhere",
+      "Begins therapy anyway, hoping the patient will see the problem once treatment starts",
+      "Insists repeatedly until the patient finally agrees that drinking is a threat",
+      "Reports the patient's drinking to the family so they can enforce sobriety"
+    ],
+    "e": "If the patient cannot acknowledge a clearly documented threat (such as drinking), the therapist states that a contract isn't possible without agreement on it, frames the decision so that later treatment remains possible ('if your view changes, we can talk again'), and fulfils the ethical obligation to refer elsewhere. Beginning anyway, badgering, or enlisting the family would all undermine the frame.",
+    "w": [
+      "Starting therapy hoping the patient will see the problem builds on a missing foundation.",
+      "Insisting repeatedly turns contracting into a power struggle.",
+      "Reporting to the family breaks confidentiality and bypasses the patient."
+    ],
+    "k": "If a documented threat can't be acknowledged: no contract, leave the door open, refer elsewhere.",
+    "h": "No agreement on the danger, no treatment yet, but the door stays open.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 2,
+    "q": "Scenario I of Figure 6–1: the patient has suicidal ideation but feels he can control it. He should:",
+    "o": [
+      "Not call the therapist; discuss it in the next session",
+      "Call the therapist at once to discuss the feelings",
+      "Go straight to the ER for an evaluation",
+      "Stop therapy until the ideation passes"
+    ],
+    "e": "Figure 6–1 lays out suicide scenarios. In Scenario I, the patient has suicidal ideation but feels able to control it. He does not call the therapist; he brings it to the next session, where it is explored as a high-priority theme. Calling for ideation he can contain would turn chronic feelings into between-session contact (secondary gain) and undermine the patient's own capacity.",
+    "w": [
+      "Calling the therapist is not the plan when the ideation is controllable.",
+      "The ER is for impulses the patient cannot control.",
+      "Stopping therapy is not the response; the ideation is discussed in therapy."
+    ],
+    "k": "Controllable suicidal ideation: discuss it in the next session; don't call the therapist.",
+    "h": "Can hold it? Bring it to the session.",
+    "r": "Clarkin Ch6 – Figure 6–1"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 2,
+    "q": "If the patient feels he cannot control a suicidal impulse, his responsibility is to:",
+    "o": [
+      "Take steps to safeguard his life – family, crisis team, police or ER",
+      "Call the therapist at home, who will decide on hospitalization",
+      "Wait for the next session and discuss the impulse there",
+      "Take extra medication to calm the impulse until it passes"
+    ],
+    "e": "If the patient feels he cannot control a suicidal impulse, his responsibility is to safeguard his life: contact family, a crisis team, the police or the emergency room. The ER evaluator, not the therapist, decides on hospitalization. This removes the therapist from the decision loop, which reduces secondary gain and protects his neutral, exploratory role, while making sure the patient gets immediate help.",
+    "w": [
+      "The therapist is not the one who decides on hospitalization by phone.",
+      "Waiting for the next session is unsafe when the impulse can't be controlled.",
+      "Taking extra medication is dangerous and not part of the plan."
+    ],
+    "k": "Uncontrollable suicidal impulse: the patient goes to family, crisis team, police or ER; the ER decides on hospitalization.",
+    "h": "Can't hold it? Go to the ER, not the therapist's phone.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 2,
+    "q": "If hospitalization is recommended after evaluation and the patient refuses, the therapist:",
+    "o": [
+      "Cannot continue therapy, since she'd be in a situation judged dangerous",
+      "Continues therapy as usual, respecting her right to refuse admission",
+      "Arranges the admission personally to keep the patient in treatment",
+      "Ignores the ER recommendation and sees her at the next session"
+    ],
+    "e": "If the emergency evaluation recommends hospitalization and the patient refuses, the therapist cannot continue therapy, because the patient would be remaining in a situation judged dangerous. TFP requires a context where the therapist can feel safe enough to explore. This is agreed in the contract beforehand, so it is not a punishment but a consequence the patient knew about.",
+    "w": [
+      "Continuing as usual would mean working in a situation judged dangerous.",
+      "The therapist doesn't arrange admission personally; that would bring him into the loop.",
+      "Ignoring the ER's recommendation undermines the agreed safety plan."
+    ],
+    "k": "If recommended hospitalization is refused, outpatient TFP cannot continue.",
+    "h": "No safe ground, no exploration.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 3,
+    "q": "The patient calls saying she has overdosed and refuses to get to a hospital. Per the contract, the therapist:",
+    "o": [
+      "Does everything possible to save her life, then decides with her if therapy can continue",
+      "Refuses to intervene, since the contract says it is her responsibility to get help",
+      "Ends the therapy over the phone, since she has broken the contract",
+      "Waits for the next session, trusting that she will seek help on her own"
+    ],
+    "e": "If the patient calls saying she has overdosed and refuses to go to a hospital, the contract does not override saving a life: the therapist does everything possible to save her (for example calling emergency services). Once she is stable, they consider together whether her actions reflect a fundamental refusal of the agreed treatment, which may call for referral, or whether therapy can continue.",
+    "w": [
+      "The contract never means standing by while a patient dies.",
+      "Ending therapy over the phone during a life-threatening event abandons her.",
+      "Waiting for the next session could be fatal."
+    ],
+    "k": "In a life-threatening emergency, the therapist does everything to save the patient; whether therapy continues is decided afterwards.",
+    "h": "Life first; the contract conversation later.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 3,
+    "q": "Why should the therapist pursue a patient's objection to a 'small detail' (e.g., going to a medical but not psychiatric ER)?",
+    "o": [
+      "Resistance may surface around details, and vagueness can later derail treatment",
+      "Details never matter, as long as the general principle of the contract has been accepted",
+      "To win the argument and establish the therapist's authority early",
+      "Because psychiatric emergency rooms are cheaper for the patient"
+    ],
+    "e": "Resistance often surfaces around details. A patient willing to go to a medical but not a psychiatric ER may be expressing denial of psychiatric illness, contempt for psychiatrists, or a wish for overt sympathy from internists. Vague agreements on details can later derail treatment in a crisis. Pursuing the objection brings these attitudes into the open before they cause trouble.",
+    "w": [
+      "Details can carry major resistance; vague agreement can later derail treatment.",
+      "The aim is understanding, not establishing authority.",
+      "Cost isn't the reason; resistance often hides in 'small details' and vagueness can later derail treatment."
+    ],
+    "k": "Pursue objections to 'small details' in the contract: resistance often hides there and can derail treatment later.",
+    "h": "The devil hides in the details of the contract.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Suicide",
+    "d": 2,
+    "q": "The patient accuses: 'You just don't want me to bother you.' The therapist acknowledges:",
+    "o": [
+      "Some truth: the conditions protect his ability to work, as calls had impaired Dr. Black",
+      "That he truly does not care about her and only wants to avoid being disturbed",
+      "That he will take all her calls after all, to prove that he does care",
+      "That she is lying about Dr. Black and the calls never really happened"
+    ],
+    "e": "When the patient accuses the therapist of not wanting to be bothered, the therapist acknowledges some truth: the conditions do protect his ability to work, just as frequent calls had impaired her previous therapist, Dr. Black. All therapists are human, and the conditions protect the treatment, including the therapist's capacity to listen with attention and objectivity. Admitting this is more credible than denying any self-interest.",
+    "w": [
+      "He doesn't concede indifference; he explains that the frame protects the work.",
+      "Taking all calls to prove he cares would undo the frame.",
+      "Accusing her of lying would be an attack, not an exploration."
+    ],
+    "k": "Acknowledge the truth that conditions protect the therapist's capacity to work; that protects the treatment.",
+    "h": "A rested listener listens better.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Substance",
+    "d": 2,
+    "q": "How long a period of sobriety is advisable before starting TFP?",
+    "o": [
+      "At least 3 months",
+      "At least 1 week",
+      "At least 1 year",
+      "No sobriety period"
+    ],
+    "e": "The authors advise at least 3 months of sobriety before starting TFP, because active substance use makes exploratory work impossible (altered states, acting out, dishonesty). Twelve-step participation is the most common support, and severe dependence may require inpatient detoxification first. Sobriety is a precondition for the patient being mentally available for therapy.",
+    "w": [
+      "One week is too short to show stable sobriety.",
+      "A full year isn't the threshold given.",
+      "Some period of sobriety is advised; it isn't skipped."
+    ],
+    "k": "At least 3 months of sobriety is advisable before starting TFP; 12-step programs are the common support.",
+    "h": "Three sober months before diving deep.",
+    "r": "Clarkin Ch6 – Substance abuse"
+  },
+  {
+    "t": "Ch6 Substance",
+    "d": 2,
+    "q": "Why should random drug/alcohol screening be done by a substance abuse specialist rather than the therapist?",
+    "o": [
+      "Dividing roles helps the therapist keep neutrality",
+      "Therapists are not trained to read the results",
+      "Specialists' screening is cheaper for the patient",
+      "Patients prefer being tested by a stranger"
+    ],
+    "e": "If random screening is part of the contract, a substance abuse specialist carries it out rather than the therapist. Dividing the roles helps the therapist maintain technical neutrality: if the therapist were the one testing, he would become a policeman in the patient's eyes, and the transference would be dominated by surveillance and suspicion rather than open exploration.",
+    "w": [
+      "Therapists can read results; the issue is role and neutrality.",
+      "Cost isn't the reason; splitting the screening role off protects the therapist's neutrality.",
+      "Patient preference isn't the reason; the role division protects the therapist's neutrality."
+    ],
+    "k": "Have a substance specialist do drug screening so the therapist can stay neutral.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Eating disorders",
+    "d": 2,
+    "q": "An anorexic patient's weight falls below the agreed minimum during TFP. What happens?",
+    "o": [
+      "TFP is suspended; she returns to behavioral ED treatment until weight recovers",
+      "TFP continues unchanged while the weight loss is interpreted in sessions",
+      "She is discharged permanently, since the weight parameter has been broken",
+      "The therapist weighs her at each session until her weight is stable"
+    ],
+    "e": "Before TFP starts with an anorexic patient, a consultant sets a minimal healthy weight, and periodic weighing by a dietitian or internist becomes a parameter. If her weight falls below that minimum, TFP is suspended and she returns to behavioural eating-disorder treatment until her weight recovers. Exploratory therapy can't safely proceed while starvation endangers her body and mind.",
+    "w": [
+      "Continuing unchanged ignores medical danger that the parameter exists for.",
+      "Permanent discharge is not the rule; she can return once weight recovers.",
+      "The therapist doesn't do the weighing; a dietitian or internist does."
+    ],
+    "k": "Anorexia below the agreed minimum weight: suspend TFP, return to behavioural ED treatment until weight recovers.",
+    "h": "Below the floor, the body comes first.",
+    "r": "Clarkin Ch6 – Eating disorders"
+  },
+  {
+    "t": "Ch6 Eating disorders",
+    "d": 2,
+    "q": "When does bulimia require medical monitoring as a parameter?",
+    "o": [
+      "When frequent daily vomiting risks electrolyte imbalance",
+      "Never; bulimia is always handled within therapy",
+      "Always, for any bulimic patient, before therapy starts",
+      "Only if the patient's weight is above normal"
+    ],
+    "e": "Bulimia is generally less immediately dangerous than anorexia and can usually be addressed within therapy. But frequent daily vomiting risks electrolyte imbalance (for example low potassium, with cardiac danger), so in that case internist consultation and medical monitoring become a parameter. The level of danger, not the diagnosis alone, decides whether a medical parameter is needed.",
+    "w": [
+      "Bulimia sometimes needs medical monitoring, when vomiting is frequent.",
+      "Not every bulimic patient needs monitoring before therapy.",
+      "Weight above normal isn't the trigger; frequent vomiting is."
+    ],
+    "k": "Bulimia needs medical monitoring as a parameter when frequent vomiting risks electrolyte imbalance.",
+    "h": "Frequent purging → check the electrolytes.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Social dependency",
+    "d": 3,
+    "q": "Why may pathologically dependent patients do WORSE than severely self-destructive ones?",
+    "o": [
+      "They can settle comfortably into their pathology as chronic patients",
+      "They are less intelligent and so understand interpretations less",
+      "They receive more medication, which blunts their motivation",
+      "They never attend sessions, so no treatment can take place"
+    ],
+    "e": "It is hard for severely self-destructive patients to deny that they are ill: their crises make the problem obvious. Pathologically dependent patients, by contrast, can settle comfortably into their pathology as chronic patients, supported by services and family, with little pressure to change. They may avoid, or drop out of, a treatment that aims at fundamental change. Comfort can be more resistant than crisis.",
+    "w": [
+      "Intelligence isn't the reason; dependent patients settle comfortably into a chronic patient role.",
+      "Medication isn't the reason; the danger is settling into chronic dependency with secondary gain.",
+      "Attendance isn't the issue; comfortable chronicity is."
+    ],
+    "k": "Pathologically dependent patients may do worse than self-destructive ones: they can settle comfortably into chronic illness.",
+    "h": "A comfortable cage is harder to leave than a burning house.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Social dependency",
+    "d": 2,
+    "q": "For a patient not working without clear psychological or physical reason, the contract should:",
+    "o": [
+      "Negotiate the goal of obtaining work within a specified period",
+      "Ignore employment, since work is outside the scope of psychotherapy",
+      "Require immediate full-time work before session 1",
+      "Support disability indefinitely"
+    ],
+    "e": "If a patient isn't working without a clear psychological or physical reason, the contract negotiates the goal of obtaining work (or study) within a specified period. Most borderline patients can function, and functioning is essential to real improvement: it counteracts secondary gain, provides structure, and helps resolve identity diffusion through a real-world role.",
+    "w": [
+      "Work is relevant to TFP; it is part of the frame against secondary gain.",
+      "Requiring full-time work before the first session is unrealistic.",
+      "Supporting indefinite disability colludes with helplessness and secondary gain; the contract sets a work goal and deadline."
+    ],
+    "k": "For a patient not working without clear reason, the contract sets a goal of obtaining work within a specified period.",
+    "h": "A job is part of the treatment.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Social dependency",
+    "d": 2,
+    "q": "Anxiety interfering with work is often found to involve:",
+    "o": [
+      "A paranoid expectation of criticism – a projected harsh internal object",
+      "A purely biological panic disorder that requires medication before work can resume",
+      "Low intelligence that makes work tasks overwhelming",
+      "An undiagnosed physical illness causing fatigue"
+    ],
+    "e": "When anxiety keeps a patient from working, exploration often finds a paranoid expectation of criticism: the boss or colleagues are expected to judge harshly. This is a projected harsh internal object. Discussing the fear in those terms, as an internal critic placed outside, can help the patient take on a functioning role, rather than treating the anxiety purely as a symptom or avoiding work.",
+    "w": [
+      "It is not usually purely biological; it often reflects a projected harsh object.",
+      "Intelligence is rarely the issue; work anxiety often reflects a paranoid expectation of criticism from a projected harsh internal object.",
+      "A hidden physical illness is not what the chapter describes."
+    ],
+    "k": "Work anxiety often reflects a paranoid expectation of criticism: a projected harsh internal object.",
+    "h": "The harsh boss often lives inside the patient's head.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Frame",
+    "d": 2,
+    "q": "How does the contract help when the therapist doubts whether refusing non-emergency calls is cruel?",
+    "o": [
+      "Reflecting on the contract shows the doubt contradicts it, signaling countertransference",
+      "It doesn't help; the therapist should trust his doubts and answer the calls",
+      "It requires answering every call, since the contract allows emergencies",
+      "It ends the therapy, since the patient is accusing the therapist"
+    ],
+    "e": "When the therapist starts doubting whether refusing non-emergency calls is cruel, the contract serves as a reference point. Reflecting on it shows the doubt contradicts what was agreed, which signals a countertransference reaction (perhaps guilt induced by the patient). The contract lets the therapist monitor whether interventions come from treatment requirements or from the patient's influence.",
+    "w": [
+      "Trusting the doubt and answering calls would act on the countertransference.",
+      "The contract allows emergency calls, not every call.",
+      "A patient's accusation is material, not a reason to end therapy."
+    ],
+    "k": "The contract is a reference point: when doubts contradict it, suspect countertransference.",
+    "h": "When you want to rewrite the rules, read them again.",
+    "r": "Clarkin Ch6 – Deviations as signals"
+  },
+  {
+    "t": "Ch6 Frame",
+    "d": 2,
+    "q": "If a patient breaks the contract, what is generally advisable?",
+    "o": [
+      "Give a second chance, confronting the risk of a sudden end and interpreting the meaning",
+      "Terminate immediately, since breaking the contract shows the patient refuses TFP",
+      "Ignore it, since contracts are only guidelines that patients rarely follow",
+      "Rewrite the contract to remove the condition that the patient could not meet"
+    ],
+    "e": "When a contract is broken, the general advice is to give a second chance, while confronting the risk that repeated breaches could end treatment suddenly, and interpreting the meaning of the breach. Otherwise the patient may assume endless second chances with unexamined acting out. The therapist also considers whether the patient is provoking a harsh, punitive object, which an automatic termination would enact.",
+    "w": [
+      "Immediate termination may enact the punitive object the patient provokes.",
+      "Ignoring the breach empties the contract of meaning.",
+      "Rewriting the contract to remove the condition rewards the breach."
+    ],
+    "k": "After a contract breach: usually a second chance, while confronting the risk to treatment and interpreting the meaning.",
+    "h": "Second chance, real stakes, understood meaning.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Therapist problems",
+    "d": 2,
+    "q": "A patient responds, 'That sounds okay to me.' The therapist should:",
+    "o": [
+      "Ask, 'Could you tell me your understanding of the conditions?'",
+      "Begin therapy immediately, since the patient has agreed",
+      "Interpret the compliance as a wish to please the therapist",
+      "End the session and continue contracting next time"
+    ],
+    "e": "'That sounds okay to me' may be superficial compliance. The therapist explores it by asking the patient to put the conditions in her own words: 'Could you tell me your understanding of the conditions?' This checks she heard and considered them and often surfaces reservations. Failing to pursue the patient's response is one of the therapist problems the chapter warns about.",
+    "w": [
+      "Starting immediately skips checking whether she really understood and agreed.",
+      "Interpreting is generally avoided during contracting; exploration comes first.",
+      "Ending the session wastes the chance to check understanding."
+    ],
+    "k": "After easy agreement, ask the patient to state her understanding of the conditions.",
+    "h": "'Tell me in your own words.'",
+    "r": "Clarkin Ch6 – Failure to pursue"
+  },
+  {
+    "t": "Ch6 Therapist problems",
+    "d": 3,
+    "q": "What is the opposite error to failing to pursue the patient's response?",
+    "o": [
+      "Pursuing it aggressively, possibly enacting projected aggression or his own reluctance",
+      "Being too warm and accepting, so that the patient never feels free to object to anything",
+      "Offering too few sessions, so the contract cannot be discussed fully",
+      "Charging too little, so the patient does not value the treatment"
+    ],
+    "e": "The opposite error to not pursuing the patient's response is pursuing it aggressively: interrogating, pressing, being overbearing. This can enact the patient's projected aggression (via projective identification), or express the therapist's own reluctance to take on the patient (pushing them away under cover of thoroughness). The aim is curious, persistent but respectful exploration.",
+    "w": [
+      "Being too warm is not described as the opposite error.",
+      "Session count isn't the opposite error; it is pursuing the response so aggressively that the therapist enacts aggression.",
+      "Fee level isn't the opposite error; it is pushing so aggressively that the therapist enacts projected aggression."
+    ],
+    "k": "Opposite error: pursuing the patient's response aggressively, enacting projected aggression or the therapist's reluctance.",
+    "h": "Curious, not cross-examining.",
+    "r": "Clarkin Ch6"
+  },
+  {
+    "t": "Ch6 Therapist problems",
+    "d": 3,
+    "q": "A therapist objects that contracts scapegoat borderline patients as abuse victims. The authors see this as:",
+    "o": [
+      "A concordant countertransference stuck on the victim self, with aggression split off",
+      "The correct view, since contracts re-traumatize patients who were abused",
+      "A complementary countertransference identified with the abuser",
+      "Technical neutrality, since the therapist sides with no part of the conflict"
+    ],
+    "e": "A therapist who objects that contracts scapegoat borderline patients as abuse victims is, in the authors' view, in a concordant countertransference, identified with the patient's victimized self. Focusing exclusively on victim status leaves the patient's aggressive representation split off, likely expressed in action or fixed on an external object. The contract helps bring that aggression into the treatment where it can be understood.",
+    "w": [
+      "The authors don't see contracts as retraumatizing; they protect the treatment.",
+      "Identifying with the victim self is concordant, not complementary.",
+      "Siding with the victim self is taking a side, not neutrality."
+    ],
+    "k": "Seeing contracts only as scapegoating victims reflects concordant countertransference with the victim self, leaving aggression split off.",
+    "h": "Seeing only the victim hides the aggressor in the patient.",
+    "r": "Clarkin Ch6 – Therapist ambivalence"
+  },
+  {
+    "t": "Ch6 Return",
+    "d": 2,
+    "q": "In which two situations does the therapist return to contracting during therapy?",
+    "o": [
+      "A new problem arises, or the patient does not keep the initial conditions",
+      "Every month, as a routine review of the whole contract with the patient",
+      "Whenever the therapist feels bored with the sessions",
+      "Never; the initial contract cannot be changed"
+    ],
+    "e": "The therapist returns to contracting during therapy in two situations. When a new problem arises that threatens the treatment (for example a new substance problem), new parameters are discussed. When the patient does not keep the initial conditions, the parameter is re-established and the breach interpreted. The contract is a living frame, revisited when needed, not a routine monthly review.",
+    "w": [
+      "There is no routine monthly review of the contract.",
+      "Therapist boredom is countertransference to explore, not a reason to recontract.",
+      "The contract can be revisited when new problems or breaches arise."
+    ],
+    "k": "Return to contracting when a new problem arises or when the patient doesn't keep the initial conditions.",
+    "h": "New threat or broken promise: back to the contract.",
+    "r": "Clarkin Ch6"
+  }
+]

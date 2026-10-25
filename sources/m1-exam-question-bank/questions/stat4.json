@@ -1,0 +1,542 @@
+[
+  {
+    "t": "Ch4 Problems with NHST",
+    "d": 2,
+    "q": "Why does a p-value depend on more than just the size of the effect?",
+    "o": [
+      "It also depends on the sample size, so the same effect can be significant or not",
+      "It depends only on the effect size, so it is also a good measure of practical importance",
+      "It depends on the prior probability that the null hypothesis is true",
+      "It depends on the reliability of the measure but not on the sample size"
+    ],
+    "e": "The test statistic is roughly effect × √n, so the same effect gives a large p in a small study and a tiny p in a big one. This is why p cannot tell you how big or important an effect is, and why effect sizes are needed.",
+    "w": [
+      "p doesn't depend only on effect size, so it isn't a measure of importance.",
+      "NHST p-values don't use any prior probability of H0; that's Bayesian.",
+      "Sample size is central to p; the test statistic grows with √n."
+    ],
+    "k": "p depends on effect size and sample size, so it can't measure how big an effect is.",
+    "h": "Same effect, bigger crowd, smaller p.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Problems with NHST"
+  },
+  {
+    "t": "Ch4 Problems with NHST",
+    "d": 2,
+    "q": "Field warns against 'all-or-nothing thinking' in NHST. This refers to:",
+    "o": [
+      "Treating p = .049 as a real effect and p = .051 as no effect",
+      "Testing every possible hypothesis in one large analysis",
+      "Reporting confidence intervals instead of exact p-values",
+      "Using two-tailed tests whenever direction was not predicted"
+    ],
+    "e": "The .05 threshold is a convention, and evidence does not change abruptly between .049 and .051. Treating the threshold as a dividing line between truth and falsehood encourages distortions such as p-hacking. Effect sizes with CIs convey the graded nature of the evidence.",
+    "w": [
+      "Testing many hypotheses at once is a multiple-testing problem, not all-or-nothing thinking.",
+      "Reporting CIs is one of the remedies Field recommends, not the problem.",
+      "Two-tailed tests without a predicted direction are standard good practice."
+    ],
+    "k": "All-or-nothing thinking treats .05 as a cliff edge; evidence is graded.",
+    "h": ".049 and .051 are twins, not opposites.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · All-or-nothing thinking"
+  },
+  {
+    "t": "Ch4 Questionable practices",
+    "d": 2,
+    "q": "A researcher checks the p-value after every 10 participants and stops as soon as p < .05. This practice:",
+    "o": [
+      "Inflates the Type I error rate well above .05",
+      "Keeps the Type I error rate at exactly .05",
+      "Increases power without any statistical cost",
+      "Is the recommended way to run a sequential design"
+    ],
+    "e": "Optional stopping gives chance repeated opportunities to cross .05, so the true false-positive rate can rise far above the nominal α. Legitimate sequential designs plan the interim looks in advance and adjust α (for example with alpha-spending rules).",
+    "w": [
+      "Each extra look gives chance another try, so α rises above .05.",
+      "The power gain comes at the cost of many more false positives.",
+      "Proper sequential designs plan their looks and adjust α in advance."
+    ],
+    "k": "Optional stopping inflates the Type I error rate far above α.",
+    "h": "Peek enough times and luck will say yes.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Researcher degrees of freedom"
+  },
+  {
+    "t": "Ch4 Questionable practices",
+    "d": 2,
+    "q": "'HARKing' means:",
+    "o": [
+      "Hypothesizing after the results are known and presenting it as a prediction",
+      "Holding all research knowledge strictly confidential until the paper is published",
+      "Harmonizing the analyses across several labs before any data have been collected",
+      "Hiding the analyses that reached significance from the final published paper"
+    ],
+    "e": "HARKing turns an exploratory finding into an apparently confirmatory one, so readers wrongly believe a hypothesis survived a genuine test. Pre-registration guards against it by recording hypotheses before the data exist.",
+    "w": [
+      "Keeping research confidential isn't HARKing; HARKing concerns hypotheses invented after results.",
+      "Harmonizing analyses across labs is a good practice, not HARKing.",
+      "Hiding non-significant analyses is selective reporting, a different questionable practice."
+    ],
+    "k": "HARKing = Hypothesizing After Results are Known, presented as a prediction.",
+    "h": "HARK: shouting 'I predicted it!' after the fact.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · HARKing"
+  },
+  {
+    "t": "Ch4 Questionable practices",
+    "d": 2,
+    "q": "Which of these is a form of p-hacking?",
+    "o": [
+      "Trying several outlier rules and reporting only the one that gives p < .05",
+      "Pre-registering the outlier rule before collecting any of the data",
+      "Reporting all analyses that were run, including those that did not reach significance",
+      "Correcting α with Bonferroni when running several planned tests on one dataset"
+    ],
+    "e": "p-hacking exploits researcher degrees of freedom (outlier rules, covariates, subgroups, which outcome to report) and keeps the version that crosses .05. Each choice looks defensible on its own, but together they inflate false positives. Transparency, pre-registration and corrections counter it.",
+    "w": [
+      "Pre-registering the outlier rule prevents p-hacking rather than committing it.",
+      "Reporting every analysis, significant or not, is transparent practice.",
+      "Bonferroni correction for planned tests controls false positives."
+    ],
+    "k": "p-hacking = trying analysis choices until p < .05 and reporting only that one.",
+    "h": "Hack at the data until it confesses.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · p-hacking"
+  },
+  {
+    "t": "Ch4 Questionable practices",
+    "d": 2,
+    "q": "The 'file drawer problem' describes:",
+    "o": [
+      "Non-significant studies going unpublished, biasing the literature toward positive results",
+      "Researchers losing their raw data files before these can be properly archived or reanalysed",
+      "Journals rejecting studies that report confidence intervals instead of p-values",
+      "Statistical software that stores output files separately from the data files"
+    ],
+    "e": "If significant results are published and null results stay in drawers, published effects overstate the truth and meta-analyses inherit the bias. Funnel plots and registered reports are tools against publication bias.",
+    "w": [
+      "Losing data files is a data management problem, not the file drawer problem.",
+      "Journals rejecting CIs isn't what the term describes.",
+      "Software storing output separately is unrelated to publication bias."
+    ],
+    "k": "File drawer problem: null results stay unpublished, so the literature overstates effects.",
+    "h": "Nulls in the drawer, positives in print.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Publication bias"
+  },
+  {
+    "t": "Ch4 Open science",
+    "d": 2,
+    "q": "What is distinctive about a registered report?",
+    "o": [
+      "Methods are peer-reviewed before data collection, and acceptance does not depend on the results",
+      "The data are shared openly on a public repository once the analysis has been completed",
+      "The authors pre-register their sample size but remain free to change their hypotheses after seeing the data",
+      "The study is replicated by an independent lab before the paper can be submitted"
+    ],
+    "e": "In a registered report, reviewers evaluate the question and methods first. If approved, the journal commits to publishing whatever the results, as long as the protocol is followed. This removes the incentive to p-hack and the bias toward positive findings.",
+    "w": [
+      "Open data sharing after analysis is separate from a registered report.",
+      "Changing hypotheses after seeing data defeats the purpose of registration.",
+      "Independent replication before submission isn't required."
+    ],
+    "k": "Registered reports: methods reviewed and publication promised before results exist.",
+    "h": "Judged on the question, not the answer.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Registered reports"
+  },
+  {
+    "t": "Ch4 Open science",
+    "d": 1,
+    "q": "Pre-registration means:",
+    "o": [
+      "Recording hypotheses, design and analysis plan publicly before collecting data",
+      "Registering participants with an ethics committee before recruitment begins",
+      "Sharing the raw data with reviewers after the paper has been accepted",
+      "Submitting the manuscript to a journal before running the statistics"
+    ],
+    "e": "A time-stamped plan (for example on the Open Science Framework) separates confirmatory tests from exploratory ones. Deviations remain possible but must be reported and justified.",
+    "w": [
+      "Ethics approval is a separate process from pre-registering hypotheses and analyses.",
+      "Sharing data after acceptance is open data, not pre-registration.",
+      "Submitting a manuscript before running statistics isn't pre-registration."
+    ],
+    "k": "Pre-registration = a time-stamped public plan of hypotheses, design and analyses before data collection.",
+    "h": "Write the prediction before the dice roll.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Pre-registration"
+  },
+  {
+    "t": "Ch4 EMBERS",
+    "d": 3,
+    "q": "Field's acronym EMBERS summarizes ways to move beyond NHST. What does it stand for?",
+    "o": [
+      "Effect sizes, Meta-analysis, Bayesian Estimation, Registration, Sense",
+      "Estimation, Models, Bootstrapping, Effect sizes, Robust methods, Sampling",
+      "Errors, Measurement, Bias, Effect sizes, Replication, Significance",
+      "Effect sizes, Multilevel models, Bayes factors, Error control, Rigour, Samples"
+    ],
+    "e": "In Field's 'phoenix' metaphor, statistics rises from the ashes of NHST through EMBERS: report Effect sizes, combine studies with Meta-analysis, use Bayesian Estimation, pre-Register studies, and apply Sense (thinking about what results mean rather than mechanically applying rules).",
+    "w": [
+      "Bootstrapping and robust methods are useful, but they aren't EMBERS's letters.",
+      "Errors and significance aren't EMBERS's letters; S stands for Sense.",
+      "Multilevel models and error control aren't EMBERS's letters; M is Meta-analysis."
+    ],
+    "k": "EMBERS = Effect sizes, Meta-analysis, Bayesian Estimation, Registration, Sense.",
+    "h": "A phoenix is reborn from its EMBERS.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · EMBERS"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 2,
+    "q": "Group means are 60 and 50 and the pooled SD is 20. What is Cohen's d?",
+    "o": [
+      "0.50",
+      "2.00",
+      "0.20",
+      "10.0"
+    ],
+    "e": "d = (M1 − M2) / SD = (60 − 50) / 20 = 0.5. The groups differ by half a standard deviation, a medium effect by Cohen's benchmarks.",
+    "w": [
+      "2.00 divides the SD by the difference (20/10) instead of the reverse.",
+      "0.20 divides the difference by a group mean (10/50) instead of the SD.",
+      "10.0 is the raw difference, not divided by the SD."
+    ],
+    "k": "Cohen's d = mean difference ÷ pooled SD.",
+    "h": "d = difference in SD units.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Cohen's d"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 1,
+    "q": "Cohen's conventional benchmarks for d are:",
+    "o": [
+      "0.2 small, 0.5 medium, 0.8 large",
+      "0.1 small, 0.3 medium, 0.5 large",
+      "0.5 small, 1.0 medium, 1.5 large",
+      "0.01 small, 0.06 medium, 0.14 large"
+    ],
+    "e": "For d: 0.2, 0.5, 0.8. For r: .1, .3, .5. For η² or R²: about .01, .06, .14. Cohen offered these as rough defaults when nothing better is known. Effects should ideally be judged against those typical in the research area.",
+    "w": [
+      ".1, .3 and .5 are Cohen's benchmarks for r, not d.",
+      "0.5, 1.0 and 1.5 are too large; 0.5 is a medium d.",
+      ".01, .06 and .14 are benchmarks for η² or R²."
+    ],
+    "k": "d: 0.2, 0.5, 0.8; r: .1, .3, .5; η²: .01, .06, .14.",
+    "h": "d: two, five, eight.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Effect size benchmarks"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 2,
+    "q": "A correlation of r = .30 means the two variables share what proportion of variance?",
+    "o": [
+      "9%",
+      "30%",
+      "3%",
+      "55%"
+    ],
+    "e": "The proportion of shared variance is r² = .30² = .09, or 9%. A 'medium' r of .3 therefore leaves 91% of the variance unexplained. Even r = .5 (large) explains only 25%.",
+    "w": [
+      "30% treats r as variance explained; you need r² = .09.",
+      "3% divides r by 10 instead of squaring it.",
+      "55% is √.30 (about .55); you square r, you don't root it."
+    ],
+    "k": "Variance shared = r² (r = .3 → 9%).",
+    "h": "Square r to see the shared slice.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · r and variance explained"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 2,
+    "q": "Why are standardized effect sizes such as d and r useful?",
+    "o": [
+      "They express effects on a common scale, so studies with different measures can be compared",
+      "They are always larger than the raw mean differences, which makes real effects easier to detect",
+      "They make the p-value unnecessary, because they already include the sample size",
+      "They correct automatically for any violations of normality and homogeneity of variance"
+    ],
+    "e": "Dividing by an SD removes the original units, so a 5-point difference on one anxiety scale and a 12-point difference on another can be compared, or combined in a meta-analysis. Effect sizes do not incorporate n and are not robust to assumption violations.",
+    "w": [
+      "Standardized effects aren't always larger than raw differences.",
+      "Effect sizes don't include n, so they don't replace p.",
+      "Effect sizes don't correct for assumption violations."
+    ],
+    "k": "Standardized effect sizes put effects on a common scale for comparison and meta-analysis.",
+    "h": "Common currency for different scales.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Standardized effect sizes"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 3,
+    "q": "Glass's Δ differs from Cohen's d because it:",
+    "o": [
+      "Divides the mean difference by the control group's SD only",
+      "Divides the mean difference by the pooled SD of both groups",
+      "Corrects d for the upward bias found in small samples",
+      "Is computed from a t-statistic and the degrees of freedom"
+    ],
+    "e": "If an intervention changes variability as well as the mean, the control SD is a cleaner yardstick, so Glass's Δ uses it alone. Hedges' g is the version of d with a small-sample bias correction. The pooled SD is used by Cohen's d.",
+    "w": [
+      "Using the pooled SD of both groups is what Cohen's d does.",
+      "The small-sample bias correction is Hedges' g.",
+      "Computing from t and df is a conversion method, not Glass's Δ."
+    ],
+    "k": "Glass's Δ divides by the control group SD; Hedges' g corrects small-sample bias.",
+    "h": "Glass looks only through the control group's lens.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Variants of d"
+  },
+  {
+    "t": "Ch4 Meta-analysis",
+    "d": 2,
+    "q": "In a meta-analysis, why are studies weighted rather than simply averaged?",
+    "o": [
+      "Larger, more precise studies should count more, so effects are weighted by inverse variance",
+      "Studies with bigger effects are more likely to be true, so they should receive more of the weight",
+      "Older studies are less relevant, so the most recent studies receive the most weight",
+      "Weighting removes publication bias from the set of studies being combined in the analysis"
+    ],
+    "e": "A study of 500 estimates the effect far more precisely than a study of 20. Inverse-variance weighting gives the pooled estimate the smallest possible SE. Weighting does nothing about publication bias, which must be assessed separately (funnel plots, selection models).",
+    "w": [
+      "Weighting by effect size would bias the estimate upward.",
+      "Weights reflect precision, not how recent the study is.",
+      "Weighting doesn't remove publication bias; that needs separate checks."
+    ],
+    "k": "Meta-analysis weights studies by inverse variance, so precise studies count more.",
+    "h": "Precise studies speak louder.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Meta-analysis"
+  },
+  {
+    "t": "Ch4 Meta-analysis",
+    "d": 3,
+    "q": "A random-effects meta-analysis assumes that:",
+    "o": [
+      "True effects vary across studies, drawn from a distribution of population effects",
+      "Every study estimates exactly the same population effect, apart from sampling error",
+      "Study effect sizes are randomly assigned, so no heterogeneity can exist",
+      "Only randomized controlled trials can be included in the analysis"
+    ],
+    "e": "Fixed-effect models assume one true effect. Random-effects models assume a distribution of true effects across populations and methods, which is usually more realistic in psychology. They give wider CIs and allow generalization beyond the included studies.",
+    "w": [
+      "One true effect plus sampling error is the fixed-effect model.",
+      "Random-effects allows heterogeneity; it doesn't rule it out.",
+      "Random-effects isn't restricted to randomized trials."
+    ],
+    "k": "Random-effects: true effects vary across studies; fixed-effect: one true effect.",
+    "h": "Random effects: a family of truths.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Fixed vs random effects"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 2,
+    "q": "In Bayesian analysis, the posterior probability of a hypothesis combines:",
+    "o": [
+      "The prior belief and the likelihood of the data under that hypothesis",
+      "The p-value and the size of the effect observed in the sample of participants",
+      "The power of the test and the significance level chosen before the study",
+      "The sample mean and the standard error of the mean from the observed data"
+    ],
+    "e": "Bayes' theorem: posterior ∝ likelihood × prior. Formally P(H | D) = P(D | H) × P(H) / P(D). Unlike NHST, it gives the probability of a hypothesis given the data, which is what researchers usually want to know.",
+    "w": [
+      "p-values and effect sizes belong to NHST, not Bayes' theorem.",
+      "Power and α are NHST planning quantities, not Bayesian inputs.",
+      "The mean and SE are summaries, not the prior and likelihood."
+    ],
+    "k": "Bayes: posterior ∝ likelihood × prior, giving P(hypothesis | data).",
+    "h": "Old belief times new evidence gives updated belief.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Bayes' theorem"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 2,
+    "q": "A Bayes factor BF₁₀ = 8 means:",
+    "o": [
+      "The data are 8 times more likely under H1 than under H0",
+      "There is an 8% chance that the null hypothesis is true",
+      "H1 now has 8 times the probability of H0, whatever the prior odds were",
+      "The effect size is 8 times larger than the prior expected"
+    ],
+    "e": "A Bayes factor is a ratio of likelihoods: how much more probable the observed data are under one hypothesis than the other. BF₁₀ = 8 is moderate evidence for H1. Posterior odds = BF × prior odds, so a BF only becomes 'H1 is 8 times more likely' when the prior odds are 1:1.",
+    "w": [
+      "A BF isn't a probability of H0.",
+      "H1 is 8 times more probable only when the prior odds are 1:1.",
+      "BFs compare likelihoods of data, not the effect size against the prior."
+    ],
+    "k": "BF₁₀ = how much more likely the data are under H1 than H0.",
+    "h": "BF tells how far the data push you.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Bayes factors"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 2,
+    "q": "Using common conventions (Jeffreys), a Bayes factor between 1 and 3 is regarded as:",
+    "o": [
+      "Anecdotal (weak) evidence",
+      "Moderate (substantial) evidence",
+      "Strong evidence",
+      "Decisive proof of the hypothesis"
+    ],
+    "e": "Rough conventions: 1–3 anecdotal or barely worth mentioning, 3–10 moderate or substantial, above 10 strong (above 30 very strong, above 100 extreme). Like Cohen's benchmarks, these are guides, not rules.",
+    "w": [
+      "Moderate evidence starts at a BF of about 3.",
+      "Strong evidence needs a BF above about 10.",
+      "Bayes factors never give proof, and 1–3 is the weakest band."
+    ],
+    "k": "BF 1–3 anecdotal, 3–10 moderate, above 10 strong.",
+    "h": "One to three: barely worth mentioning.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Interpreting Bayes factors"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 3,
+    "q": "A study reports BF₁₀ = 0.25. What does this indicate?",
+    "o": [
+      "The data are 4 times more likely under H0, moderate evidence for the null",
+      "The data are 25% more likely under H1 than under H0",
+      "There is a 25% probability that the alternative hypothesis is true",
+      "The test is inconclusive, because Bayes factors cannot fall below 1 for any data"
+    ],
+    "e": "BF₀₁ = 1 / BF₁₀ = 1 / 0.25 = 4. Unlike a non-significant p-value, a Bayes factor can quantify evidence for the null, which is one of its main advantages.",
+    "w": [
+      "0.25 means the data favour H0, not H1 by 25%.",
+      "A BF isn't a probability that H1 is true.",
+      "Bayes factors can fall below 1, showing evidence for H0."
+    ],
+    "k": "BF₀₁ = 1/BF₁₀; Bayes factors can quantify evidence for the null.",
+    "h": "Flip the fraction to see the null's support.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Evidence for the null"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 3,
+    "q": "A 95% Bayesian credible interval for an effect differs from a 95% confidence interval because:",
+    "o": [
+      "It supports saying there is a 95% probability the parameter lies within it, given the prior and data",
+      "It is always narrower than the confidence interval computed from the same data, whatever the prior",
+      "It contains 95% of the raw scores in the sample rather than plausible values of the parameter itself",
+      "It does not depend on any assumptions about the distribution of the data"
+    ],
+    "e": "In the Bayesian framework the parameter has a probability distribution (the posterior), so the intuitive probability statement is legitimate. With a vague prior the two intervals can be numerically similar, but their interpretations differ.",
+    "w": [
+      "Credible intervals aren't always narrower; it depends on the prior.",
+      "Credible intervals concern parameters, not raw scores.",
+      "Credible intervals still rely on model assumptions."
+    ],
+    "k": "Credible intervals allow the statement 'a 95% probability the parameter lies within'.",
+    "h": "Credible: you can believe the probability statement.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Credible intervals"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 3,
+    "q": "A common criticism of Bayesian methods is that:",
+    "o": [
+      "Results can depend on the prior chosen, which may be subjective",
+      "They cannot be applied to t-tests, ANOVA or regression models",
+      "They always require larger samples than NHST to be valid",
+      "They give p-values that are harder to interpret than usual"
+    ],
+    "e": "Priors must be specified and different priors can change conclusions, especially with small samples. Good practice uses defensible priors and sensitivity analyses showing results under alternatives. Bayesian versions of t-tests, ANOVA and regression are widely available, including in SPSS.",
+    "w": [
+      "Bayesian t-tests, ANOVA and regression exist, including in SPSS.",
+      "Bayesian methods don't always need larger samples.",
+      "Bayesian methods report Bayes factors and posteriors, not p-values."
+    ],
+    "k": "Criticism of Bayes: results depend on priors; use sensitivity analyses.",
+    "h": "Garbage prior in, biased posterior out.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Priors"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 2,
+    "q": "Which effect size is most natural for describing a relationship between two binary variables, such as treatment and recovery?",
+    "o": [
+      "The odds ratio",
+      "Cohen's d",
+      "Partial eta squared",
+      "The standardized β"
+    ],
+    "e": "The odds ratio compares the odds of recovery in one group with the odds in the other. OR = 1 means no association, and OR = 3 means the odds are three times higher. It reappears in logistic regression as Exp(B).",
+    "w": [
+      "Cohen's d compares means of a continuous outcome.",
+      "Partial η² is for ANOVA with a continuous outcome.",
+      "Standardized β is for regression predictors of continuous outcomes."
+    ],
+    "k": "Two binary variables → odds ratio; OR = 1 means no association.",
+    "h": "Odds ratio for yes/no × yes/no.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Odds ratios"
+  },
+  {
+    "t": "Ch4 Problems with NHST",
+    "d": 3,
+    "q": "Two researchers collect identical data, but one planned n = 30 in advance while the other planned to stop at the first significant result. Under NHST:",
+    "o": [
+      "Their p-values legitimately differ, because p depends on the sampling intentions",
+      "Their p-values must be identical, because the observed data are exactly the same",
+      "Only the second researcher's p-value can be computed correctly from these data",
+      "Both p-values are invalid unless a Bayesian prior distribution is also specified"
+    ],
+    "e": "A p-value refers to a hypothetical set of repeated studies defined by the sampling plan, so the same data can yield different p-values under different stopping rules. Bayesian inference depends only on the observed data and the prior, a point Field uses to show how strange NHST logic can be.",
+    "w": [
+      "Under NHST, identical data can give different p-values with different stopping rules.",
+      "Both p-values can be computed; they refer to different sampling plans.",
+      "NHST p-values don't need Bayesian priors to be valid."
+    ],
+    "k": "NHST p-values depend on the sampling plan; Bayesian inference depends only on data and prior.",
+    "h": "p reads your mind about stopping.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Intentions and p-values"
+  },
+  {
+    "t": "Ch4 Effect sizes",
+    "d": 2,
+    "q": "Which statement about effect sizes and sample size is correct?",
+    "o": [
+      "A larger sample estimates the effect size more precisely but does not make it larger",
+      "A larger sample tends to increase the effect size, making it more likely to be classed as large",
+      "Effect sizes are only valid when samples contain more than 100 participants",
+      "Sample size has no influence on how precisely an effect size is estimated"
+    ],
+    "e": "The population effect does not change with n, so the expected sample effect size is not driven up by collecting more data. Its CI does narrow. Small samples produce noisy effect sizes, and under publication bias they inflate published effects.",
+    "w": [
+      "More data doesn't increase the effect size; it narrows its CI.",
+      "Effect sizes are valid for any n; small samples are just noisier.",
+      "Sample size strongly affects precision; small samples give wide CIs."
+    ],
+    "k": "Larger n gives a more precise effect size, not a larger one.",
+    "h": "More data sharpens the picture, doesn't zoom in.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Precision of effect sizes"
+  },
+  {
+    "t": "Ch4 Open science",
+    "d": 2,
+    "q": "Which practice best reduces the influence of researcher degrees of freedom on a study's conclusions?",
+    "o": [
+      "Specifying exclusions, covariates and analyses before seeing the data",
+      "Running more statistical tests so that true effects are not missed",
+      "Using a stricter α of .01 only for the analyses that turned out significant",
+      "Deciding after data collection which outcome measure looks most promising"
+    ],
+    "e": "Researcher degrees of freedom are choices made after seeing the data. Fixing them in advance through pre-registration keeps confirmatory tests honest. Exploratory analyses are still welcome but should be labelled as such.",
+    "w": [
+      "More tests increase false positives, not protect against them.",
+      "Applying stricter α selectively is still post hoc tinkering.",
+      "Choosing the outcome after data collection is a researcher degree of freedom."
+    ],
+    "k": "Fix exclusions, covariates and analyses in advance to limit researcher degrees of freedom.",
+    "h": "Tie your hands before you see the cards.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Researcher degrees of freedom"
+  },
+  {
+    "t": "Ch4 Bayesian approaches",
+    "d": 2,
+    "q": "Posterior odds equal:",
+    "o": [
+      "The Bayes factor multiplied by the prior odds",
+      "The p-value divided by the significance level",
+      "The likelihood ratio divided by the sample size",
+      "The prior odds minus the Bayes factor"
+    ],
+    "e": "Bayes' theorem in odds form: posterior odds = BF × prior odds. With BF₁₀ = 5 and prior odds of 1:4 against H1, the posterior odds are 5 × 0.25 = 1.25, slightly favouring H1. The Bayes factor is the factor by which the data should change your belief.",
+    "w": [
+      "p over α isn't part of Bayesian updating.",
+      "Likelihood ratio over n isn't the posterior odds formula.",
+      "Bayes factors multiply prior odds; they aren't subtracted."
+    ],
+    "k": "Posterior odds = Bayes factor × prior odds.",
+    "h": "Prior odds times evidence gives posterior odds.",
+    "r": "Stats & SPSS ch. 4 · Beyond p-values · Bayesian updating"
+  }
+]

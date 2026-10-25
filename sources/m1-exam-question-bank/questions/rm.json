@@ -1,0 +1,858 @@
+[
+  {
+    "t": "Variables",
+    "d": 1,
+    "q": "The independent variable (IV) is:",
+    "o": [
+      "The cause in a cause-and-effect relationship, manipulated to see its effect",
+      "The outcome the researcher measures, always expressed as a number",
+      "A socio-demographic factor that is measured but cannot be manipulated",
+      "A subvariable used only in operational directional hypotheses"
+    ],
+    "e": "The independent variable is the cause in a cause-and-effect relationship: the factor the researcher manipulates (changes, assigns or varies) to see its effect on the dependent variable. In 'the impact of stress on short-term memory', stress is the IV. A quick test: the IV is what you would change if you ran the experiment, and its name usually follows 'the impact of' or 'the effect of' in a topic title.",
+    "w": [
+      "The measured outcome is the dependent variable, which the summary says is always quantitative.",
+      "A measured but non-manipulable socio-demographic factor is a control variable ('parasite').",
+      "Subvariables are specific elements of a variable used in operational hypotheses, not the IV itself."
+    ],
+    "k": "IV = the cause, the factor manipulated to see its effect on the DV.",
+    "h": "Independent = it 'stands alone' and acts first; I = 'I change it'.",
+    "r": "RM – Definitions: Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 1,
+    "q": "According to the summary, the dependent variable (DV) is:",
+    "o": [
+      "The measured effect/outcome; always quantitative; there can be several",
+      "The manipulated cause; always categorical; there is only one per study",
+      "A control variable such as gender, measured but never manipulated",
+      "A subvariable of the IV used only in statistical hypotheses"
+    ],
+    "e": "The dependent variable is the effect: the result or outcome the researcher measures. Its value 'depends' on the IV. The summary adds two details: it is always quantitative (measured as a number, such as a memory score), and a study can have multiple DVs, for example measuring both memory capacity and attention after a stress manipulation. In 'self-esteem and academic success', academic success is the DV.",
+    "w": [
+      "The manipulated cause is the IV, and nothing in the summary limits a study to one variable of any kind.",
+      "Gender is the summary's example of a control variable, measured but not manipulated.",
+      "Subvariables are specific elements of a variable used in operational hypotheses, not the DV itself."
+    ],
+    "k": "DV = the measured effect or outcome; in this course always quantitative, and a study can have several.",
+    "h": "Dependent = it 'hangs from' (de-pendere, Latin) the IV: change the IV and the DV swings.",
+    "r": "RM – Definitions: Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "Which statement matches the summary's note on variables?",
+    "o": [
+      "Its role in a given relationship decides whether it is the IV or the DV",
+      "Stress is always an independent variable, whatever the research topic",
+      "Memory can only ever be a dependent variable, never an independent one",
+      "Age is always the dependent variable because it cannot be manipulated"
+    ],
+    "e": "The summary's note says a variable is not independent or dependent on its own, but because of the role it plays in a given relationship. Stress is the IV in 'the impact of stress on memory' but the DV in 'the impact of noise on stress'. To classify a variable, ask what it does in this topic: is it the cause being varied, or the effect being measured? Never classify a variable by its name.",
+    "w": [
+      "Stress can be a DV, for example in 'the effect of exercise on stress'.",
+      "Memory can be an IV, for example in 'the effect of memory training on exam grades'.",
+      "Age is not manipulable, but that makes it a control variable here, not automatically a DV."
+    ],
+    "k": "A variable's role in the relationship, not the variable itself, decides whether it is IV or DV.",
+    "h": "Roles, not names: an actor can play hero in one film and villain in the next.",
+    "r": "RM – Definitions: Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "A 'control variable' (called 'parasite' in the course) is:",
+    "o": [
+      "A factor that is measured but not manipulable, often categorical",
+      "The variable the researcher manipulates to observe its effect",
+      "The main measured outcome of the study, always quantitative",
+      "A specific element of the DV used in operational hypotheses"
+    ],
+    "e": "In this course, a control variable (or 'parasite') is a factor that is measured but cannot be manipulated, often categorical: gender, race, social background, age, marital status. Researchers cannot assign these to participants, but they can measure them and take them into account, because they may influence the outcome and distort the IV–DV relationship. In the course they are also the socio-demographic elements used in operational statistical hypotheses.",
+    "w": [
+      "The variable the researcher manipulates to observe its effect is the IV.",
+      "The main measured outcome, always quantitative in this course, is the DV.",
+      "A specific element of a variable used in operational hypotheses is a subvariable."
+    ],
+    "k": "Control variable ('parasite') = measured but not manipulable, often categorical (gender, race, social background).",
+    "h": "'Parasite' comes from the French 'variable parasite': an uninvited guest that feeds on your results unless you control it.",
+    "r": "RM – Definitions: Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 1,
+    "q": "In 'The impact of stress on short-term memory', short-term memory is the:",
+    "o": [
+      "Dependent variable",
+      "Independent variable",
+      "Control variable",
+      "Subvariable of stress"
+    ],
+    "e": "In the summary's Topic 1, stress is the cause (IV) and short-term memory is the effect (DV). The topic's grammar gives it away: 'the impact of X on Y' means X acts and Y receives the effect, so Y is the outcome you measure. Memory is also quantitative here (for example how many items are retained), as the course requires of a DV.",
+    "w": [
+      "Stress is the independent variable in this topic, not memory.",
+      "Control variables are socio-demographic factors such as gender or age; memory is the outcome.",
+      "Subvariables of stress include cortisol and burnout; memory is a separate variable."
+    ],
+    "k": "'The impact of X on Y': X is the IV (cause), Y is the DV (effect).",
+    "h": "Impact OF the hammer ON the nail: the hammer acts (IV), the nail takes the hit (DV).",
+    "r": "RM – Topic 1"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "In the preface of Clarkin, Yeomans & Kernberg, which variables are named in a psychotherapy trial?",
+    "o": [
+      "The form of treatment is the IV; patient improvement is the DV",
+      "Patient improvement is the IV and the form of treatment is the DV being measured",
+      "Therapist age is the DV",
+      "Diagnosis is the IV; therapist is the DV"
+    ],
+    "e": "The TFP preface explains why treatment manuals exist. In experimental psychotherapy research, the independent variable is the form of treatment, which must be objectified and uniform (delivered the same way by every therapist) so researchers can examine its impact on the dependent variables, such as patient improvement. If each therapist did something different, the 'IV' would not be one thing, and no conclusion about it could be drawn. The manual standardizes the IV.",
+    "w": [
+      "This reverses the roles: the treatment is manipulated (IV) and improvement is measured (DV).",
+      "Therapist age is not named in the preface; the DVs are measures of patient improvement.",
+      "Diagnosis and therapist are not the variables named; the preface names treatment and improvement."
+    ],
+    "k": "In a psychotherapy trial, the treatment is the IV and patient improvement the DV; manuals make the IV uniform.",
+    "h": "A recipe (manual) makes every cook's dish the same, so you can judge the dish, not the cook.",
+    "r": "Clarkin – Preface (cross-link with RM)"
+  },
+  {
+    "t": "General hypothesis",
+    "d": 1,
+    "q": "The general hypothesis:",
+    "o": [
+      "Restates the topic with the same IV and DV terms, mentioning a correlation without its direction",
+      "States the direction of the relationship and replaces the variables with their subvariables",
+      "Mentions only one of the variables and links it to a socio-demographic factor such as gender",
+      "Says only that a link exists between two subvariables, without stating its direction"
+    ],
+    "e": "The general hypothesis is the first step after the topic: you restate the topic using the same IV and DV terms and say that a relationship exists, without saying how (no increase or decrease). For 'the impact of stress on short-term memory' it is 'Stress affects short-term memory' or 'There's a relationship between stress and short-term memory.' Direction and subvariables come later, at the operational level ('that's operational!').",
+    "w": [
+      "Stating direction with subvariables describes an operational directional hypothesis.",
+      "One variable linked to a socio-demographic factor describes an operational statistical hypothesis.",
+      "A link between subvariables without direction is an operational non-directional hypothesis."
+    ],
+    "k": "General hypothesis = same IV and DV terms + 'there is a relationship', with no direction.",
+    "h": "General = generic: the topic restated, nothing specific yet.",
+    "r": "RM – General Hypothesis"
+  },
+  {
+    "t": "General hypothesis",
+    "d": 2,
+    "q": "Which is a correct general hypothesis for 'the impact of stress on short-term memory'?",
+    "o": [
+      "Stress affects short-term memory.",
+      "High cortisol lowers retention capacity.",
+      "Women are more prone to stress than men.",
+      "There is a link between burnout and information retrieval."
+    ],
+    "e": "'Stress affects short-term memory' keeps the exact IV and DV terms of the topic and asserts a relationship without saying in which direction, which is exactly the general hypothesis. The other options each move to the operational level: one uses subvariables plus a direction (cortisol lowers retention), one links stress to a socio-demographic element (women versus men), and one links two subvariables without direction (burnout and retrieval).",
+    "w": [
+      "Cortisol and retention are subvariables, and 'lowers' gives a direction: operational directional.",
+      "Linking stress to gender, a socio-demographic element, makes it operational statistical.",
+      "Burnout and information retrieval are subvariables with no direction: operational non-directional."
+    ],
+    "k": "A correct general hypothesis repeats the topic's own IV and DV words and adds only 'affects' or 'is related to'.",
+    "r": "RM – Topic 1"
+  },
+  {
+    "t": "General hypothesis",
+    "d": 3,
+    "q": "A student writes as a GENERAL hypothesis: \"Higher stress decreases short-term memory.\" What is the error?",
+    "o": [
+      "It states a direction (decrease), which belongs at the operational level",
+      "It uses the same IV and DV terms as the topic, which is not allowed",
+      "It does not mention a socio-demographic variable such as age or gender",
+      "It contains no clear IV, since memory is placed first in the sentence"
+    ],
+    "e": "'Higher stress decreases short-term memory' keeps the right terms but adds a direction ('higher… decreases'). The summary is explicit: in a general hypothesis we don't yet mention how the variables are correlated (increase or decrease), because that's operational. The fix is 'Stress affects short-term memory'. The direction would belong in an operational directional hypothesis, written with subvariables (for example cortisol and retention capacity).",
+    "w": [
+      "Using the same IV and DV terms is required in a general hypothesis, not an error.",
+      "Socio-demographic variables belong in statistical hypotheses, not general ones.",
+      "The IV is clear (stress); word order does not change the variables' roles."
+    ],
+    "k": "No direction in a general hypothesis: 'increases' or 'decreases' belongs to the operational level.",
+    "h": "General hypotheses point at a relationship, not in a direction.",
+    "r": "RM – General Hypothesis"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 1,
+    "q": "How many types of operational hypotheses does the summary list?",
+    "o": [
+      "3: directional, non-directional, statistical",
+      "2: null and alternative",
+      "4: general, directional, non-directional, statistical",
+      "1: directional"
+    ],
+    "e": "The summary lists three operational hypotheses. Directional: subvariables plus a direction. Non-directional: subvariables plus a relationship, without direction. Statistical: one variable can stand alone, preferably linked to socio-demographic elements, or two variables in 'there is/isn't statistical correlation between… and…'. The general hypothesis is not one of them; it comes before them, and they are deduced from it.",
+    "w": [
+      "Null and alternative are the statistical-testing pair (H0 and H1), not the course's operational types.",
+      "The general hypothesis is separate and comes first; it is not an operational type.",
+      "Directional is only one of the three operational types."
+    ],
+    "k": "Three operational hypotheses: directional, non-directional, statistical; the general hypothesis comes before them.",
+    "h": "D-N-S: Direction, No direction, Socio-demographic (statistical).",
+    "r": "RM – Operational Hypotheses"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "An operational DIRECTIONAL hypothesis:",
+    "o": [
+      "States how the variables are related, using subvariables instead of the IV/DV terms",
+      "Repeats the exact IV and DV terms of the topic and does not state any direction",
+      "States only that a link exists between subvariables, without saying how",
+      "Mentions only one variable and links it to a factor such as age or gender"
+    ],
+    "e": "An operational directional hypothesis has two features. It states how the variables are related (increase, decrease, negatively or positively affects), and it uses subvariables, specific elements of the IV and DV, instead of the literal topic terms. The summary's model: 'The increase of cortisol in the brain negatively affects the capacity of retention in elderly people.' Cortisol is a subvariable of stress, capacity of retention a subvariable of memory, and 'negatively affects' gives the direction.",
+    "w": [
+      "Same IV and DV terms with no direction is the general hypothesis.",
+      "A link between subvariables without direction is the non-directional hypothesis.",
+      "One variable linked to a socio-demographic factor is the statistical hypothesis."
+    ],
+    "k": "Operational directional = subvariables + a stated direction (increase, decrease, positively or negatively).",
+    "h": "Directional = it has a direction arrow: ↑ or ↓.",
+    "r": "RM – 2.1"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "\"The increase of cortisol in the brain negatively affects the capacity of retention in elderly people\" is:",
+    "o": [
+      "Operational directional",
+      "Operational non-directional",
+      "Operational statistical",
+      "General"
+    ],
+    "e": "Apply the two-feature test. Does it use subvariables instead of the topic's literal terms? Yes: cortisol for stress and capacity of retention for short-term memory. Does it state a direction? Yes: 'negatively affects'. Subvariables plus direction makes it operational directional; it is the summary's own model answer for Topic 1. 'In elderly people' is an optional addition that specifies the sample.",
+    "w": [
+      "Non-directional states only that a relationship exists; this one says 'negatively affects'.",
+      "Statistical hypotheses tie a variable to a socio-demographic element; this links two subvariables.",
+      "General hypotheses use the topic's own terms (stress, memory) and no direction."
+    ],
+    "k": "Subvariables (cortisol, retention) + direction (negatively affects) = operational directional.",
+    "h": "Spot the arrow ('negatively') and the zoom-in words (cortisol): directional.",
+    "r": "RM – Topic 1, 2.1"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "\"There is a relationship between burnout and information retrieval\" is:",
+    "o": [
+      "Operational non-directional",
+      "Operational directional",
+      "General",
+      "Operational statistical"
+    ],
+    "e": "Burnout is a subvariable of stress and information retrieval a subvariable of short-term memory, so we are at the operational level. The sentence says only that a relationship exists, not whether burnout raises or lowers retrieval. Subvariables without direction is the definition of an operational non-directional hypothesis; this is the summary's model answer for Topic 1.",
+    "w": [
+      "Directional would need a direction such as 'burnout reduces information retrieval'.",
+      "General hypotheses use the topic's literal terms (stress, short-term memory), not subvariables.",
+      "Statistical hypotheses tie a variable to socio-demographic elements, or say 'statistical correlation'."
+    ],
+    "k": "Subvariables + 'there is a relationship' (no direction) = operational non-directional.",
+    "h": "Non-directional = a line between two dots with no arrowhead.",
+    "r": "RM – Topic 1, 2.2"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "In Topic 1, which are given as subvariables of stress?",
+    "o": [
+      "Cortisol and burnout",
+      "Capacity of retention and focus",
+      "Age and gender",
+      "Information retrieval and grades"
+    ],
+    "e": "Subvariables are specific, measurable elements of a broader variable. In Topic 1, stress breaks down into cortisol (its physiological marker, the stress hormone) and burnout (a state of chronic stress), while short-term memory breaks down into capacity of retention and focus or information retrieval. Choosing subvariables is how you make an abstract concept measurable, and it is required in directional and non-directional hypotheses.",
+    "w": [
+      "Capacity of retention and focus are subvariables of short-term memory, the DV.",
+      "Age and gender are socio-demographic control variables, not subvariables of stress.",
+      "Information retrieval belongs to memory, and grades come from Topic 2 (academic success)."
+    ],
+    "k": "Subvariables of stress: cortisol, burnout. Subvariables of short-term memory: capacity of retention, focus, information retrieval.",
+    "h": "Stress shows up in the blood (cortisol) and in the soul (burnout).",
+    "r": "RM – Topic 1"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "What makes the operational STATISTICAL hypothesis different?",
+    "o": [
+      "One variable can appear on its own; IV and DV are not both needed",
+      "It must contain two subvariables and also state their direction",
+      "It must repeat the exact wording of the topic with the same terms",
+      "It never mentions socio-demographic elements such as age or gender"
+    ],
+    "e": "In the operational statistical hypothesis you can mention just one of the variables; IV and DV are not both needed. Each variable can be mentioned on its own, typically linked to socio-demographic elements of the sample, as in 'Women are more prone to stress than men', where only stress appears. Directional and non-directional hypotheses always involve both variables, through their subvariables.",
+    "w": [
+      "Two subvariables plus a direction describes the operational directional hypothesis.",
+      "Repeating the topic's exact terms is the general hypothesis.",
+      "Socio-demographic elements are the preferred way of writing statistical hypotheses, not something they avoid."
+    ],
+    "k": "Statistical hypothesis: one variable may appear alone, usually linked to socio-demographic elements.",
+    "h": "Statistical = 'stats about groups': women versus men, divorced versus married.",
+    "r": "RM – 2.3"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "What is the preferred method for writing a statistical hypothesis?",
+    "o": [
+      "Link the variable to socio-demographic elements such as age or gender",
+      "Write 'There is a statistical correlation between X and Y' every time",
+      "Reuse the general hypothesis wording with the same IV and DV terms",
+      "State the direction of the effect using two different subvariables"
+    ],
+    "e": "The summary gives two ways of writing a statistical hypothesis and marks the first as preferred. You link the variable to socio-demographic elements of the sample, such as age, gender, economic status, education level or social status, which the course calls control variables or parasites: 'Women are more prone to stress than men.' The second way links the two variables: 'There is/isn't statistical correlation between… and…'.",
+    "w": [
+      "'There is a statistical correlation between X and Y' is the second, non-preferred way.",
+      "Reusing the topic's wording with the same terms is the general hypothesis.",
+      "Two subvariables with a direction is the operational directional hypothesis."
+    ],
+    "k": "Preferred statistical hypothesis: link the variable to a socio-demographic element (age, gender, status…).",
+    "h": "First choice: compare groups of people (women versus men).",
+    "r": "RM – 2.3"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 1,
+    "q": "\"Divorced women are more prone to stress than married women\" is:",
+    "o": [
+      "Operational statistical",
+      "Operational directional",
+      "Operational non-directional",
+      "General"
+    ],
+    "e": "Only one variable appears (stress), and it is linked to socio-demographic elements: gender (women) and marital status (divorced versus married). That is the preferred way of writing an operational statistical hypothesis, and this sentence is one of the summary's own valid answers. 'More prone' sounds like a direction, but the type is decided by the link to a socio-demographic group, not by the comparison word.",
+    "w": [
+      "Directional hypotheses link subvariables of both IV and DV; this has one variable and a group comparison.",
+      "Non-directional hypotheses link two subvariables without direction; here stress is compared across groups.",
+      "General hypotheses restate the topic with the same IV and DV terms."
+    ],
+    "k": "One variable + socio-demographic groups (gender, marital status) = operational statistical, even with 'more' or 'less'.",
+    "h": "See a group label (divorced, women, aged 50–70)? Think statistical.",
+    "r": "RM – 2.3 examples"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 1,
+    "q": "Socio-demographic elements (age, gender, economic status, education level…) are, in the course's terms:",
+    "o": [
+      "Control variables / parasites",
+      "Dependent variables measured as outcomes",
+      "Subvariables of the IV",
+      "General hypotheses"
+    ],
+    "e": "The course treats socio-demographic elements, defined as elements based on the chosen sample (age, gender, economic status, education level, social status), as control variables or parasites. They are measured, cannot be manipulated, and often influence the outcome. That is why they appear in the preferred statistical hypothesis: comparing groups defined by these characteristics.",
+    "w": [
+      "DVs are the measured outcomes (for example memory), not background characteristics of participants.",
+      "Subvariables are specific elements of the IV or DV, such as cortisol for stress.",
+      "General hypotheses are statements, not a type of variable."
+    ],
+    "k": "Socio-demographic elements (age, gender, income, education, status) = control variables (parasites).",
+    "h": "Socio-demo = society + people: the boxes on a census form.",
+    "r": "RM – 2.3"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 1,
+    "q": "In 'Self-esteem and academic success among high school students', high school students are the:",
+    "o": [
+      "Population sample",
+      "IV",
+      "DV",
+      "Control variable"
+    ],
+    "e": "In Topic 2, self-esteem is the IV, academic success the DV, and high school students the population sample: the group the study is about. The word 'among' signals the sample. The sample is not a variable in the IV–DV relationship; it defines who the conclusions apply to. It appears naturally in the general hypothesis: 'Self-esteem affects academic success among high school students.'",
+    "w": [
+      "Self-esteem is the IV in Topic 2.",
+      "Academic success is the DV in Topic 2.",
+      "Control variables are measured characteristics such as gender, not the population studied."
+    ],
+    "k": "'Among X' names the population sample, the people the study is about, not a variable.",
+    "h": "'Among' = who's in the room.",
+    "r": "RM – Topic 2"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 2,
+    "q": "\"Students with high self-confidence performed better than students who do not\" is:",
+    "o": [
+      "Operational directional",
+      "General",
+      "Operational statistical",
+      "Operational non-directional"
+    ],
+    "e": "Self-confidence is a subvariable of self-esteem (the IV), and 'performed better' points to academic success (the DV) with a direction. Subvariables plus direction makes it operational directional; this is the summary's model answer for Topic 2. The comparison between confident and less confident students is a contrast on the IV itself, not a socio-demographic grouping, which is why it is not statistical.",
+    "w": [
+      "General hypotheses use the topic's own terms (self-esteem, academic success) without direction.",
+      "Statistical hypotheses tie a variable to socio-demographic elements such as gender or age.",
+      "Non-directional hypotheses state only a correlation; this one says 'performed better'."
+    ],
+    "k": "Comparing high and low levels of an IV subvariable with 'better/worse' = operational directional.",
+    "r": "RM – Topic 2, 2.1"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 2,
+    "q": "\"Females experience higher self-doubt when it comes to academic performance\" is:",
+    "o": [
+      "Operational statistical",
+      "Operational directional",
+      "General",
+      "Operational non-directional"
+    ],
+    "e": "The sentence links a variable (self-doubt, the reverse side of self-esteem) to a socio-demographic element, gender ('females'). That makes it operational statistical by the preferred method, and it is the summary's model statistical answer for Topic 2. The word 'higher' does not make it directional: what defines the statistical type is the link to a socio-demographic group.",
+    "w": [
+      "Directional hypotheses link subvariables of the IV and DV; this one ties self-doubt to gender.",
+      "General hypotheses use the topic's own terms with no direction or groups.",
+      "Non-directional hypotheses link two subvariables without direction."
+    ],
+    "k": "A variable tied to gender, age or status is statistical, even if it says 'higher' or 'more'.",
+    "h": "Females versus males = a census category = statistical.",
+    "r": "RM – Topic 2, 2.3"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 2,
+    "q": "\"There is a relationship between listening to classical music and feeling happier\" is:",
+    "o": [
+      "Operational non-directional",
+      "Operational directional",
+      "General",
+      "Operational statistical"
+    ],
+    "e": "In Topic 3 (music and the mood of palliative-care patients), 'listening to classical music' is a subvariable of music (IV) and 'feeling happier' a subvariable of mood (DV). The sentence asserts only a relationship, with no direction, so it is operational non-directional; this is the summary's model answer for Topic 3. 'Happier' describes the subvariable, not a direction of effect.",
+    "w": [
+      "Directional would say music increases or decreases happiness, for example 'raises happiness'.",
+      "General hypotheses use the topic's terms: 'music affects the mood of palliative-care patients'.",
+      "Statistical hypotheses link a variable to socio-demographic elements such as an age range."
+    ],
+    "k": "Subvariables joined by 'there is a relationship between…' = non-directional, whatever the subvariable is called.",
+    "h": "'Relationship between' = no arrow.",
+    "r": "RM – Topic 3, 2.2"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 3,
+    "q": "\"Palliative-care patients aged 50–70 who listen to meditative music are calmer than those who do not\" is classified as statistical mainly because:",
+    "o": [
+      "It ties the variable to a socio-demographic element (age range)",
+      "It states a direction ('calmer'), which makes it directional",
+      "It contains no IV, so it can only be classified as statistical",
+      "It repeats the exact terms of the topic, music and mood"
+    ],
+    "e": "This is the summary's model statistical answer for Topic 3. Its defining feature is the age range (50–70), a socio-demographic element that the course calls a control variable or parasite, attached to the variable. It does contain a comparison ('calmer than those who do not'), but in the course's scheme the socio-demographic link is what makes a hypothesis statistical.",
+    "w": [
+      "'Calmer' is a comparison, but the age-range link is what classifies it as statistical in this course.",
+      "It does involve music (meditative music), so the IV is present.",
+      "It does not repeat the topic's terms; it uses 'meditative music' and 'calmer'."
+    ],
+    "k": "An age range, gender or other socio-demographic group attached to the variable marks a statistical hypothesis.",
+    "h": "Numbers like '50–70' describing people mean socio-demographic, which means statistical.",
+    "r": "RM – Topic 3, 2.3"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 2,
+    "q": "\"Music therapy is more likely to decrease pain with terminal patients\" is:",
+    "o": [
+      "Operational directional",
+      "Operational statistical",
+      "General",
+      "Operational non-directional"
+    ],
+    "e": "Music therapy is a specific element of music (the IV) and pain relates to the patients' state (the DV side), and 'decrease' gives a direction. Subvariables plus direction makes it operational directional; this is the summary's model answer for Topic 3. 'With terminal patients' specifies the sample, which is allowed (like 'in elderly people' in Topic 1) and does not turn it into a statistical hypothesis.",
+    "w": [
+      "Statistical hypotheses tie a variable to socio-demographic elements; 'terminal patients' is the sample itself.",
+      "General hypotheses use the topic's own terms, music and mood, without direction.",
+      "Non-directional hypotheses state only a relationship; this one says 'decrease'."
+    ],
+    "k": "A specific form of the IV + a direction (decrease) = directional; naming the sample doesn't change the type.",
+    "h": "'Decrease' is a down-arrow: directional.",
+    "r": "RM – Topic 3, 2.1"
+  },
+  {
+    "t": "Topic 2 & 3",
+    "d": 1,
+    "q": "Which is the general hypothesis for Topic 3?",
+    "o": [
+      "Music affects the mood of palliative-care patients.",
+      "Classical music makes people happier.",
+      "Music therapy decreases pain.",
+      "Older patients who listen to music are calmer."
+    ],
+    "e": "The general hypothesis restates Topic 3, 'effects of music on the mood of palliative-care patients', with the same IV (music) and DV (mood) terms and a relationship without direction: 'Music affects the mood of palliative-care patients.' Including the sample is fine, since it is part of the topic. The other options use subvariables (classical music, music therapy), a direction (decreases) or an age group, so they belong to the operational level.",
+    "w": [
+      "'Classical music' and 'happier' are subvariables, so this is operational.",
+      "'Music therapy' and 'pain' are subvariables and 'decreases' is a direction: operational directional.",
+      "'Older patients' adds a socio-demographic element: operational statistical."
+    ],
+    "k": "General hypothesis for Topic 3: 'Music affects the mood of palliative-care patients.'",
+    "h": "General = the topic title turned into a sentence.",
+    "r": "RM – Topic 3"
+  },
+  {
+    "t": "Application",
+    "d": 3,
+    "q": "Topic: 'Social media use and sleep quality among university students.' Which is a correct operational NON-directional hypothesis?",
+    "o": [
+      "There is a link between night-time scrolling and sleep-onset latency in students.",
+      "Social media use affects sleep quality among university students.",
+      "Night-time scrolling increases sleep-onset latency in university students.",
+      "Male university students sleep worse than female university students."
+    ],
+    "e": "Use the method. Subvariables: night-time scrolling (a specific element of social media use) and sleep-onset latency (how long it takes to fall asleep, a specific element of sleep quality). Then a relationship with no direction: 'there is a link between…'. That makes it operational non-directional. Each wrong option fails one test: one reuses the topic's terms, one adds a direction, one ties sleep to gender.",
+    "w": [
+      "It reuses the topic's own terms (social media use, sleep quality): that is the general hypothesis.",
+      "'Increases' gives a direction, so this is operational directional.",
+      "Comparing male and female students ties the variable to gender: operational statistical."
+    ],
+    "k": "Non-directional: zoom into subvariables and state only that they are linked.",
+    "h": "Zoom in (subvariables), don't point (no direction).",
+    "r": "RM – applied"
+  },
+  {
+    "t": "Variables",
+    "d": 1,
+    "q": "Which examples of control variables (parasites) does the summary give?",
+    "o": [
+      "Gender, race, social background",
+      "Cortisol, burnout and focus",
+      "Stress, memory and mood",
+      "Grades, pain, happiness"
+    ],
+    "e": "The summary's examples of control variables are gender, race and social background: characteristics that are measured but cannot be manipulated, and are often categorical. The statistical-hypothesis section adds more socio-demographic elements of the same kind: age, economic status, education level and social status. They matter because groups differing on them may differ on the outcome for reasons unrelated to the IV.",
+    "w": [
+      "Cortisol, burnout and focus are subvariables of stress and memory, not control variables.",
+      "Stress, memory and mood are the IVs and DVs of the summary's topics.",
+      "Grades, pain and happiness are subvariables of the DVs in Topics 2 and 3."
+    ],
+    "k": "Control variable examples: gender, race, social background (plus age, income, education, status).",
+    "r": "RM Midterm – Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "How many dependent variables can one study have, according to the summary?",
+    "o": [
+      "Several – a study can have multiple DVs",
+      "Exactly one",
+      "None, if a control variable is used",
+      "Two at most"
+    ],
+    "e": "The summary states that a study can have multiple DVs. One manipulation can affect several outcomes, so researchers often measure more than one: a stress study might measure memory capacity, attention and reaction time. Each DV must still be quantitative (in this course's definition) and clearly measured. Multiple DVs give a fuller picture of the IV's effects (the statistics course shows how MANOVA analyses them together).",
+    "w": [
+      "The summary explicitly allows a study to have several dependent variables, so 'exactly one' is wrong.",
+      "Control variables have nothing to do with how many DVs a study can have.",
+      "No maximum of two is stated; 'multiple' has no fixed limit."
+    ],
+    "k": "A study can have several DVs: one cause can have many measured effects.",
+    "h": "One stone in the pond, many ripples measured.",
+    "r": "RM Midterm – Variables"
+  },
+  {
+    "t": "Variables",
+    "d": 1,
+    "q": "In Topic 3, 'Effects of music on the mood of palliative-care patients', what is music?",
+    "o": [
+      "The independent variable",
+      "The dependent variable",
+      "The population sample",
+      "A control variable"
+    ],
+    "e": "'Effects of music on the mood of palliative-care patients' follows the 'effect of X on Y' pattern: music acts, so it is the independent variable, and mood is the effect, the DV. Palliative-care patients are the sample, the people the study is about. Reading the grammar of the topic title is the fastest way to identify the variables.",
+    "w": [
+      "Mood is the dependent variable, the measured outcome.",
+      "The palliative-care patients are the population sample.",
+      "Control variables are socio-demographic characteristics such as age; music is the manipulated cause."
+    ],
+    "k": "'Effects of music on mood': music = IV, mood = DV, palliative-care patients = sample.",
+    "h": "Effect OF (IV) ON (DV) AMONG/OF (sample).",
+    "r": "RM Midterm – Topic 3"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "Which subvariables of short-term memory appear in the Topic 1 examples?",
+    "o": [
+      "Capacity of retention, focus and information retrieval",
+      "Cortisol, burnout and stress hormones",
+      "Age, gender and education level of the sample",
+      "Mood and pain"
+    ],
+    "e": "In Topic 1, short-term memory is made measurable through its subvariables: capacity of retention (used in the directional model answer about cortisol) and focus or information retrieval (used in the non-directional answer about burnout). Each can be measured, for example by counting words recalled. Cortisol and burnout are subvariables of stress, the other side of the relationship.",
+    "w": [
+      "Cortisol and stress hormones belong to stress (the IV), not to memory.",
+      "Age, gender and education are socio-demographic control variables, not subvariables of memory.",
+      "Mood and pain come from Topic 3, not Topic 1."
+    ],
+    "k": "Short-term memory's subvariables: capacity of retention, focus, information retrieval.",
+    "h": "Memory holds (retention), aims (focus), fetches (retrieval).",
+    "r": "RM Midterm – Topic 1"
+  },
+  {
+    "t": "Variables",
+    "d": 3,
+    "q": "Topic: 'The effect of a mindfulness program on test anxiety in nursing students.' Identify IV, DV and sample.",
+    "o": [
+      "IV = mindfulness program; DV = test anxiety; sample = nursing students",
+      "IV = test anxiety; DV = mindfulness program; sample = nursing students",
+      "IV = nursing students; DV = test anxiety; sample = mindfulness program",
+      "IV = mindfulness program; DV = nursing students; sample = test anxiety"
+    ],
+    "e": "Use the grammar: 'the effect of X on Y in Z'. X, the mindfulness program, is what the researcher would introduce or vary, so it is the IV. Y, test anxiety, is the measured outcome, the DV. 'In nursing students' names the population sample, as 'among high school students' does in Topic 2. A sample is never the IV or DV; it is the group the study is about.",
+    "w": [
+      "This reverses IV and DV: the program causes, the anxiety is measured.",
+      "Students are the sample, and the program is the cause; neither can swap into the other's role.",
+      "Nursing students cannot be the DV and test anxiety cannot be the sample."
+    ],
+    "k": "'Effect of X on Y in Z': X = IV, Y = DV, Z = sample.",
+    "h": "Effect OF → IV, ON → DV, IN/AMONG → sample.",
+    "r": "RM Midterm – Variables (application)"
+  },
+  {
+    "t": "General hypothesis",
+    "d": 1,
+    "q": "Which is the model general hypothesis for Topic 2 (self-esteem and academic success)?",
+    "o": [
+      "Self-esteem affects academic success among high school students.",
+      "Students with high self-confidence perform better.",
+      "Females experience higher self-doubt about academic performance.",
+      "There is a correlation between participation in class and high grades."
+    ],
+    "e": "For Topic 2 the summary's general hypothesis is 'Self-esteem affects academic success among high school students': the same IV (self-esteem) and DV (academic success) terms, a relationship ('affects') and no direction, with the sample kept from the topic. The other options are the summary's operational model answers: directional (self-confidence → better), statistical (females) and non-directional (correlation between participation and grades).",
+    "w": [
+      "Self-confidence is a subvariable and 'perform better' a direction: operational directional.",
+      "Linking self-doubt to females (gender) is operational statistical.",
+      "Participation and grades are subvariables with no direction: operational non-directional."
+    ],
+    "k": "Topic 2 general hypothesis: 'Self-esteem affects academic success among high school students.'",
+    "h": "Same words as the title + 'affects' = general.",
+    "r": "RM Midterm – Topic 2"
+  },
+  {
+    "t": "General hypothesis",
+    "d": 2,
+    "q": "Can the population sample appear in a general hypothesis?",
+    "o": [
+      "Yes – the Topic 2 and 3 model answers include it",
+      "No – the sample appears only in statistical hypotheses",
+      "No – adding a sample makes it directional",
+      "Only if it is a socio-demographic variable"
+    ],
+    "e": "Yes. The general hypothesis restates the topic, and when the topic includes a sample, the restatement keeps it: 'Self-esteem affects academic success among high school students'; 'Music affects the mood of palliative-care patients.' What keeps it general is that the IV and DV stay in their topic wording and no direction is given. A sample is not a socio-demographic comparison, so it does not make the hypothesis statistical.",
+    "w": [
+      "The model general hypotheses for Topics 2 and 3 both include the sample.",
+      "Direction comes from words like 'increase' or 'better', not from naming the sample.",
+      "The sample appears whenever it is part of the topic; it need not be a socio-demographic variable."
+    ],
+    "k": "Yes: a general hypothesis can name the sample, since it simply restates the topic.",
+    "r": "RM Midterm – Topics 2 & 3"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "Which is the model operational NON-directional hypothesis for Topic 2?",
+    "o": [
+      "There is a correlation between self-confidence/participation in class and high grades.",
+      "Self-esteem affects academic success among high school students.",
+      "Students who have high self-confidence performed better than students who do not.",
+      "Females experience higher self-doubt when it comes to their academic performance."
+    ],
+    "e": "'There is a correlation between self-confidence/participation in class and high grades' uses subvariables on both sides (self-confidence and participation for self-esteem; high grades for academic success) and states a correlation without direction. That is the definition of operational non-directional, and it is the summary's model answer. Even 'high grades' names a subvariable level, not a direction of effect.",
+    "w": [
+      "This is Topic 2's general hypothesis: the same IV and DV terms, no direction.",
+      "'Performed better' is a direction with a subvariable: operational directional.",
+      "Linking self-doubt to females (gender) makes it operational statistical."
+    ],
+    "k": "Topic 2 non-directional: 'There is a correlation between self-confidence/participation and high grades.'",
+    "h": "'Correlation between' with zoomed-in words = non-directional.",
+    "r": "RM Midterm – Topic 2"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "Which wording follows the SECOND way of writing a statistical hypothesis?",
+    "o": [
+      "There is no statistical correlation between burnout and information retrieval.",
+      "Women are more prone to stress than men in the general population.",
+      "The increase of cortisol negatively affects the capacity of retention.",
+      "The increase of cortisol negatively affects retention."
+    ],
+    "e": "The summary's statistical hypotheses can be written two ways. The first (preferred) links one variable to socio-demographic elements ('Women are more prone to stress than men'). The second links the two variables with a fixed formula: 'There is/isn't statistical correlation between… and…'. 'There is no statistical correlation between burnout and information retrieval' follows that formula; note that the formula allows the negative form ('isn't').",
+    "w": [
+      "Linking stress to women versus men is the first, preferred way.",
+      "Subvariables with a direction ('negatively affects') is the operational directional hypothesis.",
+      "This is the same directional statement in shorter form, not a statistical correlation formula."
+    ],
+    "k": "Second way of writing a statistical hypothesis: 'There is/isn't statistical correlation between X and Y.'",
+    "h": "The second way literally contains the word 'statistical'.",
+    "r": "RM Midterm – Statistical hypothesis"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 3,
+    "q": "\"Females experience higher self-doubt about academic performance\" states a direction ('higher'). Why is it still classified as statistical, not directional?",
+    "o": [
+      "It ties a variable to a socio-demographic element (gender), the mark of the statistical type",
+      "Any hypothesis that mentions females is automatically a general hypothesis",
+      "It uses exactly the same IV and DV terms as the topic, without subvariables",
+      "Statistical hypotheses must always state a direction such as 'higher' or 'lower'"
+    ],
+    "e": "Students often classify by spotting 'higher' or 'lower', but the course classifies by structure. A directional hypothesis links subvariables of the IV and DV with a direction. A statistical hypothesis ties one variable to a control variable, a socio-demographic element. Here self-doubt is tied to gender ('females'), so it is statistical despite 'higher'. Ask first whether a socio-demographic group defines the comparison; if yes, it is statistical.",
+    "w": [
+      "Mentioning females does not make it general; general hypotheses repeat the topic's IV and DV terms.",
+      "It does not use the topic's terms (self-esteem, academic success); it uses self-doubt and gender.",
+      "Statistical hypotheses need not state a direction; 'There is no statistical correlation…' has none."
+    ],
+    "k": "Classify by structure: a socio-demographic group (gender, age, status) makes it statistical, even with 'higher'.",
+    "h": "Group first, arrow second: a group label overrides an arrow.",
+    "r": "RM Midterm – Topic 2"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "In the directional example, the phrase 'in elderly people' is:",
+    "o": [
+      "An optional addition – the summary marks it '(can be added)'",
+      "Required in every operational directional hypothesis",
+      "What turns the hypothesis into a statistical one",
+      "The dependent variable"
+    ],
+    "e": "The summary's directional model reads '…the capacity of retention in elderly people (can be added)'. The note '(can be added)' means specifying the sample is allowed but not required. It narrows who the hypothesis is about without changing its type: it stays directional because it still links subvariables with a direction. A socio-demographic comparison between groups is what would make a hypothesis statistical.",
+    "w": [
+      "It is optional; the summary marks it '(can be added)'.",
+      "Naming who the hypothesis applies to does not create a socio-demographic comparison, so it stays directional.",
+      "Elderly people are the sample; the DV is capacity of retention."
+    ],
+    "k": "'In elderly people' is an optional sample specification; it does not change the hypothesis type.",
+    "h": "(can be added) = optional garnish, not the main dish.",
+    "r": "RM Midterm – Topic 1"
+  },
+  {
+    "t": "Operational hypotheses",
+    "d": 2,
+    "q": "Which TWO features together define an operational directional hypothesis?",
+    "o": [
+      "Subvariables instead of the IV/DV terms, and a stated direction",
+      "The same IV/DV terms as the topic, and no stated direction",
+      "Only one variable, linked to a socio-demographic element",
+      "Subvariables, and no direction"
+    ],
+    "e": "Classify hypotheses on two yes/no questions. Subvariables or the topic's own terms? Direction or no direction? The topic's terms with no direction is general. Subvariables with no direction is non-directional. Subvariables with a direction is directional. Statistical is the separate case where a variable is tied to socio-demographic elements (or written 'there is/isn't statistical correlation…').",
+    "w": [
+      "The topic's terms with no direction is the general hypothesis.",
+      "One variable linked to a socio-demographic element is the statistical hypothesis.",
+      "Subvariables with no direction is the non-directional hypothesis."
+    ],
+    "k": "Directional = subvariables + direction; non-directional = subvariables, no direction; general = topic terms, no direction.",
+    "h": "Two switches: zoom (subvariables) on, arrow on → directional.",
+    "r": "RM Midterm – Operational hypotheses"
+  },
+  {
+    "t": "Application",
+    "d": 3,
+    "q": "Topic: 'Parental conflict and anxiety in children.' Which is an operational DIRECTIONAL hypothesis?",
+    "o": [
+      "Frequent shouting between parents increases children's separation worry.",
+      "Parental conflict affects anxiety in children in general.",
+      "There is a link between shouting at home and children's worry.",
+      "Girls are more anxious than boys when their parents argue at home."
+    ],
+    "e": "'Frequent shouting between parents' is a concrete subvariable of parental conflict, 'separation worry' a subvariable of children's anxiety, and 'increases' is a direction. Subvariables plus direction makes it operational directional. The wrong options each fail one feature: one keeps the topic's terms (general), one drops the direction (non-directional), one compares girls and boys (statistical).",
+    "w": [
+      "It keeps the topic's own terms (parental conflict, anxiety) with no direction: general.",
+      "'There is a link between' gives no direction: operational non-directional.",
+      "Girls versus boys ties anxiety to gender: operational statistical."
+    ],
+    "k": "For a directional answer, look for concrete subvariables on both sides plus an increase/decrease verb.",
+    "h": "Shouting (zoomed-in conflict) + 'increases' (arrow) = directional.",
+    "r": "RM Midterm – Application"
+  },
+  {
+    "t": "Application",
+    "d": 3,
+    "q": "Topic: 'Physical exercise and depressive symptoms in adults.' Which is an operational STATISTICAL hypothesis (preferred method)?",
+    "o": [
+      "Unemployed adults show more depressive symptoms than employed adults.",
+      "Physical exercise affects depressive symptoms in adults.",
+      "Running three times a week reduces feelings of hopelessness.",
+      "There is a relationship between running and hopelessness."
+    ],
+    "e": "The preferred statistical method links one variable to a socio-demographic element of the sample. 'Unemployed adults show more depressive symptoms than employed adults' ties depressive symptoms to employment status, an economic or social-status element, so it is operational statistical. It mentions only one of the topic's variables, which the statistical type allows.",
+    "w": [
+      "It repeats the topic's terms with no direction: the general hypothesis.",
+      "Running and hopelessness are subvariables and 'reduces' is a direction: operational directional.",
+      "Running and hopelessness are subvariables linked without a direction: that is an operational non-directional hypothesis, not a statistical one."
+    ],
+    "k": "Statistical (preferred): one variable compared across socio-demographic groups, such as employed versus unemployed.",
+    "h": "Job status is a census box, so it's statistical.",
+    "r": "RM Midterm – Application"
+  },
+  {
+    "t": "Application",
+    "d": 3,
+    "q": "A student writes as an operational NON-directional hypothesis: 'There is a relationship between stress and short-term memory.' What is wrong?",
+    "o": [
+      "It reuses the literal IV and DV terms, which makes it the general hypothesis",
+      "It should state a direction, since non-directional hypotheses also need one",
+      "It should include a socio-demographic variable such as the age of the sample",
+      "Nothing – it is a correct non-directional hypothesis as written in the summary"
+    ],
+    "e": "'There is a relationship between stress and short-term memory' has no direction, but it reuses the topic's literal IV and DV terms, which makes it one of the summary's model general hypotheses. A non-directional hypothesis must replace them with subvariables, for example 'There is a relationship between burnout and information retrieval.' The difference between general and non-directional is not direction (neither has one) but subvariables.",
+    "w": [
+      "Non-directional hypotheses by definition have no direction; adding one would make it directional.",
+      "Socio-demographic variables belong to statistical hypotheses, not non-directional ones.",
+      "As written it is the general hypothesis, not a non-directional one."
+    ],
+    "k": "General and non-directional both lack direction; only non-directional uses subvariables.",
+    "h": "Same words = general; zoomed words = operational.",
+    "r": "RM Midterm – Topic 1"
+  },
+  {
+    "t": "Application",
+    "d": 3,
+    "q": "Classify: 'Elderly patients with high cortisol retain fewer words than those with normal cortisol.'",
+    "o": [
+      "Operational directional",
+      "General",
+      "Operational non-directional",
+      "Not a hypothesis"
+    ],
+    "e": "High cortisol is a subvariable of stress, 'words retained' measures capacity of retention (a subvariable of memory), and 'fewer' gives a direction. That is operational directional, mirroring the summary's model about cortisol and retention in elderly people. 'Elderly patients' specifies the sample, which is optional, and the comparison is between cortisol levels (the IV), not between socio-demographic groups.",
+    "w": [
+      "General hypotheses use the topic's own terms (stress, memory) with no direction.",
+      "Non-directional hypotheses state only a relationship; this one says 'fewer'.",
+      "It is a testable prediction about variables, so it is a hypothesis."
+    ],
+    "k": "Comparing levels of an IV subvariable on a DV subvariable with 'more/fewer' = directional.",
+    "h": "High versus normal cortisol is a comparison on the IV, not a census group.",
+    "r": "RM Midterm – Application"
+  },
+  {
+    "t": "Application",
+    "d": 2,
+    "q": "Which order goes from least to most specific in the course's method?",
+    "o": [
+      "Topic → general hypothesis → operational hypotheses",
+      "Operational hypotheses → general hypothesis → topic",
+      "General hypothesis → topic → operational hypotheses",
+      "Topic → operational → general"
+    ],
+    "e": "The course's method narrows step by step. From the topic (the research question and its variables) we 'deduce' the general hypothesis (same terms, a relationship, no direction), and then the operational hypotheses, which make it testable: subvariables, a direction, or links to socio-demographic elements. Each step adds specificity, which is what turns an idea into something you can measure.",
+    "w": [
+      "This runs from most to least specific, the reverse of the method.",
+      "The general hypothesis is deduced from the topic, so it cannot come before it.",
+      "Operational hypotheses are deduced from the general one, so they come last."
+    ],
+    "k": "Method: topic → general hypothesis → operational hypotheses (most specific).",
+    "h": "Funnel: wide topic, narrower general, narrowest operational.",
+    "r": "RM Midterm – Method"
+  }
+]

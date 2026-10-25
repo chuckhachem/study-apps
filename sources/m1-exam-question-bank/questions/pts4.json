@@ -1,0 +1,422 @@
+[
+  {
+    "t": "Behavioral assessment",
+    "d": 2,
+    "q": "One client's anxiety is maintained mainly by cognitions, another's mainly by poor social skills. What principle of behavioral assessment does this illustrate?",
+    "o": [
+      "Disorders show in different modes; one mode's inference may not generalize",
+      "All anxiety has the same cause and therefore needs the same treatment",
+      "Cognitions are irrelevant and should be ignored in behavioral assessment",
+      "Social skills can only be assessed validly with projective tests"
+    ],
+    "e": "Behavioral assessment holds that behavior is best understood through preceding events and resulting consequences, and that disorders are expressed in several modes: overt behaviors, cognitions, physiological changes or verbal patterns. Each mode needs its own assessment strategy, and an inference from one mode does not necessarily generalize to another. Anxiety maintained by cognitions might respond to changing irrational thoughts, while anxiety from inadequate social skills is best treated with social skills training. Changing one mode also affects the others.",
+    "w": [
+      "The example shows different mechanisms requiring different treatments.",
+      "Cognitions are one of the modes assessed.",
+      "Social skills are assessed behaviorally, not projectively."
+    ],
+    "k": "Assess each mode (behavior, cognition, physiology, verbal) separately; the dominant mode guides treatment.",
+    "h": "Same symptom, different engine.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral assessment"
+  },
+  {
+    "t": "Behavioral assessment",
+    "d": 2,
+    "q": "Which list gives the course's general categories of behavioral assessment strategies?",
+    "o": [
+      "Behavioral interviewing, behavioral observation, cognitive behavioral assessment, psychophysiological assessment, self-report inventories",
+      "Projective tests, dream analysis, free association, word association, sentence completion",
+      "IQ testing, achievement testing, aptitude testing, neuropsychological testing, vocational testing",
+      "Case history, family interview, school records, police records, medical records"
+    ],
+    "e": "The course organizes behavioral assessment into behavioral interviewing, behavioral observation, cognitive behavioral assessment, psychophysiological assessment and self-report inventories. They vary in how directly they measure the person and how much they rely on inference; cognitive assessment, for example, is more indirect than behavioral observation. All of them stress a functional analysis of behavior through person–environment interaction, and every aspect of assessment is directly relevant to treatment planning and evaluation.",
+    "w": [
+      "These are projective or psychodynamic techniques.",
+      "These are categories of ability and achievement testing.",
+      "These are sources of collateral information."
+    ],
+    "k": "Behavioral strategies: interview, observation, cognitive assessment, psychophysiology, self-report — all for functional analysis tied to treatment.",
+    "h": "Ask, watch, think, measure the body, self-rate.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Strategies of behavioral assessment"
+  },
+  {
+    "t": "Behavioral interviewing",
+    "d": 1,
+    "q": "What do behaviorally oriented interviews mainly focus on, according to the course?",
+    "o": [
+      "The relationships between antecedents, behaviors and consequences (ABC)",
+      "Unconscious conflicts rooted in early childhood",
+      "The client's dreams and fantasies",
+      "The client's IQ and academic achievement"
+    ],
+    "e": "Behavioral interviews focus on describing and understanding the relationships between antecedents, behaviors and consequences (ABC). A baseline, or pretreatment measure, is developed by systematically considering the frequency, intensity and duration of relevant behaviors, and behaviors may be described as specific excesses and deficits. Each piece of information is placed in a broad, interactionist context: a phobia can strain relationships, undermine competence, increase dependence and helplessness, and so worsen the phobia.",
+    "w": [
+      "Unconscious conflicts are the focus of psychodynamic interviews.",
+      "Dreams and fantasies are not the behavioral focus.",
+      "Ability testing is not the focus of behavioral interviews."
+    ],
+    "k": "Behavioral interview: ABC analysis plus a baseline of frequency, intensity and duration; behaviors as excesses and deficits.",
+    "h": "A-B-C: what comes before, what happens, what follows.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral interviewing"
+  },
+  {
+    "t": "Behavioral interviewing",
+    "d": 2,
+    "q": "Why does the behavioral interview de-emphasize history, according to the course?",
+    "o": [
+      "The main cause of behavior is considered situational rather than historical",
+      "History is considered confidential and cannot be discussed",
+      "History is collected only by projective tests",
+      "Clients usually lie about their past"
+    ],
+    "e": "The initial phase of a behavioral interview includes elements of traditional interviews: sufficient rapport, a statement of general and specific purposes, and a review of relevant history. However, history tends to be de-emphasized in favor of current behaviors, because the main cause of client behavior is considered situational rather than historical. Reflective comments, probing, understanding and empathy are used, and open questions are followed by direct ones; extensive nondirective techniques are inappropriate.",
+    "w": [
+      "History is reviewed; it is simply given less weight.",
+      "Projective tests are not the source of history in this approach.",
+      "Client dishonesty is not the reason given."
+    ],
+    "k": "Behavioral interviews prioritize current, situational causes over history; the interviewer sets a clear direction.",
+    "h": "Here and now drives behavior.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral interviewing"
+  },
+  {
+    "t": "Behavioral interviewing",
+    "d": 2,
+    "q": "A client says, 'I'm a depressed type of person.' What should the behavioral interviewer do, according to the course?",
+    "o": [
+      "Translate the trait into specific, observable behaviors, cognitions and feelings that can change",
+      "Accept the trait as a permanent illness and focus on acceptance",
+      "Ask the client why he is depressed",
+      "Administer a projective test to uncover the underlying trait"
+    ],
+    "e": "Clients often describe difficulties with general trait labels. The behavioral interviewer works with them to develop specific, easily observable descriptions: a 'depressed type of person' might translate into behaviors (slow movement, too much time in bed, avoiding people, nonassertiveness), cognitions (being no good, a failure) and feelings (hopelessness, apathy). Reframing an assumed permanent trait as changeable behaviors is itself beneficial, showing clients specific things they can do, and concrete language improves mutual understanding.",
+    "w": [
+      "The course reframes the trait as changeable, not permanent.",
+      "'Why' questions increase defensiveness and intellectualizing.",
+      "The aim is observable description, not projective inference."
+    ],
+    "k": "Turn trait labels into concrete behaviors, cognitions and feelings; reframing as changeable is itself therapeutic.",
+    "h": "From 'I am' to 'I do'.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral interviewing"
+  },
+  {
+    "t": "Behavioral interviewing",
+    "d": 3,
+    "q": "Which item is among the nine areas a behavioral interview should cover before completion?",
+    "o": [
+      "Identifying procedures for measuring behaviors: what, who, how, when and where",
+      "Identifying the client's earliest childhood memory",
+      "Identifying the client's favorite projective card",
+      "Identifying the client's IQ"
+    ],
+    "e": "The course lists what behavioral interviews should provide: an overview of what needs to be done and why precise specification matters; target behaviors in precise terms; their frequency, duration and intensity; conditions in terms of antecedents, behaviors and consequences; the desired level of performance, its realism and deadlines; the client's strengths; procedures for measuring behaviors (what, who, how, when, where); how program effectiveness will be evaluated; and a summary to ensure understanding and agreement. The outline is flexible, but all nine areas should be completed.",
+    "w": [
+      "Early memories belong to traditional case histories, not this list.",
+      "Projective cards are not part of behavioral assessment.",
+      "IQ is not one of the nine areas."
+    ],
+    "k": "Nine areas: overview, targets, frequency/duration/intensity, ABC, desired level, strengths, measurement plan, evaluation plan, summary.",
+    "h": "Define, count, contextualize, aim, strengthen, measure, evaluate, summarize.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral interviewing"
+  },
+  {
+    "t": "Behavioral observation",
+    "d": 2,
+    "q": "For which clients does behavioral observation become one of the most important means of assessment, according to the course?",
+    "o": [
+      "People with developmental disabilities, resistant clients and very young children",
+      "Highly verbal adults seeking insight-oriented therapy",
+      "Clients who prefer to complete questionnaires online",
+      "Clients referred only for vocational interests"
+    ],
+    "e": "The behavioral interview is sometimes sufficient, but behavioral observation is often required before, during and/or after treatment. With people with developmental disabilities, resistant clients or very young children, it may become one of the most important means of assessment. Observations can be made by the treating professional, by someone involved in the client's life (teacher, parent, spouse) or by the client through self-monitoring. The most frequent approaches are narrative, interval, event and ratings recording.",
+    "w": [
+      "Verbal adults can usually report through interviews.",
+      "Questionnaire preference does not make observation essential.",
+      "Vocational interests are measured with inventories."
+    ],
+    "k": "Observation is crucial when verbal report is limited: developmental disabilities, resistant clients, very young children.",
+    "h": "When words fail, watch.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral observation"
+  },
+  {
+    "t": "Behavioral observation",
+    "d": 2,
+    "q": "Why might a clinician create an analog situation such as a role play instead of observing in a natural setting?",
+    "o": [
+      "To elicit infrequent behaviors, though inferences must be cautious because they may not generalize",
+      "Because natural settings are always irrelevant to the client's life",
+      "Because analog results always generalize perfectly",
+      "Because natural settings are best for rare behaviors"
+    ],
+    "e": "Natural (in vivo) settings such as home, classroom or playground are directly relevant and work best for high-frequency or global behaviors (attention deficits, social withdrawal, depressive behaviors) and for measuring change. But they require much time and are problematic for infrequent behaviors (aggression, nonassertiveness) or those occurring when no one is present (fire-setting, suicide). Analog situations, such as role plays or work simulations, elicit such behaviors, especially infrequent ones, but inferences must be cautious since they may not generalize.",
+    "w": [
+      "Natural settings are directly relevant to the client's life.",
+      "The course warns that analog findings may not generalize.",
+      "Natural settings are problematic for rare behaviors."
+    ],
+    "k": "Natural settings: relevant, good for frequent behaviors; analog settings: elicit rare behaviors but generalize cautiously.",
+    "h": "Stage it when it rarely happens.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral observation"
+  },
+  {
+    "t": "Behavioral observation",
+    "d": 2,
+    "q": "What is 'reactivity', and how does the course suggest reducing it?",
+    "o": [
+      "Behavior changing because people know they are observed; train parents, teachers or spouses as observers",
+      "A faster reaction time on tests; use computerized testing",
+      "An observer's emotional reaction; use only video",
+      "The client reacting to medication; schedule observations in the morning"
+    ],
+    "e": "When an unfamiliar observer might contaminate the results, clinicians may train people already part of the client's natural setting, such as parents, teachers or spouses. This helps prevent subjects from changing their behavior simply because they know they are being observed, which the course calls reactivity. Natural observers are much less obtrusive than an outside professional. Their training must include a clear rationale for measuring the behavior and emphasize accurate and objective recording.",
+    "w": [
+      "Reactivity is not about reaction time.",
+      "Reactivity concerns the observed person's behavior.",
+      "Medication effects are not what reactivity means."
+    ],
+    "k": "Reactivity = behavior changes when people know they're observed; reduce it with trained natural observers.",
+    "h": "Watched people act.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Behavioral observation"
+  },
+  {
+    "t": "Recording methods",
+    "d": 2,
+    "q": "What is the primary value of narrative recording, according to the course?",
+    "o": [
+      "It helps define specific areas that can later be measured quantitatively",
+      "It provides precise frequency counts of behaviors",
+      "It has excellent validity regardless of observer skill",
+      "It requires sophisticated equipment and training"
+    ],
+    "e": "In narrative recording, the observer simply notes behaviors of interest, with little quantification and varying degrees of inference (noting that someone laughs with friends versus inferring positive peer relations). Its primary value is helping define future, more specific areas to be measured quantitatively, so it is usually a precursor to other methods. It can discover and elaborate relevant behaviors, needs little or no equipment and generates hypotheses; but it does not quantify, may have questionable validity and depends on the observer's skill.",
+    "w": [
+      "Narrative recording involves little or no quantification.",
+      "Its usefulness depends largely on the observer's skill.",
+      "It requires little, if any, equipment."
+    ],
+    "k": "Narrative recording: qualitative notes that discover behaviors and hypotheses; precursor to quantitative recording.",
+    "h": "Write the story, then count.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Narrative recording"
+  },
+  {
+    "t": "Recording methods",
+    "d": 2,
+    "q": "Which behavior is BEST suited to interval recording, according to the course?",
+    "o": [
+      "Reading or playing: moderately frequent, with no clear beginning or end",
+      "A rare aggressive outburst once a week",
+      "Fire-setting, which occurs when no one is present",
+      "A single greeting at the start of the day"
+    ],
+    "e": "Interval recording (also called time sampling, interval sampling or interval time sampling) records whether selected behaviors occur within predetermined intervals, usually 5 to 30 seconds, on a set schedule or randomly. It is most appropriate for overt behaviors of moderate frequency (once every 5–20 seconds) that lack a clear beginning or end, such as walking, listening, playing, reading or looking up and down. It is time-efficient, highly focused and can measure almost any behavior.",
+    "w": [
+      "Rare discrete behaviors suit event recording.",
+      "Behaviors occurring alone are problematic for direct observation.",
+      "A single discrete event suits event recording."
+    ],
+    "k": "Interval recording: 5–30-s intervals, for moderately frequent behaviors without clear start/end (reading, playing).",
+    "h": "Continuous behaviors get sliced into intervals.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Interval recording"
+  },
+  {
+    "t": "Recording methods",
+    "d": 2,
+    "q": "How does event recording differ from interval recording, according to the course?",
+    "o": [
+      "It depends on the behavior occurring, not on time units imposed on it",
+      "It records behavior in fixed 5–30-second intervals",
+      "It rates global impressions after the session ends",
+      "It records free narrative descriptions of all behavior"
+    ],
+    "e": "Interval recording depends on units of time imposed on target behaviors, whereas event recording depends on the occurrence of the behavior itself: the observer waits for the target behavior, then records its details. It suits aggressive actions, greetings, or verbal expressions such as assertion or profanity. Frequency is the main emphasis, but duration can be timed and intensity rated as slight, moderate or strong, using a checklist or smartphone.",
+    "w": [
+      "Fixed time intervals define interval recording.",
+      "Global ratings after observation define ratings recording.",
+      "Free description defines narrative recording, not event recording."
+    ],
+    "k": "Event recording waits for the behavior and records frequency (plus duration, intensity); interval recording samples by time.",
+    "h": "Events are counted when they happen.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Event recording"
+  },
+  {
+    "t": "Recording methods",
+    "d": 3,
+    "q": "What is a limitation of event recording, according to the course?",
+    "o": [
+      "It gives no sequence information, so how and why are hard to infer",
+      "It cannot be used to record low-frequency behaviors",
+      "It cannot be used to measure changes in behavior over time",
+      "It cannot be used to study several different types of behavior"
+    ],
+    "e": "Event recording is especially good for low-frequency behaviors, measuring changes over time and studying many types of behavior. It is relatively poor for behaviors without clear beginnings and endings, and keeping observers' attention is difficult for long-duration behaviors. Because it does not provide information about sequences of behaviors, it is difficult to make inferences about how and why behaviors occur.",
+    "w": [
+      "Low-frequency behaviors are a strength of event recording.",
+      "Measuring change over time is a strength.",
+      "Studying many types of behavior is a strength."
+    ],
+    "k": "Event recording: strong for rare behaviors and change; weak for unclear boundaries, long durations, and sequence (how/why).",
+    "h": "Counts without a storyline.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Event recording"
+  },
+  {
+    "t": "Recording methods",
+    "d": 2,
+    "q": "The Motivation Assessment Scale (MAS) evaluates the functional significance of behavior along which dimensions?",
+    "o": [
+      "Sensory, escape/avoidance, social attention and tangible rewards",
+      "Introversion, extraversion, neuroticism and openness",
+      "Verbal, spatial, fluid and working memory",
+      "Anxiety, depression, anger and guilt"
+    ],
+    "e": "Ratings recording obtains general impressions of relevant dimensions of behavior, rated after a period of observation on a checklist or scale (often 1–5 or 1–7), for global or abstract qualities such as cooperativeness or self-care. The Motivation Assessment Scale (Durand & Crimmins, 1992) is a 16-item questionnaire evaluating the functional significance of behavior on four dimensions: sensory, escape/avoidance, social attention and tangible rewards. Ratings suit many behaviors, allow statistics, work for individuals or groups and are cost-effective.",
+    "w": [
+      "These are dimensions of personality traits.",
+      "These are domains of cognitive ability.",
+      "These are emotions, not behavioral functions."
+    ],
+    "k": "MAS (16 items) rates behavior functions: sensory, escape/avoidance, social attention, tangible rewards.",
+    "h": "Why do it? To feel, flee, be seen, or get.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Ratings recording"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 2,
+    "q": "According to the course, from which sources does self-efficacy develop?",
+    "o": [
+      "Past attainments, vicarious experience, verbal persuasion, physiological states",
+      "Genetic inheritance alone, fixed from birth onward",
+      "Psychoanalytic insight into unresolved childhood conflicts",
+      "IQ scores and school grades, and nothing else"
+    ],
+    "e": "Self-efficacy (Bandura) is usually assessed by having clients rate how able they believe they are to accomplish a skill or goal, such as stopping smoking. Strength and generalizability should be distinguished, so area-specific measures are often used. High self-efficacy means positive expectations about dealing effectively with situations. It develops from past attainments, vicarious (observational) experiences, verbal persuasion and physiological states, and predicts therapy outcome, success in smoking treatment and relapse after self-regulatory training.",
+    "w": [
+      "Self-efficacy is shaped by experience, not genes alone.",
+      "Insight into childhood conflicts is not listed.",
+      "Grades are one kind of attainment but not the whole list."
+    ],
+    "k": "Self-efficacy sources: mastery (past attainments), vicarious experience, verbal persuasion, physiological states; predicts outcome and relapse.",
+    "h": "Do it, see it, hear it, feel it.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Cognitive behavioral assessment"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 2,
+    "q": "Why does the course say a client's ability to produce and control images is worth assessing?",
+    "o": [
+      "It may predict response to imagery-based treatments such as systematic desensitization",
+      "It measures intelligence more accurately than IQ tests",
+      "It replaces the need for a diagnostic interview",
+      "It determines the client's eligibility for medication"
+    ],
+    "e": "Imagery often relates to a client's presenting problem through fantasies, daydreams and dreams: a depressed person may replay images of being criticized, an anxious person scenes of danger, a paranoid person images of persecution. Knowing a person's ability to produce and control images may help predict response to treatments that require image formation: systematic desensitization, covert desensitization, covert aversive conditioning and certain relaxation procedures. Waking imagery is typically more controllable and less vivid than non-waking imagery such as dreams.",
+    "w": [
+      "Imagery is not presented as a measure of intelligence.",
+      "It complements, not replaces, the interview.",
+      "Medication eligibility is not discussed in this context."
+    ],
+    "k": "Imagery ability predicts response to imagery-based therapies (systematic/covert desensitization, covert aversive conditioning, relaxation).",
+    "h": "Can you picture it? Then you can desensitize it.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Cognitive behavioral assessment: imagery"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 3,
+    "q": "In the 'thinking aloud' method, why may verbal reports differ from actual ongoing thought, according to the course?",
+    "o": [
+      "Inner topics shift every 5–6 s, spoken reports only about every 30 s",
+      "Clients think much more slowly than they are able to speak",
+      "The procedure always lasts several hours, causing fatigue",
+      "Clients are placed under hypnosis during the procedure"
+    ],
+    "e": "In thinking aloud, clients verbalize ongoing thoughts, usually for 5 to 10 minutes; free association is similar. Problems: the procedure may feel unnatural and sample thoughts differently from normal; competing thoughts cannot all be verbalized, so only a limited portion of cognition is reported; clients may not report everything. A key factor making reports differ is that people typically change the topic of internal dialogue every 5 to 6 seconds, whereas verbal reports change topic only about every 30 seconds.",
+    "w": [
+      "The course points to the reverse: thought shifts faster than speech.",
+      "Verbalizations usually last 5 to 10 minutes.",
+      "Hypnosis is not part of the method."
+    ],
+    "k": "Thinking aloud (5–10 min) under-samples thought: inner topics shift every 5–6 s, spoken ones about every 30 s.",
+    "h": "Thoughts sprint; words walk.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Recording cognitions: thinking aloud"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 2,
+    "q": "A client receives a smartphone beep at random times and describes what she was thinking just before it. Which method is this?",
+    "o": [
+      "Thought sampling",
+      "Thought listing",
+      "Articulated thoughts",
+      "Endorsement method"
+    ],
+    "e": "Parks and Hollon (1988) summarized methods for recording cognitions. Thought sampling sets a prompt, such as a beep on a smartphone, and asks the client to describe the thoughts just before the interruption. Thought listing asks clients to summarize relevant thoughts elicited by a stimulus or problem. Articulated thoughts asks clients to voice thoughts during structured simulations. The endorsement method has clients rate items from a list, such as the Irrational Beliefs Test, for frequency and strength of belief.",
+    "w": [
+      "Thought listing summarizes thoughts about a stimulus, without random prompts.",
+      "Articulated thoughts are voiced during simulations.",
+      "Endorsement means rating items from a given list."
+    ],
+    "k": "Thought sampling = random prompt (beep) → report the thought just before it.",
+    "h": "Beep, freeze, report.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Recording cognitions"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 3,
+    "q": "What questionable assumption underlies the endorsement method, according to the course?",
+    "o": [
+      "That the relevant cognitions are in the client's conscious awareness",
+      "That clients cannot read the items",
+      "That thoughts can be observed directly by the clinician",
+      "That cognitions never change over time"
+    ],
+    "e": "In the endorsement method, the client receives a standardized list (e.g. Irrational Beliefs Test, Cognitive Bias Questionnaire) or an informal list of items and rates the frequency, strength of belief and personal relevance of thoughts such as 'What's the use?' or 'I can't do anything right.' Potential difficulties are the demand characteristics of the situation and social desirability. An underlying and questionable assumption is that the relevant cognitions are in the client's conscious awareness.",
+    "w": [
+      "Reading ability is not the assumption discussed.",
+      "Thoughts are reported, not directly observed.",
+      "Stability over time is not the assumption discussed."
+    ],
+    "k": "Endorsement method: rate listed thoughts; risks demand characteristics, social desirability; assumes cognitions are conscious.",
+    "h": "You can only endorse what you know you think.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Recording cognitions: endorsement method"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 2,
+    "q": "A client with OCD writes down her thoughts each time she washes her hands. Which cognitive recording method is this?",
+    "o": [
+      "Event recording",
+      "Private speech",
+      "Thinking aloud",
+      "Production method in a simulation"
+    ],
+    "e": "In cognitive event recording, the client waits until a relevant event occurs, such as hand washing in obsessive-compulsive disorder, and then writes down the related thoughts. It can also target new, desired behaviors such as assertion, using the related thoughts to increase their likelihood. Private speech concerns children's barely audible speech. Thinking aloud is continuous verbalization. Production methods record thoughts in actual naturalistic situations (in vivo self-reports) rather than in simulations.",
+    "w": [
+      "Private speech is children's barely audible speech.",
+      "Thinking aloud is continuous verbalization, not event-triggered.",
+      "Production methods are naturalistic, not simulated."
+    ],
+    "k": "Cognitive event recording: when the target event occurs (e.g. hand washing), write down the accompanying thoughts.",
+    "h": "When it happens, write the thought.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Recording cognitions: event recording"
+  },
+  {
+    "t": "Cognitive assessment",
+    "d": 2,
+    "q": "How does the course describe 'private speech' as a way of assessing cognition?",
+    "o": [
+      "Attending to children's barely audible speech during activities, believed close to inner thought",
+      "Asking adults to keep a private diary they never show anyone",
+      "Recording a client's conversations with friends without consent",
+      "Having the client whisper answers during IQ testing"
+    ],
+    "e": "Among the methods for recording cognitions, private speech is used with children: the clinician pays close attention to the barely audible speech they produce while engaged in various activities. These private verbalizations are believed to be closely aligned with inner thoughts. Other methods include thinking aloud, articulated thoughts during simulations, production methods in natural situations, endorsement of item lists, thought listing, thought sampling and event recording.",
+    "w": [
+      "A diary is a form of self-monitoring, not private speech.",
+      "Recording without consent would be unethical.",
+      "Whispering test answers is not the method described."
+    ],
+    "k": "Private speech: children's near-inaudible self-talk during activities reflects inner thought.",
+    "h": "Listen to what children mutter.",
+    "r": "Psychological Tools & Strategies course – Ch. 4 Recording cognitions: private speech"
+  }
+]

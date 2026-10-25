@@ -1,0 +1,462 @@
+[
+  {
+    "t": "Ch6 Choosing graphs",
+    "d": 1,
+    "q": "Which graph best shows the relationship between two continuous variables, such as hours of sleep and anxiety score?",
+    "o": [
+      "A scatterplot",
+      "A frequency histogram",
+      "A pie chart of each",
+      "A clustered bar chart"
+    ],
+    "e": "A scatterplot places one variable on each axis with a dot per case, showing direction, strength, linearity and outliers at a glance. Histograms show one variable's distribution, and bar charts summarize a continuous outcome across categories.",
+    "w": [
+      "A histogram shows one variable's distribution, not how two variables relate.",
+      "Pie charts show proportions of categories and can't show a relationship between continuous variables.",
+      "Clustered bar charts summarize a continuous outcome across categories, not two continuous variables."
+    ],
+    "k": "Two continuous variables → scatterplot, one dot per case.",
+    "h": "Scatter the dots, see the pattern.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Choosing a graph"
+  },
+  {
+    "t": "Ch6 Choosing graphs",
+    "d": 1,
+    "q": "To display mean recovery scores for three therapy groups along with their precision, the standard choice is:",
+    "o": [
+      "A bar chart of the means with 95% CI error bars",
+      "A scatterplot of recovery against the numeric group code",
+      "A histogram of the recovery scores overall",
+      "A pie chart showing the share of each group"
+    ],
+    "e": "A categorical predictor with a continuous outcome calls for group means, and error bars show how precisely each mean is estimated. Boxplots or dot plots are good complements that show the raw distribution too.",
+    "w": [
+      "Group codes aren't a continuous scale, so a scatterplot against them misleads.",
+      "An overall histogram ignores the group comparison entirely.",
+      "Pie charts show group sizes, not mean recovery or its precision."
+    ],
+    "k": "Categorical predictor + continuous outcome → bar chart of means with 95% CI error bars.",
+    "h": "Bars for groups, whiskers for confidence.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Bar charts and error bars"
+  },
+  {
+    "t": "Ch6 Boxplots",
+    "d": 2,
+    "q": "In a boxplot, what does the box itself represent?",
+    "o": [
+      "The interquartile range, from Q1 to Q3, with a line at the median",
+      "The range from the minimum score to the maximum score in the data",
+      "The mean plus or minus one standard deviation of the scores",
+      "The 95% confidence interval for the mean of the distribution"
+    ],
+    "e": "The box spans the middle 50% of scores (Q1 to Q3) and the line inside is the median. Whiskers extend toward the extremes, and points beyond them are flagged individually.",
+    "w": [
+      "The whiskers and outliers show the extremes; the box shows only the middle half.",
+      "Boxplots use the median and quartiles, not the mean and SD.",
+      "Confidence intervals belong on error-bar charts, not boxplot boxes."
+    ],
+    "k": "Boxplot box = IQR (Q1 to Q3) with a line at the median.",
+    "h": "Middle half in the box, median down the middle.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Boxplots"
+  },
+  {
+    "t": "Ch6 Boxplots",
+    "d": 2,
+    "q": "In SPSS boxplots, a case plotted as a circle (o) rather than an asterisk (*) is:",
+    "o": [
+      "An outlier between 1.5 and 3 box lengths beyond the box",
+      "An extreme value more than 3 box lengths beyond the box",
+      "A case with a missing value on the grouping variable",
+      "The mean of the group, plotted separately from the median"
+    ],
+    "e": "SPSS marks cases more than 1.5 IQRs from the box edge with a circle and cases more than 3 IQRs away with an asterisk (extreme values). Each is labelled with its row number, so you can find it in the data.",
+    "w": [
+      "More than 3 box lengths beyond the box is marked with an asterisk, not a circle.",
+      "Missing grouping values aren't plotted as circles.",
+      "The mean isn't shown as a circle in SPSS boxplots."
+    ],
+    "k": "SPSS boxplots: circle = outlier (1.5–3 IQRs); asterisk = extreme (over 3 IQRs).",
+    "h": "The star (*) is the superstar extreme; the circle (o) is merely odd.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Outliers in boxplots"
+  },
+  {
+    "t": "Ch6 Boxplots",
+    "d": 2,
+    "q": "The whiskers of an SPSS boxplot extend to:",
+    "o": [
+      "The most extreme scores within 1.5 IQRs of the box",
+      "The minimum and maximum scores in the data",
+      "Two standard deviations either side of the mean",
+      "The 5th and 95th percentiles of the distribution"
+    ],
+    "e": "Whiskers stop at the last data point within 1.5 IQRs of the box. Anything further out is plotted as an individual outlier or extreme value. Only when there are no outliers do the whiskers reach the minimum and maximum.",
+    "w": [
+      "Whiskers reach the min and max only when there are no outliers.",
+      "Boxplots don't use means and SDs.",
+      "Whiskers aren't set at the 5th and 95th percentiles in SPSS."
+    ],
+    "k": "Whiskers reach the furthest scores within 1.5 IQRs of the box.",
+    "h": "Whiskers stretch one and a half boxes, no further.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Boxplot whiskers"
+  },
+  {
+    "t": "Ch6 Boxplots",
+    "d": 3,
+    "q": "A boxplot shows the median close to the top of the box and a much longer lower whisker. The distribution is most likely:",
+    "o": [
+      "Negatively skewed",
+      "Positively skewed",
+      "Symmetrical and normal",
+      "Leptokurtic but symmetrical"
+    ],
+    "e": "A long lower whisker and a median pushed toward Q3 mean the lower half is spread out, so the tail points to low scores, which is negative skew. In positive skew the median sits near the bottom of the box with a long upper whisker.",
+    "w": [
+      "Positive skew shows a median near the bottom and a long upper whisker.",
+      "A symmetric distribution would have a centred median and equal whiskers.",
+      "Kurtosis doesn't produce a lopsided box and whiskers."
+    ],
+    "k": "Long lower whisker + median near Q3 = negative skew.",
+    "h": "Long whisker points to the tail.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Reading skew from boxplots"
+  },
+  {
+    "t": "Ch6 Error bars",
+    "d": 2,
+    "q": "Why must a figure caption state what the error bars represent?",
+    "o": [
+      "Bars showing 1 SE, 95% CI or 1 SD look alike but differ greatly in width and meaning",
+      "SPSS draws error bars in different colours depending on which statistic they represent",
+      "Error bars are only valid if the caption reports the exact p-value",
+      "Readers need the caption to know whether a bar chart or line chart was used"
+    ],
+    "e": "A 95% CI is about twice as wide as ±1 SE, and an SD bar describes the spread of scores rather than the precision of the mean. Without a label, readers cannot judge overlap or precision correctly.",
+    "w": [
+      "SPSS doesn't colour-code error bars by what they represent.",
+      "Error bars don't require reporting a p-value to be valid.",
+      "Chart type is obvious from the figure; error-bar meaning isn't."
+    ],
+    "k": "Always label error bars: SE, 95% CI and SD differ in width and meaning.",
+    "h": "Same whisker, three different meanings.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Error bars"
+  },
+  {
+    "t": "Ch6 Error bars",
+    "d": 3,
+    "q": "Why are ordinary error bars misleading for a repeated-measures design?",
+    "o": [
+      "They include between-person variability, which the repeated-measures test removes",
+      "They exclude the variability caused by the experimental manipulation from the interval",
+      "They are computed with the wrong degrees of freedom for each of the conditions",
+      "They assume the conditions were performed in a fully counterbalanced order"
+    ],
+    "e": "Standard CIs treat conditions as independent, so they reflect large individual differences. The repeated-measures analysis removes those differences, so CIs can overlap heavily while the effect is clearly significant. Adjusting the data to remove each person's overall level (as described by Loftus & Masson and by Field) gives error bars that match the within-subjects analysis.",
+    "w": [
+      "Ordinary error bars don't exclude manipulation variance; they include between-person variance.",
+      "Degrees of freedom aren't the core problem; individual differences are.",
+      "Counterbalancing isn't assumed by error bars."
+    ],
+    "k": "Repeated-measures error bars need adjusting to remove between-person variability.",
+    "h": "Remove each person's baseline before drawing whiskers.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Error bars for repeated measures"
+  },
+  {
+    "t": "Ch6 Chart builder",
+    "d": 2,
+    "q": "In SPSS, where is the Chart Builder and how is a graph made?",
+    "o": [
+      "Graphs → Chart Builder; drag a chart type and drop variables onto the axis zones",
+      "Analyze → Descriptive Statistics → Charts; type the variable names into the boxes",
+      "Data → Chart Builder; select the cases to plot and choose 'Run'",
+      "Transform → Graphs; choose a template and assign colours to each variable"
+    ],
+    "e": "Chart Builder works by drag and drop: choose a gallery type (bar, line, scatter/dot, histogram, boxplot and so on), drag it to the canvas, then drop variables onto the x-axis, y-axis and grouping zones. Correct 'Measure' settings in Variable View help it behave.",
+    "w": [
+      "Charts aren't built under Descriptive Statistics by typing names.",
+      "Chart Builder isn't on the Data menu.",
+      "There is no Transform → Graphs menu."
+    ],
+    "k": "Graphs → Chart Builder: drag a chart type, then drop variables on axes.",
+    "h": "Drag, drop, draw.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Chart Builder"
+  },
+  {
+    "t": "Ch6 Chart builder",
+    "d": 2,
+    "q": "In the Chart Builder, a bar chart will not treat your 'group' variable as categories on the x-axis. The most likely cause is:",
+    "o": [
+      "Its Measure is set to Scale, while the bar chart expects a categorical variable",
+      "Its Values column has no value labels defined for its categories in Variable View",
+      "Its Name is too long for the Chart Builder to display on the axis of the chart",
+      "Its Type is numeric rather than string, which bar charts reject for the categorical axis"
+    ],
+    "e": "Bar charts need a categorical (nominal or ordinal) x-axis. If a grouping variable is mislabelled as Scale, the Chart Builder treats it as continuous. Fix the Measure column, or right-click the variable in the Chart Builder to change it temporarily.",
+    "w": [
+      "Missing value labels affect axis text, not whether categories are recognized.",
+      "Name length doesn't stop a variable being categorical.",
+      "Numeric types work fine as categories; Measure is what matters."
+    ],
+    "k": "Chart Builder respects Measure: set grouping variables to Nominal or Ordinal.",
+    "h": "Wrong Measure, wrong axis.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Measure and the Chart Builder"
+  },
+  {
+    "t": "Ch6 Choosing graphs",
+    "d": 2,
+    "q": "In a 2 × 3 factorial design, which graph shows a possible interaction most clearly?",
+    "o": [
+      "A line (or clustered bar) chart of the cell means, one line per level of a factor",
+      "A scatterplot of the outcome against each of the two factors, drawn as separate panels",
+      "A histogram of the outcome variable for the whole sample combined",
+      "A pie chart showing how the cases are spread across the six cells of the design"
+    ],
+    "e": "Plot one factor on the x-axis and draw a separate line for each level of the other. Parallel lines suggest no interaction. Lines that diverge, converge or cross suggest the effect of one factor depends on the other.",
+    "w": [
+      "Separate scatterplots don't show how the factors combine.",
+      "A pooled histogram ignores both factors.",
+      "A pie chart of cell sizes says nothing about cell means."
+    ],
+    "k": "Interaction graph: one factor on x-axis, separate lines for the other; non-parallel lines suggest interaction.",
+    "h": "Parallel lines, no interaction; crossing lines, interaction.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Interaction graphs"
+  },
+  {
+    "t": "Ch6 Scatterplots",
+    "d": 2,
+    "q": "To add a regression line to a scatterplot in SPSS:",
+    "o": [
+      "Open the chart in the Chart Editor and choose Elements → Fit Line at Total",
+      "Re-run Chart Builder after ticking 'Regression' in the Variable View",
+      "Use Analyze → Regression → Curve Estimation; scatterplots cannot hold lines",
+      "Add a new variable containing the predicted values to the x-axis zone"
+    ],
+    "e": "Double-click the chart to open the Chart Editor, then add a fit line (linear, or loess for non-linear patterns). For grouped scatterplots, 'Fit Line at Subgroups' gives one line per group.",
+    "w": [
+      "There's no 'Regression' tick box in Variable View.",
+      "Scatterplots can hold fit lines in the Chart Editor.",
+      "Predicted values on the x-axis wouldn't draw a line."
+    ],
+    "k": "Chart Editor → Elements → Fit Line at Total adds a regression line.",
+    "h": "Double-click, then fit the line.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Scatterplots"
+  },
+  {
+    "t": "Ch6 Scatterplots",
+    "d": 2,
+    "q": "A scatterplot matrix is useful because it:",
+    "o": [
+      "Shows every pairwise scatterplot among several variables in one grid",
+      "Combines three variables into a single rotatable three-dimensional scatterplot",
+      "Plots each variable's histogram directly above its mean and standard deviation",
+      "Adds confidence bands around every regression line in a single scatterplot"
+    ],
+    "e": "A matrix of scatterplots lets you scan all bivariate relationships (and non-linearity or outliers) before running correlations or regression. Three-dimensional scatterplots are usually hard to read.",
+    "w": [
+      "Three-dimensional rotation is a 3-D scatterplot, not a matrix.",
+      "Histograms above means isn't a scatterplot matrix.",
+      "Confidence bands are added in the Chart Editor."
+    ],
+    "k": "Scatterplot matrix = every pairwise scatterplot in one grid.",
+    "h": "All pairs at a glance.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Scatterplot matrices"
+  },
+  {
+    "t": "Ch6 Graph design",
+    "d": 2,
+    "q": "According to Tufte-style principles that Field endorses, which design choice is best avoided?",
+    "o": [
+      "Three-dimensional bars on a two-variable chart",
+      "Clearly labelled axes with units of measurement",
+      "Error bars that show 95% confidence intervals",
+      "Showing raw data points alongside the means"
+    ],
+    "e": "3-D effects add 'chartjunk', distort perceived heights and make values harder to read. Good graphs maximize the data-ink ratio: clear labels, no decorative clutter, honest scales and, ideally, the data themselves.",
+    "w": [
+      "Labelled axes with units are good practice.",
+      "Error bars showing CIs are good practice.",
+      "Showing raw data alongside means is recommended."
+    ],
+    "k": "Avoid chartjunk such as 3-D bars; maximize the data-ink ratio.",
+    "h": "3-D bars, 0 clarity.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Good graph design"
+  },
+  {
+    "t": "Ch6 Graph design",
+    "d": 2,
+    "q": "A bar chart's y-axis starts at 48 instead of 0, making a mean difference of 50 vs 52 look enormous. The main problem is that:",
+    "o": [
+      "Bar length no longer represents the size of the values, which exaggerates the difference",
+      "Bar charts require the y-axis to show percentages rather than the raw scores themselves",
+      "SPSS cannot compute or display error bars when the y-axis of the chart does not start at zero",
+      "The chart effectively becomes a line graph, which is the wrong choice for categorical data"
+    ],
+    "e": "Bars encode values by length, so truncating the axis visually multiplies a 4% difference. If a narrow range really matters, use a dot or line plot with clearly marked scales instead of bars.",
+    "w": [
+      "Bar charts can show raw scores; percentages aren't required.",
+      "SPSS can draw error bars on any axis range.",
+      "A truncated bar chart is still a bar chart, just misleading."
+    ],
+    "k": "Bars must start at 0; truncation exaggerates differences.",
+    "h": "Chop the axis, inflate the drama.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Misleading scales"
+  },
+  {
+    "t": "Ch6 Histograms",
+    "d": 2,
+    "q": "A population pyramid in the Chart Builder is used to:",
+    "o": [
+      "Compare the distributions of one variable for two groups, back to back",
+      "Display the age structure of a sample as a pie chart, by decade of age",
+      "Show the cumulative frequency of one variable from its lowest to its highest values",
+      "Plot a three-way interaction among categorical factors on a single set of axes"
+    ],
+    "e": "A population pyramid shows two histograms back to back, one per group (for example men and women), so differences in shape, spread and centre are easy to see.",
+    "w": [
+      "A population pyramid is back-to-back histograms, not a pie chart.",
+      "Cumulative frequency is a different plot.",
+      "Population pyramids don't plot three-way interactions."
+    ],
+    "k": "Population pyramid: back-to-back histograms of one variable for two groups.",
+    "h": "Two histograms, back to back.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Population pyramids"
+  },
+  {
+    "t": "Ch6 Histograms",
+    "d": 2,
+    "q": "Why can a histogram look very different depending on its bin width?",
+    "o": [
+      "Wide bins hide detail and narrow bins add noise, so the apparent shape changes",
+      "The bin width changes the mean and standard deviation that SPSS calculates from the data",
+      "SPSS recalculates the skewness statistic each time the bin width is changed",
+      "Narrow bins remove any outliers from the display automatically, changing the shape"
+    ],
+    "e": "The data and statistics are unchanged, but too few bins can hide bimodality or outliers, and too many make random lumps look meaningful. Checking a couple of bin widths, or adding a Q–Q plot, gives a fairer picture.",
+    "w": [
+      "Bin width doesn't change the mean or SD.",
+      "Skewness statistics don't depend on bin width.",
+      "Bins only group the scores; outliers stay in the display."
+    ],
+    "k": "Bin width changes the apparent shape, not the statistics; check a Q–Q plot too.",
+    "h": "Too wide hides, too narrow jitters.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Histograms"
+  },
+  {
+    "t": "Ch6 Choosing graphs",
+    "d": 1,
+    "q": "Which graph is most appropriate for checking whether one continuous variable is roughly normally distributed?",
+    "o": [
+      "A histogram, ideally with a Q–Q plot",
+      "A scatterplot against the case number",
+      "A clustered bar chart of the means",
+      "A line chart of the cumulative mean"
+    ],
+    "e": "A histogram shows the overall shape, skew and outliers. A Q–Q (quantile–quantile) plot compares observed quantiles with those expected under normality, and points on the diagonal indicate normality.",
+    "w": [
+      "Plotting against case number shows order, not distribution shape.",
+      "Bars of means hide the shape of the distribution entirely.",
+      "A cumulative mean line doesn't show the shape."
+    ],
+    "k": "Check normality with a histogram and a Q–Q plot.",
+    "h": "Q–Q on the diagonal means normal.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Checking distributions"
+  },
+  {
+    "t": "Ch6 Error bars",
+    "d": 2,
+    "q": "Error-bar charts in the Chart Builder can show which of the following?",
+    "o": [
+      "Confidence intervals, standard errors or standard deviations",
+      "Only 95% confidence intervals, with no other option available",
+      "Medians and interquartile ranges only, as in boxplots",
+      "p-values for each pairwise comparison between bars"
+    ],
+    "e": "In Element Properties, error bars can represent a CI (with any confidence level), a chosen multiple of the SE, or a multiple of the SD. Choose deliberately and say which in the caption.",
+    "w": [
+      "SPSS also offers SE and SD error bars.",
+      "Medians and IQRs belong to boxplots.",
+      "SPSS doesn't plot p-values as error bars."
+    ],
+    "k": "SPSS error bars can show CIs, SEs or SDs; state which in the caption.",
+    "h": "Three choices, one caption.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Error bar options"
+  },
+  {
+    "t": "Ch6 Scatterplots",
+    "d": 3,
+    "q": "A scatterplot shows a clear U-shaped pattern, but Pearson's r is close to zero. What should you conclude?",
+    "o": [
+      "There is a strong non-linear relationship that r cannot detect",
+      "The two variables are unrelated, so no further analysis is needed",
+      "The correlation is significant but its direction is uncertain",
+      "The scatterplot is wrong, because a strong relationship implies a large r"
+    ],
+    "e": "Pearson's r measures linear association only. A U-shape (for example arousal and performance) can be perfectly systematic yet give r ≈ 0. This is why you should always plot the data before correlating, and consider polynomial terms or other models.",
+    "w": [
+      "A U-shape is a strong systematic relationship, not none.",
+      "r near zero isn't significant; direction isn't the issue.",
+      "Strong non-linear relationships can give r ≈ 0."
+    ],
+    "k": "r measures linear association only; always plot first.",
+    "h": "A smile can hide from r.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Plotting before analysing"
+  },
+  {
+    "t": "Ch6 Graph design",
+    "d": 2,
+    "q": "Why does Field encourage plots that show individual data points rather than bars alone?",
+    "o": [
+      "Bars hide the distribution, so outliers, skew and bimodality go unnoticed",
+      "Bars cannot be drawn by SPSS when the sample size is larger than 100 cases",
+      "Individual data points make error bars unnecessary, whatever the design or sample size",
+      "Journals no longer accept bar charts in psychology articles of any kind"
+    ],
+    "e": "Very different datasets (bimodal, skewed, containing an outlier) can produce identical bar charts of means. Showing the raw data (dot plots, boxplots, jittered points) lets readers judge whether the mean is a fair summary.",
+    "w": [
+      "SPSS can draw bars for any sample size.",
+      "Data points don't replace error bars.",
+      "Journals still accept bar charts; the issue is what bars hide."
+    ],
+    "k": "Show raw data; bars of means can hide skew, outliers and bimodality.",
+    "h": "Same bars, very different crowds.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Showing the data"
+  },
+  {
+    "t": "Ch6 Chart builder",
+    "d": 1,
+    "q": "How do you open the Chart Editor to change a graph's colours, labels or axes after it appears in the output?",
+    "o": [
+      "Double-click the chart in the output viewer",
+      "Re-run the Chart Builder with new settings",
+      "Right-click the variable in the Data Editor",
+      "Choose Edit → Options → Charts in the menu"
+    ],
+    "e": "Double-clicking a chart opens the Chart Editor, where you can edit text, axes, colours and add elements such as fit lines or reference lines. Edit → Options → Charts sets defaults for future charts.",
+    "w": [
+      "Re-running Chart Builder makes a new chart instead of editing.",
+      "Right-clicking a variable doesn't edit charts.",
+      "Edit → Options → Charts sets defaults for future charts."
+    ],
+    "k": "Double-click a chart to open the Chart Editor.",
+    "h": "Double-click to edit.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Chart Editor"
+  },
+  {
+    "t": "Ch6 Choosing graphs",
+    "d": 2,
+    "q": "To show the mean of two different outcomes measured in the same participants (pre and post) in SPSS's Chart Builder, you would:",
+    "o": [
+      "Drag both variables into the y-axis zone so they appear as separate bars",
+      "Put one variable on the x-axis and the other variable on the y-axis of the chart",
+      "Create a grouping variable that codes pre versus post and drop it into the cluster zone",
+      "Use Split File so that the pre and post scores are each plotted on separate charts"
+    ],
+    "e": "For repeated measures, each condition is its own column, so you select both variables and drop them together onto the y-axis. SPSS then plots a bar (or point) for each and creates a temporary 'index' variable on the x-axis.",
+    "w": [
+      "Pre on x and post on y makes a scatterplot, not a comparison of means.",
+      "Repeated-measures data have no pre/post coding variable in wide format.",
+      "Split File makes separate charts, not side-by-side means."
+    ],
+    "k": "Repeated measures in Chart Builder: drag both variables onto the y-axis.",
+    "h": "Both columns, one axis.",
+    "r": "Stats & SPSS ch. 6 · Graphs · Repeated-measures graphs"
+  }
+]

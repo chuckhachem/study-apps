@@ -1,0 +1,762 @@
+[
+  {
+    "t": "Indexes (course notes)",
+    "d": 1,
+    "q": "In the WISC-V course notes, which set lists the five ancillary (complementary) index scores?",
+    "o": [
+      "Quantitative Reasoning, Auditory Working Memory, Nonverbal, General Ability, Cognitive Proficiency",
+      "Verbal Comprehension, Visual Spatial, Fluid Reasoning, Working Memory, Processing Speed",
+      "Verbal IQ, Performance IQ, Full-Scale IQ, General Ability, Cognitive Proficiency",
+      "Crystallized Intelligence, Fluid Intelligence, Short-Term Memory, Attention, Motor Speed"
+    ],
+    "e": "The notes separate two tiers. The five primary indexes are VCI, VSI, FRI, WMI and PSI. The five ancillary indexes regroup subtests to answer specific clinical questions: Quantitative Reasoning (QRI), Auditory Working Memory (AWMI), Nonverbal (NVI), General Ability (GAI) and Cognitive Proficiency (CPI). In French manuals they appear as IRQ, IMTA, INV, IAG and ICC. A clinician reaches for an ancillary index when the primary profile raises a question, for example using the NVI for a child with a language disorder.",
+    "w": [
+      "These are the five primary indexes, the first tier of the WISC-V, not the ancillary ones.",
+      "Verbal IQ and Performance IQ belong to older WISC versions; they are not WISC-V ancillary indexes.",
+      "These are broad abilities and processes, not the names of WISC-V index scores."
+    ],
+    "k": "WISC-V: 5 primary indexes (VCI, VSI, FRI, WMI, PSI) plus 5 ancillary indexes (QRI, AWMI, NVI, GAI, CPI).",
+    "h": "Ancillary = 'extra helpers' (QAN-GC): Quantitative, Auditory WM, Nonverbal, General ability, Cognitive proficiency.",
+    "r": "WISC-V course notes (French section) – Primary and ancillary indexes"
+  },
+  {
+    "t": "Administration",
+    "d": 1,
+    "q": "According to the course notes, the WISC-V is standardized for children aged:",
+    "o": [
+      "6 years 0 months to 16 years 11 months",
+      "4 years 0 months to 16 years 11 months",
+      "6 years 0 months to 18 years 11 months",
+      "2 years 6 months to 7 years 7 months"
+    ],
+    "e": "The WISC-V evaluates the intelligence of children from 6 years to 16 years 11 months. The age band matters in practice: a 5-year-old or a 17-year-old is outside the norms, so the scores would not be valid and another Wechsler scale is needed. Always check the exact chronological age on the day of testing, because scaled scores are derived from age-specific norm tables.",
+    "w": [
+      "The lower bound is 6 years, not 4; younger children are assessed with a preschool scale.",
+      "The upper bound is 16 years 11 months; older adolescents need an adult scale.",
+      "This is a preschool age band, far younger than the WISC-V norms cover."
+    ],
+    "k": "WISC-V norms cover ages 6:0 to 16:11; outside that range the scores are not valid.",
+    "h": "Six to sweet sixteen (and eleven months).",
+    "r": "WISC-V course notes (French section) – Evaluation of children's intelligence"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "How many subtests does the WISC-V described in the course notes contain, and how many are needed to obtain the Full-Scale IQ?",
+    "o": [
+      "15 subtests, of which 7 are required for the FSIQ",
+      "15 subtests, of which 10 are required for the FSIQ",
+      "10 subtests, of which 7 are required for the FSIQ",
+      "16 subtests, of which 5 are required for the FSIQ"
+    ],
+    "e": "The notes list 15 subtests and stress that only 7 are mandatory to obtain a total IQ; the others are administered according to the psychologist's hypotheses. Compared with the previous edition, the requirement fell from 10 mandatory (plus 5 optional) to 7 mandatory plus 8 optional. The 10 primary subtests are still recommended for a complete picture of the child's abilities, but the FSIQ itself rests on 7.",
+    "w": [
+      "10 is the number of primary subtests recommended for a full evaluation, not the number entering the FSIQ.",
+      "There are 15 subtests in total; 10 is the primary set, not the whole battery.",
+      "Five subtests enter the General Ability Index, not the FSIQ, and the total here is 15."
+    ],
+    "k": "WISC-V: 15 subtests; 7 required for the FSIQ; the rest are chosen according to the clinician's hypotheses.",
+    "h": "Seven pillars hold up the FSIQ.",
+    "r": "WISC-V course notes (French section) – Use of subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "Which list gives the 7 subtests required for the FSIQ, as specified in the course notes?",
+    "o": [
+      "Vocabulary, Similarities, Block Design, Matrix Reasoning, Figure Weights, Digit Span, Coding",
+      "Vocabulary, Information, Block Design, Visual Puzzles, Matrix Reasoning, Digit Span, Symbol Search",
+      "Similarities, Comprehension, Visual Puzzles, Figure Weights, Arithmetic, Picture Span, Coding",
+      "Vocabulary, Similarities, Block Design, Matrix Reasoning, Picture Span, Symbol Search, Cancellation"
+    ],
+    "e": "The notes name the mandatory subtest(s) per index: VCI contributes two (Vocabulary and Similarities), VSI one (Block Design), FRI two (Matrix Reasoning and Figure Weights), WMI one (Digit Span) and PSI one (Coding). That gives 2 + 1 + 2 + 1 + 1 = 7. Notice the weighting: verbal and fluid reasoning each count twice, which is why the FSIQ leans toward reasoning more than toward memory and speed.",
+    "w": [
+      "Information, Visual Puzzles and Symbol Search are not FSIQ subtests; Similarities, Figure Weights and Coding are.",
+      "Comprehension and Arithmetic are secondary subtests, and Visual Puzzles and Picture Span are not FSIQ subtests.",
+      "Picture Span, Symbol Search and Cancellation replace the true FSIQ subtests Figure Weights, Digit Span and Coding."
+    ],
+    "k": "FSIQ = Vocabulary + Similarities (VCI), Block Design (VSI), Matrix + Figure Weights (FRI), Digit Span (WMI), Coding (PSI).",
+    "h": "2-1-2-1-1: verbal and fluid get two seats each, the rest one.",
+    "r": "WISC-V course notes (French section) – Mandatory subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "A child's Coding protocol is invalidated by an interruption. According to the course notes, what may the examiner do?",
+    "o": [
+      "Substitute a secondary subtest, such as Symbol Search, for the missing FSIQ subtest",
+      "Prorate the FSIQ by averaging the other six subtests and multiplying by seven",
+      "Report the FSIQ anyway, since Coding contributes little to general ability",
+      "Replace Coding with any subtest the child performed well on"
+    ],
+    "e": "The notes state that a secondary subtest can substitute for a missing or invalid FSIQ subtest, and name Visual Puzzles, Picture Span and Symbol Search as the substitution subtests. The substitute must come from the same domain: Symbol Search can stand in for Coding because both measure processing speed. Substitution keeps the FSIQ interpretable while respecting the test's structure.",
+    "w": [
+      "Prorating is not the procedure the notes describe; they describe substitution.",
+      "Coding is one of the 7 FSIQ subtests, so the FSIQ cannot simply be reported without it.",
+      "Substitution follows the test's rules and domains, not the child's best performance."
+    ],
+    "k": "A missing or invalid FSIQ subtest can be replaced by a designated substitute from the same domain (Visual Puzzles, Picture Span, Symbol Search).",
+    "h": "Same team, same position: a speed player replaces a speed player.",
+    "r": "WISC-V course notes (French section) – Use of subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "According to the course notes, what is the purpose of the 5 secondary subtests?",
+    "o": [
+      "To broaden the view of intellectual and cognitive functioning and support clinical decisions",
+      "To replace the 10 primary subtests when testing time is limited",
+      "To compute the five primary index scores more precisely than the primary subtests",
+      "To screen for emotional disorders that might interfere with testing"
+    ],
+    "e": "The notes divide subtests into primary and secondary. The 10 primary subtests are recommended for a complete evaluation and yield the FSIQ, the primary indexes and three of the five ancillary indexes. The 5 secondary subtests are given in addition, to obtain a wider view of intellectual and cognitive functioning and to support clinical decisions. They also serve as substitutes when an FSIQ subtest is missing or invalid.",
+    "w": [
+      "Secondary subtests complement the primary set; they do not replace it to save time.",
+      "Primary index scores are built from primary subtests; secondary subtests add information beyond them.",
+      "The WISC-V measures cognitive abilities; it is not an emotional screening instrument."
+    ],
+    "k": "Primary subtests yield the FSIQ and indexes; secondary subtests widen the picture and support clinical decisions.",
+    "h": "Primary builds the house; secondary adds the windows.",
+    "r": "WISC-V course notes (French section) – Use of subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 1,
+    "q": "In the course notes, which three subtests are grouped under Fluid Reasoning?",
+    "o": [
+      "Matrix Reasoning, Figure Weights and Arithmetic",
+      "Matrix Reasoning, Visual Puzzles and Block Design",
+      "Figure Weights, Digit Span and Letter–Number Sequencing",
+      "Similarities, Matrix Reasoning and Comprehension"
+    ],
+    "e": "The notes group Matrix Reasoning, Figure Weights and Arithmetic under Fluid Reasoning. Matrix Reasoning and Figure Weights are the two FSIQ subtests of the index; Arithmetic is secondary. Arithmetic sits here because solving word problems mentally requires quantitative reasoning, although it also loads on working memory. The same Figure Weights plus Arithmetic pairing forms the Quantitative Reasoning Index.",
+    "w": [
+      "Visual Puzzles and Block Design are the Visual Spatial subtests.",
+      "Digit Span and Letter–Number Sequencing are Working Memory subtests.",
+      "Similarities and Comprehension are Verbal Comprehension subtests."
+    ],
+    "k": "Fluid Reasoning subtests: Matrix Reasoning and Figure Weights (FSIQ) plus Arithmetic (secondary).",
+    "h": "FRI: Matrices, scales and sums.",
+    "r": "WISC-V course notes (French section) – Fluid reasoning subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 1,
+    "q": "Which three subtests make up the Working Memory domain in the course notes?",
+    "o": [
+      "Digit Span, Picture Span and Letter–Number Sequencing",
+      "Digit Span, Arithmetic and Coding",
+      "Picture Span, Visual Puzzles and Symbol Search",
+      "Letter–Number Sequencing, Information and Cancellation"
+    ],
+    "e": "The notes list Digit Span, Picture Span and Letter–Number Sequencing as the working memory subtests. Digit Span is the FSIQ subtest, Picture Span is the other primary subtest (visual working memory), and Letter–Number Sequencing is secondary. The domain mixes auditory material (digits, letter–number strings) with visual material (pictures), which is why an auditory-only ancillary index exists separately.",
+    "w": [
+      "Arithmetic is grouped under Fluid Reasoning and Coding under Processing Speed.",
+      "Visual Puzzles is Visual Spatial and Symbol Search is Processing Speed.",
+      "Information is Verbal Comprehension and Cancellation is Processing Speed."
+    ],
+    "k": "Working memory subtests: Digit Span (FSIQ), Picture Span (primary), Letter–Number Sequencing (secondary).",
+    "h": "Digits, pictures, letters: three things to hold in your head.",
+    "r": "WISC-V course notes (French section) – Working memory subtests"
+  },
+  {
+    "t": "Subtests",
+    "d": 1,
+    "q": "Which subtests form the Processing Speed domain in the course notes?",
+    "o": [
+      "Coding, Symbol Search and Cancellation",
+      "Coding, Block Design and Picture Span",
+      "Symbol Search, Visual Puzzles and Matrix Reasoning",
+      "Cancellation, Digit Span and Arithmetic"
+    ],
+    "e": "Processing Speed is measured by Coding (the FSIQ subtest), Symbol Search (the other primary subtest) and Cancellation (secondary). All three require rapid, accurate visual scanning and a motor response, so they are timed and sensitive to graphomotor problems. Block Design is also timed, but it belongs to the Visual Spatial domain because what it mainly measures is visual-spatial construction.",
+    "w": [
+      "Block Design is a Visual Spatial subtest and Picture Span a Working Memory subtest.",
+      "Visual Puzzles is Visual Spatial and Matrix Reasoning is Fluid Reasoning.",
+      "Digit Span is Working Memory and Arithmetic is Fluid Reasoning."
+    ],
+    "k": "Processing speed subtests: Coding (FSIQ), Symbol Search (primary), Cancellation (secondary).",
+    "h": "Copy, search, cross out: the speed trio.",
+    "r": "WISC-V course notes (French section) – Processing speed subtests"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "According to the course notes, which statement about the Verbal Comprehension Index (VCI) is correct?",
+    "o": [
+      "It is sensitive to parental education and environment and strongly correlated with school success",
+      "It measures the ability to solve novel problems independently of prior knowledge",
+      "It depends mainly on attention, concentration and the speed of task completion",
+      "It is unaffected by expressive or receptive language deficits"
+    ],
+    "e": "The VCI reflects crystallized intelligence: verbal reasoning, comprehension, concept formation and the child's fund of knowledge, acquired through experience and learning. The notes add that it is sensitive to the parents' level of education and to the child's environment, correlates strongly with school success, and reflects verbal performance independently of attention, concentration and speed. Clinically, a low VCI in a child from an impoverished environment may reflect limited exposure rather than limited potential.",
+    "w": [
+      "Solving novel problems independently of prior knowledge defines fluid reasoning (FRI).",
+      "The notes say the VCI is independent of attention, concentration and speed.",
+      "Children with expressive or receptive language deficits often perform poorly on the VCI."
+    ],
+    "k": "VCI = crystallized intelligence: acquired verbal knowledge, shaped by environment and parental education, tied to school success.",
+    "h": "Crystallized = frozen knowledge, collected over a lifetime of learning.",
+    "r": "WISC-V course notes (French section) – Verbal Comprehension Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "A child with a receptive language disorder obtains a low VCI. How do the course notes link vocabulary to school difficulties?",
+    "o": [
+      "Vocabulary knowledge is related to reading development, so weak vocabulary may flag an area of academic difficulty",
+      "Vocabulary is unrelated to reading, so a low VCI predicts difficulties only in mathematics",
+      "Weak vocabulary always indicates an intellectual disability and should lead to that diagnosis",
+      "Vocabulary scores reflect processing speed, so the child mainly needs extra time on tests"
+    ],
+    "e": "The notes report that children with expressive or receptive language deficits often perform poorly on the VCI, and that studies link a child's vocabulary knowledge to the development of reading ability. Lower performance on vocabulary tasks may therefore indicate an area of academic difficulty, especially reading. The Vocabulary subtest draws on semantic memory, our stored knowledge about the world, and is also sensitive to working memory problems and to the socio-educational environment.",
+    "w": [
+      "The notes link vocabulary to reading development, not just to mathematics.",
+      "A low VCI alone does not establish intellectual disability; language and environment also affect it.",
+      "Vocabulary taps semantic memory and verbal knowledge; extra time relates to low processing speed."
+    ],
+    "k": "Weak vocabulary signals possible reading difficulties; the Vocabulary subtest taps semantic memory and is environment-sensitive.",
+    "h": "Words feed reading: a thin vocabulary starves the reader.",
+    "r": "WISC-V course notes (French section) – Verbal Comprehension Index, Vocabulary subtest"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "According to the course notes, what does the Visual Spatial Index (VSI) assess?",
+    "o": [
+      "Nonverbal concept formation, visual perception and organization, visuomotor coordination and figure–ground discrimination",
+      "The ability to hold auditory information and manipulate it mentally while performing a task",
+      "Verbal reasoning, word knowledge and the fund of information acquired at school",
+      "The speed and accuracy with which a child scans and copies simple visual symbols"
+    ],
+    "e": "The notes describe the VSI as measuring nonverbal reasoning and concept formation, visual perception and organization, visuomotor coordination, the ability to analyse and synthesize abstract information, and the ability to distinguish figure from ground in visual stimuli. Children with visual-spatial deficits may struggle with mathematical tasks, with building a model from an instruction sheet, or with separating figures from background on a computer screen.",
+    "w": [
+      "Holding and manipulating auditory information is working memory (WMI).",
+      "Verbal reasoning and acquired knowledge define the VCI.",
+      "Speed and accuracy of scanning and copying define processing speed (PSI)."
+    ],
+    "k": "VSI = visual perception and organization, visuomotor coordination, analysis–synthesis and figure–ground discrimination.",
+    "h": "Visual Spatial: seeing the parts, building the whole.",
+    "r": "WISC-V course notes (French section) – Visual Spatial Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "Which classroom difficulty do the course notes associate with a visual-spatial deficit?",
+    "o": [
+      "Trouble building a model from an instruction sheet",
+      "Needing instructions repeated before new learning sticks",
+      "Losing marks only because written work is slow",
+      "Poor general knowledge of facts about the world"
+    ],
+    "e": "The notes give three examples of how visual-spatial deficits show up: difficulty with mathematical tasks, difficulty constructing a model from an instruction sheet, and difficulty differentiating figures from the background on a computer screen. These tasks all require analysing a visual whole into parts and rebuilding it, which is what the VSI captures through Block Design and Visual Puzzles.",
+    "w": [
+      "Needing repetition to learn is the notes' sign of a working memory deficit.",
+      "Slowness in written work points to processing speed and graphomotor factors.",
+      "General factual knowledge belongs to crystallized intelligence (Information, VCI)."
+    ],
+    "k": "Visual-spatial deficits show up in maths, assembling models from instructions and figure–ground tasks on screens.",
+    "h": "Can't see the blueprint, can't build the model.",
+    "r": "WISC-V course notes (French section) – Visual Spatial Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "According to the course notes, what does the Fluid Reasoning Index (FRI) evaluate?",
+    "o": [
+      "Quantitative reasoning, classification and the ability to solve new problems independently of prior knowledge",
+      "Knowledge acquired through schooling and experience, such as word meanings and general facts",
+      "The capacity to keep auditory information in mind while concentrating on a task",
+      "How quickly a child can copy symbols and scan rows for a target"
+    ],
+    "e": "The FRI is the index of fluid intelligence. The notes say it evaluates quantitative reasoning, classification, spatial abilities and knowledge of part–whole relations, and above all the ability to solve new problems independently of prior knowledge. A child who knows many facts but freezes when a problem is presented in an unfamiliar form may show a high VCI with a lower FRI.",
+    "w": [
+      "Acquired knowledge and word meanings define crystallized intelligence, measured by the VCI.",
+      "Keeping auditory information in mind while concentrating is working memory.",
+      "Copying symbols and scanning rows quickly is processing speed."
+    ],
+    "k": "FRI = fluid intelligence: reasoning about new problems without relying on what was previously learned.",
+    "h": "Fluid flows into any new container; crystals keep the old shape.",
+    "r": "WISC-V course notes (French section) – Fluid Reasoning Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 3,
+    "q": "A student solves maths exercises well when they match the textbook but fails when the same problem is written as a word problem. Which deficit do the course notes describe this way?",
+    "o": [
+      "Fluid reasoning, which makes it hard to transfer concepts when content or phrasing changes",
+      "Processing speed, which makes word problems too long to finish in time",
+      "Verbal comprehension, which prevents the student from understanding any written text",
+      "Visual-spatial organization, which disrupts the reading of number columns"
+    ],
+    "e": "The notes say a child with a fluid reasoning deficit may have trouble understanding relations between concepts and generalizing what was learned. Such children struggle when the content changes or when a question is phrased differently from how it was taught, for example setting up a maths problem from a word problem. Difficulties with inductive reasoning can also appear as trouble identifying an underlying rule or procedure.",
+    "w": [
+      "Nothing in the vignette concerns speed; the failure appears when the format changes, not under time limits.",
+      "The student reads the problem; the difficulty is transferring the concept, not understanding text.",
+      "Reading number columns is not the issue; the same maths fails only in a new format."
+    ],
+    "k": "Fluid reasoning deficits show up as failure to generalize: correct when taught, lost when the format or phrasing changes.",
+    "h": "Same problem, new costume: fluid reasoning sees through the disguise.",
+    "r": "WISC-V course notes (French section) – Fluid Reasoning Index"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "According to the course notes, what does the Figure Weights subtest require?",
+    "o": [
+      "Sound inductive and deductive logic within fluid intelligence, while also engaging working memory",
+      "Rapid copying of symbols paired with numbers, under strict time limits",
+      "Defining words orally, drawing on semantic memory and schooling",
+      "Recalling a sequence of pictures in the order they were shown"
+    ],
+    "e": "The notes describe Figure Weights as demanding good command of inductive and deductive logic, within what is called fluid intelligence, and add that it engages working memory. The child sees a balance scale with missing weights and must choose the option that balances it, inferring the rule (induction) and applying it (deduction) while holding the relations in mind.",
+    "w": [
+      "Copying symbols paired with numbers under time limits is Coding.",
+      "Defining words and drawing on semantic memory is Vocabulary.",
+      "Recalling a sequence of pictures in order is Picture Span."
+    ],
+    "k": "Figure Weights = inductive and deductive logic (fluid intelligence) with a working memory load.",
+    "h": "Balance the scale: find the rule, then apply it.",
+    "r": "WISC-V course notes (French section) – Figure Weights"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "According to the course notes, what does a working memory deficit imply for learning?",
+    "o": [
+      "The child will need repeated exposure to new information because holding and manipulating it is hard",
+      "The child cannot acquire new vocabulary and will lose previously learned words",
+      "The child will learn normally but needs extra time on all written work",
+      "The child will mainly struggle with figure–ground discrimination on screens"
+    ],
+    "e": "The WMI evaluates the ability to maintain auditory attention, concentrate and exercise mental control. The notes explain that working memory deficits often mean children need to repeat the experience when learning new information, because they struggle to take information into short-term memory, manipulate it and produce a response at the level of their peers. Clinically, this supports teaching with repetition, chunking and written supports.",
+    "w": [
+      "Losing acquired vocabulary is not what the notes describe; the problem is taking in and manipulating new information.",
+      "Extra time is the notes' recommendation for low processing speed.",
+      "Figure–ground discrimination is a visual-spatial ability."
+    ],
+    "k": "Weak working memory means new information must be repeated, because holding and manipulating it is hard.",
+    "h": "A small mental desk: things fall off unless you put them back again and again.",
+    "r": "WISC-V course notes (French section) – Working Memory Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "Which clinical group do the course notes describe as often showing both working memory and processing speed difficulties?",
+    "o": [
+      "Children with self-regulation difficulties such as ADHD",
+      "Children with expressive language disorders",
+      "Children from low socio-economic environments",
+      "Children with high crystallized intelligence"
+    ],
+    "e": "The notes state it is not rare for young people with self-regulation difficulties, as observed in attention-deficit/hyperactivity disorder (ADHD), to show difficulties in both working memory and processing speed. They also note that the WMI is sensitive to attention disorders. In a profile where reasoning is intact but WMI and PSI are low, attentional self-regulation is one hypothesis to investigate with history and observation.",
+    "w": [
+      "Language disorders are linked in the notes to low VCI, not to the WMI–PSI pattern.",
+      "Environment and parental education are linked to the VCI.",
+      "High crystallized intelligence describes a strength, not a WMI–PSI weakness pattern."
+    ],
+    "k": "ADHD-type self-regulation problems often show as low WMI plus low PSI; the WMI is sensitive to attention disorders.",
+    "h": "Attention leaks show up in memory and speed.",
+    "r": "WISC-V course notes (French section) – Working Memory Index"
+  },
+  {
+    "t": "Subtests",
+    "d": 3,
+    "q": "Why do the course notes call Digit Span a more heterogeneous task than Letter–Number Sequencing?",
+    "o": [
+      "Forward recall taps immediate memory, while backward recall demands a dual task of holding and manipulating",
+      "It mixes auditory and visual stimuli, whereas Letter–Number Sequencing is purely auditory",
+      "It is timed, whereas Letter–Number Sequencing has no time limit",
+      "It measures processing speed as well as memory, unlike Letter–Number Sequencing"
+    ],
+    "e": "Letter–Number Sequencing is a working memory task throughout: the child must manage a dual task, keeping information in immediate memory while mentally reordering it. Digit Span is more heterogeneous: repeating digits forward mainly taps immediate memory, whereas repeating them backward requires the dual task of holding and manipulating. A child can therefore succeed on forward span yet fail backward span, and the overall score mixes two processes.",
+    "w": [
+      "Both subtests use only auditory-verbal stimuli; neither involves visual material.",
+      "Neither subtest is described as timed; they measure memory, not speed.",
+      "Neither subtest is described as measuring processing speed."
+    ],
+    "k": "Digit Span forward = immediate memory; backward = holding plus manipulating (dual task); Letter–Number Sequencing is dual-task throughout.",
+    "h": "Forward is a recorder; backward is a juggler.",
+    "r": "WISC-V course notes (French section) – Working Memory Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 3,
+    "q": "According to the course notes, which limitation applies to Digit Span and Letter–Number Sequencing?",
+    "o": [
+      "They test memory only for auditory-verbal stimuli, not visual, nonverbal-auditory or multisensory material",
+      "They test only visual memory for pictures and shapes, so they miss every auditory difficulty",
+      "They cannot be administered to children under 10 years old because the items are too long",
+      "They measure long-term memory for facts learned at school rather than short-term memory"
+    ],
+    "e": "The notes point out that both subtests assess the memorization of auditory-verbal stimuli only. The memorization of nonverbal auditory stimuli, of visual stimuli and of multisensory stimuli is not assessed. A child could therefore have a weak auditory working memory index and still remember visual material well, or the reverse, which is why Picture Span, a visual task, adds information.",
+    "w": [
+      "They are auditory-verbal tasks; visual memory is tested by Picture Span.",
+      "The WISC-V covers ages 6 to 16:11; no such age restriction is described.",
+      "They tap immediate or working memory over seconds, not long-term memory."
+    ],
+    "k": "Digit Span and Letter–Number Sequencing assess auditory-verbal memory only; visual and multisensory memory are not covered.",
+    "h": "Ears only: these two tasks never test the eyes.",
+    "r": "WISC-V course notes (French section) – Working Memory Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 3,
+    "q": "A child with dyslexia has a low WMI, but daily observation shows functional working memory. How do the course notes explain this?",
+    "o": [
+      "The WMI can be lowered in children with reading disorders even when their working memory is functional",
+      "A low WMI always proves a working memory disorder, so the observation must be wrong",
+      "Reading disorders raise the WMI, so the low score suggests invalid testing",
+      "The WMI only measures processing speed, which is slow in dyslexia"
+    ],
+    "e": "The notes warn that the WMI can be depressed in subjects with reading disorders whose working memory is nonetheless functional. The digit and letter–number tasks rely on handling symbolic, verbal material, which may be difficult for a child with a reading disorder. This is a classic interpretation trap: a single low index does not prove a deficit in the construct it is named after; it must be checked against history and observations.",
+    "w": [
+      "The notes explicitly describe a low WMI despite functional working memory, so a low score is not proof.",
+      "Nothing in the notes says reading disorders raise the WMI.",
+      "The WMI measures working memory, not processing speed."
+    ],
+    "k": "A low WMI is not automatic proof of a working memory deficit; reading disorders can depress it.",
+    "h": "The score wears a memory label, but reading can pull it down.",
+    "r": "WISC-V course notes (French section) – Working Memory Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 2,
+    "q": "According to the course notes, what should a low Processing Speed Index (PSI) usually lead to, once visual and motor problems are ruled out?",
+    "o": [
+      "Recognition that the child will need extra time",
+      "A diagnosis of intellectual disability",
+      "Removal of all timed tasks from the child's curriculum",
+      "Recalculation of the FSIQ without the PSI subtests"
+    ],
+    "e": "The PSI estimates how quickly and accurately a child can process information. The notes specify that, assuming the slowness is not due to delays in visual or motor functioning, lower performance on the core PSI tasks indicates that the child will need additional time. In school terms this supports accommodations such as extended time, rather than conclusions about the child's general intelligence.",
+    "w": [
+      "A low PSI alone does not indicate intellectual disability; it concerns speed of processing.",
+      "The notes recommend extra time, not removing timed tasks altogether.",
+      "The notes do not describe recalculating the FSIQ; the GAI is the index that reduces the weight of speed."
+    ],
+    "k": "Low PSI, once visual and motor causes are excluded, means the child needs extra time.",
+    "h": "Slow processor, same answers: just give the clock more minutes.",
+    "r": "WISC-V course notes (French section) – Processing Speed Index"
+  },
+  {
+    "t": "Index meaning",
+    "d": 3,
+    "q": "Why do the course notes say the PSI is very sensitive to graphomotor skill and dyspraxia?",
+    "o": [
+      "Both its mandatory and its optional subtests involve the act of writing",
+      "It is composed only of verbal subtests that require fluent speech",
+      "It uses blocks that must be manipulated with both hands",
+      "Its subtests are read aloud and answered orally"
+    ],
+    "e": "The notes call the PSI very sensitive to the child's graphomotor skill and to dyspraxias, because it involves the writing gesture in its mandatory subtest (Coding) as well as in its optional ones. A child with a motor coordination disorder may therefore obtain a low PSI because of the pencil, not because thinking is slow. This is why the notes require ruling out visual and motor causes before concluding that processing speed itself is weak.",
+    "w": [
+      "The PSI subtests are paper-and-pencil visual tasks, not verbal ones.",
+      "Blocks belong to Block Design, a Visual Spatial subtest.",
+      "PSI subtests require marking and copying, not oral answers."
+    ],
+    "k": "The PSI depends on writing movements, so graphomotor problems and dyspraxia can lower it independently of thinking speed.",
+    "h": "Slow pencil, not slow brain.",
+    "r": "WISC-V course notes (French section) – Processing Speed Index"
+  },
+  {
+    "t": "Subtests",
+    "d": 2,
+    "q": "According to the course notes, which abilities does the Coding subtest assess?",
+    "o": [
+      "Visual-constructive ability, processing speed, automatization of a procedure, attention and motor skills",
+      "Verbal abstraction, concept formation and the ability to explain similarities",
+      "Mental rotation and visual analysis without any physical manipulation",
+      "Inductive and deductive logic about quantities on a balance scale"
+    ],
+    "e": "The notes describe Coding as evaluating visual-constructive abilities, speed of information processing, automatization of a procedure, attention and motor skills, and add that it correlates with general intelligence. Because it combines several processes, a low Coding score needs unpacking: was the child slow to learn the code, slow to write, or inattentive? Observation during the task helps tell these apart.",
+    "w": [
+      "Verbal abstraction and explaining likenesses describe Similarities.",
+      "Mental rotation without manipulation describes Visual Puzzles.",
+      "Logic about quantities on a balance scale describes Figure Weights."
+    ],
+    "k": "Coding blends visual-construction, speed, procedural automatization, attention and motor skill; it correlates with general intelligence.",
+    "h": "Coding: crack the key, then copy fast.",
+    "r": "WISC-V course notes (French section) – Coding"
+  },
+  {
+    "t": "Scores",
+    "d": 1,
+    "q": "WISC-V subtest scaled scores range from 1 to 19. What is their mean, according to the course notes?",
+    "o": [
+      "10",
+      "100",
+      "15",
+      "50"
+    ],
+    "e": "Subtest scores are scaled scores from 1 to 19 with a mean fixed at 10. Index scores and the FSIQ use a different metric, standard scores with a mean of 100, and the notes give index ranges such as 45 to 155. Keeping the two metrics apart prevents a common error, such as reading a subtest score of 12 as very low when it is in fact slightly above average.",
+    "w": [
+      "100 is the mean of index scores and the FSIQ, not of subtest scaled scores.",
+      "15 is the standard deviation of index scores, not a mean.",
+      "50 is the mean of T-scores used by other instruments, not WISC-V subtests."
+    ],
+    "k": "Subtest scaled scores: 1–19, mean 10. Index scores and FSIQ: standard scores with mean 100.",
+    "h": "Subtests count to ten; indexes count to a hundred.",
+    "r": "WISC-V course notes (French section) – Score classification"
+  },
+  {
+    "t": "Scores",
+    "d": 2,
+    "q": "Using the course's classification of subtest scaled scores, how is a scaled score of 7 described?",
+    "o": [
+      "Low (just below the normal range)",
+      "Deficient",
+      "Within the normal range",
+      "High"
+    ],
+    "e": "The notes classify scaled scores as follows: 1 to 6 deficient, 7 low, 8 to 12 within the norm, 13 high, and 14 to 19 superior. A score of 7 is therefore low: just below the normal range but not in the deficient zone. In a profile, a single 7 among scores of 10 to 12 marks a relative weakness worth exploring rather than a disability.",
+    "w": [
+      "Deficient covers scaled scores 1 to 6, so 7 is just above it.",
+      "The normal range is 8 to 12, so 7 falls just below it.",
+      "High is a scaled score of 13."
+    ],
+    "k": "Scaled score bands: 1–6 deficient, 7 low, 8–12 normal, 13 high, 14–19 superior.",
+    "h": "Six and under sink; eight to twelve is the safe middle.",
+    "r": "WISC-V course notes (French section) – Score classification"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "Which two subtests form the Quantitative Reasoning Index, and what is it used for according to the course notes?",
+    "o": [
+      "Figure Weights and Arithmetic; screening for specific calculation disorders and mental arithmetic difficulties",
+      "Digit Span and Letter–Number Sequencing; assessing auditory-verbal encoding and manipulation",
+      "Matrix Reasoning and Block Design; estimating intelligence without expressive language",
+      "Coding and Symbol Search; measuring the speed of copying numbers"
+    ],
+    "e": "The Quantitative Reasoning Index combines Figure Weights and Arithmetic. The notes say it helps screen for specific calculation disorders and mental arithmetic difficulties, and identifies quantitative reasoning. Clinically, a child with average general ability but a weak QRI may need assessment for a mathematics learning disorder.",
+    "w": [
+      "Digit Span plus Letter–Number Sequencing forms the Auditory Working Memory Index.",
+      "Estimating intelligence without expressive language is the Nonverbal Index, which has six subtests.",
+      "Coding and Symbol Search are processing speed subtests; they enter the Cognitive Proficiency Index."
+    ],
+    "k": "QRI = Figure Weights + Arithmetic; it screens for calculation disorders and mental arithmetic difficulties.",
+    "h": "Quantitative = weights and sums.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "According to the course notes, what does the Auditory Working Memory Index (AWMI) assess, and which subtests compose it?",
+    "o": [
+      "Encoding, storage and mental manipulation of auditory-verbal information; Digit Span and Letter–Number Sequencing",
+      "Visual memory for sequences of pictures; Picture Span and Visual Puzzles",
+      "Speed of auditory discrimination; Cancellation and Symbol Search",
+      "Verbal knowledge of word meanings; Vocabulary and Information"
+    ],
+    "e": "The Auditory Working Memory Index is made of Digit Span and Letter–Number Sequencing. The notes say it evaluates the capacity to encode, store and mentally manipulate information presented in an auditory-verbal format. It isolates the auditory side of working memory, since the primary WMI also includes Picture Span, a visual task.",
+    "w": [
+      "Picture Span is visual and Visual Puzzles is visual-spatial; neither enters the AWMI.",
+      "Cancellation and Symbol Search are visual processing speed tasks.",
+      "Vocabulary and Information are verbal knowledge subtests (VCI)."
+    ],
+    "k": "AWMI = Digit Span + Letter–Number Sequencing: encoding, storing and manipulating auditory-verbal information.",
+    "h": "AWMI: memory through the ears.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "A 9-year-old with a severe expressive language disorder is referred for intellectual assessment. Which ancillary index do the course notes recommend for estimating general intelligence?",
+    "o": [
+      "The Nonverbal Index",
+      "The General Ability Index",
+      "The Auditory Working Memory Index",
+      "The Cognitive Proficiency Index"
+    ],
+    "e": "The notes describe the Nonverbal Index as a measure of general intelligence that does not call on expressive language, useful for children with language disorders. It is built from Block Design, Visual Puzzles, Matrix Reasoning, Figure Weights, Picture Span and Coding, none of which require spoken answers. Using a verbal-heavy composite with this child would underestimate ability because of the language disorder rather than reasoning.",
+    "w": [
+      "The GAI includes Similarities and Vocabulary, which require expressive language.",
+      "The AWMI uses auditory-verbal tasks and is not a general intelligence estimate.",
+      "The CPI measures working memory and processing speed resources, not general intelligence."
+    ],
+    "k": "For children with language disorders, the Nonverbal Index estimates general intelligence without expressive language.",
+    "h": "No words needed: the Nonverbal Index lets the hands and eyes speak.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "Which list gives the subtests of the Nonverbal Index in the course notes?",
+    "o": [
+      "Block Design, Visual Puzzles, Matrix Reasoning, Figure Weights, Picture Span, Coding",
+      "Block Design, Matrix Reasoning, Figure Weights, Similarities, Vocabulary",
+      "Digit Span, Picture Span, Coding, Symbol Search",
+      "Matrix Reasoning, Figure Weights, Arithmetic, Cancellation, Symbol Search, Coding"
+    ],
+    "e": "The Nonverbal Index draws one or more subtests from every primary domain except verbal comprehension: Block Design and Visual Puzzles (visual-spatial), Matrix Reasoning and Figure Weights (fluid reasoning), Picture Span (working memory) and Coding (processing speed). None of these requires the child to speak an answer, so the index estimates general intelligence while minimizing expressive language demands.",
+    "w": [
+      "This is the General Ability Index, which includes the verbal subtests Similarities and Vocabulary.",
+      "This is the Cognitive Proficiency Index, made of working memory and processing speed subtests.",
+      "Arithmetic is spoken aloud and answered orally, and Cancellation and Symbol Search are not NVI subtests."
+    ],
+    "k": "NVI = Block Design, Visual Puzzles, Matrix Reasoning, Figure Weights, Picture Span, Coding: no spoken answers needed.",
+    "h": "Six silent tasks: build, puzzle, matrix, weigh, picture, code.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "According to the course notes, why is the General Ability Index (GAI) useful?",
+    "o": [
+      "It estimates ability with less emphasis on working memory and processing speed, so strengths and weaknesses can be compared",
+      "It is the only index that can be computed for children with language disorders",
+      "It replaces the FSIQ whenever the child is older than 12",
+      "It measures the resources available for holding information in mind"
+    ],
+    "e": "The GAI is made of Similarities, Vocabulary, Block Design, Matrix Reasoning and Figure Weights. The notes describe it as an estimate of general aptitude that places less emphasis on working memory and processing speed. Comparing general intelligence with other cognitive functions in this way helps identify the child's strengths and weaknesses, for example when low WMI and PSI scores pull the FSIQ down.",
+    "w": [
+      "For language disorders the notes recommend the Nonverbal Index; the GAI includes verbal subtests.",
+      "Nothing in the notes ties the GAI to age; it is chosen for profile reasons.",
+      "Resources for retaining information describe the Cognitive Proficiency Index."
+    ],
+    "k": "GAI = reasoning-and-knowledge estimate with less weight on working memory and speed; compare it with other functions.",
+    "h": "GAI: the brain without the stopwatch and the memory load.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Ancillary indexes",
+    "d": 2,
+    "q": "According to the course notes, what does the Cognitive Proficiency Index (CPI) tell the clinician?",
+    "o": [
+      "To avoid provoking frustration, with items in increasing difficulty and a start point most children pass",
+      "To shorten testing by skipping entirely the subtests in which the child is expected to be weakest",
+      "To let the examiner change the order of the subtests to suit the child's mood on the day",
+      "To allow the child to choose freely which items to attempt and which ones to leave out"
+    ],
+    "e": "The CPI groups Digit Span, Picture Span, Coding and Symbol Search, the working memory and processing speed subtests. The notes say it informs about the resources the child has to retain the information needed to understand task statements, from which the child must then deploy reasoning to solve problems. Contrasting the CPI with the GAI shows whether efficiency, rather than reasoning, is the bottleneck.",
+    "w": [
+      "Crystallized, school-acquired knowledge is measured by the VCI.",
+      "Oral mathematical problems relate to the Quantitative Reasoning Index.",
+      "Reasoning without expressive language is the purpose of the Nonverbal Index."
+    ],
+    "k": "CPI = Digit Span, Picture Span, Coding, Symbol Search: the efficiency resources that support reasoning.",
+    "h": "CPI is the engine's fuel line: memory and speed feeding the reasoning engine.",
+    "r": "WISC-V course notes (French section) – Ancillary indexes"
+  },
+  {
+    "t": "Administration",
+    "d": 2,
+    "q": "According to the course notes, why were start and discontinue rules introduced in the WISC-V?",
+    "o": [
+      "To avoid provoking frustration, with items in increasing difficulty and a start point most children pass",
+      "To shorten testing by skipping the subtests in which the child is weakest",
+      "To let the examiner change the order of subtests to suit the child's mood",
+      "To allow the child to choose which items to attempt"
+    ],
+    "e": "The notes explain that start and discontinue rules were introduced so as not to provoke a state of frustration in children. Items are presented in increasing order of difficulty. The start rule was set so that most children succeed on the first items and the examiner avoids having to go back, while discontinue rules stop a subtest once the child repeatedly fails, before discouragement sets in.",
+    "w": [
+      "The rules apply within each subtest; they do not allow skipping subtests where the child is weak.",
+      "The rules govern where items begin and end, not the order of subtests.",
+      "Item selection follows standardized rules, not the child's choice."
+    ],
+    "k": "Start and discontinue rules prevent frustration: items rise in difficulty, most children pass the start items, testing stops after repeated failure.",
+    "h": "Start where they can win; stop before they lose heart.",
+    "r": "WISC-V course notes (French section) – Start and discontinue rules"
+  },
+  {
+    "t": "Exam case",
+    "d": 2,
+    "q": "On a 2025–2026 exam, a child's WISC-V profile was VCI 120, VSI 100, FRI 105, PSI 80, FSIQ 104. Which reading of strengths and weaknesses is best supported by the course?",
+    "o": [
+      "Verbal comprehension is a clear strength and processing speed a clear weakness, so the FSIQ hides a scattered profile",
+      "All abilities are average, because the FSIQ of 104 falls in the average range",
+      "Fluid reasoning is the main strength, since 105 is above the mean",
+      "Visual-spatial ability is the main weakness, since 100 is the lowest reasoning score"
+    ],
+    "e": "With index scores centred on 100 (SD 15), a VCI of 120 is well above average and a PSI of 80 is well below, a 40-point spread. VSI 100 and FRI 105 are average. The FSIQ of 104 averages these, masking both the verbal strength and the speed weakness. Following the notes, the strength reflects crystallized knowledge, and the weak PSI suggests the child needs extra time once visual and motor causes are excluded.",
+    "w": [
+      "An average FSIQ can hide large differences between indexes; that is the point of examining scatter.",
+      "105 is close to the mean; the clear strength is the VCI at 120.",
+      "100 is exactly average; the clear weakness is the PSI at 80."
+    ],
+    "k": "Read index scatter, not just the FSIQ: an average total can mask a high VCI and a low PSI.",
+    "h": "An average of a mountain and a valley looks like flat ground.",
+    "r": "WISC-V exam 2025–2026 (M1 Professional) + WISC-V course notes – Index interpretation"
+  },
+  {
+    "t": "Exam case",
+    "d": 3,
+    "q": "A 2024–2025 exam asks you to estimate the FSIQ from these scaled scores: Similarities 12, Vocabulary 10, Block Design 8, Matrix Reasoning 11, Digit Span 7, Coding 9, Figure Weights 10. What is the sum of scaled scores to convert?",
+    "o": [
+      "67",
+      "77",
+      "57",
+      "70"
+    ],
+    "e": "The FSIQ is derived from the 7 FSIQ subtests: Similarities, Vocabulary, Block Design, Matrix Reasoning, Figure Weights, Digit Span and Coding. Summing them: 12 + 10 + 8 + 11 + 7 + 9 + 10 = 67. The sum is then converted to the FSIQ with the manual's norm table. Since the expected sum for an average child is 70 (7 subtests × mean 10), a sum of 67 points to an FSIQ in the average range.",
+    "w": [
+      "77 adds 10 too many; recheck the addition of the seven scores.",
+      "57 is 10 too few; recheck the addition of the seven scores.",
+      "70 is the sum expected for a perfectly average child (7 × 10), not this child's sum."
+    ],
+    "k": "FSIQ estimation: add the 7 FSIQ scaled scores (expected average sum 70), then convert with the norm table.",
+    "h": "Seven subtests × 10 = 70 is the average child's total.",
+    "r": "WISC-V exam 2024–2025 (session 1) + WISC-V course notes – Mandatory subtests"
+  },
+  {
+    "t": "Exam case",
+    "d": 3,
+    "q": "In the same exam profile (Similarities 12, Vocabulary 10, Block Design 8, Matrix Reasoning 11, Digit Span 7, Coding 9, Figure Weights 10), which subtest falls outside the normal range under the course's classification?",
+    "o": [
+      "Digit Span, at 7, which is classified as low",
+      "Block Design, at 8, which is classified as deficient",
+      "Similarities, at 12, which is classified as high",
+      "Coding, at 9, which is classified as low"
+    ],
+    "e": "The course classifies scaled scores as 1–6 deficient, 7 low, 8–12 within the norm, 13 high and 14–19 superior. Only Digit Span (7) falls outside the normal band. Block Design (8) and Coding (9) are low-average but still normal, and Similarities (12) is the top of the normal band. A weak Digit Span suggests exploring auditory working memory and attention, for example with Letter–Number Sequencing.",
+    "w": [
+      "8 is inside the normal band (8–12); deficient means 6 or below.",
+      "12 is the top of the normal band; high starts at 13.",
+      "9 is inside the normal band; low is a scaled score of 7."
+    ],
+    "k": "Apply the bands precisely: only scores of 7 or below fall outside the 8–12 normal range.",
+    "h": "Eight is the floor of normal.",
+    "r": "WISC-V exam 2024–2025 (session 1) + WISC-V course notes – Score classification"
+  },
+  {
+    "t": "Exam case",
+    "d": 3,
+    "q": "A 2024–2025 exam describes a child with high verbal comprehension but low working memory and processing speed who struggles with academic tasks. Which explanation fits the course notes?",
+    "o": [
+      "Strong reasoning is limited by weak efficiency: new information needs repetition and work needs extra time",
+      "The child lacks verbal knowledge, so instruction should focus on vocabulary",
+      "The child has a visual-spatial deficit that makes all schoolwork difficult",
+      "High verbal comprehension proves the academic difficulties are only motivational"
+    ],
+    "e": "The notes give each weakness a learning consequence. Low working memory means the child struggles to hold and manipulate new information and needs repeated exposure; low processing speed means the child needs extra time. A high VCI shows that knowledge and verbal reasoning are intact, so the bottleneck is efficiency, the Cognitive Proficiency side, not ability. The notes also mention ADHD-type self-regulation difficulties as a hypothesis for low WMI and PSI.",
+    "w": [
+      "Verbal knowledge is the strength here; the VCI is high.",
+      "No visual-spatial weakness is described in this profile.",
+      "The weak WMI and PSI give a cognitive explanation; nothing supports a purely motivational account."
+    ],
+    "k": "High VCI with low WMI and PSI: intact reasoning limited by efficiency, needing repetition and extra time.",
+    "h": "A strong engine with a narrow fuel line.",
+    "r": "WISC-V exam 2024–2025 (session 1) + WISC-V course notes – WMI and PSI"
+  },
+  {
+    "t": "Exam case",
+    "d": 3,
+    "q": "On a 2024–2025 exam, a child becomes oppositional during timed subtests (Coding, Symbol Search) but is calm during untimed ones (Similarities, Matrix Reasoning). How should the PSI be interpreted, following the course notes?",
+    "o": [
+      "Cautiously, because the low score may reflect behaviour or graphomotor factors in timed writing tasks rather than processing speed",
+      "As a pure measure of processing speed, since behaviour does not affect standardized scores",
+      "As evidence of a fluid reasoning deficit, since the timed tasks are reasoning tasks",
+      "As invalid only if the child refuses every item, otherwise as an exact measure"
+    ],
+    "e": "The behaviour appears only under time pressure and in paper-and-pencil speed tasks. The notes stress that the PSI is very sensitive to graphomotor skill and dyspraxia, and that a low PSI means a need for extra time only once visual and motor causes are ruled out. Here, opposition under timing may also depress the score, so the PSI may underestimate the child's true speed. Report the behaviour and interpret the index with caution.",
+    "w": [
+      "Behaviour during testing can lower a score; it must be weighed before interpreting the PSI.",
+      "Coding and Symbol Search are processing speed tasks, not fluid reasoning tasks.",
+      "Partial non-cooperation can still distort the score, so caution applies even if some items are completed."
+    ],
+    "k": "Interpret a low PSI cautiously when behaviour or writing problems appear only on timed tasks.",
+    "h": "When the stopwatch starts, check whether you are measuring speed or stress.",
+    "r": "WISC-V exam 2024–2025 (session 2) + WISC-V course notes – Processing Speed Index"
+  }
+]

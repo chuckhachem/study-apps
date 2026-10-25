@@ -1,0 +1,899 @@
+[
+  {
+    "t": "Ch4 Tactics",
+    "d": 1,
+    "q": "What are the four tactics of TFP (Table 4–1)?",
+    "o": [
+      "Contract; priority theme; incompatible vs shared reality; affective intensity",
+      "Clarification; confrontation; interpretation; technical neutrality",
+      "Assessment; early phase; midphase; advanced phase and termination",
+      "Define dyads; role reversals; dyad linkages; working through"
+    ],
+    "e": "TFP is organized in three tiers: strategies (the long-term aims), tactics (what the therapist does in each session to apply them) and techniques (the moment-to-moment interventions). The four tactics are: (1) the treatment contract; (2) choosing and pursuing the priority theme, using the three channels, the three principles and the hierarchy of priorities; (3) balancing the exploration of incompatible views of reality against establishing shared reality; (4) regulating the intensity of affective involvement.",
+    "w": [
+      "Clarification, confrontation, interpretation and neutrality are techniques, not tactics.",
+      "Assessment, early, mid and advanced phases are phases of treatment.",
+      "Defining dyads, role reversals, linkages and working through are the four strategies."
+    ],
+    "k": "TFP tactics: contract; priority theme; incompatible vs shared reality; affect regulation.",
+    "h": "Strategies = where to go; tactics = how each session steers; techniques = each word.",
+    "r": "Clarkin Ch4 – Table 4–1"
+  },
+  {
+    "t": "Ch4 Tactics",
+    "d": 2,
+    "q": "Why are distortions often HARDER to grasp in higher-level borderline patients?",
+    "o": [
+      "Their distortions are subtler; sicker patients deviate further from expectable reactions",
+      "They have no transference at all, so nothing can be observed in the interaction",
+      "They lie more often, so the therapist cannot trust what they report",
+      "They never form object relations dyads with the therapist until the midphase"
+    ],
+    "e": "Paradoxically, the sicker the patient, the easier it is to diagnose primitive object relations, because their reactions deviate further from what would be expected. A patient who screams that the therapist's 'good morning' was an insult makes the distortion obvious. Higher-level borderline patients distort more subtly: their reactions are only slightly off, so the therapist must work harder to notice the dyad behind them.",
+    "w": [
+      "Higher-level patients do have transferences; theirs are simply subtler.",
+      "They don't necessarily lie more; their distortions are less obvious.",
+      "Dyads with the therapist appear from the start, not only in the midphase."
+    ],
+    "k": "The sicker the patient, the more obvious the distortion; higher-level patients' distortions are subtler.",
+    "h": "A shout is easy to hear; a whisper takes attention.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Contract",
+    "d": 2,
+    "q": "Once the contract is in place, how does the therapist understand deviations from it?",
+    "o": [
+      "Patient deviations reveal the inner world; therapist deviations signal countertransference",
+      "Deviations by either party are irrelevant accidents that need no exploration",
+      "Any deviation by the patient is a reason to end the therapy immediately",
+      "Deviations by the therapist reveal the patient's inner world; patient deviations are noise"
+    ],
+    "e": "The contract creates a baseline of agreed behaviour. Once it exists, any deviation becomes meaningful. When the patient deviates (missing sessions, breaking an agreement), the deviation communicates something about the patient's internal world, often a dyad being acted out. When the therapist deviates (running over time, making exceptions), it signals countertransference. Without a contract there would be no baseline against which deviations stand out.",
+    "w": [
+      "Deviations are never treated as meaningless; they are information.",
+      "Not every deviation ends therapy; deviations are explored.",
+      "This reverses it: patient deviations reveal the inner world, therapist deviations signal countertransference."
+    ],
+    "k": "Against the contract's baseline, patient deviations reveal the inner world and therapist deviations reveal countertransference.",
+    "h": "The contract is the white page; deviations are the writing on it.",
+    "r": "Clarkin Ch4 – Tactic 1"
+  },
+  {
+    "t": "Ch4 Contract",
+    "d": 2,
+    "q": "Which is NOT listed in Table 4–2 as a specific threat to treatment?",
+    "o": [
+      "Disagreeing with an interpretation",
+      "Lying or withholding information",
+      "Seeing more than one therapist simultaneously",
+      "A chronically passive lifestyle maintaining secondary gain"
+    ],
+    "e": "Table 4–2 lists specific threats to treatment: suicidal or self-destructive behaviour, homicidal threats, lying or withholding, poor attendance, substance abuse, altered states, uncontrolled eating disorders, excessive phone calls, fee problems, seeing more than one therapist, trivialization, external problems, and a chronically passive lifestyle that maintains secondary gain. Disagreeing with an interpretation is not a threat; it is part of the process, and can even be productive.",
+    "w": [
+      "Lying or withholding information is listed as a specific threat in Table 4–2, so it can't be the exception.",
+      "Seeing more than one therapist simultaneously is listed.",
+      "A chronically passive lifestyle maintaining secondary gain is listed."
+    ],
+    "k": "Threats to treatment include self-harm, lying, poor attendance, substances, multiple therapists, trivialization, passivity; disagreement is not one.",
+    "h": "Disagreement is dialogue, not danger.",
+    "r": "Clarkin Ch4 – Table 4–2"
+  },
+  {
+    "t": "Ch4 Priority theme",
+    "d": 2,
+    "q": "For more primitive pathology, which channels of communication become MORE important?",
+    "o": [
+      "Nonverbal communication and countertransference",
+      "Verbal content and free associations",
+      "Written notes and between-session messages",
+      "Reports from family and previous therapists"
+    ],
+    "e": "The more primitive the pathology, the more important channels 2 and 3 become: nonverbal communication and countertransference. Split-off parts of the self are not put into words; they are expressed in action, behaviour, tone or somatization, or induced in the therapist through projective identification. With a highly disturbed patient, what they do and what the therapist feels often carry more information than what they say.",
+    "w": [
+      "Verbal content becomes less informative as pathology becomes more primitive.",
+      "Written notes and messages are not among the three channels.",
+      "Reports from others are not the channels; the three are verbal, nonverbal and countertransference."
+    ],
+    "k": "The more primitive the pathology, the more the nonverbal channel and countertransference matter.",
+    "h": "The sicker the patient, the less the words tell.",
+    "r": "Clarkin Ch4 – Three channels"
+  },
+  {
+    "t": "Ch4 Principles",
+    "d": 2,
+    "q": "Under the economic principle, an issue is affectively dominant when:",
+    "o": [
+      "It carries strong affect, or strikingly lacks the affect its content calls for",
+      "It is the first topic the patient mentions at the start of the session",
+      "It concerns the patient's past rather than present relationships",
+      "It is the topic the therapist personally finds most interesting"
+    ],
+    "e": "The economic principle tells the therapist to follow affective dominance. An issue is dominant when it carries strong affect, or when it strikingly lacks the affect its content calls for, for example describing a serious overdose in a bored tone. Missing affect may be suppressed, repressed, displaced or split off, and its absence is itself a marker. Both the loud and the eerily quiet point to the active object relation.",
+    "w": [
+      "Being mentioned first doesn't make a topic dominant; affect does.",
+      "Dominance is not about past versus present.",
+      "The therapist's interest is irrelevant; the patient's affect decides."
+    ],
+    "k": "Affective dominance = strong affect, or a striking absence of the affect the content calls for.",
+    "h": "Listen for the shout and for the strange silence.",
+    "r": "Clarkin Ch4 – Economic principle"
+  },
+  {
+    "t": "Ch4 Principles",
+    "d": 3,
+    "q": "If behavior is incongruent with words and affective dominance is unclear, the therapist should:",
+    "o": [
+      "Explore the behavior first; it is probably more important than words",
+      "Focus on the words only, since behavior is too ambiguous to interpret",
+      "End the session and resume once the patient is more coherent",
+      "Wait silently until the next session, when affect will be clearer"
+    ],
+    "e": "When the patient's behaviour contradicts their words and it is unclear what is affectively dominant, the chapter's guidance is that behaviour is probably more important and should be explored first. After that, the therapist looks at transference indications and then at the countertransference. Words can be used defensively; behaviour more often reveals the split-off dyad.",
+    "w": [
+      "Words alone may be defensive; behaviour usually carries more weight here.",
+      "Ending the session doesn't help; the incongruence is material.",
+      "Waiting loses the moment; the behaviour should be explored now."
+    ],
+    "k": "When words and behaviour clash and dominance is unclear, explore the behaviour first, then the transference, then the countertransference.",
+    "h": "Watch the feet, not just the mouth.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Principles",
+    "d": 2,
+    "q": "'Colluding with the resistance' in object relations terms means:",
+    "o": [
+      "The therapist enacts one of the patient's object roles (e.g., benevolent helper) without examining it",
+      "The therapist interprets the resistance as a defensive dyad and what it defends against",
+      "The therapist sets limits on acting out that threatens the patient or the treatment",
+      "The therapist asks for clarification of vague or contradictory material in the session"
+    ],
+    "e": "In object relations terms, colluding with the resistance means the therapist enacts one of the roles in the patient's internal world without examining it. For example, the therapist comfortably accepts the role of benevolent helper in a positive transference, without exploring which other aspects of the patient's inner world (hostility, envy, a persecutory dyad) are being kept out of the room. The pleasant role becomes part of the defense.",
+    "w": [
+      "Interpreting the resistance as a defensive dyad is the correct technique, the opposite of collusion.",
+      "Setting limits on dangerous acting out is a legitimate tactic, not collusion.",
+      "Asking for clarification is a basic technique, not collusion."
+    ],
+    "k": "Colluding with the resistance = enacting a role from the patient's inner world (e.g., benevolent helper) without examining it.",
+    "h": "Playing the role you were handed, without reading the script.",
+    "r": "Clarkin Ch4 – Dynamic principle"
+  },
+  {
+    "t": "Ch4 Principles",
+    "d": 2,
+    "q": "How are resistances understood in TFP?",
+    "o": [
+      "As defensive dyads with informational value, to be interpreted against what they defend",
+      "As walls to be knocked down as quickly as possible so therapy can proceed",
+      "As evidence that the patient is unsuitable for exploratory psychotherapy",
+      "As purely conscious refusals that should be confronted as bad faith"
+    ],
+    "e": "TFP does not treat resistances as walls to knock down. They are part of the psychic structure: defensive dyads that carry information about what the patient fears. They are interpreted in relation to what they defend against, for example a patient who keeps sessions superficial may be protecting herself from a dyad in which closeness leads to humiliation. Understanding the resistance is itself progress.",
+    "w": [
+      "Knocking resistance down treats it as an obstacle rather than information.",
+      "Resistance is expected and does not mean the patient is unsuitable.",
+      "Resistance is largely unconscious, not bad faith."
+    ],
+    "k": "Resistances are defensive dyads with informational value, interpreted against what they defend.",
+    "h": "The wall tells you what's worth guarding.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Principles",
+    "d": 2,
+    "q": "Most borderline patients begin therapy with which chronic baseline transference?",
+    "o": [
+      "Paranoid: a weak self guarding against closeness, expecting harm",
+      "Idealizing: a needy self seeking a perfect, giving provider",
+      "Erotic: a seductive self seeking sexual closeness with the therapist",
+      "Depressive: a guilty self fearing it has damaged the therapist"
+    ],
+    "e": "Although not always, most borderline patients begin therapy with a chronic paranoid transference: a weak, vulnerable self guarding against closeness, expecting the therapist to harm, exploit or judge. This is the structural baseline against which more acute dyads appear. Knowing this helps the therapist not to take initial suspicion personally, and to see the paranoid stance as the first thing to understand.",
+    "w": [
+      "Idealizing transferences occur but are not the usual starting baseline.",
+      "Erotic transferences are variations, not the usual baseline.",
+      "Depressive transferences, with guilt and concern, come late in successful treatment."
+    ],
+    "k": "Most borderline patients start with a chronic paranoid transference: a weak self expecting harm from the therapist.",
+    "h": "They walk in with their guard up.",
+    "r": "Clarkin Ch4 – Structural principle"
+  },
+  {
+    "t": "Ch4 Hierarchy",
+    "d": 1,
+    "q": "What is the highest priority in the hierarchy of themes (Table 4–4)?",
+    "o": [
+      "Suicide or homicide threats",
+      "Overt threats to treatment continuity",
+      "Dishonesty",
+      "Trivial themes"
+    ],
+    "e": "Table 4–4 orders what must be addressed first. Top of the list are suicide or homicide threats (1a), then overt threats to treatment continuity (1b), dishonesty and withholding (1c), contract breaches (1d), in-session acting out (1e), between-session acting out (1f), and nonaffective or trivial themes (1g). Only then come overt transference material (2) and nontransferential affect-laden material (3). Life comes first, then the treatment's survival, then honesty.",
+    "w": [
+      "Threats to treatment continuity are second (1b), after threats to life.",
+      "Dishonesty is a high priority (third, 1c), but suicide or homicide threats come first.",
+      "Trivial themes are the last of the obstacles (1g)."
+    ],
+    "k": "Priority 1a is suicide or homicide threats: danger to life always comes first.",
+    "h": "Life, then the therapy's life, then truth.",
+    "r": "Clarkin Ch4 – Table 4–4"
+  },
+  {
+    "t": "Ch4 Hierarchy",
+    "d": 3,
+    "q": "Order these obstacles from highest to lowest priority: in-session acting out; dishonesty; contract breaches; trivial themes.",
+    "o": [
+      "Dishonesty → contract breaches → in-session acting out → trivial themes",
+      "Trivial themes → dishonesty → acting out → breaches",
+      "Contract breaches → dishonesty → trivial themes → acting out",
+      "In-session acting out → dishonesty → trivial themes → breaches"
+    ],
+    "e": "In Table 4–4 the obstacles run: 1c dishonesty or withholding, 1d contract breaches, 1e in-session acting out, 1f between-session acting out, 1g nonaffective or trivial themes. The logic: without honesty no other material can be trusted; breaches undermine the frame; acting out in the room is more immediate than acting out outside; and trivialization is the subtlest obstacle.",
+    "w": [
+      "Trivial themes are the lowest obstacle, not the highest.",
+      "Dishonesty outranks contract breaches, and acting out outranks trivial themes.",
+      "In-session acting out comes after dishonesty, and trivial themes come last."
+    ],
+    "k": "Obstacle order: dishonesty → contract breaches → in-session acting out → between-session acting out → trivial themes.",
+    "h": "'Don't Break In, Bad Trick': Dishonesty, Breaches, In-session, Between-session, Trivial.",
+    "r": "Clarkin Ch4 – Table 4–4"
+  },
+  {
+    "t": "Ch4 Hierarchy",
+    "d": 2,
+    "q": "In Table 4–4, which of the following is an example of an 'overt threat to treatment continuity' (1b)?",
+    "o": [
+      "Plans to leave town or requests to reduce session frequency",
+      "Shouting in session or refusing to leave at the end",
+      "Failing to take prescribed medication or see the dietitian",
+      "Lying to the therapist or refusing to discuss certain topics"
+    ],
+    "e": "Overt threats to treatment continuity (1b) are things that would end or erode therapy: financial difficulties, plans to leave town, requests to decrease session frequency. The other options belong elsewhere in the hierarchy: shouting or refusing to leave is in-session acting out (1e), skipping prescribed medication or the dietitian is a contract breach (1d), and lying or refusing to discuss topics is dishonesty or withholding (1c).",
+    "w": [
+      "Shouting or refusing to leave is in-session acting out (1e).",
+      "Not taking medication or seeing the dietitian is a contract breach (1d).",
+      "Lying or refusing topics is dishonesty or withholding (1c)."
+    ],
+    "k": "1b threats to continuity: money problems, plans to leave town, requests to reduce session frequency.",
+    "r": "Clarkin Ch4 – Table 4–4"
+  },
+  {
+    "t": "Ch4 Hierarchy",
+    "d": 2,
+    "q": "What do emergency themes do over the first 6 months if handled effectively?",
+    "o": [
+      "They tend to recede, freeing sessions for transference work",
+      "They intensify and dominate the whole course of treatment",
+      "They become the permanent focus of the sessions",
+      "They become irrelevant once the contract is signed"
+    ],
+    "e": "If handled effectively through the contract and the priority hierarchy, emergency themes (suicidality, threats to treatment, acting out) tend to recede over the first 6 months. This clears the interactional field for transference exploration, which is the essence of TFP. The early focus on emergencies is a means to an end: making space for the real work.",
+    "w": [
+      "Handled well, they recede rather than intensify.",
+      "They are not meant to be the permanent focus; the transference is.",
+      "Signing the contract doesn't make them irrelevant; it gives a framework to address them."
+    ],
+    "k": "Handled well, emergency themes recede over ~6 months, freeing sessions for transference work.",
+    "h": "Put out the fires first; then you can see the house.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Hierarchy",
+    "d": 2,
+    "q": "A patient talks at length about suspecting her husband's infidelity; later she says her therapist is bored and indifferent. What principle does this illustrate?",
+    "o": [
+      "External issues often foreshadow a transference paradigm later explored 'in the room'",
+      "External reality is irrelevant in TFP, so the husband's behavior should not be discussed",
+      "The husband should be invited to sessions to clarify whether the infidelity is real",
+      "The infidelity must be verified first, before any transference work can begin"
+    ],
+    "e": "Her suspicion that her husband is unfaithful, and later her conviction that the therapist is bored and indifferent, share a dyad: a neglected, betrayed self and an uninterested, disloyal other. The principle is that issues in the patient's external reality often foreshadow a transference paradigm that will emerge, or has already emerged, 'in the room'. The therapist listens to outside stories as previews of what will happen with them.",
+    "w": [
+      "External reality is discussed; it is also read as a preview of the transference.",
+      "Inviting the husband would leave the patient's internal dyad unexplored.",
+      "The point is the dyad, not verifying the infidelity before any transference work."
+    ],
+    "k": "External relationship themes often foreshadow a transference paradigm that will appear with the therapist.",
+    "h": "Today's story about the husband is tomorrow's story about the therapist.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Threats to end",
+    "d": 2,
+    "q": "A patient misses a session without notice. What is the therapist's essential attitude?",
+    "o": [
+      "Be active: call, express concern and curiosity about the meaning",
+      "Wait passively for the next session to see if she returns",
+      "Terminate treatment, since the contract has been broken",
+      "Send the bill for the missed session without comment"
+    ],
+    "e": "Threats of dropout rank high in the hierarchy (1b). When a patient misses a session without notice, the therapist is active: calling, expressing concern, and showing curiosity about what the absence means. Passivity can confirm a dyad in which nobody cares whether the patient comes. Early deep interpretation may also help if the absence reflects a transference that threatens the treatment.",
+    "w": [
+      "Waiting passively may confirm the patient's fear that no one cares.",
+      "Terminating over a single absence is premature; the meaning must be explored.",
+      "Billing without comment ignores the meaning of the absence."
+    ],
+    "k": "With threatened dropout (e.g., an unannounced absence), the therapist is active: call, show concern, explore the meaning.",
+    "h": "An empty chair is a message; answer it.",
+    "r": "Clarkin Ch4 – Threats to end"
+  },
+  {
+    "t": "Ch4 Dishonesty",
+    "d": 2,
+    "q": "Which is NOT listed as a reason patients lie?",
+    "o": [
+      "To help the therapist",
+      "To avoid responsibility",
+      "To exert control or express superiority by duping the therapist",
+      "To prevent an authentic relationship"
+    ],
+    "e": "Patients lie to avoid confrontation or responsibility, to avoid disapproval or retaliation, to control the therapist, to express superiority by duping them, and to prevent an authentic relationship from forming. Each reason reflects a dyad, often paranoid (the therapist will punish) or psychopathic (relationships are about power). Lying to help the therapist is not one of the listed reasons.",
+    "w": [
+      "Avoiding responsibility is one of the listed reasons patients lie, so it is not the exception.",
+      "Controlling the therapist or feeling superior by duping them is listed.",
+      "Preventing an authentic relationship is one of the listed reasons patients lie, so it is not the exception."
+    ],
+    "k": "Patients lie to avoid confrontation or disapproval, to control or dupe the therapist, and to prevent an authentic relationship.",
+    "r": "Clarkin Ch4 – Dishonesty"
+  },
+  {
+    "t": "Ch4 Dishonesty",
+    "d": 3,
+    "q": "What is the order of interpreting transferences when dishonesty is present?",
+    "o": [
+      "Psychopathic → paranoid → depressive",
+      "Depressive → paranoid → psychopathic",
+      "Paranoid → psychopathic → depressive",
+      "All at once"
+    ],
+    "e": "When dishonesty is present, interpretation follows the developmental sequence of transferences. The psychopathic transference (deceit) is interpreted first, because nothing else can be trusted while lying continues. Analysing it usually reveals the paranoid transference beneath (lying because the therapist seems dangerous). Only later does the depressive transference (guilt, concern) emerge and get interpreted.",
+    "w": [
+      "This reverses the sequence; depressive transferences come last.",
+      "Psychopathic transferences come before paranoid ones: honesty must be established before fear can be worked on.",
+      "They are interpreted in sequence, not all at once."
+    ],
+    "k": "With dishonesty: interpret psychopathic → paranoid → depressive transferences.",
+    "h": "First the lie, then the fear behind it, then the remorse.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Dishonesty",
+    "d": 2,
+    "q": "If a habitual liar ALSO shows life- or treatment-threatening acting out, treatment should:",
+    "o": [
+      "Start in the hospital, for protection and accurate staff reporting",
+      "Continue as an outpatient, relying on the patient's own reports",
+      "Be refused entirely, since dishonest patients cannot be treated",
+      "Be conducted by phone until the patient proves trustworthy"
+    ],
+    "e": "Outpatient therapy depends on the patient's own reports. With a habitual liar who also shows life- or treatment-threatening acting out, those reports cannot be trusted to keep the patient safe. The chapter's answer: start treatment in the hospital, which provides protection and accurate reporting by staff, the two things the patient cannot provide. Outpatient work can follow once honesty and safety are established.",
+    "w": [
+      "Relying on the patient's reports is exactly what's unsafe with a habitual liar at risk.",
+      "Dishonest patients aren't refused outright; the setting is adapted.",
+      "Phone treatment would increase reliance on unverifiable reports."
+    ],
+    "k": "A habitual liar with dangerous acting out should start treatment in hospital, for protection and accurate reporting.",
+    "h": "When words can't be trusted and danger is real, let walls and staff do the watching.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Dishonesty",
+    "d": 2,
+    "q": "The therapist vaguely senses dishonesty but cannot pinpoint why. Appropriate response:",
+    "o": [
+      "'I sense you're not being straight with me. Let's explore whether it's my problem or yours.'",
+      "Say nothing for now, since without proof any comment would damage the fragile alliance with the patient",
+      "'You are lying to me, and if it continues the treatment will have to end.'",
+      "Call the family to check the facts before raising the issue in session"
+    ],
+    "e": "A vague sense of dishonesty is data, often from the countertransference. The chapter supports voicing it openly and exploring it together: 'I sense you're not being straight with me; let's explore whether that's my problem or yours.' As long as suppression is suspected, it is the highest priority, because nothing else in the session can be trusted. Accusation or silence would both shut down exploration.",
+    "w": [
+      "Saying nothing lets suspected dishonesty corrupt the rest of the work.",
+      "Accusing and threatening termination turns exploration into a verdict.",
+      "Checking with the family breaks neutrality and bypasses the patient."
+    ],
+    "k": "If you sense dishonesty, voice it openly and explore it; while suspected, it is the top priority.",
+    "h": "Say what you sense, and stay curious about whose it is.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Withholding",
+    "d": 2,
+    "q": "How should withholding be viewed compared with lying?",
+    "o": [
+      "As an equally serious, active, aggressive threat to treatment",
+      "As harmless embarrassment to be respected and left alone",
+      "As less important than trivial themes in the hierarchy",
+      "As a sign of improvement in the patient's privacy"
+    ],
+    "e": "Withholding (deliberately not telling) is treated as just as serious as lying: an active, often aggressive threat to treatment. Dynamically, both can be driven by a destructive part of the patient attacking the treatment to maintain splitting, keeping certain dyads out of the room. Withholding is not 'just privacy' when it involves information relevant to the therapy.",
+    "w": [
+      "Withholding is not harmless embarrassment to leave alone; it is a threat to treatment.",
+      "It ranks with dishonesty, far above trivial themes.",
+      "It is not an improvement in privacy; it blocks the work."
+    ],
+    "k": "Withholding is as serious as lying: an active threat that can serve a destructive part maintaining the split.",
+    "h": "A locked drawer in the therapy room is as serious as a false statement.",
+    "r": "Clarkin Ch4 – Withholding"
+  },
+  {
+    "t": "Ch4 Withholding",
+    "d": 2,
+    "q": "When a patient admits something is hard to talk about, the therapist should FIRST explore:",
+    "o": [
+      "Her assumptions about the consequences of revealing it",
+      "The content of the secret, asked about directly",
+      "Nothing; wait until she is ready to say it",
+      "Her childhood experiences of keeping secrets"
+    ],
+    "e": "The rule is defense before content. When a patient says something is hard to talk about, the therapist first explores her assumptions about what would happen if she revealed it: will the therapist be disgusted, angry, gossip, leave? These fears reveal the dyad (for example a shameful self and a contemptuous other) that keeps her silent. Once that is understood, the content usually follows more safely.",
+    "w": [
+      "Asking directly for the secret skips the defense and can feel intrusive.",
+      "Waiting passively leaves the patient's feared consequences unexplored; TFP first asks what she expects would happen.",
+      "Childhood experiences are not the first step; the here-and-now fear is."
+    ],
+    "k": "With withholding, explore the feared consequences of revealing (the defense) before the content.",
+    "h": "Ask 'what do you fear I'd do?' before 'what is it?'",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Attendance",
+    "d": 3,
+    "q": "'How many sessions can a patient miss before I end treatment?' What is wrong with this question?",
+    "o": [
+      "The patient's actions end treatment; a fixed number replaces judgment and invites 'chicken'",
+      "Nothing is wrong; three missed sessions is the accepted standard in TFP",
+      "The question is fine, but the correct answer is always five missed sessions",
+      "Attendance should never be discussed, since it is purely the patient's choice"
+    ],
+    "e": "The question has three problems. In TFP the therapist does not end treatment for absences; the patient's actions may render it impossible, which keeps responsibility with the patient. A fixed number replaces clinical judgment about what the absences mean. And it feeds the projection of a rigid, punitive authority while inviting the patient to play 'chicken', testing how close to the limit they can go.",
+    "w": [
+      "There is no accepted standard number in TFP; the authors reject a fixed count.",
+      "No number is correct; the problem is the idea of a fixed count itself.",
+      "Attendance is discussed; it is part of the contract."
+    ],
+    "k": "No fixed number of absences: the patient's actions, not a count, may make treatment impossible, and counts invite testing.",
+    "h": "A countdown invites a game of chicken.",
+    "r": "Clarkin Ch4 – Irregular attendance"
+  },
+  {
+    "t": "Ch4 Attendance",
+    "d": 2,
+    "q": "The therapist starts to feel that requiring attendance is harsh and sadistic. This signals:",
+    "o": [
+      "A transference–countertransference development to reflect on",
+      "A sign that the attendance rule is too rigid and should be dropped",
+      "A sign that the patient is right and the frame is unfair",
+      "A sign of therapist burnout requiring a break"
+    ],
+    "e": "When a basic requirement like attending sessions starts to feel harsh or sadistic to the therapist, that feeling is a transference–countertransference development to reflect on. The patient may be experiencing the therapist as a cruel authority and inducing guilt in him, or pulling him toward a lax, abandoning role. The feeling is information about the dyad, not proof that the rule is wrong.",
+    "w": [
+      "Dropping the rule acts on the countertransference instead of understanding it.",
+      "The feeling doesn't prove the frame unfair; it reflects the active dyad.",
+      "Burnout is not the explanation suggested; the feeling is induced by the dyad."
+    ],
+    "k": "If basic requirements start feeling harsh, reflect on the transference–countertransference; don't drop the frame.",
+    "h": "When the rule feels cruel, ask who made it feel that way.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Mental availability",
+    "d": 2,
+    "q": "A patient arrives intoxicated. What does the therapist do?",
+    "o": [
+      "Ends the session, checks it is safe for her to go home, and plans to explore the breach",
+      "Continues as usual, since sending her away would feel rejecting and unsafe",
+      "Calls the police to report the intoxication and protect the treatment frame",
+      "Terminates therapy permanently, since the substance agreement was broken"
+    ],
+    "e": "An intoxicated patient is not mentally available for therapy, and continuing as usual would imply treatment can work without the patient doing their part. So the therapist ends the session, first making sure it is safe for her to go home (or arranging hospital care if needed), and plans to explore the breach later, reviewing the substance-use parameters of the contract. The response protects safety and the frame without punishing.",
+    "w": [
+      "Continuing as usual pretends therapy can happen without the patient's participation.",
+      "Calling the police is not the response; the issue is safety and the frame.",
+      "Permanent termination is excessive; the breach is explored."
+    ],
+    "k": "Intoxicated patient: end the session, ensure safe transport, then explore the breach and review the contract.",
+    "h": "No therapy with an absent mind, but no abandonment either.",
+    "r": "Clarkin Ch4 – Mental availability"
+  },
+  {
+    "t": "Ch4 Contract breach",
+    "d": 2,
+    "q": "A patient agreed to see her GP after cutting, but didn't, and wants to talk about what upset her. The therapist:",
+    "o": [
+      "After ruling out higher priorities, won't continue as if she complied; will explore the breach",
+      "Continues the session normally, since the upsetting event is more affect-laden",
+      "Takes her to the GP himself so the agreement is fulfilled and the session can go on",
+      "Ignores the agreement this time to avoid a power struggle early in treatment"
+    ],
+    "e": "After ruling out higher priorities (such as suicide risk), the therapist won't continue the session as if she had complied. He reminds her of the agreement, says they can resume once she fulfils her responsibility, and plans to explore both the cutting and the breach. Going on to talk about what upset her would silently cancel the agreement, teaching that contracts don't matter.",
+    "w": [
+      "Continuing normally ignores the breach and empties the contract of meaning.",
+      "Taking her to the GP himself would make him responsible for her part.",
+      "Ignoring the agreement avoids a power struggle at the cost of the frame."
+    ],
+    "k": "After ruling out higher priorities, don't proceed as if a breached agreement were kept; address it.",
+    "h": "A promise ignored becomes a promise erased.",
+    "r": "Clarkin Ch4 – Contract breaches"
+  },
+  {
+    "t": "Ch4 Intrusions",
+    "d": 2,
+    "q": "How is spying on the therapist handled?",
+    "o": [
+      "Any instance calls for immediate review of treatment viability",
+      "It is tolerated, like occasional between-session phone calls",
+      "It is noted and interpreted later in the midphase",
+      "It is ignored unless it involves the therapist's family"
+    ],
+    "e": "Spying on the therapist (following them, looking into their private life) is never justified. It suggests a serious inability to contain transference feelings within the frame. Any instance therefore calls for an immediate review of whether treatment is viable. It is a breach of a different order from occasional calls, because it invades the therapist's life and safety.",
+    "w": [
+      "It is not tolerated like occasional calls; it requires immediate review.",
+      "It isn't deferred to the midphase; it is addressed at once.",
+      "It is not ignored; spying of any kind threatens the treatment."
+    ],
+    "k": "Any spying on the therapist calls for immediate review of the treatment's viability.",
+    "r": "Clarkin Ch4 – Intrusions"
+  },
+  {
+    "t": "Ch4 Acting out",
+    "d": 1,
+    "q": "Acting out is defined as:",
+    "o": [
+      "Expressing an unconscious conflict in action instead of feeling, memory and words",
+      "Any angry statement or raised voice directed at the therapist during a session",
+      "Talking at length about past events instead of present feelings",
+      "A conscious lie told to avoid the therapist's disapproval"
+    ],
+    "e": "Acting out is the expression of an unconscious conflict in action instead of in feeling, memory and words. It carries information (the action is a message), but it defends against insight, because the tension is discharged before it can be thought about. And it perpetuates itself, because the action reduces tension and so is reinforced. TFP aims to transform acting out back into experience within the relationship.",
+    "w": [
+      "Anger expressed in words is not acting out; acting out replaces words with action.",
+      "Talking about the past is not acting out.",
+      "A conscious lie is dishonesty, not acting out an unconscious conflict."
+    ],
+    "k": "Acting out = expressing an unconscious conflict in action instead of feelings, memories and words; it informs but blocks insight.",
+    "h": "Doing instead of feeling; acting instead of saying.",
+    "r": "Clarkin Ch4 – Acting out"
+  },
+  {
+    "t": "Ch4 Acting out",
+    "d": 3,
+    "q": "'Oh, I forgot to tell you I've been pregnant for 3 months,' then the patient changes topic. How many forms of acting out does the book identify here?",
+    "o": [
+      "Two: concealing something ongoing and a sudden offhand statement with impact",
+      "None: the patient simply forgot, so there is no acting out to address",
+      "One: lying, since the pregnancy was hidden from the therapist",
+      "Three: lying, withholding and denial of the pregnancy's meaning"
+    ],
+    "e": "The book identifies two forms of acting out in this one moment: concealing something important and ongoing for months, and then dropping it with a sudden offhand statement that has a major impact, before changing the topic. The action is 'supercondensed' and carries a lot of meaning (about trust, control, and the therapist's importance). The technical approach is to unpack it into a narrative of what has been experienced in the relationship.",
+    "w": [
+      "'Forgetting' something this important for months is acting out, not simple forgetting.",
+      "Concealment is one form, but the abrupt offhand disclosure is a second.",
+      "The book counts two forms here, not three."
+    ],
+    "k": "Concealing something important and then dropping it offhandedly are two forms of acting out; unpack them into a relational narrative.",
+    "h": "The bomb dropped casually is a message in itself.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Acting out",
+    "d": 2,
+    "q": "Why is a wait-and-see attitude to a patient's prolonged silence dangerous?",
+    "o": [
+      "It supports omnipotent control, lets anger build, and colludes with devaluation",
+      "It always works in the end, because patients eventually speak when they are ready",
+      "It respects autonomy and avoids imposing the therapist's agenda",
+      "It prevents acting out by letting the patient contain feelings"
+    ],
+    "e": "Waiting indefinitely through a prolonged silence has three dangers. It supports the patient's omnipotent fantasy of unbridled control over the session. It lets frustration and anger build until they become uncontainable. And it colludes with a 'do-nothing' devaluation of the therapist and the treatment. The therapist should engage actively with the silence and what it is doing in the relationship.",
+    "w": [
+      "Waiting doesn't reliably work; it can feed control and anger.",
+      "Silence as a power move isn't autonomy to respect; it's material to explore.",
+      "It doesn't prevent acting out; it can let tension build to explosion."
+    ],
+    "k": "Waiting out prolonged silence feeds omnipotent control, lets anger build and colludes with devaluation; engage with it.",
+    "h": "Silence held hostage is not silence respected.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Acting out",
+    "d": 3,
+    "q": "A third-year patient suddenly quits because he lost his scholarship after months of 'unavoidable' missed assignments. This is an example of:",
+    "o": [
+      "Subtle 'living out' between sessions that threatens treatment",
+      "Ordinary life events unrelated to the therapy or the transference",
+      "Trivialization of material inside the sessions",
+      "A transference psychosis spreading to outside life"
+    ],
+    "e": "Losing his scholarship through months of 'unavoidable' missed assignments looks like ordinary bad luck, but it is subtle 'living out': a split-off, long-term pattern, often predating treatment, that gradually takes on significance as acting out against the therapy. It is hard to detect because it unfolds outside sessions and is framed as circumstance. Here it ended the treatment.",
+    "w": [
+      "Framing it as unrelated life events misses its function as acting out against therapy.",
+      "Trivialization happens inside sessions; this happened in the patient's outside life.",
+      "Transference psychosis means loss of reality testing toward the therapist, not this."
+    ],
+    "k": "Subtle, long-term 'living out' between sessions can sabotage treatment while looking like bad luck.",
+    "h": "Slow-motion acting out looks like circumstance.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Trivialization",
+    "d": 2,
+    "q": "Which is a behavioral correlate of trivialization?",
+    "o": [
+      "Bland sessions while intense distress appears between sessions",
+      "The patient talks a great deal about the therapist and the relationship",
+      "The patient cries frequently during the sessions",
+      "The patient arrives late to one session"
+    ],
+    "e": "Trivialization means filling sessions with bland, nonaffective material while the real conflicts are avoided. Two behavioural correlates signal it: intense, unexplained anxiety or distress between sessions that never appears in sessions, and a gratifying relationship with the therapist that replaces outside life (a 'transference cure' or flight into health). The bland session is the cover; the storm happens elsewhere.",
+    "w": [
+      "Talking about the therapist and the relationship is engagement, not trivialization.",
+      "Frequent crying in session is affect, the opposite of blandness.",
+      "A single late arrival is not a correlate of trivialization."
+    ],
+    "k": "Trivialization correlates: bland sessions with intense distress between them, or a gratifying therapy replacing outside life.",
+    "h": "Calm in the room, storm at home.",
+    "r": "Clarkin Ch4 – Trivial themes"
+  },
+  {
+    "t": "Ch4 Trivialization",
+    "d": 2,
+    "q": "When does trivialization typically emerge?",
+    "o": [
+      "In the transition from early phase to midphase, as acting out diminishes",
+      "At the first session, before the contract has been agreed",
+      "Only at termination, as the patient avoids the coming separation",
+      "Never with borderline patients, only with neurotic ones"
+    ],
+    "e": "Trivialization typically appears in the transition from the early phase to the midphase. As acting out diminishes and the patient's dynamics become concentrated within the frame, the conflicts are now closer and more threatening, so the patient may avoid them by talking about trivial things. It is a sign that the treatment is reaching sensitive material.",
+    "w": [
+      "At the first session there is no contract yet, and trivialization is not the typical issue.",
+      "It is not mainly a termination phenomenon.",
+      "Borderline patients do trivialize, especially in the early-to-midphase transition."
+    ],
+    "k": "Trivialization often emerges in the early-to-midphase transition, as acting out decreases and conflicts move into the frame.",
+    "h": "When the fires go out, some patients start talking about the weather.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Trivialization",
+    "d": 3,
+    "q": "Does addressing trivialization contradict free association?",
+    "o": [
+      "No – associations are always relevant, sometimes as evidence of resistance",
+      "Yes – addressing it abandons the basic rule of free association",
+      "Yes – free association is not used at all in TFP",
+      "Only with neurotic patients, not borderline patients"
+    ],
+    "e": "No. In TFP all associations are relevant, but some are relevant as evidence of resistance. Pointing out that the patient is talking about trivial matters while important things go unmentioned does not abandon free association; it complements it with an appreciation of resistance. The content may be trivial, but the act of trivializing is meaningful.",
+    "w": [
+      "Addressing trivialization complements free association; it doesn't abandon it.",
+      "Free association is used in TFP alongside attention to resistance.",
+      "The principle applies to borderline patients too."
+    ],
+    "k": "Addressing trivialization is consistent with free association: trivial content can be evidence of resistance.",
+    "h": "Even small talk says something big.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Tactic 3",
+    "d": 2,
+    "q": "Why should the TFP therapist resist the urge to correct a distorted image of himself immediately?",
+    "o": [
+      "The distorted image brings essential data about her internal object world",
+      "The patient is usually right about the therapist's hidden feelings",
+      "Correcting a patient is rude and damages the alliance",
+      "The therapist can never really know how he comes across"
+    ],
+    "e": "When a patient sees the therapist in a distorted way (cruel, indifferent, seductive), the urge is to correct it. But the therapy relationship is the only setting where the discrepancy between the patient's image and reality can be examined directly, and the distorted image carries essential data about the patient's internal object world (Steiner). Correcting it too quickly loses that data and can feel dismissive.",
+    "w": [
+      "The patient is not usually right; the image reflects her inner world.",
+      "Correction isn't rude; it's premature, because it loses the data.",
+      "The therapist can know how he comes across; the point is to explore the image first."
+    ],
+    "k": "Don't rush to correct the patient's distorted image of you: it is essential data about her inner world.",
+    "h": "The distorted mirror shows the patient's world, not your face.",
+    "r": "Clarkin Ch4 – Tactic 3"
+  },
+  {
+    "t": "Ch4 Tactic 3",
+    "d": 3,
+    "q": "Which distortions of reality can be interpreted?",
+    "o": [
+      "Only those recognized as distortions and felt as ego-dystonic",
+      "All distortions, immediately, as soon as they appear",
+      "Only delusions held with complete conviction",
+      "None, since reality is never discussed in TFP"
+    ],
+    "e": "An interpretation needs a shared starting point. If the patient is fully convinced the distortion is reality, an interpretation will be heard as a lie or an attack. Only distortions the patient can recognize as distortions, and that feel ego-dystonic (somewhat foreign or troubling), can be interpreted. Before that, the therapist works on establishing shared reality (Tactic 3).",
+    "w": [
+      "Interpreting immediately fails if the patient doesn't recognize the distortion.",
+      "Delusions held with complete conviction cannot be interpreted until doubt appears.",
+      "Reality is discussed in TFP; establishing shared reality is a tactic."
+    ],
+    "k": "Only distortions the patient recognizes as such, and feels as ego-dystonic, can be interpreted.",
+    "h": "You can only interpret a distortion she can step outside of.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Tactic 3",
+    "d": 2,
+    "q": "Steiner's recommendation for early stages: the therapist should examine the patient's image of him:",
+    "o": [
+      "Without rejecting it and without accepting it",
+      "By firmly rejecting it as a distortion",
+      "By fully accepting it as accurate",
+      "By ignoring it until it disappears"
+    ],
+    "e": "Steiner recommends that early on, the therapist examine the patient's image of him without rejecting it and without accepting it. Rejecting it ('I'm not like that') dismisses the patient's experience; accepting it confirms the distortion. Examining it with curiosity increases the patient's awareness of the projection, which gradually helps her acknowledge the role of her internal world.",
+    "w": [
+      "Firmly rejecting the image dismisses it and loses the data.",
+      "Fully accepting the image as accurate confirms the distortion and abandons the shared reality.",
+      "Ignoring the image leaves the projection unexamined; Steiner's point is to explore it without taking a side."
+    ],
+    "k": "Steiner: examine the patient's image of you without rejecting or accepting it.",
+    "h": "Neither 'no' nor 'yes', but 'let's look at it'.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Tactic 3",
+    "d": 3,
+    "q": "A patient insists the therapist wants sex with her. Which step does the therapist take FIRST?",
+    "o": [
+      "Clarify whether it's an experience, speculation, fantasy or delusional conviction",
+      "Interpret her defended-against sexual wishes toward the therapist directly",
+      "Refer her to a female therapist to avoid an erotic transference",
+      "Firmly deny it and remind her of the professional boundaries"
+    ],
+    "e": "The first step is clarification: what is the nature of this belief? Is it an experience ('I feel you look at me that way'), speculation, fantasy, or a delusional conviction? The chapter's sequence then continues: its basis, reflecting on contrary evidence, the degree of conviction, interpreting its defensive aspect, and staying within her logic to find where it becomes untenable. Starting with interpretation or denial skips the essential first step.",
+    "w": [
+      "Interpreting her wishes directly is premature before clarifying the belief.",
+      "Referral avoids the transference instead of exploring it.",
+      "Firm denial dismisses her experience and loses the data."
+    ],
+    "k": "With a distorted belief about the therapist, first clarify its nature: experience, speculation, fantasy or conviction?",
+    "h": "First find out what kind of belief it is.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Tactic 3",
+    "d": 3,
+    "q": "'Do you believe I would jeopardize my professional reputation to have sex with you?' This illustrates:",
+    "o": [
+      "Staying within the patient's logic to find where the belief becomes untenable",
+      "Supportive reassurance that the therapist would never harm or exploit her in any way",
+      "Confrontation of acting out that threatens the treatment",
+      "Limit setting on talk about sexuality in the sessions"
+    ],
+    "e": "The question stays inside the patient's own logic and follows it through: if the therapist wanted sex with her, he would have to be willing to risk his career and reputation. Does she really believe that? By becoming even more logical about her belief system than she is, the therapist may find the point where it becomes untenable, opening doubt without simply contradicting her.",
+    "w": [
+      "It's not reassurance; it invites her to test her own belief.",
+      "No acting out is being confronted; it's a belief being examined.",
+      "It doesn't limit sexual talk; it explores the belief logically."
+    ],
+    "k": "Stay within the patient's logic to find where a distorted belief becomes untenable.",
+    "h": "Follow her logic to the cliff edge and let her see the drop.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Incompatible realities",
+    "d": 3,
+    "q": "Patient: 'You kept me waiting 20 minutes; admit it or you're a liar.' (It was 5 minutes.) The TFP method is to:",
+    "o": [
+      "Say both can't be right, name 'an element of madness in the room', explore it",
+      "Admit to the 20 minutes to calm her down and protect the alliance from rupture",
+      "Show her the clock as proof and move on to other topics",
+      "End the session, since no work is possible under accusation"
+    ],
+    "e": "When the patient insists on 20 minutes and the therapist knows it was 5, there is no shared reality. The TFP method is to say both versions can't be true, name that there is 'an element of madness in the room', and explore it. The priority is to clarify the fantasy involved: if the therapist were really malicious, indifferent and lying, what does it mean that she comes? Agreeing or 'proving' with the clock would either collude or shut down the exploration.",
+    "w": [
+      "Admitting to 20 minutes colludes with the distortion and loses honesty.",
+      "Showing the clock tries to win the argument rather than explore the fantasy.",
+      "Ending the session gives up on the very material TFP works with."
+    ],
+    "k": "Incompatible realities: state that both can't be right, name 'madness in the room', and explore the fantasy.",
+    "h": "Two clocks can't both be right: explore why hers shows 20.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Incompatible realities",
+    "d": 3,
+    "q": "What distinguishes a transference psychosis from an acute psychotic episode?",
+    "o": [
+      "Transference psychosis: reality testing is lost only toward the therapist",
+      "Transference psychosis: hallucinations occur in all life settings",
+      "They are identical, differing only in their duration",
+      "Acute psychosis appears only inside sessions"
+    ],
+    "e": "In a transference psychosis, reality testing is lost only in relation to the therapist: the patient may be fully convinced the therapist is plotting against her, while functioning normally elsewhere. An acute psychotic episode affects reality testing across life settings (hallucinations, delusions outside sessions). The distinction matters: transference psychosis can be worked with in TFP; an acute psychosis may need psychiatric management.",
+    "w": [
+      "Hallucinations in all settings describe an acute psychotic episode.",
+      "They differ in scope, not only duration.",
+      "Acute psychosis is not confined to sessions; transference psychosis is."
+    ],
+    "k": "Transference psychosis = reality testing lost only toward the therapist; acute psychosis = lost across life.",
+    "h": "Psychotic only about the therapist = transference psychosis.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Incompatible realities",
+    "d": 2,
+    "q": "What key question helps the therapist judge a 'grain of truth' reaction?",
+    "o": [
+      "How does this compare with a normal expectable reaction?",
+      "Is the patient right about how I treated her?",
+      "Was I really late, and by exactly how much?",
+      "Will the patient report me to the licensing board?"
+    ],
+    "e": "Patients often seize on something real (the therapist was 5 minutes late). The key question is: how does the patient's reaction compare with a normal, expectable reaction? Transference shows in whatever goes beyond that. A 5-minute delay is real; mild annoyance is expectable; concluding it proves the therapist despises her is not. The therapist acknowledges the grain of truth and explores the excess.",
+    "w": [
+      "Asking whether the patient is right misses the point; the excess is what matters.",
+      "Exact minutes are less important than the meaning given to them.",
+      "Fear of a complaint is the therapist's worry, not a clinical question."
+    ],
+    "k": "Judge 'grain of truth' reactions against a normal expectable reaction: the excess is the transference.",
+    "h": "Real pebble, mountain of meaning: interpret the mountain.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Tactic 4",
+    "d": 2,
+    "q": "In which two situations should the therapist speak WITH affect?",
+    "o": [
+      "With intense negative affect (match it) and with bland reports of dangerous behavior",
+      "Only when praising the patient for progress, to reinforce the healthy part of the self",
+      "Only at termination, to show sadness at parting",
+      "Never, since neutrality forbids any expressed affect"
+    ],
+    "e": "Tactic 4 regulates affective intensity. The therapist speaks with affect in two situations. First, when the patient expresses intense negative affect: the therapist matches its intensity, without its negative quality, so the patient feels taken seriously. Second, when the patient blandly describes dangerous behaviour (for example a suicide note mentioned in passing): the therapist adds concerned intensity, countering the denial.",
+    "w": [
+      "Praising progress is supportive, not one of the two situations.",
+      "Affect isn't reserved for termination; TFP speaks with affect to match intense negative affect and to counter bland reports of danger.",
+      "Neutrality doesn't forbid affect; it forbids taking sides."
+    ],
+    "k": "Speak with affect when matching intense negative affect, and when the patient blandly reports dangerous behaviour.",
+    "h": "Match the storm; ring the alarm when they whisper danger.",
+    "r": "Clarkin Ch4 – Tactic 4"
+  },
+  {
+    "t": "Ch4 Tactic 4",
+    "d": 2,
+    "q": "Does matching the patient's affective intensity violate technical neutrality?",
+    "o": [
+      "No – he stays allied with the healthy side; raised affect can counter denial",
+      "Yes – any expressed affect is a deviation from technical neutrality",
+      "Only if the therapist raises his voice above the patient's",
+      "Only in the midphase, when the alliance can tolerate it"
+    ],
+    "e": "No. Neutrality concerns not taking sides among the patient's conflicting forces. Matching the patient's intensity is a matter of how the therapist speaks, while his alliance stays with the healthy, observing side. In high-risk denial, such as a casually mentioned suicide note, raising the affect is how the therapist counters the denial and reaches the healthy part.",
+    "w": [
+      "Expressed affect is not in itself a deviation from neutrality.",
+      "Volume is not the criterion; alliance with the healthy side is.",
+      "It's not limited to the midphase; it may be needed early, especially with danger."
+    ],
+    "k": "Matching affect doesn't violate neutrality: the therapist stays allied with the healthy side, and raised affect can counter denial.",
+    "h": "Loud voice, neutral position.",
+    "r": "Clarkin Ch4"
+  },
+  {
+    "t": "Ch4 Flexibility",
+    "d": 3,
+    "q": "A patient cancels two sessions (a contract breach) then talks intensely about feeling an inadequate mother and attacks the therapist. The 'preferable' approach was to:",
+    "o": [
+      "Work first on the projected inadequate-mother representation, then return to the breach",
+      "Ignore the breach, because the material about her daughter is more affect-laden",
+      "Address only the breach and refuse to discuss anything else in the session",
+      "End therapy, since missing two sessions in the first month breaks the contract"
+    ],
+    "e": "The priority hierarchy says what must be addressed by the end of a session, not the order within it. Here the patient's intense material about feeling an inadequate mother, and her attack on the therapist, reflect a projected 'inadequate mother' representation that is likely connected to the cancellations. Working on it first lays the groundwork, and then the therapist returns to the breach before the session ends. Flexibility serves the hierarchy.",
+    "w": [
+      "The breach can't be ignored; it must be addressed before the session ends.",
+      "Refusing to discuss anything else ignores affect-laden material that may illuminate the breach.",
+      "Ending therapy over two cancellations is premature; the breach is explored."
+    ],
+    "k": "The priority hierarchy dictates what must be covered by session's end, not the order: secondary themes can prepare the ground.",
+    "h": "The order of the menu isn't the order of the meal, but every course must be served.",
+    "r": "Clarkin Ch4 – Flexibility"
+  }
+]

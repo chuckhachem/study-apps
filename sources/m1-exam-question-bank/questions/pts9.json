@@ -1,0 +1,296 @@
+[
+  {
+    "t": "Survey: definitions",
+    "d": 1,
+    "q": "How do the notes define a survey (enquête)?",
+    "o": [
+      "A procedure that quickly collects verbal or written answers from a sample chosen for a precise objective",
+      "A laboratory experiment that manipulates an independent variable under strict control",
+      "A single in-depth case study of one individual over many years",
+      "Continuous observation of behavior without asking any questions"
+    ],
+    "e": "A survey is a research procedure that collects verbal or written answers to questionnaires, quickly, from a sample chosen according to a precise objective, in order to describe and analyze a particular situation (social, economic, political, police). It requires methodology, rigorous organization, precise planning and objectives, which determine the techniques (interview, questionnaire, attitude scales) and a type of sampling. It studies attitudes, beliefs, representations and preferences, and also behaviors when these are accessible only through language.",
+    "w": [
+      "Surveys do not manipulate variables experimentally.",
+      "A survey questions a sample, not one individual in depth.",
+      "Surveys rely on asking questions, unlike pure observation."
+    ],
+    "k": "Survey: rapid collection of verbal/written answers from a purposefully chosen sample to describe and analyze a situation.",
+    "h": "Enquête shares a root with 'inquire': ask many, quickly.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: definition",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: definitions",
+    "d": 2,
+    "q": "When is a survey the only available means of study, according to the notes?",
+    "o": [
+      "When much data on one person is needed, or observation is impossible or unethical",
+      "Whenever the researcher wants to manipulate an independent variable",
+      "When the population is small enough to observe directly at all times",
+      "When the researcher has neither a hypothesis nor any precise objective"
+    ],
+    "e": "The notes state that a survey is the only means available in two situations: when a great deal of data is needed about the same person and his or her history, and when observing the behavior is impossible or deontologically (ethically) unacceptable. Surveys can be administered by an interviewer, who asks and notes, or by the respondent alone. They always start from precise objectives.",
+    "w": [
+      "Manipulating variables is the role of experiments.",
+      "If direct observation is feasible and ethical, it remains an option.",
+      "Surveys require precise objectives from the start."
+    ],
+    "k": "Survey is the only means when: lots of data on one person and history, or observation impossible/unethical.",
+    "h": "Ask when you can't watch.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: definition",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: definitions",
+    "d": 2,
+    "q": "A researcher questions the same group of voters every six months during an electoral campaign. What type of survey is this?",
+    "o": [
+      "Panel (repeated-passage) survey",
+      "Exhaustive survey (census)",
+      "Social survey",
+      "Single opinion poll"
+    ],
+    "e": "The notes define several survey types. An exhaustive survey covers the whole parent population, like a census. A social survey gathers information on a personality, family or social group (such as homeless people), carried out by a social worker and sometimes the police. A poll (sondage) rapidly gathers quantified information from a large representative sample; an opinion poll targets opinion on a subject (elections, civil marriage). A panel survey questions the same group at several regular intervals, such as every 6 months.",
+    "w": [
+      "An exhaustive survey covers the entire population once.",
+      "A social survey studies a person, family or social group.",
+      "A single poll does not follow the same group repeatedly."
+    ],
+    "k": "Panel survey = same group, repeated at regular intervals (e.g. every 6 months; electoral campaigns).",
+    "h": "Panel = the same jury called back again and again.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: definitions",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: definitions",
+    "d": 2,
+    "q": "A survey examines how parents' socio-cultural level relates to adolescent drug addiction, without any experimental manipulation. Which form of survey is it?",
+    "o": [
+      "Explanatory survey",
+      "Descriptive survey",
+      "Exhaustive survey",
+      "Panel survey"
+    ],
+    "e": "The notes distinguish two major forms. A descriptive survey describes the nature of a population's living conditions or lifestyle. An explanatory survey looks for cause-and-effect relations without experimental manipulation, for example the influence of parents' socio-cultural level on adolescent drug addiction. Exhaustive and panel describe coverage and repetition, not the survey's aim.",
+    "w": [
+      "Descriptive surveys depict living conditions without testing causes.",
+      "Exhaustive refers to covering the whole population.",
+      "Panel refers to repeating the survey with one group."
+    ],
+    "k": "Descriptive survey = describe conditions/lifestyle; explanatory survey = cause–effect relations without manipulation.",
+    "h": "Explain = ex-plain: lay the causes out flat.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: forms",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: phases",
+    "d": 2,
+    "q": "What are the four phases of a survey, in order?",
+    "o": [
+      "Preparatory phase → pre-survey → definitive survey → data processing",
+      "Pre-survey → preparatory phase → data processing → definitive survey",
+      "Definitive survey → pre-survey → preparatory phase → data processing",
+      "Data processing → preparatory phase → definitive survey → pre-survey"
+    ],
+    "e": "The survey diagram has four phases. The preparatory phase moves from subject to population, through bibliographic analysis, documentary study and interviews, to first hypotheses and sub-themes. The pre-survey builds and tests a pre-questionnaire, yielding retained hypotheses. The definitive survey submits the questionnaire (personal interview, post, phone, internet). Data processing covers tabulation (dépouillement), coding into categories, analysis and the survey report.",
+    "w": [
+      "The pre-survey needs the hypotheses built in the preparatory phase.",
+      "The definitive survey comes only after the pre-questionnaire is tested.",
+      "Data can be processed only after it has been collected."
+    ],
+    "k": "Survey phases: preparatory → pre-survey (pre-questionnaire test) → definitive survey → data processing/report.",
+    "h": "Prepare, Pilot, Perform, Process.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: phases",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: phases",
+    "d": 2,
+    "q": "According to the notes, how many people should test the pre-questionnaire for a sample of 100 to 2,000?",
+    "o": [
+      "10 to 20 people from the parent population",
+      "The entire sample of 100 to 2,000",
+      "Exactly one expert colleague",
+      "At least 500 people from another country"
+    ],
+    "e": "The pre-questionnaire is tested personally on a small group drawn from the parent population: 10 to 20 people for a sample of 100 to 2,000. The pre-test reveals whether instructions are clear, whether some themes provoke aggressiveness or perplexity, how long the questionnaire takes, whether everyone understands the themes the same way and whether respondents stay motivated to finish. It leads to the final questionnaire and to reformulated or new hypotheses.",
+    "w": [
+      "Testing the whole sample would make it the definitive survey.",
+      "One colleague cannot reveal how respondents understand items.",
+      "Testers must come from the parent population itself."
+    ],
+    "k": "Pre-questionnaire: test on 10–20 people from the parent population (for samples of 100–2,000).",
+    "h": "Ten to twenty to taste the soup before serving thousands.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: pre-survey",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: phases",
+    "d": 2,
+    "q": "In the pre-survey, in which order do the notes arrange the parts of the questionnaire?",
+    "o": [
+      "Personal data → environment → behavior → opinions and expectations → attitudes and motivations",
+      "Attitudes and motivations → opinions → behavior → environment → personal data",
+      "Opinions → personal data → attitudes → behavior → environment",
+      "Behavior → attitudes → personal data → environment → opinions"
+    ],
+    "e": "When formulating the pre-questionnaire, questions must focus on the sole objective, with no useless questions even if interesting, and be organized into clear parts: (1) personal data (name, sex, age, education, nationality, income, professional and family data); (2) environment (housing, neighborhood, life circumstances); (3) behavioral data; (4) opinions and expectations; (5) attitudes and motivations. Questions must be clear and comprehensible, with careful presentation and clear instructions.",
+    "w": [
+      "This reverses the order given in the notes.",
+      "Personal data come first, not second.",
+      "Behavior data come after personal data and environment."
+    ],
+    "k": "Pre-questionnaire parts: personal data, environment, behavior, opinions/expectations, attitudes/motivations.",
+    "h": "Who, Where, What they do, What they think, Why.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: pre-survey",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: phases",
+    "d": 2,
+    "q": "What must be true of administration conditions in the definitive survey?",
+    "o": [
+      "They are rigorously defined and identical for the whole sample",
+      "They are adapted freely by each interviewer to each respondent",
+      "They change halfway through to test new hypotheses",
+      "They are left undefined to keep answers spontaneous"
+    ],
+    "e": "The definitive survey systematically verifies the hypotheses. Administration conditions are rigorously defined and identical for the whole sample, whether by personal interview, phone, post or internet. Interviewers are trained to make contact and present the study, ask the questions, clarify incomplete answers, note open and closed answers, avoid reacting to answers and avoid suggesting answers.",
+    "w": [
+      "Free adaptation would make answers incomparable.",
+      "Hypotheses are retained before the definitive survey begins.",
+      "Undefined conditions would destroy the standardization of answers."
+    ],
+    "k": "Definitive survey: identical, rigorously defined conditions; trained interviewers who neither react to nor suggest answers.",
+    "h": "Same script, same stage, every time.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: definitive survey",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: report",
+    "d": 2,
+    "q": "Where do the notes place the complete questionnaire text in a survey report?",
+    "o": [
+      "In the annexes, with cross tables not included in the chapters",
+      "In the introduction, before the objectives",
+      "In the conclusion, after the new research avenues",
+      "Nowhere: the questionnaire is never reported"
+    ],
+    "e": "The survey report has five parts: (1) introduction (objectives, hypotheses, sample and reasons for its choice); (2) methodology (interview, questionnaire); (3) results and analysis (raw figures per question, percentages, χ², cross tables, correlations, graphs, histograms); (4) conclusion (recap and new research avenues); (5) annexes containing the questionnaire text and cross tables not included in the chapters.",
+    "w": [
+      "The introduction states objectives, hypotheses and sample.",
+      "The conclusion recaps and proposes new research avenues.",
+      "The questionnaire text belongs in the annexes."
+    ],
+    "k": "Survey report: introduction, methodology, results/analysis, conclusion, annexes (questionnaire + extra cross tables).",
+    "h": "I Mean Really Clear Annexes.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: report",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: interviewer",
+    "d": 2,
+    "q": "Which of the following is one of the three main interviewer biases listed in the notes?",
+    "o": [
+      "Suggestion and induction of answers by a poorly trained interviewer",
+      "The respondent's high intelligence quotient",
+      "The use of closed questions only",
+      "The questionnaire being too short"
+    ],
+    "e": "Bias is defined as the error or distortion factors introduced into results by involuntary faults of the interviewer at any stage. The three main biases are: increased mistrust of respondents when the interviewer does not guarantee discretion or introduce himself; reaction to the interviewer's person when he does not inspire immediate sympathy; and the risk of suggestion and induction of answers when he is poorly trained.",
+    "w": [
+      "Respondent intelligence is not an interviewer bias.",
+      "Question format is not one of the three interviewer biases.",
+      "Length is not among the three biases listed."
+    ],
+    "k": "Interviewer biases: respondent mistrust, reaction to the interviewer's person, suggestion/induction of answers.",
+    "h": "Mistrust, Mismatch, Misleading.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: interviewer face to face",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: interviewer",
+    "d": 2,
+    "q": "A respondent's spouse sits in during a face-to-face survey interview. What do the interviewer rules in the notes say?",
+    "o": [
+      "Never question the respondent in the presence of another person",
+      "Ask the spouse to answer on the respondent's behalf",
+      "Continue but rephrase questions more casually",
+      "Discuss the answers with both to reach agreement"
+    ],
+    "e": "The notes list ten measures for the interviewer: make sure it is the right person; introduce oneself and guarantee confidentiality and anonymous processing; introduce the survey neutrally and generally; never question in the presence of another person; ask one question at a time; repeat if necessary in clear simple language; do not modify wording or add useless comments; do not suggest answers; insist to be sure of the subject's opinion; and do not engage in discussion.",
+    "w": [
+      "The interviewer must make sure it is the right person answering.",
+      "Wording must not be modified or embellished.",
+      "Interviewers must not engage in discussion."
+    ],
+    "k": "Interviewer rules include: right person, introduce self, face to face alone, one question at a time, no rewording, no suggestion, no discussion.",
+    "h": "One on one, one at a time.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: interviewer rules",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: sampling",
+    "d": 2,
+    "q": "What distinguishes probability sampling from non-probability sampling?",
+    "o": [
+      "In probability sampling every unit has a chance of being selected",
+      "Probability sampling always uses volunteers from the street",
+      "Non-probability sampling requires a complete numbered list",
+      "Probability sampling selects only the most typical units"
+    ],
+    "e": "The notes contrast probability (random) sampling, in which each unit of the population has a chance of being chosen, with non-probability sampling. In simple random sampling the population of N units is listed and numbered from 1 to N, a sample size n is chosen, and numbers are drawn by computer or from names on slips in a box. Systematic sampling also starts from a complete numbered list.",
+    "w": [
+      "Street volunteers are not a random draw.",
+      "Numbered lists are used for probability methods.",
+      "Choosing typical units is a judgment, not chance."
+    ],
+    "k": "Probability sampling: every unit has a chance (simple random, systematic); requires a listed, numbered population.",
+    "h": "Probability = everyone holds a lottery ticket.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: sampling methods",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: sampling",
+    "d": 3,
+    "q": "For mental-health research, 500 students are to be selected systematically from 10,000. Following the notes' procedure, which students are chosen?",
+    "o": [
+      "Numbers 20, 40, 60, 80, 100 and so on (K = 20, starting at K)",
+      "Numbers 1, 2, 3 … 500 (the first 500 on the list)",
+      "Numbers 500, 1,000, 1,500 and so on (K = 500)",
+      "Any 500 numbers drawn from slips in a box"
+    ],
+    "e": "Systematic (interval) sampling lists and numbers the population from 1 to N, chooses n and computes K = N ÷ n. The notes take K itself as the first number and then add K each time. With N = 10,000 and n = 500, K = 20, so the students are numbers 20, 40, 60, 80, 100 and so on. Similarly, N = 500 and n = 100 gives K = 5: 5, 10, 15, 20.",
+    "w": [
+      "Taking the first 500 is not interval sampling.",
+      "K is N ÷ n = 20, not the sample size itself.",
+      "Drawing slips at random is simple random sampling."
+    ],
+    "k": "Systematic sampling: K = N/n; start at K, then add K (10,000/500 → 20, 40, 60…).",
+    "h": "K is the Kick-off and the Keep-adding step.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: systematic sampling",
+    "n": "Marked in the course plan as not included in the final exam."
+  },
+  {
+    "t": "Survey: phases",
+    "d": 2,
+    "q": "In the preparatory phase of a survey, how are the sub-themes and variables chosen?",
+    "o": [
+      "Through bibliographic analysis, documentary study and interviews with experienced people",
+      "By copying the variables of the last published survey unchanged",
+      "By letting respondents choose the variables during the definitive survey",
+      "By asking the interviewers to invent them in the field"
+    ],
+    "e": "The preparatory phase first delimits the subject and objectives clearly (e.g. variation of faith by sex and age). Sub-themes or variables are then chosen through bibliographic analysis, documentary study and interviews with experienced subjects, yielding the problem, variables and first hypotheses; a religion poll might cover being a believer, frequency of religious services, religion and society or teaching religion at school. Finally a representative sample is chosen after identifying the parent population.",
+    "w": [
+      "Sub-themes are built from the literature and interviews, not copied.",
+      "Variables are defined before the definitive survey begins.",
+      "Interviewers apply the plan; they do not create the variables."
+    ],
+    "k": "Preparatory phase: delimit subject/objectives → sub-themes via literature, documents, expert interviews → representative sample.",
+    "h": "Read, Search, Speak, then Sample.",
+    "r": "Psychological Tools & Strategies – French course notes (Dr Denise) – Ch. 2 Survey: preparatory phase",
+    "n": "Marked in the course plan as not included in the final exam."
+  }
+]

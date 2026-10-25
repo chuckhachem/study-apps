@@ -1,0 +1,622 @@
+[
+  {
+    "t": "Ch10 The model",
+    "d": 1,
+    "q": "A regression model is Ŷ = 20 + 3X. What is the predicted outcome for X = 5?",
+    "o": [
+      "35",
+      "23",
+      "60",
+      "100"
+    ],
+    "e": "Ŷ = b0 + b1X = 20 + 3 × 5 = 35. b0 = 20 is the predicted value when X = 0, and b1 = 3 means each extra unit of X raises the predicted Y by 3 units.",
+    "w": [
+      "23 adds the slope to the intercept without multiplying it by X = 5.",
+      "60 multiplies the intercept by the slope instead of the slope by X.",
+      "100 multiplies the intercept by X instead of adding the slope term."
+    ],
+    "k": "Ŷ = b0 + b1X: start at the intercept, add slope × X.",
+    "h": "Start at b0, climb b1 per step.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Prediction"
+  },
+  {
+    "t": "Ch10 The model",
+    "d": 2,
+    "q": "In the model Yi = b0 + b1Xi + εi, what does b1 represent?",
+    "o": [
+      "The change in the predicted outcome for a one-unit increase in the predictor",
+      "The predicted value of the outcome variable when the predictor equals exactly zero",
+      "The correlation between the predictor and the outcome, expressed in raw units",
+      "The proportion of the outcome's variance that is explained by the model"
+    ],
+    "e": "b1 is the gradient (slope) of the line, in the outcome's units per unit of the predictor. b0 is the intercept. The correlation and R² describe strength of fit, not the size of change per unit.",
+    "w": [
+      "The predicted value when X = 0 is the intercept b0, not the slope.",
+      "The correlation is unit-free; b1 is in the outcome's units per predictor unit.",
+      "Variance explained is R², not the slope b1."
+    ],
+    "k": "b1 = slope: change in predicted Y per one-unit increase in X.",
+    "h": "b1 is the gradient of the hill.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Parameters"
+  },
+  {
+    "t": "Ch10 Model fit",
+    "d": 2,
+    "q": "SST = 200 and SSR = 120 for a regression model. What is R²?",
+    "o": [
+      ".40",
+      ".60",
+      ".67",
+      "1.67"
+    ],
+    "e": "SSM = SST − SSR = 200 − 120 = 80, and R² = SSM / SST = 80 / 200 = .40. The model explains 40% of the variance in the outcome relative to the simplest model, the mean.",
+    "w": [
+      ".60 is SSR/SST, the proportion of variance left unexplained.",
+      ".67 divides SSM by SSR (80/120) instead of by SST.",
+      "1.67 is SST/SSR; R² can never exceed 1."
+    ],
+    "k": "R² = SSM ÷ SST, where SSM = SST − SSR.",
+    "h": "Improvement over the total.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Sums of squares and R²"
+  },
+  {
+    "t": "Ch10 Model fit",
+    "d": 3,
+    "q": "Continuing the example (SSM = 80, SSR = 120) with 2 predictors and N = 43, what is F?",
+    "o": [
+      "F(2, 40) = 13.33",
+      "F(2, 42) = 0.667",
+      "F(3, 40) = 8.89",
+      "F(2, 40) = 0.67"
+    ],
+    "e": "MSM = SSM / k = 80 / 2 = 40. MSR = SSR / (N − k − 1) = 120 / 40 = 3. F = MSM / MSR = 13.33 with df = 2 and 40 (p < .001). F compares the improvement from the model with the error that remains.",
+    "w": [
+      "0.667 divides raw SS without their df, and N − 1 isn't the residual df.",
+      "8.89 uses k + 1 for the model df; the model df is k = 2.",
+      "0.67 divides the raw sums of squares instead of the mean squares."
+    ],
+    "k": "F = MSM ÷ MSR, with MSM = SSM/k and MSR = SSR/(N − k − 1).",
+    "h": "Mean squares, not raw squares, make F.",
+    "r": "Stats & SPSS ch. 10 · The linear model · The F-ratio"
+  },
+  {
+    "t": "Ch10 Model fit",
+    "d": 2,
+    "q": "What is the 'Total' sum of squares (SST) in regression?",
+    "o": [
+      "The squared deviations of the observed scores from the outcome mean",
+      "The squared deviations of the observed scores from the regression line",
+      "The squared deviations of the predicted values from the outcome mean",
+      "The sum of the squared regression coefficients across all predictors"
+    ],
+    "e": "SST measures how badly the mean, the most basic model, fits. SSR is the error left after fitting the regression line, and SSM = SST − SSR is the improvement due to the model. Picture three sets of vertical lines on a scatterplot: to the mean, to the line, and between them.",
+    "w": [
+      "Deviations from the regression line make up SSR, the residual error.",
+      "Deviations of predicted values from the mean make up SSM.",
+      "Squared regression coefficients aren't any sum of squares."
+    ],
+    "k": "SST = squared deviations of scores from the mean (the baseline model).",
+    "h": "Total = how bad the mean alone is.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Partitioning variance"
+  },
+  {
+    "t": "Ch10 Model fit",
+    "d": 2,
+    "q": "Adjusted R² is smaller than R² because it:",
+    "o": [
+      "Penalizes the number of predictors, estimating the population fit",
+      "Removes the influence of outliers on the slope of the regression line",
+      "Excludes the intercept from the variance the model is said to explain",
+      "Counts only the variance explained by the predictors that are statistically significant"
+    ],
+    "e": "R² never falls when predictors are added, even useless ones. Adjusted R² corrects for this by accounting for k and N (in the example, R² = .40 becomes about .37). To estimate how well the model would predict in a new sample, use Stein's formula or cross-validation.",
+    "w": [
+      "Adjusted R² corrects for predictors, not for outliers' influence on the slope.",
+      "Adjusted R² doesn't drop the intercept.",
+      "Adjusted R² doesn't count only significant predictors."
+    ],
+    "k": "Adjusted R² penalizes extra predictors to estimate population fit.",
+    "h": "Adjusted for the crowd of predictors.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Adjusted R²"
+  },
+  {
+    "t": "Ch10 Model fit",
+    "d": 3,
+    "q": "What does multiple R (the first column of SPSS's Model Summary) represent?",
+    "o": [
+      "The correlation between the observed outcome values and the model's predicted values",
+      "The average of the zero-order correlations between each predictor and the outcome variable",
+      "The standardized coefficient (β) of the strongest single predictor in the model",
+      "The correlation between the model's residuals and its predicted values"
+    ],
+    "e": "R is the correlation between Y and Ŷ. Squaring it gives R², the proportion of variance explained. With one predictor, R = |r|. The residuals are uncorrelated with Ŷ by construction in least squares.",
+    "w": [
+      "R isn't an average of zero-order correlations.",
+      "R isn't any single predictor's β.",
+      "Residuals are uncorrelated with predicted values by construction."
+    ],
+    "k": "Multiple R = correlation between observed and predicted Y; R² = R squared.",
+    "h": "R links what happened with what was predicted.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Multiple R"
+  },
+  {
+    "t": "Ch10 Coefficients",
+    "d": 2,
+    "q": "In the Coefficients table, a predictor has B = 0.42, SE = 0.14. What is its t, and what does it test?",
+    "o": [
+      "t = 3.00; it tests whether b differs from zero",
+      "t = 0.33; it tests whether b differs from one",
+      "t = 3.00; it tests whether R² differs from zero",
+      "t = 0.06; it tests whether the SE differs from zero"
+    ],
+    "e": "t = b / SE = 0.42 / 0.14 = 3.00. It tests H0: b = 0, meaning the predictor makes no unique contribution once the others are held constant. Whether R² differs from zero is tested by the overall F.",
+    "w": [
+      "0.33 divides SE by b, and t tests b against zero, not one.",
+      "t = 3.00 is right, but R² is tested by the overall F.",
+      "0.06 multiplies b by its SE instead of dividing."
+    ],
+    "k": "t = b ÷ SE tests H0: b = 0.",
+    "h": "b over its wobble gives t.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Testing coefficients"
+  },
+  {
+    "t": "Ch10 Coefficients",
+    "d": 2,
+    "q": "A standardized coefficient β = 0.30 means:",
+    "o": [
+      "A 1 SD rise in the predictor goes with a 0.30 SD rise in the outcome, others fixed",
+      "The predictor explains 30% of the variance in the outcome once the other predictors are held constant",
+      "The predictor raises the outcome by 0.30 raw units for each raw unit it increases",
+      "The predictor's effect is statistically significant at the p = .30 level"
+    ],
+    "e": "β expresses b in SD units for both variables, which makes predictors measured in different units roughly comparable. With a single predictor, β equals r. With several correlated predictors, β is not a share of variance.",
+    "w": [
+      "β isn't a share of variance explained.",
+      "Raw-unit change is b, not β.",
+      "β is an effect size in SD units, not a p-value or significance level."
+    ],
+    "k": "β = change in SDs of Y per 1 SD change in X, others fixed.",
+    "h": "β speaks in standard deviations.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Standardized coefficients"
+  },
+  {
+    "t": "Ch10 Coefficients",
+    "d": 3,
+    "q": "In a multiple regression, how should each b be interpreted?",
+    "o": [
+      "As the effect of that predictor when all other predictors are held constant",
+      "As the simple bivariate effect, ignoring the other predictors",
+      "As the effect of the predictor averaged across all possible models",
+      "As the effect expected if all of the other predictors were held at their maximum values"
+    ],
+    "e": "Each b is a partial effect: the expected change in Y for a one-unit change in that predictor at fixed values of the other predictors. This is why b can shrink, grow or flip sign compared with the zero-order correlation.",
+    "w": [
+      "Multiple regression b's aren't simple bivariate effects.",
+      "b isn't averaged across possible models.",
+      "b is interpreted with others held constant, not at their maximum."
+    ],
+    "k": "Each b is a partial effect, holding other predictors constant.",
+    "h": "All else equal.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Partial regression coefficients"
+  },
+  {
+    "t": "Ch10 Categorical predictors",
+    "d": 2,
+    "q": "A binary predictor is coded 0 = control, 1 = therapy, and regression gives b0 = 40, b1 = −6. What do these mean?",
+    "o": [
+      "The control mean is 40 and the therapy mean is 6 points lower, at 34",
+      "The therapy mean is 40 and the control mean is 6 points higher, at 46",
+      "The overall mean is 40 and therapy explains 6% of the variance",
+      "Both groups have a mean of 40, and the difference is not significant"
+    ],
+    "e": "With 0/1 coding, b0 is the mean of the group coded 0 and b1 is the difference between the group means. This shows that an independent t-test is simply a linear model with a binary predictor.",
+    "w": [
+      "b0 is the mean of the group coded 0, which is the control group.",
+      "b0 isn't the overall mean, and b1 isn't a percentage of variance.",
+      "b1 = −6 means the group means differ by 6 points."
+    ],
+    "k": "With 0/1 coding, b0 = mean of group 0, b1 = difference between means.",
+    "h": "Zero group sits at b0; b1 is the gap.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Dummy-coded predictors"
+  },
+  {
+    "t": "Ch10 Methods of entry",
+    "d": 2,
+    "q": "In hierarchical (blockwise) regression, predictors are entered:",
+    "o": [
+      "In blocks chosen by the researcher on the basis of theory or past research",
+      "In an order chosen by the computer from the largest semi-partial correlation",
+      "All at once, in a single block, with no order imposed by the researcher",
+      "Randomly, so as to avoid any bias arising from the order in which they enter"
+    ],
+    "e": "Known predictors (for example demographics or established risk factors) go in first, and new predictors are added in a later block. The R² change shows what the new block adds over and above the known ones. Forced entry (Enter) puts everything in at once, and stepwise methods let the computer choose.",
+    "w": [
+      "Letting the computer pick the order by semi-partials is stepwise regression.",
+      "All at once is forced entry.",
+      "Random entry isn't a regression method."
+    ],
+    "k": "Hierarchical regression: researcher chooses blocks; R² change shows what new block adds.",
+    "h": "Known first, new later.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Hierarchical regression"
+  },
+  {
+    "t": "Ch10 Methods of entry",
+    "d": 3,
+    "q": "Why are stepwise methods generally discouraged, and which version is less problematic?",
+    "o": [
+      "They capitalize on chance and let the computer, not theory, choose; backward is preferred over forward",
+      "They are slower to compute than forced entry; forward is preferred because it ends up with fewer predictors",
+      "They require normally distributed predictors; stepwise is preferred over forward and backward",
+      "They always include every predictor in the end; forward is preferred because it starts empty"
+    ],
+    "e": "Selecting predictors on small differences in fit capitalizes on sampling error, gives over-optimistic R², and models that fail to replicate. If you must, backward elimination is better than forward selection, because forward selection can miss suppressor effects: predictors that only matter together.",
+    "w": [
+      "Speed isn't the problem, and forward isn't preferred.",
+      "Stepwise methods don't require normal predictors, and stepwise isn't the preferred version.",
+      "Stepwise methods don't always include every predictor."
+    ],
+    "k": "Stepwise capitalizes on chance; backward beats forward because it catches suppressors.",
+    "h": "Let theory, not the computer, drive.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Stepwise methods"
+  },
+  {
+    "t": "Ch10 Methods of entry",
+    "d": 2,
+    "q": "In hierarchical regression, the significance of the 'R Square Change' for block 2 tells you:",
+    "o": [
+      "Whether the new predictors explain significant variance beyond block 1",
+      "Whether each of the predictors added in block 2 is individually significant on its own",
+      "Whether the model in block 1 was itself significant before anything was added",
+      "Whether the residuals changed in size or shape between the two blocks"
+    ],
+    "e": "SPSS reports R² change with an F change test when you tick 'R squared change' under Statistics. It compares the models' fit. Individual predictors are judged by their t-tests in the Coefficients table.",
+    "w": [
+      "Individual predictors are tested by t in the Coefficients table.",
+      "Block 1's own significance is tested separately.",
+      "R² change doesn't test changes in residuals."
+    ],
+    "k": "R² change F tests whether a new block adds significant variance.",
+    "h": "Did the new block earn its place?",
+    "r": "Stats & SPSS ch. 10 · The linear model · Comparing models"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 2,
+    "q": "Which pattern of standardized residuals suggests the model fits poorly or has problem cases?",
+    "o": [
+      "About 4% of cases have |residual| > 2.5",
+      "About 5% of cases have |residual| > 2 (1.96)",
+      "No cases have |residual| > 3",
+      "Most residuals lie between −2 and +2"
+    ],
+    "e": "In an accurate model with normal errors, about 95% of standardized residuals lie within ±2 (actually ±1.96), 99% within ±2.5, and almost none beyond ±3. More than about 1% beyond 2.5 is a warning sign, and any case beyond 3 deserves a look.",
+    "w": [
+      "About 5% beyond ±2 is expected in a well-fitting model.",
+      "No cases beyond 3 is a good sign.",
+      "Most residuals between −2 and +2 is expected."
+    ],
+    "k": "Standardized residuals: about 5% beyond ±2, 1% beyond ±2.5, almost none beyond ±3.",
+    "h": "Five, one, none.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Residual diagnostics"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 2,
+    "q": "A Cook's distance above 1 for a case suggests that the case:",
+    "o": [
+      "Has a large influence on the model as a whole",
+      "Has an unusually large residual but no influence",
+      "Is a multicollinearity problem among the predictors",
+      "Should be deleted automatically before reporting"
+    ],
+    "e": "Cook's distance measures how much all predicted values would change if that case were deleted, combining its residual and its leverage. Values above 1 (Cook & Weisberg's guideline) may be unduly influential. Influence is a reason to investigate, not an automatic deletion rule.",
+    "w": [
+      "Cook's distance measures influence, not just residual size.",
+      "Multicollinearity is assessed with VIF and tolerance.",
+      "Influential cases warrant investigation, not automatic deletion."
+    ],
+    "k": "Cook's distance > 1 = case may unduly influence the whole model.",
+    "h": "Cook: does this case cook the results?",
+    "r": "Stats & SPSS ch. 10 · The linear model · Cook's distance"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 3,
+    "q": "With 4 predictors and 100 cases, the average leverage is 0.05. Which leverage value is a reasonable flag for a potentially influential case?",
+    "o": [
+      "Above 0.15 (three times the average)",
+      "Above 0.05 (the average itself)",
+      "Above 1.00, as with Cook's distance",
+      "Below 0.01 (one-fifth of the average)"
+    ],
+    "e": "Average leverage = (k + 1)/n = 5/100 = 0.05. Common guidelines flag cases above two (0.10) or three (0.15) times the average. Leverage (the hat value) measures how unusual a case's predictor values are, its potential to pull the line. It ranges from 0 to 1.",
+    "w": [
+      "Flagging above the average would flag many ordinary cases.",
+      "Leverage ranges 0–1; the cut-off of 1 belongs to Cook's distance.",
+      "Values below the average mean little leverage, so they aren't influential."
+    ],
+    "k": "Average leverage = (k + 1)/n; flag cases over 2–3 times it.",
+    "h": "Leverage: how far your predictors pull.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Leverage"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 3,
+    "q": "For k = 4 predictors and n = 100, the covariance ratio (CVR) of a case should ideally fall between:",
+    "o": [
+      "0.85 and 1.15",
+      "0.95 and 1.05",
+      "0.50 and 1.50",
+      "0 and 1"
+    ],
+    "e": "The bounds are 1 ± 3(k + 1)/n = 1 ± 3 × 5/100 = 1 ± 0.15. A CVR above 1.15 means deleting the case would harm the precision of the estimates, and below 0.85 means deleting it would improve precision.",
+    "w": [
+      "0.95–1.05 forgets to multiply (k + 1)/n by 3.",
+      "0.50–1.50 is far too wide for these values.",
+      "0 to 1 isn't the CVR guideline."
+    ],
+    "k": "CVR bounds = 1 ± 3(k + 1)/n.",
+    "h": "Three times (k + 1) over n.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Covariance ratio"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 2,
+    "q": "Standardized DFBeta values above 1 indicate that a case:",
+    "o": [
+      "Substantially changes a particular regression coefficient when it is removed",
+      "Has a standardized residual more than one standard deviation away from zero",
+      "Has extreme values on the outcome variable but not on any of the predictor variables",
+      "Creates multicollinearity between two of the predictors in the model"
+    ],
+    "e": "DFBeta is the change in each b when the case is deleted. Standardized versions above 1 (or above 2/√n in large samples) flag cases with outsized influence on that specific coefficient.",
+    "w": [
+      "DFBeta measures change in a coefficient, not the size of a residual.",
+      "DFBeta concerns influence on b, not extreme outcomes only.",
+      "DFBeta measures a case's influence on b, not correlation between predictors."
+    ],
+    "k": "Standardized DFBeta > 1: deleting the case changes a coefficient substantially.",
+    "h": "DF-Beta: Difference in Beta.",
+    "r": "Stats & SPSS ch. 10 · The linear model · DFBeta"
+  },
+  {
+    "t": "Ch10 Assumptions",
+    "d": 2,
+    "q": "The Durbin–Watson statistic is 1.98. What does this suggest?",
+    "o": [
+      "Residuals are independent, with no serial correlation",
+      "Strong positive autocorrelation between adjacent residuals",
+      "Strong negative autocorrelation of the residuals",
+      "Serious multicollinearity among the predictors"
+    ],
+    "e": "Durbin–Watson ranges from 0 to 4. Values near 2 mean adjacent residuals are uncorrelated, values toward 0 mean positive autocorrelation, and values toward 4 mean negative. Values below 1 or above 3 are a cause for concern. It depends on case order, so it only makes sense when order is meaningful, as in time-ordered data.",
+    "w": [
+      "Positive autocorrelation shows values near 0.",
+      "Negative autocorrelation shows values near 4.",
+      "Durbin–Watson checks serial correlation of residuals, not multicollinearity."
+    ],
+    "k": "Durbin–Watson ≈ 2 = independent residuals; below 1 or above 3 is a concern.",
+    "h": "Two is true independence.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Independent errors"
+  },
+  {
+    "t": "Ch10 Multicollinearity",
+    "d": 2,
+    "q": "Which collinearity diagnostics suggest a serious multicollinearity problem?",
+    "o": [
+      "A VIF above 10, or tolerance below 0.1",
+      "A VIF of 1 and a tolerance of exactly 1",
+      "A Durbin–Watson value that is close to 2",
+      "A Cook's distance below 1 for all cases"
+    ],
+    "e": "VIF = 1 / tolerance. Guidelines: any VIF above 10 (tolerance below 0.1) indicates a serious problem, tolerance below 0.2 a potential one, and an average VIF substantially above 1 suggests bias. VIF = 1 means the predictor is uncorrelated with the others.",
+    "w": [
+      "VIF = 1 means no collinearity.",
+      "Durbin–Watson near 2 means independent errors, nothing about collinearity.",
+      "Cook's distance below 1 means no unduly influential cases, not collinearity."
+    ],
+    "k": "VIF > 10 (tolerance < 0.1) signals serious multicollinearity.",
+    "h": "VIF over ten, trouble then.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Collinearity diagnostics"
+  },
+  {
+    "t": "Ch10 Multicollinearity",
+    "d": 3,
+    "q": "Which is NOT a consequence of high multicollinearity?",
+    "o": [
+      "Biased estimates of R² for the overall model",
+      "Larger standard errors and unstable b values",
+      "Difficulty judging each predictor's unique importance",
+      "Limits on how much R increases as predictors are added"
+    ],
+    "e": "Collinear predictors share variance, so the model can still fit well. R² is not biased, but it is hard to apportion among predictors, the SEs of the b's inflate (unstable across samples), and adding a predictor that overlaps with others adds little to R.",
+    "w": [
+      "Inflated SEs and unstable b's are classic consequences.",
+      "Shared variance makes unique importance hard to judge.",
+      "Overlapping predictors add little to R."
+    ],
+    "k": "Multicollinearity inflates SEs and muddies unique effects but doesn't bias R².",
+    "h": "Fit fine, credit unclear.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Effects of multicollinearity"
+  },
+  {
+    "t": "Ch10 Sample size",
+    "d": 2,
+    "q": "Green's (1991) rules of thumb suggest what minimum sample to test the overall model and the individual predictors with 5 predictors?",
+    "o": [
+      "90 for the overall model; 109 for the individual predictors",
+      "40 for the overall model; 50 for the individual predictors",
+      "50 for the overall model; 104 for the individual predictors",
+      "200 for the overall model; 500 for the individual predictors"
+    ],
+    "e": "Green: N ≥ 50 + 8k for the overall model (50 + 40 = 90) and N ≥ 104 + k for individual predictors (104 + 5 = 109). These rules assume a medium effect. Power analysis for the expected effect size is better.",
+    "w": [
+      "40 and 50 are far below Green's formulas.",
+      "50 and 104 forget to add 8k and k.",
+      "200 and 500 overshoot Green's guidelines."
+    ],
+    "k": "Green: overall model N ≥ 50 + 8k; individual predictors N ≥ 104 + k.",
+    "h": "50 plus 8k, 104 plus k.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Sample size"
+  },
+  {
+    "t": "Ch10 Assumptions",
+    "d": 3,
+    "q": "Which statement about the assumptions of regression is correct?",
+    "o": [
+      "Predictors can be categorical with two categories, but they need non-zero variance",
+      "Predictors must be normally distributed for the b coefficients to be unbiased",
+      "The outcome must be measured on a ratio scale with a true and meaningful zero",
+      "Predictors must be completely uncorrelated with each other for the regression model to work"
+    ],
+    "e": "Predictors can be continuous or categorical (dummy-coded), but each must vary. Normality concerns the residuals, an interval-level outcome is enough, and predictors can correlate, although extreme correlation (multicollinearity) causes problems. Errors should also not correlate with external variables omitted from the model.",
+    "w": [
+      "Normality concerns the residuals, not the distribution of predictors.",
+      "An interval-level outcome is sufficient; a true zero isn't required.",
+      "Predictors can correlate, though extreme collinearity is a problem."
+    ],
+    "k": "Predictors can be categorical but must vary; normality applies to residuals.",
+    "h": "Predictors just need to vary.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Assumptions"
+  },
+  {
+    "t": "Ch10 Generalization",
+    "d": 2,
+    "q": "Cross-validating a regression model means:",
+    "o": [
+      "Checking that the model predicts well in a new sample or in held-out data",
+      "Testing whether each predictor is significantly correlated with the others",
+      "Running the same model twice to check that SPSS gives identical output each time",
+      "Comparing the standardized and unstandardized coefficients for each predictor"
+    ],
+    "e": "A model fitted to one sample capitalizes on its quirks. Cross-validation, whether by data splitting, a new sample, or estimates such as Stein's adjusted R², shows how well it generalizes. Large gaps between training and test fit indicate overfitting.",
+    "w": [
+      "Checking predictor intercorrelations is collinearity screening, not cross-validation.",
+      "Re-running the same model isn't validation.",
+      "Comparing b and β isn't cross-validation."
+    ],
+    "k": "Cross-validation checks that the model predicts well in new data.",
+    "h": "Does it travel to new data?",
+    "r": "Stats & SPSS ch. 10 · The linear model · Cross-validation"
+  },
+  {
+    "t": "Ch10 SPSS",
+    "d": 2,
+    "q": "Which SPSS plot is most useful for checking linearity and homoscedasticity together in regression?",
+    "o": [
+      "ZRESID (y-axis) against ZPRED (x-axis)",
+      "DEPENDNT (y-axis) against ZPRED (x-axis)",
+      "A histogram of the outcome variable",
+      "A boxplot of each predictor"
+    ],
+    "e": "In Analyze → Regression → Linear → Plots, put *ZRESID on Y and *ZPRED on X. A random, even cloud supports both assumptions, a funnel indicates heteroscedasticity, and a curve indicates non-linearity. Also request the residual histogram and normal P–P plot.",
+    "w": [
+      "Outcome against predicted values doesn't isolate errors.",
+      "A histogram of the outcome doesn't show residual patterns.",
+      "Predictor boxplots don't test model assumptions."
+    ],
+    "k": "Plot ZRESID against ZPRED to check linearity and homoscedasticity.",
+    "h": "Residuals up, predictions across.",
+    "r": "Stats & SPSS ch. 10 · SPSS · Regression plots"
+  },
+  {
+    "t": "Ch10 SPSS",
+    "d": 2,
+    "q": "To keep Cook's distances, leverage values and standardized residuals as new variables for screening, you use:",
+    "o": [
+      "The Save button in the Linear Regression dialog",
+      "The Statistics button, ticking 'Descriptives'",
+      "The Options button, choosing 'Exclude cases pairwise'",
+      "Data → Select Cases after running the regression"
+    ],
+    "e": "Save adds columns such as PRE_1 (predicted), ZRE_1 (standardized residuals), COO_1 (Cook's), LEV_1 (leverage), MAH_1 (Mahalanobis) and DFBeta values to the data, so you can sort and inspect influential cases.",
+    "w": [
+      "Statistics gives tables, not saved variables.",
+      "Options handles missing data and entry criteria, not saving diagnostics.",
+      "Select Cases filters rows; it doesn't save diagnostics."
+    ],
+    "k": "Regression's Save button stores diagnostics as new variables.",
+    "h": "Save the suspects for questioning.",
+    "r": "Stats & SPSS ch. 10 · SPSS · Saving diagnostics"
+  },
+  {
+    "t": "Ch10 Diagnostics",
+    "d": 3,
+    "q": "Why is a deleted (or studentized deleted) residual more useful than an ordinary residual for spotting a single influential case?",
+    "o": [
+      "It comes from a model fitted without that case, so the case cannot hide by pulling the line toward itself",
+      "It is always larger than the ordinary residual, which makes every case in the data look like a potential outlier",
+      "It removes the intercept from the model, which isolates the effect of the slope for that case",
+      "It is based on the median rather than the mean, so it resists skew in the residuals"
+    ],
+    "e": "An influential case drags the line toward itself, which shrinks its own ordinary residual. The deleted residual compares the case with predictions from a model that excludes it, revealing how badly the rest of the data would predict it.",
+    "w": [
+      "Deleted residuals aren't always larger, and they don't flag every case.",
+      "Deleted residuals keep the intercept; only the case itself is left out.",
+      "Deleted residuals are based on the least-squares model, not the median."
+    ],
+    "k": "Deleted residuals come from a model fitted without the case, so influence can't hide it.",
+    "h": "Judge the case from outside.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Deleted residuals"
+  },
+  {
+    "t": "Ch10 Coefficients",
+    "d": 2,
+    "q": "What does the intercept b0 represent in a model predicting album sales from advertising budget?",
+    "o": [
+      "Predicted sales when the advertising budget is zero",
+      "The increase in sales for each extra unit of budget",
+      "The average advertising budget across the sample",
+      "The proportion of sales explained by advertising"
+    ],
+    "e": "b0 is the value of Ŷ when every predictor equals 0. It is only meaningful if 0 is a sensible value for the predictors, which is one reason to center predictors (subtract the mean) so that b0 becomes the prediction at the average.",
+    "w": [
+      "The increase per unit of budget is the slope b1.",
+      "The average budget isn't a regression parameter.",
+      "The proportion of sales explained is R², not the intercept."
+    ],
+    "k": "b0 = predicted outcome when all predictors are 0; centering makes it meaningful.",
+    "h": "b0: where the line starts.",
+    "r": "Stats & SPSS ch. 10 · The linear model · The intercept"
+  },
+  {
+    "t": "Ch10 Reporting",
+    "d": 2,
+    "q": "A complete report of a predictor in a multiple regression should include:",
+    "o": [
+      "b with its CI, SE, β, t and p, plus the model's R² and F",
+      "Only the p-value of each predictor, ordered from smallest",
+      "The correlation matrix and the Durbin–Watson value only",
+      "β and the R² change, with no other information"
+    ],
+    "e": "A coefficients table with b, the 95% CI for b (ideally bootstrapped if assumptions are doubtful), SE b, β and p, plus the overall fit (R² or adjusted R², and F with its df), lets readers judge effect size, precision and significance together.",
+    "w": [
+      "p-values alone hide effect size and precision.",
+      "A correlation matrix and Durbin–Watson aren't enough.",
+      "β and R² change omit b, its CI and significance."
+    ],
+    "k": "Report b with CI, SE, β, t and p, plus R² and F.",
+    "h": "Size, precision, significance.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Reporting regression"
+  },
+  {
+    "t": "Ch10 Generalization",
+    "d": 3,
+    "q": "A model's R² is .45 in the sample, but Stein's formula gives a cross-validated R² of .30. What does this indicate?",
+    "o": [
+      "The model would probably predict noticeably worse in a new sample",
+      "The sample R² is simply wrong and should be replaced with .30 in the report",
+      "The model is perfectly generalizable to the whole population of interest",
+      "Multicollinearity is inflating the sample R² by exactly .15"
+    ],
+    "e": "Stein's formula estimates how well the model would predict new data. A large drop from .45 to .30 suggests the sample fit is partly capitalizing on chance, typically because there are many predictors relative to N. Simplify the model or collect more data.",
+    "w": [
+      "Report both; the sample R² isn't wrong.",
+      "A drop of .15 shows imperfect generalization, not perfect generalizability.",
+      "Multicollinearity doesn't inflate R² by exactly .15."
+    ],
+    "k": "A big drop to Stein's R² signals overfitting.",
+    "h": "Shrinks on the road to new data.",
+    "r": "Stats & SPSS ch. 10 · The linear model · Stein's formula"
+  }
+]

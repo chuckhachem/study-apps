@@ -1,0 +1,342 @@
+[
+  {
+    "t": "Ch22 Hierarchical data",
+    "d": 1,
+    "q": "Clients are nested within therapists, who are nested within clinics. In multilevel terms, clients are at:",
+    "o": [
+      "Level 1",
+      "Level 2",
+      "Level 3",
+      "The fixed level"
+    ],
+    "e": "The lowest unit of measurement is level 1 (clients), the groups containing them are level 2 (therapists), and higher groupings are level 3 (clinics). Variables can be measured at any level, for example client anxiety, therapist experience and clinic size.",
+    "w": [
+      "Level 2 is the therapists, the groups that contain the clients.",
+      "Level 3 is the clinics, the highest grouping in this hierarchy.",
+      "'Fixed' describes a type of effect, not a level of the data hierarchy."
+    ],
+    "k": "Lowest unit = level 1; the groups containing it = level 2, and so on up.",
+    "h": "Level 1 is the ground floor.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Levels of data"
+  },
+  {
+    "t": "Ch22 Hierarchical data",
+    "d": 2,
+    "q": "What is the main statistical consequence of ignoring clustering, such as pupils within classes, in an ordinary regression?",
+    "o": [
+      "Standard errors are underestimated, so significance tests are too liberal",
+      "Regression coefficients are always overestimated by a fixed amount that depends on the ICC",
+      "The R² drops to zero, because the clusters cancel each other out in the model",
+      "Predicted values fall outside the range of values the outcome can actually take"
+    ],
+    "e": "Pupils in the same class resemble each other, so they carry less independent information than their number suggests. Treating them as independent violates the independence assumption and shrinks the SEs, inflating the Type I error rate, even when the ICC is small, if clusters are large.",
+    "w": [
+      "Coefficients aren't biased by a fixed ICC-based amount; the SEs are the main problem.",
+      "R² doesn't drop to zero; clustering affects the error structure, not fit like that.",
+      "Out-of-range predictions are a binary-outcome problem, not a clustering one."
+    ],
+    "k": "Ignoring clustering shrinks SEs and inflates Type I errors.",
+    "h": "Classmates aren't strangers, so don't count them as such.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Why multilevel models"
+  },
+  {
+    "t": "Ch22 ICC",
+    "d": 2,
+    "q": "In an intercept-only multilevel model, the variance of the intercepts across classes is 4 and the residual variance is 12. What is the intraclass correlation?",
+    "o": [
+      ".25",
+      ".33",
+      ".75",
+      "3.00"
+    ],
+    "e": "ICC = between-group variance / (between-group + within-group variance) = 4 / (4 + 12) = .25. A quarter of the variance in the outcome lies between classes, which is a strong reason to model the clustering.",
+    "w": [
+      ".33 divides between by within variance (4/12) instead of by the total.",
+      ".75 is the within-group share of variance (12/16).",
+      "3.00 divides within by between variance; an ICC can't exceed 1."
+    ],
+    "k": "ICC = between-group variance ÷ (between + within variance).",
+    "h": "Share of variance living between the groups.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Intraclass correlation"
+  },
+  {
+    "t": "Ch22 Random effects",
+    "d": 2,
+    "q": "A random intercept model allows:",
+    "o": [
+      "Each group to have its own baseline level of the outcome",
+      "Each group to have its own slope for the predictor",
+      "The predictor's effect to vary randomly across individuals",
+      "The residual variance to differ across the groups"
+    ],
+    "e": "Random intercepts let group means vary around the overall intercept, estimating the variance of those intercepts. Random slopes let the relationship between a predictor and the outcome vary across groups. Models can include either or both.",
+    "w": [
+      "Giving each group its own slope requires random slopes, not intercepts.",
+      "Effects varying across individuals isn't what random intercepts model.",
+      "Different residual variances across groups need a different specification."
+    ],
+    "k": "Random intercepts let each group have its own baseline.",
+    "h": "Different starting lines.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Random intercepts"
+  },
+  {
+    "t": "Ch22 Random effects",
+    "d": 2,
+    "q": "Adding a random slope for 'therapy hours' across therapists tests whether:",
+    "o": [
+      "The effect of therapy hours on outcome differs from therapist to therapist",
+      "Clients of different therapists have different average outcomes from one another",
+      "Therapy hours differ in their mean value across the different therapists in the sample",
+      "The outcome variance is exactly equal for every therapist in the sample"
+    ],
+    "e": "A random slope estimates how much the hours–outcome relationship varies across level-2 units. Different average outcomes would be random intercepts. Models often also estimate the covariance between intercepts and slopes, for example whether therapists with better baselines show flatter slopes.",
+    "w": [
+      "Different average outcomes are random intercepts, not slopes.",
+      "Mean therapy hours per therapist is a descriptive question, not a random slope.",
+      "Equal outcome variance across therapists isn't what a random slope tests."
+    ],
+    "k": "Random slopes let a predictor's effect vary across groups.",
+    "h": "Different hills for different therapists.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Random slopes"
+  },
+  {
+    "t": "Ch22 Fixed vs random",
+    "d": 3,
+    "q": "When is it most appropriate to treat 'hospital' as a random rather than a fixed effect?",
+    "o": [
+      "When the hospitals sampled stand for a wider population of hospitals you want to generalize to",
+      "When there are only two hospitals in the study and those two are the only ones of any interest",
+      "When hospital is itself the main experimental manipulation of the study design",
+      "When every hospital in the study has exactly the same number of patients"
+    ],
+    "e": "Random effects treat levels as draws from a population, estimating the variance across them so results generalize beyond the sampled hospitals. If the specific levels are the whole point (for example comparing two named hospitals), a fixed effect is more appropriate. Very few level-2 units make variance estimates unstable.",
+    "w": [
+      "Two specific hospitals of sole interest suit a fixed effect.",
+      "A manipulated factor is a fixed effect.",
+      "Equal group sizes don't decide fixed versus random."
+    ],
+    "k": "Random effects suit levels sampled from a population you want to generalize to.",
+    "h": "Random for representatives, fixed for the famous few.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Fixed and random effects"
+  },
+  {
+    "t": "Ch22 Model comparison",
+    "d": 2,
+    "q": "Adding a random slope (2 extra parameters: slope variance and intercept–slope covariance) lowers −2LL from 2000.4 to 1985.2. What does the test show?",
+    "o": [
+      "χ²(2) = 15.2, p < .001: the random slope significantly improves the model",
+      "χ²(1) = 15.2, p < .001: only the slope variance parameter is tested",
+      "χ²(2) = 1985.2, p < .001: the new model fits the data perfectly",
+      "χ²(2) = 15.2, p = .20: the random slope adds nothing to the model"
+    ],
+    "e": "The likelihood ratio test compares nested models: the difference in −2LL (15.2) follows χ² with df equal to the difference in estimated parameters (2), p ≈ .0005. Lower −2LL means better fit. Information criteria such as AIC and BIC also penalize complexity.",
+    "w": [
+      "Two parameters were added, so df = 2, not 1.",
+      "1985.2 is the new −2LL, not the χ² change, and fit isn't perfect.",
+      "χ²(2) = 15.2 gives p < .001, not .20."
+    ],
+    "k": "Compare nested models with Δ−2LL ~ χ²(Δ parameters).",
+    "h": "Drop in −2LL, df = new parameters.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Comparing models"
+  },
+  {
+    "t": "Ch22 Estimation",
+    "d": 3,
+    "q": "Why should maximum likelihood (ML) rather than restricted maximum likelihood (REML) be used when comparing models that differ in their fixed effects?",
+    "o": [
+      "REML likelihoods are not comparable across models with different fixed effects",
+      "REML cannot estimate random effects, so it is useless for multilevel models",
+      "ML always gives smaller standard errors, so effects are easier to detect",
+      "REML requires balanced data with equal group sizes to be computed"
+    ],
+    "e": "REML estimates the variance components after removing the fixed effects, so its likelihood depends on the fixed part. Comparing −2LL across models with different fixed effects is then invalid. REML (SPSS's default) gives less biased variance estimates and is fine for comparing models that differ only in random effects.",
+    "w": [
+      "REML does estimate random effects; it's SPSS's default.",
+      "ML doesn't always give smaller SEs or easier detection.",
+      "REML doesn't require balanced data or equal group sizes."
+    ],
+    "k": "Compare models differing in fixed effects with ML; REML is fine for random-effect comparisons.",
+    "h": "Fixed changes need full ML.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · ML vs REML"
+  },
+  {
+    "t": "Ch22 Covariance structures",
+    "d": 2,
+    "q": "Which covariance structure assumes that correlations between repeated measurements weaken as they get further apart in time?",
+    "o": [
+      "First-order autoregressive, AR(1)",
+      "Compound symmetry (exchangeable)",
+      "Variance components (diagonal)",
+      "Scaled identity (independent errors)"
+    ],
+    "e": "AR(1) assumes correlations of ρ between adjacent occasions, ρ² two occasions apart, and so on, which is a natural fit for growth data. Compound symmetry assumes equal correlations at all distances. Diagonal assumes no correlations. Unstructured estimates every variance and covariance freely, at the cost of many parameters.",
+    "w": [
+      "Compound symmetry assumes equal correlations at all distances.",
+      "Diagonal assumes no correlations between occasions.",
+      "Scaled identity assumes independent errors with equal variance."
+    ],
+    "k": "AR(1): correlations weaken with time distance (ρ, ρ², ρ³…).",
+    "h": "AR(1): auto-regressive, memories fade.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Covariance structures"
+  },
+  {
+    "t": "Ch22 Covariance structures",
+    "d": 3,
+    "q": "What is the main drawback of choosing an 'unstructured' covariance matrix?",
+    "o": [
+      "It estimates every variance and covariance freely, using many parameters and risking non-convergence",
+      "It forces all of the correlations between occasions to be zero, which is unrealistic for repeated measures",
+      "It assumes the correlations decline with time, which may well be wrong for these data",
+      "It can only be used when there are exactly two measurement occasions in the design"
+    ],
+    "e": "Unstructured makes no assumptions, which is flexible, but with k occasions it estimates k(k + 1)/2 parameters. With many time points or modest samples this can fail to converge or overfit. Simpler structures such as AR(1) or compound symmetry are more parsimonious.",
+    "w": [
+      "Forcing zero correlations describes a diagonal structure, not unstructured.",
+      "Correlations that decline with time describe AR(1).",
+      "Unstructured works with any number of occasions, not just two."
+    ],
+    "k": "Unstructured covariance uses many parameters and risks non-convergence.",
+    "h": "Total freedom, heavy cost.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Unstructured covariance"
+  },
+  {
+    "t": "Ch22 Centering",
+    "d": 3,
+    "q": "Why might you group-mean center a level-1 predictor, such as each pupil's IQ minus their class's mean IQ?",
+    "o": [
+      "To separate the within-class effect from the between-class effect of the predictor",
+      "To make every class have exactly the same mean outcome score on the dependent variable",
+      "To remove the need for a random intercept for classes in the model",
+      "To convert the predictor into a level-2 (class-level) variable automatically"
+    ],
+    "e": "After group-mean centering, the predictor only carries within-group information (is this pupil above or below their classmates?). Adding the class mean as a level-2 predictor then captures the between-group effect. Grand-mean centering mainly shifts the intercept's meaning and mixes the two effects.",
+    "w": [
+      "Centering a predictor doesn't change outcome means.",
+      "Centering doesn't remove the need for random intercepts.",
+      "Group-mean centering keeps it a level-1 variable."
+    ],
+    "k": "Group-mean centering separates within-group effects from between-group effects.",
+    "h": "Compare pupils with their own class.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Centering"
+  },
+  {
+    "t": "Ch22 Growth models",
+    "d": 2,
+    "q": "In a growth model of depression measured at 5 time points, what are the levels?",
+    "o": [
+      "Measurement occasions are level 1; participants are level 2",
+      "Participants are level 1; measurement occasions are level 2",
+      "Time is a level-2 predictor, and depression is a level-3 outcome",
+      "All observations are at one level, because time is continuous"
+    ],
+    "e": "Repeated measures are nested within people, so occasions are level 1 and people level 2. Time is a level-1 predictor, and random intercepts and slopes let each person have their own starting point and rate of change. Polynomial terms (time²) model curved trajectories.",
+    "w": [
+      "This reverses the levels: occasions are nested in people.",
+      "Time is a level-1 predictor, and depression is the level-1 outcome.",
+      "Repeated measures form a hierarchy even with continuous time."
+    ],
+    "k": "Growth models: occasions = level 1, people = level 2.",
+    "h": "Moments nested within people.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Growth curves"
+  },
+  {
+    "t": "Ch22 Advantages",
+    "d": 2,
+    "q": "Which is an advantage of multilevel models over repeated-measures ANOVA?",
+    "o": [
+      "They use all available data when some time points are missing",
+      "They require every participant to be measured at identical times",
+      "They assume sphericity, which simplifies the analysis considerably",
+      "They can only handle categorical predictors, not continuous ones"
+    ],
+    "e": "Multilevel models handle unbalanced data and missing observations (under missing-at-random assumptions), allow measurement times to vary across people, model the covariance structure instead of assuming sphericity, and accept continuous and time-varying predictors.",
+    "w": [
+      "Multilevel models allow measurement times to differ across people.",
+      "Multilevel models model the covariance rather than assuming sphericity.",
+      "Multilevel models accept continuous and time-varying predictors."
+    ],
+    "k": "Multilevel models use all available data, even with missing time points.",
+    "h": "Every observation counts.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Advantages"
+  },
+  {
+    "t": "Ch22 SPSS",
+    "d": 2,
+    "q": "In SPSS, multilevel models are fitted with:",
+    "o": [
+      "Analyze → Mixed Models → Linear, with the data in long format",
+      "Analyze → General Linear Model → Repeated Measures, with data in wide format",
+      "Analyze → Regression → Linear, adding the group ID as a predictor",
+      "Analyze → Correlate → Partial, controlling for the group variable"
+    ],
+    "e": "The first dialog asks for the Subjects variable (the level-2 identifier) and any Repeated variable, with the covariance type. Then specify fixed effects, random effects (intercept and slopes, with the subject grouping), the estimation method (ML or REML) and the statistics to display. Data must have one row per observation.",
+    "w": [
+      "Repeated Measures GLM in wide format isn't a multilevel model.",
+      "Adding group ID as a predictor doesn't create a random effect.",
+      "Partial correlations control variables but don't model clustering."
+    ],
+    "k": "SPSS multilevel models: Mixed Models → Linear, data in long format.",
+    "h": "Mixed models, long data.",
+    "r": "Stats & SPSS ch. 22 · SPSS · Mixed Models"
+  },
+  {
+    "t": "Ch22 SPSS",
+    "d": 2,
+    "q": "In SPSS Mixed Models output, which values in the 'Information Criteria' table indicate a better-fitting model?",
+    "o": [
+      "Smaller −2LL, AIC and BIC values",
+      "Larger −2LL, AIC and BIC values",
+      "An AIC exactly equal to the BIC",
+      "A −2LL equal to the sample size"
+    ],
+    "e": "All are badness-of-fit measures, so smaller is better. AIC and BIC add penalties for the number of parameters (BIC more heavily), which allows comparison of non-nested models. The χ² test on −2LL differences is for nested models.",
+    "w": [
+      "Larger −2LL, AIC and BIC values indicate worse fit.",
+      "AIC equalling BIC isn't a criterion of fit.",
+      "A −2LL equal to the sample size has no special meaning."
+    ],
+    "k": "Smaller −2LL, AIC and BIC = better fit.",
+    "h": "Lower is better.",
+    "r": "Stats & SPSS ch. 22 · SPSS · Information criteria"
+  },
+  {
+    "t": "Ch22 Sample size",
+    "d": 3,
+    "q": "In planning a multilevel study, which sample size usually matters most for estimating level-2 effects and variances?",
+    "o": [
+      "The number of level-2 groups",
+      "The number of level-1 cases per group",
+      "The total number of observations",
+      "The number of predictors at level 1"
+    ],
+    "e": "Variance components and level-2 effects are estimated from the groups, so 10 classes of 100 pupils give far less information about between-class variation than 50 classes of 20. Common guidance suggests at least about 30 groups (Kreft's '30/30' rule) for reasonable estimates.",
+    "w": [
+      "Cases per group matter less for level-2 estimates.",
+      "Total observations can mislead if groups are few.",
+      "Level-1 predictors don't determine level-2 precision."
+    ],
+    "k": "Level-2 estimates depend most on the number of groups (aim for 30+).",
+    "h": "Count the groups, not just the people.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Sample size"
+  },
+  {
+    "t": "Ch22 Interpretation",
+    "d": 3,
+    "q": "In 'Estimates of Covariance Parameters', the intercept variance has Wald Z = 2.10, p = .036. Why should this test be interpreted cautiously?",
+    "o": [
+      "Variances cannot be negative, so the Wald test is poor near zero; likelihood ratio tests are better",
+      "The Wald Z for a variance is always non-significant in practice, so a p of .036 must be an error",
+      "It tests the fixed intercept, not its variance, so it says nothing about the clustering in the data",
+      "The test is only valid when the ICC is exactly zero in the population"
+    ],
+    "e": "A variance is bounded at zero, so its sampling distribution is skewed and the Wald Z can mislead, especially with few groups. Comparing −2LL for models with and without the random effect (a likelihood ratio test, with p-values that can be halved for the boundary) is generally preferred.",
+    "w": [
+      "Wald Z for variances can be significant.",
+      "The table tests the variance, not the fixed intercept.",
+      "The test isn't restricted to an ICC of zero."
+    ],
+    "k": "Wald Z for variances is unreliable near zero; prefer likelihood ratio tests.",
+    "h": "Variances can't go below zero, so Wald limps.",
+    "r": "Stats & SPSS ch. 22 · Multilevel linear models · Testing variance components"
+  }
+]

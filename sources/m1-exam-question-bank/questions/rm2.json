@@ -1,0 +1,1582 @@
+[
+  {
+    "t": "Research process",
+    "d": 1,
+    "q": "According to the Research Methodology course, scientific research is best defined as:",
+    "o": [
+      "Asking a question and conducting a methodical, multi-step study to answer it, always linked to theory",
+      "Collecting as much data as possible and letting the conclusions emerge without any prior question",
+      "Summarizing what published authors have already said about a topic in a literature review",
+      "Testing a single hypothesis once and treating the result as an absolute proof"
+    ],
+    "e": "The course defines research as a dynamic process of collecting, analysing and interpreting information to increase our understanding of a phenomenon. It means asking a question (the problem) and conducting a methodical study to answer it. It is orderly (multi-step), systemic (using methods and techniques), always linked to theory, which it helps develop or verify, and cyclical. A research project therefore starts from a question, not from a pile of data.",
+    "w": [
+      "Research begins when a problem is posed as a question; data are collected around that problem.",
+      "A literature review is one step of research, not the whole of it.",
+      "The course says test results are never absolute and do not prove a hypothesis."
+    ],
+    "k": "Research = a question answered by an orderly, systemic, theory-linked and cyclical study.",
+    "h": "Question first, method second, theory always.",
+    "r": "Research Methodology course (Dr. Riachy) – Introduction"
+  },
+  {
+    "t": "Research process",
+    "d": 2,
+    "q": "Which sequence matches the course's six characteristics of the cyclical research process?",
+    "o": [
+      "Problem posed as a question → goal and problem formulated → sub-problems → hypotheses → data collection → analysis and discussion",
+      "Data collection → hypotheses → problem posed as a question → sub-problems → analysis → goal formulated",
+      "Hypotheses → literature review → data collection → problem posed as a question → discussion → sub-problems",
+      "Goal formulated → data collection → analysis → hypotheses → sub-problems → problem posed as a question"
+    ],
+    "e": "The course lists the characteristics in order: research begins when a problem is posed as a question; it requires a clear goal and formulation of the problem; the main problem is divided into sub-problems with measurable variables; the research rests on one or more hypotheses relating two variables, grounded in theory; data are collected around the problem; and the results are analysed, interpreted and discussed to see whether the hypotheses are confirmed.",
+    "w": [
+      "Data cannot come first; the course says research begins with a problem posed as a question.",
+      "Hypotheses are formulated after the problem and its sub-problems, not before the question.",
+      "The question opens the cycle; placing it last reverses the logic."
+    ],
+    "k": "Research cycle: question → goal and problem → sub-problems → hypotheses → data → analysis and discussion.",
+    "h": "Ask, aim, split, guess, gather, judge.",
+    "r": "Research Methodology course (Dr. Riachy) – Introduction"
+  },
+  {
+    "t": "Research process",
+    "d": 2,
+    "q": "The course identifies three main phases in any research. In which phase are the research problem selected, the literature reviewed and the hypotheses stated?",
+    "o": [
+      "The conceptual phase (construction of the object of study)",
+      "The methodological phase (planning of method, sample and collection)",
+      "The treatment phase (processing of the collected data)",
+      "The dissemination phase (publication of the final report)"
+    ],
+    "e": "The three phases are conceptual, methodological and treatment. The conceptual phase, or construction of the object of study, covers selecting and formulating the problem, identifying the literature, stating objectives, questions and hypotheses, and developing the frame of reference. The methodological phase then chooses the method, defines the sample, describes data collection and plans the analysis; the treatment phase processes the data.",
+    "w": [
+      "The methodological phase chooses the method, sample and data collection plan.",
+      "The treatment phase processes the collected data.",
+      "Dissemination is not one of the three phases named in the course."
+    ],
+    "k": "Three phases: conceptual (problem, literature, hypotheses), methodological (method, sample, collection, analysis plan), treatment.",
+    "h": "Think it, plan it, treat it.",
+    "r": "Research Methodology course (Dr. Riachy) – Introduction, phases of research"
+  },
+  {
+    "t": "Research process",
+    "d": 2,
+    "q": "According to the course, a well-constructed research object must:",
+    "o": [
+      "Focus on a subject limited in place and time, answer a specific question and be empirically feasible",
+      "Cover as broad a theme as possible so that the results generalize to everyone",
+      "Avoid any reference to theory so that the data speak for themselves",
+      "Use at least three independent variables to be considered scientific"
+    ],
+    "e": "Constructing the research object is the first scientific step. The course says the research must focus on a limited subject, geographically and historically (where and when), answer a specific question, and be empirically feasible, meaning there is an accessible field of inquiry or easy data collection. A topic like 'stress in the world' fails all three tests; 'test anxiety in M1 students at a Beirut university in 2026' passes them.",
+    "w": [
+      "The course warns against broad topics; the subject must be delimited in place and time.",
+      "Research is always linked to theory in this course.",
+      "No minimum number of independent variables is required."
+    ],
+    "k": "A research object must be delimited (where and when), answer a specific question and be feasible in the field.",
+    "h": "Small, sharp and doable.",
+    "r": "Research Methodology course (Dr. Riachy) – Construction of the research object"
+  },
+  {
+    "t": "Research process",
+    "d": 2,
+    "q": "In the course, how is the purpose (object) of research defined?",
+    "o": [
+      "A declarative statement specifying the independent and dependent variables, the population and the direction of the research",
+      "A question ending in a question mark that asks whether the phenomenon under study exists at all",
+      "A list of the statistical tests that will later be used to analyse the collected data",
+      "The researcher's personal motivation and life experience behind choosing this particular topic"
+    ],
+    "e": "The purpose states what the researcher intends to do to obtain answers to the research questions; it indicates the reason for the research. The course defines it as a declarative statement specifying the variables (independent and dependent), the population and the direction of the research, descriptive or experimental. Example: 'The aim of our research is to estimate the relationship between parental attachment types and addictive conditions in adolescents.'",
+    "w": [
+      "A question is the research question; the purpose is declarative.",
+      "Statistical tests belong to the analysis plan, not to the statement of purpose.",
+      "Motivation is discussed elsewhere; the purpose specifies variables, population and direction."
+    ],
+    "k": "Purpose = declarative statement of the variables, the population and whether the research is descriptive or experimental.",
+    "h": "Purpose says what, who and which way.",
+    "r": "Research Methodology course (Dr. Riachy) – Definitions"
+  },
+  {
+    "t": "Research process",
+    "d": 1,
+    "q": "How does the course distinguish the general objective from specific objectives?",
+    "o": [
+      "The general objective states what we want to do to improve the situation; specific objectives are the concrete actions that achieve it",
+      "The general objective lists the hypotheses; specific objectives list the variables",
+      "The general objective is written after data collection; specific objectives before it",
+      "The general objective concerns the sample; specific objectives concern the population"
+    ],
+    "e": "The course defines the general objective as what we want to do to improve the situation. Specific objectives are the changes, activities or actions to be undertaken that will achieve the general objective, the concrete, tangible steps. For example, a general objective of reducing exam anxiety might break into specific objectives such as measuring anxiety levels and testing a relaxation programme.",
+    "w": [
+      "Hypotheses and variables are separate elements; objectives describe aims and actions.",
+      "Objectives are set during planning, before data collection.",
+      "Sample and population are sampling concepts, not types of objectives."
+    ],
+    "k": "General objective = the improvement sought; specific objectives = the concrete actions that achieve it.",
+    "h": "General is the destination; specific are the steps.",
+    "r": "Research Methodology course (Dr. Riachy) – Definitions"
+  },
+  {
+    "t": "Choice of subject",
+    "d": 2,
+    "q": "Which technique for choosing a research subject asks Who, What, Where, When, How and Why about the theme?",
+    "o": [
+      "The QQQOCP method",
+      "Brainstorming",
+      "The personal referent",
+      "The literature gap method"
+    ],
+    "e": "The course lists three techniques for choosing a subject. The personal referent draws on what you already know and like. Brainstorming means expressing all ideas orally or in writing to unblock thinking. QQQOCP, from the French Qui, Quoi, Où, Quand, Comment, Pourquoi, interrogates the theme with who, what, where, when, how and why. The course's example on self-esteem and depression in older adults asks who the elderly are, when old age begins and where older people live.",
+    "w": [
+      "Brainstorming expresses every idea freely; it does not follow a fixed set of questions.",
+      "The personal referent draws on your own knowledge of a topic you like.",
+      "Finding a gap is a way to justify the problem, not a technique for choosing the subject."
+    ],
+    "k": "Three subject-finding techniques: personal referent, brainstorming and QQQOCP (who, what, where, when, how, why).",
+    "h": "QQQOCP: the journalist's six questions.",
+    "r": "Research Methodology course (Dr. Riachy) – Choice of subject"
+  },
+  {
+    "t": "Choice of subject",
+    "d": 2,
+    "q": "Which is NOT among the course's rules for choosing a research topic?",
+    "o": [
+      "Choose a broad topic so that the research has a wide impact",
+      "Choose a topic grounded in a theoretical framework and previous studies",
+      "Delineate the subject according to time and place",
+      "Check that the subject has not been studied recently"
+    ],
+    "e": "The course's rules include choosing a topic that motivates you, grounding it in a theoretical framework and previous studies, avoiding topics that are too broad or too difficult, choosing a relevant, current and feasible topic, delineating it in time and place, formulating it operationally with keywords, making sure it is measurable, and checking that it has not been taken recently. Choosing a broad topic contradicts the rule against overly broad subjects.",
+    "w": [
+      "Grounding the topic in theory and prior studies is one of the rules.",
+      "Delineating the subject in time and place is one of the rules.",
+      "Checking that the topic has not been taken recently is one of the rules."
+    ],
+    "k": "Good topics are motivating, theory-based, narrow, current, feasible, delimited, measurable and not recently studied.",
+    "h": "Narrow beats broad.",
+    "r": "Research Methodology course (Dr. Riachy) – Rules for choosing the topic"
+  },
+  {
+    "t": "Choice of subject",
+    "d": 2,
+    "q": "Which research title best follows the course's rules for titles?",
+    "o": [
+      "Parenting style and aggression in adolescents: a comparative study in Beirut schools",
+      "Why are today's adolescents so aggressive?",
+      "Bad parents create violent teenagers",
+      "A study about some aspects of family life and behaviour"
+    ],
+    "e": "The course says to avoid question titles and offensive claims. A title should be simple, brief, clear and self-explanatory, include keywords (the variables) or the relationship between independent and dependent variables, and name the study population and location, in professional scientific language. A subtitle, placed after the main title, is more explicit, as in the course's example 'Parenting style and aggression in adolescents', subtitled as a comparative study in Beirut schools.",
+    "w": [
+      "Titles must never be phrased as questions.",
+      "This is an offensive claim, which titles must avoid.",
+      "This is vague; it names no variables, population or location."
+    ],
+    "k": "A title is a clear statement naming the variables (or their relationship), the population and the place; no questions or offensive claims.",
+    "h": "Title = variables + who + where.",
+    "r": "Research Methodology course (Dr. Riachy) – The title"
+  },
+  {
+    "t": "The problem",
+    "d": 2,
+    "q": "How does the course distinguish the inductive and deductive approaches to formulating the problem?",
+    "o": [
+      "Inductive starts from the researcher's experience of particular situations; deductive starts from concepts in the scientific literature",
+      "Inductive starts from the scientific literature; deductive starts from personal experience",
+      "Inductive is used only in qualitative research; deductive only in experiments",
+      "Inductive formulates hypotheses after the data; deductive never uses hypotheses"
+    ],
+    "e": "Formulating the problem can follow two routes. In the inductive approach, the researcher starts from personal experience and knowledge of particular situations, then reformulates a problem and research questions, leading to inductive hypotheses. In the deductive approach, the problem is developed from concepts in the scientific literature, giving deductive hypotheses. Induction moves from the particular to the general; deduction from the general (theory) to the particular.",
+    "w": [
+      "This reverses the starting points of the two approaches.",
+      "The course does not tie either approach to one type of research.",
+      "Both approaches lead to hypotheses; they differ in their starting point."
+    ],
+    "k": "Inductive problem: from personal experience of particular cases. Deductive problem: from concepts in the literature.",
+    "h": "IN from the field, DE from the books.",
+    "r": "Research Methodology course (Dr. Riachy) – The problem"
+  },
+  {
+    "t": "The problem",
+    "d": 2,
+    "q": "The course divides the problem statement into three stages. What happens at the end of the introduction stage?",
+    "o": [
+      "The researcher asks the main (pivotal) research question, linking the variables clearly",
+      "The researcher asks the specific, operational research questions",
+      "The researcher justifies the choice of the problem by showing a gap in the literature",
+      "The researcher states the statistical hypotheses"
+    ],
+    "e": "The problem has an introduction, a development and a conclusion. In the introduction, the researcher announces the problem, its field and dimensions (key variables and target population), shows its importance and describes the problematic situation, then ends by asking the main research question, the pivotal question translating the problem into a general question. Development explains and justifies the problem; the conclusion asks the specific research questions.",
+    "w": [
+      "Specific research questions come in the conclusion stage.",
+      "Justifying the choice (finding a gap) belongs to the development stage.",
+      "Hypotheses follow the problem; they are not part of the introduction stage."
+    ],
+    "k": "Problem: introduction ends with the main question; development justifies; conclusion asks the specific questions.",
+    "h": "Open wide with one big question, close narrow with several small ones.",
+    "r": "Research Methodology course (Dr. Riachy) – Stages of the problem"
+  },
+  {
+    "t": "The problem",
+    "d": 2,
+    "q": "Which is one of the course's forms of justification for choosing a research problem?",
+    "o": [
+      "Showing that conflicting results exist in previous studies",
+      "Showing that the researcher personally enjoys the topic",
+      "Showing that the topic has already been studied many times locally",
+      "Showing that the data will be easy to falsify if needed"
+    ],
+    "e": "In the development stage, the researcher justifies the problem and shows its relevance. The course names three forms of justification: finding a gap in existing studies that is worth filling, a topic not yet studied locally, and conflicting results or discrepancies in current research. The researcher then shows the usefulness of solving the problem: what the research will be used for and what it will help us understand.",
+    "w": [
+      "Personal interest guides the choice of topic but is not one of the listed justifications.",
+      "The opposite is true: a topic not studied locally is a justification.",
+      "Falsifying data is unethical and never a justification."
+    ],
+    "k": "Justify a problem by a gap, an absence of local studies or conflicting results, then show its usefulness.",
+    "h": "Gap, local void, or quarrel in the literature.",
+    "r": "Research Methodology course (Dr. Riachy) – Development of the problem"
+  },
+  {
+    "t": "The problem",
+    "d": 2,
+    "q": "According to the course, specific research questions must be:",
+    "o": [
+      "Interrogative, operational (measurable), precise, in the present tense, and include the relationship and population",
+      "Affirmative statements that predict the direction of the results",
+      "Broad questions about whether a phenomenon exists, without naming variables",
+      "Written in the past tense once the results are known"
+    ],
+    "e": "The specific research questions come at the end of the problem. The course describes them as interrogative, operational (measurable) and precise statements, written in the present tense, including the relationship between variables and the study population. They indicate exactly what information the researcher wants and are the bridge to the operational hypotheses. Example: 'Are women who drink alcohol during pregnancy more anxious than women who do not?'",
+    "w": [
+      "Affirmative, predictive statements are hypotheses, not research questions.",
+      "Broad existence questions describe the main question, and even it relates the variables.",
+      "Research questions are written in the present tense before data collection."
+    ],
+    "k": "Specific research questions: interrogative, measurable, precise, present tense, with variables, relationship and population.",
+    "h": "Ask it small, measurable and now.",
+    "r": "Research Methodology course (Dr. Riachy) – Conclusion of the problem"
+  },
+  {
+    "t": "The problem",
+    "d": 2,
+    "q": "For the topic 'Divorce and emotional problems in children', which is a specific research question rather than the main question?",
+    "o": [
+      "Do children of divorced parents show more aggression and anxiety than children whose parents are not divorced?",
+      "Does parental divorce cause emotional problems in children aged 7 to 10?",
+      "Divorce causes emotional problems in children aged 7 to 10.",
+      "Children of divorced parents are more aggressive than other children."
+    ],
+    "e": "The course's example gives the main question 'Does parental divorce cause emotional problems in children between the ages of 7 and 10?' and specific questions such as whether children of divorced parents have more emotional problems (aggression, disobedience, depression, anxiety, withdrawal) than other children, or whether the impact varies by gender. The specific question names measurable variables and a comparison; the main question stays general.",
+    "w": [
+      "This is the main (pivotal) research question: general, not yet operational.",
+      "This is an affirmative statement, so it is a hypothesis, not a question.",
+      "This is an affirmative prediction, so it is a directional hypothesis, not a question."
+    ],
+    "k": "Main question = general relationship; specific questions = measurable comparisons of named variables.",
+    "h": "Main asks 'does it?'; specific asks 'more than whom, on what measure?'",
+    "r": "Research Methodology course (Dr. Riachy) – Application: research questions"
+  },
+  {
+    "t": "Variables",
+    "d": 2,
+    "q": "In the course's examples, self-esteem is the independent variable in one study and depression the independent variable in another. What principle does this illustrate?",
+    "o": [
+      "A variable is independent or dependent only through the role it plays in a given relationship",
+      "Psychological variables are always independent and behaviours always dependent",
+      "A variable that has once been dependent can never be independent",
+      "Self-esteem and depression are control variables, not independent variables"
+    ],
+    "e": "The course stresses that a variable is not independent or dependent on its own, but by the role it plays in a given relationship. In 'Self-esteem and depression in adolescents', self-esteem is the independent variable (cause) and depression the dependent variable (effect). In 'Depression and adolescent academic performance', depression becomes the independent variable. The same construct changes role with the research question.",
+    "w": [
+      "There is no fixed rule by type of construct; the role depends on the relationship studied.",
+      "The course's examples show depression as a DV in one study and an IV in another.",
+      "Control variables are measured but not manipulated, such as gender; these are the studied variables."
+    ],
+    "k": "Independent or dependent is a role in a specific relationship, not a fixed property of the variable.",
+    "h": "Variables are actors: same actor, different role in each play.",
+    "r": "Research Methodology course (Dr. Riachy) – Defining variables"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 1,
+    "q": "How does a hypothesis differ from a research question, according to the course?",
+    "o": [
+      "The hypothesis is affirmative and predicts the result; the research question is interrogative",
+      "The hypothesis never contains variables; the research question always does",
+      "The hypothesis is written after the results; the research question before them",
+      "The hypothesis concerns the sample; the research question concerns the population"
+    ],
+    "e": "Like the research question, a hypothesis includes the variables, the target population and the type of research. It differs in being affirmative and in predicting the results, so the study can confirm or disprove it. The course defines it as a tentative answer to the research question, a prediction of expected outcomes based on theory. Question: 'Do successful students score higher on self-esteem?' Hypothesis: 'Successful students score higher on self-esteem.'",
+    "w": [
+      "Hypotheses contain the variables, just as research questions do.",
+      "Hypotheses are formulated before data collection, as predictions.",
+      "Both concern the target population and the variables; the difference is affirmative versus interrogative."
+    ],
+    "k": "A hypothesis is the affirmative, predictive answer to the research question, containing the same variables and population.",
+    "h": "Question asks; hypothesis bets.",
+    "r": "Research Methodology course (Dr. Riachy) – Hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "According to the course, where do hypotheses come from?",
+    "o": [
+      "Observation of phenomena in reality, theory, and previous research",
+      "Only from the researcher's personal opinions about the topic",
+      "Only from statistical software once the data are entered",
+      "Only from the participants' answers in the pilot study"
+    ],
+    "e": "The course names three sources. Observation of phenomena in reality yields inductive hypotheses. Theory yields hypotheses derived from a theoretical body. Previous research is the third source: the researcher summarizes and analyses earlier studies, then reformulates a hypothesis already tested by another researcher while choosing to examine a different variable. Hypotheses must also be free of personal values or opinions.",
+    "w": [
+      "The course says hypotheses must not carry personal values or opinions.",
+      "Hypotheses are formulated before the data are analysed, not produced by software.",
+      "A pilot tests the method; it is not named as a source of hypotheses."
+    ],
+    "k": "Hypotheses come from observation, from theory and from previous research.",
+    "h": "Eyes, books and earlier studies.",
+    "r": "Research Methodology course (Dr. Riachy) – Where does the hypothesis come from?"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "A student writes: 'IQ might perhaps have something to do with language.' Which criterion for forming hypotheses does this most clearly violate?",
+    "o": [
+      "The sense of relationship: it gives no precise term such as 'more than', 'less than' or 'related to'",
+      "Communicability: it is written in a language other than English",
+      "Theoretical consistency: IQ and language are never linked in theory",
+      "Relevance: it is too long and detailed"
+    ],
+    "e": "The course lists criteria for hypotheses: a relationship statement in the present tense and affirmative form; a sense of relationship expressed by terms such as 'more than', 'less than', 'different from', 'related to', 'positive or negative correlation'; verifiability; theoretical consistency; relevance with no personal opinion; operational focus on one idea; and communicability. The student's tentative, vague wording gives no precise relationship, so it cannot be tested scientifically.",
+    "w": [
+      "Communicability means being understood the same way by all researchers; the language is not the problem here.",
+      "The course's own example links IQ to language development, so theory is not the issue.",
+      "The statement is short; its flaw is vagueness, not length."
+    ],
+    "k": "A hypothesis must state the relationship precisely ('more than', 'related to', 'positive correlation'); otherwise it cannot be tested.",
+    "h": "No direction word, no science.",
+    "r": "Research Methodology course (Dr. Riachy) – Factors in forming hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "According to the course, what does verifiability require of a hypothesis?",
+    "o": [
+      "Its variables must be observable or measurable in reality and analysable statistically",
+      "It must already have been confirmed by at least one previous study",
+      "It must be accepted by the research supervisor before data collection",
+      "It must predict a positive rather than a negative relationship"
+    ],
+    "e": "Verifiability means the hypothesis contains variables that are observable or measurable in reality and that can be analysed statistically. 'People have hidden energies that guide their fate' fails this test because no variable can be measured. 'Students with higher test anxiety obtain lower exam grades' passes, because anxiety can be measured with a scale and grades are recorded numbers.",
+    "w": [
+      "Prior confirmation is not required; hypotheses can be new.",
+      "Supervisor approval is not what verifiability means.",
+      "Negative relationships are as testable as positive ones."
+    ],
+    "k": "Verifiable = built from observable, measurable variables that can be statistically analysed.",
+    "h": "If you can't measure it, you can't verify it.",
+    "r": "Research Methodology course (Dr. Riachy) – Factors in forming hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "Classify: 'Socially anxious teens have less social competence than non-anxious teens.'",
+    "o": [
+      "Directional operational hypothesis",
+      "General hypothesis",
+      "Non-directional operational hypothesis",
+      "Statistical (null) hypothesis"
+    ],
+    "e": "The course's training section classifies this statement as an operational hypothesis, because the theoretical hypothesis is translated into a specific concrete case with defined groups, and as directional, because it predicts the direction of the relationship between social anxiety and social skills with the term 'less... than'. A general hypothesis would stay abstract ('Social anxiety affects social competence'); a null hypothesis would state no difference.",
+    "w": [
+      "A general hypothesis states an abstract relationship without operational groups or direction.",
+      "It is not non-directional; 'less than' predicts the direction.",
+      "A null hypothesis states that there is no difference or relationship."
+    ],
+    "k": "Operational + a direction word ('less than', 'more than') = directional operational hypothesis.",
+    "h": "'Less than' points an arrow.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: types of hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "Classify: 'There are significant intersex differences among intellectually gifted students.'",
+    "o": [
+      "Non-directional operational hypothesis",
+      "Directional operational hypothesis",
+      "General hypothesis",
+      "Null hypothesis"
+    ],
+    "e": "The course's training answer: this is a non-directional operational hypothesis because the direction of the relationship is not predicted. It states that boys and girls differ but not which group scores higher. Compare 'Gifted girls score higher than gifted boys', which would be directional, and 'There is no significant difference between gifted boys and girls', which would be the null hypothesis.",
+    "w": [
+      "No direction is given; it does not say which sex scores higher.",
+      "It names a concrete population and comparison, so it is operational, not general.",
+      "It asserts a difference; a null hypothesis would deny one."
+    ],
+    "k": "'There are differences' without saying which way = non-directional operational hypothesis.",
+    "h": "Different, but no arrow.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: types of hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 2,
+    "q": "Classify: 'Depression leads to eating disorders in adolescents.'",
+    "o": [
+      "General hypothesis",
+      "Directional operational hypothesis",
+      "Non-directional operational hypothesis",
+      "Statistical hypothesis"
+    ],
+    "e": "The course's training answer classifies this as a general hypothesis because it predicts an abstract relationship between depression and eating disorders. General (theoretical) hypotheses refer to the theoretical framework and state an abstract, explanatory or predictive relationship between two facts. They are not yet operational: no measures, compared groups or direction terms such as 'more than'. Other course examples: 'Dyslexia affects adolescents' self-esteem' and 'The presence of others has an impact on learning'.",
+    "w": [
+      "There is no operational comparison or direction term such as 'more than'.",
+      "Non-directional operational hypotheses still specify measurable groups and a difference.",
+      "Statistical hypotheses state no relationship or no difference."
+    ],
+    "k": "An abstract cause–effect statement between two concepts (X affects or leads to Y) is a general hypothesis.",
+    "h": "General = big-picture claim, no measuring tape yet.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: types of hypotheses"
+  },
+  {
+    "t": "Hypotheses",
+    "d": 3,
+    "q": "According to the course, which statistical analyses suit a hypothesis stating a causal relationship ('there is an effect of X on Y')?",
+    "o": [
+      "Analyses of variance and covariance",
+      "Correlation and regression analyses",
+      "Descriptive frequencies and percentages only",
+      "Content analysis of the participants' answers"
+    ],
+    "e": "The course matches the hypothesis to the analysis. If the hypothesis states an association ('there is a correlation'), correlation and regression analyses are performed. If it states a causal relationship ('there is an effect of X on Y'), analyses of variance and covariance are used. For a null hypothesis, it cites Student's t and the chi-square test. Results are never absolute: the hypothesis is confirmed or disproved, not proven.",
+    "w": [
+      "Correlation and regression are for hypotheses stating an association.",
+      "Frequencies describe data but do not test a causal hypothesis.",
+      "Content analysis is a qualitative technique, not a statistical test of effects."
+    ],
+    "k": "Association hypothesis → correlation and regression; causal-effect hypothesis → ANOVA and ANCOVA.",
+    "h": "Link → correlate; effect → analyse variance.",
+    "r": "Research Methodology course (Dr. Riachy) – Hypothesis testing"
+  },
+  {
+    "t": "Literature review",
+    "d": 2,
+    "q": "According to the course, what is the role of the literature review?",
+    "o": [
+      "It prepares the frame of reference and grounds the variables, method and interpretation of results",
+      "It replaces data collection when enough studies already exist",
+      "It is optional and written only after the results are analysed",
+      "It lists every book in the library related to psychology"
+    ],
+    "e": "The literature review consists of researching, reading, summarizing and synthesizing research close to the theme. It prepares the design of the conceptual and theoretical frame of reference and serves as a basis for defining the variables, the method, the interpretations and the generalization of results. It also shapes the problem, objectives, questions and hypotheses, and gives a context for discussing the results. It forms the theoretical part of the dissertation.",
+    "w": [
+      "The review frames the study; it never replaces collecting new data.",
+      "It is a core step done early, during the conceptual phase.",
+      "It selects research close to the theme, not every psychology book."
+    ],
+    "k": "The literature review builds the theoretical framework and grounds variables, method and the later discussion.",
+    "h": "Stand on the shoulders before you build.",
+    "r": "Research Methodology course (Dr. Riachy) – The literature review"
+  },
+  {
+    "t": "Literature review",
+    "d": 2,
+    "q": "Which recommendation about sources does the course give for the literature review?",
+    "o": [
+      "Go back to the original source rather than relying on quotations made by others",
+      "Use only works published in the last two years and ignore older works",
+      "Consult only English-language literature for scientific credibility",
+      "Rely mainly on Wikipedia and general websites for definitions"
+    ],
+    "e": "The course says the review should cover recent works alongside older ones, go back to the original document rather than being satisfied with quotations made by others, and consult French, Arabic and English literature as well as the internet. Its search steps start with scientific articles and book chapters, then dictionaries, specialized encyclopedias, university websites, dissertations and theses, and their bibliographies.",
+    "w": [
+      "The course wants recent works next to older ones, not only the last two years.",
+      "The course explicitly includes French and Arabic as well as English literature.",
+      "The review starts from scientific articles, books and theses, not general websites."
+    ],
+    "k": "Use recent and older works, return to original sources and read French, Arabic and English literature.",
+    "h": "Drink from the spring, not from someone else's cup.",
+    "r": "Research Methodology course (Dr. Riachy) – Literature review"
+  },
+  {
+    "t": "Literature review",
+    "d": 2,
+    "q": "When writing the theoretical framework, what does the course say to present after defining the concepts?",
+    "o": [
+      "The reference theories with their convergences, divergences and shortcomings, then the existing studies",
+      "The statistical results of the study, before any theory is discussed",
+      "The researcher's personal opinion of each theory, without criticism",
+      "A list of the questionnaire items that will be used"
+    ],
+    "e": "The theoretical framework first defines the study's concepts and their relationships. It then presents the reference theories, the different approaches to the problem, with their convergences, divergences and shortcomings (points not addressed), followed by existing studies with their strengths, weaknesses and comparisons. Each chapter ends with a summary. The course adds: be synthetic and logical, criticize objectively, articulate approaches, justify choices and cite sources in APA style.",
+    "w": [
+      "Results belong to the analysis chapter, not the theoretical framework.",
+      "Theories must be confronted and criticized objectively, not presented as personal opinion.",
+      "Instruments belong to the methodology part and appendices."
+    ],
+    "k": "Theoretical framework: define concepts → compare theories (agreements, disagreements, gaps) → review studies → chapter summary.",
+    "h": "Define, compare, review, summarize.",
+    "r": "Research Methodology course (Dr. Riachy) – Writing the theoretical framework"
+  },
+  {
+    "t": "Literature review",
+    "d": 3,
+    "q": "For the topic 'Family climate (IV) and aggression (DV) in children aged 6 to 10', how does the course organize the theoretical part?",
+    "o": [
+      "Chapter 1 on aggression (the observed phenomenon, the DV), then chapter 2 on family climate (the IV) and its links with aggression",
+      "Chapter 1 on family climate (the IV), then chapter 2 on statistical analyses of aggression",
+      "A single chapter listing all studies in chronological order",
+      "Chapter 1 on the sample and chapter 2 on the questionnaire"
+    ],
+    "e": "The course's model splits the theoretical part into two chapters. Chapter 1 covers the observed phenomenon, the DV (aggression): definitions of aggressiveness and violence and their relationship, theories of aggression with criticism, and studies, ending with a summary. Chapter 2 covers the IV (family climate): definition and role, theories, and studies on the relationship between family climate and aggressiveness, ending with a synthesis.",
+    "w": [
+      "The model starts with the DV, and statistical analyses do not belong in the theoretical part.",
+      "Each variable gets its own chapter with definitions, theories and studies.",
+      "Sample and questionnaire belong to the methodological part."
+    ],
+    "k": "Theoretical part: chapter 1 on the observed phenomenon (DV), chapter 2 on the IV and its relationship with the DV.",
+    "h": "Start with the problem you see, then with what explains it.",
+    "r": "Research Methodology course (Dr. Riachy) – Example of a theoretical framework"
+  },
+  {
+    "t": "Choice of method",
+    "d": 1,
+    "q": "According to the course, quantitative research is especially suited to:",
+    "o": [
+      "Testing hypotheses with numerical data from many people, allowing comparison and statistical analysis",
+      "Exploring a phenomenon in depth through narrative data interpreted subjectively",
+      "Studying one person exhaustively to answer 'how' and 'why' questions",
+      "Classifying the themes of pre-existing documents without any numbers"
+    ],
+    "e": "The course describes quantitative methods as working with observable, quantifiable data to describe, explain and predict. They gather information on specific aspects of the problem from a large number of people, which facilitates comparison and statistical analysis, and they are more suitable for testing hypotheses. They use questionnaires, surveys, observations and measurements (scales, grids, tests). Qualitative methods, by contrast, collect narrative or textual data and interpret it in depth.",
+    "w": [
+      "In-depth exploration of narrative data defines the qualitative method.",
+      "The in-depth study of one case is the case study, a qualitative method.",
+      "Content analysis processes documents and, in the course, does count and quantify data."
+    ],
+    "k": "Quantitative = numerical data from many people to describe, explain, predict and test hypotheses statistically.",
+    "h": "Numbers, many people, hypotheses.",
+    "r": "Research Methodology course (Dr. Riachy) – 5.1 Choice of method"
+  },
+  {
+    "t": "Choice of method",
+    "d": 2,
+    "q": "According to the course, most descriptive methods are comparative and are often preceded by:",
+    "o": [
+      "Exploratory research that helps formulate the initial hypothesis and clarify the parameters",
+      "An experimental manipulation of the independent variable",
+      "A content analysis of the participants' diaries",
+      "A longitudinal follow-up of the same participants over decades"
+    ],
+    "e": "Descriptive methods determine the nature and characteristics of a phenomenon to give an accurate picture of it and establish relationships between its components or variables. They usually start from a hypothesis they confirm or refute, and the course notes they are often preceded by exploratory research, which aims to formulate the initial hypothesis and better understand the parameters to be studied. They allow quantitative analyses on representative samples.",
+    "w": [
+      "Manipulating an IV is the defining step of the experimental method, not a preliminary to description.",
+      "Content analysis is a separate qualitative technique, not the standard preliminary step.",
+      "Longitudinal follow-up is one descriptive (developmental) technique, not what precedes descriptive studies."
+    ],
+    "k": "Descriptive methods picture a phenomenon and its relationships; exploratory research often comes first to shape the hypothesis.",
+    "h": "Explore first, then describe.",
+    "r": "Research Methodology course (Dr. Riachy) – Descriptive methods"
+  },
+  {
+    "t": "Descriptive methods",
+    "d": 2,
+    "q": "A researcher watches children's play at recess in their own schoolyard, without intervening. In the course's terms, this is:",
+    "o": [
+      "Systematic observation in the natural environment",
+      "Systematic observation in a laboratory set up by the researcher",
+      "An experimental method comparing a group with a control group",
+      "A cross-sectional method comparing children of different ages"
+    ],
+    "e": "Systematic observation is one of the course's most common descriptive techniques: the study of behaviour as it occurs either in the natural environment (naturalistic observation) or in the laboratory, where the situation is provoked by the researcher to answer specific questions. Watching children in their own schoolyard without intervening is the natural-environment form; nothing is manipulated, so it is not experimental.",
+    "w": [
+      "Laboratory observation takes place in a setting the researcher arranges.",
+      "Nothing is manipulated and no control group exists, so it is not experimental.",
+      "Cross-sectional methods compare different age groups at one time; nothing here compares ages."
+    ],
+    "k": "Systematic observation: behaviour studied as it occurs, either in its natural setting or in a laboratory set up by the researcher.",
+    "h": "Wild versus lab.",
+    "r": "Research Methodology course (Dr. Riachy) – Descriptive methods: systematic observation"
+  },
+  {
+    "t": "Descriptive methods",
+    "d": 2,
+    "q": "Which practice goes AGAINST the course's rules for a quality questionnaire survey?",
+    "o": [
+      "Using many open-ended questions to collect as much information as possible",
+      "Ordering the questionnaire from general to specific questions",
+      "Removing questions that do not serve the sole purpose of the survey",
+      "Writing clear objectives and having them validated by the people concerned"
+    ],
+    "e": "The course gives eight rules: set clear, operational objectives in writing and have them validated; identify the parent population and choose a representative sample; focus questions on the sole purpose of the survey; organize the questionnaire from general to specific; do not multiply open-ended questions, which provide much less information than well-asked closed questions; use clear, simple language; take care of presentation and instructions; and interpret results carefully.",
+    "w": [
+      "General-to-specific ordering is one of the course's rules.",
+      "Avoiding unnecessary questions is one of the course's rules.",
+      "Written, validated objectives are the course's first rule."
+    ],
+    "k": "Questionnaire rules: clear validated objectives, representative sample, no superfluous items, general to specific, few open questions, simple language.",
+    "h": "Closed questions, well asked, beat many open ones.",
+    "r": "Research Methodology course (Dr. Riachy) – The questionnaire survey"
+  },
+  {
+    "t": "Descriptive methods",
+    "d": 2,
+    "q": "A researcher tests the memory of the same individuals at 50, 60 and 70 years of age. Which developmental method is this?",
+    "o": [
+      "Longitudinal method",
+      "Cross-sectional method",
+      "Correlational method",
+      "Experimental method"
+    ],
+    "e": "The course defines the longitudinal method as following the same subjects several times over time to directly assess age-related changes; its example retests the same individuals over several decades to study memory during ageing. The cross-sectional method instead compares subjects of different ages at a single time, such as people aged 25, 50, 65 and 75 tested in one go. Longitudinal studies need large samples because participants are lost along the way.",
+    "w": [
+      "Cross-sectional studies compare different people of different ages at one time.",
+      "Correlational studies measure the degree of relationship between variables, not change in the same people.",
+      "Nothing is manipulated, so it is not experimental."
+    ],
+    "k": "Longitudinal = same people retested over time; cross-sectional = different age groups compared at one time.",
+    "h": "Longitudinal follows a life line; cross-sectional takes one slice.",
+    "r": "Research Methodology course (Dr. Riachy) – Developmental methods"
+  },
+  {
+    "t": "Descriptive methods",
+    "d": 1,
+    "q": "Which pair is the course's example of a NEGATIVE correlation?",
+    "o": [
+      "Absenteeism and school results",
+      "IQ and academic performance",
+      "Head size and intelligence",
+      "Parents' IQ and children's IQ"
+    ],
+    "e": "The course distinguishes three types of correlation. Positive: variables vary in the same direction, e.g. IQ and academic performance. Negative: they vary in opposite directions, so high values of one go with low values of the other, e.g. the longer a student is absent, the lower the results. Zero: no relationship, e.g. head size and intelligence. The parents–children IQ example illustrates the correlational method itself.",
+    "w": [
+      "IQ and academic performance is the course's positive correlation example.",
+      "Head size and intelligence is the course's zero correlation example.",
+      "Parents' and children's IQ illustrates the correlational method in general, not a negative correlation."
+    ],
+    "k": "Positive: IQ–performance; negative: absenteeism–school results; zero: head size–intelligence.",
+    "h": "More absence, fewer marks: the seesaw.",
+    "r": "Research Methodology course (Dr. Riachy) – The correlational method"
+  },
+  {
+    "t": "Experimental method",
+    "d": 2,
+    "q": "What are the three steps of the experimental method, according to the course?",
+    "o": [
+      "Manipulate the independent variable, keep all other variables constant, then compare the experimental and control groups",
+      "Observe behaviour naturally, interview participants, then code their answers",
+      "Choose a random sample, administer a questionnaire, then compute correlations",
+      "Formulate a null hypothesis, collect textual data, then build a category grid"
+    ],
+    "e": "The experimental method tests a hypothesis about a cause-and-effect relationship by comparing equivalent groups under controlled conditions. The course gives three steps: first, manipulate or vary an independent variable that influences behaviour; second, control, keeping all other variables (stray and control variables) constant for all subjects; third, observe what happens to the experimental group, which receives the treatment, and the control group, which receives nothing.",
+    "w": [
+      "This describes observation and qualitative coding, with no manipulation.",
+      "This describes a correlational survey; nothing is manipulated.",
+      "Category grids belong to content analysis, not experimentation."
+    ],
+    "k": "Experiment = manipulate the IV, hold everything else constant, compare treated and untreated groups.",
+    "h": "Vary one, freeze the rest, compare two.",
+    "r": "Research Methodology course (Dr. Riachy) – Experimental method"
+  },
+  {
+    "t": "Experimental method",
+    "d": 2,
+    "q": "In the course's terms, room temperature and lighting during an experiment are:",
+    "o": [
+      "Stray variables (environmental and object variables)",
+      "Control variables, also called secondary independent variables",
+      "Dependent variables",
+      "Main independent variables"
+    ],
+    "e": "The course says each experiment has two main types of additional variables. Control variables, or secondary IVs, can only be measured, not manipulated: sex, age, socio-economic level. Stray variables are variables of the environment and objects: temperature, light, the book or the test used. Both must be kept constant across groups so that any difference in the DV can be attributed to the manipulated IV.",
+    "w": [
+      "Control variables are participant characteristics such as sex, age and socio-economic level.",
+      "The DV is the outcome measured, not the setting.",
+      "The main IV is the factor deliberately manipulated by the experimenter."
+    ],
+    "k": "Control variables = participant traits measured, not manipulated (sex, age, SES); stray variables = environment and objects (temperature, light).",
+    "h": "Stray = the room; control = the person.",
+    "r": "Research Methodology course (Dr. Riachy) – Experimental method: types of variables"
+  },
+  {
+    "t": "Experimental method",
+    "d": 2,
+    "q": "In the course's noise experiment, 40 pupils of the same age and IQ study 5 pages for 30 minutes, 20 with noise and 20 without, then answer 20 multiple-choice questions. When is the hypothesis 'noise impairs retention' confirmed?",
+    "o": [
+      "When the noise group scores lower and the difference is statistically significant",
+      "As soon as the noise group's average score is lower by any amount at all",
+      "When both groups obtain exactly the same number of correct answers on the test",
+      "When the noise group reports feeling more stressed than the control group"
+    ],
+    "e": "In this example the IV is noise (G1 experimental group with noise, G2 control group without noise) and the DV is the number of test answers. Equalizing age and IQ controls those variables. The course's principle: the influence of the IV on the DV is asserted only if the difference between the experimental and control groups is statistically significant. A small, non-significant gap could be chance.",
+    "w": [
+      "A difference must be statistically significant, not just any lower mean.",
+      "Equal scores would mean no effect of noise.",
+      "Self-reported stress is not the DV; retention measured by the test is."
+    ],
+    "k": "An experimental hypothesis is confirmed only by a statistically significant difference between experimental and control groups on the DV.",
+    "h": "Lower is not enough; it must be significantly lower.",
+    "r": "Research Methodology course (Dr. Riachy) – Experimental method: noise example"
+  },
+  {
+    "t": "Experimental method",
+    "d": 2,
+    "q": "Why were all the pupils in the noise experiment chosen with the same age and IQ?",
+    "o": [
+      "To keep these control variables constant, so a difference in the test can be attributed to the noise",
+      "Because age and IQ are the dependent variables of the study",
+      "Because the course requires all experiments to use gifted pupils",
+      "To make the sample representative of all Lebanese pupils"
+    ],
+    "e": "The second step of the experimental method is control: keeping all other variables constant for all subjects. Age and IQ are control variables (they can be measured but not manipulated) that could themselves affect memory. By matching the groups on them, the researcher ensures the groups are equivalent, so a significant difference in test answers can be attributed to the manipulated IV, noise.",
+    "w": [
+      "The DV is the number of correct test answers.",
+      "There is no such requirement; the point is equivalence of the groups.",
+      "Matching makes the groups equivalent; it does not make them representative of a national population."
+    ],
+    "k": "Matching groups on age and IQ holds control variables constant so the effect on the DV can be attributed to the IV.",
+    "h": "Equal groups, fair comparison.",
+    "r": "Research Methodology course (Dr. Riachy) – Experimental method: noise example"
+  },
+  {
+    "t": "Qualitative method",
+    "d": 2,
+    "q": "Which statement about qualitative research matches the course?",
+    "o": [
+      "It yields transcripts and field notes, explored inductively by content analysis into categories",
+      "It aims to test a theory while the researcher remains strictly objective and detached",
+      "It relies mainly on standardized questionnaires administered to very large samples",
+      "It produces numerical data that are then analysed with t-tests and chi-square tests"
+    ],
+    "e": "The qualitative method explores and interprets phenomena in detail and depth, collecting narrative or textual data analysed in an interpretive, subjective way. Strategies include in-depth interviews, structured and unstructured interviews, stories, focus groups, content analysis, participant observation and archival research. It produces large amounts of transcripts and field notes, explored inductively through content analysis to generate categories and explanations. Testing a theory objectively is the aim of quantitative research.",
+    "w": [
+      "Theory-testing with strict objectivity characterizes quantitative research, according to the course.",
+      "Standardized questionnaires for large samples are quantitative tools.",
+      "Qualitative research gives content data, not numerical data."
+    ],
+    "k": "Qualitative: textual data (transcripts, field notes), interpreted subjectively and explored inductively into categories.",
+    "h": "Words, not numbers.",
+    "r": "Research Methodology course (Dr. Riachy) – Qualitative method"
+  },
+  {
+    "t": "Qualitative method",
+    "d": 2,
+    "q": "Two researchers independently code the same interview transcripts to make the results more reliable. Which type of triangulation is this?",
+    "o": [
+      "Researcher (investigator) triangulation",
+      "Method triangulation",
+      "Data triangulation",
+      "Theory triangulation"
+    ],
+    "e": "Triangulation is the course's name for combining approaches so that quantitative and qualitative research complement each other and the phenomenon is studied in all its dimensions. Four types: method triangulation (combining the two methods); data triangulation (data from several sources within the same method); researcher triangulation (two or more researchers examine the data to ensure better reliability of the results); and theory triangulation (using all possible theoretical interpretations as a frame of reference).",
+    "w": [
+      "Method triangulation combines quantitative and qualitative methods.",
+      "Data triangulation gathers data from several sources within one method.",
+      "Theory triangulation applies several theoretical interpretations."
+    ],
+    "k": "Triangulation types: methods, data (several sources), researchers (two or more coders) and theories.",
+    "h": "Four Ts: tools, testimonies, testers, theories.",
+    "r": "Research Methodology course (Dr. Riachy) – Triangulation"
+  },
+  {
+    "t": "Qualitative method",
+    "d": 2,
+    "q": "According to the course, a case study:",
+    "o": [
+      "Studies a limited number of cases (6 to 10) in depth to answer how and why, and is a good source of hypotheses",
+      "Requires a few thousand participants for its results to be valid",
+      "Manipulates an independent variable and compares an experimental group to a control group",
+      "Uses only pre-existing documents, never interviews or tests"
+    ],
+    "e": "The case study is a clinical research approach within qualitative methods: an in-depth, exhaustive study of a person, a group or a situation, seeking to answer how and why (explore and explain). It collects data from a limited number of cases, 6 to 10, using direct clinical observation, clinical interviews, psychological tests (psychometric, projective, scales, drawing, play) and document review. It is a good source of hypotheses because it provides detailed information; anamnesis is an example.",
+    "w": [
+      "Large samples belong to descriptive surveys; case studies use 6 to 10 cases.",
+      "Manipulation with control groups defines the experimental method.",
+      "Case studies use clinical observation, interviews and tests, not only documents."
+    ],
+    "k": "Case study: 6–10 cases studied in depth (observation, interview, tests, documents) to explain how and why; generates hypotheses.",
+    "h": "Few cases, deep dig.",
+    "r": "Research Methodology course (Dr. Riachy) – Case study"
+  },
+  {
+    "t": "Qualitative method",
+    "d": 3,
+    "q": "In content analysis, at which phase does the researcher build the categorical analysis grid and code and count the data?",
+    "o": [
+      "Exploitation of the material",
+      "Pre-analysis",
+      "Data processing and interpretation",
+      "Literature review"
+    ],
+    "e": "Content analysis processes pre-existing data (interviews, communications, images) by census, classification and quantification. It follows three chronological phases. Pre-analysis: choosing the documents, forming hypotheses and reading to grasp their apparent messages. Exploitation of the material: categorization, building a grid of headings that group elements with common characteristics according to the initial hypotheses, then coding and counting. Processing and interpretation: percentages, tables and graphs, then interpreting the results against the hypotheses.",
+    "w": [
+      "Pre-analysis chooses documents, forms hypotheses and does the first reading.",
+      "Processing and interpretation computes percentages and interprets once coding is done.",
+      "The literature review is not one of the three phases of content analysis."
+    ],
+    "k": "Content analysis: pre-analysis (choose, read, hypothesize) → exploitation (grid, code, count) → processing and interpretation.",
+    "h": "Pick, sort, interpret.",
+    "r": "Research Methodology course (Dr. Riachy) – Content analysis"
+  },
+  {
+    "t": "Choice of method",
+    "d": 2,
+    "q": "Using the course's practice answers, which method fits 'Anorexia and self-esteem in adolescents'?",
+    "o": [
+      "Qualitative method: case study (interview, scale)",
+      "Comparative experimental quantitative method",
+      "Content analysis of school textbooks",
+      "Cross-sectional developmental method"
+    ],
+    "e": "The course's practice exercise matches topics to methods. 'Anorexia and self-esteem in adolescents' is given as a qualitative case study using interviews and a scale, because anorexia involves a small clinical population studied in depth. By contrast, 'Applying a self-esteem program to depressed adolescents' is comparative experimental (a program is applied), and 'The role of women in reading books' is content analysis.",
+    "w": [
+      "Experimental methods require an applied intervention, as in a self-esteem programme.",
+      "Content analysis suits documents such as reading books, not a clinical population.",
+      "Nothing in the topic compares age groups at one time."
+    ],
+    "k": "Small clinical populations studied in depth (e.g. anorexia) → qualitative case study with interviews and scales.",
+    "h": "Rare clinical group → few cases, deep study.",
+    "r": "Research Methodology course (Dr. Riachy) – Practice: methods and techniques"
+  },
+  {
+    "t": "Choice of method",
+    "d": 2,
+    "q": "According to the course's practice answers, 'Social support and depression in older adults' becomes an EXPERIMENTAL study when:",
+    "o": [
+      "A support programme is applied to the participants",
+      "A larger sample of older adults is recruited",
+      "A depression scale is used instead of an interview",
+      "Participants are interviewed in their homes"
+    ],
+    "e": "The course gives 'Social support and depression in older adults' as a comparative descriptive quantitative study (with a scale), adding that it becomes experimental only if a support programme is applied. The general rule: a study is experimental when the researcher manipulates the independent variable, here by providing the support, and compares treated and untreated groups. Sample size and the instrument chosen do not change the type of design.",
+    "w": [
+      "Sample size does not turn a descriptive study into an experiment.",
+      "Changing the instrument does not involve manipulating the IV.",
+      "The setting of interviews does not create manipulation."
+    ],
+    "k": "A study is experimental only when the researcher applies or manipulates the IV (e.g. a support programme).",
+    "h": "Apply a programme → experiment.",
+    "r": "Research Methodology course (Dr. Riachy) – Practice: methods and techniques"
+  },
+  {
+    "t": "Choice of method",
+    "d": 2,
+    "q": "Using the course's practice answers, which method fits 'Evaluation of math books and its influence on pupils' scientific acquisition'?",
+    "o": [
+      "Content analysis of the math books",
+      "Qualitative case study",
+      "Longitudinal method",
+      "Systematic observation in the laboratory"
+    ],
+    "e": "Content analysis is a technique for processing pre-existing data, any form of communication, discourse or images, by census, classification and quantification. When the material studied is a set of documents such as school books, content analysis is the fitting method. The course applies it to math book evaluation, to the role of women in reading books, and to value systems in reading books.",
+    "w": [
+      "Case studies examine a few people in depth, not textbooks.",
+      "Longitudinal methods follow the same people over time.",
+      "Laboratory observation studies behaviour, not documents."
+    ],
+    "k": "When the object of study is documents (textbooks, media, images), use content analysis.",
+    "h": "Books → content analysis.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: methods and techniques"
+  },
+  {
+    "t": "Sampling",
+    "d": 1,
+    "q": "According to the course, a sample is representative when:",
+    "o": [
+      "Its characteristics are as close as possible to those of the target population",
+      "It contains at least 1,000 participants",
+      "It was chosen by the researcher's personal judgment",
+      "It includes only participants who agreed with the hypothesis"
+    ],
+    "e": "The course defines population as a collection of elements (persons, groups, organizations) sharing common characteristics specified by criteria; the population studied is the target population. A sample is a group of subjects from that population, and it must be representative: its characteristics must be as close as possible to those of the target population. The sampling plan is the strategy used to select it.",
+    "w": [
+      "No fixed number defines representativeness; case studies, for example, use 6–10 cases.",
+      "Choice by personal judgment is non-probability sampling, which is less representative.",
+      "Selecting by agreement with the hypothesis would bias the results."
+    ],
+    "k": "Representative sample = characteristics as close as possible to the target population's.",
+    "h": "A good sample is a miniature of the population.",
+    "r": "Research Methodology course (Dr. Riachy) – 5.2 Sampling: concepts"
+  },
+  {
+    "t": "Sampling",
+    "d": 2,
+    "q": "Which statement about sample size matches the course?",
+    "o": [
+      "Longitudinal studies need many participants because some are lost during data collection",
+      "Experimental studies need more subjects than correlational descriptive studies",
+      "Case studies need at least a few hundred participants",
+      "Sample size never depends on the type of study"
+    ],
+    "e": "The course ties sample size to the design. Exploratory studies such as case studies need small samples (6–10 cases). Comparative correlational descriptive studies need larger samples. Experimental studies require fewer subjects. Longitudinal studies need a large number of participants because of the risk of losing participants during data collection. It adds a guide for descriptive studies: about 20% of a small population (a few hundred), 10% of a large one (a few thousand) and 5% of a very large one.",
+    "w": [
+      "The course says experimental studies require fewer subjects.",
+      "Case studies need only 6 to 10 cases.",
+      "Size depends directly on the type of study."
+    ],
+    "k": "Case study 6–10; experimental fewer; correlational descriptive larger; longitudinal large because of dropout.",
+    "h": "Long studies lose people, so start big.",
+    "r": "Research Methodology course (Dr. Riachy) – Sample size"
+  },
+  {
+    "t": "Sampling",
+    "d": 2,
+    "q": "Why does the course prefer probability sampling methods?",
+    "o": [
+      "Each element has a known chance of being drawn at random, which makes them more accurate and reduces sampling error",
+      "They let the researcher pick the participants most likely to confirm the hypothesis",
+      "They are faster because no list of the population is needed",
+      "They avoid the need to define a target population"
+    ],
+    "e": "Probability sampling methods are more accurate and reduce sampling error: each element of the target population has a chance (a probability) of being chosen in a random draw. The course names four types: simple random, stratified random, cluster and systematic sampling. In non-probability sampling, elements are chosen arbitrarily by personal judgment, do not have an equal chance and may be less representative.",
+    "w": [
+      "Choosing participants to confirm the hypothesis would be biased and is not random.",
+      "Simple random and systematic sampling both start from a numbered list of the population.",
+      "Every sampling plan begins by delineating the target population."
+    ],
+    "k": "Probability sampling: random draw, every element has a chance, more accurate, less sampling error; four types.",
+    "h": "Chance protects against bias.",
+    "r": "Research Methodology course (Dr. Riachy) – Probability sampling"
+  },
+  {
+    "t": "Sampling",
+    "d": 1,
+    "q": "A researcher numbers every student on a list, writes the numbers on slips, shuffles them in a box and draws one at a time. Which sampling method is this?",
+    "o": [
+      "Simple random sampling",
+      "Stratified random sampling",
+      "Cluster sampling",
+      "Systematic sampling"
+    ],
+    "e": "In simple random sampling every subject has an equal chance of being chosen. The course describes drawing up a numbered list of the population, then drawing numbers at random by computer, from slips of paper shuffled in a ballot box, one at a time until the desired number is reached, or with a random number table such as Fisher's. No strata, groups or fixed interval are involved.",
+    "w": [
+      "Stratified sampling first divides the population into homogeneous strata.",
+      "Cluster sampling draws whole groups, not individuals.",
+      "Systematic sampling uses a fixed interval K after a random start."
+    ],
+    "k": "Simple random sampling: numbered list, random draw (computer, ballot box or Fisher's table), equal chance for all.",
+    "h": "Names in a hat.",
+    "r": "Research Methodology course (Dr. Riachy) – Simple random sampling"
+  },
+  {
+    "t": "Sampling",
+    "d": 3,
+    "q": "A population of 200 has 84 men and 116 women. Using proportional stratified sampling, how many men and women are in a sample of 50?",
+    "o": [
+      "21 men and 29 women",
+      "25 men and 25 women",
+      "42 men and 58 women",
+      "84 men and 116 women"
+    ],
+    "e": "Stratified random sampling divides a heterogeneous population into homogeneous strata (no more than 5) and draws randomly and proportionally from each. The course applies the rule of three: if 200 people include 84 men, then 50 include 84 × 50 / 200 = 21 men; for women, 116 × 50 / 200 = 29. Equivalently, the sample is one quarter of the population, so each stratum is divided by 4.",
+    "w": [
+      "Equal numbers ignore the proportions of the strata.",
+      "42 and 58 are the percentages (or a sample of 100), not a sample of 50.",
+      "This is the entire population, not a sample."
+    ],
+    "k": "Proportional stratified sampling: stratum share in sample = stratum size × sample size ÷ population size.",
+    "h": "Rule of three: 84 × 50 / 200.",
+    "r": "Research Methodology course (Dr. Riachy) – Stratified random sampling"
+  },
+  {
+    "t": "Sampling",
+    "d": 2,
+    "q": "A researcher randomly selects 5 schools, then classes within them, and questions ALL the students in the selected sections. Which sampling method is this?",
+    "o": [
+      "Cluster sampling",
+      "Stratified random sampling",
+      "Systematic sampling",
+      "Non-probability sampling"
+    ],
+    "e": "In cluster sampling, groups of elements (clusters) are selected at random instead of individuals, and all individuals in the selected groups are included. The course's example: to study secondary students in a region, the researcher randomly draws a few schools, then classes and sections within them, and questions every student in those sections. Stratified sampling, in contrast, draws individuals from every stratum.",
+    "w": [
+      "Stratified sampling draws individuals from every stratum, not whole groups.",
+      "Systematic sampling uses a fixed interval along a list.",
+      "The groups are drawn at random, so this is a probability method."
+    ],
+    "k": "Cluster sampling: randomly select whole groups (schools, classes) and include everyone in them.",
+    "h": "Pick the bunch, take every grape.",
+    "r": "Research Methodology course (Dr. Riachy) – Cluster sampling"
+  },
+  {
+    "t": "Sampling",
+    "d": 3,
+    "q": "In systematic sampling with an interval K = 4, the researcher randomly chooses 3 as the starting number. Which subjects enter the sample?",
+    "o": [
+      "Numbers 3, 7, 11, 15 and so on",
+      "Numbers 4, 8, 12, 16 and so on",
+      "Numbers 3, 6, 9, 12 and so on",
+      "Numbers 1, 2, 3 and 4 only"
+    ],
+    "e": "Systematic (interval) sampling numbers the population from 1 to N, fixes the sample size, computes the sampling interval K, chooses a random starting number between 1 and K, then adds K repeatedly. In the course's example K = 4, so the start can be 1, 2, 3 or 4; with 3 chosen, the sample is 3, 7 (3 + 4), 11, 15 and so on until the sample size is reached.",
+    "w": [
+      "This starts at K instead of the randomly chosen start of 3.",
+      "This adds 3 each time instead of the interval K = 4.",
+      "1 to 4 is only the range for choosing the starting number."
+    ],
+    "k": "Systematic sampling: random start between 1 and K, then add K each time (3, 7, 11, 15 for K = 4).",
+    "h": "Start somewhere in the first K, then hop by K.",
+    "r": "Research Methodology course (Dr. Riachy) – Systematic sampling"
+  },
+  {
+    "t": "Sampling",
+    "d": 3,
+    "q": "Which order matches the course's stages for developing a sampling plan?",
+    "o": [
+      "Target population → accessible population → selection criteria → type of sampling → sample size → carry out sampling",
+      "Sample size → target population → type of sampling → selection criteria → accessible population → carry out sampling",
+      "Type of sampling → carry out sampling → target population → sample size → accessible population → selection criteria",
+      "Accessible population → sample size → carry out sampling → target population → selection criteria → type of sampling"
+    ],
+    "e": "The course lists six stages: delineate the target population; delineate the accessible population; specify the criteria for selecting subjects according to their characteristics; specify the type of sampling and how the sample will be constituted; determine the sample size; and carry out the sampling by recruiting subjects according to the chosen type. The logic moves from who in principle, to who can be reached, to how and how many, then to recruitment.",
+    "w": [
+      "Size cannot be fixed before the population is defined.",
+      "Recruitment comes last, after the population, criteria and size are set.",
+      "The target population is delineated before the accessible population."
+    ],
+    "k": "Sampling plan: target → accessible population → criteria → sampling type → size → recruitment.",
+    "h": "Who in theory, who in reach, which rules, which draw, how many, go.",
+    "r": "Research Methodology course (Dr. Riachy) – Stages of a sampling plan"
+  },
+  {
+    "t": "Data collection",
+    "d": 2,
+    "q": "According to the course, which techniques suit EXPLORATORY research ('how does it work?')?",
+    "o": [
+      "Observations, open or semi-structured interviews and questionnaires, recordings, tests and scales",
+      "Only standardized psychological tests and fully structured interviews with fixed answers",
+      "Only correlational analyses of existing databases, without any contact with participants",
+      "Only the manipulation of an independent variable under controlled laboratory conditions"
+    ],
+    "e": "The course ties techniques to the type of question. Descriptive research ('what is going on?') uses questionnaires, structured interviewing, content analysis and correlational methodology. Exploratory research ('how does it work?') accumulates as much information as possible with observations, unstructured or semi-structured interviews, semi-structured questionnaires, recording equipment, tests and scales. Explanatory and predictive research ('why?', 'what will result?') uses questionnaires, structured interviews, measurement scales and standardized tests.",
+    "w": [
+      "Standardized tests and structured interviews characterize explanatory and predictive research.",
+      "Correlational methodology belongs to descriptive research.",
+      "Manipulation of an IV defines experimental research, not exploratory research."
+    ],
+    "k": "Descriptive asks what; exploratory asks how (open, flexible tools); explanatory/predictive asks why and what next (standardized tools).",
+    "h": "Explore with open tools; explain with standard ones.",
+    "r": "Research Methodology course (Dr. Riachy) – Choice of measuring instruments"
+  },
+  {
+    "t": "Data collection",
+    "d": 2,
+    "q": "According to the course, what must a researcher check before using an existing measuring instrument?",
+    "o": [
+      "That the instrument has acceptable reliability and validity",
+      "That the instrument was published in the last five years",
+      "That the instrument has more than 100 items",
+      "That the instrument has never been used in Lebanon"
+    ],
+    "e": "The course states that an existing instrument must have acceptable reliability (fidelity) and validity; if none exists, the researcher must build one and describe its features precisely. Three elements guide the choice of techniques: relevance, metric qualities, and the procedure of use (how it is administered and scored). A copy of the instrument must be included in the appendix.",
+    "w": [
+      "No publication-date requirement is given; metric qualities are what matter.",
+      "No minimum number of items is required.",
+      "Prior local use is not a criterion; reliability and validity are."
+    ],
+    "k": "Use an existing instrument only if reliable and valid; choose techniques by relevance, metric qualities and procedure of use.",
+    "h": "Trust a tool only if it is reliable and valid.",
+    "r": "Research Methodology course (Dr. Riachy) – Choice of measuring instruments"
+  },
+  {
+    "t": "Data collection",
+    "d": 2,
+    "q": "According to the course, which three choices are important in any data collection?",
+    "o": [
+      "Order, organization and accuracy",
+      "Speed, quantity and cost",
+      "Theory, hypothesis and title",
+      "Mean, median and mode"
+    ],
+    "e": "Data collection is guided by the research question and done in stages, after obtaining authorization. The researcher first surveys the field to ensure feasibility, then implements the working method rigorously (for a survey: provisional questionnaire, pre-survey sample, analysis of the trial questionnaires), then records results and conducts interviews. The course stresses three important choices: order, organization and accuracy. Obstacles include methodological errors, problems with instruments (a lower response rate than expected) and inappropriate collection conditions.",
+    "w": [
+      "Speed, quantity and cost are not the course's three choices.",
+      "Theory, hypothesis and title belong to the conceptual phase.",
+      "Mean, median and mode are statistics, not collection principles."
+    ],
+    "k": "Data collection: feasibility check, pilot of the method, careful recording; three key choices are order, organization and accuracy.",
+    "h": "O-O-A: order, organization, accuracy.",
+    "r": "Research Methodology course (Dr. Riachy) – Data collection and processing"
+  },
+  {
+    "t": "Analysis and discussion",
+    "d": 2,
+    "q": "According to the course, in what order are the statistical results presented in the analysis section?",
+    "o": [
+      "Descriptive analyses of the sample first, then inferential tests hypothesis by hypothesis",
+      "Inferential tests first, then a description of the participants at the very end of the chapter",
+      "Only the statistically significant results, without any description of the participants",
+      "The discussion and interpretation first, followed by the raw numbers in tables and figures"
+    ],
+    "e": "The researcher checks the data at least twice, then presents results in narrative form with tables and figures. Descriptive analyses come first, giving enough sociodemographic information to describe the participants (frequencies, percentages, means, standard deviations). Inferential analyses follow, deciding whether each hypothesis is confirmed or disproved with pre-established tests (χ², Student's t) at a stated significance level. With several hypotheses, results are presented hypothesis by hypothesis, in order.",
+    "w": [
+      "The sample is described before inferential tests are reported.",
+      "The participants must always be described, and results go hypothesis by hypothesis.",
+      "Interpretation belongs to the discussion, which follows the analysis."
+    ],
+    "k": "Results: describe the sample first (frequencies, means, SD), then inferential tests (t, χ²) hypothesis by hypothesis.",
+    "h": "Who they were, then what the tests say.",
+    "r": "Research Methodology course (Dr. Riachy) – 6. Analysis of results"
+  },
+  {
+    "t": "Analysis and discussion",
+    "d": 2,
+    "q": "Which list gives the course's four sub-parts of the discussion of results, in order?",
+    "o": [
+      "Integrative summary, interpretation, implications, limitations",
+      "Introduction, method, results, references",
+      "Hypotheses, variables, sample, instruments",
+      "Limitations, implications, integrative summary, interpretation"
+    ],
+    "e": "The discussion opens by briefly recalling the objectives and problem, then explains the results with theories and previous research to give them psychological meaning. Its four sub-parts: an integrative summary stating whether the hypotheses are confirmed; the interpretation of what the results mean in light of theory and past research; the implications, including possible generalization to other situations; and the limitations of the research and how they reduce internal and external validity.",
+    "w": [
+      "These are the sections of an article, not the sub-parts of the discussion.",
+      "These are methodological elements, not discussion sub-parts.",
+      "The elements are right but the order is reversed; the summary comes first."
+    ],
+    "k": "Discussion = integrative summary → interpretation → implications → limitations.",
+    "h": "Sum it, mean it, extend it, limit it.",
+    "r": "Research Methodology course (Dr. Riachy) – Discussion of results"
+  },
+  {
+    "t": "Analysis and discussion",
+    "d": 3,
+    "q": "Which rule applies to the integrative summary at the start of the discussion?",
+    "o": [
+      "It states whether the hypotheses are confirmed, without repeating the numerical results",
+      "It reproduces every table from the analysis section with all the numbers",
+      "It must present every non-significant result in detail",
+      "It lists the limitations of the study before anything else"
+    ],
+    "e": "The integrative summary begins with a few sentences clearly stating whether or not the hypotheses are confirmed. The course specifies that there is no need to recall the results as numbers in this section. Non-significant or very weak results are not presented unless they bring new elements or are of interest to the discussion, while incidental but apparently significant results are presented. Limitations come later, in the fourth sub-part.",
+    "w": [
+      "Numbers belong to the analysis section, not the summary.",
+      "Non-significant results are omitted unless they add something new.",
+      "Limitations are the last sub-part of the discussion."
+    ],
+    "k": "Integrative summary: say which hypotheses were confirmed, in words, without repeating the figures.",
+    "h": "Verdict in words, not numbers.",
+    "r": "Research Methodology course (Dr. Riachy) – Discussion: integrative summary"
+  },
+  {
+    "t": "Analysis and discussion",
+    "d": 2,
+    "q": "In the limitations sub-part of the discussion, what must the researcher demonstrate, according to the course?",
+    "o": [
+      "How weaknesses such as a small sample or unreliable tools reduce internal and external validity",
+      "That all the hypotheses were confirmed despite the problems met during the research",
+      "That the study has no weaknesses compared with the previous research in the literature",
+      "How the results can be applied immediately and without change to all other populations"
+    ],
+    "e": "The course lists limitations due to the research design, the choice of subjects, the measurements, a small sample, problems during data collection, inadequate tools (low reliability, invalidity) and unclear or misinterpreted instructions. The researcher must demonstrate how these factors diminish the internal and external validity of the results. Based on the discussion, the researcher can then draw conclusions and make recommendations.",
+    "w": [
+      "Limitations concern weaknesses, not a restatement of confirmed hypotheses.",
+      "Every study has limitations; the course asks for them to be stated.",
+      "Generalization is discussed under implications and is limited by these very factors."
+    ],
+    "k": "Limitations: name design, sample, tool and procedure weaknesses and show how they reduce internal and external validity.",
+    "h": "Every flaw costs some validity; say how much.",
+    "r": "Research Methodology course (Dr. Riachy) – Discussion: limitations"
+  },
+  {
+    "t": "Conclusion",
+    "d": 2,
+    "q": "Which element does NOT belong in the conclusion of a dissertation, according to the course?",
+    "o": [
+      "New graphs and tables with references to support the results",
+      "A reminder of the aim and objectives of the research",
+      "One or two perspectives for future research",
+      "Practical implications and recommendations"
+    ],
+    "e": "The conclusion reminds the reader of the aim and objectives, briefly presents the methods, the main results and the conclusions reached, points out difficulties, and proposes one or two future research perspectives (other populations, other contexts, better instruments). It also gives practical implications and recommendations. The course's notes: vary the vocabulary rather than repeat earlier text, do not use references, graphs or tables, and avoid placing a quotation on the very last line.",
+    "w": [
+      "The aim and objectives are recalled in the conclusion.",
+      "One or two future research themes are part of the conclusion.",
+      "Practical implications and recommendations are part of the conclusion."
+    ],
+    "k": "Conclusion: aim, methods, main results, difficulties, 1–2 future perspectives, recommendations; no references, graphs, tables or final quotation.",
+    "h": "Close the loop; no new tables.",
+    "r": "Research Methodology course (Dr. Riachy) – 7. Conclusion"
+  },
+  {
+    "t": "Bibliography",
+    "d": 2,
+    "q": "Which is one of the course's rules for the bibliography?",
+    "o": [
+      "Two works by the same author in the same year are distinguished by 'a' and 'b'",
+      "References are listed in the order they appear in the text",
+      "Thesis and dissertation titles are written in italics, never in quotation marks",
+      "An unknown publication date is simply left blank"
+    ],
+    "e": "The bibliography lists all references in alphabetical order from A to Z, in full APA format, at the end of the dissertation, with consistent conventions. Rules include: same author and same year → 'a' and 'b'; translated books → 'translated by' after the title; book and journal titles in italics; thesis and dissertation titles in quotation marks; 12-point font; hanging indent for lines after the first; unknown date → (n.d.); unknown place → (s.l.).",
+    "w": [
+      "The course requires alphabetical order, A to Z.",
+      "The course puts thesis and dissertation titles in quotation marks.",
+      "An unknown date is written (n.d.)."
+    ],
+    "k": "Bibliography: alphabetical, full APA; same author/year → a, b; italic book titles; quoted thesis titles; (n.d.), (s.l.).",
+    "h": "A to Z, and a/b for same-year twins.",
+    "r": "Research Methodology course (Dr. Riachy) – 8. Bibliography"
+  },
+  {
+    "t": "Bibliography",
+    "d": 2,
+    "q": "How does the course say to cite a study with more than two authors after its first mention in the text?",
+    "o": [
+      "Name the first author followed by 'et al.' and the date",
+      "Repeat all the authors' names every time",
+      "Give only the year without any author",
+      "Write the first names and initials of all authors"
+    ],
+    "e": "In-text references give only the author and date, never first names or initials, e.g. (Dupont, 2005) or 'Dulac (2004) observed'. Several references in one parenthesis are in alphabetical order separated by semicolons. For more than two authors, all names are cited at the first reference; afterwards, the first author's name followed by 'et al.' and the date, as in the course's example (Damon et al., 2006).",
+    "w": [
+      "Full names are needed only at the first mention.",
+      "The author must always appear, in the text or in the parenthesis.",
+      "First names and initials are never given in in-text citations."
+    ],
+    "k": "In-text: author and date only; several references alphabetical with semicolons; 3+ authors → all names first, then 'et al.'.",
+    "h": "First time everyone, then 'et al.'.",
+    "r": "Research Methodology course (Dr. Riachy) – References in the text"
+  },
+  {
+    "t": "Bibliography",
+    "d": 2,
+    "q": "A student read about Seidenberg's study only in a book by Curtis. According to the course, how should this be handled?",
+    "o": [
+      "Cite the original 'cited by' Curtis in the text and list Curtis's book in the bibliography",
+      "Cite Seidenberg directly in the text, as if the original study had been read in full",
+      "List only Seidenberg in the bibliography and leave Curtis out of the text and the references",
+      "Avoid mentioning either author's name, to prevent confusing the reader about the sources"
+    ],
+    "e": "When citing an author cited by another author, the course says this must be stated clearly: give the name of the original author and, in parentheses, 'cited by' with the author of the secondary document. In the bibliography, it is the secondary document that is referenced, because that is what the student actually read. The course nonetheless recommends going back to the original source whenever possible.",
+    "w": [
+      "Citing an unread original as if read misrepresents the source.",
+      "The bibliography lists the secondary document actually consulted.",
+      "Ideas from others must always be attributed."
+    ],
+    "k": "Secondary citation: 'Original (cited by Secondary, year)'; the bibliography lists the secondary source; better to read the original.",
+    "h": "Credit both; list the one you held.",
+    "r": "Research Methodology course (Dr. Riachy) – References in the text"
+  },
+  {
+    "t": "Bibliography",
+    "d": 2,
+    "q": "In footnotes, what is the difference between 'Ibid.' and 'op. cit.'?",
+    "o": [
+      "'Ibid.' refers to the reference immediately preceding; 'op. cit.' refers to a work already cited a few pages earlier",
+      "'Ibid.' refers to a work cited a few pages earlier; 'op. cit.' to the reference immediately preceding",
+      "'Ibid.' is for books and 'op. cit.' for journal articles",
+      "Both mean that the date of publication is unknown"
+    ],
+    "e": "For repeated footnote references to the same work, the course explains: 'Ibid.' (in the same place) is used when the reference is the one immediately before it on the same page, followed by the page number. 'Op. cit.' (in the work cited) is used when the same work was cited further back, a page or two earlier, with the author's name, e.g. S. Freud, op. cit., p. An unknown date is written (n.d.).",
+    "w": [
+      "This reverses the meanings of the two abbreviations.",
+      "Neither depends on the type of document.",
+      "An unknown date is noted (n.d.)."
+    ],
+    "k": "Ibid. = same source as the note just before; op. cit. = a work already cited a few pages back.",
+    "h": "Ibid is the twin next door; op. cit. is the cousin a few pages away.",
+    "r": "Research Methodology course (Dr. Riachy) – References: Ibid. and op. cit."
+  },
+  {
+    "t": "Dissertation structure",
+    "d": 2,
+    "q": "According to the course, how are appendices presented?",
+    "o": [
+      "Numbered in Roman numerals, each with a title and separate pagination, and referred to in the text",
+      "Numbered in Arabic numerals and placed before the bibliography without titles",
+      "Merged into the theoretical chapters to save space",
+      "Placed before the introduction, after the abstract"
+    ],
+    "e": "Appendices are numbered in Roman numerals and referred to in the text with the necessary details ('see Annex I, page...'). They have separate pagination and each has a title. They include an example of the material used (questionnaire, scale, interview guide), an example of a participant's answer sheet, important statistical tables not included in the text, and the permission sheet for applying the material in the institution. Page numbers of the main text are Arabic.",
+    "w": [
+      "Arabic numerals are for the main text's pages; appendices use Roman numerals and titles.",
+      "Appendices are separate from the theoretical chapters.",
+      "Appendices come at the very end, after the bibliography."
+    ],
+    "k": "Appendices: Roman numerals, titled, separately paginated; contain instruments, an answer sheet, extra tables and permissions.",
+    "h": "Annex I, II, III: Roman at the back.",
+    "r": "Research Methodology course (Dr. Riachy) – 9. Annexes"
+  },
+  {
+    "t": "Dissertation structure",
+    "d": 2,
+    "q": "According to the course, the introduction of a dissertation has a funnel shape. What does this mean?",
+    "o": [
+      "It moves from the general phenomenon to the specific context, objectives, problem and hypotheses",
+      "It starts with the results and ends with the general theory",
+      "It is written last and contains only the conclusion of the study",
+      "It lists all the bibliography references in narrowing order"
+    ],
+    "e": "The introduction goes from the general to the particular: introduce the phenomenon, place the research in its specific context, cite the most relevant theoretical facts and previous studies, and outline the organization of the dissertation. It then explains the objectives and motivation, the value of the research (theoretical interest: new information; practical interest: solutions to problems), presents the problem and formulates the hypotheses with operationally defined variables.",
+    "w": [
+      "Results come much later, in Part 2.",
+      "The introduction opens the work; the conclusion is a separate section.",
+      "The bibliography is a separate section at the end."
+    ],
+    "k": "Introduction = funnel: general phenomenon → context → previous studies → objectives, interest → problem → hypotheses.",
+    "h": "Wide mouth, narrow spout.",
+    "r": "Research Methodology course (Dr. Riachy) – Reminder of the parts of the research"
+  },
+  {
+    "t": "Dissertation structure",
+    "d": 1,
+    "q": "How does the course define the theoretical and practical interest of a research project?",
+    "o": [
+      "Theoretical interest: providing new information; practical interest: presenting solutions to problems",
+      "Theoretical interest: the researcher's hobbies; practical interest: the researcher's career",
+      "Theoretical interest: the number of references; practical interest: the number of participants",
+      "Theoretical interest: the statistics used; practical interest: the software used"
+    ],
+    "e": "In the introduction, after the objectives and motivations, the researcher explains the value of the research. The course defines theoretical interest as bringing new information (adding to knowledge) and practical interest as presenting solutions to problems (applications for clinicians, schools, families). Dr. Riachy's final exams ask for both explicitly in the introduction: 'explain its theoretical and practical importance'.",
+    "w": [
+      "Personal interests belong to motivations, not to the research's interest.",
+      "Counts of references or participants are not what interest means.",
+      "Statistics and software belong to the analysis plan."
+    ],
+    "k": "Theoretical interest = new knowledge; practical interest = solutions to real problems.",
+    "h": "Theory adds knowledge; practice solves problems.",
+    "r": "Research Methodology course (Dr. Riachy) – Introduction; RM final exams 2024–2026"
+  },
+  {
+    "t": "Dissertation structure",
+    "d": 2,
+    "q": "In the course's 'Research steps', what does Part 2 (Methodological approach), Chapter 1 'Working method' contain?",
+    "o": [
+      "Sample, methods and techniques, limitations, data collection, statistical processing",
+      "Conceptual framework, theories, definitions of the variables and empirical studies",
+      "Objectives, motivations, theoretical and practical interest, problem statement and hypotheses",
+      "Presentation of the results in tables, statistical tests and discussion of the results"
+    ],
+    "e": "The course's plan: Introduction (objectives and motivations, interest, problem, hypotheses with operational definitions); Part 1, Frame of reference (Chapter 1 conceptual and theoretical framework; Chapter 2 empirical framework); Part 2, Methodological approach (Chapter 1 working method: 1.1 sample, 1.2 methods and techniques, 1.3 limitations, 1.4 data collection, 1.5 statistical processing; Chapter 2 analysis and discussion of results); conclusion; bibliography; appendices.",
+    "w": [
+      "These make up Part 1, the frame of reference.",
+      "These all belong to the introduction.",
+      "These form Chapter 2 of Part 2, analysis and discussion."
+    ],
+    "k": "Part 2 Ch. 1 = sample, methods and techniques, limitations, data collection, statistical processing; Ch. 2 = analysis and discussion.",
+    "h": "Who, how, limits, gathering, numbers.",
+    "r": "Research Methodology course (Dr. Riachy) – Research steps"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "In Dr. Riachy's final exams, Question 1 asks you to develop a topic. What must Part 1, the frame of reference, contain?",
+    "o": [
+      "A conceptual and theoretical framework, and an empirical framework",
+      "The sample, the methods and the techniques used",
+      "The objectives, motivations and theoretical and practical interest",
+      "The statistical results and their discussion"
+    ],
+    "e": "The 2024–2025 and 2025–2026 final exams all use the same structure. Introduction: objectives and motivations, theoretical and practical interest, problem, hypotheses with variables identified and operationally defined. Part 1, frame of reference: conceptual and theoretical framework, plus empirical framework (existing studies). Part 2, methodological approach: working method, with the sample, methods and techniques used. It mirrors the course's research steps.",
+    "w": [
+      "Sample, methods and techniques belong to Part 2.",
+      "Objectives and interest belong to the introduction.",
+      "Results are not requested in the exam's development question."
+    ],
+    "k": "Exam Q1: Introduction (aims, interest, problem, operational hypotheses) → Part 1 (theory + empirical studies) → Part 2 (sample, methods, techniques).",
+    "h": "Intro, theory, method.",
+    "r": "RM final exams 2024–2026 (Dr. Riachy) + Research Methodology course – Research steps"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Exam title: 'The relationship between smartphone addiction and loneliness in adolescents.' Which type of research fits best according to the course?",
+    "o": [
+      "Descriptive correlational quantitative research",
+      "Experimental research with a control group",
+      "Content analysis of documents",
+      "Cross-sectional comparison of different age groups"
+    ],
+    "e": "The title asks about a relationship between two measured variables, neither manipulated by the researcher. The course's correlational method 'measures the degree of relationship between two or more quantifiable variables', a descriptive quantitative technique. A fitting hypothesis would be operational, such as: 'There is a positive correlation between smartphone addiction scores and loneliness scores in adolescents.' Experimental research would require manipulating addiction, which is neither feasible nor ethical.",
+    "w": [
+      "Nobody can ethically assign adolescents to become addicted, so no manipulation is possible.",
+      "The study measures adolescents, not documents.",
+      "The title concerns one age group, not a comparison of ages."
+    ],
+    "k": "A title stating a 'relationship' between two measured variables calls for a descriptive correlational design.",
+    "h": "'Relationship' → correlate.",
+    "r": "RM final exam 2024–2025, session 1 (Dr. Riachy) + Research Methodology course – Correlational method"
+  },
+  {
+    "t": "Exam practice",
+    "d": 3,
+    "q": "Exam title: 'The influence of childhood trauma on adult attachment styles.' Why is an experimental design NOT appropriate?",
+    "o": [
+      "Childhood trauma, the independent variable, cannot be manipulated, so groups are compared descriptively",
+      "Attachment style is the independent variable, and it cannot be measured with any instrument",
+      "Experiments are forbidden with adult participants under the course's ethical rules",
+      "The title contains no dependent variable, so no hypothesis can be formulated from it"
+    ],
+    "e": "The experimental method requires manipulating the IV and comparing treated and untreated groups. Childhood trauma is the IV and attachment style the DV, but trauma can only be measured, never induced. The researcher compares adults with and without a trauma history, a descriptive-comparative design, possibly with case studies. The course treats a similar title, 'The father's violence and its influence on the child's aggressive behaviour', the same way.",
+    "w": [
+      "Attachment style is the DV, and it can be measured with scales or interviews.",
+      "Experiments with adults are possible; the problem is that trauma cannot be manipulated.",
+      "Experiments with adults are possible; the problem is that trauma cannot be induced."
+    ],
+    "k": "When the IV is a past experience that cannot be manipulated (trauma, violence), use a descriptive-comparative design or case study.",
+    "h": "You cannot assign trauma; you can only compare.",
+    "r": "RM final exam 2024–2025, session 2 (Dr. Riachy) + Research Methodology course – Training"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Exam title: 'The effects of meditation on stress reduction in workers.' Which is a correct directional operational hypothesis?",
+    "o": [
+      "Workers who follow a meditation programme show lower stress scores than workers who do not",
+      "Meditation has an effect on stress",
+      "Is there a relationship between meditation and stress in workers?",
+      "There is no significant difference in stress between workers who meditate and those who do not"
+    ],
+    "e": "Here meditation is the IV and stress the DV, and an experimental design fits because a meditation programme can be applied to one group and not another. A directional operational hypothesis names concrete groups and predicts the direction with a term such as 'lower than'. 'Meditation has an effect on stress' is the general hypothesis; the question form is a research question; the 'no significant difference' form is the null hypothesis.",
+    "w": [
+      "This is the general hypothesis: abstract, with no groups or direction.",
+      "This is a research question, not an affirmative hypothesis.",
+      "This is the null (statistical) hypothesis."
+    ],
+    "k": "Directional operational hypothesis = concrete groups + measurable DV + direction word ('lower than').",
+    "h": "Groups, measure, arrow.",
+    "r": "RM final exam 2024–2025, session 1 (Dr. Riachy) + Research Methodology course – Hypotheses"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Exam title: 'The role of intrinsic motivation in academic persistence among university students.' Identify the variables.",
+    "o": [
+      "IV: intrinsic motivation; DV: academic persistence; population: university students",
+      "IV: academic persistence; DV: intrinsic motivation; population: university students",
+      "IV: university students; DV: intrinsic motivation; population: academic persistence",
+      "IV and DV: intrinsic motivation; population: academic persistence"
+    ],
+    "e": "The title states that intrinsic motivation plays a role in (acts on) academic persistence, so intrinsic motivation is the IV (the presumed cause or influence) and academic persistence is the DV (the outcome). University students are the population, not a variable. A general hypothesis would be 'Intrinsic motivation influences academic persistence'; an operational one: 'Students with high intrinsic motivation persist more than students with low intrinsic motivation.'",
+    "w": [
+      "This reverses the cause (IV) and the effect (DV).",
+      "The population is never the IV, and persistence is a variable, not the population.",
+      "One variable cannot be both IV and DV in the same relationship."
+    ],
+    "k": "In 'the role of X in Y among Z', X is the IV, Y the DV and Z the population.",
+    "h": "The 'role' plays on the outcome.",
+    "r": "RM final exam 2025–2026 (Dr. Riachy) + Research Methodology course – Variables"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Exam title: 'The impact of sleep deprivation on cognitive performance.' Which type of research fits best?",
+    "o": [
+      "Experimental: deprive one group of sleep and compare its cognitive performance with a control group",
+      "Content analysis of sleep diaries written by participants over several weeks of observation",
+      "Qualitative case study of 6 to 10 insomniac patients, without any comparison group",
+      "Cross-sectional comparison of the cognitive performance of several different age groups"
+    ],
+    "e": "The title asks about the impact (cause and effect) of sleep deprivation (IV) on cognitive performance (DV). Sleep deprivation can be manipulated under controlled conditions: one group is kept awake, the control group sleeps normally, other variables are held constant, and performance on cognitive tests is compared. The course's experimental method is designed exactly for establishing such cause-and-effect relationships between equivalent groups.",
+    "w": [
+      "Content analysis processes documents and cannot test cause and effect.",
+      "A case study without a comparison group cannot test a causal impact.",
+      "The title involves no comparison of ages."
+    ],
+    "k": "When the IV can be manipulated under controlled conditions and the title asks about impact, choose an experimental design.",
+    "h": "Can you switch the IV on and off? Then experiment.",
+    "r": "RM final exam 2024–2025, session 2 (Dr. Riachy) + Research Methodology course – Experimental method"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "In the course's training topic 'Emotional intelligence and academic performance of secondary students in Beirut', which method and instruments are proposed?",
+    "o": [
+      "A comparative descriptive method with an EI test, academic results and a teacher questionnaire",
+      "An experimental method in which EI is trained in one class and compared with another class",
+      "A content analysis of the school textbooks used in the secondary classes of Beirut schools",
+      "A single case study of one student using a projective test and a clinical interview"
+    ],
+    "e": "In this worked example, emotional intelligence is the IV ('it is the cause, the stimulus, it acts and influences') and academic performance the DV. The research questions compare levels (high versus low EI) and groups (boys and girls, S1 and S3, public and private schools). The course proposes a comparative descriptive method to establish relationships between the two variables, with an EI test, students' academic results and a questionnaire for teachers.",
+    "w": [
+      "No training programme is applied, so the design is not experimental.",
+      "The study measures students, not textbooks.",
+      "Many students and groups are compared; it is not a single case."
+    ],
+    "k": "EI and academic performance: IV = EI, DV = performance; comparative descriptive method with an EI test, grades and a teacher questionnaire.",
+    "h": "Measure, compare, relate.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: emotional intelligence"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Classify: 'There is no significant difference in learning strategies between boys and girls.'",
+    "o": [
+      "Null (statistical) hypothesis",
+      "Directional operational hypothesis",
+      "Non-directional operational hypothesis",
+      "General hypothesis"
+    ],
+    "e": "The course's training answer: this is a null hypothesis because it states that there is no relationship (no difference) between boys' and girls' learning strategies. The null hypothesis is the statistical form tested by inferential tests such as Student's t. A non-directional operational version would say 'There are significant differences in learning strategies between boys and girls'; a directional one would say which sex uses more strategies.",
+    "w": [
+      "No direction is predicted; it denies any difference.",
+      "A non-directional hypothesis asserts that a difference exists.",
+      "A general hypothesis states an abstract relationship, not 'no difference'."
+    ],
+    "k": "'There is no significant difference/relationship' = null (statistical) hypothesis.",
+    "h": "'No' → null.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: types of hypotheses"
+  },
+  {
+    "t": "Exam practice",
+    "d": 2,
+    "q": "Classify: 'As poverty increases, violence increases.'",
+    "o": [
+      "Directional hypothesis, expressed as 'the more... the more'",
+      "Null hypothesis, because it does not mention any statistical test",
+      "Non-directional hypothesis, because no group is named",
+      "Zero-correlation hypothesis, because the two variables vary together"
+    ],
+    "e": "The course's training answer classifies this as a directional hypothesis because it is expressed as 'the more... the more': as one variable rises, so does the other, which predicts a positive relationship. Other direction markers in the course include 'more than', 'less than', 'better than', 'positive correlation' and 'negative correlation'. A non-directional form would merely say 'Poverty is related to violence'.",
+    "w": [
+      "It asserts a relationship, so it is not null; null hypotheses deny any relationship or difference.",
+      "It predicts the direction (both increase together), so it is not non-directional.",
+      "Zero correlation means no relationship, the opposite of variables varying together."
+    ],
+    "k": "'The more X, the more Y' predicts a positive direction, so the hypothesis is directional.",
+    "h": "Both arrows point up.",
+    "r": "Research Methodology course (Dr. Riachy) – Training: types of hypotheses"
+  },
+  {
+    "t": "Formatting",
+    "d": 2,
+    "q": "Which formatting rule matches the course?",
+    "o": [
+      "Body text in Times New Roman 12 pt, chapter titles centered in bold 16 pt capitals",
+      "Body text in Arial 14 pt, chapter titles in 12 pt italics aligned to the left margin",
+      "Footnotes in 12 pt, gathered at the end of each chapter rather than on the same page",
+      "Appendices numbered in Arabic numerals and main-text pages numbered in Roman numerals"
+    ],
+    "e": "The course's formatting rules: A4 paper, text justified left and right, Times New Roman 12 pt; page numbers in Arabic numerals (centered or right, top or bottom); appendices in Roman numerals; footnotes separated by a line, in 10 pt, entirely on the same page; part titles (theoretical, practical, appendices) on a separate page in bold capitals at 18 pt; chapter titles centered, bold capitals, 16 pt; a new page for each chapter; numbering 1., 1.1, 1.2.",
+    "w": [
+      "The font is Times New Roman 12 and chapter titles are bold 16 pt.",
+      "Footnotes are 10 pt and on the same page.",
+      "This reverses the two numbering systems: pages are Arabic, appendices Roman."
+    ],
+    "k": "Times New Roman 12; footnotes 10; chapter titles 16 bold; part titles 18 bold; Arabic page numbers; Roman appendices.",
+    "h": "12 text, 16 chapters, 18 parts, 10 footnotes.",
+    "r": "Research Methodology course (Dr. Riachy) – III. Formatting"
+  },
+  {
+    "t": "Dissertation structure",
+    "d": 2,
+    "q": "What does the course say the abstract should contain?",
+    "o": [
+      "In English and French, 1–15 lines: problem, sample, method, main results, interpretation, conclusion",
+      "Only the title of the dissertation, the researcher's name and the supervisor's name",
+      "A full copy of the questionnaire used and the raw data collected from every participant",
+      "The acknowledgments to the supervisor and the dedications to family and friends"
+    ],
+    "e": "The course lists the preliminary sections in order: cover page, title page, dedications, acknowledgments, contents (where pagination starts), list of figures, list of tables, and the abstract. The abstract is in English and French, 1 to 15 lines long, and includes the problem, the sample, the methodology, the main results, their interpretation and the conclusion. Some institutions also require about five keywords that best represent the research.",
+    "w": [
+      "The title page, not the abstract, carries the title and names.",
+      "Instruments and raw data go in the appendices.",
+      "Dedications and acknowledgments are separate preliminary sections."
+    ],
+    "k": "Abstract: English and French, 1–15 lines, problem, sample, method, main results, interpretation, conclusion; ~5 keywords.",
+    "h": "The whole study in a paragraph.",
+    "r": "Research Methodology course (Dr. Riachy) – Sections of the dissertation"
+  }
+]

@@ -1,0 +1,2244 @@
+[
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "What are the steps to enter variables and data in SPSS?",
+    "o": [
+      "Define variables in Variable View, then enter data in Data View",
+      "Enter data in Data View, then define variables in Variable View",
+      "Import the data first, then use Transform → Compute to define it",
+      "Open Analyze → Frequencies first, then type the data in"
+    ],
+    "e": "SPSS separates the dictionary of your data from the data itself. In Variable View you first define each variable: its name, type (numeric or string), width, decimals, label, values, and measure (nominal, ordinal or scale). Only then do you switch to Data View and type in the values, where each defined variable automatically appears as a column. Defining first means SPSS knows what each column is (for example that 1 means 'male'), so entry is faster and errors are fewer.",
+    "w": [
+      "Typing data before defining variables leaves SPSS with unnamed, unlabelled columns; the course defines first.",
+      "Importing is an alternative way to get data in, and Compute creates new variables; neither defines the variables.",
+      "Frequencies is an analysis; you cannot analyse before variables and data exist."
+    ],
+    "k": "Variable View first (define the variables), then Data View (enter the data).",
+    "h": "Set the table before serving the meal: Variable View sets the table, Data View serves the food.",
+    "r": "SPSS Final – Steps; Prev. Exams Q1"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "Which is a valid entry in the 'Name' property?",
+    "o": [
+      "grade_level",
+      "grade level",
+      "grade-level 2",
+      "grade level (years)"
+    ],
+    "e": "The Name is a short technical identifier that SPSS uses internally and in syntax, so it cannot contain spaces. The course rule: use underscores instead (grade_level). SPSS also disallows most special characters, such as hyphens, in names, and a name should begin with a letter. Anything human-readable and long, with spaces, units or the full questionnaire wording, goes in the Label property.",
+    "w": [
+      "It contains a space, which the Name property does not allow.",
+      "It contains a space and a hyphen; neither is allowed in a variable name.",
+      "Spaces and brackets are not allowed in a name; '(years)' belongs in the Label."
+    ],
+    "k": "Name: no spaces; use underscores (grade_level). Long descriptions go in Label.",
+    "h": "An underscore is a space that's lying down so the name doesn't break.",
+    "r": "SPSS Final – Name"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "Where in Variable View CAN you type spaces, for example a whole questionnaire item?",
+    "o": [
+      "Label",
+      "Name",
+      "Values",
+      "Measure"
+    ],
+    "e": "The Label property is the human-readable description of a variable, so spaces are allowed. The course gives it two uses: describing the unit or specification ('in cm', 'in £') or typing an entire questionnaire item ('I would not leave this firm even if another employer could offer me a little more money'). SPSS shows labels in dialogs and output, which makes results readable while the Name stays short.",
+    "w": [
+      "Name cannot contain spaces; it uses underscores.",
+      "Values attach meanings to numeric codes (1 = male); it is not where the item's wording goes.",
+      "Measure is a choice of nominal, ordinal or scale, not free text."
+    ],
+    "k": "Label holds readable text with spaces: units ('in £') or the full question wording.",
+    "h": "A label on a jar can say anything; the name on the shelf code must be one word.",
+    "r": "SPSS Final – Label"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "When is the 'Values' box left empty?",
+    "o": [
+      "When the variable's type is String",
+      "When the variable is numeric with codes",
+      "When the measure is nominal",
+      "When there are only two options"
+    ],
+    "e": "The Values property attaches word labels to numeric codes (1 = male, 2 = female). If a variable is String, its entries already are the words ('male', 'female'), so there is nothing to translate and the summary says we don't fill the Values box. This is also why the course prefers numeric codes plus Values: you get compact numbers in the data and readable labels in the output.",
+    "w": [
+      "Numeric coded variables are exactly the ones that need Values to say what each code means.",
+      "Nominal numeric variables (for example ethnic group 1–4) use Values; being nominal doesn't make the box empty.",
+      "Two-option numeric variables like gender 1/2 still need Values to label the codes."
+    ],
+    "k": "Leave Values empty for String variables; numeric codes need Values to label them.",
+    "h": "Words don't need a dictionary; codes do.",
+    "r": "SPSS Final – Values"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "'1 = Male, 2 = Female' is entered in which property?",
+    "o": [
+      "Values",
+      "Label",
+      "Type",
+      "Measure"
+    ],
+    "e": "Value labels live in the Values property: it maps each numeric code to its meaning, so SPSS can display 'Female' instead of '2' in tables and charts. Keep the three text-like properties apart: Name is the short identifier (gender), Label describes the variable as a whole ('Gender of participant'), and Values labels the individual codes.",
+    "w": [
+      "Label describes the whole variable (for example 'Gender of participant'), not each code.",
+      "Type is Numeric or String, the kind of data stored.",
+      "Measure is nominal, ordinal or scale, the level of measurement."
+    ],
+    "k": "Values = labels for each numeric code (1 = Male, 2 = Female).",
+    "h": "VALUES gives each number its VALUE in words.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "The two 'Type' options taught in the course are:",
+    "o": [
+      "Numeric (numbers) and String (words)",
+      "Nominal (names) and Scale (numbers)",
+      "Ordinal (ranks) and Interval (equal steps)",
+      "Label (description) and Value (codes)"
+    ],
+    "e": "Type tells SPSS what kind of characters a variable stores: Numeric (numbers) or String (words, text). It is different from Measure, which says what the numbers mean statistically (nominal, ordinal, scale). A numeric variable can still be nominal, for example gender coded 1/2, which is why the two properties are set separately. SPSS offers further types (date, currency, and so on), but the course teaches these two.",
+    "w": [
+      "Nominal and Scale are Measure options (level of measurement), not Type options.",
+      "Ordinal is a Measure option, and 'interval' is a measurement level SPSS folds into 'Scale'.",
+      "Label and Value are separate Variable View properties, not types."
+    ],
+    "k": "Type = Numeric (numbers) or String (words); Measure = nominal, ordinal or scale.",
+    "h": "Type is the alphabet (digits or letters); Measure is the meaning.",
+    "r": "SPSS Final – Type"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "'Width' refers to:",
+    "o": [
+      "The number of characters that fit in the box",
+      "The number of decimal places shown",
+      "The column size displayed on screen",
+      "The level of measurement of the variable"
+    ],
+    "e": "Width is the number of characters that fit in the variable's box, for example how long a string can be or how many digits a number may show. It is easy to confuse with three neighbours: Decimals is how many decimal places are shown, Columns sets the column's display size in Data View, and Measure is the level of measurement. Width is about content length; Columns is about screen space.",
+    "w": [
+      "Decimals controls the number of decimal places shown.",
+      "Columns controls the displayed column size on screen.",
+      "Measure sets the level of measurement (nominal, ordinal, scale)."
+    ],
+    "k": "Width = how many characters fit in the variable's box (content length).",
+    "h": "Width is how wide the word can be; Columns is how wide the window is.",
+    "r": "SPSS Final – Width"
+  },
+  {
+    "t": "Measurement",
+    "d": 2,
+    "q": "A participant ID coded 1, 2, 3… should be measured as:",
+    "o": [
+      "Nominal",
+      "Scale",
+      "Ordinal",
+      "String"
+    ],
+    "e": "Level of measurement depends on what the numbers mean, not on whether they are digits. ID numbers only label people: participant 3 is not 'more' than participant 2, and averaging IDs is meaningless. So IDs are nominal, a point the summary makes explicitly: they can be written in numbers but have no meaningful numeric value. Ask: does order matter (ordinal)? Do differences and averages make sense (scale)? If neither, it is nominal.",
+    "w": [
+      "Scale needs meaningful arithmetic; the average of ID numbers means nothing.",
+      "Ordinal needs a meaningful order; ID 3 is not more of anything than ID 2.",
+      "String is a Type, not a level of measurement."
+    ],
+    "k": "Numbers used only as labels (IDs) are nominal: digits don't make a variable scale.",
+    "h": "A jersey number is a name tag: number 10 isn't twice number 5.",
+    "r": "SPSS Final – Measure note"
+  },
+  {
+    "t": "Measurement",
+    "d": 1,
+    "q": "A 5-point item from strongly disagree (1) to strongly agree (5) is measured as:",
+    "o": [
+      "Ordinal",
+      "Nominal",
+      "Scale",
+      "String"
+    ],
+    "e": "A Likert-type item has ordered categories: 'agree' is more agreement than 'undecided', and 'strongly agree' more than 'agree'. The order is meaningful, but the distances between steps are not guaranteed to be equal, so the course classifies it as Ordinal, with the codes 1–5 labelled in Values. In the questionnaire example, item 6(a) is entered with Measure: Ordinal.",
+    "w": [
+      "Nominal categories have no order, but agreement levels clearly do.",
+      "Scale assumes equal, meaningful distances, which a single agreement item does not guarantee.",
+      "String is a Type; the item is stored as numeric codes 1–5."
+    ],
+    "k": "Agreement items (strongly disagree → strongly agree) are ordinal: ordered categories.",
+    "h": "Ordinal = ORDER: the steps go up, but the steps may be uneven.",
+    "r": "SPSS Final – Questionnaire example"
+  },
+  {
+    "t": "Measurement",
+    "d": 1,
+    "q": "Annual income in £ is defined as:",
+    "o": [
+      "Type Numeric, Label 'in £', Measure Scale",
+      "Type String, Measure Nominal",
+      "Type Numeric, Measure Ordinal",
+      "Type String, Label 'in £', Measure Scale"
+    ],
+    "e": "Income is a true quantity: you can add, average and compare amounts, and a difference of £1,000 means the same anywhere on the range. So it is Type Numeric, Measure Scale, and the unit goes in Label ('in £'), because the Name cannot hold it. The course's questionnaire example sets age and work experience the same way, with Label 'in years'.",
+    "w": [
+      "Income is a number you can do arithmetic on, so it is neither a String nor nominal.",
+      "Income has equal, meaningful distances, so Scale fits, not ordinal.",
+      "Income is numeric; storing it as String would stop SPSS from calculating with it."
+    ],
+    "k": "Quantities like income or age: Numeric type, Scale measure, unit in Label.",
+    "h": "If you can average it sensibly, it's Scale.",
+    "r": "SPSS Final – Questionnaire example"
+  },
+  {
+    "t": "Measurement",
+    "d": 2,
+    "q": "Ethnic group (British, Other European, Asian, African) coded 1–4 is defined as:",
+    "o": [
+      "Type Numeric, Values 1–4, Measure Nominal",
+      "Type String, Values 1–4, Measure Ordinal",
+      "Type Numeric, Values 1–4, Measure Scale",
+      "Type Numeric, Values 1–4, Measure Ordinal"
+    ],
+    "e": "Ethnic group names categories with no inherent order (British is not 'less' than African), so it is nominal. Each group gets a numeric code for practicality (Type Numeric) and the codes are labelled in Values (1 = British, 2 = Other European, 3 = Asian, 4 = African). The numbers are arbitrary labels: reordering them would change nothing about the data.",
+    "w": [
+      "String would not use Values codes, and ethnic groups have no order, so Ordinal is wrong.",
+      "Scale treats the codes as quantities; averaging ethnic codes is meaningless.",
+      "The groups have no meaningful order, so Ordinal is wrong."
+    ],
+    "k": "Unordered categories coded as numbers: Type Numeric, Values labels, Measure Nominal.",
+    "h": "If shuffling the codes changes nothing, it's nominal.",
+    "r": "SPSS Final – Questionnaire example"
+  },
+  {
+    "t": "Measurement",
+    "d": 2,
+    "q": "Why does the course recommend converting string categories into numeric codes?",
+    "o": [
+      "For practicality, when the options are limited",
+      "Because SPSS cannot store words",
+      "Because nominal variables must be numeric",
+      "To make the variable scale"
+    ],
+    "e": "The summary's reason is practicality: numbers are faster to type, avoid spelling inconsistencies ('Asian', 'asian', 'Asain'), and work in more procedures. The course adds a condition: do it when the options are limited. A variable with a few categories (gender, ethnic group) is easy to code; open-ended text with hundreds of different answers is not, so it stays String.",
+    "w": [
+      "SPSS can store words: String is a valid Type.",
+      "Nominal variables can be String; coding them as numbers is a choice, not a rule.",
+      "Numeric codes for categories remain nominal; coding does not make them scale."
+    ],
+    "k": "Convert strings to numeric codes for practicality when the options are few.",
+    "h": "Few options? Number them. Endless answers? Leave them as words.",
+    "r": "SPSS Final – Ethnic_group note"
+  },
+  {
+    "t": "Measurement",
+    "d": 2,
+    "q": "In the questionnaire, items (a)–(d) under question 6 are entered as:",
+    "o": [
+      "Four separate variables",
+      "One variable with four values",
+      "One string variable",
+      "A computed variable"
+    ],
+    "e": "Each subquestion under a broader question is a separate variable, because each one collects its own answer from every participant. In SPSS terms each needs its own column, each with its own Label (the item wording) and Values (1 = strongly disagree … 5 = strongly agree). Only then can you analyse items separately, reverse-code one of them, or compute a total from all four.",
+    "w": [
+      "One variable can hold only one answer per person; four items give four answers.",
+      "String would lose the numeric codes needed to total and analyse the items.",
+      "A computed variable (such as a total) is created from the items afterwards; the items themselves are entered first."
+    ],
+    "k": "Every subquestion is its own variable (its own column).",
+    "h": "One answer per person = one column.",
+    "r": "SPSS Final – Questionnaire example"
+  },
+  {
+    "t": "Measurement",
+    "d": 1,
+    "q": "'Scale' measure means:",
+    "o": [
+      "Numeric variables where math makes sense",
+      "Qualitative categories without any order",
+      "Qualitative categories with a meaningful order",
+      "Text answers typed in as String values"
+    ],
+    "e": "In SPSS, Scale is the level for numeric variables where arithmetic makes sense: heights, ages, scores, income. SPSS combines the classic interval and ratio levels under this one label. The three Measure options form a ladder: nominal (categories, no order), ordinal (categories with order), scale (numbers with meaningful distances). Setting Measure correctly matters because many SPSS charts and procedures use it to decide what to allow.",
+    "w": [
+      "Qualitative categories without any order are nominal, the lowest level of measurement, where arithmetic makes no sense.",
+      "Categories with a meaningful order are ordinal.",
+      "Text answers are a Type (String), not a level of measurement."
+    ],
+    "k": "Scale = numeric data where math makes sense (SPSS's name for interval and ratio).",
+    "h": "On a bathroom scale, the numbers really mean amounts.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Data View",
+    "d": 1,
+    "q": "In Data View:",
+    "o": [
+      "Rows are cases and columns are variables",
+      "Rows are variables and columns are cases",
+      "Each row is a property",
+      "Each column is a participant"
+    ],
+    "e": "Data View is a grid: each row is one case (usually one participant) and each column is one variable. This 'one row per case, one column per variable' layout is the foundation of every SPSS analysis. Variable View is the mirror image: there, each row describes one variable (its name, type, label and so on).",
+    "w": [
+      "This is reversed: in Data View rows are cases and columns are variables.",
+      "Properties (name, type…) are rows in Variable View, not Data View.",
+      "Each participant is a row (a case); each column is a variable, so this reverses Data View."
+    ],
+    "k": "Data View: rows = cases (participants), columns = variables.",
+    "h": "Rows = Respondents.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Data View",
+    "d": 1,
+    "q": "How do you import an Excel file?",
+    "o": [
+      "File → Import Data → Excel → select the file",
+      "Transform → Recode → Excel",
+      "Analyze → Descriptive Statistics → Excel",
+      "Graphs → Chart Builder → Import"
+    ],
+    "e": "Importing brings data you already have into SPSS, so it lives in the File menu: File → Import Data → Excel → select the file. SPSS then reads the spreadsheet, usually taking variable names from the first row. After importing, check Variable View, because SPSS guesses types and measures, and you may need to correct Measure or add Values.",
+    "w": [
+      "Transform → Recode changes the values of existing variables; it cannot open files.",
+      "Analyze menus run statistics on data already loaded.",
+      "Chart Builder makes graphs; it has no import function."
+    ],
+    "k": "Import Excel via File → Import Data → Excel.",
+    "r": "SPSS Final – Import Data"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "You want to group a variable into categories but keep the raw data intact. You use:",
+    "o": [
+      "Transform → Recode into Different Variables",
+      "Transform → Recode into Same Variables",
+      "Transform → Compute Variable",
+      "Analyze → Crosstabs"
+    ],
+    "e": "Recode into Different Variables writes the grouped values into a new variable (for example Satisfaction_Grp) and leaves the original column untouched. That is the course's key distinction: different variable = new variable for analysis, raw data preserved. Keeping the original matters because if the grouping rules contain a mistake, or you later need the detailed scores, you still have them.",
+    "w": [
+      "Recode into Same Variables overwrites the original values, so the raw data are lost.",
+      "Compute performs calculations (totals, means), not regrouping into categories.",
+      "Crosstabs compares two categorical variables; it doesn't change any data."
+    ],
+    "k": "Group into categories and keep the raw data → Recode into Different Variables.",
+    "h": "DIFFERENT variable = a DIFFERENT, new column; the original stays.",
+    "r": "SPSS Final – Transforming variables"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "Which situation calls for Recode into SAME Variable?",
+    "o": [
+      "Correcting data-entry errors by overwriting the original values",
+      "Creating a grouped copy while preserving the raw data",
+      "Calculating a total score",
+      "Comparing two categorical variables"
+    ],
+    "e": "Recode into Same Variables overwrites the original values in place. The summary gives its main use: fixing errors, for example a data-entry slip coded as 9 on a 1–5 item. It can also collapse categories without creating a new variable. Because it destroys the original values, use it when you want them replaced, and keep a backup of the file in case the rule was wrong.",
+    "w": [
+      "A grouped copy with the raw data preserved is Recode into Different Variables.",
+      "A total score is a new variable built with a formula, which is Compute Variable, not Recode.",
+      "Comparing two categorical variables is Crosstabs, an analysis, not a recode."
+    ],
+    "k": "Recode into SAME variable overwrites the original values: use it to correct errors.",
+    "h": "SAME variable = same column, new values: an eraser, not a photocopy.",
+    "r": "SPSS Final – Recode into same variable"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "Collapsing satisfaction (1–5) into Low/Medium/High, the old → new values are:",
+    "o": [
+      "1,2 → 1 (Low); 3 → 2 (Medium); 4,5 → 3 (High)",
+      "1 → 1 (Low); 2,3 → 2 (Medium); 4,5 → 3 (High)",
+      "1,2,3 → 1 (Low); 4 → 2 (Medium); 5 → 3 (High)",
+      "1 → 3 (Low); 2 → 2 (Medium); 3,4,5 → 1 (High)"
+    ],
+    "e": "The model answer splits the five points symmetrically. The two dissatisfied codes (1 very dissatisfied, 2 dissatisfied) become 1 = Low, neutral (3) becomes 2 = Medium, and the two satisfied codes (4, 5) become 3 = High. The new codes keep the order (Low < Medium < High), and after recoding you label them in the Values box. A symmetric split keeps the meaning of the original scale.",
+    "w": [
+      "This puts 'dissatisfied' (2) with 'neutral' (3) in Medium, breaking the scale's meaning.",
+      "This puts neutral (3) in Low with the dissatisfied codes and splits the satisfied codes apart.",
+      "This reverses the order, so High would get code 1 and Low code 3."
+    ],
+    "k": "Satisfaction 1–5 → Low (1, 2) = 1, Medium (3) = 2, High (4, 5) = 3.",
+    "h": "Two down, one middle, two up.",
+    "r": "SPSS Final – Recode example"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "After recoding into Satisfaction_Grp, where do you name the new categories (Low, Medium, High)?",
+    "o": [
+      "In the Values box of Variable View",
+      "In the Label box of Data View",
+      "In Compute Variable",
+      "In the Name box"
+    ],
+    "e": "The recode only creates the numbers 1, 2 and 3. To make them readable you go to Variable View, find Satisfaction_Grp and enter 1 = Low, 2 = Medium, 3 = High in its Values box, which is step 8 of the summary's procedure. From then on, output tables show 'Low/Medium/High' instead of bare codes.",
+    "w": [
+      "Data View has no Label box; Label is a Variable View property describing the whole variable.",
+      "Compute Variable performs calculations; it doesn't label categories.",
+      "Name is the variable's identifier (Satisfaction_Grp), not where category labels go."
+    ],
+    "k": "After a recode, label the new codes in Variable View → Values.",
+    "r": "SPSS Final – Recode steps"
+  },
+  {
+    "t": "Recode",
+    "d": 3,
+    "q": "Score2 must become 'Score Classification': >15 very good, 10–15 good, <10 poor. Which old → new ranges match the model answer?",
+    "o": [
+      "Lowest thru 9.99 → 1; 10 thru 15 → 2; 15.01 thru Highest → 3",
+      "Lowest thru 10 → 1; 10 thru 15 → 2; 15 thru Highest → 3",
+      "0 thru 9 → 1; 11 thru 14 → 2; 16 thru Highest → 3",
+      "Lowest thru 15 → 1; 15.01 thru Highest → 2"
+    ],
+    "e": "The model answer covers every score exactly once: Lowest thru 9.99 → 1 (poor, below 10), 10 thru 15 → 2 (good), 15.01 thru Highest → 3 (very good, above 15). The boundaries matter: 10 and 15 must both land in 'good'. You use Recode into Different Variables, name it Score_Classification, then label 1 = Poor, 2 = Good, 3 = Very Good in Values.",
+    "w": [
+      "SPSS applies the first matching range, so a score of exactly 10 would be coded 1 (poor) instead of good.",
+      "Scores of exactly 10 and 15, and values between the ranges, would get no new code at all.",
+      "This makes only two categories, so 'poor' and 'good' are merged."
+    ],
+    "k": "When recoding ranges, cover every value exactly once and place the boundary values (10, 15) correctly.",
+    "h": "Check the edges: where do exactly 10 and exactly 15 land?",
+    "r": "SPSS Prev. Exams – Score Classification"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 2,
+    "q": "Reverse coding is used to:",
+    "o": [
+      "Make scoring consistent when some items are negatively phrased",
+      "Fix data-entry errors by overwriting the wrong values",
+      "Compute a mean score across all the scale items",
+      "Convert string answers into numeric codes for analysis"
+    ],
+    "e": "Questionnaires often mix positively and negatively worded items to discourage careless answering. Without correction, a high score would mean 'good' on some items and 'bad' on others, and a total would be nonsense. Reverse coding flips the negatively worded items (on a 1–4 item, 1↔4 and 2↔3) so that a high number means the same thing on every item, and only then can items be totalled or averaged.",
+    "w": [
+      "Fixing data-entry errors is done by Recode into Same Variables, not reverse coding.",
+      "Computing a mean across items is done with Compute, after any reverse coding.",
+      "Converting string answers to numeric codes is recoding for practicality, not reverse coding."
+    ],
+    "k": "Reverse-code negatively worded items so a high score means the same thing on every item.",
+    "h": "Flip the upside-down items so all arrows point the same way.",
+    "r": "SPSS Final – Reverse coding"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 2,
+    "q": "According to the summary, which scale needs reverse coding?",
+    "o": [
+      "Dissatisfaction, where 1 = most satisfied and 5 = least satisfied",
+      "Satisfaction, where 1 = least satisfied and 5 = most satisfied",
+      "Age in years",
+      "Income in £"
+    ],
+    "e": "The summary's example contrasts two scales. Satisfaction coded 1 = least satisfied to 5 = most satisfied already runs the 'normal' way: higher means more satisfied. Dissatisfaction coded 1 = most satisfied to 5 = least satisfied runs the other way, so it needs reverse coding to match. Before totalling, check that a high code means the same direction on every item.",
+    "w": [
+      "Satisfaction already runs low-to-high in the intended direction, so it needs no reversing.",
+      "Age is a scale quantity; reverse coding applies to rating items.",
+      "Income is a scale quantity, not a rating item."
+    ],
+    "k": "Reverse-code the item whose numbers run opposite to the others (here, dissatisfaction).",
+    "r": "SPSS Final – Reverse coding"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 1,
+    "q": "On a 4-point item, the reverse-coding pairs are:",
+    "o": [
+      "1 → 4, 2 → 3, 3 → 2, 4 → 1",
+      "1 → 2, 2 → 1, 3 → 4, 4 → 3",
+      "1 → 4, 2 → 2, 3 → 3, 4 → 1",
+      "1 → 0, 2 → 1, 3 → 2, 4 → 3"
+    ],
+    "e": "Reversing a 4-point item swaps the ends and the middles: 1 ↔ 4 and 2 ↔ 3. The general rule is new = (max + min) − old = 5 − old. In SPSS you enter these four Old → New pairs in Recode into Same (or Different) Variables. Every value must be mapped; any value left out keeps its old code and quietly corrupts the scale.",
+    "w": [
+      "Swapping neighbours (1↔2, 3↔4) is not a reversal; the ends don't flip.",
+      "Leaving 2 and 3 unchanged only half-reverses the item.",
+      "Subtracting 1 shifts the scale down; it does not reverse it."
+    ],
+    "k": "Reverse a 4-point item: 1↔4, 2↔3 (new = 5 − old).",
+    "h": "Fold the scale in half: the ends touch (1–4) and the middles touch (2–3).",
+    "r": "SPSS Final – Reverse coding steps"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 3,
+    "q": "Applying the same logic to a 5-point item, an original score of 2 becomes:",
+    "o": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "e": "The rule behind the summary's 4-point table is new = (max + 1) − old when the scale starts at 1; for 4 points that is 5 − old. For a 5-point item it becomes 6 − old, so 2 → 4. Check it by folding: 1↔5, 2↔4, and 3 stays 3 because it is the midpoint. Working out the formula is safer than memorizing tables for each scale length.",
+    "w": [
+      "3 is the midpoint; it stays 3, but 2 must move to 4.",
+      "Leaving 2 unchanged means the item was not reversed.",
+      "1 would be the result of subtracting 1, not reversing."
+    ],
+    "k": "Reverse score = (max + min) − old; on a 1–5 item, 6 − old (2 → 4).",
+    "h": "On a 1–5 scale, every reversed pair adds up to 6.",
+    "r": "SPSS Final – Reverse coding (applied)"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 2,
+    "q": "Item (c) 'Most of the time I have to force myself to go to work' sits among positively worded job-commitment items. What should you do before computing a total?",
+    "o": [
+      "Reverse-code item (c)",
+      "Delete item (c)",
+      "Change its measure to nominal",
+      "Recode it into a string"
+    ],
+    "e": "The job-commitment items are worded so that agreeing means high commitment, for example (a) 'I would not leave this firm even if another employer could offer me a little more money'. Item (c), 'Most of the time I have to force myself to go to work', is worded so that agreeing means low commitment. Before computing a total you reverse-code (c), so that a high number means high commitment on every item and the total is meaningful.",
+    "w": [
+      "Deleting the item throws away valid information; reversing it keeps it.",
+      "Its level of measurement stays ordinal; changing Measure does not fix its direction.",
+      "Converting it to text would stop it from being totalled at all."
+    ],
+    "k": "Before totalling a scale, reverse-code any negatively worded item.",
+    "h": "'Force myself to go' = commitment upside down, so flip it.",
+    "r": "SPSS Final – Reverse coding (applied to the questionnaire)"
+  },
+  {
+    "t": "Compute",
+    "d": 1,
+    "q": "Where do you create 'Score_Total' = Score1 + Score2?",
+    "o": [
+      "Transform → Compute Variable",
+      "Transform → Recode into Same Variables",
+      "Analyze → Descriptive Statistics → Frequencies",
+      "Graphs → Chart Builder"
+    ],
+    "e": "Any new variable built by calculation is made with Transform → Compute Variable. In the model answer you name the target variable (Score_Total), type the numeric expression (Score1 + Score2) and click OK; SPSS adds the new column for every case. Recode changes or groups existing values, analysis menus only describe data, and Chart Builder only draws it.",
+    "w": [
+      "Recode into Same Variables overwrites values in an existing variable; it doesn't add variables together.",
+      "Frequencies describes data (counts, means); it does not create variables.",
+      "Chart Builder draws graphs; it creates no variables."
+    ],
+    "k": "Totals, means and any formula-based variable: Transform → Compute Variable.",
+    "h": "Compute = calculator.",
+    "r": "SPSS Prev. Exams – Score Total"
+  },
+  {
+    "t": "Compute",
+    "d": 3,
+    "q": "Which formula correctly computes Score_Mean?",
+    "o": [
+      "(Score1 + Score2) / 2",
+      "Score1 + Score2 / 2",
+      "Score1 / 2 + Score2",
+      "MEAN = Score1 * Score2 / 2"
+    ],
+    "e": "SPSS follows standard order of operations: multiplication and division come before addition. Score1 + Score2 / 2 therefore adds Score1 to half of Score2, which is not a mean. Brackets force the addition first: (Score1 + Score2) / 2, the model answer. With more items the logic is the same, for example (Q1 + Q2 + Q3) / 3, or the MEAN() function.",
+    "w": [
+      "Without brackets, only Score2 is divided by 2, so this is Score1 plus half of Score2.",
+      "This halves Score1 and adds the full Score2, which is not a mean.",
+      "Multiplying the scores is not averaging, and 'MEAN =' is not valid formula syntax."
+    ],
+    "k": "Mean of two scores: (Score1 + Score2) / 2; brackets make the addition happen first.",
+    "h": "BODMAS/PEMDAS: Brackets before Division.",
+    "r": "SPSS Prev. Exams – Score Mean"
+  },
+  {
+    "t": "Compute",
+    "d": 1,
+    "q": "In short, RECODE vs COMPUTE:",
+    "o": [
+      "RECODE changes categories/values; COMPUTE performs calculations",
+      "RECODE calculates totals and means; COMPUTE regroups categories and values",
+      "Both only work on string variables",
+      "COMPUTE is found under Analyze"
+    ],
+    "e": "The summary's one-liner: RECODE is mainly for changing categories or values (grouping, reversing, fixing errors), while COMPUTE is for calculations (totals, means, formulas). Both sit in the Transform menu because both change or create variables. When a task says 'group', 'classify', 'reverse' or 'fix', think Recode; when it says 'total', 'mean' or 'formula', think Compute.",
+    "w": [
+      "This swaps them: Compute does totals and means, Recode regroups values.",
+      "Both work on numeric variables, which is where they are mostly used.",
+      "Compute is under the Transform menu, not Analyze."
+    ],
+    "k": "RECODE = change or group values; COMPUTE = calculate with a formula.",
+    "h": "Recode re-labels; Compute calculates.",
+    "r": "SPSS Final – In short"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "Which path opens the statistics for central tendency, dispersion and percentiles?",
+    "o": [
+      "Analyze → Descriptive Statistics → Frequencies → Statistics",
+      "Transform → Compute Variable → Statistics → Percentiles",
+      "Graphs → Chart Builder → Statistics → Central tendency",
+      "Analyze → Compare Means → Frequencies → Statistics"
+    ],
+    "e": "In the course's path, Analyze → Descriptive Statistics → Frequencies, the Statistics button opens a panel grouped exactly as the summary lists it: central tendency (mean, median, mode, sum), dispersion (SD, variance, range, minimum, maximum), percentile values (quartiles, cut points, custom percentiles) and distribution. Charts (bar, pie, histogram) are under the Charts button in the same dialog.",
+    "w": [
+      "Transform → Compute builds variables; it has no statistics panel.",
+      "Chart Builder draws graphs; descriptive statistics are not requested there.",
+      "Compare Means has no Frequencies option; Frequencies sits under Descriptive Statistics."
+    ],
+    "k": "Analyze → Descriptive Statistics → Frequencies → Statistics: central tendency, dispersion, percentiles.",
+    "r": "SPSS Final – Analysing data"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "The median is:",
+    "o": [
+      "The middle value: 50% of values below it, 50% above",
+      "The most frequently repeated value in the data",
+      "The average: the sum divided by the number of values",
+      "The difference between the maximum and minimum"
+    ],
+    "e": "The median is the middle value: half the values fall below it and half above. With scores 2, 4, 9 the median is 4; with an even number of scores it is the average of the two middle ones. It is the 50th percentile (Q2). Because it depends on position, not size, an extreme value barely moves it, so it is preferred over the mean for skewed data such as income.",
+    "w": [
+      "The most frequently repeated value is the mode.",
+      "The sum divided by the number of values is the mean.",
+      "Max minus min is the range, a measure of dispersion."
+    ],
+    "k": "Median = the middle value (50th percentile); robust to extreme scores.",
+    "h": "Median = the median strip down the middle of the road.",
+    "r": "SPSS Final – Central tendency"
+  },
+  {
+    "t": "Descriptives",
+    "d": 2,
+    "q": "If SD = 4, the variance is:",
+    "o": [
+      "16",
+      "2 (the square root of the SD)",
+      "8",
+      "4"
+    ],
+    "e": "The summary defines variance as the square of the SD: variance = SD² = 4² = 16. Equivalently, SD is the square root of the variance. The SD is in the original units (for example points), while the variance is in squared units (points²), which is why the SD is easier to interpret and is usually the one reported.",
+    "w": [
+      "2 is the square root of 4; the variance is the square of the SD, not its root.",
+      "8 is 2 × SD; squaring means multiplying the SD by itself.",
+      "4 is the SD itself, not its square."
+    ],
+    "k": "Variance = SD² and SD = √variance, so either one gives the other.",
+    "h": "Variance is the SD 'squared up'.",
+    "r": "SPSS Final – Dispersion"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "Max = 92, Min = 41. The range is:",
+    "o": [
+      "51",
+      "133",
+      "92",
+      "41"
+    ],
+    "e": "The range is the simplest measure of spread: maximum minus minimum, 92 − 41 = 51. It tells you how far apart the two most extreme scores are. Because it depends only on those two values, a single outlier can make it huge, which is why the SD and the interquartile range are usually more informative.",
+    "w": [
+      "133 is max plus min; the range subtracts.",
+      "92 is only the maximum; the range subtracts the minimum: 92 − 41 = 51.",
+      "41 is only the minimum; the range is maximum minus minimum: 92 − 41 = 51."
+    ],
+    "k": "Range = Max − Min; it is easily inflated by a single outlier.",
+    "h": "Range = from the floor to the ceiling.",
+    "r": "SPSS Final – Dispersion"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "Standard deviation is described in the summary as:",
+    "o": [
+      "The average distance of values from the mean",
+      "The square of the variance of the data",
+      "The middle value that splits the data in half",
+      "The difference between the highest and lowest value"
+    ],
+    "e": "The summary describes the SD as the average distance of values from the mean: a typical amount by which scores differ from the mean. A small SD means scores cluster tightly around the mean; a large one means they are spread out. With mean 50 and SD 10, most scores fall roughly between 40 and 60.",
+    "w": [
+      "Squaring is the other way round: variance is the square of the SD.",
+      "The middle value that splits data in half is the median.",
+      "Highest minus lowest value is the range, which uses only two scores; SD uses every score's distance from the mean."
+    ],
+    "k": "SD = the typical (average) distance of scores from the mean; variance = SD².",
+    "h": "SD = Standard Distance from the mean.",
+    "r": "SPSS Final – Dispersion"
+  },
+  {
+    "t": "Descriptives",
+    "d": 2,
+    "q": "Which three quartiles does the summary define?",
+    "o": [
+      "Q1 = 25th, Q2 = 50th (median), Q3 = 75th percentile",
+      "Q1 = 10th, Q2 = 50th (median), Q3 = 90th percentile of the data",
+      "Q1 = 33rd, Q2 = 66th, Q3 = 99th percentile",
+      "Q1 = min, Q2 = mean, Q3 = max"
+    ],
+    "e": "Quartiles are special percentiles that cut the ordered data into four equal parts: Q1 = 25th percentile, Q2 = 50th percentile (the median), Q3 = 75th percentile. The distance from Q1 to Q3, the interquartile range (IQR), contains the middle 50% of scores. It forms the box of a boxplot and is the basis of the 1.5 × IQR outlier rule.",
+    "w": [
+      "The 10th and 90th percentiles are deciles, not quartiles.",
+      "Quarters of the data fall at 25, 50 and 75, not thirds.",
+      "Minimum, mean and maximum are not quartiles; Q2 is the median, not the mean."
+    ],
+    "k": "Q1 = 25th, Q2 = 50th (median), Q3 = 75th percentile; IQR = Q3 − Q1.",
+    "h": "Quarter = 25 cents: Q1 25, Q2 50, Q3 75.",
+    "r": "SPSS Final – Percentile values"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "Which list is the model answer for '5 statistics from the frequency analysis window'?",
+    "o": [
+      "Mean, median, mode, standard deviation, percentiles",
+      "t, df, p, CI, r",
+      "Chi-square, ANOVA, t-test, regression, correlation",
+      "Bar, pie, histogram, boxplot, scatterplot"
+    ],
+    "e": "The frequency analysis window (Analyze → Descriptive Statistics → Frequencies → Statistics) produces descriptive statistics. The model answer lists mean, median, mode, standard deviation and percentiles, covering central tendency, dispersion and position. Tests such as t or chi-square answer questions about differences or relationships, and charts are pictures, so neither belongs in this window's statistics.",
+    "w": [
+      "t, df, p and CI come from t-tests, and r from correlation, not from Frequencies.",
+      "These are names of tests, not values computed in the frequency window.",
+      "These are chart types; Frequencies offers bar, pie and histogram under Charts."
+    ],
+    "k": "Frequencies' statistics include mean, median, mode, SD and percentiles.",
+    "h": "Middle (mean, median, mode), Spread (SD), Position (percentiles).",
+    "r": "SPSS Prev. Exams – 5 statistical values"
+  },
+  {
+    "t": "Percentiles",
+    "d": 2,
+    "q": "How do you get the 12th, 27th and 65th percentiles of height and weight?",
+    "o": [
+      "Analyze → Descriptive Statistics → Frequencies → Statistics → Percentiles: 12, 27, 65",
+      "Transform → Compute Variable → PERCENTILE(12), PERCENTILE(27), PERCENTILE(65)",
+      "Graphs → Chart Builder → Boxplot → Percentiles: enter 12, 27, 65",
+      "Analyze → Compare Means → One-Sample T Test → Percentiles: 12, 27, 65"
+    ],
+    "e": "Custom percentiles are requested in the Frequencies dialog: Analyze → Descriptive Statistics → Frequencies → move height and weight into Variables → Statistics → tick Percentiles, type 12, click Add, then 27 and 65 → Continue → OK. Quartiles are a tick-box, but any other percentile has to be added by hand. Untick 'Display frequency tables' if you only want the statistics.",
+    "w": [
+      "Compute creates variables; the course does not get percentiles through it.",
+      "Chart Builder draws a boxplot, which shows quartiles but does not list chosen percentiles.",
+      "A one-sample t-test compares a mean with a value; it doesn't produce percentiles."
+    ],
+    "k": "Custom percentiles: Frequencies → Statistics → Percentiles → add each value.",
+    "r": "SPSS Prev. Exams – Percentiles"
+  },
+  {
+    "t": "Percentiles",
+    "d": 1,
+    "q": "The 90th percentile of weight is 84 kg. This means:",
+    "o": [
+      "90% of participants weigh less than 84 kg",
+      "90% of participants weigh more than 84 kg (it is a lower limit)",
+      "The mean weight is 84 kg",
+      "84 kg is the most common weight"
+    ],
+    "e": "A percentile is a value below which a given percentage of the data falls. The 90th percentile of 84 kg means 90% of participants weigh less than 84 kg, and so 10% weigh more. Percentiles describe position in the distribution; they say nothing directly about the mean or the most common value. Growth charts work the same way: a child 'on the 90th percentile' is heavier than 90% of peers.",
+    "w": [
+      "This reverses it: 90% are below 84 kg, only 10% above.",
+      "The mean is a different statistic; a percentile is a position, not an average.",
+      "The most common value is the mode, not a percentile."
+    ],
+    "k": "The Pth percentile = the value below which P% of the scores fall.",
+    "h": "90th percentile: you beat 90% of the class.",
+    "r": "SPSS Prev. Exams – Percentile interpretation"
+  },
+  {
+    "t": "Charts",
+    "d": 1,
+    "q": "Which chart suits a nominal or ordinal variable?",
+    "o": [
+      "Bar chart (or pie chart)",
+      "Histogram (or boxplot)",
+      "Scatterplot (or line graph)",
+      "Boxplot (or histogram)"
+    ],
+    "e": "Nominal and ordinal variables are categories, so the natural display shows how many cases fall in each category: a bar chart (one separate bar per category, height = frequency) or a pie chart (one slice per category, size = share of the whole). Histograms and boxplots need numbers on a continuous scale, and scatterplots need two continuous variables, so they don't fit a categorical variable.",
+    "w": [
+      "Histograms and boxplots summarize continuous (scale) data, not categories.",
+      "Scatterplots and line graphs plot continuous values against each other or over time.",
+      "Boxplots and histograms are both for scale data, not categories."
+    ],
+    "k": "Categorical (nominal or ordinal) → bar or pie chart; scale → histogram.",
+    "h": "Categories get Bars or Pies.",
+    "r": "SPSS Final – Charts"
+  },
+  {
+    "t": "Charts",
+    "d": 2,
+    "q": "Bar chart vs histogram:",
+    "o": [
+      "Bar = categorical, bars separated; histogram = continuous, bars touching",
+      "Bar = continuous, bars touching; histogram = categorical, bars separated",
+      "Both display continuous data; only the colour of the bars differs",
+      "Bar charts show quartiles and outliers; histograms show only counts"
+    ],
+    "e": "The gap is the giveaway. A bar chart shows categorical data (nominal or ordinal), so the bars are separated: the categories are distinct and nothing exists 'between' them. A histogram shows continuous data (interval or ratio) grouped into adjacent ranges, so the bars touch: the scale runs on without breaks. Histograms show the shape of a distribution (symmetry, skew); bar charts compare category counts.",
+    "w": [
+      "This swaps them: bar charts are for categories (separated), histograms for continuous data (touching).",
+      "They display different kinds of data, not the same data in different colours.",
+      "Quartiles and outliers are shown by boxplots, not bar charts."
+    ],
+    "k": "Bar chart: categories, bars separated. Histogram: continuous data, bars touching.",
+    "h": "Histogram bars hold hands because the numbers are continuous.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Charts",
+    "d": 1,
+    "q": "A pie chart is best for:",
+    "o": [
+      "Showing proportions/percentages of a whole for a single variable",
+      "Showing the relationship between two continuous variables",
+      "Showing outliers",
+      "Showing the shape of a continuous distribution"
+    ],
+    "e": "A pie chart shows how a whole divides into parts: each slice is a category and its size is that category's proportion or percentage. The summary adds that it is best for single variables. Pie charts work when there are few categories that add up to 100%, for example the share of participants in each ethnic group. They are poor for comparing many categories or several variables.",
+    "w": [
+      "Relationships between two continuous variables are shown with a scatterplot.",
+      "Outliers are best seen in a boxplot, where SPSS marks them beyond the whiskers with their case numbers.",
+      "The shape of a continuous distribution is shown by a histogram."
+    ],
+    "k": "Pie chart = proportions of a whole for one categorical variable.",
+    "h": "A pie is one whole cut into shares.",
+    "r": "SPSS Final – Charts"
+  },
+  {
+    "t": "Charts",
+    "d": 1,
+    "q": "How do you display the percentage of each section on a chart?",
+    "o": [
+      "Double-click the chart",
+      "Recode the variable",
+      "Run Compute Variable",
+      "Change the Measure to Scale"
+    ],
+    "e": "Double-clicking a chart in the SPSS output opens the Chart Editor, where you can add data labels such as the percentage of each slice or bar, as the summary notes. Recode, Compute and Measure change the data or variable definitions; none of them edits a chart that already exists.",
+    "w": [
+      "Recoding changes data values; it doesn't label an existing chart.",
+      "Compute creates new variables; it doesn't edit charts.",
+      "Measure is a variable property; changing it does not add percentages to a chart."
+    ],
+    "k": "Double-click a chart to edit it, for example to show each section's percentage.",
+    "r": "SPSS Final – Charts note"
+  },
+  {
+    "t": "Charts",
+    "d": 2,
+    "q": "A histogram of Score1 is skewed to the right. This means:",
+    "o": [
+      "There are more low scores",
+      "There are more high scores",
+      "Scores are evenly spread around the mean",
+      "There are no outliers"
+    ],
+    "e": "Skew is named after the tail, not the peak. In a right (positive) skew the long tail stretches toward the high scores, which means most scores are bunched at the low end: more low scores, a few high ones, as the summary puts it. A hard exam often gives right skew. Left (negative) skew is the reverse: most scores are high, with a tail toward low scores, as with an easy exam.",
+    "w": [
+      "More high scores with a tail to the left is left (negative) skew.",
+      "Scores evenly spread around the mean describe a symmetrical distribution.",
+      "Skew doesn't tell you there are no outliers; the long tail may contain them."
+    ],
+    "k": "Right (positive) skew: tail to the right, most scores low. Left skew: tail to the left, most scores high.",
+    "h": "The tail tells the tale: tail on the right = right skew.",
+    "r": "SPSS Prev. Exams – Histogram interpretation"
+  },
+  {
+    "t": "Charts",
+    "d": 1,
+    "q": "Which graph shows the relationship between two continuous variables?",
+    "o": [
+      "Scatterplot",
+      "Pie chart (one slice per value)",
+      "Bar chart",
+      "Boxplot"
+    ],
+    "e": "A scatterplot puts one continuous variable on each axis and plots a dot per case, so you can see at a glance whether the variables move together (positive or negative), how tightly, whether the trend is straight or curved, and whether outliers exist. It is the graph that goes with correlation and regression. Bar and pie charts display one categorical variable, and a boxplot summarizes one continuous variable.",
+    "w": [
+      "A pie chart shows proportions of one categorical variable, not a relationship.",
+      "A bar chart shows counts or means of categories.",
+      "A boxplot summarizes the spread of one continuous variable."
+    ],
+    "k": "Two continuous variables → scatterplot (the graph of correlation and regression).",
+    "h": "Scatter the dots and see if they line up.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 1,
+    "q": "Where do you build a boxplot for height and weight?",
+    "o": [
+      "Graphs → Chart Builder → Boxplot icon → variables on the Y-axis",
+      "Analyze → Frequencies → Charts → Pie chart → variables in box",
+      "Transform → Compute → BOXPLOT(height, weight) → OK",
+      "File → Import Data → Boxplot → select height and weight"
+    ],
+    "e": "Boxplots are made in the Chart Builder: Graphs → Chart Builder → drag the Boxplot icon onto the canvas → drag height and weight into the Y-axis → OK. Note the menu division: Frequencies' Charts button offers only bar, pie and histogram, while the Chart Builder offers every chart type, including boxplots, scatterplots and error bars.",
+    "w": [
+      "Frequencies' Charts offer bar, pie and histogram, not boxplots.",
+      "Compute creates variables; there is no BOXPLOT function for drawing.",
+      "File → Import brings in data files; it doesn't draw graphs."
+    ],
+    "k": "Boxplot: Graphs → Chart Builder → Boxplot → variables on the Y-axis.",
+    "r": "SPSS Prev. Exams – Boxplot"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 1,
+    "q": "A boxplot shows:",
+    "o": [
+      "The median, quartiles and outliers of a continuous variable",
+      "The frequencies and percentages of each category",
+      "The correlation coefficient between two variables",
+      "The 95% confidence interval of the population mean"
+    ],
+    "e": "A boxplot summarizes a continuous variable in five pieces of information. The line inside the box is the median, the box runs from Q1 to Q3 (the middle 50%, whose length is the IQR), the whiskers extend toward the most extreme non-outlying values, and points beyond them are outliers, labelled by case number. It shows centre, spread, skew and outliers in one compact picture.",
+    "w": [
+      "Frequencies and percentages of categories are shown in bar or pie charts.",
+      "Correlation coefficients come from a correlation analysis, often shown as a scatterplot.",
+      "A 95% CI of the mean is shown with error bars, not a boxplot."
+    ],
+    "k": "Boxplot = median, quartiles (box), whiskers and outliers of a continuous variable.",
+    "h": "Box = the middle 50%; line = median; dots and stars = outliers.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 2,
+    "q": "In an SPSS boxplot, how are mild and extreme outliers marked?",
+    "o": [
+      "Mild = small circles (°), extreme = asterisks (*), labelled by case number",
+      "Mild = asterisks (*), extreme = small circles (°), labelled by case number",
+      "Both shown as identical dots, with no case numbers attached to them",
+      "Outliers are hidden in boxplots and appear only in the histogram"
+    ],
+    "e": "SPSS uses two symbols. A small circle (°) marks a mild outlier, between 1.5 and 3 IQRs beyond the box. An asterisk (*) marks an extreme outlier, more than 3 IQRs beyond the box. Each symbol is labelled with its case (row) number, so you can go straight to that participant in Data View and check whether the value is an error or a genuine unusual score.",
+    "w": [
+      "This swaps the symbols: circles are mild, asterisks are extreme.",
+      "SPSS uses two different symbols and labels each with its case number.",
+      "Boxplots are where SPSS displays outliers individually."
+    ],
+    "k": "Boxplot symbols: ° = mild outlier (beyond 1.5 × IQR), * = extreme outlier (beyond 3 × IQR), with case numbers.",
+    "h": "The star (*) is the superstar extreme; the little circle (°) is merely odd.",
+    "r": "SPSS Prev. Exams – Outliers"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 2,
+    "q": "IQR is defined as:",
+    "o": [
+      "Q3 − Q1, the range of the middle 50% of the data",
+      "Max − Min, the range of all the data",
+      "Q2 − Q1, the range of the lower half of the data",
+      "Mean ± 1 SD, the range of about 68% of the data"
+    ],
+    "e": "The interquartile range is Q3 − Q1: the spread of the middle 50% of the data, from the 25th to the 75th percentile. Unlike the range (max − min), it ignores the extreme quarter at each end, so outliers barely affect it. That robustness is why it is used to define outliers (1.5 × IQR and 3 × IQR beyond the box) and why it forms the box in a boxplot.",
+    "w": [
+      "Max − Min is the range, which outliers can inflate.",
+      "Q2 − Q1 covers only the second quarter of the data, not the middle half.",
+      "Mean ± 1 SD describes roughly 68% of a normal distribution; it is not the IQR."
+    ],
+    "k": "IQR = Q3 − Q1, the spread of the middle 50%; robust to outliers.",
+    "h": "Inter-quartile = between the quartiles.",
+    "r": "SPSS Prev. Exams – Side note"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 3,
+    "q": "Q1 = 20 and Q3 = 30. Using the course's rule, a value is a MILD outlier on the high side when it exceeds:",
+    "o": [
+      "45",
+      "35",
+      "50",
+      "60"
+    ],
+    "e": "Step by step: IQR = Q3 − Q1 = 30 − 20 = 10. Mild outliers lie more than 1.5 × IQR = 15 beyond the box, so on the high side the fence is Q3 + 15 = 45. Extreme outliers lie more than 3 × IQR = 30 beyond the box, at Q3 + 30 = 60. So a value above 45 is at least a mild outlier, and above 60 it is extreme. The fences are measured from the edge of the box (Q3), not from the median.",
+    "w": [
+      "35 is Q3 + 0.5 × IQR; the mild fence uses 1.5 × IQR.",
+      "50 is Q3 + 2 × IQR, which matches neither the mild nor the extreme rule.",
+      "60 is the extreme fence (Q3 + 3 × IQR), not the mild one."
+    ],
+    "k": "High fences: mild = Q3 + 1.5 × IQR; extreme = Q3 + 3 × IQR (low side: Q1 minus the same amounts).",
+    "h": "One and a half box-lengths for mild, three for wild.",
+    "r": "SPSS Prev. Exams – Outliers (applied)"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 3,
+    "q": "With Q1 = 20 and Q3 = 30, a value of 65 is:",
+    "o": [
+      "An extreme outlier (asterisk)",
+      "A mild outlier, shown with a small circle (°)",
+      "Not an outlier",
+      "Impossible to classify"
+    ],
+    "e": "With IQR = 10, the mild fence is 30 + 15 = 45 and the extreme fence is 30 + 30 = 60. 65 is beyond the extreme fence, so it is an extreme outlier, shown with an asterisk (*) and its case number. A value between 45 and 60 would be a mild outlier (°). Once flagged, check whether it is a data-entry error or a genuine score before deciding what to do.",
+    "w": [
+      "A mild outlier would lie between 45 and 60; 65 is beyond 60.",
+      "65 is far above the mild fence of 45, so it is an outlier.",
+      "It can be classified from Q1 and Q3 alone, using the two fences."
+    ],
+    "k": "Beyond Q3 + 3 × IQR (or below Q1 − 3 × IQR) = extreme outlier (*).",
+    "h": "Past the second fence = wild (*).",
+    "r": "SPSS Prev. Exams – Outliers (applied)"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "The Crosstabs procedure:",
+    "o": [
+      "Compares two categorical variables in a table",
+      "Compares the means of three or more groups at once in a table",
+      "Predicts one variable from another",
+      "Shows the shape of a distribution"
+    ],
+    "e": "Crosstabs (Analyze → Descriptive Statistics → Crosstabs) builds a contingency table that cross-classifies two categorical variables, such as gender by smoking status, showing how many cases fall in each combination. It is the procedure behind the chi-square test of independence, which asks whether the two variables are related. Means of numeric variables are compared with t-tests or ANOVA.",
+    "w": [
+      "Comparing means of three or more groups is ANOVA.",
+      "Predicting one variable from another is regression.",
+      "The shape of a distribution is shown with a histogram."
+    ],
+    "k": "Crosstabs = a table crossing two categorical variables (and the chi-square test).",
+    "h": "Cross-tabs: two categories cross like a tic-tac-toe grid.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "Which t-test compares pre-college and post-college IQ of the same students?",
+    "o": [
+      "Paired-samples t-test",
+      "Independent-samples t-test",
+      "One-sample t-test",
+      "ANOVA"
+    ],
+    "e": "When the same participants are measured twice (pre and post), the two sets of scores are linked person by person, so the paired-samples t-test is used. It works on each student's difference score, which removes stable individual differences in IQ and makes the test more sensitive. This is the model answer: two measurements from the same participants.",
+    "w": [
+      "Independent-samples compares two separate groups of different people.",
+      "One-sample compares one mean with a fixed value such as 100.",
+      "ANOVA compares three or more groups; this is one group measured twice."
+    ],
+    "k": "Same people measured twice (pre/post) → paired-samples t-test.",
+    "h": "Paired = the same person paired with themselves.",
+    "r": "SPSS Prev. Exams – Which t-test"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "Comparing the mean anxiety of patients vs healthy controls (two separate groups) needs:",
+    "o": [
+      "Independent-samples t-test",
+      "Paired-samples t-test (two related measures)",
+      "One-sample t-test",
+      "Chi-square"
+    ],
+    "e": "Patients and healthy controls are two separate groups of different people, so their scores are independent, and the independent-samples t-test compares the two group means. The question to ask is always: are the scores from different people (independent), from the same people (paired), or one group against a known number (one-sample)?",
+    "w": [
+      "Paired t-tests need the same people (or matched pairs) measured twice.",
+      "One-sample t-tests compare one group with a fixed value, not two groups.",
+      "Chi-square compares categorical variables, not mean anxiety scores."
+    ],
+    "k": "Comparing the means of two separate groups → independent-samples t-test.",
+    "h": "Different people = independent.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "Comparing mean depression scores across three hospitals needs:",
+    "o": [
+      "ANOVA",
+      "Paired t-test",
+      "Chi-square",
+      "Pearson correlation"
+    ],
+    "e": "ANOVA (analysis of variance) compares the means of three or more groups at once. Running several t-tests instead would inflate the chance of a false positive, because every extra test adds risk, so ANOVA gives one overall test of whether any group differs. A significant ANOVA then needs follow-up tests to show which hospitals differ.",
+    "w": [
+      "A paired t-test compares two related measurements, not three groups.",
+      "Chi-square relates categorical variables; depression scores are numeric.",
+      "Pearson correlation relates two continuous variables, not group means."
+    ],
+    "k": "Comparing the means of three or more groups → ANOVA.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 2,
+    "q": "Is gender related to smoking status (smoker / non-smoker)? Use:",
+    "o": [
+      "Chi-square test",
+      "Independent t-test",
+      "ANOVA",
+      "One-sample t-test"
+    ],
+    "e": "Both variables are categorical: gender (male/female) and smoking status (smoker/non-smoker). The chi-square test of independence asks whether the distribution of one depends on the other, for example whether the percentage of smokers differs between men and women. The summary stresses it is for categorical variables, not numeric. t-tests and ANOVA compare means of a numeric outcome.",
+    "w": [
+      "An independent t-test needs a numeric outcome; smoking status is categorical.",
+      "ANOVA compares means of a numeric outcome across groups.",
+      "A one-sample t-test compares one mean with a fixed value."
+    ],
+    "k": "Testing whether two categorical variables are related → chi-square test.",
+    "h": "Categories × categories → chi-square (χ looks like a cross in a table).",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "A one-sample t-test checks:",
+    "o": [
+      "Whether one sample's mean differs from a known value (e.g., a population mean)",
+      "Whether the means of two separate, independent groups of participants differ from each other",
+      "Whether the same group's mean differs between two time points",
+      "Whether two categorical variables are related to each other"
+    ],
+    "e": "A one-sample t-test compares the mean of a single sample with a known or hypothesized value, such as the population mean. The course's example compares a sample's mean IQ with the worldwide norm of 100. There is only one group of data; the comparison value comes from outside the sample, entered as the 'Test Value' in SPSS.",
+    "w": [
+      "Two separate groups call for the independent-samples t-test.",
+      "The same group at two time points calls for the paired-samples t-test.",
+      "A relationship between two categorical variables is tested with chi-square, not a one-sample t-test."
+    ],
+    "k": "One-sample t-test: one sample's mean versus a known value (e.g., IQ = 100).",
+    "h": "One group versus one number.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "Regression analysis:",
+    "o": [
+      "Examines how one variable predicts or explains another",
+      "Compares two categorical variables in a table",
+      "Shows the median, quartiles and outliers",
+      "Counts how often each value appears"
+    ],
+    "e": "Regression examines how one variable predicts or explains another: it fits a line (or model) that estimates the outcome from one or more predictors, for example salary from working hours. Correlation asks whether two variables move together and how strongly; regression goes further and gives an equation for prediction (how much the outcome changes per unit of the predictor).",
+    "w": [
+      "Comparing two categorical variables in a table is Crosstabs.",
+      "Median, quartiles and outliers are shown in a boxplot.",
+      "Counting how often each value appears is the Frequencies procedure."
+    ],
+    "k": "Regression = predicting or explaining one variable from another.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Correlation",
+    "d": 2,
+    "q": "Pearson r = 0.958, Sig = 0.001 between working hours and salary. Conclusion:",
+    "o": [
+      "Strong, significant positive correlation",
+      "Weak, non-significant correlation",
+      "Strong negative correlation",
+      "No correlation, because p is small"
+    ],
+    "e": "Read r for direction and strength, and Sig for significance. r = 0.958 is positive (more hours go with higher salary) and very close to 1, so strong. Sig = 0.001 is below 0.05, so the correlation is statistically significant. The model answer: a strong, significant positive correlation. Correlation alone does not prove causation, though here a causal link (paid by the hour) is plausible.",
+    "w": [
+      "0.958 is near 1 (strong), and Sig = 0.001 is significant.",
+      "The sign of r is positive, so the correlation is positive.",
+      "A small p means significant; p < 0.05 supports a correlation, it doesn't rule it out."
+    ],
+    "k": "r gives direction (sign) and strength (closeness to ±1); Sig < 0.05 gives significance.",
+    "h": "Sign shows the way, size shows the strength, Sig shows if it's real.",
+    "r": "SPSS Prev. Exams – Pearson"
+  },
+  {
+    "t": "Correlation",
+    "d": 2,
+    "q": "If r were −0.958 with Sig = 0.001, the correlation would be:",
+    "o": [
+      "Strong, significant and negative",
+      "Weak, significant and positive",
+      "Strong but not significant",
+      "Perfect and negative"
+    ],
+    "e": "The sign of r shows direction and its absolute size shows strength. −0.958 is just as strong as +0.958 (very close to −1), but negative: as one variable increases the other decreases. Sig = 0.001 < 0.05 means significant. So: strong, significant and negative. A perfect correlation would be exactly −1, and 0.958 is close to but not equal to it.",
+    "w": [
+      "Its size is 0.958, near 1, so it is strong, and negative, not positive.",
+      "Sig = 0.001 is below 0.05, so it is significant.",
+      "Perfect would be exactly −1.00; −0.958 is strong but not perfect."
+    ],
+    "k": "A negative r is as strong as its absolute value; the sign only gives direction.",
+    "h": "Minus sign = seesaw: one goes up, the other goes down.",
+    "r": "SPSS Prev. Exams – Pearson note"
+  },
+  {
+    "t": "p-value",
+    "d": 2,
+    "q": "α = 0.05 and p = 0.03. The decision is:",
+    "o": [
+      "Significant → reject H₀ and accept H₁",
+      "Not significant → accept H₀ and reject H₁",
+      "Significant → accept H₀ and reject H₁",
+      "Undecided → the value of r is needed first"
+    ],
+    "e": "The course's decision rule compares p with α. If p ≤ α, the result is statistically significant: reject H₀ and accept H₁. Here p = 0.03 ≤ 0.05, so it is significant. α is the threshold you set before the study (usually 0.05), the risk of a false positive you are willing to accept. The precision note below gives the stricter textbook meaning of p.",
+    "w": [
+      "Accepting H₀ applies when p > α; here p is smaller than α.",
+      "A significant result means rejecting H₀, not accepting it.",
+      "The decision depends only on p versus α; r is not needed."
+    ],
+    "k": "p ≤ α → significant → reject H₀ (accept H₁); p > α → not significant.",
+    "h": "If p is low, H₀ must go.",
+    "r": "SPSS Prev. Exams – P-value",
+    "n": "Precision: strictly, a p-value is the probability of obtaining results at least this extreme IF H₀ were true, and a non-significant result means we 'fail to reject H₀' rather than prove it. Use the course wording in the exam, but know the precise version."
+  },
+  {
+    "t": "p-value",
+    "d": 2,
+    "q": "α = 0.05 and p = 0.21. In the course's terms:",
+    "o": [
+      "Not significant → accept H₀ and reject H₁",
+      "Significant → reject H₀ and accept H₁",
+      "Significant → accept H₁ because p > α",
+      "Invalid → p must always be below 0.05"
+    ],
+    "e": "p = 0.21 is greater than α = 0.05, so the result is not statistically significant. In the course's wording: accept H₀ and reject H₁, because a high p-value means a high probability that the result happened by chance. Statistically, non-significance means the data are not strong enough to rule out H₀; it doesn't prove H₀ true, as the precision note explains.",
+    "w": [
+      "Significance requires p ≤ α; 0.21 is above 0.05.",
+      "p > α never makes a result significant.",
+      "p-values above 0.05 are perfectly valid; they just aren't significant."
+    ],
+    "k": "p > α → not significant; course wording 'accept H₀', textbook wording 'fail to reject H₀'.",
+    "h": "If p is high, H₀ stays (for now).",
+    "r": "SPSS Prev. Exams – P-value",
+    "n": "Textbook statistics says 'fail to reject H₀'. Use the course phrasing for this exam."
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 2,
+    "q": "IQ_Score one-sample test (test value 100): t = 2.964, df = 8, critical t = 2.306. Conclusion?",
+    "o": [
+      "|t| > critical value → significant; the sample mean is higher than 100",
+      "|t| < critical value → not significant, so the sample mean IQ equals 100 exactly",
+      "Significant, and the sample mean is lower than 100",
+      "Cannot conclude without the median"
+    ],
+    "e": "Two checks give the same answer. Compare |t| with the critical value: 2.964 > 2.306 (the cutoff for df = 8 at α = .05), so the difference is significant. The sign of t gives the direction: positive t means the sample mean is above the test value, so the sample's IQ is higher than 100. In SPSS output you can also read Sig. (here .018 < .05), which leads to the same decision.",
+    "w": [
+      "|t| = 2.964 is larger than 2.306, so it is significant, and 'exactly 100' is never what non-significance means.",
+      "A positive t means the sample mean is above 100, not below.",
+      "The median is not needed; the t-test is about the mean."
+    ],
+    "k": "|t| > critical t → significant; the sign of t gives the direction relative to the test value.",
+    "h": "Beat the cutoff to be significant; the sign tells you above or below.",
+    "r": "SPSS Prev. Exams – IQ t-test"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 2,
+    "q": "In that table, Mean Difference = 6.889. The sample mean IQ is:",
+    "o": [
+      "106.889",
+      "6.889",
+      "93.111",
+      "100"
+    ],
+    "e": "In a one-sample t-test, SPSS's Mean Difference = sample mean − test value. So the sample mean = test value + mean difference = 100 + 6.889 = 106.889. A positive difference means above the test value, a negative one means below. The 'One-Sample Statistics' table shows the mean directly, which is a handy check.",
+    "w": [
+      "6.889 is the difference from 100, not the mean itself.",
+      "93.111 is 100 − 6.889, which would apply if the difference were negative.",
+      "100 is the test value the sample is compared with."
+    ],
+    "k": "One-sample t-test: sample mean = test value + mean difference.",
+    "r": "SPSS Prev. Exams – IQ t-test"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 3,
+    "q": "In the same table, df = 8. How many participants were in the sample?",
+    "o": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "e": "For a one-sample (and a paired) t-test, df = n − 1, because once the mean is fixed, only n − 1 values are free to vary (the summary's definition of degrees of freedom). So n = df + 1 = 9. For an independent t-test the rule differs: df = n1 + n2 − 2. Reading df backwards to get n is a classic exam move.",
+    "w": [
+      "8 is the df itself; n is one more.",
+      "7 subtracts again instead of adding 1.",
+      "10 adds 2, the rule for two independent groups, not one sample."
+    ],
+    "k": "One-sample t-test: df = n − 1, so n = df + 1.",
+    "h": "df is always one short of n here: 8 + 1 = 9.",
+    "r": "SPSS Prev. Exams – df (applied)"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 2,
+    "q": "95% CI of the difference = 1.53 to 12.25. Interpretation:",
+    "o": [
+      "95% confident the true mean is 1.53 to 12.25 points above 100",
+      "95% of participants scored 1.53 to 12.25 points above 100",
+      "The sample mean IQ itself lies between 1.53 and 12.25",
+      "There is a 95% probability that H₀ is true for this sample"
+    ],
+    "e": "The CI is a range of plausible values for the true difference between the population mean IQ and 100: we are 95% confident it lies between 1.53 and 12.25 points. Because 0 is not inside the interval, 'no difference' is implausible, which agrees with p = .018 < .05. Adding 100 gives a CI for the mean itself: about 101.5 to 112.3.",
+    "w": [
+      "A CI is about the population mean, not the range within which individual participants scored.",
+      "The sample mean is known exactly (106.889); the CI is about the unknown population value.",
+      "A CI says nothing about the probability that H₀ is true."
+    ],
+    "k": "A 95% CI gives plausible values for the population parameter; if it excludes 0, the difference is significant at .05.",
+    "h": "CI = a net cast around the true value; 0 outside the net = significant.",
+    "r": "SPSS Prev. Exams – CI",
+    "n": "Precision: the CI estimates the POPULATION mean (the summary's wording 'true mean IQ of this sample' is loose). The definition section says it correctly: 'the actual average … for the entire population'."
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 1,
+    "q": "The t-test critical value is:",
+    "o": [
+      "The cutoff that tells you whether the t result is significant",
+      "The mean difference between the sample and the test value",
+      "The number of participants minus one in the sample",
+      "The probability that the result occurred by chance"
+    ],
+    "e": "The critical value is the cutoff on the t distribution, set by α and df, that an observed t must exceed (in absolute value) to be significant. For df = 8 at α = .05 (two-tailed) it is 2.306. It is the old-fashioned twin of the p-value rule: |t| > critical t is the same decision as p < α. SPSS reports p (Sig.) directly, so critical values are mostly used in hand calculations and exams.",
+    "w": [
+      "The mean difference is the sample mean minus the test value.",
+      "n − 1 is the degrees of freedom.",
+      "The probability of the result under H₀ is the p-value, not the critical value."
+    ],
+    "k": "Critical t = the cutoff |t| must exceed to be significant; |t| > critical ⇔ p < α.",
+    "h": "The critical value is the high-jump bar; t must clear it.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Definitions",
+    "d": 1,
+    "q": "A frequencies procedure:",
+    "o": [
+      "Shows how often each value appears with counts, percentages and stats",
+      "Compares two categorical variables against each other in a table",
+      "Tests whether one sample mean differs from a known value like 100",
+      "Creates a new variable by applying a formula to existing ones"
+    ],
+    "e": "Frequencies (Analyze → Descriptive Statistics → Frequencies) describes how often each value appears, as counts and percentages (including valid and cumulative percentages), and can add simple statistics (mean, median, mode, SD, percentiles) and charts (bar, pie, histogram). It describes one variable at a time; it doesn't compare groups, test hypotheses or create variables.",
+    "w": [
+      "Comparing two categorical variables in a table is Crosstabs.",
+      "Testing one mean against a known value is the one-sample t-test.",
+      "Creating a variable with a formula is Compute Variable."
+    ],
+    "k": "Frequencies = how often each value occurs (counts, %) plus simple descriptive statistics.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Definitions",
+    "d": 1,
+    "q": "Data outliers are:",
+    "o": [
+      "Values much higher or lower than most of the data",
+      "Values that are missing or left blank in Data View",
+      "Values equal to the median or the most frequent value",
+      "String values entered by mistake in a numeric column"
+    ],
+    "e": "Outliers are values much higher or much lower than most of the data. In SPSS they are flagged in boxplots: beyond 1.5 × IQR from the box (mild, °) or beyond 3 × IQR (extreme, *). Outliers matter because one extreme value can pull the mean and SD and distort tests. First check whether an outlier is a typing error (fix it) or a genuine unusual case (keep it and handle it thoughtfully).",
+    "w": [
+      "Missing values are blanks (system-missing), not extreme values.",
+      "Values at the median or mode are typical, the opposite of outliers.",
+      "Strings in a numeric column are entry errors, not outliers."
+    ],
+    "k": "Outlier = a value far from the bulk of the data; check whether it is an error before deciding what to do.",
+    "h": "Out-lier = it lies out, far from the crowd.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Definitions",
+    "d": 1,
+    "q": "A correlation test checks:",
+    "o": [
+      "Whether two variables move together (positive, negative or none)",
+      "Whether one sample mean differs from a known population value",
+      "Whether the means of three or more groups differ from each other",
+      "Whether two categorical variables are related in a crosstab"
+    ],
+    "e": "A correlation analysis checks whether two variables move together: positively (both rise together), negatively (one rises as the other falls) or not at all. Pearson's r runs from −1 to +1: the sign gives direction and the size gives strength. Correlation describes association, not cause: two variables can move together because a third variable drives both.",
+    "w": [
+      "One sample mean versus a known value is the one-sample t-test.",
+      "Three or more group means are compared with ANOVA.",
+      "Two categorical variables are related with chi-square in a crosstab."
+    ],
+    "k": "Correlation = do two variables move together (positive, negative or none)? It doesn't prove cause.",
+    "h": "Co-relation = two variables in a relationship.",
+    "r": "SPSS Prev. Exams – Definitions"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "In Variable View, 'Decimals' sets:",
+    "o": [
+      "The number of decimal places",
+      "The number of characters in the box",
+      "The column width on screen",
+      "Whether text is aligned left or right"
+    ],
+    "e": "Decimals sets how many decimal places SPSS displays for a numeric variable (the summary writes ',00' for two). It affects display, not the stored precision. Keep the layout properties apart: Width is how many characters fit in the box, Columns is the display width on screen, Align is left or right alignment.",
+    "w": [
+      "The number of characters allowed in the box is Width, a separate Variable View property.",
+      "How wide the column appears on screen is set by Columns, not Decimals.",
+      "Left or right alignment of the text is set by Align, not Decimals."
+    ],
+    "k": "The Decimals column sets how many decimal places SPSS displays, not stores.",
+    "r": "SPSS Final – Variable View"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "Which Variable View property controls left/right alignment?",
+    "o": [
+      "Align",
+      "Columns",
+      "Width",
+      "Measure"
+    ],
+    "e": "Align sets whether values appear left- or right-aligned in Data View. It is purely cosmetic, like Columns (the column's display width) and Decimals (how many decimal places are shown). The properties that matter for analysis are Name, Type, Values and Measure, plus Label for readable output. A typical exam trap is confusing Align with Columns or Width, because all three sound like layout.",
+    "w": [
+      "Columns sets the column's display width, not alignment.",
+      "Width sets how many characters fit in the box.",
+      "Measure sets the level of measurement (nominal, ordinal or scale), not alignment."
+    ],
+    "k": "Align = left/right alignment in Data View (cosmetic).",
+    "r": "SPSS Final – Variable View"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "Questionnaire item (a) 'I would not leave this firm even if another employer could offer me a little more money' – where is that sentence typed?",
+    "o": [
+      "Label",
+      "Name",
+      "Values",
+      "Type"
+    ],
+    "e": "Long, readable text with spaces goes in Label. The summary says that if a variable is a question in a test or scale, we can type the entire question in Label. The Name stays short and space-free (for example a, or commit_a), and Values hold the response codes (1 = strongly disagree … 5 = strongly agree). SPSS then shows the full item wording in output tables.",
+    "w": [
+      "Name must be short with no spaces; it cannot hold a sentence.",
+      "Values label the response codes (1 = strongly disagree…), not the question.",
+      "Type is Numeric or String; it is not where text is written."
+    ],
+    "k": "Full item wording goes in Label; Name stays short; Values label the response options.",
+    "h": "The question goes on the Label, like the question printed on the survey.",
+    "r": "SPSS Final – Questionnaire item 6(a)"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "In the questionnaire example, how is Gender defined?",
+    "o": [
+      "Numeric, Values 1 = male, 2 = female, Nominal (or String without Values)",
+      "String, Values 1 = male, 2 = female, Measure Ordinal (because there are two ranks)",
+      "Numeric, Label 'in years', Measure Scale, since gender is entered as a number",
+      "Numeric, no Values, Ordinal"
+    ],
+    "e": "The model definition is Type Numeric, Values 1 = male and 2 = female, Measure Nominal. The summary adds an alternative: String, typing the words, in which case you don't fill in Values. Either way it is nominal, because male and female are categories without order. The numbers 1 and 2 are labels, not ranks or amounts.",
+    "w": [
+      "Gender has no order, so Ordinal is wrong (and String would not use Values codes).",
+      "Gender is a category, not an amount in years, so it is neither Label 'in years' nor Scale.",
+      "Numeric codes need Values to say what 1 and 2 mean, and gender is nominal, not ordinal."
+    ],
+    "k": "Gender: Numeric with Values (1 = male, 2 = female), Measure Nominal; or String without Values.",
+    "h": "Two labels, no ranking = nominal.",
+    "r": "SPSS Final – Questionnaire item 2"
+  },
+  {
+    "t": "Variable View",
+    "d": 1,
+    "q": "Age (in years) is defined as:",
+    "o": [
+      "Numeric, Label 'in years', Scale",
+      "Numeric, Values 1–5, Ordinal",
+      "String, Label 'in years', Nominal",
+      "Numeric, Label 'in years', Ordinal"
+    ],
+    "e": "Age is a quantity: differences and averages are meaningful, so it is Numeric with Measure Scale, and the unit goes in Label ('in years'). The questionnaire example defines work experience the same way. If age were collected in brackets (18–25, 26–35…), it would become ordinal, but measured in years it is scale.",
+    "w": [
+      "Values 1–5 and Ordinal would describe a rating item or age brackets, not age in years.",
+      "Age is a number you calculate with, so it is not String or Nominal.",
+      "Years are equal, meaningful units, so Scale fits, not Ordinal."
+    ],
+    "k": "Age in years: Numeric, Label 'in years', Measure Scale.",
+    "r": "SPSS Final – Questionnaire items 4–5"
+  },
+  {
+    "t": "Variable View",
+    "d": 2,
+    "q": "'How many years have you worked for this firm?' becomes which variable definition?",
+    "o": [
+      "Work_experience – Numeric, Label 'in years', Scale",
+      "Work experience – Numeric, Label 'in years', Scale",
+      "Work_experience – String, Nominal",
+      "Work_experience – Numeric, Values 1–5, Ordinal"
+    ],
+    "e": "The answer is a number of years, so the variable is Numeric with Measure Scale, and the unit goes in Label ('in years'). The Name must be one word, so the model writes Work_experience, with an underscore replacing the space. The question checks two rules at once: no spaces in Name, and quantities are scale.",
+    "w": [
+      "'Work experience' contains a space, which Name does not allow.",
+      "Years worked is a number, so String and Nominal are wrong.",
+      "It is not a rating item; Values 1–5 and Ordinal don't fit a count of years."
+    ],
+    "k": "Quantity in years: Name with underscore (Work_experience), Numeric, Label 'in years', Scale.",
+    "h": "Underscore glues the words; years make it scale.",
+    "r": "SPSS Final – Questionnaire item 5"
+  },
+  {
+    "t": "Measurement",
+    "d": 1,
+    "q": "Nominal measure means:",
+    "o": [
+      "Qualitative categories with no order",
+      "Qualitative categories with a meaningful order",
+      "Numbers where math makes sense",
+      "Text typed as String"
+    ],
+    "e": "Nominal (from Latin nomen, 'name') variables simply name categories with no inherent order: gender, colour, ethnic group, ID. You can count how many are in each category, but ranking or averaging makes no sense. Ordinal adds a meaningful order (agreement levels), and Scale adds meaningful numeric distances (age, income).",
+    "w": [
+      "Categories with a meaningful order are ordinal.",
+      "Numbers where math makes sense are scale.",
+      "String is a Type; a String variable can be nominal, but 'typed as String' doesn't define nominal."
+    ],
+    "k": "Nominal = named categories with no order (gender, colour, ID).",
+    "h": "Nominal comes from 'nomen', name: it only names.",
+    "r": "SPSS Final/Previous Exams – Measure"
+  },
+  {
+    "t": "Measurement",
+    "d": 2,
+    "q": "'Very resistant / fairly resistant / not resistant' is an example of which measure?",
+    "o": [
+      "Ordinal",
+      "Nominal",
+      "Scale",
+      "String"
+    ],
+    "e": "The summary's own example of ordinal: words (qualitative categories) plus a rank (a specific order). 'Very resistant' is more resistant than 'fairly resistant', which is more than 'not resistant', so the order is meaningful. You cannot say the gap between 'very' and 'fairly' equals the gap between 'fairly' and 'not', which is why it is not scale. Code them (for example 1–3) and label the codes in Values.",
+    "w": [
+      "Nominal categories have no order, but these levels clearly rank from more to less.",
+      "Scale needs equal, meaningful numeric distances; verbal levels don't provide them.",
+      "String is a Type, not a level of measurement."
+    ],
+    "k": "Ordered verbal levels (very / fairly / not) = ordinal.",
+    "h": "Very > fairly > not: a ladder, so ordinal.",
+    "r": "SPSS Final – Measure"
+  },
+  {
+    "t": "Measurement",
+    "d": 3,
+    "q": "Which variable is wrongly defined?",
+    "o": [
+      "Satisfaction item (1–5, strongly disagree → strongly agree): Measure Scale",
+      "Ethnic_group (1 = British … 4 = African): Measure Nominal",
+      "Income (annual, before tax, in £): Type Numeric, Measure Scale",
+      "Participant ID (1, 2, 3…): Measure Nominal"
+    ],
+    "e": "Check each against the rules. Ethnic group is unordered categories, so nominal is right. Income is a quantity, so Numeric and Scale are right. A participant ID only labels people, so nominal is right. The satisfaction item, 1 = strongly disagree to 5 = strongly agree, has ordered categories with no guaranteed equal spacing, so the course's model answer is Ordinal. Setting it to Scale is the error.",
+    "w": [
+      "Ethnic groups are unordered categories, so Nominal is correct.",
+      "Income in £ is a true quantity: Numeric and Scale are correct.",
+      "IDs are labels without numeric meaning, so Nominal is correct."
+    ],
+    "k": "Likert items are Ordinal in the course's scheme; IDs and groups are Nominal; quantities are Scale.",
+    "h": "Ask of each: categories? order? real amounts?",
+    "r": "SPSS Final – Questionnaire"
+  },
+  {
+    "t": "Data View",
+    "d": 2,
+    "q": "What happens in Data View after you define a variable in Variable View?",
+    "o": [
+      "The variable appears automatically as a column",
+      "The variable appears as a new row",
+      "Nothing until you run Compute",
+      "You must type its name again as a header"
+    ],
+    "e": "Each variable defined in Variable View automatically appears as a column in Data View, with its name as the column header, ready for data entry. This is the two-tab design: one row per variable in Variable View becomes one column per variable in Data View, and each participant you enter becomes a row.",
+    "w": [
+      "Variables become columns in Data View; rows are cases.",
+      "Nothing needs to be run: the column appears as soon as the variable is defined.",
+      "SPSS uses the Name automatically as the column header."
+    ],
+    "k": "Define a variable in Variable View and it appears automatically as a column in Data View.",
+    "h": "A row in Variable View becomes a column in Data View.",
+    "r": "SPSS Final – Data View"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "According to the summary, Recode into DIFFERENT Variable is NOT meant for:",
+    "o": [
+      "Fixing data-entry errors",
+      "Collapsing a scale into fewer categories",
+      "Creating a new variable for analysis",
+      "Preserving the raw, original data"
+    ],
+    "e": "The summary is explicit: Recode into Different Variable is not for fixing errors. Fixing errors requires Recode into Same Variable, so that the wrong values are replaced. Recode into Different Variable is for creating a new variable for analysis (for example collapsing a scale into fewer categories) while preserving the raw, original data. The logic: errors should disappear; raw data you are regrouping should be kept.",
+    "w": [
+      "Collapsing a scale into fewer categories is its textbook use (satisfaction → Low/Medium/High).",
+      "Creating a new variable for analysis is exactly what it does.",
+      "Preserving the original data is its main advantage."
+    ],
+    "k": "Different Variable = new grouped variable, raw data kept; errors are fixed with Same Variable.",
+    "h": "Errors you erase (same); groups you copy (different).",
+    "r": "SPSS Final – Recode into different variable"
+  },
+  {
+    "t": "Recode",
+    "d": 3,
+    "q": "Put the Recode into Different Variable steps in order: (A) Old and New Values, (B) select the variable, (C) Transform → Recode into Different Variable, (D) enter the new name, (E) name the categories in Values.",
+    "o": [
+      "C → B → D → A → E",
+      "B → C → A → D → E",
+      "C → D → B → E → A",
+      "C → A → B → D → E"
+    ],
+    "e": "Follow the menu as SPSS presents it. You open Transform → Recode into Different Variables (C), select the variable to recode (B), type the new variable's name and click Change (D), define the rules in Old and New Values (A), click OK, and finally go to Variable View to name the new categories in Values (E). Labelling comes last because the new variable and its codes don't exist until the recode runs.",
+    "w": [
+      "You cannot select a variable before opening the dialog, and the rules come after naming the output.",
+      "Values labelling must come after the recode has created the variable.",
+      "The variable must be selected and named before its old→new rules are set."
+    ],
+    "k": "Recode into Different: open dialog → select variable → name new variable → Old and New Values → OK → label in Values.",
+    "h": "Open, pick, name, map, label.",
+    "r": "SPSS Final – Recode steps 1–8"
+  },
+  {
+    "t": "Recode",
+    "d": 3,
+    "q": "With the Score_Classification ranges (Lowest–9.99 → 1; 10–15 → 2; 15.01–Highest → 3), a score of exactly 15 gets:",
+    "o": [
+      "2 (Good)",
+      "3 (Very Good)",
+      "1 (Poor)",
+      "No code – it falls between ranges"
+    ],
+    "e": "The model answer defines 'good' as 10 thru 15. 'Thru' is inclusive in SPSS, so both 10 and 15 belong to it, and a score of exactly 15 gets code 2 (Good). 'Very good' starts at 15.01, meaning strictly above 15, matching the wording 'a score greater than 15'. Boundary values are where recoding mistakes hide, so always test the edges.",
+    "w": [
+      "Very good is 15.01 and above, so 15 is not included.",
+      "Poor is below 10 (Lowest thru 9.99).",
+      "15 is inside the range 10 thru 15, because SPSS's 'thru' is inclusive."
+    ],
+    "k": "SPSS 'thru' ranges include both ends; check where the boundary values land.",
+    "h": "'Thru' means through and including.",
+    "r": "SPSS Previous Exams – Score Classification"
+  },
+  {
+    "t": "Recode",
+    "d": 2,
+    "q": "After running the Score_Classification recode, how do you make 1, 2, 3 display as Poor, Good, Very Good?",
+    "o": [
+      "Variable View → Score_Classification → Values: 1 = Poor, 2 = Good, 3 = Very Good",
+      "Data View → type the words Poor, Good, Very Good over the numbers in each cell",
+      "Transform → Compute Variable → LABEL(1, 2, 3) → OK, then rerun the recode",
+      "Change the Type to String"
+    ],
+    "e": "The recode produces numeric codes. To display words without changing the data, go to Variable View → Score_Classification → Values and enter 1 = Poor, 2 = Good, 3 = Very Good. The data stay numeric (easy to analyse), and tables and charts show the labels. Typing words over numbers or changing the type would break the variable.",
+    "w": [
+      "Typing words into a numeric column is invalid and destroys the codes.",
+      "Compute has no labelling function, and the recode doesn't need rerunning.",
+      "Changing the Type to String turns the codes into text and loses the numeric data."
+    ],
+    "k": "Show words for codes by adding Values labels in Variable View; keep the data numeric.",
+    "h": "Values = subtitles for your numbers.",
+    "r": "SPSS Previous Exams – Score Classification"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 2,
+    "q": "Which recode option is used in the summary's reverse-coding steps, and is the other one also allowed?",
+    "o": [
+      "Recode into Same Variable; recoding into a different variable is also allowed",
+      "Recode into Different Variable only; recoding into the same variable is not allowed",
+      "Compute Variable only, using the formula 6 − score for every reversed item",
+      "Recode into Same Variable only; Different is not allowed"
+    ],
+    "e": "The summary's reverse-coding steps use Transform → Recode into Same Variable, mapping old 1 → new 4, 2 → 3, 3 → 2 and 4 → 1. It adds that recoding into a different variable is also allowed, in which case the new reversed variable is the one used to calculate the total score. The trade-off is the usual one: Same overwrites and saves columns; Different keeps the original responses.",
+    "w": [
+      "The summary's steps actually use Same Variable, and both options are allowed.",
+      "The summary uses Recode, not Compute (although a formula such as 6 − score would also work).",
+      "The summary explicitly says Different is also allowed."
+    ],
+    "k": "Reverse coding: the summary uses Recode into Same Variable, but Different is also allowed (then total the new variable).",
+    "h": "Either eraser (same) or photocopy (different) works for flipping.",
+    "r": "SPSS Final – Reverse coding"
+  },
+  {
+    "t": "Reverse coding",
+    "d": 3,
+    "q": "In the job-commitment questionnaire, a respondent circles 2 (disagree) for item (c) 'Most of the time I have to force myself to go to work'. After reverse coding on the 5-point scale, the score is:",
+    "o": [
+      "4",
+      "2",
+      "3",
+      "1"
+    ],
+    "e": "Item (c) is negatively phrased, so a high agreement score means low commitment. Reverse it on the 5-point scale: new = 6 − old = 6 − 2 = 4. That makes sense: disagreeing with 'I have to force myself to go to work' signals high commitment, so the reversed score should be high, matching items (a), (b) and (d), where high means committed.",
+    "w": [
+      "Leaving 2 unchanged would count disagreement as low commitment, the wrong direction.",
+      "3 is the midpoint, which only 3 maps to.",
+      "1 would be the reverse of 5, not of 2."
+    ],
+    "k": "Reversed score on a 1–5 item = 6 − old; disagreeing with a negative item becomes a high score.",
+    "h": "Disagree with a negative statement = a positive answer.",
+    "r": "SPSS Final – Questionnaire + Reverse coding"
+  },
+  {
+    "t": "Compute",
+    "d": 1,
+    "q": "In Compute Variable, the name you type for the new variable goes in:",
+    "o": [
+      "Target Variable",
+      "Numeric Expression",
+      "Values",
+      "Label"
+    ],
+    "e": "The Compute Variable dialog has two key boxes. Target Variable holds the name of the variable to create (or overwrite), such as TotalScore or Score_Mean, following the Name rules (no spaces). Numeric Expression holds the formula, such as Q1 + Q2 + Q3 + Q4. Values and Label are set afterwards in Variable View.",
+    "w": [
+      "Numeric Expression holds the formula, not the new name.",
+      "Values is a Variable View property for labelling codes.",
+      "Label is a Variable View property describing the variable, set afterwards."
+    ],
+    "k": "Compute: Target Variable = the new name; Numeric Expression = the formula.",
+    "r": "SPSS Final/Previous Exams – Compute"
+  },
+  {
+    "t": "Compute",
+    "d": 2,
+    "q": "Compute Variable can:",
+    "o": [
+      "Create a new variable or change an existing one with formulas",
+      "Only regroup existing values into new categories",
+      "Only create new string variables from text answers",
+      "Only run statistical tests such as t-tests and chi-square"
+    ],
+    "e": "The summary's definition: Compute creates a new variable, or changes an existing one, by performing calculations or applying formulas to your data, for example totals, means, differences or transformations. If the Target Variable already exists, SPSS asks before overwriting it. Regrouping values into categories is Recode's job, and tests are run from the Analyze menu.",
+    "w": [
+      "Regrouping existing values into new categories is Recode; Compute uses formulas to create or change variables.",
+      "Compute mainly builds numeric variables from formulas, not text answers.",
+      "Statistical tests are run from Analyze, not Transform."
+    ],
+    "k": "Compute Variable creates or changes a variable with calculations or formulas.",
+    "r": "SPSS Final – Compute"
+  },
+  {
+    "t": "Compute",
+    "d": 2,
+    "q": "A 4-item scale's total score in the summary's example is computed as:",
+    "o": [
+      "TotalScore = Q1 + Q2 + Q3 + Q4",
+      "TotalScore = (Q1 + Q2 + Q3 + Q4) / 4",
+      "TotalScore = Q1 × Q4",
+      "TotalScore = RECODE(Q1 thru Q4)"
+    ],
+    "e": "A total score adds the items: TotalScore = Q1 + Q2 + Q3 + Q4. Dividing by 4 would give the mean item score instead; both are legitimate scale scores, but they are different quantities, and the question asks for the total. Before totalling, make sure any negatively worded items have been reverse-coded so all items point the same way.",
+    "w": [
+      "Dividing by 4 gives the mean, not the total.",
+      "Multiplying two items is not a scale score.",
+      "RECODE regroups values; it doesn't add items."
+    ],
+    "k": "Total = sum of the items; mean = sum ÷ number of items. Reverse-code first.",
+    "h": "Total adds; mean adds then shares.",
+    "r": "SPSS Final – Compute"
+  },
+  {
+    "t": "Descriptives",
+    "d": 1,
+    "q": "The mode is:",
+    "o": [
+      "The most frequently repeated value",
+      "The middle value of the ordered data",
+      "The average of all the values",
+      "Max − Min"
+    ],
+    "e": "The mode is the value that occurs most often. In 4, 6, 6, 8, 11 the mode is 6. It is the only measure of central tendency that works for nominal data (for example the most common ethnic group), and a distribution can have more than one mode (bimodal). The median is the middle value, the mean the average, and the range a spread measure.",
+    "w": [
+      "The middle value of the ordered data is the median.",
+      "The average of all values is the mean, a different measure of central tendency from the mode.",
+      "Max − Min is the range, a measure of spread."
+    ],
+    "k": "Mode = the most frequent value; the only average usable for nominal data.",
+    "h": "Mode = 'most' (both start with mo-).",
+    "r": "SPSS Final – Central tendency"
+  },
+  {
+    "t": "Descriptives",
+    "d": 2,
+    "q": "In the summary, 'Sum' is listed under:",
+    "o": [
+      "Central tendency",
+      "Dispersion",
+      "Percentile values",
+      "Distribution"
+    ],
+    "e": "In the SPSS Frequencies → Statistics panel, and therefore in the summary, Sum appears in the Central Tendency box alongside mean, median and mode. Dispersion lists SD, variance, range, minimum and maximum. Sum isn't a measure of central tendency in the theoretical sense, but SPSS groups it there because the mean is the sum divided by n.",
+    "w": [
+      "Dispersion lists SD, variance, range, min and max, not sum.",
+      "Percentile values list quartiles and cut points such as the 25th or 75th percentile, not the sum.",
+      "The Distribution section lists skewness and kurtosis, the shape of the data, not the sum."
+    ],
+    "k": "SPSS lists Sum with mean, median and mode under Central Tendency.",
+    "h": "Mean = Sum ÷ n, so Sum sits beside the mean.",
+    "r": "SPSS Final – Statistics"
+  },
+  {
+    "t": "Descriptives",
+    "d": 3,
+    "q": "Scores: 4, 6, 6, 8, 11. Which statement is correct?",
+    "o": [
+      "Mean = 7, median = 6, mode = 6, range = 7",
+      "Mean = 6, median = 7, mode = 6, range = 7",
+      "Mean = 7, median = 8, mode = 4, range = 11",
+      "Mean = 7, median = 6, mode = 6, range = 15"
+    ],
+    "e": "Work each out. Mean = (4 + 6 + 6 + 8 + 11) / 5 = 35 / 5 = 7. Median = the middle of the five ordered scores = 6 (the third value). Mode = 6, the only repeated value. Range = 11 − 4 = 7. The mean is above the median here because the high score 11 pulls it up, a small sign of positive skew.",
+    "w": [
+      "This swaps mean and median: the mean is 7 and the median 6.",
+      "The median is 6, the mode 6 (not 4), and the range 7 (not 11).",
+      "The range is 11 − 4 = 7, not 15."
+    ],
+    "k": "Mean = sum/n; median = middle ordered value; mode = most frequent; range = max − min.",
+    "h": "Mean pulled up by 11 above the median: a tail on the right.",
+    "r": "SPSS Final – Central tendency & dispersion (application)"
+  },
+  {
+    "t": "Descriptives",
+    "d": 2,
+    "q": "If the variance is 25, the SD is:",
+    "o": [
+      "5",
+      "625",
+      "12.5",
+      "25"
+    ],
+    "e": "The SD is the square root of the variance: √25 = 5. Going the other way, variance = SD² (5² = 25). The SD is reported more often because it is in the same units as the data, so 'SD = 5 points' can be read directly, whereas variance is in squared units.",
+    "w": [
+      "625 squares the variance; you take the square root instead.",
+      "12.5 halves the variance; halving is not a square root.",
+      "25 is the variance itself; the SD is its square root, √25 = 5."
+    ],
+    "k": "SD = √variance and variance = SD², so either one gives the other.",
+    "r": "SPSS Final – Dispersion"
+  },
+  {
+    "t": "Percentiles",
+    "d": 1,
+    "q": "The 5th percentile of height is 152 cm. Interpretation:",
+    "o": [
+      "5% of participants are shorter than 152 cm",
+      "5% of participants are taller than 152 cm",
+      "152 cm is the 5th most common height",
+      "The 5 shortest participants measure 152 cm"
+    ],
+    "e": "A percentile is the value below which that percentage of the data falls. The 5th percentile at 152 cm means 5% of participants are shorter than 152 cm and 95% are taller. Low percentiles describe the bottom of the distribution and high percentiles the top; the 50th is the median.",
+    "w": [
+      "This reverses it: 5% are below 152 cm, not above.",
+      "Percentiles are positions, not frequency ranks of values.",
+      "Percentiles refer to percentages of participants, not a count of five people."
+    ],
+    "k": "Pth percentile: P% of scores fall below it.",
+    "h": "5th percentile: only 5% are below you.",
+    "r": "SPSS Previous Exams – Percentiles"
+  },
+  {
+    "t": "Percentiles",
+    "d": 2,
+    "q": "The 50th percentile is also called:",
+    "o": [
+      "The median (Q2)",
+      "The mean",
+      "The first quartile (Q1)",
+      "The mode"
+    ],
+    "e": "The 50th percentile splits the data in half (50% below, 50% above), which is exactly the median. It is also Q2, the second quartile, because the quartiles sit at the 25th, 50th and 75th percentiles. The mean equals the median only in symmetrical distributions; with skew they differ.",
+    "w": [
+      "The mean equals the median only when the distribution is symmetrical.",
+      "The first quartile (Q1) is the 25th percentile.",
+      "The mode is the most frequent value, not the middle one."
+    ],
+    "k": "The 50th percentile, the median and Q2 are the same value.",
+    "h": "Fifty-fifty split = median.",
+    "r": "SPSS Final/Previous Exams – Percentiles"
+  },
+  {
+    "t": "Charts",
+    "d": 1,
+    "q": "Which path shows bar charts or histograms from the Frequencies window?",
+    "o": [
+      "Analyze → Descriptive Statistics → Frequencies → Charts",
+      "Transform → Compute Variable → Charts",
+      "Analyze → Correlate → Bivariate → Charts",
+      "File → Import Data → Excel → Charts → Histogram"
+    ],
+    "e": "Inside the Frequencies dialog (Analyze → Descriptive Statistics → Frequencies) there is a Charts button offering bar charts, pie charts and histograms (with an optional normal curve). It is the quick route when you are already running frequencies. Graphs → Chart Builder is the full alternative for any chart type.",
+    "w": [
+      "Compute builds variables; it has no Charts option.",
+      "Bivariate correlation has no Charts button; scatterplots come from Chart Builder.",
+      "Importing data has nothing to do with charts."
+    ],
+    "k": "Quick charts: Frequencies → Charts (bar, pie, histogram); all charts: Graphs → Chart Builder.",
+    "r": "SPSS Final – Charts"
+  },
+  {
+    "t": "Charts",
+    "d": 2,
+    "q": "Why does the summary say a histogram is used for all test scales?",
+    "o": [
+      "Because there are lots of numbers, and it shows the shape of the distribution",
+      "Because test scales are nominal variables, so their categories must be shown",
+      "Because pie charts cannot display any numbers or percentages at all",
+      "Because test scores have only a few possible values"
+    ],
+    "e": "Test-scale scores are numeric with many possible values ('lots of numbers'), so a bar for each value would be unreadable. A histogram groups the values into adjacent ranges and shows the shape of the distribution: symmetrical or skewed, one peak or two, any gaps or outliers. That shape guides which statistics to trust, for example whether the mean is a fair summary.",
+    "w": [
+      "Test scales are scale data, not nominal; nominal categories use bar or pie charts.",
+      "Pie charts can show numbers; they are simply the wrong tool for many continuous values.",
+      "Test scores have many possible values; that is exactly why a histogram is needed."
+    ],
+    "k": "Scale data with many values → histogram, to see the shape of the distribution.",
+    "h": "Lots of numbers → bins → histogram.",
+    "r": "SPSS Final – Charts"
+  },
+  {
+    "t": "Charts",
+    "d": 2,
+    "q": "A histogram of exam scores is skewed to the LEFT. This means:",
+    "o": [
+      "There are more high scores",
+      "There are more low scores",
+      "Scores are evenly distributed",
+      "The data contain no outliers"
+    ],
+    "e": "Left (negative) skew means the long tail stretches toward the low scores while most scores pile up at the high end: more high scores, as with an easy exam where most students do well and a few do badly. Name the skew after the tail, not after the bulk. In left skew the mean is usually below the median, because the low tail pulls it down.",
+    "w": [
+      "More low scores with a tail to the right is right (positive) skew.",
+      "Evenly distributed scores describe a symmetrical distribution.",
+      "Skew says nothing about outliers being absent; the tail may contain some."
+    ],
+    "k": "Left (negative) skew: tail to the left, most scores high; mean usually below median.",
+    "h": "Tail on the left, crowd on the right.",
+    "r": "SPSS Previous Exams – Histogram interpretation"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 1,
+    "q": "In a boxplot, how do you recognise an outlier?",
+    "o": [
+      "It appears outside the whiskers",
+      "It lies inside the box",
+      "It is the line in the middle of the box",
+      "It is the top edge of the box"
+    ],
+    "e": "In a boxplot, any value that appears outside the whiskers is an outlier, plotted individually as a circle (mild) or asterisk (extreme) with its case number. Inside the plot, the box spans Q1 to Q3 (the middle 50%), the line inside the box is the median, and the whiskers reach to the most extreme values that are not outliers.",
+    "w": [
+      "Values inside the box are the middle 50% of the data, not outliers.",
+      "The line in the middle of the box is the median.",
+      "The top edge of the box is Q3, the 75th percentile."
+    ],
+    "k": "Outliers are the points beyond the whiskers (° mild, * extreme), labelled with case numbers.",
+    "h": "Whiskers are the fence; anything outside is an outlier.",
+    "r": "SPSS Previous Exams – Outliers"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 3,
+    "q": "Q1 = 20 and Q3 = 30. Below which value does a LOW score become a mild outlier?",
+    "o": [
+      "5",
+      "10",
+      "15",
+      "−10"
+    ],
+    "e": "The fences are symmetrical around the box. IQR = 30 − 20 = 10, and 1.5 × IQR = 15. The low mild fence is Q1 − 15 = 20 − 15 = 5, so scores below 5 are at least mild outliers. The low extreme fence is Q1 − 3 × IQR = 20 − 30 = −10. Low fences subtract from Q1; high fences add to Q3.",
+    "w": [
+      "10 is Q1 − IQR, one box-length; the rule uses 1.5 box-lengths.",
+      "15 is Q1 − 0.5 × IQR, too close to the box.",
+      "−10 is the extreme fence (Q1 − 3 × IQR), not the mild one."
+    ],
+    "k": "Low fences: mild = Q1 − 1.5 × IQR; extreme = Q1 − 3 × IQR.",
+    "h": "Same rule, opposite side: subtract from Q1.",
+    "r": "SPSS Previous Exams – IQR rule"
+  },
+  {
+    "t": "Boxplots & outliers",
+    "d": 2,
+    "q": "How does SPSS help you find an outlier in the dataset?",
+    "o": [
+      "Each outlier is labelled with its case (row) number",
+      "It deletes the outliers automatically from the Data View",
+      "It colours the outlier's whole column red in Variable View",
+      "It lists outliers under Compute"
+    ],
+    "e": "SPSS labels each outlier in a boxplot with its case (row) number, so you can go straight to that row in Data View, check the raw value, and decide whether it is a typing error to correct or a genuine extreme score to keep. SPSS never deletes outliers automatically; that decision is always the researcher's.",
+    "w": [
+      "SPSS never deletes data automatically; it labels each outlier with its row number so you can decide.",
+      "SPSS has no feature that colours outlier columns in Variable View.",
+      "Compute creates variables; it doesn't list outliers."
+    ],
+    "k": "SPSS boxplots label each outlier with its case number so you can find and check it.",
+    "r": "SPSS Previous Exams – Outliers"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 2,
+    "q": "The same patients complete the PHQ-9 before and after 12 sessions of CBT. Which test compares the two means?",
+    "o": [
+      "Paired-samples t-test",
+      "Independent-samples t-test",
+      "One-sample t-test",
+      "Chi-square"
+    ],
+    "e": "The same patients measured before and after treatment produce paired scores: each patient's 'after' is linked to their own 'before'. The paired-samples t-test analyses the before–after differences, which removes stable differences between patients and gives more power. The summary's own example is exactly this: the same participants before and after a psychotherapy intervention.",
+    "w": [
+      "Independent-samples is for two separate groups of people.",
+      "One-sample compares one mean with a fixed value.",
+      "Chi-square relates categorical variables; PHQ-9 totals are scores."
+    ],
+    "k": "Before and after in the same people → paired-samples t-test.",
+    "h": "Same patients, two times = a pair.",
+    "r": "SPSS Previous Exams – Paired t-test"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 3,
+    "q": "Match test to question: (1) Does mean anxiety differ between 4 age groups? (2) Is marital status related to diagnosis category? (3) Does hours of sleep predict mood score?",
+    "o": [
+      "(1) ANOVA; (2) Chi-square; (3) Regression",
+      "(1) Chi-square; (2) ANOVA; (3) Correlation",
+      "(1) Independent t-test; (2) Crosstabs only; (3) Paired t-test",
+      "(1) ANOVA; (2) Pearson correlation; (3) One-sample t-test"
+    ],
+    "e": "Match the question to the data. (1) Mean anxiety, a numeric outcome, across four groups calls for ANOVA. (2) Marital status by diagnosis category is two categorical variables, so chi-square. (3) Hours of sleep predicting mood score is one numeric variable predicting another, so regression (correlation would only describe the association; 'predict' signals regression).",
+    "w": [
+      "Chi-square cannot compare means, ANOVA cannot relate two categorical variables, and 'predict' calls for regression.",
+      "A t-test compares only two groups, and a paired t-test doesn't predict one variable from another.",
+      "Pearson correlation needs numeric variables, and a one-sample t-test doesn't predict anything."
+    ],
+    "k": "Means of 3+ groups → ANOVA; two categorical variables → chi-square; predict one variable from another → regression.",
+    "h": "Means → ANOVA, Categories → Chi-square, Predict → Regression.",
+    "r": "SPSS Previous Exams – Definitions"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 2,
+    "q": "Why can't chi-square be used to compare mean IQ between two groups?",
+    "o": [
+      "Chi-square is for categorical variables, not numeric means",
+      "Chi-square only works when there are three or more groups",
+      "Chi-square requires a known population mean such as 100",
+      "Chi-square needs paired data"
+    ],
+    "e": "Chi-square works on counts in categories: it asks whether the distribution of one categorical variable depends on another. IQ is a numeric score, and the question is about means, so the right test is the independent-samples t-test. The summary puts it plainly: chi-square is for categorical variables, not numeric ones.",
+    "w": [
+      "Chi-square works with two or more categories; group count isn't the issue.",
+      "A known population mean is what a one-sample t-test uses.",
+      "Chi-square assumes independent observations; paired data need a different test."
+    ],
+    "k": "Numeric means → t-test or ANOVA; categorical counts → chi-square.",
+    "h": "Chi-square counts; t-tests average.",
+    "r": "SPSS Previous Exams – Chi-square"
+  },
+  {
+    "t": "Crosstabs & tests",
+    "d": 1,
+    "q": "A t-test is used to:",
+    "o": [
+      "Compare means to see if a difference is significant",
+      "Compare two categorical variables in a crosstab table",
+      "Show the shape of a distribution and its skewness",
+      "Count how often each value appears in a variable"
+    ],
+    "e": "A t-test compares means and checks whether the difference between them is statistically significant, that is, larger than you would expect from sampling variation alone. There are three versions: one-sample (one mean versus a known value), paired-samples (the same people twice) and independent-samples (two separate groups). For three or more means, use ANOVA.",
+    "w": [
+      "Comparing two categorical variables is a job for crosstabs and chi-square.",
+      "The shape of a distribution is shown by a histogram and skewness statistics.",
+      "Counting how often each value appears is Frequencies."
+    ],
+    "k": "t-test = compare two means (or one mean with a value) for a significant difference.",
+    "h": "t for 'two': two means at most.",
+    "r": "SPSS Previous Exams – T-test"
+  },
+  {
+    "t": "Correlation",
+    "d": 2,
+    "q": "Pearson r = 0.04 with Sig = 0.71. Conclusion?",
+    "o": [
+      "No meaningful correlation, and not significant",
+      "Strong positive, significant correlation",
+      "Strong negative, significant correlation",
+      "Significant, because p is above 0.05"
+    ],
+    "e": "Read both numbers. r = 0.04 is almost zero, so there is essentially no linear relationship. Sig = 0.71 is far above 0.05, so the result is not significant (in the course's terms, accept H₀). Both agree: no meaningful correlation. Remember that r measures only straight-line association, so a scatterplot could still reveal a curved pattern.",
+    "w": [
+      "r = 0.04 is close to zero, not strong, and 0.71 is not significant.",
+      "r is positive and tiny, not strongly negative, and not significant.",
+      "A p-value above 0.05 means not significant."
+    ],
+    "k": "r near 0 and p > .05 → no meaningful, significant correlation.",
+    "r": "SPSS Previous Exams – Correlation (application)"
+  },
+  {
+    "t": "Correlation",
+    "d": 3,
+    "q": "In the model answer for r = 0.958, Sig = 0.001, what does 'significant' mean?",
+    "o": [
+      "The correlation is very unlikely to have happened by chance",
+      "The correlation is perfect, so r must equal exactly 1",
+      "Working hours cause salary to rise, which the test proves",
+      "95% of the data lie on a straight line"
+    ],
+    "e": "'Significant' here means the correlation is very unlikely to have happened by chance if there were really no relationship: Sig = 0.001 is far below 0.05. It is a statement about evidence, not about size or cause. A correlation can be significant but small in a big sample, and even a strong, significant correlation does not prove causation.",
+    "w": [
+      "Significance doesn't mean perfect; r = 0.958 is strong but not 1.",
+      "Correlation does not prove causation, however significant.",
+      "Significance is not the percentage of points on a line."
+    ],
+    "k": "Significant = unlikely to be due to chance alone; it says nothing about cause and nothing about size by itself.",
+    "h": "Significant means 'probably real', not 'large' or 'causal'.",
+    "r": "SPSS Previous Exams – Correlation"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 2,
+    "q": "In the IQ table, Sig. (2-tailed) = .018. What is the decision?",
+    "o": [
+      "Significant (.018 < .05) → reject H₀ and accept H₁",
+      "Not significant → accept H₀",
+      "Significant only if t is negative",
+      "Undecided, because the CI must be checked first"
+    ],
+    "e": "Sig. is SPSS's name for the p-value. .018 ≤ .05, so the difference between the sample mean IQ and 100 is statistically significant: reject H₀ and accept H₁. It agrees with the critical-value check (|t| = 2.964 > 2.306) and with the CI of the difference, which excludes 0. All three routes give the same decision.",
+    "w": [
+      "Not significant would require p > .05; .018 is smaller.",
+      "Significance does not depend on the sign of t; the sign only gives direction.",
+      "No extra check is needed; p alone decides, and the CI agrees anyway."
+    ],
+    "k": "Sig. ≤ .05 → significant → reject H₀ (accept H₁); the CI and critical t agree.",
+    "h": "Sig. is SPSS's nickname for p.",
+    "r": "SPSS Previous Exams – One-sample t-test"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 3,
+    "q": "If the same table had shown t = −2.964 (same df and p), what would you conclude?",
+    "o": [
+      "Significant, and the sample mean IQ is lower than 100",
+      "Not significant, because t is negative",
+      "Significant, and the sample mean is higher than 100",
+      "The test is invalid"
+    ],
+    "e": "Significance depends on the size of t (|t| = 2.964 > 2.306) or on p, not on its sign, so the result would still be significant. The sign gives the direction: a negative t means the sample mean is below the test value. The conclusion would be that the sample's mean IQ is significantly lower than 100, and the mean difference and its CI would also be negative.",
+    "w": [
+      "A negative t can be significant; significance depends on |t| or p.",
+      "Negative t means below the test value, not above it.",
+      "Negative t values are perfectly valid; they just indicate direction."
+    ],
+    "k": "For t: the size (|t| or p) decides significance; the sign decides direction.",
+    "h": "Size says 'is it real?', sign says 'which way?'",
+    "r": "SPSS Previous Exams – One-sample t-test (application)"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 3,
+    "q": "Why does the 95% CI of the difference (1.53 to 12.25) agree with p = .018?",
+    "o": [
+      "Because the interval does not contain 0",
+      "Because the interval contains 100",
+      "Because 12.25 is greater than t",
+      "Because the interval is wider than df"
+    ],
+    "e": "A 95% CI of the difference contains the plausible values of the true difference. If 0 (no difference) lies outside the interval, 'no difference' is not plausible at the 5% level, which is the same decision as p < .05. Here the whole interval, 1.53 to 12.25, is above 0, so it agrees with p = .018. If the interval had included 0, p would be above .05.",
+    "w": [
+      "100 is the test value; the CI of the difference is compared with 0, not 100.",
+      "Comparing an interval limit with t has no meaning.",
+      "Comparing a CI's width with df has no meaning."
+    ],
+    "k": "95% CI of a difference excludes 0 ⇔ p < .05 (two-tailed).",
+    "h": "Zero outside the net = significant.",
+    "r": "SPSS Previous Exams – One-sample t-test"
+  },
+  {
+    "t": "One-sample t-test",
+    "d": 2,
+    "q": "What does the 'Test Value = 100' in the One-Sample Test table represent?",
+    "o": [
+      "The known population mean the sample is compared with (worldwide mean IQ)",
+      "The sample mean IQ obtained from the nine participants in the study",
+      "The critical value of t that the result must exceed to be significant",
+      "The number of participants"
+    ],
+    "e": "The test value is the fixed number the sample mean is compared with: here the normal worldwide mean IQ of 100, entered in the dialog's 'Test Value' box. H₀ says the population mean equals 100. SPSS then reports the mean difference (sample mean − 100), t, df, Sig. and a CI for that difference.",
+    "w": [
+      "The sample mean is 106.889; the test value is the comparison point.",
+      "The critical t (2.306) comes from tables, not from the Test Value box.",
+      "n is 9 (df + 1), not the test value."
+    ],
+    "k": "Test Value = the known value (e.g., IQ = 100) the sample mean is tested against.",
+    "r": "SPSS Previous Exams – One-sample t-test"
+  },
+  {
+    "t": "Definitions",
+    "d": 1,
+    "q": "Degrees of freedom are defined in the course as:",
+    "o": [
+      "The number of values that are free to vary",
+      "The cutoff that decides significance",
+      "The probability the result is due to chance",
+      "The range of the middle 50% of data"
+    ],
+    "e": "Degrees of freedom are the number of values that are free to vary once something has been fixed. If 5 scores must have a mean of 10, you can choose any 4 freely, but the fifth is then forced, so df = 4 (n − 1). df determines which t (or F, or χ²) distribution is used, and therefore the critical value: fewer df give heavier tails and stricter cutoffs.",
+    "w": [
+      "The cutoff that decides significance is the critical value.",
+      "The probability of the result under H₀ is the p-value.",
+      "The range of the middle 50% is the IQR."
+    ],
+    "k": "df = the number of values free to vary (one-sample t: n − 1); df sets the critical value.",
+    "h": "Five friends, fixed bill: four choose freely, the last pays what's left.",
+    "r": "SPSS Previous Exams – Definitions"
+  },
+  {
+    "t": "Definitions",
+    "d": 1,
+    "q": "Descriptive statistics:",
+    "o": [
+      "Describe the data with numbers such as mean, median and SD",
+      "Test whether group differences are statistically significant",
+      "Predict one variable from another using a regression line",
+      "Recode values into categories"
+    ],
+    "e": "Descriptive statistics summarize the data you have: centre (mean, median, mode), spread (SD, variance, range) and position (percentiles). They do not test hypotheses or generalize beyond the sample; that is the job of inferential statistics (t-tests, ANOVA, chi-square, correlation tests, regression), which use p-values and CIs to infer something about the population.",
+    "w": [
+      "Testing whether differences are statistically significant is inferential statistics, not descriptive.",
+      "Prediction with a regression line is inferential or modelling statistics.",
+      "Recoding values into categories is a data transformation step, not a way of describing data."
+    ],
+    "k": "Descriptive statistics describe the sample (centre, spread, position); inferential statistics test and generalize.",
+    "h": "Describe what you have; infer what you don't.",
+    "r": "SPSS Previous Exams – Definitions"
+  },
+  {
+    "t": "Definitions",
+    "d": 2,
+    "q": "According to the course, what does a confidence interval estimate?",
+    "o": [
+      "The range likely to contain the true population mean",
+      "The range that contains every participant's score",
+      "The probability that H₀ is true",
+      "The spread between Q1 and Q3"
+    ],
+    "e": "A confidence interval gives a range of plausible values for a population parameter, here the true population mean: 'the actual average of a variable for the entire population, not just your sample'. A 95% CI (for example 45–55) comes from a method that captures the true mean in 95% of samples. It is about the population mean, not about individual scores.",
+    "w": [
+      "A CI is about the population mean, not the range of every participant's score.",
+      "A CI says nothing about the probability that H₀ is true.",
+      "The spread between Q1 and Q3 is the IQR."
+    ],
+    "k": "A CI is a range of plausible values for the population parameter (e.g., the true mean).",
+    "h": "A CI is a net cast to catch the true population mean.",
+    "r": "SPSS Previous Exams – Definitions"
+  }
+]

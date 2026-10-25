@@ -1,0 +1,585 @@
+[
+  {
+    "t": "Ch5 Data editor",
+    "d": 1,
+    "q": "In the SPSS Data View, each row and each column represent:",
+    "o": [
+      "Row = one case (participant); column = one variable",
+      "Row = one variable; column = one case (participant)",
+      "Row = one condition; column = one measurement occasion",
+      "Row = one score; column = one statistic computed on it"
+    ],
+    "e": "The golden rule of SPSS data entry: one row per case and one column per variable. Variable View transposes this, with one row per variable, where properties such as name, label and values are defined.",
+    "w": [
+      "This reverses the rule; that layout belongs to Variable View, not Data View.",
+      "Conditions and occasions aren't the basic units; rows are cases and columns are variables.",
+      "Scores and statistics aren't rows and columns; each row is one person's full set of variables."
+    ],
+    "k": "Data View: one row per case, one column per variable.",
+    "h": "Rows = Respondents; columns = characteristics.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Data View and Variable View"
+  },
+  {
+    "t": "Ch5 Data entry",
+    "d": 2,
+    "q": "How should data for a between-subjects design with three therapy groups be entered?",
+    "o": [
+      "One outcome column plus a grouping (coding) variable with values 1, 2 and 3",
+      "Three separate outcome columns, one for each of the three therapy groups",
+      "One column per participant, with the three therapy groups stacked as separate rows",
+      "A separate SPSS data file for each of the three therapy groups, merged later"
+    ],
+    "e": "Different people in different conditions means each person still gets one row, and a coding variable (1 = CBT, 2 = psychodynamic, 3 = waitlist, with value labels) records their group. Separate columns are only for conditions done by the same people (repeated measures).",
+    "w": [
+      "Separate outcome columns are for repeated measures, where the same people do every condition.",
+      "Participants go in rows, not columns; one column per person breaks the case-per-row rule.",
+      "Separate files for each group make analysis harder and are unnecessary; use a coding variable."
+    ],
+    "k": "Between-subjects: one outcome column plus a coding variable for group.",
+    "h": "Different people, different code numbers.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Entering between-groups data"
+  },
+  {
+    "t": "Ch5 Data entry",
+    "d": 2,
+    "q": "Each participant rated their mood before, during and after therapy. How should these repeated measurements be entered?",
+    "o": [
+      "As three columns, one per time point, with each participant on a single row",
+      "As one column for mood, plus a coding variable for the three time points",
+      "As three rows per participant, one for each time point, in one column",
+      "As three separate data files that are merged before the analysis is run"
+    ],
+    "e": "For SPSS's Repeated Measures GLM, data are in wide format: each person is one row, and each level of the within-subjects factor is its own column (mood_pre, mood_mid, mood_post). Long format (several rows per person) is used for multilevel or mixed models.",
+    "w": [
+      "A coding variable for time is long format, which the Repeated Measures GLM doesn't use.",
+      "Three rows per person is long format, used for multilevel models, not repeated-measures ANOVA.",
+      "Separate files per time point would split each person's data across files."
+    ],
+    "k": "Repeated measures in SPSS GLM: wide format, one column per time point.",
+    "h": "Same person, same row, one column per moment.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Entering repeated-measures data"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 2,
+    "q": "Which of these is NOT a valid SPSS variable name?",
+    "o": [
+      "2nd_score",
+      "score_2",
+      "Score.two",
+      "anx_total"
+    ],
+    "e": "Variable names must begin with a letter (or @, # or $ for special uses), not a digit. They cannot contain spaces and cannot be reserved words such as AND, BY or ALL. Underscores and internal full stops are allowed, but a name should not end with a full stop.",
+    "w": [
+      "score_2 starts with a letter and uses an underscore, so it's valid.",
+      "Score.two starts with a letter; internal full stops are allowed.",
+      "anx_total starts with a letter and uses an underscore, so it's valid."
+    ],
+    "k": "SPSS variable names must start with a letter, with no spaces or reserved words.",
+    "h": "Letters lead, digits follow.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Variable names"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 1,
+    "q": "Where in Variable View do you tell SPSS that 1 = 'Male' and 2 = 'Female'?",
+    "o": [
+      "Values",
+      "Label",
+      "Measure",
+      "Missing"
+    ],
+    "e": "The Values column holds value labels that attach words to numeric codes. Label holds a fuller description of the variable itself (for example 'Biological sex of participant'). Output then shows 'Female' instead of '2'.",
+    "w": [
+      "Label describes the variable itself, not what each code means.",
+      "Measure sets the level (scale, ordinal, nominal), not code labels.",
+      "Missing declares codes to exclude, not labels for valid codes."
+    ],
+    "k": "Values = value labels for codes; Label = description of the variable.",
+    "h": "Values give values their names.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Value labels"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 2,
+    "q": "In Variable View, the 'Measure' column offers which three options?",
+    "o": [
+      "Scale, Ordinal, Nominal",
+      "Interval, Ratio, Nominal",
+      "Numeric, String, Date",
+      "Input, Target, Both"
+    ],
+    "e": "SPSS collapses interval and ratio into 'Scale'. Setting Measure correctly matters because the Chart Builder and some dialogs only accept certain levels in certain slots. Numeric/String/Date are options under Type, and Input/Target are Role options.",
+    "w": [
+      "SPSS merges interval and ratio into a single 'Scale' option.",
+      "Numeric, String and Date are options in the Type column.",
+      "Input, Target and Both are options in the Role column."
+    ],
+    "k": "Measure options: Scale (interval or ratio), Ordinal, Nominal.",
+    "h": "SON: Scale, Ordinal, Nominal.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Measure"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 2,
+    "q": "A questionnaire uses 999 to mean 'question not answered'. What should you do in SPSS?",
+    "o": [
+      "Declare 999 as a user-missing value in the Missing column",
+      "Leave 999 in the data, because SPSS ignores extreme values",
+      "Give 999 a value label of 'missing' in the Values column",
+      "Replace 999 with zero so that it does not affect the mean"
+    ],
+    "e": "Unless declared missing, 999 is treated as a real score and will wreck means and SDs. Declaring it user-missing excludes it from analyses while keeping the code in the file. Blank cells are 'system-missing' and shown as a dot. A value label alone does not exclude the value.",
+    "w": [
+      "SPSS treats 999 as a real score unless it's declared missing.",
+      "A value label alone doesn't exclude the code from analyses.",
+      "Replacing 999 with 0 creates a fake real score and biases the mean."
+    ],
+    "k": "Declare missing-data codes as user-missing in the Missing column.",
+    "h": "Undeclared 999s wreck the mean.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Missing values"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 2,
+    "q": "Why are numeric codes with value labels usually better than string (text) variables for groups?",
+    "o": [
+      "Some procedures, such as One-Way ANOVA, accept only numeric grouping codes",
+      "String variables use more memory, so SPSS limits how many you can create",
+      "Numeric codes are automatically treated as interval data in analyses",
+      "Value labels make SPSS ignore any coding errors in the data"
+    ],
+    "e": "Some SPSS procedures, such as One-Way ANOVA, accept only numeric (integer) factor codes, and typed text invites inconsistencies ('cbt', 'CBT ', 'Cbt') that SPSS treats as different groups. Numeric codes plus value labels are cleaner and still display readable labels in the output.",
+    "w": [
+      "Memory limits aren't the reason; some procedures need numeric codes.",
+      "Numeric codes aren't automatically treated as interval; Measure controls that.",
+      "Value labels don't fix coding errors in the data."
+    ],
+    "k": "Use numeric codes with value labels for groups; some procedures reject string factors.",
+    "h": "Numbers for SPSS, labels for humans.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Variable types"
+  },
+  {
+    "t": "Ch5 Files",
+    "d": 1,
+    "q": "SPSS data, output and syntax files have which extensions?",
+    "o": [
+      ".sav, .spv and .sps",
+      ".spv, .sav and .sps",
+      ".sps, .spv and .sav",
+      ".csv, .doc and .txt"
+    ],
+    "e": "Data = .sav, output viewer = .spv, syntax = .sps. Keeping all three means the analysis can be fully reproduced.",
+    "w": [
+      "This swaps data and output: .sav is data, .spv is output.",
+      "This reverses the order: .sps is syntax, not data.",
+      "These are generic file types, not SPSS's own formats."
+    ],
+    "k": "SPSS: .sav = data, .spv = output viewer, .sps = syntax.",
+    "h": "sAVe data, sPV for viewing, SPS for scripts.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · File types"
+  },
+  {
+    "t": "Ch5 Syntax",
+    "d": 2,
+    "q": "What does the 'Paste' button in an SPSS dialog box do?",
+    "o": [
+      "Writes the equivalent command syntax into a syntax window instead of running it",
+      "Pastes the variables you selected from the clipboard into the Data Editor's next free column",
+      "Copies the selected output table into a Word document formatted in APA style",
+      "Runs the analysis immediately and pastes the results into the output viewer"
+    ],
+    "e": "Paste generates the syntax for what you set up in the dialog. Saving and running syntax documents exactly what was done, makes analyses repeatable, and avoids errors from repeated clicking. Every command ends with a full stop.",
+    "w": [
+      "Paste doesn't paste variables into the Data Editor.",
+      "Paste doesn't export tables to Word.",
+      "Paste writes syntax instead of running the analysis immediately."
+    ],
+    "k": "Paste writes the dialog's syntax to a syntax window for reproducible analyses.",
+    "h": "Paste the recipe, don't cook yet.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Syntax",
+    "n": "Syntax is the lab notebook of an SPSS analysis, and reviewers increasingly expect it to be shared."
+  },
+  {
+    "t": "Ch5 Syntax",
+    "d": 2,
+    "q": "A syntax command fails with an error even though it is spelled correctly. The most common cause is:",
+    "o": [
+      "The command does not end with a full stop",
+      "The command is typed in lower-case letters",
+      "The syntax window was not saved before running",
+      "The variable names were not typed in capitals"
+    ],
+    "e": "Every SPSS command must end with a full stop (period); without it, SPSS reads the next line as part of the same command. SPSS syntax is not case-sensitive, and files need not be saved to run.",
+    "w": [
+      "SPSS syntax isn't case-sensitive, so lower-case letters are fine.",
+      "Syntax runs without saving the file first.",
+      "Variable names can be typed in any case."
+    ],
+    "k": "Every SPSS syntax command must end with a full stop.",
+    "h": "No full stop, no stop to the command.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Syntax rules"
+  },
+  {
+    "t": "Ch5 Compute",
+    "d": 3,
+    "q": "Some participants skipped one of three items. Which Compute expression returns each person's average of the items they did answer?",
+    "o": [
+      "MEAN(item1, item2, item3)",
+      "(item1 + item2 + item3) / 3",
+      "SUM(item1, item2, item3) / 3",
+      "item1 + item2 + item3 / 3"
+    ],
+    "e": "The MEAN function averages the valid values available, so someone who skipped item 2 gets the mean of items 1 and 3. Arithmetic with + returns system-missing if any item is missing, and SUM()/3 treats the missing item as 0. The expression without brackets, item1 + item2 + item3 / 3, is also wrong by operator precedence: only item3 is divided by 3.",
+    "w": [
+      "Adding with + returns system-missing whenever any item is missing.",
+      "SUM()/3 treats a skipped item as 0, pulling the average down.",
+      "Without brackets, only item3 is divided by 3, so the result isn't an average."
+    ],
+    "k": "MEAN() averages whatever valid items a person answered.",
+    "h": "MEAN works with what's there.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Compute and missing data",
+    "n": "MEAN.2(item1, item2, item3) requires at least 2 valid values, a useful safeguard against means based on a single item."
+  },
+  {
+    "t": "Ch5 Compute",
+    "d": 2,
+    "q": "An item scored 1–5 must be reverse-scored. Which Compute expression does this?",
+    "o": [
+      "6 − item",
+      "5 − item",
+      "item − 6",
+      "item × (−1)"
+    ],
+    "e": "Reverse score = (max + min) − score = (5 + 1) − item, so 1↔5, 2↔4, 3 stays 3. '5 − item' would give a 0–4 range. Multiplying by −1 reverses the order but gives negative scores that cannot be summed with the other items.",
+    "w": [
+      "5 − item gives a 0–4 range instead of 1–5.",
+      "item − 6 gives negative scores from −5 to −1.",
+      "Multiplying by −1 reverses order but gives negative scores."
+    ],
+    "k": "Reverse score = (max + min) − score; for 1–5 that's 6 − item.",
+    "h": "Max plus min, minus the score.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Reverse scoring"
+  },
+  {
+    "t": "Ch5 Recode",
+    "d": 2,
+    "q": "Why is 'Recode into Different Variables' generally safer than 'Recode into Same Variables'?",
+    "o": [
+      "It keeps the original variable intact, so mistakes can be checked and undone",
+      "It automatically adds value labels to every one of the newly recoded categories",
+      "It is the only option that can handle value ranges such as 'lowest thru 20' or '40 thru highest'",
+      "It recodes missing values into valid scores so that no cases or data are lost"
+    ],
+    "e": "Recoding into the same variable overwrites the raw data. If the recode rules contain an error, the original values are gone unless you have a backup. Both options support ranges such as 'Lowest thru 20'.",
+    "w": [
+      "Recoding doesn't add value labels automatically.",
+      "Both recode options support ranges such as 'Lowest thru 20'.",
+      "Recoding doesn't rescue missing values into valid scores."
+    ],
+    "k": "Recode into Different Variables preserves the original data.",
+    "h": "Copy before you change.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Recode"
+  },
+  {
+    "t": "Ch5 Split file",
+    "d": 2,
+    "q": "What does Data → Split File → 'Compare groups' do?",
+    "o": [
+      "Runs every later analysis separately for each group, with results in shared tables",
+      "Creates a separate data file for each of the groups defined by the split variable you chose",
+      "Compares the group means with a t-test automatically before each later analysis",
+      "Deletes the cases that do not belong to whichever group is selected for analysis"
+    ],
+    "e": "With Split File on, every analysis is repeated for each level of the split variable until you turn it off. 'Compare groups' puts the groups side by side in the same tables, and 'Organize output by groups' prints a full set of output for each group. The status bar shows 'Split by …' while it is active.",
+    "w": [
+      "Split File doesn't create separate data files.",
+      "Split File doesn't run t-tests automatically.",
+      "Split File doesn't delete cases; Select Cases can."
+    ],
+    "k": "Split File repeats every analysis per group until switched off.",
+    "h": "Split stays on until you switch it off.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Split File",
+    "n": "Classic error: forgetting to switch Split File off, so every later analysis is silently split. Check the status bar."
+  },
+  {
+    "t": "Ch5 Select cases",
+    "d": 2,
+    "q": "After Data → Select Cases with an 'If' condition and 'Filter out unselected cases', what happens to the unselected rows?",
+    "o": [
+      "They stay in the file but are excluded from analyses, with their row numbers struck through",
+      "They are permanently deleted from the active dataset and also from the saved data file on disk",
+      "They are moved to the bottom of the data file and given system-missing values",
+      "They are copied into a new dataset, leaving the original file completely unchanged"
+    ],
+    "e": "Filtering creates a variable called filter_$ (1 = selected, 0 = not) and crosses out excluded row numbers. Choosing 'Delete unselected cases' removes them permanently, which is risky, and 'Copy selected cases to a new dataset' creates a separate file.",
+    "w": [
+      "Filtering keeps rows; 'Delete unselected cases' removes them.",
+      "Filtered rows stay where they are, with their values unchanged.",
+      "Copying to a new dataset is a separate option."
+    ],
+    "k": "Filtering keeps unselected rows but excludes them, using filter_$.",
+    "h": "Struck through, not thrown out.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Select Cases"
+  },
+  {
+    "t": "Ch5 Weight cases",
+    "d": 2,
+    "q": "You have only a contingency table of counts (for example 28 treated-and-recovered). How do you analyse it in SPSS without entering every case?",
+    "o": [
+      "Enter one row per cell with a count variable, then use Data → Weight Cases by that count",
+      "Enter the counts as scores and run a one-way ANOVA with the count variable as outcome",
+      "Use Split File on the count variable so that each count is analysed separately in its own table",
+      "Enter the counts in Variable View as value labels attached to the grouping variables"
+    ],
+    "e": "Weight Cases tells SPSS that each row represents as many cases as its count. Crosstabs then produces the same χ² as if every person had their own row. Remember to turn weighting off afterwards.",
+    "w": [
+      "Counts in an ANOVA wouldn't analyse the association between categories.",
+      "Split File doesn't make each row represent many cases.",
+      "Value labels name codes; they can't hold frequencies."
+    ],
+    "k": "Enter one row per cell plus a count, then Weight Cases by the count.",
+    "h": "Weight Cases: each row speaks for many.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Weight Cases"
+  },
+  {
+    "t": "Ch5 Missing data",
+    "d": 2,
+    "q": "In a correlation matrix, 'Exclude cases listwise' means:",
+    "o": [
+      "A case missing any variable in the analysis is dropped from every correlation",
+      "A case is dropped only from correlations involving its missing variable",
+      "Missing values are replaced by the variable's mean before the correlations are computed",
+      "Cases with missing data are given a weight of zero in the analysis"
+    ],
+    "e": "Listwise deletion uses only complete cases, so every coefficient rests on the same people (but n may drop a lot). Pairwise deletion uses all cases available for each pair, maximizing n, but different coefficients rest on different subsets, which can produce inconsistent matrices.",
+    "w": [
+      "Dropping only from pairs involving the missing variable is pairwise deletion.",
+      "Listwise doesn't replace missing values with means.",
+      "Listwise drops incomplete cases; it doesn't weight them."
+    ],
+    "k": "Listwise: complete cases only; pairwise: all available data for each pair.",
+    "h": "Listwise: off the whole list.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Listwise and pairwise deletion"
+  },
+  {
+    "t": "Ch5 Explore",
+    "d": 2,
+    "q": "Which SPSS procedure produces boxplots, Q–Q plots and the Kolmogorov–Smirnov and Shapiro–Wilk tests, split by group?",
+    "o": [
+      "Analyze → Descriptive Statistics → Explore",
+      "Analyze → Descriptive Statistics → Descriptives",
+      "Analyze → Compare Means → Means (with layers)",
+      "Graphs → Chart Builder → Histogram with groups"
+    ],
+    "e": "Explore takes outcomes in the Dependent List and grouping variables in the Factor List. Under Plots, 'Normality plots with tests' adds Q–Q plots and the Tests of Normality table, and Statistics → Outliers lists the five highest and lowest cases.",
+    "w": [
+      "Descriptives gives summary statistics, not normality tests or boxplots.",
+      "Means gives group means, not normality tests.",
+      "Chart Builder histograms don't include K–S or Shapiro–Wilk tests."
+    ],
+    "k": "Explore gives boxplots, Q–Q plots, normality tests and outlier lists by group.",
+    "h": "Explore your data before analysing it.",
+    "r": "Stats & SPSS ch. 5 · SPSS · Explore"
+  },
+  {
+    "t": "Ch5 Restructure",
+    "d": 3,
+    "q": "To convert repeated-measures data from one row per person (wide) into one row per person per time point (long), use:",
+    "o": [
+      "Data → Restructure → 'Restructure selected variables into cases'",
+      "Data → Restructure → 'Restructure selected cases into variables'",
+      "Data → Transpose, which swaps every row with every column",
+      "Transform → Compute, creating a new time variable for each row"
+    ],
+    "e": "Variables-into-cases takes columns such as mood_pre, mood_mid and mood_post and stacks them into one mood column with an index variable for time, the format needed for multilevel models. Cases-into-variables does the reverse. Transpose flips the entire matrix and is rarely what you want.",
+    "w": [
+      "Cases-into-variables does the reverse, long to wide.",
+      "Transpose flips the entire matrix, which is rarely wanted.",
+      "Compute can't create the extra rows long format needs."
+    ],
+    "k": "Wide → long = Restructure variables into cases.",
+    "h": "Variables into cases: columns fold into rows.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Restructuring data"
+  },
+  {
+    "t": "Ch5 Output",
+    "d": 2,
+    "q": "In SPSS output, how should a value displayed as 'Sig. = .000' be reported?",
+    "o": [
+      "p < .001",
+      "p = .000",
+      "p = 0",
+      "p < .05 only"
+    ],
+    "e": "SPSS rounds to three decimals, so .000 means p < .0005. A p-value can never be exactly zero. Report p < .001, and give exact values for larger p (for example p = .023).",
+    "w": [
+      "Reporting p = .000 copies SPSS's rounding; .000 really means p < .0005.",
+      "Writing p = 0 claims impossible certainty; a p-value is never exactly zero.",
+      "p < .05 throws away precision; report p < .001."
+    ],
+    "k": "Report Sig. = .000 as p < .001.",
+    "h": "Three zeros, report less than one in a thousand.",
+    "r": "Stats & SPSS ch. 5 · SPSS · Reporting p-values"
+  },
+  {
+    "t": "Ch5 Data entry",
+    "d": 3,
+    "q": "Data from a mixed design (therapy type between subjects, three time points within subjects) should be laid out as:",
+    "o": [
+      "One row per person: a therapy coding variable plus one column per time point",
+      "One row per time point: a column for each therapy group's scores",
+      "Three files, one per time point, each with a therapy coding variable",
+      "One row per person per time point, with no coding variable needed for the therapy factor"
+    ],
+    "e": "Combine the two rules: the between-subjects factor is a coding variable, and the within-subjects factor is spread across columns. This wide layout is what Analyze → General Linear Model → Repeated Measures expects.",
+    "w": [
+      "Rows must be people, not time points.",
+      "Separate files per time point split each person's data.",
+      "Long format without a therapy code loses the between factor."
+    ],
+    "k": "Mixed design: between factor = coding variable; within factor = separate columns.",
+    "h": "Between gets a code, within gets columns.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Entering mixed-design data"
+  },
+  {
+    "t": "Ch5 Compute",
+    "d": 2,
+    "q": "Transform → Count Values within Cases is used to:",
+    "o": [
+      "Count, for each case, how many of a set of variables take a specified value",
+      "Count how many cases in the file have a particular value on one variable",
+      "Count the number of missing values in each variable across the whole data file",
+      "Count the number of variables currently defined in the Variable View window"
+    ],
+    "e": "Count creates a new variable per case, for example how many of 10 symptom items a person endorsed (value 1). Counting cases with a given value on one variable is done with Frequencies instead.",
+    "w": [
+      "Counting cases with a value on one variable is Frequencies.",
+      "Count doesn't tally missing values per variable across the file.",
+      "Count doesn't count variables in Variable View."
+    ],
+    "k": "Count Values within Cases tallies, per person, how many variables equal a value.",
+    "h": "Count across a row, not down a column.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Count"
+  },
+  {
+    "t": "Ch5 Variable view",
+    "d": 1,
+    "q": "Which Variable View property should hold the full wording of a questionnaire item, including spaces?",
+    "o": [
+      "Label",
+      "Name",
+      "Values",
+      "Type"
+    ],
+    "e": "The Name must be short with no spaces (item7). The Label can be long and descriptive ('I worry about things I cannot control'), and SPSS displays it in dialogs and output.",
+    "w": [
+      "Names must be short with no spaces.",
+      "Values hold labels for codes, not item wording.",
+      "Type sets numeric or string, not wording."
+    ],
+    "k": "Label holds the full descriptive text; Name stays short.",
+    "h": "Name is a nickname; Label is the full title.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Variable labels"
+  },
+  {
+    "t": "Ch5 Output",
+    "d": 2,
+    "q": "In the SPSS output viewer, the panel on the left that lists every table and chart is used to:",
+    "o": [
+      "Navigate, hide, reorder or delete pieces of output",
+      "Edit the data values that were used to produce each table",
+      "Change the statistical test that was run on the data",
+      "Store and run the syntax that generated the output"
+    ],
+    "e": "The outline (tree) pane lets you jump to, collapse, delete or rearrange output objects. Double-clicking a table opens the pivot-table editor for formatting.",
+    "w": [
+      "The outline pane can't edit the underlying data values.",
+      "The outline pane can't change which test was run.",
+      "Syntax is stored in syntax windows, not the outline pane."
+    ],
+    "k": "The output outline pane navigates, hides, reorders and deletes output.",
+    "h": "A table of contents for your output.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Output viewer"
+  },
+  {
+    "t": "Ch5 Missing data",
+    "d": 3,
+    "q": "Which statement about how SPSS displays and treats missing data is correct?",
+    "o": [
+      "System-missing values appear as a dot and are excluded automatically",
+      "System-missing values appear as 999 and must be declared manually",
+      "User-missing values are always shown as blank cells in Data View",
+      "Missing values are included in analyses unless Split File is active"
+    ],
+    "e": "An empty numeric cell is system-missing, shown as '.', and excluded from analyses automatically. User-missing codes (such as 999 or −9) are visible in the data and are excluded only once declared in the Missing column.",
+    "w": [
+      "System-missing appears as a dot; 999 is a user-missing code.",
+      "User-missing codes are visible in the data, not blank.",
+      "Missing values are excluded regardless of Split File."
+    ],
+    "k": "System-missing = '.' (excluded automatically); user-missing codes must be declared.",
+    "h": "A dot means nothing there.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Missing values"
+  },
+  {
+    "t": "Ch5 Data management",
+    "d": 2,
+    "q": "To add new participants (rows) from a second file that has the same variables, use:",
+    "o": [
+      "Data → Merge Files → Add Cases",
+      "Data → Merge Files → Add Variables",
+      "Data → Restructure → variables into cases",
+      "Transform → Compute Variable"
+    ],
+    "e": "Add Cases appends rows (more people, same variables). Add Variables joins columns (more variables for the same people), usually matched on a key variable such as ID; the MATCH FILES command behind it needs both files sorted by that key.",
+    "w": [
+      "Add Variables adds columns, not rows.",
+      "Restructure changes wide or long layout.",
+      "Compute creates variables from existing ones."
+    ],
+    "k": "Add Cases = more rows; Add Variables = more columns.",
+    "h": "Cases are people; add people.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Merging files"
+  },
+  {
+    "t": "Ch5 Compute",
+    "d": 3,
+    "q": "In Transform → Compute, the 'If…' button is used to:",
+    "o": [
+      "Compute the new value only for cases that meet a condition",
+      "Check whether the expression contains any syntax errors",
+      "Choose whether the result is saved as a string or a number",
+      "Apply the computation only to variables with value labels"
+    ],
+    "e": "The If dialog restricts the computation to cases meeting a condition (for example group = 1). Other cases receive system-missing, unless the target already exists, in which case their values are left unchanged. This lets you build a variable in stages.",
+    "w": [
+      "The If button filters cases; it doesn't check the expression for syntax errors.",
+      "String or numeric type is set with the 'Type & Label' button, not If.",
+      "If filters cases, not variables with value labels."
+    ],
+    "k": "Compute's If restricts computation to cases meeting a condition.",
+    "h": "Only if the condition is met.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Conditional computation"
+  },
+  {
+    "t": "Ch5 Data management",
+    "d": 1,
+    "q": "Data → Sort Cases is used to:",
+    "o": [
+      "Reorder the rows by the values of one or more variables",
+      "Reorder the columns alphabetically by their variable names",
+      "Rank each case's scores and save the ranks as new variables",
+      "Remove duplicate cases (repeated IDs) from the data file"
+    ],
+    "e": "Sort Cases reorders rows (ascending or descending). It is needed, for example, before matching files on an ID variable. Ranking scores is done with Transform → Rank Cases.",
+    "w": [
+      "Sort Variables reorders columns; Sort Cases reorders rows.",
+      "Ranking scores is done with Transform → Rank Cases, not Sort Cases.",
+      "Sort Cases doesn't remove duplicate IDs."
+    ],
+    "k": "Sort Cases reorders the rows by the values of chosen variables.",
+    "h": "Sort the people, not the columns.",
+    "r": "Stats & SPSS ch. 5 · SPSS environment · Sorting"
+  }
+]

@@ -1,0 +1,1062 @@
+[
+  {
+    "t": "Ch3 Attending",
+    "d": 1,
+    "q": "Ivey and Ivey's four dimensions of attending behavior are:",
+    "o": [
+      "Eye contact, body language, vocal qualities, verbal tracking",
+      "Silence, paraphrase, clarification and summarization",
+      "Empathy, congruence, positive regard and personal warmth",
+      "Open questions, advice, confrontation and interpretation"
+    ],
+    "e": "Ivey and Ivey describe attending behaviour as culturally and individually appropriate eye contact, body language, vocal qualities and verbal tracking. These four dimensions are the foundation of interviewing: they show the client you are present and listening before you say anything clever. Each must be adjusted to the client's culture and comfort, which is why 'appropriate' is part of the definition.",
+    "w": [
+      "Silence, paraphrase, clarification and summary are listening responses that build on attending, not its four dimensions.",
+      "Empathy, congruence and positive regard are Rogers' core conditions, not Ivey's attending dimensions.",
+      "Open questions, advice, confrontation and interpretation are active responses, beyond basic attending."
+    ],
+    "k": "Attending (Ivey & Ivey): eye contact, body language, vocal qualities, verbal tracking, all culturally appropriate.",
+    "h": "Eyes, Body, Voice, Track: 'E-B-V-T'.",
+    "r": "Sommers-Flanagan Ch3 – Attending behavior"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "If a client's verbal and nonverbal messages conflict, the interviewer should expect that the client will believe:",
+    "o": [
+      "The nonverbal message",
+      "The verbal message, since words are explicit",
+      "Neither message",
+      "Whichever message came first"
+    ],
+    "e": "Attending behaviour is primarily nonverbal. When a speaker's verbal and nonverbal messages conflict, listeners tend to believe the nonverbal message. If you say 'I'm interested' while glancing at the clock, the client believes the clock. Hall estimated communication as 10% verbal and 90% 'a hidden cultural grammar', so congruence between words and body matters greatly.",
+    "w": [
+      "Words are explicit, but when they clash with body language, people trust the body.",
+      "Clients don't discard both; they resolve the conflict in favour of the nonverbal message.",
+      "Order isn't the deciding factor; the nonverbal channel carries more weight."
+    ],
+    "k": "When verbal and nonverbal messages conflict, people believe the nonverbal one.",
+    "h": "The body tells the truth the mouth hides.",
+    "r": "Sommers-Flanagan Ch3"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "According to Edward T. Hall, communication is roughly:",
+    "o": [
+      "10% verbal and 90% hidden cultural grammar",
+      "50% verbal and 50% nonverbal, in most cultures",
+      "65% verbal and 35% nonverbal",
+      "90% verbal content and 10% cultural grammar"
+    ],
+    "e": "Edward T. Hall (1966) estimated that communication is 10 percent verbal and 90 percent 'a hidden cultural grammar': nonverbal rules about space, time, gaze and gesture that we learn unconsciously. Birdwhistell similarly estimated that 65% or more of meaning is nonverbal. Both point to how much interviewers communicate without words, and how culture shapes those signals.",
+    "w": [
+      "50/50 understates the nonverbal share; Hall placed it at 90%.",
+      "65% nonverbal is Birdwhistell's figure, and this option reverses it to 65% verbal.",
+      "90% verbal reverses Hall's estimate; he put the verbal share at only 10%."
+    ],
+    "k": "Hall: communication is 10% verbal, 90% hidden cultural grammar (Birdwhistell: ≥65% nonverbal).",
+    "h": "Hall's iceberg: 10% words above water, 90% culture below.",
+    "r": "Sommers-Flanagan Ch3"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "According to the chapter, which clients generally prefer LESS eye contact?",
+    "o": [
+      "Native American, African American and Asian clients",
+      "White clients raised in North America",
+      "All clients equally, regardless of their culture",
+      "Only children and adolescents"
+    ],
+    "e": "The chapter notes that with White clients raised in North America, interviewers should generally maintain eye contact most of the time, whereas Native American, African American and Asian clients generally prefer less direct eye contact. In some cultures, sustained gaze signals disrespect or challenge. These are averages, so individual preferences must always be observed and respected.",
+    "w": [
+      "White North American clients generally expect more eye contact, not less.",
+      "Eye-contact preferences vary with culture, so 'all clients equally' ignores real differences.",
+      "Age isn't the variable highlighted; cultural background is."
+    ],
+    "k": "Native American, African American and Asian clients generally prefer less eye contact; always check individually.",
+    "h": "A steady gaze can mean respect in one culture and rudeness in another.",
+    "r": "Sommers-Flanagan Ch3 – Eye contact"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "For most clients, how should eye contact vary during the interview?",
+    "o": [
+      "More constant while the client speaks, less while you speak",
+      "More constant while you speak, and less while the client speaks",
+      "Constant at all times",
+      "Avoided entirely during the client's most emotional moments"
+    ],
+    "e": "It's appropriate to keep more constant eye contact while the client speaks, showing you're attending, and less constant eye contact while you speak, which reduces pressure on the client. This mirrors ordinary conversational patterns, where listeners look more than speakers. Constant staring feels intrusive, and avoiding gaze during emotional moments can feel like rejection.",
+    "w": [
+      "This reverses the pattern: listeners look more, speakers look less.",
+      "Constant eye contact feels like staring and increases pressure.",
+      "Avoiding the client's eyes during emotional moments can feel like rejection."
+    ],
+    "k": "More eye contact while the client speaks, less while you speak.",
+    "h": "Listen with your eyes, talk with a softer gaze.",
+    "r": "Sommers-Flanagan Ch3 – Eye contact"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "Kinesics vs proxemics:",
+    "o": [
+      "Kinesics = body movement; proxemics = personal space and distance",
+      "Kinesics = personal space and distance; proxemics = body movement",
+      "Kinesics = vocal qualities; proxemics = eye contact and gaze patterns",
+      "Both refer to the tone and rate of speech"
+    ],
+    "e": "Kinesics concerns the physical features and movement of any body part: gestures, posture, facial expressions, nods. Proxemics concerns personal space and environmental variables, such as the distance between people and objects placed between them, like a desk. Both are aspects of body language, and both are strongly shaped by culture, so comfortable distance and gesture vary between clients.",
+    "w": [
+      "This swaps the two terms: kinesics is movement, proxemics is space.",
+      "Vocal qualities are paralinguistics, and eye contact is a separate attending dimension.",
+      "Tone and rate of speech are paralinguistics, not kinesics or proxemics."
+    ],
+    "k": "Kinesics = body movement; proxemics = personal space and distance.",
+    "h": "Kine- = motion (kinetic); prox- = proximity.",
+    "r": "Sommers-Flanagan Ch3 – Body language"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 1,
+    "q": "Which is listed as positive interviewer body language (Walters)?",
+    "o": [
+      "Sitting about one arm's length away and leaning slightly forward",
+      "Folding arms across the chest so as to appear calm and self-contained",
+      "Turning 45 degrees away to reduce pressure",
+      "Leaning back from the waist so as to appear relaxed and unhurried"
+    ],
+    "e": "Walters lists positive interviewer body language: leaning slightly toward the client, a relaxed but attentive posture, unobtrusive gestures, facial expressions that match the client's, sitting about one arm's length away, and furniture that draws you together. Folding the arms, turning 45 degrees or more away, and leaning back from the waist are perceived negatively, as closed, disengaged or bored.",
+    "w": [
+      "Folding your arms is perceived as closed or defensive, not calm.",
+      "Turning 45 degrees or more away is perceived as disengagement.",
+      "Leaning back from the waist is perceived negatively, as disinterest."
+    ],
+    "k": "Positive body language: slight forward lean, relaxed attentive posture, about an arm's length, matching expressions.",
+    "h": "Lean in an arm's length.",
+    "r": "Sommers-Flanagan Ch3 – Body language"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "What do the authors say about intentional mirroring?",
+    "o": [
+      "Use moderately – small gains, big costs if obvious; it follows rapport",
+      "It is the most powerful rapport technique and should be used constantly",
+      "Clients never notice it, so it carries no real risk to the relationship",
+      "It replaces verbal tracking in early sessions"
+    ],
+    "e": "Intentional mirroring (matching the client's posture and gestures) should be used moderately. If it's obvious or overdone, clients may think you're mocking them: 'Its benefits are small, but the costs can be great.' Natural mirroring tends to follow rapport rather than cause it, so it's better seen as a sign of connection than a technique to force one.",
+    "w": [
+      "Mirroring isn't the most powerful technique; its benefits are small.",
+      "Clients can notice obvious mirroring and feel mocked.",
+      "Mirroring doesn't replace verbal tracking, which shows you follow content."
+    ],
+    "k": "Mirror moderately: small benefits, big costs if obvious; it follows rapport more than it causes it.",
+    "h": "A mirror that's too obvious becomes a mockery.",
+    "r": "Sommers-Flanagan Ch3 – Body language"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "Paralinguistics consists of:",
+    "o": [
+      "Voice loudness, pitch, rate and fluency",
+      "Gestures, posture, and facial expressions",
+      "Word choice, grammar and vocabulary",
+      "Seating distance and room layout"
+    ],
+    "e": "Paralinguistics (vocal quality) covers voice loudness, pitch, rate and fluency: how you say things, not what you say. Interviewers' voices should generally be softer but firm. 'Pacing the client' means following their volume and tone, then gradually leading if needed, for example speaking more slowly to calm an agitated client.",
+    "w": [
+      "Gestures, posture and facial expressions are kinesics, not paralinguistics.",
+      "Word choice and grammar are the verbal content itself.",
+      "Seating distance and room layout are proxemics, the use of personal space."
+    ],
+    "k": "Paralinguistics = loudness, pitch, rate and fluency of speech.",
+    "h": "Para- = beside the words: the music of speech.",
+    "r": "Sommers-Flanagan Ch3 – Vocal qualities"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "Speaking in a soft, slow, gentle tone tends to:",
+    "o": [
+      "Encourage clients to explore feelings more thoroughly",
+      "Convince clients of the interviewer's expertise",
+      "Shorten the interview",
+      "Discourage emotional expression in most clients"
+    ],
+    "e": "A soft, slow, gentle tone tends to encourage clients to explore feelings more thoroughly; it signals safety and patience. By contrast, increased rate and volume may help convince clients of the interviewer's credibility or expertise, useful when giving information or directives. Interviewers adjust their voice to their purpose in the moment.",
+    "w": [
+      "Faster, louder speech conveys expertise; soft, slow speech invites feelings.",
+      "Tone doesn't shorten interviews; it changes what clients explore.",
+      "Soft, gentle tones encourage rather than discourage emotional expression."
+    ],
+    "k": "Soft, slow voice invites feeling exploration; faster, louder voice conveys expertise.",
+    "h": "Whisper for feelings, project for facts.",
+    "r": "Sommers-Flanagan Ch3 – Vocal qualities"
+  },
+  {
+    "t": "Ch3 Attending",
+    "d": 2,
+    "q": "Verbal tracking involves:",
+    "o": [
+      "Restating or summarizing only what the client said, without opinion",
+      "Adding your professional opinion about what was said",
+      "Asking a follow-up question after every single client statement",
+      "Repeating only the client's last word each time"
+    ],
+    "e": "Verbal tracking means pacing the client by sticking closely to their speech content: restating or summarizing what they said, without adding your personal or professional opinion. It shows you're following their story and keeps the focus on their agenda. Adding opinions moves from tracking into directive responses.",
+    "w": [
+      "Adding your opinion goes beyond tracking into directive territory.",
+      "Asking a question after every statement turns tracking into interrogation.",
+      "Repeating only the last word is overused and makes clients feel overanalyzed."
+    ],
+    "k": "Verbal tracking: stick to the client's content, restating or summarizing without opinion.",
+    "h": "Follow their footprints, don't make new ones.",
+    "r": "Sommers-Flanagan Ch3 – Verbal tracking"
+  },
+  {
+    "t": "Ch3 Negative attending",
+    "d": 2,
+    "q": "Why can repeatedly repeating the client's last word backfire?",
+    "o": [
+      "Clients feel overanalyzed when long statements are reduced to one word",
+      "It is far too directive and leads the client away from the original topic",
+      "It always sounds like an interpretation of the client's unconscious motives",
+      "It prevents the client from pausing"
+    ],
+    "e": "Repeating the client's last word can encourage elaboration once or twice, but overuse backfires: it reduces 30- or 60-second statements to a single word, making clients feel overanalyzed, as if you're fishing for hidden meaning. 'Overuse breeds contempt.' Varied, full paraphrases show you heard the whole message.",
+    "w": [
+      "Last-word repetition is minimally directive; the problem is that it feels reductive.",
+      "It doesn't always sound like an interpretation; it feels like overanalysis when overused.",
+      "It doesn't prevent pauses; the issue is clients feeling dissected."
+    ],
+    "k": "Overusing last-word repetition makes clients feel overanalyzed; overuse breeds contempt.",
+    "h": "'Lost?' 'Lost.' 'Lost?' Soon the client is lost for words.",
+    "r": "Sommers-Flanagan Ch3 – Negative attending"
+  },
+  {
+    "t": "Ch3 Negative attending",
+    "d": 1,
+    "q": "The chapter's key point about positive attending behaviors is that:",
+    "o": [
+      "When overused, they become negative and annoying",
+      "They work in exactly the same way for every client",
+      "They should be maximized at all times in every session",
+      "They matter only in the first session"
+    ],
+    "e": "The chapter's key point: 'Positive attending behaviours, when overused, are obnoxious.' Excessive head nods, constant 'uh huhs', unbroken eye contact, repeated last-word echoes and obvious mirroring become distracting or irritating, and can even feel mocking. Attending works when it is natural, varied and responsive to the particular client and moment, not applied mechanically.",
+    "w": [
+      "Attending must be adjusted; it doesn't work identically for everyone.",
+      "Maximizing attending behaviours at all times is exactly what makes them obnoxious.",
+      "Attending matters in every session, not just the first."
+    ],
+    "k": "Positive attending behaviours become negative and annoying when overused.",
+    "h": "The bobblehead nod: too much of a good thing.",
+    "r": "Sommers-Flanagan Ch3 – Negative attending"
+  },
+  {
+    "t": "Ch3 Feedback",
+    "d": 2,
+    "q": "Which is a guideline for giving negative feedback in training (Putting It in Practice 3.1)?",
+    "o": [
+      "Make it specific and corrective, never uniformly negative",
+      "Give general comments like 'Terrible job!' to be honest",
+      "Give it publicly so that every classmate can learn from it",
+      "Give it even if the student declines feedback"
+    ],
+    "e": "Feedback guidelines in training: make negative feedback specific and corrective (say what to do instead), never uniformly negative; let role players evaluate themselves first; ask whether feedback is wanted; and leave extremely negative feedback to the instructor, given in private. The aim is learning, not humiliation.",
+    "w": [
+      "Global comments like 'Terrible job!' aren't specific or corrective.",
+      "Public negative feedback can shame; extreme feedback belongs to the instructor, in private.",
+      "Feedback should be offered when wanted, not forced on someone who declines."
+    ],
+    "k": "Training feedback: specific, corrective, never uniformly negative; ask first; extreme feedback in private.",
+    "h": "Say what to do, not just what went wrong.",
+    "r": "Sommers-Flanagan Ch3 – Putting It in Practice 3.1"
+  },
+  {
+    "t": "Ch3 Diversity",
+    "d": 3,
+    "q": "Expecting all Italian American clients to want closer seating than Scandinavian clients is an example of:",
+    "o": [
+      "Stereotyping – individual differences often exceed group averages",
+      "Good multicultural competence based on research about groups",
+      "Accurate cultural knowledge to apply consistently",
+      "Mirroring the client's culture"
+    ],
+    "e": "Expecting all Italian American clients to want closer seating than Scandinavian clients is stereotyping. Cultural guidelines describe group averages, but differences between individuals are often greater than the average differences between groups. Use group knowledge as a tentative hypothesis, suspend judgement, and explore preferences with each individual client.",
+    "w": [
+      "Applying group research to every individual is stereotyping, not competence.",
+      "Cultural knowledge should be applied flexibly, never as a fixed rule.",
+      "Mirroring is about matching body language, not assuming cultural preferences."
+    ],
+    "k": "Individual differences often exceed group differences; treat cultural norms as hypotheses.",
+    "h": "Averages describe groups, not the person in front of you.",
+    "r": "Sommers-Flanagan Ch3 – Individual differences"
+  },
+  {
+    "t": "Ch3 Diversity",
+    "d": 2,
+    "q": "According to Multicultural Highlight 3.1, you are MORE likely to offend clients by:",
+    "o": [
+      "Assuming they share your values and norms",
+      "Discussing comfort with attending behaviors directly",
+      "Asking about their cultural background",
+      "Adjusting seating for less eye contact"
+    ],
+    "e": "Multicultural Highlight 3.1 states: 'You're more likely to offend clients by assuming they've adopted your values and norms than by discussing these issues with them.' Openly asking about comfort with eye contact, distance or cultural background usually feels respectful. Silent assumptions are the bigger risk.",
+    "w": [
+      "Discussing attending preferences openly is less likely to offend than assuming.",
+      "Asking respectfully about cultural background is generally welcomed.",
+      "Adjusting for a client's preference shows respect, not offence."
+    ],
+    "k": "You offend more by assuming clients share your norms than by discussing them openly.",
+    "h": "Ask, don't assume.",
+    "r": "Sommers-Flanagan Ch3 – Multicultural Highlight 3.1"
+  },
+  {
+    "t": "Ch3 Not knowing",
+    "d": 2,
+    "q": "Meier and Davis advise what to do when you don't know what to say?",
+    "o": [
+      "Say nothing – stick with basic attending and listening",
+      "Ask a closed question to fill the uncomfortable gap in the conversation",
+      "Summarize the whole session so far",
+      "Offer reassurance until something more useful comes to mind"
+    ],
+    "e": "Meier and Davis advise: 'When you don't know what to say, say nothing.' Stick with basic attending and listening; the client will often fill the space with something important. Luborsky adds that if you listen more, what to say will come to you. Experience doesn't bring certainty, but it takes the edge off the panic.",
+    "w": [
+      "Filling the gap with a closed question is anxiety-driven and narrows the client.",
+      "Summarizing the whole session prematurely interrupts the client's flow and fills silence for your own comfort.",
+      "Reassurance offered to fill silence is premature and can feel hollow."
+    ],
+    "k": "When you don't know what to say, say nothing: keep attending and listening.",
+    "h": "Silence beats a panicked sentence.",
+    "r": "Sommers-Flanagan Ch3 – Moving beyond attending"
+  },
+  {
+    "t": "Ch3 Not knowing",
+    "d": 2,
+    "q": "Margaret Gibbs's 'The Therapist as Imposter' concludes that:",
+    "o": [
+      "Humility about inferences aids accuracy; share imposter doubts",
+      "Experienced therapists always know the right response to make",
+      "Imposter feelings mean one is unsuited to therapy",
+      "Specific strategies can fully resolve the ambiguities of clinical judgment"
+    ],
+    "e": "Gibbs argues that strategies 'can cover up, but not resolve, the ambiguities' of clinical work. Imposter doubts are common and need to be shared, not suppressed. Uncertainty and humility about the accuracy of our clinical inferences actually aid accuracy, because a humble clinician keeps checking assumptions rather than locking in early conclusions.",
+    "w": [
+      "Experienced therapists also face ambiguity; nobody always knows the right response.",
+      "Imposter feelings are normal and don't mean you're unsuited to therapy.",
+      "Gibbs says strategies cover up ambiguity but can't fully resolve it."
+    ],
+    "k": "Gibbs: share imposter doubts; humility about inferences improves accuracy.",
+    "h": "The humble detective solves more cases.",
+    "r": "Sommers-Flanagan Ch3"
+  },
+  {
+    "t": "Ch3 Response categories",
+    "d": 2,
+    "q": "Following Robinson, interviewer responses are grouped into which three categories?",
+    "o": [
+      "Nondirective listening, directive listening, directive action",
+      "Open questions, closed questions, and swing questions",
+      "Supportive, expressive, and interpretive responses",
+      "Cognitive, affective and behavioral"
+    ],
+    "e": "Following Robinson, interviewer responses fall into three categories: (1) nondirective listening responses, such as silence and paraphrasing (Table 3.1); (2) directive listening responses, such as interpretation and confrontation (Table 3.2); and (3) directive action responses, such as advice and suggestion (Chapter 4). This continuum runs from following the client to leading.",
+    "w": [
+      "Open, closed and swing questions are types of questions, covered in Chapter 4.",
+      "Supportive, expressive and interpretive aren't Robinson's three categories.",
+      "Cognitive, affective and behavioral describe domains of functioning, not response categories."
+    ],
+    "k": "Robinson's response categories: nondirective listening, directive listening, directive action.",
+    "h": "Follow, Guide, Lead.",
+    "r": "Sommers-Flanagan Ch3"
+  },
+  {
+    "t": "Ch3 Nondirective",
+    "d": 3,
+    "q": "Why can even 'nondirective' responses direct the client?",
+    "o": [
+      "Selective attention reinforces some topics; you can't respond to everything",
+      "Nondirective responses always include hidden advice for the client to follow",
+      "Clients interpret every silence and pause as a form of criticism",
+      "Paraphrases always add new meaning"
+    ],
+    "e": "Even nondirective responses steer the interview. Interviewers selectively attend: nodding more when a client talks about mother reinforces 'mother talk' (social reinforcement). Clients also raise more topics than you can reflect, so choosing which part to paraphrase is itself directive. No response is completely neutral; awareness of this influence lets you use it deliberately.",
+    "w": [
+      "Nondirective responses don't contain hidden advice; their influence comes from selection.",
+      "Clients don't read every silence as criticism; the issue is selective reinforcement.",
+      "A good paraphrase doesn't add meaning; its directiveness lies in what you choose to reflect."
+    ],
+    "k": "Even nondirective responses direct: selective attention reinforces some topics over others.",
+    "h": "What you nod at grows.",
+    "r": "Sommers-Flanagan Ch3 – Nondirective listening responses"
+  },
+  {
+    "t": "Ch3 Silence",
+    "d": 2,
+    "q": "When should interviewers AVOID using silence?",
+    "o": [
+      "When the client is confused, in acute crisis, or psychotic",
+      "When the client has just made an important or emotional statement",
+      "When the client pauses briefly to reflect on what was just said",
+      "When the client is a role-play volunteer"
+    ],
+    "e": "Silence is a powerful tool, but it should be avoided with clients who are confused, in acute emotional crisis, or psychotic. For them, excess silence and the anxiety it provokes tend to worsen confusion, emotional crisis and psychotic disorganization. These clients need more structure and active support from the interviewer.",
+    "w": [
+      "After an important statement, silence can give the client room to feel and continue.",
+      "A brief reflective pause is a good time for silence.",
+      "Role-play volunteers can practise with silence; it's not a contraindication."
+    ],
+    "k": "Avoid prolonged silence with clients who are confused, in acute crisis, or psychotic.",
+    "h": "Silence soothes the steady, but rattles the fragile.",
+    "r": "Sommers-Flanagan Ch3 – Silence"
+  },
+  {
+    "t": "Ch3 Silence",
+    "d": 2,
+    "q": "According to Table 3.1, silence:",
+    "o": [
+      "Pressures clients to talk, allows cooling off, and gives you time to respond",
+      "Signals to the client that the interview is nearly over and should end",
+      "Always reduces client anxiety",
+      "Communicates disapproval and judgment to most clients in most cultures"
+    ],
+    "e": "Table 3.1 describes silence as placing pressure on clients to talk, allowing 'cooling off' time after intense emotion, and giving the interviewer time to consider the next response. Its purpose should be explained, especially in psychoanalytic free association, so clients don't misread it as rejection.",
+    "w": [
+      "Silence doesn't signal that the interview is ending.",
+      "Silence can raise anxiety as well as reduce it; it isn't always calming.",
+      "Silence doesn't inherently communicate disapproval, though it can be misread without explanation."
+    ],
+    "k": "Silence pressures clients to talk, allows cooling off, and gives the interviewer time to think.",
+    "h": "Silence: a nudge, a breather, and a thinking pause.",
+    "r": "Sommers-Flanagan Ch3 – Table 3.1"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 2,
+    "q": "What is the primary purpose of a paraphrase (reflection of content)?",
+    "o": [
+      "To show you accurately heard the message's central meaning",
+      "To add the interviewer's own interpretation",
+      "To uncover hidden feelings outside the client's awareness",
+      "To change the topic"
+    ],
+    "e": "A paraphrase (reflection of content) primarily lets clients know you accurately heard the central meaning of their message. A secondary purpose is letting clients hear how someone else perceives what they said. A good paraphrase is accurate and brief, and doesn't change, modify or add to the message.",
+    "w": [
+      "Adding your interpretation goes beyond a paraphrase into a directive response.",
+      "Uncovering hidden feelings is interpretive reflection of feeling.",
+      "Changing the topic is the opposite of paraphrasing."
+    ],
+    "k": "Paraphrase: show you heard the central meaning, accurately and briefly, without adding.",
+    "h": "Para-phrase: say it alongside, not on top.",
+    "r": "Sommers-Flanagan Ch3 – Paraphrase"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 2,
+    "q": "A client says, 'My job is so important to me. I feel lost.' The interviewer replies, 'You feel adrift without it.' This is a:",
+    "o": [
+      "Sensory-based (kinesthetic) paraphrase",
+      "Interpretive reflection of feeling",
+      "Gentle confrontation of the client's feelings",
+      "Clarification with a double question"
+    ],
+    "e": "'You feel adrift without it' is a sensory-based paraphrase, here kinesthetic: it uses bodily or movement imagery that matches the client's 'lost'. Sensory-based paraphrases use the client's representational system (visual, auditory or kinesthetic words). Research associated with NLP links this matching to greater empathy, trust and desire to return.",
+    "w": [
+      "It reflects the client's expressed meaning rather than interpreting hidden feelings.",
+      "It's not a confrontation; nothing contradicts the client.",
+      "There's no clarifying question here, let alone a double one."
+    ],
+    "k": "Sensory-based paraphrases match the client's visual, auditory or kinesthetic language.",
+    "h": "'Lost' → 'adrift': match their senses.",
+    "r": "Sommers-Flanagan Ch3 – Sensory-based paraphrase"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 2,
+    "q": "What is the most reliable way to identify a client's primary representational system?",
+    "o": [
+      "Track the client's spontaneous use of sensory words",
+      "Ask the client which sensory system they prefer",
+      "Watch their eye movements as they answer questions",
+      "Give a standardized learning-style test"
+    ],
+    "e": "The most reliable method for identifying a client's primary representational system appears to be tracking their spontaneous use of sensory words (Sharpley, 1984): 'I see what you mean', 'that sounds right', 'it feels heavy'. Asking directly, eye-movement tracking (an NLP claim) and tests are less reliable.",
+    "w": [
+      "Asking directly is unreliable; people often don't know their own pattern.",
+      "Eye-movement theories haven't held up as a reliable method.",
+      "Standardized learning-style tests aren't the recommended method; spontaneous word use is more reliable."
+    ],
+    "k": "Track the client's spontaneous sensory words to identify their representational system.",
+    "h": "Listen for 'see', 'hear', 'feel'.",
+    "r": "Sommers-Flanagan Ch3 – Sensory-based paraphrase"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 2,
+    "q": "'It's like you're in the army and she's your drill sergeant' is an example of:",
+    "o": [
+      "A metaphorical paraphrase",
+      "A simple paraphrase of content",
+      "A feeling validation response",
+      "A psychoanalytic interpretation"
+    ],
+    "e": "This is a metaphorical paraphrase: it captures the client's central message through a metaphor or analogy (army, drill sergeant) rather than restating it literally. Other examples include 'spinning your wheels' or 'smooth sailing'. Metaphors can make reflections vivid and memorable, but they must fit the client's experience and culture.",
+    "w": [
+      "A simple paraphrase restates content literally, without metaphor.",
+      "Feeling validation affirms that a feeling makes sense; this one uses an image.",
+      "A psychoanalytic interpretation points to unconscious meaning; this reflects the client's expressed experience."
+    ],
+    "k": "A metaphorical paraphrase captures the client's message through an analogy.",
+    "h": "Paint the message with an image.",
+    "r": "Sommers-Flanagan Ch3 – Metaphorical paraphrase"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 3,
+    "q": "Client: 'I feel like cutting myself.' Therapist: 'You've felt like cutting yourself.' What does O'Hanlon's 'Carl Rogers with a twist' do here?",
+    "o": [
+      "Validates while shifting to the past tense",
+      "Shifts from global to partial perception",
+      "Shifts from factual to perceptual statements",
+      "Interprets the unconscious motive"
+    ],
+    "e": "O'Hanlon's 'Carl Rogers with a twist' uses intentionally directive paraphrases that validate while subtly opening possibilities. Shifting to the past tense ('You've felt like cutting yourself') validates the experience but frames it as something that has happened, not a fixed present. Other twists: global to partial ('a lot of the time') and factual to perceptual ('you've gotten the idea that…').",
+    "w": [
+      "Global-to-partial would say 'a lot of the time' or 'part of you'.",
+      "Factual-to-perceptual would say 'you've gotten the idea that…'.",
+      "Interpreting an unconscious motive isn't part of O'Hanlon's paraphrasing twists."
+    ],
+    "k": "O'Hanlon's twists: past tense, global→partial, factual→perceptual; validate while opening change.",
+    "h": "Rogers plus a nudge toward change.",
+    "r": "Sommers-Flanagan Ch3 – Intentionally directive paraphrases"
+  },
+  {
+    "t": "Ch3 Paraphrase",
+    "d": 3,
+    "q": "Insoo Kim Berg would most likely respond to the woman beaten as a child who now worries about disciplining her kids with:",
+    "o": [
+      "'So you swore you'd never be like him, and clearly, you aren't!'",
+      "'It sounds like you're afraid of becoming just like your father.'",
+      "'Tell me more about the beatings.'",
+      "'Your mother was wrong to defend him.'"
+    ],
+    "e": "Insoo Kim Berg, co-founder of solution-focused therapy, paraphrased small positive statements to highlight strengths: positive reconstruction, finding the exception, the 'sparkling moment'. To a woman beaten as a child who worries about disciplining her kids, Berg would reflect her success: 'So you swore you'd never be like him, and clearly, you aren't!' Berg's reasoning: 'Since we cannot avoid leading, where shall we lead our clients?' Toward strengths.",
+    "w": [
+      "Reflecting fear of becoming her father leads toward the problem, not the exception Berg would highlight.",
+      "Asking for more detail on the beatings focuses on the past problem, not on her strengths.",
+      "Judging her mother adds the interviewer's opinion and ignores her success."
+    ],
+    "k": "Berg's solution-focused paraphrase highlights the exception: the client's strengths and successes.",
+    "h": "Lead toward the light: the sparkling moment.",
+    "r": "Sommers-Flanagan Ch3 – Intentionally directive paraphrases"
+  },
+  {
+    "t": "Ch3 Clarification",
+    "d": 2,
+    "q": "'Did you get in the argument with your husband before or after the movie?' is which form of clarification?",
+    "o": [
+      "A restatement embedded in a double (either/or) question",
+      "A restatement followed by a separate closed yes/no question",
+      "A request to repeat something you did not hear",
+      "A summary"
+    ],
+    "e": "Clarification takes three forms: (1) a restatement followed by a closed question ('You argued, right?'); (2) a restatement embedded in a double, either/or question, which gives the interviewer more control, like a multiple-choice item ('before or after the movie?'); and (3) a basic recheck when you didn't hear something. This example offers two options, so it is form 2.",
+    "w": [
+      "A separate closed yes/no question would follow the restatement, not offer two options.",
+      "A recheck asks the client to repeat something you didn't hear.",
+      "A summary pulls together several points, not one detail."
+    ],
+    "k": "Clarification forms: restatement + closed question; restatement in an either/or question; basic recheck.",
+    "h": "Either/or = multiple choice clarification.",
+    "r": "Sommers-Flanagan Ch3 – Clarification"
+  },
+  {
+    "t": "Ch3 Clarification",
+    "d": 3,
+    "q": "A client gives a long, confusing account of distant relatives that seems unrelated to goals. The best response is usually to:",
+    "o": [
+      "Listen quietly and let it pass, since clarifying may endorse avoidance",
+      "Clarify every relationship mentioned, to show genuine interest",
+      "Interrupt and redirect to the main problem with a gentle confrontation",
+      "Summarize the whole family tree back to the client in detail"
+    ],
+    "e": "If information seems trivial or tangential, it's usually best to listen quietly and wait for the client to move on. Clarifying every detail can create a lengthy entanglement and may prolong or endorse avoidance of emotion-laden topics, since the client may be talking about distant relatives to avoid something closer. Clarify what matters, not everything.",
+    "w": [
+      "Clarifying every relationship can endorse avoidance and derail the interview.",
+      "Interrupting with confrontation is premature when you can let it pass.",
+      "Summarizing the whole family tree rewards the tangent and wastes time."
+    ],
+    "k": "Don't clarify trivial tangents; it can prolong avoidance of emotional topics.",
+    "h": "Don't chase every branch of the family tree.",
+    "r": "Sommers-Flanagan Ch3 – Clarification"
+  },
+  {
+    "t": "Ch3 Reflection of feeling",
+    "d": 2,
+    "q": "What is the basic rule for a NONDIRECTIVE reflection of feeling?",
+    "o": [
+      "Reflect only the emotion you clearly hear – no probing or speculation",
+      "Name the deeper emotion that lies beneath what the client actually said",
+      "Tell the client that the feeling is normal, understandable and acceptable",
+      "Ask the client to rate the feeling from 1 to 10"
+    ],
+    "e": "The basic rule for nondirective reflection of feeling: 'Restate or reflect only the emotional content that you clearly hear the client say. Do not probe, interpret, or speculate.' Naming deeper, unspoken emotions is interpretive reflection, which is directive. Nondirective reflection stays with what the client has expressed.",
+    "w": [
+      "Naming the deeper, unspoken emotion is interpretive reflection of feeling, which is directive.",
+      "Saying the feeling is normal is feeling validation, also directive.",
+      "Rating the feeling is a scaling question, not a reflection."
+    ],
+    "k": "Nondirective reflection of feeling: reflect only the emotion you clearly hear; no probing or speculation.",
+    "h": "Mirror, don't X-ray.",
+    "r": "Sommers-Flanagan Ch3 – Nondirective reflection of feeling"
+  },
+  {
+    "t": "Ch3 Reflection of feeling",
+    "d": 2,
+    "q": "The boy says the teacher 'pissed me off big time'; the interviewer says 'Seems like you were a little irritated. Is that right?' What went wrong, and what limited the damage?",
+    "o": [
+      "The intensity was minimized; tentative wording allowed correction",
+      "The feeling was named too strongly; the question made it worse",
+      "The reflection was really an interpretation",
+      "Nothing went wrong; this is a model reflection"
+    ],
+    "e": "Reflections should match both the feeling's content and its intensity. 'A little irritated' minimizes 'pissed me off big time', which can hurt empathy: the boy may feel unheard. But the tentative wording ('Seems like… Is that right?') limited the damage by inviting correction, so he could say 'No, I was really mad.' Tentative phrasing makes reflections safer.",
+    "w": [
+      "The feeling was named too weakly, not too strongly, and the question helped.",
+      "It stayed with expressed anger; an interpretation would add unspoken meaning.",
+      "Minimizing a client's intensity isn't a model reflection; it risks leaving them feeling unheard."
+    ],
+    "k": "Match feeling content and intensity; tentative phrasing lets clients correct you.",
+    "h": "'Big time' isn't 'a little'.",
+    "r": "Sommers-Flanagan Ch3 – Nondirective reflection of feeling"
+  },
+  {
+    "t": "Ch3 Reflection of feeling",
+    "d": 2,
+    "q": "How many primary emotions did Izard identify (used in the feeling-vocabulary exercise)?",
+    "o": [
+      "10",
+      "6",
+      "12",
+      "14"
+    ],
+    "e": "Izard identified 10 primary emotions: interest-excitement, joy, surprise, distress, anger, disgust, contempt, fear, shame and guilt. The chapter's feeling-vocabulary exercise uses them to broaden the interviewer's emotional vocabulary, so reflections can name feelings precisely and at the right intensity, rather than defaulting to vague words like 'upset' or 'bad'.",
+    "w": [
+      "Six is closer to Ekman's basic emotions, not Izard's list.",
+      "Twelve isn't Izard's number; his list of primary emotions has ten.",
+      "Fourteen isn't Izard's number; his list of primary emotions has ten."
+    ],
+    "k": "Izard: 10 primary emotions (interest, joy, surprise, distress, anger, disgust, contempt, fear, shame, guilt).",
+    "h": "Izard's ten fingers of feeling.",
+    "r": "Sommers-Flanagan Ch3 – Putting It in Practice 3.3"
+  },
+  {
+    "t": "Ch3 Summarization",
+    "d": 2,
+    "q": "What are the three qualities of the recommended summarizing style?",
+    "o": [
+      "Informal, interactive and supportive",
+      "Formal, numbered and fully comprehensive",
+      "Brief, interpretive and directive",
+      "Positive, final and expert"
+    ],
+    "e": "The recommended summarizing style is informal (don't number your points), interactive (pause, check accuracy, or invite the client to summarize first), and supportive ('You've said a lot today'). Solution-focused therapists would add a fourth quality: positive, highlighting strengths and progress. Summaries help organize material, check understanding and transition between topics or phases of the interview.",
+    "w": [
+      "Formal, numbered and comprehensive is the opposite of the advice; numbering is discouraged.",
+      "Summaries reflect what was said; interpretive and directive go beyond summarizing.",
+      "Final and expert make the summary a pronouncement rather than a shared review."
+    ],
+    "k": "Summaries should be informal, interactive and supportive (solution-focused: also positive).",
+    "h": "I-I-S: Informal, Interactive, Supportive.",
+    "r": "Sommers-Flanagan Ch3 – Guidelines for summarizing"
+  },
+  {
+    "t": "Ch3 Summarization",
+    "d": 2,
+    "q": "Why do the authors advise against numbering points in a summary?",
+    "o": [
+      "You may forget one and be embarrassed",
+      "Numbers sound too clinical to all clients",
+      "Clients cannot remember numbered lists",
+      "It makes the summary too long"
+    ],
+    "e": "The authors advise against numbering summary points because you might forget one and be embarrassed: 'fourth, uh, fourth…'. Instead, state the points one by one without numbers. This keeps the summary informal and conversational, avoids drawing attention to a memory lapse, and leaves room for the client to add what you missed.",
+    "w": [
+      "Numbers aren't too clinical for everyone; the risk is forgetting one.",
+      "Clients can remember lists; the issue is the interviewer's embarrassment.",
+      "Numbering doesn't lengthen the summary; the concern is forgetting a point."
+    ],
+    "k": "Don't number summary points; you might forget one and be embarrassed.",
+    "h": "'Fourth, uh…' avoid the counting trap.",
+    "r": "Sommers-Flanagan Ch3 – Summarization"
+  },
+  {
+    "t": "Ch3 Reassurance",
+    "d": 2,
+    "q": "Why should premature or global reassurance not be offered?",
+    "o": [
+      "It is misleading and may discount the client's difficulties",
+      "Reassurance of any kind is always forbidden in clinical work",
+      "It makes the interviewer seem too warm and too personally involved",
+      "Clients never want reassurance"
+    ],
+    "e": "Reassurance declares that things will get better, which can't be guaranteed, so premature or global reassurance is misleading. It may also discount the client's difficulties ('Don't worry' can feel like 'your problem isn't real'). Empathy and reassurance aren't interchangeable: use empathy regularly and reassurance in small, realistic doses.",
+    "w": [
+      "Reassurance isn't forbidden; it's used sparingly and realistically.",
+      "Warmth isn't the problem; the problem is promising outcomes you can't guarantee.",
+      "Some clients do want reassurance; the issue is premature or global promises."
+    ],
+    "k": "Avoid premature, global reassurance: it misleads and can discount problems; empathy is not reassurance.",
+    "h": "'It'll be fine' is a promise you can't keep.",
+    "r": "Sommers-Flanagan Ch3 – The pull to reassurance"
+  },
+  {
+    "t": "Ch3 Reassurance",
+    "d": 2,
+    "q": "Complimenting a client is described as:",
+    "o": [
+      "An act of self-disclosure – expressing your taste and approval",
+      "A nondirective listening response that reflects only content",
+      "A form of interpretive paraphrase",
+      "A type of clarifying restatement"
+    ],
+    "e": "Complimenting a client is an act of self-disclosure: it expresses your taste, values and approval ('I like that shirt' reveals you). Self-disclosure is a technique to use in moderation. Compliments can build rapport, but they also make the interviewer a judge and can create pressure to please.",
+    "w": [
+      "A compliment adds your approval, so it isn't a nondirective content reflection.",
+      "It's not a paraphrase; it adds your evaluation.",
+      "It's not a clarification; nothing is being checked."
+    ],
+    "k": "Complimenting a client is self-disclosure (your taste and approval); use it in moderation.",
+    "h": "A compliment says as much about you as about them.",
+    "r": "Sommers-Flanagan Ch3 – The pull to reassurance"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "Feeling validation differs from reflection of feeling because it:",
+    "o": [
+      "Approves the feeling, making the interviewer a judge of it",
+      "Only restates the feeling that the client has clearly expressed",
+      "Uncovers feelings outside the client's awareness",
+      "Points out incongruities between the client's feelings and behavior"
+    ],
+    "e": "Feeling validation acknowledges and approves of feelings ('It's okay to be sad… that's normal'). That makes it directive: the interviewer acts as a judge of whether the feelings are appropriate. Reflection of feeling simply restates the expressed emotion without judging it. Validation can comfort, but it carries influence.",
+    "w": [
+      "Restating only what's expressed is nondirective reflection of feeling.",
+      "Uncovering feelings outside the client's awareness is interpretive reflection of feeling, a different response.",
+      "Pointing out incongruities between feelings and behaviour is confrontation, not validation."
+    ],
+    "k": "Feeling validation approves feelings, making the interviewer their judge, so it is directive.",
+    "h": "Reflection mirrors; validation stamps 'approved'.",
+    "r": "Sommers-Flanagan Ch3 – Feeling validation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "Which is a listed RISK of liberal feeling validation?",
+    "o": [
+      "Fostering dependency and reducing client exploration",
+      "Damaging rapport with most clients",
+      "Increasing the client's long-term anxiety level",
+      "Making the interviewer seem cold"
+    ],
+    "e": "Feeling validation has real benefits: enhanced rapport, temporarily reduced anxiety, perhaps a temporary boost in self-esteem. But liberal use risks fostering dependency on the interviewer's approval and decreasing exploration of important issues: if every feeling is quickly declared 'normal', there's less reason to look at what it means or where it comes from.",
+    "w": [
+      "Validation usually enhances rapport rather than damaging it.",
+      "Validation temporarily reduces anxiety; it isn't the risk listed.",
+      "Validation tends to come across as warm, not cold."
+    ],
+    "k": "Overusing validation can foster dependency and reduce exploration.",
+    "h": "Too many gold stars stop the search.",
+    "r": "Sommers-Flanagan Ch3 – Feeling validation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "An interviewer says, 'You know, sometimes I feel the same way about tests.' What risk does this self-disclosing validation carry?",
+    "o": [
+      "The client may doubt the counselor can help, lowering credibility",
+      "The client will always feel even more anxious about upcoming tests",
+      "It is an interpretation of unconscious motives that may be wrong",
+      "It breaks confidentiality"
+    ],
+    "e": "Self-disclosing validation ('I feel the same way about tests') can reassure and normalize. But the client may wonder whether a counselor who admits the same anxiety can really help, so credibility may drop. Self-disclosure shifts focus to the interviewer and needs careful judgement about timing and purpose.",
+    "w": [
+      "It may reassure rather than increase anxiety; the risk is to credibility.",
+      "It's a self-disclosure, not an interpretation of unconscious motives.",
+      "Sharing your own feelings doesn't breach the client's confidentiality."
+    ],
+    "k": "Validating through self-disclosure can lower your credibility as a helper.",
+    "h": "'Me too' can sound like 'I can't help either'.",
+    "r": "Sommers-Flanagan Ch3 – Feeling validation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "'Everyone has self-doubts' validates through what Yalom calls:",
+    "o": [
+      "Universality",
+      "Instillation of hope",
+      "Catharsis",
+      "Altruism"
+    ],
+    "e": "Clients often feel validated when told that nearly everyone feels what they feel. Yalom calls this universality, one of his therapeutic factors in groups: 'That seems to be the way we're built.' It reduces shame and isolation by showing the experience is shared, but used too quickly it can feel dismissive of what is unique.",
+    "w": [
+      "Instillation of hope is believing things can improve, another Yalom factor.",
+      "Catharsis is emotional release, another of Yalom's factors, not the sense of shared experience.",
+      "Altruism is the benefit of helping others, another group factor, not 'everyone feels this'."
+    ],
+    "k": "'Everyone feels this way' validates through Yalom's universality.",
+    "h": "Uni-versal: we're all in one boat.",
+    "r": "Sommers-Flanagan Ch3 – Feeling validation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "'Maybe you were hurt because she didn't trust you' (after the boy expresses anger) is a(n):",
+    "o": [
+      "Interpretive reflection of feeling",
+      "Nondirective reflection of feeling only",
+      "Simple feeling validation",
+      "Gentle confrontation of anger"
+    ],
+    "e": "After the boy expresses anger, 'Maybe you were hurt because she didn't trust you' goes beyond the obvious emotion to one he may only be partially aware of: hurt beneath anger. This is an interpretive reflection of feeling. Because it assumes out-of-awareness processes, it is directive and should be offered tentatively, after rapport.",
+    "w": [
+      "A nondirective reflection would name only the anger he expressed.",
+      "Validation approves a feeling; this names a new, deeper one.",
+      "Nothing is contradicted, so it isn't a confrontation."
+    ],
+    "k": "Interpretive reflection of feeling names emotions the client is only partially aware of; it is directive.",
+    "h": "Under the anger, the hurt.",
+    "r": "Sommers-Flanagan Ch3 – Interpretive reflection of feeling"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 3,
+    "q": "In the teacher example, why did the interviewer wait before offering the interpretation about the parents?",
+    "o": [
+      "Timing – the boy first had to affirm the earlier reflections",
+      "Interpretations are forbidden in first sessions",
+      "The interviewer did not yet know about the parents",
+      "Interpretations must always follow a confrontation"
+    ],
+    "e": "The interviewer already knew about unjust parental punishment but waited until the boy had responded positively to two earlier reflections. Timing makes interpretations work. As Fenichel noted, if the patient is unprepared, 'such an interpretation does not interpret at all'. Earlier accurate reflections build readiness for deeper ones.",
+    "w": [
+      "Interpretations aren't forbidden in first sessions; they need good timing.",
+      "The interviewer did know about the parents; he chose to wait.",
+      "Interpretations don't have to follow a confrontation; they depend on the client's readiness."
+    ],
+    "k": "Interpretations need timing: offer them once the client has affirmed earlier reflections.",
+    "h": "Ripe fruit falls; unripe fruit is pulled.",
+    "r": "Sommers-Flanagan Ch3 – Interpretation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "The boy says 'it doesn't hurt anymore'. Why is the word 'anymore' important?",
+    "o": [
+      "It signals past hurt – genetic material inviting interpretation",
+      "It shows that the interviewer's interpretation was completely wrong",
+      "It means the boy is lying about how he really feels",
+      "It indicates psychosis"
+    ],
+    "e": "'It doesn't hurt anymore' implies that it used to hurt: 'anymore' points to the past. Accurate interpretations often bring out genetic (past) material, so this small word signals readiness for a more classical interpretation that links present feelings to earlier experiences, here the boy's unjust punishment by his parents.",
+    "w": [
+      "'Anymore' supports the interpretation; it doesn't show it was wrong.",
+      "He isn't necessarily lying; 'anymore' reveals past hurt.",
+      "Nothing suggests psychosis; 'anymore' is ordinary speech revealing past hurt."
+    ],
+    "k": "Words like 'anymore' point to past hurt: genetic material that invites interpretation.",
+    "h": "'Anymore' opens a door to the past.",
+    "r": "Sommers-Flanagan Ch3 – Interpretation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 1,
+    "q": "Fenichel defines interpretation as:",
+    "o": [
+      "Naming something unconscious as it strives to break through",
+      "Advising the client what to do next in the difficult situation at hand",
+      "Pointing out discrepancies between the client's words and behavior",
+      "Repeating the client's words back"
+    ],
+    "e": "Fenichel defines interpretation as 'helping something unconscious to become conscious by naming it at the moment it is striving to break through.' Two elements matter: the content is unconscious, and the timing is when it is close to the surface. Interpretation is the most directive listening response.",
+    "w": [
+      "Advising what to do is a directive action response, not interpretation.",
+      "Pointing out discrepancies between words and behaviour is confrontation, not interpretation.",
+      "Repeating the client's words back is a nondirective reflection that adds no unconscious meaning."
+    ],
+    "k": "Fenichel: interpretation names something unconscious at the moment it is breaking through.",
+    "h": "Name it as it surfaces.",
+    "r": "Sommers-Flanagan Ch3 – Interpretation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "How does reframing differ from classical interpretation?",
+    "o": [
+      "It offers another perspective without surfacing the unconscious",
+      "It always refers back to the client's earliest childhood experiences",
+      "It is nondirective and adds no meaning",
+      "It points out incongruities between the client's words and behavior"
+    ],
+    "e": "Family systems, solution-oriented and cognitive therapists reframe: they help clients view a problem from another perspective, based on a reasonable alternative hypothesis, without claiming to surface unconscious material. Classical interpretation names unconscious processes. Both add meaning, but reframing offers a new lens rather than a hidden truth.",
+    "w": [
+      "Linking to earliest childhood is genetic interpretation, not reframing.",
+      "Reframing adds a new meaning, so it is directive, not a nondirective response.",
+      "Pointing out incongruities between words and behaviour is confrontation."
+    ],
+    "k": "Reframing offers a reasonable alternative perspective without claiming to surface the unconscious.",
+    "h": "Same picture, new frame.",
+    "r": "Sommers-Flanagan Ch3 – Reframing"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "'I think you two like each other. You almost always sit next to each other' (to sparring teens) is an example of:",
+    "o": [
+      "Reframing",
+      "Confrontation",
+      "Feeling validation",
+      "Clarification"
+    ],
+    "e": "The counselor reframes the teens' mutual harassment as mutual attraction, citing evidence that they always sit together. The teens deny it, but the group adopts the new view, and the sparring takes on a different meaning. Reframes may first meet denial but promote more flexible perception.",
+    "w": [
+      "A confrontation would point out a discrepancy without offering a new meaning.",
+      "Validation approves feelings; this offers a new interpretation of behaviour.",
+      "Clarification checks understanding; this proposes a new perspective."
+    ],
+    "k": "Reframing gives behaviour a new meaning (harassment → attraction), even if first denied.",
+    "h": "Teasing as flirting: a classic reframe.",
+    "r": "Sommers-Flanagan Ch3 – Reframing"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "When does confrontation work best?",
+    "o": [
+      "With a working relationship and ample evidence of incongruity",
+      "Early in the first session, before rapport has a chance to form",
+      "When delivered harshly to break through denial",
+      "Without any evidence, simply to test how the client will react"
+    ],
+    "e": "Confrontation, pointing out incongruities, works best when there is a working relationship and ample evidence of the discrepancy. Start gently and cite evidence: 'You say you're fine, yet you've cried twice today.' Aggressive or unsupported confrontation tends to create resistance and defensiveness rather than insight, especially early in treatment.",
+    "w": [
+      "Confronting before rapport has formed tends to provoke defensiveness and early dropout.",
+      "Harsh confrontation increases resistance rather than breaking denial.",
+      "Confronting without evidence is unfounded and damages trust."
+    ],
+    "k": "Confront gently, with a working relationship and clear evidence of incongruity.",
+    "h": "Evidence plus alliance, then a gentle mirror.",
+    "r": "Sommers-Flanagan Ch3 – Confrontation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "Miller and Rollnick's view of aggressive confrontation in addiction treatment is that:",
+    "o": [
+      "No persuasive evidence shows it helps, let alone that it's superior",
+      "It is essential for breaking through the denial of substance abusers",
+      "It works only with court-ordered clients",
+      "It is better than motivational approaches for most problem drinkers"
+    ],
+    "e": "Miller and Rollnick, the developers of motivational interviewing, state: 'There is, in fact, no persuasive evidence that aggressive confrontational tactics are even helpful, let alone superior.' Aggressive confrontation tends to increase resistance in people with substance problems. They recommend beginning gently and becoming more assertive only later, if needed.",
+    "w": [
+      "They reject the idea that harsh confrontation is essential for denial.",
+      "There's no evidence that it works specifically with court-ordered clients.",
+      "They found motivational, non-confrontational approaches at least as good, not worse."
+    ],
+    "k": "Miller & Rollnick: no persuasive evidence that aggressive confrontation helps; begin gently.",
+    "h": "Motivational interviewing: roll with resistance, don't ram it.",
+    "r": "Sommers-Flanagan Ch3 – Confrontation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "True confrontation, unlike directive action responses:",
+    "o": [
+      "Implies action is needed but does not prescribe the change",
+      "Always tells the client exactly what to do in order to change",
+      "Avoids pointing out any discrepancies in the client's story or behavior",
+      "Is always harsh and aggressive"
+    ],
+    "e": "True confrontation points out a discrepancy and implies that action is needed, but it does not prescribe the change. In the book's words, it 'does not contain an explicit prescription for change. Instead, it implies that action is necessary.' Directive action responses, like advice, tell the client what to do.",
+    "w": [
+      "Telling the client exactly what to do is advice, a directive action response.",
+      "Confrontation is precisely about pointing out discrepancies, so avoiding them is the opposite.",
+      "Confrontation can be gentle; it needn't be harsh."
+    ],
+    "k": "Confrontation implies change is needed without prescribing it.",
+    "h": "Confrontation shows the gap; advice builds the bridge.",
+    "r": "Sommers-Flanagan Ch3 – Confrontation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "'I noticed you haven't mentioned anything about your wife leaving' is a:",
+    "o": [
+      "Gentle confrontation using reflection of (missing) content",
+      "Harsh confrontation designed to break through denial",
+      "Feeling validation of the client's unspoken grief",
+      "Positive reframe of the loss"
+    ],
+    "e": "This is a gentle confrontation using reflection of missing content: the therapist points out what the client hasn't said, helping him notice a possible link between his mood and his wife's departure. It confronts an absence rather than a contradiction, and it leaves the client free to make the connection himself instead of having it imposed.",
+    "w": [
+      "The tone is gentle and observational, not harsh.",
+      "It doesn't approve any feeling; it points out an omission.",
+      "It doesn't give the loss a positive meaning."
+    ],
+    "k": "Noting what the client hasn't mentioned is a gentle confrontation of missing content.",
+    "h": "The elephant you point at softly.",
+    "r": "Sommers-Flanagan Ch3 – Confrontation"
+  },
+  {
+    "t": "Ch3 Directive",
+    "d": 2,
+    "q": "According to the summary, when should most directive responses be used?",
+    "o": [
+      "After an adequate clinical assessment has occurred",
+      "In the first five minutes, to establish authority",
+      "Only with clients who directly request advice",
+      "Never with beginning interviewers' clients"
+    ],
+    "e": "Directive responses are advanced techniques that encourage change, and most should be used after an adequate clinical assessment. Balance matters: being too directive leaves the client feeling no control, while being too nondirective can leave the client feeling lost. Assessment tells you which direction will help.",
+    "w": [
+      "Using them in the first minutes to establish authority is premature.",
+      "Directive responses aren't limited to clients who request advice; assessment decides when they fit.",
+      "Beginners can use them after assessment, with supervision."
+    ],
+    "k": "Use most directive responses after an adequate assessment; balance control and support.",
+    "h": "Map the territory, then steer.",
+    "r": "Sommers-Flanagan Ch3 – Summary"
+  },
+  {
+    "t": "Ch3 Communication",
+    "d": 1,
+    "q": "'You cannot not communicate' means that:",
+    "o": [
+      "Even silence and pauses send messages",
+      "Interviewers must always keep talking",
+      "Clients must always respond verbally",
+      "Nonverbal behavior carries little meaning"
+    ],
+    "e": "'You cannot not communicate' (Watzlawick) means we are always sending and receiving messages whenever we are in contact with another person. Even silence, a pause, a glance at the clock or a shift in posture communicates something. Interviewers must therefore be aware of what their nonverbal behaviour and silences convey to clients.",
+    "w": [
+      "It doesn't mean interviewers must keep talking; silence also communicates.",
+      "Clients don't have to respond verbally; their silence also speaks.",
+      "It implies nonverbal behaviour carries a lot of meaning."
+    ],
+    "k": "You cannot not communicate: even silence sends a message.",
+    "h": "Silence is a message too.",
+    "r": "Sommers-Flanagan Ch3 – Introduction"
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "t": "Ch9 Covariance",
+    "d": 2,
+    "q": "For X = 1, 2, 3, 4, 5 and Y = 2, 4, 5, 4, 5, what is the sample covariance?",
+    "o": [
+      "1.5",
+      "6.0",
+      "1.2",
+      "0.77"
+    ],
+    "e": "Means are 3 and 4. The cross-products of deviations are (−2)(−2) = 4, (−1)(0) = 0, (0)(1) = 0, (1)(0) = 0 and (2)(1) = 2, summing to 6. Covariance = 6 / (n − 1) = 6 / 4 = 1.5. (0.77 is the correlation r.)",
+    "w": [
+      "6.0 is the sum of cross-products before dividing by n − 1.",
+      "1.2 divides the sum of cross-products by n (5) instead of n − 1 (4).",
+      "0.77 is the correlation r, not the covariance."
+    ],
+    "k": "Covariance = Σ(x − x̄)(y − ȳ) ÷ (n − 1).",
+    "h": "Do they wander from their means together?",
+    "r": "Stats & SPSS ch. 9 · Correlation · Covariance"
+  },
+  {
+    "t": "Ch9 Covariance",
+    "d": 2,
+    "q": "Why is the covariance a poor measure of how strongly two variables are related?",
+    "o": [
+      "It depends on the units of measurement, so its size cannot be compared across variables",
+      "It can only be positive, so it cannot show negative relationships between variables",
+      "It is always between −1 and +1, which hides very strong relationships between variables",
+      "It ignores whether the two variables deviate from their own means together, case by case"
+    ],
+    "e": "Measure height in centimetres instead of metres and the covariance grows 100-fold while the relationship stays the same. Dividing by the product of the SDs standardizes it into Pearson's r, which runs from −1 to +1.",
+    "w": [
+      "Covariance can be negative, so it does show negative relationships.",
+      "Covariance isn't bounded by ±1; that's the correlation coefficient.",
+      "Covariance is built from paired deviations, so it doesn't ignore them."
+    ],
+    "k": "Covariance depends on units; dividing by the SDs gives unit-free r.",
+    "h": "Change the ruler, change the covariance.",
+    "r": "Stats & SPSS ch. 9 · Correlation · From covariance to r"
+  },
+  {
+    "t": "Ch9 Pearson's r",
+    "d": 2,
+    "q": "Using the same data (covariance = 1.5, SDs = 1.58 and 1.22), what is Pearson's r?",
+    "o": [
+      "About .77",
+      "About .50",
+      "About 1.50",
+      "About .39"
+    ],
+    "e": "r = cov / (s_x × s_y) = 1.5 / (1.581 × 1.225) = 1.5 / 1.937 = .77, a strong positive relationship.",
+    "w": [
+      ".50 doesn't follow from the formula; 1.5 divided by 1.58 × 1.22 (= 1.94) gives .77.",
+      "1.50 is the covariance itself, not standardized by the SDs.",
+      ".39 is about half the correct value, as if the denominator were doubled."
+    ],
+    "k": "Pearson's r = covariance ÷ (s_x × s_y), a unit-free index from −1 to +1.",
+    "h": "Covariance over the product of SDs.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Pearson's r"
+  },
+  {
+    "t": "Ch9 Pearson's r",
+    "d": 1,
+    "q": "A correlation of r = −.60 between hours of exercise and depression scores means:",
+    "o": [
+      "More exercise goes with lower depression, and the variables share 36% of their variance",
+      "Exercise causes a 60% reduction in depression scores among people in this sample",
+      "More exercise goes with higher depression, and exercise explains 60% of the variance in it",
+      "The relationship is weak, because the correlation coefficient has a negative sign"
+    ],
+    "e": "The sign gives the direction (negative: as one rises, the other falls) and the size gives the strength. r² = .36, so 36% of the variance is shared. Correlation alone says nothing about causation, and a negative r can be strong.",
+    "w": [
+      "Correlation can't establish causation or a percentage reduction.",
+      "A negative r means opposite directions, and shared variance is r² = 36%, not 60%.",
+      "A negative sign shows direction, not weakness; −.60 is strong."
+    ],
+    "k": "Sign = direction, size = strength; r² = shared variance.",
+    "h": "The sign points, the size speaks.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Interpreting r"
+  },
+  {
+    "t": "Ch9 Significance",
+    "d": 3,
+    "q": "With N = 27 and r = .50, what is the t statistic testing whether r differs from zero?",
+    "o": [
+      "t(25) ≈ 2.89",
+      "t(26) ≈ 2.60",
+      "t(25) ≈ 5.00",
+      "t(27) ≈ 1.44"
+    ],
+    "e": "t = r√(N − 2) / √(1 − r²) = .50 × √25 / √.75 = 2.5 / 0.866 = 2.89, with df = N − 2 = 25 (p ≈ .008). Two df are lost because a correlation implies estimating a line with two parameters.",
+    "w": [
+      "df for testing r is N − 2 = 25, not N − 1 = 26.",
+      "5.00 divides by (1 − r) instead of √(1 − r²).",
+      "df is N − 2 = 25, not 27, and 1.44 doesn't follow from the formula."
+    ],
+    "k": "t = r√(N − 2) ÷ √(1 − r²), with df = N − 2.",
+    "h": "A line costs two df.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Testing r"
+  },
+  {
+    "t": "Ch9 Confidence intervals",
+    "d": 3,
+    "q": "Why are confidence intervals for r usually built using Fisher's z-transformation (or bootstrapping)?",
+    "o": [
+      "The sampling distribution of r is skewed when ρ is not 0, because r is bounded at ±1",
+      "Pearson's r is measured on an ordinal scale, so it has no standard error to work with",
+      "The z-transformation removes the influence of outliers and extreme cases on the correlation",
+      "Fisher's z converts r into the percentage of variance in Y that is explained by X"
+    ],
+    "e": "Because r cannot exceed ±1, its sampling distribution becomes increasingly skewed as ρ moves away from zero. z_r = ½ ln[(1 + r)/(1 − r)] is approximately normal with SE = 1/√(N − 3). Build the CI on z, then back-transform. SPSS can instead give bootstrapped CIs for r.",
+    "w": [
+      "Pearson's r isn't ordinal, and it does have a standard error.",
+      "Fisher's z doesn't remove outlier influence.",
+      "Fisher's z doesn't convert r into variance explained; r² does that."
+    ],
+    "k": "r's sampling distribution is skewed away from 0; Fisher's z normalizes it (SE = 1/√(N − 3)).",
+    "h": "Stretch r so it can breathe near ±1.",
+    "r": "Stats & SPSS ch. 9 · Correlation · CIs for r"
+  },
+  {
+    "t": "Ch9 Spearman and Kendall",
+    "d": 2,
+    "q": "Spearman's correlation coefficient is:",
+    "o": [
+      "Pearson's r computed on the ranks of the data",
+      "The square root of the variance shared by the ranks",
+      "A correlation for two dichotomous variables",
+      "The average of the Pearson and Kendall coefficients"
+    ],
+    "e": "Rank each variable, then apply Pearson's formula to the ranks. This suits ordinal data or continuous data with outliers or non-normality, and it captures monotonic (consistently increasing or decreasing), not just linear, relationships.",
+    "w": [
+      "Spearman's rho isn't a square root of shared rank variance.",
+      "Two dichotomous variables call for phi, not Spearman.",
+      "Spearman isn't an average of Pearson and Kendall."
+    ],
+    "k": "Spearman's rho = Pearson's r on ranks, capturing monotonic relationships.",
+    "h": "Spear the ranks, then Pearson them.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Spearman's rho"
+  },
+  {
+    "t": "Ch9 Spearman and Kendall",
+    "d": 2,
+    "q": "Field suggests Kendall's tau rather than Spearman's rho when:",
+    "o": [
+      "The sample is small and contains many tied ranks",
+      "The sample is large and the variables are normally distributed",
+      "Both variables are dichotomous, such as yes/no responses",
+      "One variable is continuous and the other is a true dichotomy"
+    ],
+    "e": "Kendall's τ copes better with small datasets with many ties, and it is argued to estimate the population correlation better. Its values are typically smaller than Spearman's for the same data, so do not compare them directly.",
+    "w": [
+      "Large normal samples suit Pearson's r.",
+      "Two dichotomous variables call for phi.",
+      "A continuous variable with a true dichotomy calls for point-biserial r."
+    ],
+    "k": "Small samples with many ties → Kendall's tau.",
+    "h": "Kendall copes with crowded ties.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Kendall's tau"
+  },
+  {
+    "t": "Ch9 Biserial correlations",
+    "d": 3,
+    "q": "Which situation calls for a point-biserial rather than a biserial correlation?",
+    "o": [
+      "Correlating anxiety with whether a participant is pregnant (yes/no)",
+      "Correlating anxiety with passing or failing an exam scored as a percentage",
+      "Correlating anxiety with depression, both measured on rating scales",
+      "Correlating anxiety with rank order in a class of thirty students"
+    ],
+    "e": "Point-biserial r is for a discrete dichotomy, with no continuum underneath (pregnant or not). Biserial r is for a dichotomy that hides a continuous variable (pass/fail cut from a percentage score). SPSS gives the point-biserial automatically if you run Pearson's r with the dichotomy coded 0/1.",
+    "w": [
+      "Pass/fail cut from a percentage hides a continuum, so it needs biserial r.",
+      "Two rating scales call for Pearson's r.",
+      "Rank order calls for Spearman or Kendall."
+    ],
+    "k": "Point-biserial for a true dichotomy; biserial for a dichotomy cut from a continuum.",
+    "h": "Point-biserial for a Pure dichotomy; biserial for a Broken continuum.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Point-biserial and biserial"
+  },
+  {
+    "t": "Ch9 Partial correlation",
+    "d": 2,
+    "q": "A partial correlation between exam anxiety and exam performance, controlling for revision time, represents:",
+    "o": [
+      "The anxiety–performance relationship after revision time is removed from both variables",
+      "The anxiety–performance relationship after revision time is removed from anxiety only",
+      "The proportion of variance in performance uniquely explained by revision time",
+      "The correlation between anxiety and revision time when performance is held constant"
+    ],
+    "e": "A partial correlation removes the third variable's influence from both variables of interest. Removing it from only one gives the semi-partial (part) correlation, whose square is the unique variance a predictor explains in regression.",
+    "w": [
+      "Removing revision from only one variable is a semi-partial correlation.",
+      "Unique variance explained by revision is a squared semi-partial.",
+      "This swaps the variables; the question controls revision."
+    ],
+    "k": "Partial correlation removes the third variable from both variables.",
+    "h": "Partial: clean both sides.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Partial correlation"
+  },
+  {
+    "t": "Ch9 Partial correlation",
+    "d": 3,
+    "q": "The squared semi-partial (part) correlation of a predictor in a multiple regression equals:",
+    "o": [
+      "The increase in R² when that predictor is added last to the model",
+      "The total proportion of variance that the predictor shares with the outcome",
+      "The predictor's standardized coefficient β multiplied by the sample size",
+      "The proportion of variance the predictor shares with the other predictors"
+    ],
+    "e": "The semi-partial removes the other predictors from the predictor (not from the outcome), so its square is the variance in Y explained uniquely by that predictor. That is exactly the R² change if it is entered last. SPSS gives part correlations under Statistics → 'Part and partial correlations'.",
+    "w": [
+      "Total shared variance is the zero-order r².",
+      "β times n has no meaning as variance explained.",
+      "Overlap with other predictors relates to collinearity, not sr²."
+    ],
+    "k": "sr² = R² change when the predictor is added last.",
+    "h": "Part correlation squared: the predictor's private slice.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Semi-partial correlation"
+  },
+  {
+    "t": "Ch9 Partial correlation",
+    "d": 2,
+    "q": "A correlation between two variables computed without controlling for anything is called a:",
+    "o": [
+      "Zero-order correlation",
+      "First-order partial correlation",
+      "Semi-partial correlation",
+      "Canonical correlation"
+    ],
+    "e": "Zero-order means zero variables controlled. A first-order partial correlation controls for one variable and a second-order partial for two. SPSS's Partial Correlations dialog can display zero-order correlations alongside the partials for comparison.",
+    "w": [
+      "First-order partials control for one variable.",
+      "Semi-partials control a variable in only one of the pair.",
+      "Canonical correlations relate sets of variables."
+    ],
+    "k": "Zero-order = nothing controlled; first-order controls one variable.",
+    "h": "Zero controls, zero order.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Orders of correlation"
+  },
+  {
+    "t": "Ch9 Causality",
+    "d": 2,
+    "q": "Ice-cream sales correlate with drowning deaths. The most likely explanation is:",
+    "o": [
+      "A third variable, hot weather, increases both",
+      "Eating ice cream impairs swimming ability",
+      "Drowning deaths cause people to buy ice cream",
+      "A Type I error, since such a correlation is impossible"
+    ],
+    "e": "This is the classic third-variable (tertium quid) problem: summer heat drives both ice-cream sales and swimming. Correlation is necessary but not sufficient for causation.",
+    "w": [
+      "No causal link from ice cream to swimming ability is implied.",
+      "Reverse causation is implausible: drownings don't send people to buy ice cream.",
+      "Such correlations are real and replicable; a third variable explains them."
+    ],
+    "k": "Correlations can arise from third variables (tertium quid).",
+    "h": "The sun sells ice cream and fills pools.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Third-variable problem"
+  },
+  {
+    "t": "Ch9 Comparing correlations",
+    "d": 3,
+    "q": "In two independent samples of 103 people, r = .50 and r = .20. Using Fisher's z to compare them gives:",
+    "o": [
+      "z ≈ 2.45, p ≈ .014: the correlations differ significantly",
+      "z ≈ 0.30, p ≈ .76: the two correlations do not differ",
+      "z ≈ 1.25, p ≈ .21: the two correlations do not differ",
+      "z ≈ 4.90, p < .001: the correlations differ significantly"
+    ],
+    "e": "Convert each r: z_r(.50) = 0.549 and z_r(.20) = 0.203. SE of the difference = √[1/(n1 − 3) + 1/(n2 − 3)] = √(1/100 + 1/100) = 0.141. z = (0.549 − 0.203) / 0.141 = 2.45, two-tailed p ≈ .014. Correlations from the same people (dependent r's) need a different test.",
+    "w": [
+      "0.30 is just the raw difference in r, not a z test.",
+      "1.25 understates the difference by using too large a standard error.",
+      "4.90 doubles the correct z by understating the standard error."
+    ],
+    "k": "Compare independent r's by converting to Fisher's z with SE = √[1/(n₁ − 3) + 1/(n₂ − 3)].",
+    "h": "Transform, subtract, divide by the SE.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Comparing independent correlations"
+  },
+  {
+    "t": "Ch9 Assumptions",
+    "d": 2,
+    "q": "Pearson's r can be badly misleading when:",
+    "o": [
+      "A single outlier or a curved relationship is present",
+      "Both variables are measured on interval scales",
+      "The sample contains more than 100 participants",
+      "The two variables have quite different means and SDs"
+    ],
+    "e": "r measures linear association and is a least-squares-type statistic, so one extreme case can create or destroy a correlation, and curved relationships are underestimated. Differences in means and SDs do not matter, because r standardizes them away.",
+    "w": [
+      "Interval scales are appropriate for Pearson's r.",
+      "Large samples don't make r misleading.",
+      "r standardizes away different means and SDs."
+    ],
+    "k": "Outliers and curved relationships can badly distort Pearson's r.",
+    "h": "One rogue point can make or break r.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Bias in r"
+  },
+  {
+    "t": "Ch9 Assumptions",
+    "d": 3,
+    "q": "A study correlates IQ with job performance only among people already hired (all IQ > 115). The correlation will probably:",
+    "o": [
+      "Underestimate the population correlation, because of restricted range",
+      "Overestimate the population correlation, because high scorers are consistent",
+      "Be unaffected, because r does not depend on the range of the variables",
+      "Be exactly zero, because there is no variance left in IQ scores"
+    ],
+    "e": "Restricting the range of either variable reduces its variance and usually shrinks r. Selection effects like this explain many weak correlations found in pre-selected samples (graduate students, employees, clinical samples).",
+    "w": [
+      "Restricted range usually shrinks r, not inflates it.",
+      "r depends strongly on the variables' ranges.",
+      "IQ above 115 still varies, so r won't be exactly zero."
+    ],
+    "k": "Restricting the range of a variable usually shrinks the correlation.",
+    "h": "Cut off the range, cut down the r.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Restriction of range"
+  },
+  {
+    "t": "Ch9 SPSS",
+    "d": 1,
+    "q": "In SPSS, Pearson, Spearman and Kendall correlations are all requested through:",
+    "o": [
+      "Analyze → Correlate → Bivariate",
+      "Analyze → Regression → Linear",
+      "Analyze → Correlate → Partial",
+      "Analyze → Descriptive Statistics → Crosstabs"
+    ],
+    "e": "The Bivariate dialog has tick boxes for Pearson, Kendall's tau-b and Spearman. Options adds means, SDs and cross-product deviations or covariances, and the Bootstrap button gives robust CIs. Partial correlations have their own dialog.",
+    "w": [
+      "Regression → Linear fits models, not correlation tables.",
+      "Partial has its own dialog for controlled correlations.",
+      "Crosstabs tests associations between categorical variables, not correlations."
+    ],
+    "k": "Analyze → Correlate → Bivariate gives Pearson, Spearman and Kendall.",
+    "h": "Bi-variate: two at a time.",
+    "r": "Stats & SPSS ch. 9 · SPSS · Bivariate correlations"
+  },
+  {
+    "t": "Ch9 SPSS",
+    "d": 2,
+    "q": "The SPSS Bivariate Correlations table shows r = .44, Sig. (2-tailed) = .001, N = 52. Which report is correct?",
+    "o": [
+      "r(50) = .44, p = .001",
+      "r(52) = .44, p = .001",
+      "r(51) = .44, p = .001",
+      "r = .001, p = .44"
+    ],
+    "e": "In APA style the df for r is N − 2 = 50. Add a CI (ideally bootstrapped) and say what the correlation means in context. Swapping the values of r and p, so that r = .001 and p = .44 are reported, is a surprisingly common slip.",
+    "w": [
+      "df for r is N − 2, not N (52).",
+      "df for r is N − 2 = 50, not N − 1 = 51.",
+      "This swaps the two values: r is .44 and p is .001."
+    ],
+    "k": "Report r with df = N − 2: r(50) = .44, p = .001.",
+    "h": "r loses two df.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Reporting"
+  },
+  {
+    "t": "Ch9 Effect sizes",
+    "d": 2,
+    "q": "Why should r² be interpreted cautiously as 'variance explained'?",
+    "o": [
+      "It describes shared variance, not variance caused by one variable in the other",
+      "It is only valid for Spearman's correlation, not for Pearson's product-moment r",
+      "It is always larger than r itself, so it exaggerates how strong relationships are",
+      "It cannot be computed at all when the correlation coefficient is negative"
+    ],
+    "e": "r² = .25 means 25% of the variability in one variable is shared with the other, which says nothing about the direction of influence. For Spearman, r² refers to shared variance in the ranks. r² is never larger than |r| for |r| ≤ 1.",
+    "w": [
+      "r² applies to Pearson's r too.",
+      "r² is never larger than |r| when |r| ≤ 1.",
+      "r² can be computed for negative correlations."
+    ],
+    "k": "r² is shared variance, not causal variance explained.",
+    "h": "Shared, not caused.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Coefficient of determination"
+  },
+  {
+    "t": "Ch9 Pearson's r",
+    "d": 3,
+    "q": "Correlating a variable with a linear transformation of itself, such as anxiety in raw points and anxiety in z-scores, gives:",
+    "o": [
+      "r = 1, because a linear transformation preserves the exact linear relationship",
+      "r = 0, because standardizing removes all of the original variance from the variable",
+      "r = .5, because only half of the information in the original scale is preserved",
+      "An r whose size depends on how large the SD used to standardize the scores was"
+    ],
+    "e": "Pearson's r is unaffected by linear changes of scale or origin (adding constants or multiplying by positive constants). A variable and its z-score are perfectly linearly related. A negative multiplier would give r = −1.",
+    "w": [
+      "Standardizing doesn't remove variance in a way that breaks the linear link.",
+      "Linear transformations preserve all relational information.",
+      "r doesn't depend on the scale's SD."
+    ],
+    "k": "r is unchanged by linear transformations; a variable and its z-scores correlate at 1.",
+    "h": "Same variable, new ruler, perfect r.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Invariance of r"
+  },
+  {
+    "t": "Ch9 Dependent correlations",
+    "d": 3,
+    "q": "In one sample, you want to know whether anxiety correlates more strongly with performance than revision does. Why is a Fisher z test for independent correlations inappropriate?",
+    "o": [
+      "The two correlations share a variable and come from the same people, so they are not independent",
+      "Fisher's z can only be applied to correlations that were computed with Spearman's rank method",
+      "The test requires the two correlations being compared to have opposite signs",
+      "Tests for independent correlations only work when each sample has fewer than 30 people"
+    ],
+    "e": "Correlations computed on the same people and sharing a variable are correlated with each other. Tests for dependent correlations (for example Steiger's or Williams's t) take the correlation between the two predictors into account.",
+    "w": [
+      "Fisher's z applies to Pearson correlations.",
+      "No rule requires the two correlations to have opposite signs.",
+      "Sample size limits aren't the issue."
+    ],
+    "k": "Dependent correlations need tests such as Steiger's or Williams's t.",
+    "h": "Same people, linked correlations.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Comparing dependent correlations"
+  },
+  {
+    "t": "Ch9 Bootstrapping",
+    "d": 2,
+    "q": "Why is it useful to bootstrap the confidence interval for a correlation in SPSS?",
+    "o": [
+      "It gives an interval that does not rely on bivariate normality",
+      "It makes the correlation coefficient larger and therefore significant",
+      "It converts a Pearson correlation into a Spearman correlation",
+      "It removes the need to check for outliers in the scatterplot"
+    ],
+    "e": "Bootstrapping resamples the cases to build the sampling distribution of r empirically, so the CI is trustworthy even when normality is doubtful. It does not change r itself, and it does not cure the influence of outliers, so still plot the data.",
+    "w": [
+      "Bootstrapping leaves r unchanged; it only changes the CI.",
+      "Bootstrapping doesn't convert Pearson to Spearman.",
+      "Bootstrapping doesn't cure outliers, so you still need to plot the data."
+    ],
+    "k": "Bootstrapped CIs for r don't rely on bivariate normality.",
+    "h": "Resample to trust the interval.",
+    "r": "Stats & SPSS ch. 9 · Correlation · Robust CIs for r"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "t": "Joanna: model of OCD",
+    "d": 2,
+    "q": "According to the cognitive-behavioral account in the course, what produces Joanna's obsessional anxiety?",
+    "o": [
+      "Catastrophic misinterpretation of normal, senseless intrusive thoughts",
+      "The intrusive thoughts themselves, which are abnormal and rare",
+      "A hidden wish to harm others that the thoughts reveal",
+      "Low intelligence and poor academic performance"
+    ],
+    "e": "Joanna's obsessional anxiety results from catastrophic beliefs about normally occurring, senseless intrusive thoughts, such as 'only bad people have bad thoughts' and 'one can and should rid one's mind of such thoughts to prevent something bad.' Most people experience the same sort of intrusions without misinterpreting them as harmful or significant. The distress caused by misinterpretation leads to urges to control the thoughts, first by suppression or distraction.",
+    "w": [
+      "Such intrusions are normal and occur in most people.",
+      "She had no violent history or wish to harm; the problem is misappraisal.",
+      "She was a high-achieving graduate student."
+    ],
+    "k": "OCD (CBT model): normal intrusive thoughts + catastrophic misinterpretation → anxiety → urges to control or neutralize.",
+    "h": "The thought is ordinary; the meaning given is the problem.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 OCD (Joanna): psychological principles"
+  },
+  {
+    "t": "Joanna: model of OCD",
+    "d": 3,
+    "q": "Why do Joanna's attempts at thought suppression make the obsessions worse, according to the course?",
+    "o": [
+      "Searching for the thought brings it back, and its recurrence feeds a secondary misappraisal",
+      "Suppression works well but leads to depression over the following months",
+      "Suppression has no effect at all on how often intrusive thoughts occur",
+      "Suppression lowers anxiety permanently once it has been practiced enough"
+    ],
+    "e": "Attempts at thought control usually fail, because searching for the to-be-suppressed target thought ironically produces it, and the person becomes hypervigilant for signs of it, leading to more occurrences. When the very thought she tries to dismiss becomes more frequent, a secondary misappraisal follows: 'Even when I try to get rid of this thought, it keeps coming back. This must mean I am truly a bad person.' Thus her resistance itself maintains the problem.",
+    "w": [
+      "Suppression does not work; it increases intrusions.",
+      "Suppression in fact increases the frequency of the thought.",
+      "Any relief from suppression is only brief and temporary."
+    ],
+    "k": "Suppression backfires: monitoring for the thought brings it back; recurrence is then misread as proof of being bad.",
+    "h": "Don't think of a white bear.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: psychological principles; case formulation"
+  },
+  {
+    "t": "Joanna: model of OCD",
+    "d": 3,
+    "q": "How do rituals and avoidance become habitual and maintain OCD, according to the course?",
+    "o": [
+      "Brief relief negatively reinforces them, and their absence of disaster is credited to the ritual",
+      "They are positively reinforced by praise from family members",
+      "They gradually extinguish on their own without treatment",
+      "They work by teaching that intrusive thoughts are harmless"
+    ],
+    "e": "Mental rituals, phobic avoidance and other neutralizing strategies (analyzing the meaning of thoughts, seeking assurance) sometimes temporarily reduce obsessional anxiety. Even brief relief negatively reinforces the rituals, making them habitual. When the feared catastrophe does not occur, the person attributes this to the ritual or avoidance (a 'near miss'). Rituals and avoidance also prevent learning that intrusive thoughts are not dangerous, so mistaken beliefs stay intact, completing a self-perpetuating vicious cycle.",
+    "w": [
+      "The mechanism is relief from anxiety, not praise.",
+      "Rituals become habitual and persist without treatment.",
+      "They prevent precisely the learning that intrusions are harmless."
+    ],
+    "k": "Neutralizing is negatively reinforced by relief, credited for 'near misses', and blocks disconfirming learning → vicious cycle.",
+    "h": "Relief now, prison later.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: psychological principles"
+  },
+  {
+    "t": "Joanna: assessment",
+    "d": 2,
+    "q": "Which assessment does the course say contributes MOST to successful treatment of Joanna's OCD?",
+    "o": [
+      "An idiographic cognitive-behavioral functional assessment",
+      "A projective assessment of unconscious aggression",
+      "A full intelligence test battery",
+      "A diagnostic interview alone"
+    ],
+    "e": "Diagnostic assessment has merit for ruling differential diagnoses in or out, but the course says the idiographic cognitive-behavioral functional assessment contributes most to treating obsessive-compulsive symptoms. It aims to clarify what maintains the problem and informs the plan: the form and content of intrusive thoughts, external triggers, the patient's beliefs and interpretations of the thoughts, and her responses (rituals, neutralizing, avoidance) and beliefs about how they work.",
+    "w": [
+      "Projective inference about aggression is not used.",
+      "Intelligence testing does not reveal maintaining factors.",
+      "Diagnosis alone does not guide the treatment plan."
+    ],
+    "k": "OCD treatment depends most on an idiographic functional assessment: intrusions, triggers, appraisals, rituals/avoidance and their perceived function.",
+    "h": "Map what keeps it going.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: assessment strategy"
+  },
+  {
+    "t": "Joanna: assessment",
+    "d": 2,
+    "q": "Which external triggers provoked Joanna's obsessional thoughts?",
+    "o": [
+      "Knives near other people, violent crime stories and quiet places like libraries",
+      "Dirt, germs, door handles and public toilets in crowded buildings",
+      "Heights, elevators, bridges and airplanes during long trips",
+      "Spiders, snakes, stray dogs and other animals outdoors"
+    ],
+    "e": "After detailing the intrusive thoughts themselves (impulses to yell curse words in quiet places and to stab others when knives are present), assessment examines external triggers: situations and stimuli associated with unwanted intrusions. Joanna reported that using knives, particularly when others were nearby, reading or hearing about violent crimes, and being in 'quiet' places such as libraries and performances provoked her obsessional thoughts. Her avoided circumstances included knives, church, plays and libraries.",
+    "w": [
+      "Contamination triggers were not part of her presentation.",
+      "These are phobic triggers unrelated to her obsessions.",
+      "These are animal phobia triggers, not obsessional triggers."
+    ],
+    "k": "Joanna's triggers: knives near others, violent crime news, quiet places (libraries, church, performances).",
+    "h": "Knives, crimes, silence.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: assessment strategy"
+  },
+  {
+    "t": "Joanna: assessment",
+    "d": 2,
+    "q": "Which instruments were used to assess Joanna's beliefs about intrusions and her symptom severity?",
+    "o": [
+      "Obsessive Beliefs Questionnaire, Interpretation of Intrusions Inventory, DOCS, BDI",
+      "MMPI-2, Rorschach Inkblot Test and Thematic Apperception Test",
+      "WAIS-IV, Wechsler Memory Scale-IV and the Bender-Gestalt II",
+      "ADIS-5, Brief Fear of Negative Evaluation scale and ASI only"
+    ],
+    "e": "The patient's beliefs and interpretations of intrusive thoughts can be measured with validated self-report instruments such as the Obsessive Beliefs Questionnaire and the Interpretation of Intrusions Inventory, as well as by interview. Assessment also included the Dimensional Obsessive-Compulsive Scale (DOCS) and the Beck Depression Inventory, since Joanna reported low mood and anhedonia. Weekly 0–8 ratings tracked fear of intrusive thoughts, avoidance and time spent neutralizing.",
+    "w": [
+      "These were not used in Joanna's assessment.",
+      "These are cognitive and neuropsychological tests.",
+      "These were used with Andy, not Joanna."
+    ],
+    "k": "Joanna: OBQ and III (appraisals), DOCS (OCD severity), BDI (depression), weekly 0–8 ratings of fear, avoidance, neutralizing.",
+    "h": "Beliefs, dimensions, mood.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: assessment strategy"
+  },
+  {
+    "t": "Joanna: assessment",
+    "d": 2,
+    "q": "Joanna whispered a curse word under her breath to check that she could resist saying it louder. How is this behavior classified?",
+    "o": [
+      "A ritual ('testing') that neutralizes anxiety",
+      "An exposure exercise prescribed by the therapist",
+      "A sign of Tourette's disorder",
+      "A healthy coping strategy to encourage"
+    ],
+    "e": "Assessment identified several of Joanna's rituals. She 'tested' herself when she had urges to yell curse words in public by subvocally whispering the word to make sure she could resist saying it louder. She also 'mentally reasoned' about whether she would commit the feared acts, sometimes for up to three hours; such rituals have no natural end and lead to more obsessions. Finally, she tried to rid her mind of thoughts by distraction or telling herself not to think about them.",
+    "w": [
+      "It was her own neutralizing ritual, not a prescribed exercise.",
+      "It is part of her OCD, not a tic disorder.",
+      "Rituals maintain the disorder and should not be encouraged."
+    ],
+    "k": "Joanna's rituals: subvocal 'testing', hours of mental reasoning, suppression/distraction — all neutralizing.",
+    "h": "Checking you won't is still a ritual.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: assessment strategy"
+  },
+  {
+    "t": "Joanna: formulation",
+    "d": 2,
+    "q": "According to the course (Rachman & de Silva, 1978), what proportion of the population experiences unwanted intrusive thoughts?",
+    "o": [
+      "About 90%",
+      "About 1%",
+      "About 10%",
+      "About 50%"
+    ],
+    "e": "In Joanna's case formulation, her intrusive thoughts, however unpleasant, were considered normal stimuli that occur in 90% of the population (Rachman & de Silva, 1978). Her anxiety came from misinterpreting their presence and significance ('the thoughts mean I am an evil person'). Suppression and avoidance tried to prevent intrusions; rituals were escapes from thoughts already in progress and attempts to prevent disaster. Her depressive symptoms were judged secondary to the OCD.",
+    "w": [
+      "Intrusions are far more common than 1%.",
+      "Intrusions are far more common than 10%.",
+      "The figure cited in the course is 90%, not half."
+    ],
+    "k": "Intrusive thoughts are universal (~90%); OCD arises from their misinterpretation, not their presence.",
+    "h": "Nine in ten have them.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: case formulation"
+  },
+  {
+    "t": "Joanna: treatment",
+    "d": 2,
+    "q": "Which four cognitive-behavioral techniques does research show are highly effective for Joanna's OCD?",
+    "o": [
+      "Psychoeducation, cognitive therapy, exposure and response prevention",
+      "Free association, dream work, interpretation and insight",
+      "Medication, hospitalization, rest and diet",
+      "Relaxation, hypnosis, biofeedback and massage"
+    ],
+    "e": "The formulation dictates that Joanna must learn her intrusive thoughts are universal and harmless and that resisting them is unnecessary and maladaptive, while developing healthier responses. Research shows four techniques are highly effective: psychoeducation about the universality of intrusive thoughts and the effects of avoidance and rituals; cognitive therapy targeting mistaken beliefs; exposure; and response prevention. Since her OCD is a fear of intrusive thoughts, exposure therapy is the primary component.",
+    "w": [
+      "These are psychodynamic techniques, not cognitive-behavioral ones.",
+      "These are not the psychological techniques described.",
+      "These are not the four evidence-based components."
+    ],
+    "k": "OCD treatment = psychoeducation + cognitive therapy + exposure (primary) + response prevention.",
+    "h": "Teach, rethink, face, refrain.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: treatment planning"
+  },
+  {
+    "t": "Joanna: treatment",
+    "d": 2,
+    "q": "What does response prevention involve, and why is it necessary?",
+    "o": [
+      "Refraining from rituals and neutralizing, which would otherwise foil exposure",
+      "Preventing the patient from having intrusive thoughts",
+      "Preventing the therapist from responding to questions",
+      "Stopping the patient from attending religious services"
+    ],
+    "e": "Reducing pathological fear requires confronting the feared stimulus while receiving corrective information, here that disastrous consequences do not occur. Repeated, prolonged exposure to situations that evoke intrusions (in vivo) and to the thoughts themselves (imaginal) helps Joanna discover they are not threatening, weakening misappraisals. Response prevention, the other necessary ingredient, means refraining from rituals and neutralizing, because these would foil exposure and keep dysfunctional beliefs about intrusive thoughts intact.",
+    "w": [
+      "The goal is to accept thoughts, not prevent them.",
+      "It concerns the patient's rituals, not the therapist's replies.",
+      "Exposure may even include church situations."
+    ],
+    "k": "Response prevention = no rituals or neutralizing during and after exposure, so beliefs can be disconfirmed.",
+    "h": "Face it and don't undo it.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: treatment planning"
+  },
+  {
+    "t": "Joanna: treatment",
+    "d": 2,
+    "q": "How did Joanna practice imaginal exposure to her feared thoughts?",
+    "o": [
+      "Voicing her intrusions on a recorder and replaying them until anxiety fell",
+      "Writing the thoughts down once and then burning the paper",
+      "Thinking of the thoughts only while under formal hypnosis",
+      "Discussing the thoughts only with her pastor after church"
+    ],
+    "e": "After two information-gathering and psychoeducational sessions, a hierarchy (session 2) and cognitive therapy (session 3), graded exposure and response prevention began in session 5. In sessions 5–15, Joanna confronted her feared thoughts using a digital voice recorder: she vocalized her intrusions and played them through headphones until her anxiety decreased (habituation). She also gradually confronted avoided situations (church services, libraries, knives), with prolonged exposures until anxiety fell by at least 50%.",
+    "w": [
+      "A single brief exposure would not allow habituation.",
+      "Hypnosis was not part of Joanna's treatment plan.",
+      "Pastor consultations were a form of reassurance-seeking."
+    ],
+    "k": "Imaginal exposure: record the intrusions and replay them until habituation; in vivo: graded avoided situations until anxiety drops ≥ 50%.",
+    "h": "Hear it until it bores you.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: treatment planning"
+  },
+  {
+    "t": "Joanna: treatment",
+    "d": 2,
+    "q": "For how long were Joanna's exposures continued within a practice, according to the course?",
+    "o": [
+      "Until anxiety was reduced by at least 50%",
+      "Exactly five minutes, regardless of anxiety",
+      "Until anxiety reached its peak, then stopped",
+      "Only until she felt the urge to perform a ritual"
+    ],
+    "e": "Repeated and prolonged exposure was practiced in session and assigned between sessions, for example going to dinner with a friend and holding her knife while thinking about stabbing her acquaintance. The course specifies prolonged exposure, for example until anxiety was reduced by at least 50%. Stopping at the peak or when the urge to ritualize appears would prevent habituation and the corrective learning that disaster does not occur.",
+    "w": [
+      "Fixed brief durations are not the course's criterion.",
+      "Stopping at the peak prevents habituation.",
+      "Stopping at the urge would reinforce escape."
+    ],
+    "k": "Prolong each exposure until anxiety falls by at least half.",
+    "h": "Halve it before you leave it.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: treatment planning"
+  },
+  {
+    "t": "Joanna: obstacles",
+    "d": 3,
+    "q": "Joanna wanted her pastor's permission before doing exposure. How did the therapist handle this?",
+    "o": [
+      "Asked what the pastor would say, given his past answers, so she relied on herself",
+      "Telephoned the pastor to obtain written permission for each exposure",
+      "Abandoned exposure therapy entirely to respect her religious beliefs",
+      "Told her that her religion was the underlying cause of the OCD"
+    ],
+    "e": "Joanna felt deliberately thinking about harming others violated the Bible and would offend God. The therapist asked whether she frequently sought reassurance from her pastor; she did, and he had repeatedly told her not to worry about the intrusions. Many strictly religious people with OCD repeatedly ask authorities similar questions for reassurance. The therapist asked what the pastor would say about exposure given his past responses; Joanna recognized he would approve, so she relied on her own judgment instead of seeking reassurance.",
+    "w": [
+      "Seeking permission would only feed her reassurance-seeking.",
+      "Exposure proceeded in a religiously acceptable way.",
+      "The therapist did not blame religion."
+    ],
+    "k": "Treat repeated permission-seeking as reassurance-seeking; guide the patient to answer from her own judgment.",
+    "h": "You already know the answer.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Joanna: potential treatment obstacles"
+  },
+  {
+    "t": "Joanna: obstacles",
+    "d": 3,
+    "q": "An exposure unexpectedly produced little anxiety in Joanna. What did the therapist suspect, and what was found?",
+    "o": [
+      "A neutralizing ritual; she had prayed beforehand to be prevented from acting",
+      "That exposure works instantly; nothing more was needed",
+      "That she was not listening; she had left early",
+      "A medication effect; she had taken a sedative"
+    ],
+    "e": "When therapy is not working, possible causes include missing hierarchy items, faulty implementation, excessive reassurance-seeking and family accommodation. Implementation problems include brief rather than prolonged exposures, failing to confront key elements and performing neutralizing rituals before, during or after exposure. Before some exposures, Joanna prayed to God to prevent her from acting on violent thoughts; when an exposure evoked unexpectedly little anxiety, the therapist inquired about rituals. Correct exposure shows an initial rise in anxiety followed by gradual decline.",
+    "w": [
+      "Low anxiety at the start signals a problem, not success.",
+      "Leaving early was not the issue described.",
+      "No sedative was involved in this example."
+    ],
+    "k": "Low anxiety during exposure → check for hidden neutralizing (e.g. prayer); expect a rise then gradual fall.",
+    "h": "No rise means something is hiding.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 When therapy is not working"
+  },
+  {
+    "t": "Joanna: obstacles",
+    "d": 2,
+    "q": "A patient repeatedly asks the therapist for a guarantee that she will not act on her thoughts. What does the course advise?",
+    "o": [
+      "Answer risk questions once, then empathically name further reassurance-seeking",
+      "Reassure her every single time she asks, to reduce her distress",
+      "Convince her that she is at genuinely high risk of acting on them",
+      "Refuse to discuss the risk of acting at any point in therapy"
+    ],
+    "e": "Exposure aims to teach patients to tolerate acceptable uncertainty; reassurance-seeking prevents exposure to the feared uncertainty. The first inclination may be to guarantee safety, but that undermines the goal; nor should the therapist claim high risk. The preferred response is compassionate, explaining that exposures evoke uncertainty and that absolute safety can never be guaranteed. Risk questions should be answered only once; later attempts are pointed out empathically ('That's your obsessional doubting… How can I help you tolerate it?').",
+    "w": [
+      "Repeated reassurance maintains OCD by removing uncertainty.",
+      "Exaggerating risk is not recommended either.",
+      "One clear answer is given first."
+    ],
+    "k": "Reassurance requests: answer once, then name the doubting empathically and support tolerating uncertainty.",
+    "h": "Once, then empathize.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Excessive reassurance-seeking"
+  },
+  {
+    "t": "Joanna: obstacles",
+    "d": 2,
+    "q": "What is 'family accommodation' in OCD, and why does it matter?",
+    "o": [
+      "Relatives helping with avoidance, reassurance or rituals, which impedes exposure",
+      "Moving the whole family to a quieter neighborhood to reduce triggers",
+      "Relatives attending every single session as formal co-therapists",
+      "The family covering the full financial cost of the treatment"
+    ],
+    "e": "When CBT for OCD is not working, the therapist should check whether family members unwittingly interfere by accommodating symptoms: helping the patient avoid situations out of concern that she might become anxious or hostile, providing reassurance or assisting with rituals. Such accommodation impedes exposure. The therapist should explain the cognitive behavioral model and the rationale for exposure to the family, and the patient and family should agree, perhaps in a session with the therapist, on how requests for reassurance or help will be handled.",
+    "w": [
+      "Moving house is not what accommodation means.",
+      "Families are informed and involved, not made co-therapists in every session.",
+      "Paying for treatment is not what accommodation refers to."
+    ],
+    "k": "Family accommodation (helping avoidance, reassuring, joining rituals) blocks progress; educate the family and agree on new responses.",
+    "h": "Loving help can feed OCD.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Family accommodation"
+  },
+  {
+    "t": "Joanna: religious patients",
+    "d": 3,
+    "q": "For a strictly religious patient fearing sin, which exposure fits the course's guidance?",
+    "o": [
+      "Situations that evoke doubt about sin without being actual violations of religious law",
+      "Instructions to flagrantly violate central religious laws",
+      "Avoiding all religious topics during treatment",
+      "Repeated confession to obtain certainty"
+    ],
+    "e": "Instructions to flagrantly violate religious laws are neither appropriate nor necessary. Exposure should involve situations that evoke doubts and uncertainty about sin but are not actual violations. The analogy: for fear that food is moldy, exposure means eating food one day past its 'sell by' date, not eating moldy food. Most religions consider sin to require an intentional decision to do evil and remaining remorseless; pastoral manuals even advise acting against 'moral scruples', evoking 'impure' thoughts and stopping repetitive confession.",
+    "w": [
+      "Flagrant violations are neither appropriate nor necessary.",
+      "Avoiding religious topics would maintain the fear.",
+      "Repetitive confession is a ritual to reduce."
+    ],
+    "k": "Religious OCD: expose to uncertainty about sin, not to real violations; healthy faith tolerates doubt.",
+    "h": "One day past the date, not moldy bread.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Working with strictly religious patients"
+  },
+  {
+    "t": "Joanna: missteps",
+    "d": 3,
+    "q": "What is the first common misstep therapists make in cognitive therapy for presentations like Joanna's?",
+    "o": [
+      "Challenging the obsessional thought itself rather than the patient's misinterpretation of it",
+      "Challenging the patient's beliefs about what the thoughts mean",
+      "Using exposure exercises at all",
+      "Assessing triggers before treatment"
+    ],
+    "e": "It is tempting to challenge the logic of the obsession itself (the impulse to yell curse words in a library) rather than the faulty beliefs about it ('I am a sinful person who could lose control at any time'). From a Beckian perspective, intrusions are the 'event' or stimulus about which the patient holds dysfunctional beliefs; those beliefs need modification. Patients already know obsessions are irrational, so challenging them gives only transient benefit and can become a reassurance-seeking ritual.",
+    "w": [
+      "Challenging the beliefs is the correct target.",
+      "Exposure is the primary treatment component for OCD.",
+      "Assessing triggers is part of good assessment."
+    ],
+    "k": "Target appraisals of intrusions, not the intrusion itself (Beck: intrusion = stimulus; beliefs = target).",
+    "h": "Argue with the meaning, not the thought.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Common missteps to avoid"
+  },
+  {
+    "t": "Joanna: missteps",
+    "d": 3,
+    "q": "Joanna started repeating 'obsessional thoughts are normal' three times 'perfectly' to calm herself. What does the course say?",
+    "o": [
+      "Cognitive therapy had become a ritual; avoid guarantees and say the risk is low but not zero",
+      "This is the ideal use of cognitive therapy",
+      "She should repeat it more often to strengthen it",
+      "The therapist should guarantee she will never act on her thoughts"
+    ],
+    "e": "Psychoeducation and cognitive challenges can turn into reassurance-seeking rituals. Joanna repeated the phrase three times 'perfectly' and searched for the single best reassuring phrase. Her therapist recognized this as an OCD symptom. To reduce this risk, therapists should avoid guarantees: rather than 'you probably won't act out your thoughts', say the probability is acceptably low but not zero. Repetitive, stereotyped use or increasing effort signals neutralizing; healthy use leads to acting appropriately during exposure.",
+    "w": [
+      "Ritualized repetition is neutralizing, not healthy use.",
+      "More repetition only strengthens the ritual further.",
+      "Guarantees feed the need for certainty."
+    ],
+    "k": "When cognitive statements are repeated ritually, they've become neutralizing; give no guarantees (risk low, not zero).",
+    "h": "A mantra can be a compulsion.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 When cognitive therapy becomes a ritual"
+  },
+  {
+    "t": "Joanna: termination",
+    "d": 2,
+    "q": "According to clinical experience cited in the course, what should be considered for a patient who has made little progress after 16–20 sessions of CBT for OCD?",
+    "o": [
+      "Referral to supportive psychotherapy or a support group, as more sessions rarely help",
+      "Doubling the number of weekly CBT sessions for another full year",
+      "Stopping all contact with mental health services immediately",
+      "Switching to classical psychoanalysis for several years instead"
+    ],
+    "e": "At termination Joanna re-completed her measures: DOCS fell from 26 to 8 and BDI from 27 to 5, with some residual symptoms, which are normal since everyday obsessions and rituals never fully disappear. Clinical experience suggests patients with little progress after 16 to 20 CBT sessions are unlikely to benefit from more; they might be referred for supportive psychotherapy or a support group such as an IOCDF affiliate. With minimal residual symptoms, less formal follow-up (telephone calls, perhaps monthly appointments) can prevent relapse.",
+    "w": [
+      "Adding sessions is unlikely to help after 16–20 without progress.",
+      "Continued support, not abrupt discharge, is recommended.",
+      "Psychoanalysis is not proposed as the next step."
+    ],
+    "k": "Little progress after 16–20 CBT sessions → supportive therapy or support group; Joanna: DOCS 26→8, BDI 27→5.",
+    "h": "Twenty is the threshold.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Termination and relapse prevention"
+  },
+  {
+    "t": "Joanna: termination",
+    "d": 2,
+    "q": "How did Joanna's therapist prepare her for future stressors?",
+    "o": [
+      "By identifying high-risk periods (conflict, loss, childbirth) to apply her skills",
+      "By promising her that the symptoms would never return after therapy",
+      "By scheduling weekly maintenance sessions with her for life",
+      "By advising her to avoid all sources of stress from now on"
+    ],
+    "e": "The therapist explained that Joanna should expect residual OCD symptoms from time to time, often triggered by increased life stress: occupational or family conflict, a death or illness in the family, or around childbirth. Together they identified potential high-risk periods during which she could prepare to apply the techniques learned in therapy. The course's conclusion stresses that a clear model and rationale make patients more likely to comply with demanding treatment.",
+    "w": [
+      "Residual symptoms are expected, not ruled out.",
+      "Lifelong weekly sessions are not proposed.",
+      "Stress cannot be avoided; she prepares to cope."
+    ],
+    "k": "Relapse prevention: expect residual symptoms; plan for high-risk periods (conflict, loss, illness, childbirth).",
+    "h": "Forecast the storms.",
+    "r": "Psychological Tools & Strategies course – Ch. 7 Preparing for stressors"
+  }
+]

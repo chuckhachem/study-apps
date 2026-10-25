@@ -1,0 +1,483 @@
+[
+  {
+    "t": "Ch13 Logic of ANOVA",
+    "d": 2,
+    "q": "Why run a one-way ANOVA instead of several t-tests to compare three groups?",
+    "o": [
+      "To keep the familywise Type I error rate at α",
+      "Because t-tests cannot be run on three groups",
+      "Because ANOVA reveals exactly which groups differ",
+      "To avoid having to check homogeneity of variance at all"
+    ],
+    "e": "Three pairwise t-tests at α = .05 give a familywise error rate of about 1 − .95³ = .14. ANOVA tests the omnibus hypothesis (all means equal) in one test. It does not say which groups differ, which is the job of contrasts or post hoc tests, and it still assumes homogeneity of variance.",
+    "w": [
+      "t-tests can compare any pair among three groups; the problem is inflated error.",
+      "ANOVA's omnibus F doesn't say which groups differ; contrasts or post hoc tests do.",
+      "ANOVA still assumes homogeneity of variance, so you still need to check it."
+    ],
+    "k": "One omnibus ANOVA keeps familywise error at α; follow-ups locate differences.",
+    "h": "One test, one alpha.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Why ANOVA"
+  },
+  {
+    "t": "Ch13 Logic of ANOVA",
+    "d": 2,
+    "q": "A one-way ANOVA with three groups is equivalent to which linear model?",
+    "o": [
+      "A regression with two dummy variables coding group membership",
+      "A regression with one predictor holding the group codes 1, 2 and 3",
+      "A correlation between the group means and the group sizes",
+      "Three separate regressions, one for each pair of groups"
+    ],
+    "e": "Group membership enters as k − 1 dummy variables, and the overall F of that regression is the ANOVA F. The b's are differences from the baseline group. The 1–2–3 code as a single number would impose a linear trend that may not exist.",
+    "w": [
+      "A single 1–2–3 predictor imposes a linear trend that may not exist.",
+      "Correlating group means with group sizes doesn't test mean differences.",
+      "Separate pairwise regressions recreate the multiple-testing problem."
+    ],
+    "k": "One-way ANOVA = regression with k − 1 dummy variables.",
+    "h": "ANOVA is regression in a lab coat.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · ANOVA as regression"
+  },
+  {
+    "t": "Ch13 Sums of squares",
+    "d": 3,
+    "q": "With N = 30 in k = 3 groups, SSM = 30 and SSR = 54. What is F?",
+    "o": [
+      "F(2, 27) = 7.50",
+      "F(3, 30) = 5.56",
+      "F(2, 29) = 0.56",
+      "F(2, 27) = 1.80"
+    ],
+    "e": "MSM = SSM / (k − 1) = 30 / 2 = 15. MSR = SSR / (N − k) = 54 / 27 = 2. F = 15 / 2 = 7.50 with df = 2 and 27 (p ≈ .003).",
+    "w": [
+      "df should be k − 1 = 2 and N − k = 27, not 3 and 30.",
+      "0.56 divides raw SSM by SSR, ignoring the df, and N − 1 isn't the residual df.",
+      "1.80 divides SSR by SSM, inverting the ratio."
+    ],
+    "k": "F = (SSM/(k − 1)) ÷ (SSR/(N − k)).",
+    "h": "Divide each SS by its df before dividing.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Computing F"
+  },
+  {
+    "t": "Ch13 Sums of squares",
+    "d": 2,
+    "q": "In ANOVA, the residual sum of squares (SSR, also called within-groups SS) measures:",
+    "o": [
+      "Variation of scores around their own group mean",
+      "Variation of the group means around the grand mean",
+      "Variation of all scores around the grand mean",
+      "Variation explained by the experimental manipulation"
+    ],
+    "e": "SST = total variation around the grand mean, SSM (between-groups) = variation of group means around the grand mean, weighted by n, and SSR (within-groups) = individual differences within groups, which is the error. SST = SSM + SSR.",
+    "w": [
+      "Group means around the grand mean make up SSM.",
+      "All scores around the grand mean make up SST.",
+      "Variation explained by the manipulation is SSM."
+    ],
+    "k": "SSR = within-group variation (error); SST = SSM + SSR.",
+    "h": "Within groups, the noise lives.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Partitioning variance"
+  },
+  {
+    "t": "Ch13 Effect sizes",
+    "d": 3,
+    "q": "For the same data (SSM = 30, SST = 84, MSR = 2, k = 3), what are η² and ω²?",
+    "o": [
+      "η² = .36 and ω² = .30",
+      "η² = .30 and ω² = .36",
+      "η² = .56 and ω² = .50",
+      "η² = .36 and ω² = .36"
+    ],
+    "e": "η² = SSM / SST = 30 / 84 = .36. ω² = (SSM − df_M × MSR) / (SST + MSR) = (30 − 2 × 2) / (84 + 2) = 26 / 86 = .30. η² is biased upward in samples, so Field recommends ω², which estimates the population effect and is smaller.",
+    "w": [
+      "This swaps the values; η² is the larger, biased estimate.",
+      ".56 divides SSM by SSR instead of SST.",
+      "ω² corrects η²'s upward bias, so they differ."
+    ],
+    "k": "η² = SSM/SST (biased up); ω² = (SSM − df_M × MSR)/(SST + MSR).",
+    "h": "Omega trims eta's optimism.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · η² and ω²"
+  },
+  {
+    "t": "Ch13 Follow-up",
+    "d": 2,
+    "q": "What does a significant omnibus F in a one-way ANOVA tell you?",
+    "o": [
+      "At least one group mean differs from another somewhere",
+      "Every group mean differs from every other group mean",
+      "The experimental group differs from the control group",
+      "The largest mean differs significantly from the smallest"
+    ],
+    "e": "The omnibus null states that all means are equal, so rejecting it only says they are not all equal. To find where the differences lie, use planned contrasts (hypothesis-driven) or post hoc tests (exploratory).",
+    "w": [
+      "A significant F doesn't mean every pair differs.",
+      "F doesn't single out the experimental–control comparison.",
+      "F doesn't specifically test the largest versus smallest mean."
+    ],
+    "k": "Significant omnibus F = not all means equal; use contrasts or post hoc tests.",
+    "h": "Something differs somewhere.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Omnibus F"
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 2,
+    "q": "In planned contrasts, the weights assigned to groups in a single contrast must:",
+    "o": [
+      "Sum to zero, with compared chunks given opposite signs and excluded groups given 0",
+      "Sum to one, so that each weight is the proportion of the sample in that group",
+      "Be equal to the group sizes, so that larger groups carry more weight",
+      "Be positive for the control group and zero for every one of the experimental groups"
+    ],
+    "e": "Field's rules: chunks being compared get opposite signs, groups not involved get 0, and the weights sum to zero. For example, placebo −2, low dose +1, high dose +1 compares placebo with the average of the two drug groups.",
+    "w": [
+      "Contrast weights sum to zero, not to one.",
+      "Weights aren't the group sizes; they encode which chunks are compared.",
+      "Weights compare chunks with opposite signs, not positive control only."
+    ],
+    "k": "Contrast weights: opposite signs for compared chunks, 0 for excluded groups, sum to zero.",
+    "h": "Balanced seesaw: weights add to zero.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Contrast weights"
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 3,
+    "q": "Contrast 1 uses weights (−2, +1, +1) and contrast 2 uses (0, −1, +1) for placebo, low and high dose. Are they orthogonal?",
+    "o": [
+      "Yes, because the products of their weights, (0) + (−1) + (1), sum to zero",
+      "No, because contrast 2 gives the placebo group a weight of zero, excluding it",
+      "No, because the two sets of weights do not sum to the same overall value as each other",
+      "Yes, because each of the two sets of weights sums to zero on its own"
+    ],
+    "e": "Two contrasts are orthogonal (independent) if the sum of the products of their weights across groups is zero: (−2 × 0) + (1 × −1) + (1 × 1) = 0. Each contrast summing to zero is required for any contrast but is not the orthogonality test. With k groups there are k − 1 orthogonal contrasts.",
+    "w": [
+      "A zero weight is allowed and doesn't prevent orthogonality.",
+      "Both sets summing to the same value isn't the test.",
+      "Each set summing to zero is required for any contrast, not the orthogonality test."
+    ],
+    "k": "Orthogonal contrasts: products of weights sum to zero.",
+    "h": "Multiply across, add up to zero.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Orthogonal contrasts",
+    "n": "Orthogonal contrasts split SSM into independent chunks that add up exactly to SSM, like cutting a cake without overlap."
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 2,
+    "q": "In SPSS's GLM contrast options, a 'Helmert' contrast compares:",
+    "o": [
+      "Each category with the mean of all subsequent categories",
+      "Each category with the mean of all previous categories",
+      "Each category with the very next category in the list",
+      "Each category with the first or the last reference category"
+    ],
+    "e": "Helmert: each level against the average of later levels. Difference (reverse Helmert): against the average of earlier levels. Repeated: each against the next. Simple: each against a reference (first or last). Deviation: each against the grand mean. Polynomial: trends.",
+    "w": [
+      "Comparison with earlier categories is Difference (reverse Helmert).",
+      "Comparison with the next category is Repeated.",
+      "Comparison with a reference category is Simple."
+    ],
+    "k": "Helmert = each category vs mean of later categories.",
+    "h": "Helmert looks ahead.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Standard contrasts"
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 2,
+    "q": "Groups receive 0, 10, 20 or 30 minutes of daily exercise. Which follow-up analysis best tests whether mood rises steadily with exercise?",
+    "o": [
+      "A polynomial contrast testing the linear trend",
+      "A Helmert contrast against the last group",
+      "Post hoc tests with the Games–Howell correction",
+      "A Kruskal–Wallis test on the four groups"
+    ],
+    "e": "With ordered, equally spaced groups, a linear trend contrast (weights −3, −1, +1, +3) asks whether means increase systematically. The quadratic and cubic components test for curvature. In One-Way ANOVA choose Contrasts → Polynomial, and in GLM choose Polynomial contrasts.",
+    "w": [
+      "Helmert contrasts compare chunks, not a steady trend.",
+      "Games–Howell post hoc tests compare all pairs without a trend hypothesis.",
+      "Kruskal–Wallis only tests whether groups differ somewhere."
+    ],
+    "k": "Ordered, equally spaced groups → polynomial (linear trend) contrast.",
+    "h": "Steady climb, linear trend.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Trend analysis"
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 3,
+    "q": "When are planned contrasts preferable to post hoc tests?",
+    "o": [
+      "When specific hypotheses about group differences were made before data collection",
+      "When you want to compare every possible pair of groups after a significant omnibus F test",
+      "When the omnibus F is non-significant and you want to find any difference",
+      "When variances are unequal and sample sizes are very different"
+    ],
+    "e": "Planned contrasts test a small number of a priori hypotheses with more power, and orthogonal planned contrasts need no familywise correction according to Field. Post hoc tests are for exploration, comparing all pairs with corrections that cost power.",
+    "w": [
+      "Comparing every pair is the job of post hoc tests.",
+      "Hunting after a non-significant F is exploratory fishing.",
+      "Unequal variances call for Welch's F and Games–Howell."
+    ],
+    "k": "Planned contrasts test a priori hypotheses with more power.",
+    "h": "Plan the question before the data.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Planned vs post hoc"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 2,
+    "q": "According to Field's recommendations, which post hoc test is preferred when sample sizes are equal and variances are similar?",
+    "o": [
+      "REGWQ or Tukey's HSD",
+      "Games–Howell procedure",
+      "Hochberg's GT2 test",
+      "Fisher's LSD test"
+    ],
+    "e": "With equal n and homogeneous variances, REGWQ has good power with tight Type I control, and Tukey is a solid alternative. LSD applies no correction at all, so it does not control familywise error.",
+    "w": [
+      "Games–Howell is for when variances may be unequal.",
+      "Hochberg's GT2 is for very different group sizes.",
+      "Fisher's LSD doesn't control familywise error."
+    ],
+    "k": "Equal n, equal variances → REGWQ or Tukey's HSD.",
+    "h": "Equal and Even → REGWQ or Tukey; Gaps in size → Gabriel or Hochberg; Grumpy variances → Games–Howell.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Choosing post hoc tests"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 2,
+    "q": "Which post hoc test does Field recommend when there is any doubt about equal population variances?",
+    "o": [
+      "Games–Howell",
+      "Gabriel's test",
+      "Tukey's HSD",
+      "Bonferroni"
+    ],
+    "e": "Games–Howell does not assume equal variances and copes with unequal sample sizes. Because Levene's test is unreliable, Field suggests running Games–Howell alongside other tests whenever variances might differ.",
+    "w": [
+      "Gabriel's test assumes equal variances, so it isn't the safe choice here.",
+      "Tukey's HSD assumes equal variances, the very thing in doubt.",
+      "Bonferroni assumes equal variances and loses power."
+    ],
+    "k": "Any doubt about equal variances → run Games–Howell.",
+    "h": "Games–Howell for grumpy variances.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Games–Howell"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 3,
+    "q": "Group sizes are 10, 12 and 40 with similar variances. Which post hoc test is most appropriate by Field's guidance?",
+    "o": [
+      "Hochberg's GT2",
+      "Gabriel's pairwise test",
+      "REGWQ",
+      "Fisher's LSD test"
+    ],
+    "e": "Gabriel's test suits slightly different group sizes, but becomes liberal when sizes differ a lot. With very different sizes, Hochberg's GT2 is preferred. If variances also differed, Games–Howell would be the choice.",
+    "w": [
+      "Gabriel becomes liberal when group sizes differ a lot.",
+      "REGWQ suits equal group sizes, not 10 versus 40.",
+      "Fisher's LSD doesn't control familywise error."
+    ],
+    "k": "Very different group sizes, equal variances → Hochberg's GT2.",
+    "h": "Big gaps, Hochberg.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Unequal sample sizes"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 2,
+    "q": "Several drug groups are each to be compared with a single placebo control, and no other pairs. Which procedure is designed for this?",
+    "o": [
+      "Dunnett's test",
+      "Games–Howell",
+      "Scheffé's test",
+      "Fisher's LSD"
+    ],
+    "e": "Dunnett's test compares each treatment with one control while controlling familywise error across just those comparisons, which gives more power than correcting for every possible pair. In SPSS, choose the control category (first or last).",
+    "w": [
+      "Games–Howell compares all pairs, not just versus control.",
+      "Scheffé is very conservative and compares all contrasts.",
+      "Fisher's LSD doesn't control familywise error."
+    ],
+    "k": "Each treatment vs one control → Dunnett's test.",
+    "h": "Dunnett: done against the control.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Dunnett's test"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 2,
+    "q": "Why is the Bonferroni correction described as conservative for many comparisons?",
+    "o": [
+      "It controls familywise error tightly, but power falls quickly as comparisons increase",
+      "It fails to control the familywise error rate whenever the group sizes are unequal",
+      "It inflates the Type I error rate for each comparison as more comparisons are added",
+      "It can only be used when exactly two comparisons are being made between the groups"
+    ],
+    "e": "Dividing α by the number of comparisons guarantees familywise control, but with 10 comparisons each is tested at .005, so real effects are easily missed. It works best with a small number of comparisons.",
+    "w": [
+      "Bonferroni controls familywise error regardless of group sizes.",
+      "Bonferroni lowers per-comparison α, not raises it.",
+      "Bonferroni works with any number of comparisons."
+    ],
+    "k": "Bonferroni guarantees familywise control but power drops with many comparisons.",
+    "h": "Safe but timid.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Bonferroni"
+  },
+  {
+    "t": "Ch13 Assumptions",
+    "d": 2,
+    "q": "Levene's test is significant and group sizes are unequal. Which SPSS One-Way ANOVA options give an omnibus test robust to unequal variances?",
+    "o": [
+      "Welch's F or the Brown–Forsythe F",
+      "Tukey's HSD and Scheffé's test",
+      "Polynomial contrasts with linear trend",
+      "The means plot and descriptive statistics"
+    ],
+    "e": "Under Options, Welch and Brown–Forsythe adjust the F test for heterogeneity of variance (Welch is generally preferred for power). Follow up with Games–Howell. Tukey and Scheffé are post hoc tests that assume equal variances.",
+    "w": [
+      "Tukey and Scheffé are post hoc tests that assume equal variances.",
+      "Polynomial contrasts test trends, not robust omnibus F.",
+      "Means plots and descriptives aren't tests."
+    ],
+    "k": "Unequal variances → Welch's F or Brown–Forsythe F, then Games–Howell.",
+    "h": "Welch to the rescue.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Robust F tests"
+  },
+  {
+    "t": "Ch13 Assumptions",
+    "d": 3,
+    "q": "When is one-way ANOVA most robust to violations of homogeneity of variance?",
+    "o": [
+      "When group sizes are equal",
+      "When group sizes are very unequal",
+      "When the outcome is skewed",
+      "When there are many groups"
+    ],
+    "e": "With equal n, the F-test is fairly robust to unequal variances. With unequal n, the larger group dominates the pooled error term, so Type I errors can inflate (if the larger group has smaller variance) or power can fall (the reverse). This is why balanced designs are valuable.",
+    "w": [
+      "Very unequal group sizes make ANOVA least robust.",
+      "Skew isn't related to robustness to unequal variances.",
+      "Adding more groups doesn't make ANOVA more robust to unequal variances."
+    ],
+    "k": "ANOVA is most robust to unequal variances when group sizes are equal.",
+    "h": "Balanced design, sturdier F.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Robustness"
+  },
+  {
+    "t": "Ch13 SPSS",
+    "d": 2,
+    "q": "Where would you request Welch's F, Levene's test and descriptive statistics in SPSS's One-Way ANOVA dialog?",
+    "o": [
+      "The Options button",
+      "The Contrasts button",
+      "The Post Hoc button",
+      "The Bootstrap button"
+    ],
+    "e": "Options holds Descriptive, Homogeneity of variance test (Levene's), Brown–Forsythe, Welch and the Means plot. Contrasts holds planned and polynomial contrasts, and Post Hoc holds pairwise tests.",
+    "w": [
+      "Contrasts holds planned and polynomial contrasts.",
+      "Post Hoc holds pairwise comparison tests.",
+      "Bootstrap sets resampling options, not Levene's or Welch's tests."
+    ],
+    "k": "One-Way ANOVA Options: descriptives, Levene's, Welch, Brown–Forsythe, means plot.",
+    "h": "Options holds the extras.",
+    "r": "Stats & SPSS ch. 13 · SPSS · One-Way ANOVA dialog"
+  },
+  {
+    "t": "Ch13 Reporting",
+    "d": 2,
+    "q": "Which is a complete report of a one-way ANOVA result?",
+    "o": [
+      "F(2, 27) = 7.50, p = .003, ω² = .30, with group means and SDs",
+      "F = 7.50, p < .05",
+      "The groups differed significantly (p = .003, η² = .36)",
+      "F(27, 2) = 7.50, p = .003, η² = 7.50, with group means and SDs"
+    ],
+    "e": "Report F with model and residual df in that order, the exact p, an effect size (ω² or η²), descriptives for each group, and the follow-up contrasts or post hoc results. A report with the df reversed, F(27, 2), and η² = 7.50 is wrong on both counts: the model df comes first, and η² can never exceed 1.",
+    "w": [
+      "This omits df, the exact p, effect size and descriptives.",
+      "This omits F, df and descriptives.",
+      "df are reversed, and η² can't exceed 1."
+    ],
+    "k": "ANOVA report: F(df_M, df_R), exact p, effect size, descriptives and follow-ups.",
+    "h": "Model df first, then residual.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Reporting"
+  },
+  {
+    "t": "Ch13 Planned contrasts",
+    "d": 3,
+    "q": "How many orthogonal contrasts can be defined for a design with five groups?",
+    "o": [
+      "4",
+      "5",
+      "10",
+      "3"
+    ],
+    "e": "The model has k − 1 = 4 degrees of freedom, so at most four independent (orthogonal) contrasts can partition SSM. Ten is the number of possible pairwise comparisons, which are not orthogonal.",
+    "w": [
+      "5 equals k; only k − 1 orthogonal contrasts exist.",
+      "10 is the number of pairwise comparisons, which aren't orthogonal.",
+      "3 is one too few; five groups give k − 1 = 4."
+    ],
+    "k": "k groups allow k − 1 orthogonal contrasts.",
+    "h": "One fewer than the groups.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Number of contrasts"
+  },
+  {
+    "t": "Ch13 Logic of ANOVA",
+    "d": 3,
+    "q": "If the null hypothesis is true in a one-way ANOVA, the expected value of F is about:",
+    "o": [
+      "1, because the model and residual mean squares then estimate the same variance",
+      "0, because under the null there is no difference between the group means at all",
+      "Equal to the number of groups minus one, which is the model degrees of freedom",
+      "Infinity, because under the null the model explains none of the variance"
+    ],
+    "e": "Under H0, MSM and MSR both estimate the population error variance, so their ratio hovers around 1 (precisely df_R / (df_R − 2)). Values well above 1 suggest the model explains more variance than chance would.",
+    "w": [
+      "F can't be 0 under H0 because sampling error remains.",
+      "F's expected value isn't k − 1.",
+      "Under H0, F hovers near 1, not infinity."
+    ],
+    "k": "Under H0, F ≈ 1 because MSM and MSR estimate the same variance.",
+    "h": "Null F hovers at one.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Expected value of F"
+  },
+  {
+    "t": "Ch13 Post hoc tests",
+    "d": 2,
+    "q": "What is the main problem with Fisher's LSD post hoc test?",
+    "o": [
+      "It makes no adjustment for multiple comparisons, so familywise error is not controlled",
+      "It requires equal sample sizes and fails whenever the groups differ in size at all",
+      "It assumes that the outcome is measured at the ordinal rather than interval level",
+      "It can only compare each experimental group with the single control condition"
+    ],
+    "e": "LSD is equivalent to running unprotected t-tests after a significant F. With more than three groups the familywise error rate can exceed α considerably, so Field advises against it.",
+    "w": [
+      "LSD can handle unequal group sizes.",
+      "LSD assumes interval data like other parametric tests.",
+      "Comparing each group with one control is Dunnett's test."
+    ],
+    "k": "Fisher's LSD makes no multiple-comparison correction, so avoid it.",
+    "h": "LSD: Least Safe Difference.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Fisher's LSD"
+  },
+  {
+    "t": "Ch13 Effect sizes",
+    "d": 2,
+    "q": "Why are effect sizes for focused contrasts often more useful than ω² for the overall ANOVA?",
+    "o": [
+      "They describe a specific, interpretable comparison rather than a diffuse omnibus effect",
+      "They are always larger than ω², which makes the effect easier to detect and to publish",
+      "They do not depend on the homogeneity of variance assumption in any way",
+      "They are the only kind of effect size that SPSS can compute for an ANOVA"
+    ],
+    "e": "An omnibus effect such as ω² says groups differ overall but not how. Effect sizes for contrasts, such as r = √[t² / (t² + df)] for each contrast or d for a pairwise difference, answer specific questions such as how much better the drug is than placebo.",
+    "w": [
+      "Contrast effect sizes aren't always larger.",
+      "Contrast effect sizes still depend on the model's assumptions.",
+      "SPSS can compute omnibus effect sizes too."
+    ],
+    "k": "Focused contrast effect sizes answer specific questions; ω² is diffuse.",
+    "h": "Zoom in on the question.",
+    "r": "Stats & SPSS ch. 13 · GLM 1 (one-way ANOVA) · Effect sizes for contrasts"
+  }
+]

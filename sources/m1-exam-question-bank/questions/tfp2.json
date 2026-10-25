@@ -1,0 +1,841 @@
+[
+  {
+    "t": "Ch2 Emotion regulation",
+    "d": 2,
+    "q": "Of the five emotion-regulation strategies (Ochsner & Gross), which two does TFP particularly emphasize?",
+    "o": [
+      "Attentional deployment and cognitive change",
+      "Situation selection and response modulation",
+      "Situation modification and suppression",
+      "Response modulation and avoidance"
+    ],
+    "e": "Ochsner and Gross describe five points at which emotion can be regulated: situation selection, situation modification, attentional deployment, cognitive change and response modulation. TFP uses all of them but emphasizes attentional deployment (directing the patient's attention to what is happening in the room, including the affect and the dyad being lived out) and cognitive change (reinterpreting the experience through clarification, confrontation and interpretation). Both happen by examining the here-and-now interaction with the therapist.",
+    "w": [
+      "Situation selection and response modulation are part of the model, but they are not the two TFP emphasizes.",
+      "Situation modification and suppression are not TFP's emphasis; suppression only changes the outward expression of a feeling.",
+      "Response modulation and avoidance change output or escape situations; TFP works on attention and meaning."
+    ],
+    "k": "TFP emphasizes attentional deployment and cognitive change, worked on in the here-and-now with the therapist.",
+    "h": "TFP regulates emotion by where you look (attention) and what it means (cognitive change).",
+    "r": "Clarkin Ch2 – Contrasting models"
+  },
+  {
+    "t": "Ch2 Emotion regulation",
+    "d": 3,
+    "q": "Suppressing or amplifying the behavioral expression of an emotion that is already present is called:",
+    "o": [
+      "Response modulation",
+      "Cognitive change",
+      "Attentional deployment",
+      "Situation selection"
+    ],
+    "e": "Response modulation is the last point in the Ochsner and Gross model. The emotion has already arisen, and control processes act only on its outputs, suppressing or augmenting its behavioural expression (for example keeping a straight face while furious). It leaves the underlying emotional state largely unchanged, which is why therapies that aim at structural change, like TFP, emphasize earlier points such as attention and cognitive change.",
+    "w": [
+      "Cognitive change reappraises the situation's meaning, changing the emotion itself.",
+      "Attentional deployment shifts where attention goes before or during the emotion.",
+      "Situation selection chooses which situations to enter in the first place."
+    ],
+    "k": "Response modulation = suppressing or amplifying the outward expression of an emotion already present.",
+    "h": "Turning the volume knob on the outside, while the song inside keeps playing.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "In Table 2–1, the mechanism of change for TFP is:",
+    "o": [
+      "Increased coherence and integration of conceptions of self and others",
+      "Change in maladaptive schemas through guided discovery",
+      "Enhanced mentalization of one's own and others' mental states",
+      "Skills acquisition through validation and behavioral training"
+    ],
+    "e": "Table 2–1 compares treatments for borderline patients by their proposed mechanism of change. In cognitive therapy it is change in maladaptive schemas; in mentalization-based treatment it is enhanced mentalization; in DBT it is skills acquisition with validation. In TFP it is increased coherence and integration of the conceptions of self and others: integrating split idealized and persecutory representations so identity diffusion resolves.",
+    "w": [
+      "Changing maladaptive schemas is cognitive therapy's mechanism.",
+      "Enhanced mentalization of one's own and others' mental states is the mechanism of change in MBT (Bateman and Fonagy).",
+      "Skills acquisition with validation is DBT's mechanism."
+    ],
+    "k": "TFP's mechanism of change = integration and coherence of the concepts of self and others.",
+    "h": "CT fixes schemas, MBT boosts mentalizing, DBT teaches skills, TFP integrates the self.",
+    "r": "Clarkin Ch2 – Table 2–1"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "According to Beck, how do the cognitive and psychoanalytic views of core structures differ?",
+    "o": [
+      "Analysis sees them as out of awareness; CT sees them as in awareness, with attributional bias",
+      "Both see the structures as unconscious and driven by motivational rather than attributional bias",
+      "CT sees them as unconscious drives; analysis sees them as conscious beliefs",
+      "Analysis denies such structures exist; CT locates them in temperament"
+    ],
+    "e": "Both traditions posit core structures that organize experience: schemas in cognitive therapy, internalized object relations in psychoanalysis. According to Beck, the psychoanalytic view sees these structures as largely out of awareness and shaped by motivation (wishes and defenses). The cognitive view assumes they are in awareness, or accessible to it, and that faulty schemas arise mainly from attributional bias, distorted information processing, rather than motivated distortion.",
+    "w": [
+      "CT does not see them as unconscious or motivational; it stresses accessible beliefs and attributional bias.",
+      "This swaps the views: CT speaks of conscious beliefs, analysis of unconscious structures.",
+      "Analysis does posit core structures (object relations), and CT does not locate them in temperament."
+    ],
+    "k": "Psychoanalysis: core structures out of awareness, motivated. CT (Beck): in awareness, distorted by attributional bias.",
+    "h": "Analysis asks 'what do you want not to see?'; CT asks 'how are you reading this?'",
+    "r": "Clarkin Ch2 – Cognitive approaches"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "Young's schema model describes how many schemas used by people with personality disorders?",
+    "o": [
+      "16",
+      "8",
+      "4",
+      "25"
+    ],
+    "e": "Jeffrey Young's schema-focused therapy describes a discrete set of 16 early maladaptive schemas used by people with personality disorders (later versions list 18), together with schema modes, regressive states between which the borderline patient may flip. The chapter mentions it to contrast discrete cognitive categories with TFP's dyads, which are idiosyncratic and organized around affect.",
+    "w": [
+      "8 is too few for Young's list as cited in the chapter.",
+      "4 is far too few for Young's list of schemas.",
+      "25 is too many for the version the chapter cites."
+    ],
+    "k": "Young's schema model (as cited): 16 schemas, plus schema modes the borderline patient flips between.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "DBT's model of borderline pathology centres on:",
+    "o": [
+      "A biological emotion-regulation problem plus chronic invalidation by caretakers",
+      "Split internal object relations organized around unconscious hatred",
+      "A deficit of soothing introjects caused by defective early mothering",
+      "Envy and hatred arising from constitutional excess of aggression"
+    ],
+    "e": "Linehan's DBT explains borderline pathology as a transaction: a biological vulnerability in emotion regulation (high sensitivity, intensity and slow return to baseline) meets a chronically invalidating environment whose caretakers do not recognize or respond to it. The child never learns adequate coping skills, so behaviours like self-injury become ways to cope. Treatment therefore combines validation with skills training. TFP instead locates the core problem in split internal object relations.",
+    "w": [
+      "Split internal object relations organized around hatred is TFP's model, not DBT's.",
+      "A deficit of soothing introjects describes Buie and Adler's model.",
+      "Envy and hatred from constitutional aggression is part of Kernberg's view, not DBT's."
+    ],
+    "k": "DBT: biological emotion-regulation problem + chronic invalidation → poor coping skills (e.g., self-injury).",
+    "h": "DBT = Dysregulated biology + Bad (invalidating) environment → Teach skills.",
+    "r": "Clarkin Ch2 – DBT"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 3,
+    "q": "Which is NOT among Waldinger's shared principles of psychodynamic therapy for borderline patients?",
+    "o": [
+      "Focus early interpretations on genetic (childhood) material rather than the here and now",
+      "Stability of the frame of treatment, with clear conditions agreed before therapy starts",
+      "Tolerance of the patient's hostility in the negative transference",
+      "Careful monitoring of countertransference"
+    ],
+    "e": "Waldinger summarized principles shared by psychodynamic therapies for borderline patients: a stable treatment frame, more therapist activity, tolerance of hostility in the negative transference, making self-destructive behaviour ego-dystonic, interpreting to link actions and feelings, limiting acting out, focusing early interpretations on the here and now rather than genetic (childhood) material, and monitoring countertransference. Early genetic interpretations are exactly what he warns against.",
+    "w": [
+      "A stable frame agreed before therapy is one of Waldinger's principles.",
+      "Tolerating hostility in the negative transference is one of the principles.",
+      "Careful monitoring of countertransference is one of the principles."
+    ],
+    "k": "Waldinger: stable frame, active therapist, tolerate hostility, make self-harm ego-dystonic, link actions and feelings, limit acting out, here-and-now focus, monitor countertransference.",
+    "h": "Here and now first, the childhood story later.",
+    "r": "Clarkin Ch2 – Psychodynamic approaches"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "Buie and Adler's model differs most from TFP because they:",
+    "o": [
+      "They see a deficit (no soothing introjects) and provide holding beyond sessions, valued over interpretation",
+      "They emphasize early transference interpretation, especially of the negative transference, over any holding",
+      "They focus on endogenous, constitutional aggression as the root of borderline pathology",
+      "They set a strict treatment contract with the therapist out of the loop of crises"
+    ],
+    "e": "Buie and Adler see borderline pathology as a deficit: the patient lacks soothing introjects (internal images that comfort) because of inadequate early mothering. So the therapist should provide holding and soothing functions, even beyond sessions (phone calls, postcards during absences), and they value this over interpretation. TFP sees the problem as conflict and split representations, and argues the intense negative transference needs earlier interpretation, within a firm frame.",
+    "w": [
+      "Early interpretation of the negative transference is TFP's position, not Buie and Adler's.",
+      "Constitutional aggression as the root is closer to Kernberg's view.",
+      "A strict contract with the therapist outside crises describes TFP, not Buie and Adler."
+    ],
+    "k": "Buie and Adler: deficit model (no soothing introjects) → holding and soothing beyond sessions, valued over interpretation.",
+    "h": "Deficit → fill it (hold); conflict → interpret it (TFP).",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "Luborsky's supportive-expressive therapy aimed to modify:",
+    "o": [
+      "Core conflictual relationship themes",
+      "Maladaptive schemas and core beliefs",
+      "Mentalization deficits in the present",
+      "Emotion-regulation and coping skills"
+    ],
+    "e": "Luborsky's supportive-expressive therapy, the earliest manualized psychodynamic treatment, identifies the core conflictual relationship theme (CCRT) in the patient's narratives about relationships: a wish, the expected response of the other, and the response of the self. Therapy aims to modify these repetitive themes. It is a precursor of manualized dynamic approaches like TFP, which likewise target recurring relational patterns, in TFP's case as dyads activated in the transference.",
+    "w": [
+      "Maladaptive schemas and core beliefs are targets of cognitive therapy.",
+      "Mentalization deficits are the target of MBT.",
+      "Emotion-regulation and coping skills are DBT's targets."
+    ],
+    "k": "Supportive-expressive therapy (Luborsky) targets the core conflictual relationship theme (CCRT).",
+    "h": "CCRT = Wish → Response of other → Response of self.",
+    "r": "Clarkin Ch2 – Manualized approaches"
+  },
+  {
+    "t": "Ch2 Other models",
+    "d": 2,
+    "q": "How does mentalization-based treatment (MBT) differ from TFP in technique?",
+    "o": [
+      "MBT clarifies current mental states but avoids interpretation as beyond the patient",
+      "MBT interprets the transference from the very start, more systematically than TFP does",
+      "MBT uses a written treatment contract, which TFP does not use",
+      "MBT focuses on genetic childhood material rather than the present"
+    ],
+    "e": "MBT and TFP share a lot: both focus on the present mental context and both use clarification. The key technical difference is interpretation. MBT does not use it, on the assumption that borderline patients cannot yet symbolize emotional experience, so it concentrates on clarifying and stimulating mentalizing in the moment. TFP uses clarification, confrontation and interpretation, especially of the transference, from early on.",
+    "w": [
+      "It's TFP, not MBT, that interprets the transference systematically from early on.",
+      "The written or explicit treatment contract is a TFP feature, not an MBT one.",
+      "Neither focuses mainly on genetic childhood material; both stay with the present."
+    ],
+    "k": "MBT clarifies current mental states but avoids interpretation; TFP adds confrontation and transference interpretation.",
+    "h": "MBT: 'what are you feeling now?' TFP: 'and here's what it might mean between us.'",
+    "r": "Clarkin Ch2 – TFP compared"
+  },
+  {
+    "t": "Ch2 Supportive techniques",
+    "d": 2,
+    "q": "Why does TFP not recommend supportive techniques such as advice or encouragement?",
+    "o": [
+      "They deviate from neutrality, make the therapist a 'real person', may enact the inner world, and foster dependence",
+      "They are effective only for neurotic patients, so with borderline patients they simply waste valuable session time",
+      "They take too much session time, leaving no room for clarification or confrontation",
+      "They can only be used in group formats, where several patients support each other"
+    ],
+    "e": "Advice, encouragement and reassurance have costs in TFP. They deviate from technical neutrality, make the therapist a 'real person' whose opinions compete with the patient's, interfere with exploring the transference, and risk enacting a role from the patient's internal world (for example the rescuer the patient then devalues). They also reinforce dependence rather than autonomy. The therapist's temptation to be supportive is treated as information: a cue to examine the countertransference.",
+    "w": [
+      "The issue is not wasted time; supportive techniques interfere with neutrality and the transference work.",
+      "Time is not the main objection; the authors object to what support does to the relationship.",
+      "Supportive techniques are used in individual therapy too; group format is not the issue."
+    ],
+    "k": "TFP avoids advice and reassurance: they break neutrality, enact the inner world and foster dependence; the urge to give them is a countertransference cue.",
+    "h": "The urge to rescue is a clue, not a cue to act.",
+    "r": "Clarkin Ch2 – Supportive approaches"
+  },
+  {
+    "t": "Ch2 TFP model",
+    "d": 2,
+    "q": "In TFP terms, what is 'transference', and what is 'interpretation'?",
+    "o": [
+      "Transference = reactivated internal object relations toward the therapist; interpretation = his formulation of it",
+      "Transference = the therapist's feelings toward the patient; interpretation = advice on how to behave",
+      "Transference = an accurate replay of past events; interpretation = linking it to medication needs",
+      "Transference = the patient's conscious opinions; interpretation = agreeing or disagreeing with them"
+    ],
+    "e": "In TFP, transference is the reactivation of the patient's internal object relations in relation to the therapist: the patient experiences the therapist through a self–object–affect dyad (for example a cold, rejecting parent). Interpretation is the therapist's cognitive formulation of that experience: putting into words which dyad is active, how it may defend against another, and why. Transference supplies the lived experience; interpretation turns it into understanding.",
+    "w": [
+      "The therapist's feelings toward the patient are countertransference, and TFP does not give advice.",
+      "Transference is not an accurate replay of past events, and interpretation has nothing to do with medication.",
+      "Transference is not conscious opinion, and interpretation is not agreeing or disagreeing."
+    ],
+    "k": "Transference = internal object relations reactivated toward the therapist; interpretation = the therapist's formulation of that experience.",
+    "h": "Transference is the play; interpretation is the review.",
+    "r": "Clarkin Ch2 – Activation of object relations"
+  },
+  {
+    "t": "Ch2 TFP model",
+    "d": 2,
+    "q": "In TFP, 'holding' vs 'containment':",
+    "o": [
+      "Holding = affective containment by the frame; containment = cognitive structuring",
+      "Holding = being warm and sympathetic; containment = cognitive structuring",
+      "Holding = cognitive structuring; containment = affective framing by the contract",
+      "Holding = interpretation of transference; containment = advice and reassurance"
+    ],
+    "e": "TFP uses both terms in specific ways. Holding (from Winnicott) is the affective containment provided by the treatment frame, the reliable structure that keeps intense emotions within bounds. It does not mean warmth or sympathy. Containment (from Bion) is the cognitive structuring of what seems chaotic: the therapist takes in the patient's fragmented experience and gives it shape and meaning, through clarification and interpretation.",
+    "w": [
+      "Holding is not warmth or sympathy in TFP; it is the frame's affective containment.",
+      "This swaps them: holding is affective framing, containment is cognitive structuring.",
+      "Interpretation is how containment works, and advice and reassurance are not part of either."
+    ],
+    "k": "Holding = affective containment by the frame (not warmth); containment = cognitive structuring of chaos.",
+    "h": "Holding is the container's walls; containment is making sense of what's inside.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 TFP model",
+    "d": 2,
+    "q": "Is the reactivated object relation an exact replay of the past?",
+    "o": [
+      "No – it combines what happened, what was imagined and what was defensively set up",
+      "Yes – it reproduces the exact past event as it originally happened",
+      "Yes – provided the patient is sincere and reports details accurately",
+      "Only in neurotic patients; borderline patients replay events exactly"
+    ],
+    "e": "No. What is reactivated combines what actually happened, what was imagined or feared, and what was defensively constructed, all transformed over time (après coup, Freud's Nachträglichkeit, meaning later reworking of earlier experience). So the dyad in the transference is a current psychic reality, not a historical record. TFP works on this internal representation, because it is what organizes the patient's experience now, and it is the thing that can change.",
+    "w": [
+      "The reactivation is transformed by fantasy and defense, not an exact reproduction.",
+      "Sincerity doesn't make an internal representation into a historical record.",
+      "Neither borderline nor neurotic patients replay the past exactly."
+    ],
+    "k": "Transference dyads mix real events, fantasy and defense: a current psychic reality, not an exact replay.",
+    "h": "Not a recording of the past, but a remix.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Destruction of thinking",
+    "d": 3,
+    "q": "How does the chapter contrast obsessive, hysterical and primitive (borderline) patients?",
+    "o": [
+      "Obsessives think without feeling; hysterics feel without thinking; primitive patients act out affect",
+      "Obsessives feel without thinking; hysterics think without feeling; primitive patients reflect calmly",
+      "All three think about affects without feeling them; only the content differs",
+      "Primitive patients think without feeling; obsessives act; hysterics reflect"
+    ],
+    "e": "The chapter contrasts three relationships between thought and affect. Obsessive patients think without feeling (ideas stripped of emotion), and hysterical patients feel without thinking (emotion without reflection). Primitive, borderline patients put affect into action: the feeling exists only in behaviour, so they may act aggressively with no awareness of being angry. TFP's job is to transform action back into the underlying object relation, so it can be felt and thought.",
+    "w": [
+      "This swaps obsessives and hysterics, and primitive patients do not reflect calmly.",
+      "They differ in how thought and feeling connect, not only in content.",
+      "Primitive patients act out affect; obsessives think and hysterics feel."
+    ],
+    "k": "Obsessive: thinks without feeling. Hysterical: feels without thinking. Primitive: puts affect into action.",
+    "h": "Head without heart, heart without head, hands without either.",
+    "r": "Clarkin Ch2 – Destruction of thinking"
+  },
+  {
+    "t": "Ch2 Destruction of thinking",
+    "d": 3,
+    "q": "Bion's 'attacks on linking' describe:",
+    "o": [
+      "Fragmentation and disconnection of thinking in primitive patients",
+      "Repression of forbidden wishes in neurotic patients, keeping them unconscious",
+      "The therapist's countertransference blocking thought",
+      "Normal forgetting of painful material over time"
+    ],
+    "e": "Bion described how more primitive patients attack the links between thoughts: connections between ideas, feelings and experiences are broken, so thinking itself becomes fragmented and disconnected. It is not simply that a content is kept out; the capacity to connect is damaged. In therapy this shows as a patient who cannot follow a thread, 'forgets' what was just understood, or makes links vanish. TFP's containment and interpretation aim to restore the capacity to link.",
+    "w": [
+      "Repression keeps contents unconscious; attacks on linking damage the process of thinking itself.",
+      "Bion's concept describes the patient's mind, not the therapist's countertransference.",
+      "Normal forgetting is not an attack; Bion described an active, destructive process."
+    ],
+    "k": "Attacks on linking (Bion) = fragmentation of thinking: the links between thoughts are destroyed.",
+    "h": "Not hiding the pieces, but cutting the strings between them.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Alliance",
+    "d": 2,
+    "q": "In TFP, the therapeutic alliance is:",
+    "o": [
+      "A consequence of treatment, from systematically resolving the negative transference",
+      "A precondition that must be built with warmth before any interpretation",
+      "Built mainly by giving advice and support in the first months",
+      "Irrelevant, since TFP focuses only on interpretation"
+    ],
+    "e": "With borderline patients, the therapeutic alliance cannot be assumed at the start: the patient often sees the therapist through a persecutory dyad. TFP therefore treats the alliance as a consequence of treatment, not a precondition. It grows from systematically exploring and resolving the negative transference. When a patient feels their hostility understood rather than retaliated against or soothed away, trust develops.",
+    "w": [
+      "Warmth is not a precondition; the alliance results from working through negative transference.",
+      "Advice and support are not TFP techniques and are not how the alliance is built.",
+      "The alliance matters; it simply emerges from the work rather than preceding it."
+    ],
+    "k": "In TFP the alliance is a result of resolving the negative transference, not a precondition built with warmth.",
+    "h": "Trust is earned by surviving the storm, not by promising sunshine.",
+    "r": "Clarkin Ch2 – Role of the human relationship"
+  },
+  {
+    "t": "Ch2 Duration",
+    "d": 2,
+    "q": "In the authors' experience, acting out often comes under control within ___, and primitive defenses decrease significantly in ___.",
+    "o": [
+      "the first 6 months; the second year",
+      "the first month; the first year",
+      "2 years; 5 years",
+      "the first session; the first month"
+    ],
+    "e": "The authors give a rough timeline. Acting out (self-harm, impulsive behaviour, threats to treatment) often comes under control within the first 6 months, largely through the contract and the priority given to dangerous behaviour. Use of primitive defenses decreases significantly in the second year, which sets the stage for work on identity diffusion and integration. TFP is a long-term treatment, usually held twice a week.",
+    "w": [
+      "A month is far too short; acting out typically settles within the first 6 months.",
+      "2 and 5 years are too long for these milestones in the authors' experience.",
+      "A session or a month is unrealistic for change of this kind."
+    ],
+    "k": "TFP timeline: acting out usually controlled within ~6 months; primitive defenses decrease in year 2.",
+    "h": "Six months to calm the actions, a second year to calm the defenses.",
+    "r": "Clarkin Ch2 – Duration"
+  },
+  {
+    "t": "Ch2 Suicide",
+    "d": 3,
+    "q": "Fairbairn's line 'Better to be a sinner in a world ruled by God than to live in a world ruled by the Devil' is used to explain:",
+    "o": [
+      "Masochism/suicidality as identification with a cruel but predictable object",
+      "Narcissistic grandiosity protecting the self from all dependency",
+      "The therapeutic alliance with a strict but caring therapist",
+      "Reaction formation turning hatred of God into love"
+    ],
+    "e": "Fairbairn's line captures why abused or neglected people may cling to a cruel inner object. A cruel god who makes sense, and to whom one can submit, feels safer than the unpredictability of the devil. Identifying with a harsh but predictable object, and turning its attacks on oneself, can be a safety system that preserves the sense of a meaningful world. The chapter uses it to explain masochism and suicidality: attacking oneself keeps the bad object predictable.",
+    "w": [
+      "Narcissistic grandiosity defends against dependency and envy, not against unpredictability through submission.",
+      "It is not about the alliance; it explains masochistic identification with a cruel object.",
+      "Reaction formation turns an impulse into its opposite; the quote is about submitting to a cruel but predictable order."
+    ],
+    "k": "Fairbairn: a cruel but predictable object feels safer than chaos, so masochism and suicidality can be a safety system.",
+    "h": "Better a harsh rule that makes sense than chaos that doesn't.",
+    "r": "Clarkin Ch2 – Progression of TFP"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 1,
+    "q": "What is TFP Strategy 1?",
+    "o": [
+      "Define the dominant object relations",
+      "Observe and interpret role reversals",
+      "Interpret linkages between dyads that defend against each other",
+      "Work through the capacity to experience a relationship differently"
+    ],
+    "e": "TFP has four strategies (Table 2–2). Strategy 1 is to define the dominant object relations: identify which self–object–affect dyad is active in the session, especially in the transference. Strategy 2 observes and interprets role reversals. Strategy 3 interprets linkages between dyads that defend against each other. Strategy 4 works through the patient's new capacity to experience a relationship differently and extends it to other relationships.",
+    "w": [
+      "Observing and interpreting role reversals is Strategy 2.",
+      "Interpreting linkages between defending dyads is Strategy 3.",
+      "Working through the new capacity is Strategy 4."
+    ],
+    "k": "TFP strategies: (1) define dominant object relations, (2) role reversals, (3) defending dyads, (4) working through.",
+    "h": "Define → Reverse → Link → Work through.",
+    "r": "Clarkin Ch2 – Table 2–2"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "What are the four steps of Strategy 1, in order?",
+    "o": [
+      "Tolerate confusion → identify dominant object relations → name the actors → attend to reaction",
+      "Name the actors → tolerate confusion → attend to reaction → identify object relations",
+      "Identify object relations → name the actors → interpret splitting → attend to reaction",
+      "Tolerate confusion → name the actors → identify object relations → interpret reversals"
+    ],
+    "e": "Strategy 1 unfolds in four steps. First, experience and tolerate the confusion: the chaotic material and the therapist's own reactions. Second, identify the dominant object relations from the verbal, nonverbal and countertransference channels. Third, name the actors: describe the self, the object and the linking affect. Fourth, attend to the patient's reaction to that naming, which leads to the next round of work.",
+    "w": [
+      "Naming the actors cannot come before tolerating the confusion and identifying the dyad.",
+      "Interpreting splitting is not one of the four steps, and identification comes after tolerating confusion.",
+      "Naming comes after identifying the dyad, and interpreting reversals belongs to Strategy 2."
+    ],
+    "k": "Strategy 1 steps: tolerate confusion → identify dominant object relations → name the actors → attend to the reaction.",
+    "h": "Sit in the fog, find the dyad, name it, watch the response.",
+    "r": "Clarkin Ch2 – Table 2–2"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "In Step 1, why should the therapist NOT force premature closure on the confusion?",
+    "o": [
+      "It shows opposing states can be contained, and countertransference gives clues",
+      "The confusion usually disappears on its own if the therapist waits",
+      "A diagnosis must be made first, before any feelings are explored",
+      "It lets the therapist avoid interpretation during the early phase"
+    ],
+    "e": "Borderline material is confusing: contradictory states, sudden shifts, intense affect. Resisting the urge to tidy it up too early does two things. It shows the patient that intense opposing states can be contained without panic, and it lets the therapist use the confusion and their own reactions as data. The feelings evoked in the therapist may mirror a similar (concordant) or a complementary state in the patient, which points to the dyad.",
+    "w": [
+      "Confusion is not expected to resolve by itself; it is used as information.",
+      "TFP does not require a diagnosis before exploring feelings in sessions.",
+      "Tolerating confusion prepares for interpretation; it is not a way to avoid it."
+    ],
+    "k": "Tolerating confusion shows that opposing states can be contained, and the countertransference gives clues to the dyad.",
+    "h": "Rushing to clarity throws away the clues hidden in the fog.",
+    "r": "Clarkin Ch2 – Step 1"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 3,
+    "q": "In the consultation with Mr. C, which dyad did the consultant identify?",
+    "o": [
+      "A cornered, angry victim fending off a helper seen as forcing help on him",
+      "A grandiose, contemptuous self relating to a devalued, useless other",
+      "A sexually excited child relating to a seductive, exciting parent",
+      "A satisfied, cared-for child relating to a perfect, giving provider"
+    ],
+    "e": "In the consultation, the consultant noticed an unusual urge to force help on Mr. C. Using that countertransference, he identified a dyad: Mr. C as a cornered, angry victim fending off a helper experienced as forcing help on him. The same dyad appeared in his relationship with his ex-wife. The example shows how the therapist's induced feelings reveal the object relation being lived out, and how it repeats across relationships.",
+    "w": [
+      "A grandiose, contemptuous self with a devalued other describes Ms. A's enacted dyad, not Mr. C's.",
+      "A sexually excited child with a seductive parent is not the dyad identified.",
+      "A satisfied child with a perfect provider is an idealized dyad, the opposite of what appeared."
+    ],
+    "k": "Mr. C: an angry, cornered victim fending off a helper seen as forcing help, spotted through the consultant's urge to push help.",
+    "h": "If you feel like forcing help, the patient may be living a 'help is an attack' dyad.",
+    "r": "Clarkin Ch2 – Mr. C"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "When naming the actors (Step 3), the therapist should:",
+    "o": [
+      "Offer it as a hypothesis, with the linking affect, how it was reached, and the patient's metaphors",
+      "Present it as a certain truth, firmly, so the patient does not dismiss or distort it",
+      "Name only the self-representation, leaving the object for later",
+      "Describe the roles without mentioning any affect, to avoid arousal"
+    ],
+    "e": "Naming the actors means describing the self, the object and the linking affect specifically and evocatively, ideally in the patient's own metaphors ('like a prisoner and a guard'), and showing how you reached that description (what the patient said, did, and what you felt). It is offered as a hypothesis to be tested and refined, not a verdict, because it invites the patient to observe and correct, and so to reflect.",
+    "w": [
+      "Presenting it as certain truth invites submission or rebellion instead of reflection.",
+      "Both self and object are named, together with the linking affect.",
+      "The affect must be named; it is what links the dyad and gives it meaning."
+    ],
+    "k": "Name self, object and affect specifically, in the patient's metaphors, show how you reached it, and offer it as a hypothesis.",
+    "h": "Name the cast, the plot and the mood, and ask if you got it right.",
+    "r": "Clarkin Ch2 – Step 3"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 3,
+    "q": "When is the best moment to offer an interpretation, according to Step 3?",
+    "o": [
+      "When the patient is emotionally involved but affect is declining",
+      "At the very peak of an affect storm, while affect is highest",
+      "Only near the end of treatment, once the patient is integrated",
+      "When the patient is completely detached and calm"
+    ],
+    "e": "Timing matters. At the peak of an affect storm, the patient cannot reflect, and an interpretation will be heard as an attack or ignored. When the patient is detached and calm, an interpretation becomes intellectual and lacks emotional force. The best moment is when the patient is still emotionally involved in the session but the intensity of affect is declining: feeling enough to make it real, calm enough to think about it.",
+    "w": [
+      "At the peak of an affect storm the patient can't take in an interpretation.",
+      "TFP interprets throughout treatment, not only at the end.",
+      "Complete detachment makes interpretations intellectual and ineffective."
+    ],
+    "k": "Interpret when the patient is emotionally involved but the affect is starting to decline.",
+    "h": "Strike when the iron is warm, not white-hot or cold.",
+    "r": "Clarkin Ch2 – Step 3"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "Which three basic transference themes does Ch2 describe?",
+    "o": [
+      "Antisocial (dishonest), paranoid (suspicious), depressive (guilty)",
+      "Erotic (seductive), dependent (clinging), narcissistic (devaluing)",
+      "Positive (loving), negative (hostile), neutral (indifferent)",
+      "Oedipal (rivalrous), pre-oedipal (fusional), latent (absent)"
+    ],
+    "e": "The chapter groups transferences into three basic themes. Antisocial (psychopathic): dishonesty and deception, the patient assuming everyone is corrupt. Paranoid: suspicion, the therapist seen as dangerous or persecuting. Depressive: guilt and concern, with the capacity to recognize one's own aggression. Variations such as narcissistic, erotic and dependent transferences occur within these. The order also mirrors progress in treatment: antisocial → paranoid → depressive.",
+    "w": [
+      "Erotic, dependent and narcissistic are variations within the basic themes, not the three themes themselves.",
+      "Positive, negative and neutral are everyday labels, not Ch2's three themes.",
+      "Oedipal and pre-oedipal describe developmental content, not Ch2's three transference themes."
+    ],
+    "k": "Three basic transference themes: antisocial (dishonest), paranoid (suspicious), depressive (guilty), in roughly that order of progress.",
+    "h": "Liar, suspect, mourner.",
+    "r": "Clarkin Ch2 – Types of transference themes"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 3,
+    "q": "Which is NOT a possible result of correctly naming the active dyad (Step 4)?",
+    "o": [
+      "Immediate permanent integration of identity",
+      "The interaction becomes more pronounced",
+      "A sudden role reversal",
+      "Insight, or activation of a different dyad"
+    ],
+    "e": "Step 4 lists what can follow a correct naming: the interaction may become more pronounced, a sudden role reversal may occur, insight may appear (often with new material), a different dyad may be activated, or the patient may deny it altogether. Each response is information for the next intervention. What does not happen is immediate, permanent integration: insight in TFP usually needs repeated interpretation of the same dyads over time (working through).",
+    "w": [
+      "The interaction becoming more pronounced is listed as a possible result.",
+      "A sudden role reversal is a possible result.",
+      "Insight, or activation of a different dyad, are possible results."
+    ],
+    "k": "After naming a dyad: intensification, role reversal, insight, a new dyad or denial; never instant permanent integration.",
+    "h": "One naming opens a door; integration needs many walks through it.",
+    "r": "Clarkin Ch2 – Step 4"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "What matters most when judging the patient's reaction to a named dyad?",
+    "o": [
+      "Subsequent associations and changes in the interaction",
+      "Whether the patient explicitly says 'yes, that's right'",
+      "Whether the patient appears relieved or smiles",
+      "How quickly the patient answers the therapist"
+    ],
+    "e": "The patient's explicit 'yes' or 'no' to an interpretation matters less than what follows: the associations the patient brings next and how the interaction changes. A patient may agree to please the therapist or reject an accurate interpretation out of pride, yet then bring a memory that confirms it, or soften in the room. TFP reads the process, not the verdict.",
+    "w": [
+      "Verbal agreement may be compliance; what follows tells more.",
+      "Looking relieved is a weak signal compared with associations and changes in the interaction.",
+      "Speed of answering says little about whether an interpretation is accurate."
+    ],
+    "k": "Judge an interpretation by the patient's subsequent associations and changes in the interaction, not by agreement.",
+    "h": "Watch what they do next, not what they say first.",
+    "r": "Clarkin Ch2 – Step 4"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "Strategy 2 addresses role reversals. A key feature of these reversals is that:",
+    "o": [
+      "They usually happen in behavior, outside awareness",
+      "The patient usually announces them in advance",
+      "They mainly appear in dreams and fantasies",
+      "They indicate a brief psychotic episode"
+    ],
+    "e": "In role reversals, the patient switches between the two sides of a dyad: being the victim, then the persecutor; the controlled, then the controller. Figure 2–1 shows that this oscillation usually happens in behaviour, not in consciousness: the patient enacts the other role while believing they are just 'being reasonable'. That is why the therapist must point it out, often using the countertransference, since the patient cannot see it.",
+    "w": [
+      "Patients rarely announce reversals; they happen outside awareness.",
+      "Reversals appear mainly in behaviour in the session, not mainly in dreams.",
+      "Role reversals are typical of borderline organization, not signs of psychosis."
+    ],
+    "k": "Role reversals usually happen in behaviour, outside awareness; the patient feels they are 'just being reasonable'.",
+    "h": "The patient switches costumes without noticing.",
+    "r": "Clarkin Ch2 – Strategy 2"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "If the therapist suddenly feels he has 'lost the track' and feels controlled and victimized, he should consider that:",
+    "o": [
+      "A reversal of self and object roles has occurred",
+      "The patient has become briefly psychotic",
+      "The treatment contract should be ended",
+      "He must reassure the patient at once"
+    ],
+    "e": "A sudden sense of losing the thread, combined with feeling controlled and victimized, is a typical sign that the patient has switched roles: the patient is now enacting the controlling, persecuting object, and the therapist has been pushed into the victim role the patient usually occupies. Recognizing this lets the therapist step back and describe the reversal instead of reacting from inside it.",
+    "w": [
+      "Feeling controlled points to a role reversal, not psychosis.",
+      "Ending the contract is not the response; the reversal is material to interpret.",
+      "Reassurance would avoid the reversal instead of understanding it."
+    ],
+    "k": "If the therapist suddenly feels lost, controlled and victimized, consider that self and object roles have reversed.",
+    "h": "When you're suddenly playing the victim, the patient may be playing the persecutor.",
+    "r": "Clarkin Ch2 – Strategy 2"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 3,
+    "q": "Strategy 3 interprets dyads that defend against each other. Why might the HATE-filled dyad itself be protected?",
+    "o": [
+      "Clear hatred eases identity-diffusion confusion and averts guilt toward the good object",
+      "Hatred is pleasurable in itself and so must be kept free of positive feelings",
+      "The hateful dyad is always unconscious and cannot be contaminated anyway",
+      "The hateful dyad is libidinal and needs protection from aggression"
+    ],
+    "e": "Splitting works in both directions. It protects the loving, idealized dyad from hatred, and it also protects the hateful dyad from positive feeling. Pure hatred is simple: it gives a clear identity ('I'm the victim, you're the enemy') that eases the confusion of identity diffusion. Letting love in would bring confusion and guilt for having attacked someone who is also good. So patients may hold onto hatred to avoid the pain of ambivalence.",
+    "w": [
+      "Hatred is not protected because it is pleasurable; it gives clarity and averts guilt.",
+      "The hateful dyad is often closer to the surface early on, not always unconscious.",
+      "The hateful dyad is aggressive, not libidinal."
+    ],
+    "k": "Splitting also protects the hateful dyad: clear hatred eases identity confusion and avoids guilt toward the good object.",
+    "h": "Hate keeps the world simple; love makes it complicated.",
+    "r": "Clarkin Ch2 – Strategy 3"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 2,
+    "q": "Early in therapy with borderline patients, which dyad is usually closer to the surface?",
+    "o": [
+      "The hate-laden, persecutory dyad",
+      "The idealized, loving dyad",
+      "The neutral, realistic dyad",
+      "The oedipal dyad"
+    ],
+    "e": "Early in therapy, the hate-laden, persecutory dyad is usually closer to the surface: anger, suspicion, feeling mistreated. The longing to be loved and cared for is hidden and fragile, glimpsed only briefly, because being aware of it would mean exposing oneself to disappointment. Part of Strategy 3 is to show how the visible hatred defends against the hidden longing, and vice versa.",
+    "w": [
+      "The idealized, loving longing is usually hidden and fragile early on.",
+      "Borderline patients don't start with a neutral, realistic dyad; that comes with integration.",
+      "The oedipal dyad is not described as the early surface dyad."
+    ],
+    "k": "Early on, the persecutory hate-laden dyad is on the surface; the longing for love is hidden and fragile.",
+    "h": "Hate is the armour; longing is what it hides.",
+    "r": "Clarkin Ch2 – Strategy 3"
+  },
+  {
+    "t": "Ch2 Strategies",
+    "d": 3,
+    "q": "Conflicts kept out of consciousness in BPO are experienced as:",
+    "o": [
+      "Acting out, somatization, occasionally pseudohallucinations",
+      "Neurotic symptoms such as phobias and obsessions only",
+      "Dreams and slips of the tongue only",
+      "Conscious guilt and self-reproach"
+    ],
+    "e": "In BPO, conflicts kept out of consciousness are not experienced as neurotic symptoms or guilt. They appear behaviourally, as acting out, or physically, as somatization. An intermediate form is the pseudohallucination: an experience that feels perceptual but is recognized as coming from one's own mind. TFP brings such material back into the relationship, where it can be felt and understood.",
+    "w": [
+      "Phobias and obsessions are neurotic symptoms, typical of repression-based organization.",
+      "Dreams and slips are classic signs of repression, not the main BPO channel.",
+      "Conscious guilt reflects an integrated superego, which BPO patients often lack."
+    ],
+    "k": "In BPO, out-of-awareness conflicts show as acting out, somatization, or occasionally pseudohallucinations.",
+    "h": "Unthought conflict speaks through the hands (acting out) or the body (somatization).",
+    "r": "Clarkin Ch2 – Strategy 3"
+  },
+  {
+    "t": "Ch2 Markers",
+    "d": 3,
+    "q": "Which is NOT one of the seven markers of gradual integration?",
+    "o": [
+      "Patient always agrees with interpretations",
+      "Tolerance of awareness of aggression and hatred",
+      "Tolerance of fantasy and opening of a transitional space",
+      "Capacity for experiencing guilt and entering the depressive position"
+    ],
+    "e": "The seven markers of integration are: (1) the patient expands on the therapist's comments instead of simply accepting or rejecting them; (2) tolerance of awareness of aggression and hatred; (3) tolerance of fantasy and opening of a transitional space; (4) integrating interpretations of projective identification; (5) working through the grandiose self; (6) shifts in transference paradigms; (7) capacity for guilt and entering the depressive position. Always agreeing would be compliance, not integration.",
+    "w": [
+      "Tolerating awareness of aggression and hatred is marker 2.",
+      "Tolerance of fantasy and a transitional space is marker 3.",
+      "Capacity for guilt and the depressive position is marker 7."
+    ],
+    "k": "Integration markers include expanding on comments, tolerating aggression and fantasy, owning projections, working through grandiosity, shifting paradigms, guilt.",
+    "h": "Integration looks like reflection, not obedience.",
+    "r": "Clarkin Ch2 – Markers"
+  },
+  {
+    "t": "Ch2 Markers",
+    "d": 2,
+    "q": "Why does omnipotent control in narcissistic patients interfere with marker 3 (tolerance of fantasy)?",
+    "o": [
+      "It inhibits free association, reducing fantasy",
+      "It increases dream recall and fantasy",
+      "It improves self-reflection on fantasies",
+      "It strengthens the frame and fantasy"
+    ],
+    "e": "Free association requires letting thoughts come without controlling them. Narcissistic patients' need for omnipotent control (over themselves, the therapist and the session) inhibits that freedom, so fantasy material and a 'transitional space' for playing with ideas are scarce. Marker 3, tolerance of fantasy, therefore appears later in these patients, as their need to control relaxes.",
+    "w": [
+      "Omnipotent control reduces fantasy and dream material, not the reverse.",
+      "It narrows self-reflection, because nothing unexpected is allowed in.",
+      "It doesn't strengthen the frame; it competes with it."
+    ],
+    "k": "Omnipotent control inhibits free association and so reduces available fantasy material.",
+    "h": "You can't let thoughts wander while gripping the steering wheel.",
+    "r": "Clarkin Ch2 – Marker 3"
+  },
+  {
+    "t": "Ch2 Ms. A",
+    "d": 3,
+    "q": "Ms. A's conscious dyad was a weak, vulnerable self facing mean, exploitative others. Which dyad did Dr. D perceive in her behavior and his countertransference?",
+    "o": [
+      "Grandiose, arrogant self – devalued, scorned other, linked by contempt",
+      "Satisfied, cared-for child – perfect, ideal provider, linked by love and longing",
+      "Fearful child – protective parent",
+      "Sexually excited child – seductive parent"
+    ],
+    "e": "Consciously Ms. A experienced herself as weak and vulnerable, surrounded by mean, exploitative people (Figure 2–3). In her behaviour and in Dr. D's countertransference, he perceived the reverse (Figure 2–4): a grandiose, arrogant self relating to a devalued, scorned other, linked by contempt. The enacted dyad is largely a role reversal of the conscious one, the classic pattern in which the victim role is felt while the aggressor role is acted.",
+    "w": [
+      "A satisfied child with an ideal provider is the hidden longing that emerged later, not the enacted dyad.",
+      "A fearful child with a protective parent was not the dyad Dr. D perceived.",
+      "A sexually excited child with a seductive parent is not part of the case."
+    ],
+    "k": "Ms. A: conscious dyad = weak victim / exploitative others; enacted dyad = grandiose, contemptuous self / devalued other.",
+    "h": "Feels like the doormat, acts like the boot.",
+    "r": "Clarkin Ch2 – Ms. A"
+  },
+  {
+    "t": "Ch2 Ms. A",
+    "d": 3,
+    "q": "What breakthrough allowed Dr. D to work at Strategy 3 with Ms. A?",
+    "o": [
+      "Before his second absence she cried 'You can't go away!', revealing attachment",
+      "After his first absence she stopped cutting and thanked him openly",
+      "She began agreeing with every interpretation he made about her",
+      "Her husband joined sessions and confirmed she missed the therapist"
+    ],
+    "e": "At Dr. D's first absence, Ms. A seemed indifferent. Before his second absence she exclaimed 'You can't go away!' This was the split-off longing for care breaking through: the idealized, dependent dyad that her contempt had been protecting against. With both dyads now visible, Dr. D could work at Strategy 3, interpreting how her contempt defended against the longing and the vulnerability it carried.",
+    "w": [
+      "She did not stop cutting and thank him after the first absence; she seemed indifferent then.",
+      "Agreeing with every interpretation would be compliance, not the breakthrough described.",
+      "Her husband did not join sessions; the breakthrough happened in the transference."
+    ],
+    "k": "Ms. A's breakthrough: 'You can't go away!' revealed the hidden longing, letting Dr. D interpret dyads defending against each other.",
+    "h": "Indifference at the first goodbye, panic at the second: the longing surfaced.",
+    "r": "Clarkin Ch2 – Ms. A"
+  },
+  {
+    "t": "Ch2 Ms. A",
+    "d": 3,
+    "q": "Dr. D's interpretation of Ms. A's emptiness during his absence was that:",
+    "o": [
+      "Her rage at his imperfection erased her internal image of him, leaving her empty",
+      "His absence was an objective abandonment that would leave anyone feeling empty",
+      "She had no attachment to him, so his absence left nothing behind",
+      "Her medication was wrong, causing emptiness during the absence"
+    ],
+    "e": "Dr. D interpreted that it was not his week away that emptied her so much as her own attack on her inner image of him: 'your attacking the image of me that you have in your mind.' Furious at his imperfection (leaving her), she destroyed the good internal image, and without it she felt empty. The interpretation links her emptiness to her own aggression, which is the kind of ownership of hatred that moves toward integration.",
+    "w": [
+      "He did not frame the absence as an objective abandonment; he linked the emptiness to her inner attack.",
+      "He saw attachment, since she cried 'You can't go away', not an absence of it.",
+      "Medication was not his interpretation; it was a psychological explanation."
+    ],
+    "k": "Dr. D: her emptiness came from her rage attacking her internal image of him, not from the absence itself.",
+    "h": "She didn't lose him; she erased him.",
+    "r": "Clarkin Ch2 – Ms. A"
+  },
+  {
+    "t": "Ch2 Past material",
+    "d": 2,
+    "q": "When linking transference to the past, why does the therapist say 'a mother who…' rather than 'your mother'?",
+    "o": [
+      "The past heard is her internalized, partial representation, not objective reality",
+      "To avoid offending the patient by criticizing her real mother directly",
+      "Because the real mother is unknown to the therapist and cannot be judged",
+      "Because TFP ignores the past and discusses only the present relationship"
+    ],
+    "e": "When TFP links the transference to the past, the therapist speaks of 'a mother who…' rather than 'your mother'. What the patient reports is her internalized, partial and often contradictory representation, shaped by fantasy and defense, not an objective account of the real mother. The wording respects this: it describes an internal figure the patient carries, without passing judgment on the actual person or treating the inner picture as historical fact.",
+    "w": [
+      "Avoiding offence is a side benefit, not the reason; the point is that it's an internal representation.",
+      "The point is not that the therapist can't judge; even the patient's account is a representation.",
+      "TFP does link to the past, especially later; it just treats the past as internalized."
+    ],
+    "k": "Say 'a mother who…', not 'your mother': the past in therapy is an internal, partial representation.",
+    "h": "'A mother who…' = the mother in her mind.",
+    "r": "Clarkin Ch2"
+  },
+  {
+    "t": "Ch2 Working through",
+    "d": 2,
+    "q": "How does the therapist tell fruitful repetitive working-through from endless defensive repetition?",
+    "o": [
+      "Less acting out outside sessions while affects repeat in the transference, plus a shift toward advanced markers",
+      "The patient increasingly agrees with interpretations and says she feels better in the sessions",
+      "The sessions become shorter and calmer, with fewer references to the therapist",
+      "The therapist feels less discouraged and more confident that interpretations are right"
+    ],
+    "e": "Working through is repetitive: the same dyads return again and again. It is fruitful when two things happen. Acting out outside the sessions decreases while the affects are increasingly repeated and contained inside the transference, and the patient's material shifts from early markers toward advanced ones (tolerating aggression, guilt, depressive concerns). If repetition shows neither, it may be defensive, a stalemate to address.",
+    "w": [
+      "Agreement and feeling better in sessions can be compliance, not evidence of progress.",
+      "Calm, shorter sessions with less transference may signal avoidance, not progress.",
+      "The therapist's confidence is not a reliable sign that working through is progressing."
+    ],
+    "k": "Fruitful working through = less acting out outside, affects repeated inside the transference, shift toward advanced markers.",
+    "h": "The storm moves indoors, into the therapy room, and slowly calms.",
+    "r": "Clarkin Ch2 – Repetitive nature of the work"
+  },
+  {
+    "t": "Ch2 Countertransference",
+    "d": 2,
+    "q": "Which statement best describes the therapist's position in TFP?",
+    "o": [
+      "Both inside the interaction and outside it, using induced reactions as data",
+      "Fully outside the interaction, unaffected by what the patient induces",
+      "Fully inside the interaction, acting on the impulses the patient induces",
+      "Mainly a teacher of skills, keeping feelings out of the relationship"
+    ],
+    "e": "The TFP therapist is both inside the interaction and outside it. Inside, they let themselves feel the roles the patient induces (irritation, protectiveness, feeling controlled). Outside, they step back and observe those reactions as a primary source of information about the dyad being enacted. Being only outside would lose the data; being only inside would mean acting out the patient's script.",
+    "w": [
+      "Being fully outside would lose the countertransference data TFP relies on.",
+      "Acting on induced impulses would enact the patient's dyad instead of understanding it.",
+      "TFP is not skills teaching, and feelings are used, not excluded."
+    ],
+    "k": "TFP therapist: inside the interaction (feeling induced roles) and outside it (observing them as data).",
+    "h": "One foot in the play, one foot in the audience.",
+    "r": "Clarkin Ch2 – TFP compared"
+  },
+  {
+    "t": "Ch2 Validation",
+    "d": 3,
+    "q": "'If indeed I am the monster you see me as, it would make sense for you to shut down… However, if that is not accurate, we should explore where that sense of danger comes from.' This illustrates:",
+    "o": [
+      "Validating the logic of the distorted perception before confronting it",
+      "Supportive reassurance that the therapist is not really a monster",
+      "Advice on how to share thoughts more openly with others",
+      "A deviation from neutrality that must later be interpreted"
+    ],
+    "e": "The intervention first validates the logic of the patient's perception: if the therapist really were a monster, shutting down would make sense. It then confronts the distortion by opening another possibility: if that's not accurate, where does the sense of danger come from? Compared with DBT's validation, TFP may validate the logic of a distorted perception before confronting and interpreting it. This respects the patient's experience without colluding with the distortion.",
+    "w": [
+      "It isn't reassurance; the therapist doesn't claim not to be a monster, but explores the perception.",
+      "It offers no advice; it examines the patient's perception of the therapist.",
+      "It stays neutral; it validates the logic without taking sides, so there's nothing to interpret later."
+    ],
+    "k": "TFP can validate the logic of a distorted perception ('if I were a monster…') before confronting and interpreting it.",
+    "h": "'Your reaction makes sense if…', then 'but what if…'.",
+    "r": "Clarkin Ch2"
+  }
+]

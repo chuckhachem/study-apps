@@ -1,0 +1,582 @@
+[
+  {
+    "t": "Referral settings",
+    "d": 2,
+    "q": "A teacher asks, 'Could you evaluate Jimmy because he is having difficulties in school?' According to the course, what is the most useful question to clarify such a referral?",
+    "o": [
+      "What decisions need to be made regarding the child?",
+      "Which test battery do you usually prefer?",
+      "How many sessions can the family afford?",
+      "Has the child ever been tested before?"
+    ],
+    "e": "Requests for testing are often vague ('a psychological evaluation on Mr. Smith', 'evaluate Jimmy because he is having difficulties in school') and may hide motives: an administrator needing support for a placement decision, a teacher wanting to prove to parents that a child has a problem, a resident uncomfortable managing a patient. The course says one of the most useful questions is what decisions need to be made regarding the patient. Responsibility for clarifying lies with the clinician.",
+    "w": [
+      "Choosing a battery before clarifying the question is the error the course warns against.",
+      "Cost matters but does not clarify the referral question.",
+      "Prior testing is useful history but does not reveal the decision to be made."
+    ],
+    "k": "To clarify a vague referral, ask what decisions must be made; the clinician is responsible for this clarification.",
+    "h": "Find the decision behind the request.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Types of referral settings"
+  },
+  {
+    "t": "Referral settings",
+    "d": 2,
+    "q": "Which list gives the most frequent assessment environments named in the course?",
+    "o": [
+      "Psychiatric setting, general medical setting, legal context, educational context, psychological clinic",
+      "Military, industrial, sports, advertising and religious settings",
+      "Hospital, prison, mosque, church and university settings",
+      "Research laboratory, call center, online platform, school and home"
+    ],
+    "e": "To clarify the referral question and develop a relevant evaluation, clinicians should become familiar with the environments in which they work. The course names the most frequent: the psychiatric setting, the general medical setting, the legal context, the educational context and the psychological clinic. Without understanding the demands of the setting, even skilled examiners may give a needless series of tests and provide useless information; investigation may even show that testing is not warranted.",
+    "w": [
+      "Military and industrial settings appear only in the history of group testing.",
+      "These are not the categories the course uses.",
+      "These are not the five referral environments described."
+    ],
+    "k": "Five referral settings: psychiatric, general medical, legal, educational, psychological clinic.",
+    "h": "Psych ward, Medicine, Law, School, Clinic.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Types of referral settings"
+  },
+  {
+    "t": "Psychiatric setting",
+    "d": 2,
+    "q": "A ward psychiatrist asks whether a patient has bipolar disorder. Why does the course say a DSM-5 diagnosis alone is usually not sufficient?",
+    "o": [
+      "The label does not show how dangerous the patient is or what to decide",
+      "DSM-5 diagnoses are not used at all in psychiatric hospitals",
+      "Psychologists are not legally allowed to give any diagnoses",
+      "Bipolar disorder cannot be assessed with psychological tests"
+    ],
+    "e": "As ward administrators, psychiatrists must decide about suicide risk, admission and discharge, and medical procedures. Unlike 40 years ago, when diagnosis and treatment were central, custody, the patient's freedom and society's safety are now the primary focus. A formal DSM-5 diagnosis is therefore usually not sufficient: a bipolar label does not indicate the level of dangerousness to self or others, nor which ward, activities or therapy suit the patient.",
+    "w": [
+      "DSM-5 diagnoses are used; they are simply insufficient for the decisions at stake.",
+      "Psychologists do provide diagnoses; the point is what else is needed.",
+      "The issue is not testability but the practical decisions required."
+    ],
+    "k": "Psychiatric administrators need answers about danger, admission/discharge and placement; a diagnostic label alone does not provide them.",
+    "h": "A label is not a decision.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Psychiatric setting"
+  },
+  {
+    "t": "Psychiatric setting",
+    "d": 3,
+    "q": "A patient is referred for testing in the middle of therapy by a psychiatrist who is both his ward administrator and his therapist. What does the course say the evaluator must investigate?",
+    "o": [
+      "Role ambiguity, therapist anxiety, bias, countertransference, unrealistic expectations",
+      "Only the patient's internal personality structure and defenses",
+      "Only the patient's IQ, to check that he understands the therapy",
+      "Only whether the patient can afford further therapy sessions"
+    ],
+    "e": "When a referral is made during therapy, problems may exist that are not apparent from the referral question. A psychiatrist acting as both administrator (caretaker) and psychotherapist without defining these roles can make the patient defensive and resistant, while the psychiatrist feels the patient falls short. A standard evaluation of the patient's internal structure will not address this. Therapist anxiety, bias, countertransference or unreasonable expectations may matter as much as the patient's traits and must be communicated sensitively.",
+    "w": [
+      "The course says a standard evaluation of internal structure will not address this conflict.",
+      "IQ is not the issue raised by a mid-therapy referral.",
+      "Payment is not one of the complicating factors discussed."
+    ],
+    "k": "Mid-therapy referrals: look at the therapy relationship itself — role ambiguity, countertransference, bias, unreasonable expectations.",
+    "h": "Sometimes the referral is about the relationship, not the patient.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Psychiatric setting"
+  },
+  {
+    "t": "Psychiatric setting",
+    "d": 2,
+    "q": "A psychiatrist functioning from a medical model asks about 'dissociative disorder', a label the psychologist finds of little use. What should the effective examiner do, according to the course?",
+    "o": [
+      "Look beyond the conceptual difference and translate findings into practical, task-oriented answers",
+      "Refuse the referral because the models are incompatible",
+      "Write the report entirely in the psychologist's own theoretical terms",
+      "Give the diagnosis without addressing any practical decision"
+    ],
+    "e": "Psychiatrists often work from a disease or medical model, while psychologists may speak of difficulties in living. The psychiatrist still faces practical decisions: a traditional diagnosis may be required by law or policy, and choices such as antipsychotic medication, electroconvulsive therapy or psychotherapy must be made. The course says an effective examiner sees beyond conceptual differences and translates findings into a model that is understandable to the psychiatrist and useful from a task-oriented point of view.",
+    "w": [
+      "Refusing ignores the practical decisions the psychiatrist must make.",
+      "The report must be understandable to the psychiatrist.",
+      "A diagnosis without practical answers leaves the decisions unaddressed."
+    ],
+    "k": "Bridge medical and psychological models: translate findings into language and answers useful for the psychiatrist's decisions.",
+    "h": "Translate, don't debate.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Psychiatric setting"
+  },
+  {
+    "t": "General medical setting",
+    "d": 2,
+    "q": "According to the course, roughly what proportion of patients seen by physicians have primarily psychosocial difficulties?",
+    "o": [
+      "As many as two-thirds",
+      "About 5%",
+      "About 10%",
+      "Almost none"
+    ],
+    "e": "The course estimates that as many as two-thirds of patients seen by physicians have primarily psychosocial difficulties, and that 25% to 50% of those with clearly established medical diagnoses also have psychological disorders. Most of these difficulties are neither diagnosed nor referred. Disorders such as coronary heart disease, asthma, allergies, rheumatoid arthritis, ulcers and headaches have significant psychosocial components, so psychologists can make an important contribution in medical settings.",
+    "w": [
+      "5% greatly underestimates the course's figure.",
+      "10% greatly underestimates the course's figure.",
+      "The course stresses how common psychosocial problems are."
+    ],
+    "k": "Up to two-thirds of medical patients have mainly psychosocial problems; 25–50% of medically diagnosed patients also have psychological disorders.",
+    "h": "Two out of three visits are partly psychological.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 General medical setting"
+  },
+  {
+    "t": "General medical setting",
+    "d": 2,
+    "q": "A pediatrician refers a child with early signs of a serious psychological disorder. What should the evaluation cover, according to the course?",
+    "o": [
+      "Current condition, environmental contributors and a prognosis for coming months",
+      "Only an IQ score, to rule out an intellectual disability",
+      "Only a DSM-5 diagnosis to be added to the medical file",
+      "Only the parents' psychiatric and medical history"
+    ],
+    "e": "Physicians may refer for underlying psychological disorders, emotional factors in medical complaints, neuropsychological deficit, chronic pain, chemical dependency, patient management, case consultation or presurgical evaluation of stress reactions. Pediatricians are often concerned with early signs of serious disorder. The course says the evaluation should assess the child's current psychological condition, the contributing factors in the environment, and give a prediction of status during the next few months or years, before recommending the next phase of intervention.",
+    "w": [
+      "An IQ score alone does not address the current condition or prognosis.",
+      "A diagnosis alone omits environment and prognosis.",
+      "Family history is one element, not the whole evaluation."
+    ],
+    "k": "Pediatric referrals: current condition + environmental contributors + short- to medium-term prognosis → next intervention step.",
+    "h": "Now, around, ahead.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 General medical setting"
+  },
+  {
+    "t": "Legal context",
+    "d": 2,
+    "q": "According to the course, in about how many cases does a psychologist who writes a legal report actually appear in court?",
+    "o": [
+      "About 1 in every 10 cases",
+      "About 9 in every 10 cases",
+      "In every case",
+      "Never; reports replace testimony"
+    ],
+    "e": "Psychologists may be involved at any stage: assessing a witness's reliability during investigation; evaluating another professional's report, competency or specifics of a crime for the prosecution; supporting an insanity plea, jury selection or documentation of brain damage for the defense; helping a judge with sentencing, a penal officer with confinement or dangerousness, or a parole officer with rehabilitation. Even though they write legal reports, psychologists actually appear in court in only about 1 in every 10 cases.",
+    "w": [
+      "This reverses the course's estimate of 1 in 10.",
+      "Most legal reports never lead to testimony.",
+      "Psychologists do sometimes testify in court."
+    ],
+    "k": "Forensic roles span investigation to parole; only about 1 report in 10 leads to a court appearance.",
+    "h": "Ten reports, one courtroom.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Legal context"
+  },
+  {
+    "t": "Legal context",
+    "d": 2,
+    "q": "During cross-examination, an attorney hostilely questions a psychologist's conclusions. What does the course say about this situation?",
+    "o": [
+      "Attorneys rarely attack the data but scrutinize the inferences; the psychologist should answer the questions directly",
+      "Attorneys usually attack the raw test scores; the psychologist should refuse to answer",
+      "The psychologist should answer the implications behind the question rather than the question itself",
+      "Hostile questioning means the report was wrong and should be withdrawn"
+    ],
+    "e": "In legal settings psychologists must adjust their language, since terms like incompetent, insane or reasonable certainty have exact meanings that vary between jurisdictions. Attorneys rarely question the data, but the inferences and their generalizability are often scrutinized or attacked; this can seem hostile, but attorneys are usually defending their client. Legal protocol requires answering questions directly rather than responding to their implications. Attorneys reason from the uniqueness of each case, not normative comparison.",
+    "w": [
+      "The course says data are rarely questioned; inferences are.",
+      "Protocol requires answering directly, not the underlying implications.",
+      "Hostility is usually advocacy, not proof of error."
+    ],
+    "k": "In court: inferences (not data) are attacked; answer directly, use precise legal terms, expect case-by-case legal reasoning.",
+    "h": "Answer the question asked, not the one implied.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Legal context"
+  },
+  {
+    "t": "Legal context",
+    "d": 2,
+    "q": "In a child custody evaluation, what is the central consideration according to the APA guidelines cited in the course?",
+    "o": [
+      "Which arrangement is in the child's best interest",
+      "Which parent has the higher IQ",
+      "Which parent hired the psychologist",
+      "Which parent has the fewest MMPI-2 elevations"
+    ],
+    "e": "The American Psychological Association has developed guidelines for child custody and child protection evaluations (2010). The central consideration is to determine which arrangement is in the child's best interest. Areas to be considered include the mental health of the parent, the quality of love and affection between parent and child, the nature of the parent–child relationship, and the long-term potential effects of the different decisions on the child.",
+    "w": [
+      "IQ is not the criterion for custody.",
+      "Who hired the psychologist must not drive the conclusion.",
+      "Test elevations alone do not establish parenting capacity."
+    ],
+    "k": "Custody: the child's best interest — parent's mental health, love and affection, parent–child relationship, long-term effects.",
+    "h": "Center the child.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Legal context: child custody"
+  },
+  {
+    "t": "Educational context",
+    "d": 2,
+    "q": "According to the course, how does a typical educational placement assessment begin, and why must it be handled sensitively?",
+    "o": [
+      "Classroom observation under natural conditions; the teacher's style may be part of the problem",
+      "A WISC-V administration; teachers tend to dislike test results",
+      "A parent interview by phone; parents may hide information",
+      "A projective drawing; young children may feel frightened"
+    ],
+    "e": "School assessments evaluate learning difficulties, intellectual strengths and weaknesses, behavioral difficulties, the educational plan, responsiveness to intervention and needed changes in program or placement. A typical placement begins with a visit to the classroom to observe the child's behavior under natural conditions, especially the teacher–child interaction. Behavioral difficulty is often linked to that interaction, and the teacher's style can be as much part of the problem as the student, so observations can make teachers uncomfortable.",
+    "w": [
+      "Testing usually follows the classroom observation.",
+      "The course starts with classroom observation, not a phone interview.",
+      "Projective techniques have largely been replaced by rating scales."
+    ],
+    "k": "School assessment starts with classroom observation of teacher–child interaction; handle it tactfully with teachers.",
+    "h": "Visit the classroom first.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Academic/educational context"
+  },
+  {
+    "t": "Educational context",
+    "d": 2,
+    "q": "According to the course, what has replaced projective techniques for assessing children's emotional functioning in schools, and why?",
+    "o": [
+      "Behavior rating scales (CBCL, Conners-3, BASC-3), as many projectives are weak and slow",
+      "The Rorschach, because it is faster to score than any rating scale",
+      "Interviews alone, because psychological tests are banned in schools",
+      "Intelligence tests, because emotions can be inferred from IQ scores"
+    ],
+    "e": "In the past, children's emotional functioning was assessed with projective techniques, but many have inadequate psychometric properties and are time-consuming to administer, score and interpret. Behavioral rating instruments have begun to replace them: the Achenbach Child Behavior Checklist, the Conners-3 Parent and Teacher Rating Scales and the BASC-3. Objective instruments such as the PIC-2 (completed by a parent, with 4 validity and 12 clinical scales) and, for adolescents, the MMPI-A or MACI are also used.",
+    "w": [
+      "The Rorschach is a projective technique, the very kind being replaced.",
+      "Tests are used in schools; the course lists many.",
+      "IQ tests measure intellectual abilities, not emotional functioning."
+    ],
+    "k": "Children's emotional assessment: rating scales (CBCL, Conners-3, BASC-3) and objective inventories (PIC-2, MMPI-A, MACI) have replaced projectives.",
+    "h": "Ratings replaced inkblots.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Academic/educational context"
+  },
+  {
+    "t": "Educational context",
+    "d": 3,
+    "q": "According to the course, what must the FIRST phase of a psychoeducational assessment establish?",
+    "o": [
+      "That the child struggles despite appropriate, good-quality instruction",
+      "The child's full-scale IQ and index profile",
+      "Whether the child has a biomedical disorder such as poor vision",
+      "The child's personality profile on an objective inventory"
+    ],
+    "e": "The course describes two phases. The first assesses the nature and quality of the child's learning environment: a child not exposed to adequate instruction cannot be expected to perform well, so it must first be shown that the child is struggling despite appropriate instruction. The second phase is a comprehensive battery: intellectual abilities, academic skills, adaptive behavior (social skills, motivation, attention, impulse control), attitudes toward education, personal efficacy, and screening for biomedical problems such as poor vision, hearing, hunger or endocrine dysfunction.",
+    "w": [
+      "IQ belongs to the second, comprehensive phase.",
+      "Biomedical screening is part of the second phase.",
+      "Personality is not the first phase's focus."
+    ],
+    "k": "Psychoeducational phase 1: quality of instruction (struggling despite good teaching?); phase 2: full battery incl. adaptive and biomedical screening.",
+    "h": "Check the teaching before testing the child.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Academic/educational context"
+  },
+  {
+    "t": "Psychological clinic",
+    "d": 2,
+    "q": "How does the psychologist's role in a psychological clinic differ from that in medical, legal and educational settings?",
+    "o": [
+      "In the clinic the psychologist is often the decision maker, rather than a consultant to one",
+      "In the clinic the psychologist never uses tests",
+      "In the clinic the psychologist only administers tests for physicians",
+      "In the clinic the psychologist works only with court-ordered cases"
+    ],
+    "e": "In medical, legal and educational institutions, the psychologist typically serves as a consultant to the decision maker; in a psychological clinic, the psychologist often is the decision maker. Many clients are self-referred and seeking relief; for them extensive testing may be unnecessary, and the time is better spent on treatment. Testing helps when clients have extensive medical problems, legal complications or may need higher care, or when diagnoses are unclear or treatment has stalled.",
+    "w": [
+      "Testing is used in clinics when it aids decisions.",
+      "This describes a consultant role in medical settings.",
+      "Clinics receive many self-referred clients, not only court cases."
+    ],
+    "k": "Clinic: psychologist decides; test self-referred clients only when it helps (medical/legal complications, unclear diagnosis, stalled treatment).",
+    "h": "In the clinic, you're the judge.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Psychological clinic"
+  },
+  {
+    "t": "Psychological clinic",
+    "d": 2,
+    "q": "Parents refer their child for poor school performance amid a custody dispute. What precaution does the course recommend before testing?",
+    "o": [
+      "Map the social network and events behind the referral, possibly meeting those involved",
+      "Test immediately so that results are ready in time for the court",
+      "Accept the parents' description as the complete referral question",
+      "Avoid any contact with the school, the court or the attorneys"
+    ],
+    "e": "For referrals involving poor school performance or legal complications, the course says special precautions must be taken before testing. The clinician must understand the client's social network and the basis for the referral, including previous treatment attempts and the relationships among parents, school, courts and child. A referral usually comes at the end of a long sequence of events. Meeting the principal, previous therapists, probation officer, attorney or teacher may uncover decisions such as family therapy, special education or custody changes.",
+    "w": [
+      "Testing before understanding the context risks answering the wrong question.",
+      "The initial referral should not be taken at face value.",
+      "Meetings with involved professionals are recommended."
+    ],
+    "k": "Before testing complex referrals: map the social network and history of events; meet involved parties; issues may go beyond testing.",
+    "h": "Map the web before you test.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Psychological clinic"
+  },
+  {
+    "t": "Referral settings",
+    "d": 2,
+    "q": "A psychologist opposed to capital punishment is asked to evaluate a defendant whose report may be used to support a death sentence. What does the course advise?",
+    "o": [
+      "Reconsider, clarify or possibly change the relationship to the referral setting",
+      "Proceed and keep personal values entirely out of the decision",
+      "Write a deliberately unfavorable report to prevent misuse",
+      "Refuse to give any feedback to the court"
+    ],
+    "e": "The course says psychologists must understand the values underlying a setting and assess whether they coincide with their own; those who do not believe in aversion therapy, capital punishment or electroconvulsive therapy may come into conflict with certain settings. Decisions based on assessment can be major turning points in a client's life. If the information might be used in a way that conflicts with the evaluator's values, he or she should reconsider, clarify or possibly change the relationship to the referral setting.",
+    "w": [
+      "The course asks psychologists to examine value conflicts, not ignore them.",
+      "Distorting a report would be unethical.",
+      "Withholding feedback is not the course's recommendation."
+    ],
+    "k": "Value conflicts with the setting (capital punishment, ECT, aversion therapy) → reconsider, clarify or change the relationship to the setting.",
+    "h": "Know how your report will be used.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Summary of referral settings"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "In the studies cited by the course, how much did enhanced rapport (verbal reinforcement, friendly conversation) raise older children's WISC-R scores?",
+    "o": [
+      "By about 13 IQ points, nearly one standard deviation",
+      "By about 2 IQ points, a negligible difference",
+      "Not at all; scores were identical in both conditions",
+      "By about 30 IQ points, two full standard deviations"
+    ],
+    "e": "Assessment must occur within a clearly defined professional relationship, with information given and consent signed. The examiner must recognize his or her influence and optimize rapport. With older children (but not younger ones), enhanced rapport involving verbal reinforcement and friendly conversation increased WISC-R scores by an average of 13 IQ points compared with neutral administration, nearly one full standard deviation. Mildly disapproving comments ('I thought you could do better than that') significantly lowered performance.",
+    "w": [
+      "The effect was much larger than 2 points.",
+      "The course reports a substantial effect.",
+      "30 points exaggerates the effect reported."
+    ],
+    "k": "Rapport effect: +13 IQ points (≈ 1 SD) for older children; mild disapproval lowers performance.",
+    "h": "Warmth is worth 13 points.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: developing a professional relationship"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "Studies by Sattler showed what effect of the examiner LIKING the client?",
+    "o": [
+      "Ambiguous responses were more often scored in the client's favor",
+      "Scores became more accurate and objective",
+      "The client became less cooperative",
+      "No effect on scoring was found"
+    ],
+    "e": "The course notes that the degree to which the examiner likes the client and sees him or her as warm and friendly can confound administration and, more commonly, scoring. The more the examiner likes the client, the more likely an ambiguous response is scored in a favorable direction; higher scores can occur even on unambiguous items. 'Hard' versus lenient scoring partly reflects subjective liking, so examiners must check whether the relationship is interfering with objectivity and standardization.",
+    "w": [
+      "Liking introduced a lenient bias, not greater accuracy.",
+      "The effect concerns the examiner's scoring, not client cooperation.",
+      "A clear scoring effect was found."
+    ],
+    "k": "Examiner liking biases scoring toward leniency, even on clear items; monitor objectivity.",
+    "h": "Liked clients get kinder scores.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: developing a professional relationship"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "A client is extremely anxious during an intelligence test. What does the course suggest?",
+    "o": [
+      "Consider stopping, or interpret with the anxiety in mind (estimate optimal level higher)",
+      "Ignore the anxiety, since standardized tests are not affected by emotions",
+      "Lower the IQ estimate further to reflect the client's poor coping",
+      "Repeat the whole test immediately in the same session"
+    ],
+    "e": "The client's emotional state, particularly motivation and anxiety, can affect the relationship and results. The course says it may sometimes be advisable to discontinue testing because situational emotional states can significantly influence the results. At the very least, examiners should consider emotional factors and incorporate them into interpretation; for example, it may be necessary to increase the estimate of optimal intellectual functioning if the client was obviously extremely anxious during an intelligence test.",
+    "w": [
+      "Standardization does not remove the effect of situational states.",
+      "The course suggests the opposite adjustment.",
+      "Immediate repetition does not address the emotional state."
+    ],
+    "k": "Situational anxiety can depress scores: consider stopping, or interpret with it in mind (estimate optimal functioning upward).",
+    "h": "Anxious scores underestimate.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: developing a professional relationship"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "What danger of psychiatric labeling does the course emphasize?",
+    "o": [
+      "Self-fulfilling prophecy; clients use the label to deny responsibility and feel helpless",
+      "Labels make clients feel too responsible for their own behavior",
+      "Labels always improve outcomes by clarifying what treatment to give",
+      "Psychiatric labels carry less stigma than physical medical diagnoses"
+    ],
+    "e": "Medical diagnoses for physical ailments usually carry mild stigma, but many psychiatric diagnoses can be damaging. A major danger is a self-fulfilling prophecy based on the roles expected with a label, often communicated nonverbally. Self-accepted labels can also be used to excuse or deny responsibility, consistent with a medical model in which the 'sick' person is a victim of an invading disorder. This helplessness may lower the ability to deal with stress; clients need more responsibility for their lives (Szasz, 1987).",
+    "w": [
+      "The course warns that labels reduce responsibility.",
+      "The course says labels can perpetuate behavioral problems.",
+      "Psychiatric labels carry more stigma than medical ones."
+    ],
+    "k": "Psychiatric labels risk self-fulfilling prophecy and passive, helpless 'sick role' thinking; promote responsibility instead.",
+    "h": "A label can become a script.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: labeling and restriction of freedom"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "Which is an example of test misuse discussed in the course?",
+    "o": [
+      "Using the MMPI-2 to screen applicants for most jobs",
+      "Using the WISC-V to assess a child's intellectual abilities",
+      "Using validity scales to detect faking",
+      "Using rating scales in a school assessment"
+    ],
+    "e": "Tests should be used only for the purposes they were designed for. Examples of extension beyond design: inferring IQ mainly from the TAT or Rorschach, or using the MMPI-2 or MCMI-IV (designed for psychopathology) to assess a normal person's functioning; such inferences are extremely tentative. A more serious misuse is screening job applicants with the MMPI-2: results are likely irrelevant to most job skills, and the highly personal information is likely to represent an invasion of privacy.",
+    "w": [
+      "Assessing intelligence is what the WISC-V was designed for.",
+      "Validity scales are recommended for detecting faking.",
+      "Rating scales are recommended in schools."
+    ],
+    "k": "Use tests only for their designed purpose; MMPI-2 personnel screening is irrelevant to job skills and invades privacy.",
+    "h": "Right tool, right job.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: competent use of assessment instruments"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "According to the course's rule of thumb, a clinician is probably NOT practicing competently if he or she has not updated test knowledge within the past:",
+    "o": [
+      "10 years",
+      "6 months",
+      "30 years",
+      "50 years"
+    ],
+    "e": "Interpretation is never mechanical: it combines norms and cutoffs with the person's unique characteristics. Integrating a battery is harder to validate than a single test, contradictions must be evaluated, and reservations communicated in the report. Test norms and stimulus materials also become outdated, making interpretations inaccurate. Clinicians must stay current; the course's rule of thumb is that a clinician who has not updated test knowledge in at most the past 10 years is probably not practicing competently.",
+    "w": [
+      "Six months is not the figure given.",
+      "Thirty years is far beyond the rule of thumb.",
+      "Fifty years is far beyond the rule of thumb."
+    ],
+    "k": "Norms and materials age: update test knowledge at least every 10 years, or competence is doubtful.",
+    "h": "A decade without updating = outdated.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: interpretation and use of test results"
+  },
+  {
+    "t": "Ethics",
+    "d": 2,
+    "q": "Which way of giving IQ feedback to parents best fits the course?",
+    "o": [
+      "'Your child is in the top 2% of peers and is good at organizing nonverbal material like puzzles'",
+      "'Your child has an IQ of 130 with a relative strength in spatial organization'",
+      "'Your child's FSIQ is two standard deviations above the mean'",
+      "'The scores are confidential, so I cannot explain them'"
+    ],
+    "e": "Feedback should be given in clear, everyday language suited to the receiver's needs, vocabulary, education, knowledge of testing and likely emotional reaction. The course's example: telling parents their child has an IQ of 130 with strengths in spatial organization is only minimally relevant; better to say the child is functioning in the top 2% compared with peers and is particularly good at organizing nonverbal material, such as piecing together puzzles or building a playhouse. Good feedback can reduce distress and enhance self-esteem.",
+    "w": [
+      "This technical phrasing is what the course calls minimally relevant for parents.",
+      "Statistical jargon is not everyday language.",
+      "Psychologists should ordinarily give feedback to client and referral source."
+    ],
+    "k": "Feedback: everyday language, performance levels plus behavioral examples, tailored to the receiver; it can be therapeutic.",
+    "h": "Translate numbers into daily life.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Ethics: communicating test results"
+  },
+  {
+    "t": "Diagnostic issues",
+    "d": 2,
+    "q": "A client who has experienced significant racial discrimination obtains an elevated MMPI-2 Scale 6 (Paranoia). What does the course advise?",
+    "o": [
+      "Moderate the pathological reading of the elevation in light of that experience",
+      "Diagnose a paranoid disorder, since the paranoia scale is clearly elevated",
+      "Ignore the paranoia scale entirely whenever the client is from a minority",
+      "Re-administer the whole MMPI-2 in English to obtain a valid profile"
+    ],
+    "e": "DSM-5 diagnosis must consider cultural factors: the client's cultural identity and cultural explanations of the difficulty, including cultural concepts of distress such as dhat syndrome. Oppression and discrimination may lead to misdiagnosing a person as paranoid, and depression may be presented in physiological terms. The course's examples: the pathological aspects of a high Scale 6 may need moderating for a client who has faced significant racial discrimination; low emotional expressiveness on the Rorschach may reflect struggles with English as a second language.",
+    "w": [
+      "This is the misdiagnosis the course warns against.",
+      "The scale is moderated, not ignored.",
+      "Language of administration is not the issue here."
+    ],
+    "k": "Interpret elevations in cultural context: discrimination can raise paranoia scores without paranoid pathology.",
+    "h": "Context can explain suspicion.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Diagnostic issues"
+  },
+  {
+    "t": "Diagnostic issues",
+    "d": 2,
+    "q": "How does the course describe dhat syndrome?",
+    "o": [
+      "A South Asian cultural concept of distress about semen loss, not a standalone diagnosis",
+      "A standalone DSM-5 anxiety disorder found in every culture worldwide",
+      "A neurological disorder caused by a vitamin deficiency in young men",
+      "A personality disorder especially common in Western European countries"
+    ],
+    "e": "Dhat syndrome is recognized in DSM-5 as a cultural concept of distress, not a standalone diagnosis. It is most prevalent in South Asia, particularly India, and involves excessive worry and anxiety about the perceived loss of semen, often in young men, with anxiety, depressive mood and multiple somatic complaints. It reflects culturally specific beliefs about semen as a vital fluid; its status in mainstream classifications remains debated.",
+    "w": [
+      "It is not a standalone diagnosis.",
+      "It is a culturally shaped expression of distress, not a neurological disorder.",
+      "It is not a personality disorder and is most prevalent in South Asia."
+    ],
+    "k": "Dhat syndrome: South Asian cultural concept of distress (semen-loss anxiety, somatic and depressive symptoms), not a separate DSM-5 diagnosis.",
+    "h": "Culture shapes how distress speaks.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Diagnostic issues"
+  },
+  {
+    "t": "Selecting tests",
+    "d": 1,
+    "q": "According to the course, what is the MOST important factor in test selection?",
+    "o": [
+      "How useful the test is in answering the referral question",
+      "How new the test is",
+      "How long the test takes to administer",
+      "How familiar the client is with the test"
+    ],
+    "e": "The course states that the most important factor in test selection is the extent to which the test is useful in answering the referral question. Other factors include the practitioner's training, experience, preferences and familiarity with the literature (e.g. choosing the MCMI-IV over the MMPI-2 for personality disorders), practical efficiency in time and cost (sometimes simple behavioral predictions by the client), computer assistance to lower cost, and good psychometric properties.",
+    "w": [
+      "Recency is not named as the most important factor.",
+      "Efficiency matters, but it is secondary to usefulness.",
+      "Client familiarity is not a selection criterion given."
+    ],
+    "k": "Choose tests first for their usefulness in answering the referral question; then training, efficiency and psychometrics.",
+    "h": "Does it answer the question?",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Selecting psychological tests"
+  },
+  {
+    "t": "Selecting tests",
+    "d": 2,
+    "q": "In a forensic case where a client may 'fake bad' for personal gain, which tools does the course suggest?",
+    "o": [
+      "Validity scales (MMPI-2, MCMI-IV) plus specialty tools such as the TOMM or SIRS",
+      "An unstructured interview only, trusting the clinician's impression",
+      "An IQ test only, since low scores reveal deliberate faking",
+      "The client's self-description only, collected in writing"
+    ],
+    "e": "Faking is a special concern in test selection. Malingering ('inconsistent effort') is increasingly important, especially in forensic settings where personal gain may lead to 'fake bad' presentations. The course suggests attending to validity scales built into tests such as the MMPI-2 and MCMI-IV, and using specialty instruments designed to detect faking, such as the Test of Memory Malingering and the Structured Interview of Reported Symptoms. It adds, controversially, that many projective techniques may resist faking.",
+    "w": [
+      "An interview alone is vulnerable to deliberate distortion.",
+      "IQ tests alone do not detect malingering.",
+      "Self-description is what may be faked."
+    ],
+    "k": "Detect malingering with built-in validity scales (MMPI-2, MCMI-IV) and specialty tools (TOMM, SIRS).",
+    "h": "Check the validity scales first.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Selecting psychological tests"
+  },
+  {
+    "t": "Selecting tests",
+    "d": 2,
+    "q": "In Table 2.2, which instruments are listed under 'Suicide potential'?",
+    "o": [
+      "Scale of Suicide Ideation and Beck Hopelessness Scale",
+      "Bender-2 and Rey Auditory Verbal Learning Test",
+      "Strong Interest Inventory and Kuder Survey",
+      "Dyadic Adjustment Scale and Family Environment Scale"
+    ],
+    "e": "Table 2.2 maps response domains to instruments. Under prognosis and risk, suicide potential lists the Scale of Suicide Ideation and the Beck Hopelessness Scale; schizophrenia prognosis lists the Camberwell Family Interview. Other domains: memory (WMS-IV, Rey AVLT, CVLT, Benton), visuoconstructive abilities (Bender-2), vocational interests (Strong, Kuder, Self-Directed Search) and marital/family disturbance (Dyadic Adjustment Scale, Family Environment Scale, Marital Satisfaction Inventory).",
+    "w": [
+      "These instruments assess visuoconstruction and verbal memory.",
+      "These instruments assess vocational interests, not risk.",
+      "These assess marital and family disturbance."
+    ],
+    "k": "Table 2.2: suicide potential → Scale of Suicide Ideation, Beck Hopelessness Scale.",
+    "h": "Hopelessness predicts danger.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Table 2.2"
+  },
+  {
+    "t": "Selecting tests",
+    "d": 2,
+    "q": "In Table 2.2, which instruments assess the 'content of thought processes'?",
+    "o": [
+      "TAT, CAT and Roberts' Apperception Test",
+      "MMSE and the Mental Status Examination",
+      "WAIS-IV, WISC-V and the Stanford-Binet",
+      "BDI-2 and the Hamilton Rating Scale"
+    ],
+    "e": "Table 2.2 lists the Thematic Apperception Test, Children's Apperception Test and Roberts' Apperception Test for Children under content of thought processes. General cognitive functioning is screened with the Mental Status Examination and MMSE; intellectual functioning uses the WAIS-IV, WISC-V, SB5, KABC-2 and WJ-IV; depression uses the BDI-2, Hamilton Rating Scale and Children's Depression Inventory; anxiety uses the STAI, Fear Survey Schedule and ADIS.",
+    "w": [
+      "These instruments screen general cognitive functioning.",
+      "These instruments measure intellectual functioning, not thought content.",
+      "These instruments measure the severity of depression."
+    ],
+    "k": "Apperception tests (TAT, CAT, RATC) → content of thought processes.",
+    "h": "Tell a story, reveal your thoughts.",
+    "r": "Psychological Tools & Strategies course – Ch. 2 Table 2.2"
+  }
+]

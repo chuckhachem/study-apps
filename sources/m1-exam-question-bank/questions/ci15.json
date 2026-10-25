@@ -1,0 +1,322 @@
+[
+  {
+    "t": "Synthesis Acronyms",
+    "d": 2,
+    "q": "Match the acronym to its chapter use: SLAP, CAGE, ADDRESSING, BASIC ID.",
+    "o": [
+      "Suicide plans; alcohol screening; cultural dimensions; multimodal analysis",
+      "Alcohol screening; suicide plans; multimodal analysis; cultural dimensions",
+      "Cultural dimensions; suicide plans; alcohol screening; multimodal analysis",
+      "Multimodal analysis; cultural dimensions; suicide plans; alcohol screening"
+    ],
+    "e": "Four acronyms recur across the book. SLAP (Miller, Ch9) evaluates suicide plans: Specificity, Lethality, Availability, Proximity of help. CAGE (Ch11) screens for alcohol problems: Cut down, Annoyed, Guilty, Eye-opener. ADDRESSING (Hays, Ch14) lists cultural identity dimensions. BASIC ID (Lazarus, Ch7 and Ch10) is multimodal problem analysis: Behavior, Affect, Sensation, Imagery, Cognition, Interpersonal, Drugs/biology.",
+    "w": [
+      "This swaps SLAP and CAGE, and also ADDRESSING and BASIC ID.",
+      "This puts ADDRESSING first as suicide plans; every pairing is shifted.",
+      "This rotates the uses; BASIC ID isn't suicide-related and SLAP isn't cultural."
+    ],
+    "k": "SLAP = suicide plans; CAGE = alcohol; ADDRESSING = culture; BASIC ID = multimodal analysis.",
+    "h": "SLAP the plan, CAGE the drink, ADDRESS the culture, BASIC-ally map the person.",
+    "r": "Sommers-Flanagan Ch7, Ch9, Ch11, Ch14 – synthesis"
+  },
+  {
+    "t": "Synthesis Numbers",
+    "d": 3,
+    "q": "Which two findings in the book share the same correlation, r = .32 (about 10% of variance)?",
+    "o": [
+      "Empathy–outcome (Ch5) and PCL-R–violent recidivism (Ch11)",
+      "Hopelessness–suicide (Ch9) and the GAF–diagnosis agreement (Ch7)",
+      "Vocabulary–IQ (Ch8) and schizophrenia–violence (Ch11), both positive",
+      "Working alliance–outcome (Ch5) and CAGE–alcoholism screening (Ch11)"
+    ],
+    "e": "Two findings share r = .32, about 10% of variance (r² ≈ .10): the empathy–outcome correlation (Greenberg et al., Ch5) and the PCL-R's correlation with violent recidivism (Ch11). Empathy accounts for as much outcome variance as specific techniques, while the PCL-R, the best single predictor of violence, still has low predictive validity. Schizophrenia–violence, by contrast, is r ≈ –.13.",
+    "w": [
+      "Hopelessness predicts suicide, and the GAF is subjective, but neither pairs at r = .32 in the book.",
+      "Vocabulary predicts IQ, but schizophrenia–violence is negative (r ≈ –.13), not .32.",
+      "The working alliance and CAGE aren't cited with r = .32."
+    ],
+    "k": "r = .32 (≈10% variance): empathy–outcome (Ch5) and PCL-R–violence (Ch11).",
+    "h": "'.32 twins': empathy's healing power equals the PCL-R's predictive power.",
+    "r": "Sommers-Flanagan Ch5 & Ch11 – synthesis"
+  },
+  {
+    "t": "Synthesis Timing",
+    "d": 3,
+    "q": "Which pairing of interview timing guidelines is correct?",
+    "o": [
+      "Shea's opening ≈ 5–8 min; stop new information 5–10 min before the end",
+      "Opening ≈ 15–25 min of free talk; stop new information just 1–2 min before the end",
+      "Opening ≈ 30 min of nondirective listening; begin the closing 20 min before the end",
+      "Opening ≈ 1–2 min; closing ≈ 15 min"
+    ],
+    "e": "Timing guidelines across the book: Shea's nondirective opening lasts about 5–8 minutes, and you stop gathering new information 5–10 minutes before the end to allow a proper closing. Other numbers: track the chief complaint at least 5–15 minutes (Ch7), ask 'why now' after about 15–25 minutes (Ch7), start diagnostic questions by the 10-minute mark in brief intakes, and raise substance use after 5–10 minutes of rapport in MI (Ch11).",
+    "w": [
+      "15–25 minutes is too long for the opening, and 1–2 minutes is too short for closing.",
+      "30 minutes of opening and a 20-minute closing don't match the guidelines.",
+      "A 1–2 minute opening is too short and a 15-minute closing too long."
+    ],
+    "k": "Shea's opening ≈ 5–8 minutes; stop new information 5–10 minutes before the end.",
+    "h": "Five-to-eight in, five-to-ten out.",
+    "r": "Sommers-Flanagan Ch6, Ch7, Ch11 – synthesis"
+  },
+  {
+    "t": "Synthesis Structure",
+    "d": 2,
+    "q": "Which interview model organizes both the child chapter (Ch12) and the couples/families chapter (Ch13)?",
+    "o": [
+      "Shea's five stages, from introduction through termination",
+      "Prochaska's six stages of change, from precontemplation onward",
+      "Jongsma's six planning steps, from problem selection to diagnosis",
+      "Lazarus's BASIC ID, applied modality by modality"
+    ],
+    "e": "Shea's five-stage model (introduction, opening, body, closing, termination), introduced in Chapter 6, organizes both the child chapter (Ch12) and the couples and families chapter (Ch13). The same structure is reapplied to special populations, with adaptations for each, such as who to greet first or how to explain confidentiality.",
+    "w": [
+      "Prochaska's stages describe readiness to change, not interview structure.",
+      "Jongsma's steps structure treatment plans, not interviews.",
+      "BASIC ID organizes problem analysis, not interview chapters."
+    ],
+    "k": "Shea's five stages structure the child and couple/family interview chapters.",
+    "h": "Same five acts, new cast.",
+    "r": "Sommers-Flanagan Ch6, Ch12, Ch13 – synthesis"
+  },
+  {
+    "t": "Synthesis Radical acceptance",
+    "d": 2,
+    "q": "Radical acceptance appears in which two contexts in the book?",
+    "o": [
+      "Hostile mandated clients (Ch11) and parents with objectionable views (Ch12)",
+      "Suicidal clients' reasons for dying (Ch9) and delusions during the MSE (Ch8)",
+      "Couples' secrets and affairs (Ch13) and clients' self-diagnoses (Ch10)",
+      "Disaster survivors' anger (Ch11) and immigrants' legal concerns (Ch14)"
+    ],
+    "e": "Radical acceptance appears with hostile mandated clients (Ch11), for example thanking a client for openly saying they hate psychologists, and with parents holding objectionable views (Ch12), such as 'I'm very glad you brought up spanking.' Derived from person-centered theory, it actively welcomes any comment, letting unhealthy beliefs deconstruct under open inspection.",
+    "w": [
+      "Suicidal reasons and delusions are handled with assessment and Robinson's approach, not named as radical acceptance.",
+      "Couple secrets and self-diagnoses aren't the contexts cited.",
+      "Disaster anger and immigrant legal concerns aren't the contexts cited."
+    ],
+    "k": "Radical acceptance: with hostile mandated clients (Ch11) and parents with objectionable views (Ch12).",
+    "h": "Welcome the provocation.",
+    "r": "Sommers-Flanagan Ch11 & Ch12 – synthesis"
+  },
+  {
+    "t": "Synthesis Differential activation",
+    "d": 3,
+    "q": "Differential activation theory (Ch9) is later used in Ch10 to criticize:",
+    "o": [
+      "Asking six consecutive negatively worded GAD symptom questions",
+      "Using V codes instead of full diagnoses",
+      "Relying on collateral informants such as parents",
+      "The reliability of structured diagnostic interviews in research"
+    ],
+    "e": "Differential activation theory (Ch9) holds that negative mood reactivates negative thinking in vulnerable people. Chapter 10 uses it to criticize asking six consecutive negatively worded GAD symptom questions, which may worsen mood and the alliance, affecting reliability and validity. The remedy is balancing negative questions with positive ones.",
+    "w": [
+      "V codes aren't criticized using differential activation.",
+      "Collateral informants aren't criticized with this theory.",
+      "Structured interview reliability is criticized on other grounds."
+    ],
+    "k": "Differential activation explains why strings of negative symptom questions can harm mood and data quality.",
+    "h": "Too many dark questions darken the mood.",
+    "r": "Sommers-Flanagan Ch9 & Ch10 – synthesis"
+  },
+  {
+    "t": "Synthesis Psychopathology criteria",
+    "d": 2,
+    "q": "The Chapter 6 criteria for disordered behavior are reapplied in Chapter 8 when judging:",
+    "o": [
+      "The client's attitude toward the examiner",
+      "Orientation and level of consciousness",
+      "Serial sevens and digit span performance",
+      "Proverb interpretation and abstract thinking"
+    ],
+    "e": "Chapter 6's criteria for judging disorder (unusual, disturbing, maladaptive, unjustifiable) are reapplied in Chapter 8 when judging the client's attitude toward the examiner. Ask whether the behaviour is unusual, disturbing to the client or others (not just you), maladaptive, or justifiable by environmental or cultural factors.",
+    "w": [
+      "Orientation is assessed with direct questions, not these criteria.",
+      "Serial sevens and digit span are performance tests.",
+      "Proverb interpretation assesses abstract thinking, not attitude toward the examiner."
+    ],
+    "k": "Chapter 6's disorder criteria are reused to judge attitude toward the examiner in the MSE.",
+    "h": "Is it them, or just you?",
+    "r": "Sommers-Flanagan Ch6 & Ch8 – synthesis"
+  },
+  {
+    "t": "Synthesis Family tools",
+    "d": 2,
+    "q": "'Give me three words to describe your mother' appears in both:",
+    "o": [
+      "Intake history taking (Ch7) and the Adlerian family constellation (Ch10)",
+      "The mental status exam (Ch8) and the suicide assessment interview (Ch9)",
+      "Couple conflict analysis (Ch13) and the ADDRESSING framework (Ch14)",
+      "Questions (Ch4) and attending (Ch3)"
+    ],
+    "e": "'Give me three words to describe your mother' appears in intake history taking (Ch7) and in the Adlerian family constellation interview (Ch10). In both, ask for specific examples fitting each word. The family constellation or genogram also gathers family mental health and suicide history.",
+    "w": [
+      "The MSE and suicide assessment don't use this question.",
+      "Couple conflict analysis and ADDRESSING don't use it.",
+      "The question chapters (Ch3, Ch4) don't present it."
+    ],
+    "k": "'Three words for each parent' appears in intake history (Ch7) and the family constellation (Ch10).",
+    "h": "Three words, two chapters.",
+    "r": "Sommers-Flanagan Ch7 & Ch10 – synthesis"
+  },
+  {
+    "t": "Synthesis Robinson",
+    "d": 2,
+    "q": "Robinson (2007) is cited for which two interviewing strategies?",
+    "o": [
+      "Questioning about delusions (Ch8) and answering 'Do you believe me?' (Ch11)",
+      "The SLAP acronym (Ch9) and the CAGE alcohol screening questions (Ch11)",
+      "Wishes (Ch12) and genograms (Ch13)",
+      "Role induction for diagnostic interviews (Ch10) and the love reframe (Ch11)"
+    ],
+    "e": "Robinson (2007) is cited for questioning about delusions (Ch8): grease the wheels, uncover the logic, determine the client's distance from the delusion; and for answering 'Do you believe me?' (Ch11) with 'I'm keeping an open mind.' Both avoid colluding with or confronting unusual beliefs.",
+    "w": [
+      "SLAP is Miller's; CAGE is a separate screening tool.",
+      "Wishes and genograms aren't Robinson's contributions.",
+      "Role induction and the love reframe aren't Robinson's."
+    ],
+    "k": "Robinson: questioning about delusions (Ch8) and 'I'm keeping an open mind' (Ch11).",
+    "h": "Robinson keeps an open mind.",
+    "r": "Sommers-Flanagan Ch8 & Ch11 – synthesis"
+  },
+  {
+    "t": "Synthesis Paniagua",
+    "d": 3,
+    "q": "Which claim is NOT attributed to Paniagua in the book?",
+    "o": [
+      "Suicide prevention contracts lack an empirical basis",
+      "Clients not fluent in English may show thought blocking",
+      "Traditional MSEs are nearly always inappropriate with multicultural clients",
+      "Context determines whether accepting a client's gift is appropriate"
+    ],
+    "e": "The claim that suicide prevention contracts lack an empirical basis comes from Rudd and colleagues (2006) in Chapter 9, not Paniagua. Paniagua is cited for noting that clients not fluent in English may show apparent thought blocking, that traditional MSEs are nearly always inappropriate with multicultural clients, and that context determines whether accepting a gift is appropriate.",
+    "w": [
+      "Apparent thought blocking in non-fluent clients is Paniagua's point.",
+      "Calling traditional MSEs nearly always inappropriate is Paniagua's view.",
+      "Context determining gift acceptance is Paniagua's point."
+    ],
+    "k": "No-suicide contract critique = Rudd et al.; Paniagua = culture, MSEs, language, gifts.",
+    "h": "Paniagua speaks for culture; Rudd speaks on contracts.",
+    "r": "Sommers-Flanagan Ch8, Ch9, Ch14 – synthesis"
+  },
+  {
+    "t": "Synthesis Solution-focused",
+    "d": 2,
+    "q": "de Shazer appears in the book both for the miracle question (Ch4, Ch10) and for:",
+    "o": [
+      "Pronouncing the 'Death of Resistance' (Ch11)",
+      "Developing the stages of change model with Prochaska",
+      "Creating the CAGE questionnaire for alcohol screening",
+      "Introducing joining in structural family therapy"
+    ],
+    "e": "Steve de Shazer appears for the miracle question (Ch4, Ch10) and for pronouncing the 'Death of Resistance' in 1984 (Ch11). Solution-focused thinking views resistance as created by directive therapists, and the miracle question helps clients articulate goals in a future-focused way.",
+    "w": [
+      "The stages of change are Prochaska and DiClemente's model.",
+      "CAGE wasn't created by de Shazer.",
+      "Joining comes from Minuchin's structural family therapy."
+    ],
+    "k": "De Shazer: the miracle question and the 'Death of Resistance'.",
+    "h": "Miracle yes, resistance dead.",
+    "r": "Sommers-Flanagan Ch4, Ch10, Ch11 – synthesis"
+  },
+  {
+    "t": "Synthesis Countertransference",
+    "d": 2,
+    "q": "Which is an example of countertransference described in the book?",
+    "o": [
+      "Giving a disliked client a more severe diagnosis (Ch10)",
+      "Using a scaling question to rate hopelessness",
+      "Asking a 'why now' question during an intake",
+      "Paraphrasing a client's feelings with tentative wording"
+    ],
+    "e": "Giving a disliked client a more severe diagnosis (Ch10) is countertransference: the interviewer's feelings distort judgement. Other examples: urges to punish rude youth (Ch12), reactions others don't share (Teyber, Ch7), and identification, projection or avoidance with families (Ch13). Scaling questions, 'why now' and tentative paraphrases are techniques.",
+    "w": [
+      "A scaling question is an assessment technique, not countertransference.",
+      "'Why now' is an intake question.",
+      "Tentative paraphrasing is a listening skill."
+    ],
+    "k": "Countertransference example: diagnosing a disliked client more severely.",
+    "h": "Feelings bending the label.",
+    "r": "Sommers-Flanagan Ch5, Ch7, Ch10, Ch12, Ch13 – synthesis"
+  },
+  {
+    "t": "Synthesis Morrison",
+    "d": 3,
+    "q": "Morrison is cited for which two ideas?",
+    "o": [
+      "Least severe fitting label (Ch7) and warning against 'pigeonholing' (Ch10)",
+      "The SLAP acronym for suicide plans (Ch9) and SSRI risk warnings (Ch9)",
+      "The triarchic theory of intelligence (Ch8) and the ADDRESSING model (Ch14)",
+      "Emotional bids in couples (Ch13) and joining with families (Ch13)"
+    ],
+    "e": "Morrison is cited for choosing the least severe diagnostic label that fits (Ch7), as with Mr. Smith's provisional adjustment disorder, and for warning against 'pigeonholing', labelling people while ignoring their individuality (Ch10). He also notes collateral history can strongly influence diagnosis.",
+    "w": [
+      "SLAP is Miller's, and SSRI warnings came from the FDA.",
+      "The triarchic theory is Sternberg's, and ADDRESSING is Hays's.",
+      "Emotional bids are Gottman's, and joining is Minuchin's."
+    ],
+    "k": "Morrison: least severe fitting label, and avoid pigeonholing.",
+    "h": "Lightest label, no pigeonholes.",
+    "r": "Sommers-Flanagan Ch7 & Ch10 – synthesis"
+  },
+  {
+    "t": "Synthesis Uncertainty",
+    "d": 2,
+    "q": "Which set lists tools the book offers for communicating diagnostic uncertainty?",
+    "o": [
+      "'Provisional', 'rule-out', GAF ranges, 799.9, 300.9, V codes",
+      "Structured interviews, projective drawings, the CAGE and SLAP screens",
+      "SLAP, ADDRESSING, BASIC ID and DO A CLIENT MAP acronyms",
+      "Three wishes, scaling, miracle and exception questions"
+    ],
+    "e": "The book offers tools for communicating diagnostic uncertainty: 'provisional' diagnoses, 'rule-out' statements and GAF ranges (Mr. Smith's report, Ch7), plus 799.9 (diagnosis deferred), 300.9 (unspecified mental disorder) and V codes for non-disorder problems (Ch10). These keep reports honest about what isn't yet known.",
+    "w": [
+      "Structured interviews and screens gather data; they don't express uncertainty.",
+      "These acronyms organize assessment and planning, not uncertainty.",
+      "These solution-focused questions set goals, not diagnostic uncertainty."
+    ],
+    "k": "Uncertainty tools: provisional, rule-out, GAF ranges, 799.9, 300.9, V codes.",
+    "h": "Pencil, not pen.",
+    "r": "Sommers-Flanagan Ch7 & Ch10 – synthesis"
+  },
+  {
+    "t": "Synthesis Collaboration",
+    "d": 2,
+    "q": "A common thread in Jobes's CAMS (Ch9), MI (Ch11) and the balanced diagnostic interview (Ch10) is:",
+    "o": [
+      "A collaborative relationship in which the client's view is central",
+      "Expert-driven confrontation of denial and faulty beliefs early on",
+      "Strict reliance on structured protocols and standardized forms",
+      "Avoidance of difficult topics until rapport is fully established"
+    ],
+    "e": "A common thread in CAMS (Ch9), motivational interviewing (Ch11) and the balanced diagnostic interview (Ch10) is a collaborative relationship in which the client's view is central. CAMS treats the client as expert on their suicidality; MI has the client voice the arguments for change; the balanced interview builds a treatment plan together.",
+    "w": [
+      "Confronting denial is what all three avoid.",
+      "Strict structured protocols aren't their common thread.",
+      "Avoiding hard topics isn't their approach; they address them collaboratively."
+    ],
+    "k": "CAMS, MI and the balanced diagnostic interview share collaboration with the client's view at the centre.",
+    "h": "With the client, not on the client.",
+    "r": "Sommers-Flanagan Ch9, Ch10, Ch11 – synthesis"
+  },
+  {
+    "t": "Synthesis Collateral",
+    "d": 2,
+    "q": "Corroborating information from family or others is recommended in all of these EXCEPT:",
+    "o": [
+      "Deciding whether a client's religious beliefs are valid",
+      "Suspected unreliability of a client's history during the MSE (Ch8)",
+      "Memory complaints and their onset and severity (Ch8)",
+      "A client's history of violent behavior (Ch11)"
+    ],
+    "e": "Collateral information is recommended when the client's history seems unreliable during the MSE (Ch8), for memory complaints and their onset and severity (Ch8), and for a history of violence (Ch11), as well as in child diagnosis (Ch10, Ch12). But clients' religious beliefs are accepted, not adjudicated, so corroboration isn't sought to decide whether they're valid (Ch14).",
+    "w": [
+      "Unreliable history is a reason to seek collateral information.",
+      "Memory complaints call for family input on onset and severity.",
+      "Violence history often requires collateral informants."
+    ],
+    "k": "Use collateral informants for reliability, memory and violence history, but never to judge religious beliefs.",
+    "h": "Verify facts, not faith.",
+    "r": "Sommers-Flanagan Ch8, Ch10, Ch11, Ch14 – synthesis"
+  }
+]

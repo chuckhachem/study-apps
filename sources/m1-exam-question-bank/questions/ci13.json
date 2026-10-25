@@ -1,0 +1,982 @@
+[
+  {
+    "t": "Ch13 Ironies",
+    "d": 2,
+    "q": "What is the 'more clients, less time' irony of couple and family work?",
+    "o": [
+      "Couples and families usually stay in counseling less long than individuals",
+      "Families require more sessions, but insurers pay for fewer",
+      "Insurers cover family therapy more generously, so sessions must be shorter",
+      "Couples attend more consistently"
+    ],
+    "e": "The 'more clients, less time' irony: although couple and family work involves more people and more complex problems, couples and families usually stay in counseling for less time than individuals. Taibbi points to unequal motivation among members, limited insurance reimbursement for relational work, and the difficulty of scheduling several busy people. Interviewers must therefore work efficiently from the first session.",
+    "w": [
+      "The irony isn't about insurers paying for fewer of many required sessions; families simply stay less long.",
+      "Insurers usually reimburse family work less, not more generously.",
+      "Couples don't attend more consistently; scheduling and motivation often get in the way."
+    ],
+    "k": "Couples and families have more people and problems but usually stay in counseling less long.",
+    "h": "More people in the room, fewer sessions on the calendar.",
+    "r": "Sommers-Flanagan Ch13 – Some ironies"
+  },
+  {
+    "t": "Ch13 Definitions",
+    "d": 2,
+    "q": "How do the authors distinguish 'couple' work from 'marital' therapy?",
+    "o": [
+      "Couple work covers any two romantic partners; marital therapy, legally married ones",
+      "They are identical terms used interchangeably by most professional organizations",
+      "Marital therapy includes unmarried partners, while couple work is only for legal spouses",
+      "Couple work excludes gay and lesbian couples"
+    ],
+    "e": "The authors use 'couple' work for any two romantic partners, married or not, gay or straight, and reserve 'marital' therapy for legally married partners. Their position is based on inclusion: the term shouldn't exclude couples who can't or don't marry. Therapy with two non-romantic family members, such as a mother and daughter, counts as family therapy.",
+    "w": [
+      "The terms aren't identical; 'couple' is the broader, more inclusive term.",
+      "This reverses them: marital therapy is for legal spouses, couple work for any partners.",
+      "Couple work explicitly includes gay and lesbian couples."
+    ],
+    "k": "'Couple' = any two romantic partners; 'marital' = legally married partners.",
+    "h": "All marriages are couples; not all couples are marriages.",
+    "r": "Sommers-Flanagan Ch13 – Defining couple"
+  },
+  {
+    "t": "Ch13 Definitions",
+    "d": 2,
+    "q": "Why do the authors recommend avoiding the term 'relationship therapy/enhancement' unless using that specific approach?",
+    "o": [
+      "It doesn't distinguish couple therapy from family therapy or mediation",
+      "It is offensive to many clients",
+      "It is outdated",
+      "It refers only to sex therapy and enhancement of physical intimacy"
+    ],
+    "e": "'Relationship therapy' or 'relationship enhancement' is too vague: it doesn't distinguish couple therapy from family therapy or mediation, since all involve relationships. It's also the name of a specific approach, Guerney's relationship enhancement therapy, so the authors recommend using it only when that approach is meant.",
+    "w": [
+      "The term isn't considered offensive; it's imprecise.",
+      "It isn't outdated; it's ambiguous and names a specific approach.",
+      "It doesn't refer only to sex therapy."
+    ],
+    "k": "Avoid 'relationship therapy' loosely: it's vague and names Guerney's specific approach.",
+    "h": "Every therapy involves relationships, so the label says little.",
+    "r": "Sommers-Flanagan Ch13 – Defining couple"
+  },
+  {
+    "t": "Ch13 Definitions",
+    "d": 2,
+    "q": "The authors' preference for beginning family interviewers is to train:",
+    "o": [
+      "With immediate supervisors or a reflecting team",
+      "Independently, in order to build confidence quickly",
+      "Only with individual clients first for five years",
+      "Through reading alone"
+    ],
+    "e": "Because family work is theoretically diverse and highly complex, with many people, alliances and conflicts at once, the authors prefer that beginning family interviewers train with immediate supervisors or a reflecting team. Beginners shouldn't conduct family work without close supervision, which offers live feedback and protection for the family.",
+    "w": [
+      "Working independently too early risks mistakes with complex family dynamics.",
+      "Five years of individual work first isn't required.",
+      "Reading alone can't replace supervised practice."
+    ],
+    "k": "Beginning family interviewers should train with immediate supervisors or a reflecting team.",
+    "h": "Learn families with a coach in the room.",
+    "r": "Sommers-Flanagan Ch13 – Defining families"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "A husband calls: 'My wife told me to make this call or I could forget about our marriage.' This illustrates that:",
+    "o": [
+      "The caller isn't always the more motivated partner, especially after an ultimatum",
+      "He is clearly the most motivated partner, since he called",
+      "The couple should not be seen until both partners call separately to request it",
+      "He wants individual therapy"
+    ],
+    "e": "A husband who calls because his wife issued an ultimatum shows that the caller isn't always the more motivated partner. He's calling under pressure, and the less motivated party usually makes his or her attitude known early. Noticing this helps the interviewer anticipate resistance and engage both partners.",
+    "w": [
+      "Calling under an ultimatum signals pressure, not stronger motivation.",
+      "Requiring both partners to call separately isn't the recommendation.",
+      "Nothing suggests he wants individual therapy."
+    ],
+    "k": "The caller isn't necessarily the more motivated partner, especially after an ultimatum.",
+    "h": "He dialled, but she's driving.",
+    "r": "Sommers-Flanagan Ch13 – Telephone contact with couples"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 1,
+    "q": "When one partner establishes an allegiance with a third party (often the therapist) to gain sympathy or power, this is called:",
+    "o": [
+      "Triangulation",
+      "Joining",
+      "Projection",
+      "Coalition therapy"
+    ],
+    "e": "Triangulation is when one partner establishes an allegiance with a third party, often the therapist, a child or a friend, to gain sympathy or power in the conflict. It's common and natural, yet generally viewed as a less-than-optimal, sometimes pathological, power strategy (Weeks et al.). Couple interviewers watch for attempts to triangulate them.",
+    "w": [
+      "Joining is the therapist's deliberate building of rapport with the family.",
+      "Projection attributes one's own feelings to another.",
+      "Coalition therapy isn't the term for this pattern."
+    ],
+    "k": "Triangulation: one partner allies with a third party (often the therapist) to gain power.",
+    "h": "Two's conflict becomes a triangle.",
+    "r": "Sommers-Flanagan Ch13 – Telephone contact"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "A husband requests a male therapist because 'I'd rather talk to another man.' This may represent:",
+    "o": [
+      "An initial hope for triangulation",
+      "A healthy preference to always grant",
+      "Evidence of sexism that must be confronted",
+      "A reason to refuse treatment"
+    ],
+    "e": "A husband who requests a male therapist because he'd 'rather talk to another man' may be expressing an initial hope for triangulation: an ally who will see things his way. Note such first impressions without judgement; it may or may not be possible to honour the preference, but it's useful information about the couple's dynamics.",
+    "w": [
+      "Granting it automatically ignores what the request may signal.",
+      "Labelling it sexism and confronting it is premature.",
+      "It isn't a reason to refuse treatment."
+    ],
+    "k": "A same-sex therapist request may signal hope for triangulation; note it.",
+    "h": "'I want someone on my side.'",
+    "r": "Sommers-Flanagan Ch13 – Telephone contact"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "How do inexperienced vs advanced therapists tend to view co-therapy teams?",
+    "o": [
+      "Beginners welcome the support; advanced therapists may find a co-therapist a burden",
+      "Both always prefer co-therapy, since two views help more",
+      "Beginners find it burdensome, while advanced therapists rely on it for support",
+      "It is required in private practice"
+    ],
+    "e": "Inexperienced therapists tend to welcome co-therapy teams for support with complex couples and families. Advanced therapists may find a co-therapist a burden, slowing them down or complicating decisions. Compatible co-therapists can offer more comprehensive service, but cost usually prevents co-therapy outside training clinics.",
+    "w": [
+      "Not everyone always prefers co-therapy; advanced therapists may find it burdensome.",
+      "This reverses the pattern: beginners want the support.",
+      "Co-therapy isn't required in private practice and is often too costly."
+    ],
+    "k": "Beginners welcome co-therapists; experienced therapists may find them a burden.",
+    "h": "Training wheels for some, a drag for others.",
+    "r": "Sommers-Flanagan Ch13 – Telephone contact"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "In the waiting room with couples-in-conflict, the authors advise:",
+    "o": [
+      "Equal warmth, neutral small talk, shaking hands with both",
+      "Avoid any small talk so as not to trigger an argument between them",
+      "Talk mostly with the partner who called to schedule the visit",
+      "Ask how the drive was"
+    ],
+    "e": "With couples in conflict, even the waiting room matters: show equal warmth, use neutral small talk, and shake hands with both partners. 'Virtually anything you say can and will be used against you'; even the weather or the drive ('who took the wrong turn') can spark an argument or seem to favour one partner.",
+    "w": [
+      "Some neutral small talk is fine; avoiding it entirely feels cold.",
+      "Talking mostly with the caller suggests favouritism.",
+      "Asking about the drive can trigger 'who took the wrong turn' arguments."
+    ],
+    "k": "Greet conflicted couples with equal warmth and neutral small talk; shake both hands.",
+    "h": "Anything you say can be used against you, even the weather.",
+    "r": "Sommers-Flanagan Ch13 – Meeting and greeting couples"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "When initiating family therapy, who standardly attends the first session?",
+    "o": [
+      "Everyone living in the family home",
+      "Only the identified patient and one parent",
+      "Only the parents",
+      "Only the person who called for the appointment"
+    ],
+    "e": "When initiating family therapy, the standard is that everyone living in the family home attends the first session. Many family therapists insist on it (Goldenberg and Goldenberg), because the problem is seen as belonging to the whole system. Some also include extended family members who play important roles.",
+    "w": [
+      "Seeing only the identified patient and one parent misses the system.",
+      "Seeing only the parents excludes the children's perspectives.",
+      "Seeing only the caller ignores the rest of the family."
+    ],
+    "k": "First family session: everyone living in the home attends.",
+    "h": "Everyone under the roof comes.",
+    "r": "Sommers-Flanagan Ch13 – Telephone contact with families"
+  },
+  {
+    "t": "Ch13 Introduction",
+    "d": 2,
+    "q": "When greeting families, some theorists (e.g., Whitaker) emphasize:",
+    "o": [
+      "Orienting to the youngest family members first",
+      "Greeting the father first, as head of the household",
+      "Greeting only the identified patient, to show concern",
+      "Avoiding names"
+    ],
+    "e": "When greeting families, some theorists such as Carl Whitaker emphasize orienting to the youngest family members first, signalling that everyone matters and avoiding automatic alignment with the parents. Generally, use global comments for the whole family and greet each member by name if privacy allows.",
+    "w": [
+      "Greeting the father first reinforces hierarchy rather than balance.",
+      "Greeting only the identified patient singles them out.",
+      "Using names is recommended when privacy allows."
+    ],
+    "k": "Some theorists (Whitaker) greet the youngest family members first.",
+    "h": "Start with the smallest.",
+    "r": "Sommers-Flanagan Ch13 – Meeting and greeting families"
+  },
+  {
+    "t": "Ch13 Secrets",
+    "d": 3,
+    "q": "Barney calls the intern to disclose an affair and assumes she won't tell Betty. Under the IAMFC code, if no other arrangement was stated:",
+    "o": [
+      "His assumption is correct – individual statements aren't disclosed without consent",
+      "She must tell Betty immediately, since couple work needs openness",
+      "She must terminate the couple therapy and refer both partners to individual work",
+      "She must report it"
+    ],
+    "e": "Under the IAMFC code, if no other arrangement was stated, individual statements made by one partner aren't disclosed to the other without consent, so Barney's assumption that his disclosure stays private is correct. This dilemma shows why couple therapists must clearly state their secret-keeping policy before calls and sessions begin.",
+    "w": [
+      "Without a stated no-secrets policy, she can't disclose it under the IAMFC code.",
+      "Terminating isn't required by the code.",
+      "An affair isn't a reportable event."
+    ],
+    "k": "IAMFC: without a stated policy, one partner's private disclosures aren't shared without consent; state your secrets policy upfront.",
+    "h": "Set the secrets rule before the secret arrives.",
+    "r": "Sommers-Flanagan Ch13 – Couple and family education"
+  },
+  {
+    "t": "Ch13 Secrets",
+    "d": 2,
+    "q": "Restating to Miguel what Sandy said on the phone at the first session models:",
+    "o": [
+      "A no-secrets approach, putting everyone on equal footing",
+      "Triangulation with the partner who called first to book",
+      "Confrontation of the less motivated partner",
+      "Interpretation of the couple's hidden dynamics"
+    ],
+    "e": "Restating to Miguel what Sandy said on the phone models a no-secrets approach, putting both partners on equal footing from the start. The interviewer politely interrupts when Sandy adds 'Miguel has been pretty mean', keeping the restatement balanced rather than letting the phone call become an advantage for one partner.",
+    "w": [
+      "Restating openly counters triangulation rather than creating it.",
+      "It isn't a confrontation of the less motivated partner.",
+      "It isn't an interpretation of hidden dynamics."
+    ],
+    "k": "Openly sharing what one partner said on the phone models no secrets and equal footing.",
+    "h": "What was said to me is said to both.",
+    "r": "Sommers-Flanagan Ch13 – Couple and family education"
+  },
+  {
+    "t": "Ch13 Rules",
+    "d": 2,
+    "q": "Telling a loud Mr. Smith that the room is 'only partially soundproofed' is an example of:",
+    "o": [
+      "Setting limits on destructive conflict tactfully",
+      "A paradoxical intervention to increase the shouting",
+      "Radical acceptance of the father's style",
+      "Joining with the family's loud communication style"
+    ],
+    "e": "Telling a loud Mr. Smith that the room is 'only partially soundproofed' tactfully sets a limit on destructive conflict without shaming him. Novices should maintain control through guidelines that disallow destructive conflict. Family counselors are generally more active and directive than individual therapists.",
+    "w": [
+      "It aims to reduce shouting, not paradoxically increase it.",
+      "It sets a limit rather than accepting the style.",
+      "It doesn't join the loud style; it gently curbs it."
+    ],
+    "k": "Set tactful limits on destructive conflict in family sessions.",
+    "h": "A gentle hint about thin walls.",
+    "r": "Sommers-Flanagan Ch13 – Couple and family education"
+  },
+  {
+    "t": "Ch13 Opening",
+    "d": 2,
+    "q": "In the couple opening statement, what is informative to monitor?",
+    "o": [
+      "How the couple decides who goes first, and their voice tone",
+      "Who sits closer to the door and who sits nearer the therapist",
+      "Who pays the fee at the reception desk",
+      "Who arrived first and who was late"
+    ],
+    "e": "In the couple opening ('It doesn't matter who starts, but I will want to hear from each of you'), it's informative to watch how the couple decides who goes first and their tone of voice: who defers, who grabs the floor, whether they negotiate. The Bornsteins' behavioural opening provides more structure if needed.",
+    "w": [
+      "Seating near the door isn't what the opening highlights.",
+      "Who pays isn't the informative opening behaviour.",
+      "Arrival order isn't what's monitored in the opening statement."
+    ],
+    "k": "In the couple opening, watch how they decide who speaks first, and their tone.",
+    "h": "Who grabs the mic tells the story.",
+    "r": "Sommers-Flanagan Ch13 – The opening"
+  },
+  {
+    "t": "Ch13 Opening",
+    "d": 2,
+    "q": "Barney winces while Betty talks. The interviewer briefly checks in with him because:",
+    "o": [
+      "Letting one partner ignore the other's distress is poor modeling; balance matters",
+      "Barney is the identified patient, so his reactions come first",
+      "Betty is dominating the session and needs to be stopped before she continues",
+      "It ends the session"
+    ],
+    "e": "When Barney winces while Betty talks, the interviewer briefly checks in with him, because letting one partner ignore the other's distress is poor modelling and upsets the balance. If nonverbal interruptions become a pattern, acknowledge them but minimize them, asking the partner to hold their reactions until their turn.",
+    "w": [
+      "Neither partner is the identified patient in couple work.",
+      "Betty isn't stopped; the check-in maintains balance.",
+      "It doesn't end the session; it briefly acknowledges his reaction."
+    ],
+    "k": "Acknowledge a partner's nonverbal distress briefly to keep balance.",
+    "h": "Notice the wince.",
+    "r": "Sommers-Flanagan Ch13 – Maintaining balance"
+  },
+  {
+    "t": "Ch13 Couple dynamics",
+    "d": 2,
+    "q": "One partner pushes for more time together while the other seeks distance – a 'chase scene'. This reflects differences in:",
+    "o": [
+      "Intimacy and autonomy needs",
+      "Conflict content and specific topics",
+      "Family-of-origin patterns",
+      "Commitment level to the relationship"
+    ],
+    "e": "A 'chase scene', where one partner pursues closeness while the other seeks distance, reflects differences in intimacy and autonomy needs. It's often attributed to sex differences, but sex-typed models are overused, and interviewers shouldn't assume such styles are normal or desirable.",
+    "w": [
+      "Conflict content concerns what couples fight about, not the pursue–distance pattern.",
+      "Family-of-origin patterns may contribute, but the pattern itself reflects intimacy–autonomy differences.",
+      "Commitment level isn't what this pattern reflects."
+    ],
+    "k": "Pursue–distance 'chase scenes' reflect differing intimacy and autonomy needs.",
+    "h": "One chases, one flees.",
+    "r": "Sommers-Flanagan Ch13 – Evaluating couple interactions"
+  },
+  {
+    "t": "Ch13 Couple dynamics",
+    "d": 2,
+    "q": "Betty says she cleaned the garage and Barney replied, 'Boy, you sure took a long time.' Gottman would call this:",
+    "o": [
+      "A missed emotional bid",
+      "A triangulation attempt",
+      "Conflict content",
+      "Joining"
+    ],
+    "e": "When Betty says she cleaned the garage and Barney replies 'Boy, you sure took a long time', Gottman would call it a missed emotional bid: Betty reached for appreciation, and Barney turned away or against her. Healthy partners receive and respond empathically to each other's emotional bids.",
+    "w": [
+      "Triangulation involves recruiting a third party, which isn't happening here.",
+      "Conflict content is the topic of disagreement, not a missed bid.",
+      "Joining is a therapist technique for building rapport, not a couple pattern."
+    ],
+    "k": "Gottman: a missed emotional bid is failing to respond warmly to a partner's reach for connection.",
+    "h": "She reached out; he swatted it away.",
+    "r": "Sommers-Flanagan Ch13 – Evaluating couple interactions"
+  },
+  {
+    "t": "Ch13 Family opening",
+    "d": 2,
+    "q": "Satir's classic first-interview questions ask each person present:",
+    "o": [
+      "How did you come here? What do you expect? What do you hope to accomplish?",
+      "What's wrong with your child, and when did the problems first begin at home?",
+      "Who is to blame for the family's problems, and what has each person tried?",
+      "What is your diagnosis?"
+    ],
+    "e": "Virginia Satir's classic first-interview questions ask each person present: How did you come here? What do you expect? What do you hope to accomplish? They give everyone a voice and reveal differing views of the problem. Mild humour can reduce tension but requires judgement and confidence.",
+    "w": [
+      "Asking what's wrong with the child focuses on the identified patient.",
+      "Asking who is to blame invites scapegoating.",
+      "Asking for a diagnosis isn't Satir's approach."
+    ],
+    "k": "Satir asks everyone: How did you come? What do you expect? What do you hope to accomplish?",
+    "h": "Came, expect, hope.",
+    "r": "Sommers-Flanagan Ch13 – Family opening statement"
+  },
+  {
+    "t": "Ch13 Family balance",
+    "d": 2,
+    "q": "Satir viewed the 'identified patient' as possibly:",
+    "o": [
+      "Reacting to a family imbalance and absorbing family pain through symptoms",
+      "The sole cause of the family's problems, who must change before others can",
+      "The healthiest member, who is simply the most honest about family pain",
+      "Faking symptoms"
+    ],
+    "e": "Satir viewed the identified patient, the family member with symptoms, as possibly reacting to a family imbalance and absorbing family pain through their symptoms. Maintaining balance in family work therefore means preventing scapegoating, not just giving everyone a turn to talk.",
+    "w": [
+      "Seeing the identified patient as the sole cause is the view family therapy rejects.",
+      "Satir didn't describe the identified patient as simply the healthiest member.",
+      "She didn't see symptoms as faked."
+    ],
+    "k": "Satir: the identified patient may carry the family's pain through symptoms.",
+    "h": "The symptom-bearer carries the family's load.",
+    "r": "Sommers-Flanagan Ch13 – Maintaining balance with families"
+  },
+  {
+    "t": "Ch13 Family balance",
+    "d": 2,
+    "q": "In the Ragsdale-Hagan family, 14-year-old Theo was directing interactions and 9-year-old Sira was silent. To achieve balance, the interviewer should:",
+    "o": [
+      "Redirect the conversation to involve Sira",
+      "Focus solely on Theo's aggression toward his sister",
+      "Let the parents debate whether biology really matters",
+      "End the session"
+    ],
+    "e": "In the Ragsdale-Hagan family, 14-year-old Theo steered the discussion, using 'He's not my real dad', while 9-year-old Sira stayed silent. To achieve balance, the interviewer should redirect the conversation to involve Sira, so one member doesn't dominate and the quietest voice is heard.",
+    "w": [
+      "Focusing only on Theo lets him keep controlling the session.",
+      "Letting the parents debate biology follows Theo's lead.",
+      "Ending the session isn't warranted; rebalancing the conversation is."
+    ],
+    "k": "Balance family sessions by drawing in silent members when one dominates.",
+    "h": "Turn to the quiet one.",
+    "r": "Sommers-Flanagan Ch13 – Case example"
+  },
+  {
+    "t": "Ch13 Family observation",
+    "d": 3,
+    "q": "A student interviewer noticed an unusual nonverbal interaction between a 14-year-old and her father that both ignored. Her appropriate response was to:",
+    "o": [
+      "Not point it out yet, but investigate further and plan individual and dyad meetings",
+      "Point it out immediately so the family can discuss it",
+      "Ignore it entirely, since nonverbal behavior is unreliable in family interviews",
+      "Terminate the family session"
+    ],
+    "e": "Observing verbal and nonverbal patterns is the heart of family work. When the student noticed an unusual nonverbal interaction between a 14-year-old and her father that both ignored, the appropriate response was not to point it out yet, but to investigate further and plan individual and dyad meetings. Premature comment could damage rapport or put the girl at risk.",
+    "w": [
+      "Pointing it out immediately could damage rapport or endanger the girl.",
+      "Nonverbal behaviour is central data in family work.",
+      "Terminating the session is an overreaction."
+    ],
+    "k": "Notice unusual family interactions, but investigate before commenting.",
+    "h": "See it, note it, explore it later.",
+    "r": "Sommers-Flanagan Ch13 – Evaluating family interactions"
+  },
+  {
+    "t": "Ch13 Couple theories",
+    "d": 2,
+    "q": "Yoko lists what she wants Brandon to change, and he snaps back. A behavioral interviewer would instead ask each partner:",
+    "o": [
+      "What they are willing to do to make the relationship more enjoyable",
+      "What the other partner should stop doing that hurts the relationship",
+      "About their childhood experiences and each of their parents' marriages",
+      "To rate their marriage satisfaction on a 1–10 scale"
+    ],
+    "e": "When Yoko lists changes she wants from Brandon and he snaps back, a behavioural couple interviewer would instead ask each partner what they are willing to do to make the relationship more enjoyable. Requests for the other to change carry the same mutually punishing quality; increasing positive behaviours comes first.",
+    "w": [
+      "Asking what the other should stop doing repeats the punishing pattern.",
+      "Childhood exploration reflects a psychodynamic, not behavioural, approach.",
+      "A satisfaction rating doesn't change the interaction."
+    ],
+    "k": "Behavioural couple work: ask each partner what they will do to improve the relationship.",
+    "h": "'What will you do?', not 'What should they do?'",
+    "r": "Sommers-Flanagan Ch13 – Theoretical orientations with couples"
+  },
+  {
+    "t": "Ch13 Couple theories",
+    "d": 2,
+    "q": "A cognitive couple interviewer might reframe Brandon's reaction by exploring:",
+    "o": [
+      "His attribution that Yoko sees him as incompetent, when she may be anxious about money",
+      "His family of origin and his father's work history",
+      "His behavior frequencies at home and how often he does pleasing things for her",
+      "His sexual satisfaction"
+    ],
+    "e": "A cognitive couple interviewer would explore Brandon's attribution, that Yoko sees him as incompetent, when she may simply be anxious about money. Clarifying assumptions and attributions, and reframing comments more positively, reduces the conflict driven by misreading each other's intentions.",
+    "w": [
+      "Family-of-origin exploration is more psychodynamic or Bowenian.",
+      "Behaviour frequencies are a behavioural, not cognitive, focus.",
+      "Sexual satisfaction isn't the cognitive focus here."
+    ],
+    "k": "Cognitive couple work examines attributions (e.g., 'she thinks I'm incompetent') and reframes them.",
+    "h": "What story are you telling about their words?",
+    "r": "Sommers-Flanagan Ch13 – Theoretical orientations with couples"
+  },
+  {
+    "t": "Ch13 Couple theories",
+    "d": 2,
+    "q": "Relationship enhancement couple work draws on:",
+    "o": [
+      "Rogers's person-centered theory – teaching listening skills",
+      "Jungian theory and the couple's shared images",
+      "Behaviorism and the exchange of pleasing behaviors",
+      "Bowen theory and differentiation of self"
+    ],
+    "e": "Relationship enhancement couple work draws on Rogers' person-centered theory: partners are taught listening and empathy skills to understand each other. Jungian concepts, by contrast, underlie Hendrix's imago relationship therapy and Young-Eisendrath's dialogue therapy; behavioural approaches exchange pleasing behaviours; Bowen theory focuses on differentiation.",
+    "w": [
+      "Jungian theory underlies Hendrix's and Young-Eisendrath's approaches, not relationship enhancement.",
+      "Exchanging pleasing behaviours is behavioural couple therapy.",
+      "Differentiation of self is Bowen theory."
+    ],
+    "k": "Relationship enhancement couple work is based on Rogers: teaching partners listening skills.",
+    "h": "Rogers for two.",
+    "r": "Sommers-Flanagan Ch13 – Theoretical orientations with couples"
+  },
+  {
+    "t": "Ch13 Couple theories",
+    "d": 2,
+    "q": "In a communication model, when Betty keeps addressing the interviewer about Barney, the intervention is:",
+    "o": [
+      "'Turn to Barney and restate what you said, only this time talk to him.'",
+      "Answer Betty's concerns directly, since she is clearly asking for your help",
+      "Ask Barney to leave so that Betty can speak more freely",
+      "Interpret Betty's transference toward the interviewer as a parent figure"
+    ],
+    "e": "In a communication model of couple work, when Betty keeps talking to the interviewer about Barney, the intervention is: 'Turn to Barney and restate what you said, only this time talk to him.' Learning to communicate directly with each other matters more than communicating with the interviewer (Bornstein and Bornstein), and it prevents triangulation.",
+    "w": [
+      "Answering Betty directly makes the interviewer the go-between and invites triangulation.",
+      "Asking Barney to leave abandons the couple format.",
+      "Interpreting transference isn't part of the communication model."
+    ],
+    "k": "In communication-focused couple work, redirect partners to speak to each other, not to the therapist.",
+    "h": "Talk to him, not about him.",
+    "r": "Sommers-Flanagan Ch13 – Theoretical orientations with couples"
+  },
+  {
+    "t": "Ch13 Family theories",
+    "d": 2,
+    "q": "Most family therapy theories come from a systems or ecological perspective, which views problems as:",
+    "o": [
+      "Signals that something is wrong in the family system or environment",
+      "Individual pathologies that need to be diagnosed in each family member",
+      "Purely biological conditions inherited across generations",
+      "Caused mainly by the identified patient's own behavior and poor choices"
+    ],
+    "e": "Most family therapy theories come from a systems or ecological perspective, which views problems as signals that something is wrong in the family system or its environment, not as individual pathology. Examples include Whitaker's symbolic-experiential therapy, Bowen's differentiation and multigenerational transmission, and Bronfenbrenner's ecological model.",
+    "w": [
+      "Diagnosing each member individually is the individual-pathology view systems theory rejects.",
+      "Systems theory doesn't treat problems as purely biological inheritance.",
+      "Blaming the identified patient is what systems theory moves away from."
+    ],
+    "k": "Systems/ecological view: problems signal something wrong in the family system or environment.",
+    "h": "The symptom is the system's smoke alarm.",
+    "r": "Sommers-Flanagan Ch13 – Theoretical orientations with families"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Which three assessment domains are specific to couples?",
+    "o": [
+      "Sex, money, commitment",
+      "Sex, children, religion",
+      "Money, in-laws, chores",
+      "Commitment, communication, culture"
+    ],
+    "e": "Three assessment domains are specific to couples: sex, money and commitment. Other domains shared with family work include family of origin, genograms, goals, willingness to change, the wider social network, and drugs, alcohol and violence. These couple-specific areas often reveal power, intimacy and investment in the relationship.",
+    "w": [
+      "Children and religion aren't the three couple-specific domains named.",
+      "In-laws and chores matter but aren't the three named domains.",
+      "Communication and culture aren't the three named domains."
+    ],
+    "k": "The three couple-specific assessment domains are sex, money and commitment.",
+    "h": "Bed, bank, bond.",
+    "r": "Sommers-Flanagan Ch13 – Common areas to address"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Why ask about money practices (who pays bills, joint accounts)?",
+    "o": [
+      "They give a glimpse of how power is managed – or abused – in the relationship",
+      "To calculate a sliding-scale fee for the couple",
+      "To assess each partner's intelligence and practical judgment about money",
+      "To check insurance"
+    ],
+    "e": "Asking about money practices, such as who pays the bills or whether accounts are joint, gives a glimpse of how power is managed, or abused, in the relationship. Money is often a difficult issue for couples, though for some interviewers it's easier to ask about than sex.",
+    "w": [
+      "Setting a sliding-scale fee isn't the purpose of these questions.",
+      "They aren't a measure of intelligence or judgement.",
+      "Checking insurance isn't the reason; power dynamics are."
+    ],
+    "k": "Money practices reveal how power is managed or abused in a couple.",
+    "h": "Follow the money to find the power.",
+    "r": "Sommers-Flanagan Ch13 – Money"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "In the first interview, couples asked about sex often answer 'We're fine.' The authors say:",
+    "o": [
+      "Better answers may come later with trust – just ask naturally and caringly",
+      "Accept the answer and never ask again, so the couple doesn't feel judged",
+      "Press for details immediately, since couples usually hide their sexual problems",
+      "Assume they're lying"
+    ],
+    "e": "When couples answer 'We're fine' to sex questions in a first interview, better answers may come later as trust develops. Just ask naturally and caringly, so they know the topic is open. Couples probably find answering harder than you find asking, so the interviewer's comfort, practised through exercises like the 'crowded restaurant' joke assignment, matters.",
+    "w": [
+      "Never asking again closes an important topic.",
+      "Pressing for details early increases discomfort and defensiveness.",
+      "Assuming they're lying damages trust and the alliance."
+    ],
+    "k": "Ask about sex naturally; fuller answers often come later with trust.",
+    "h": "Plant the question; the answer may bloom later.",
+    "r": "Sommers-Flanagan Ch13 – Sex"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Which instrument helps assess each partner's commitment without asking in front of the other?",
+    "o": [
+      "Stuart Couples' Precounseling Inventory",
+      "Dyadic Adjustment Scale (32 items, Spanier)",
+      "Marital Satisfaction Scale (280 items, Snyder)",
+      "Genogram of both families"
+    ],
+    "e": "The Stuart Couples' Precounseling Inventory helps assess each partner's commitment privately, without asking in front of the other, which could provoke conflict or dishonest answers. Other instruments include the 32-item Dyadic Adjustment Scale (Spanier) and the 280-item Marital Satisfaction Scale (Snyder).",
+    "w": [
+      "The Dyadic Adjustment Scale measures adjustment, not the private commitment assessment named.",
+      "The Marital Satisfaction Scale measures satisfaction and is very long.",
+      "A genogram maps family structure, not individual commitment."
+    ],
+    "k": "The Stuart Couples' Precounseling Inventory assesses each partner's commitment privately.",
+    "h": "Ask commitment on paper, not in front of the partner.",
+    "r": "Sommers-Flanagan Ch13 – Relationship commitment"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Only a minority of couples come to counseling because they:",
+    "o": [
+      "Simply want to improve an already committed relationship",
+      "Are in crisis after a recent affair or separation",
+      "Have strongly imbalanced commitment between the two partners",
+      "Are on the verge of ending and want one last attempt to save it"
+    ],
+    "e": "Couples arrive at different points on a commitment continuum: enhancement (improving an already committed relationship), committed but distressed, imbalanced commitment, and last resort before ending. Only a minority come simply to improve an already committed relationship; most arrive in distress or with uncertain commitment.",
+    "w": [
+      "Crisis after an affair or separation is a common reason, not a minority one.",
+      "Imbalanced commitment is common among couples seeking help.",
+      "Last-resort attempts to save a relationship are common, not rare."
+    ],
+    "k": "Only a minority of couples seek counseling just to enhance a committed relationship.",
+    "h": "Most come with the house already on fire.",
+    "r": "Sommers-Flanagan Ch13 – Relationship commitment"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Should you interpret unresolved family-of-origin issues in an initial couple session?",
+    "o": [
+      "No – note them, perhaps acknowledge the possibility, but don't interpret",
+      "Yes – early interpretation builds insight and motivation for couple work",
+      "Only if the couple asks directly for the therapist's interpretation of it",
+      "Only for married couples"
+    ],
+    "e": "In an initial couple session, note unresolved family-of-origin issues, and perhaps acknowledge the possibility, but don't interpret them. Premature interpretation can turn couples off; like psychoanalytic interpretation, it requires rapport and sufficient data. Early sessions focus on understanding the couple's current concerns.",
+    "w": [
+      "Early interpretation tends to alienate rather than motivate couples.",
+      "Even if asked, early interpretation needs data and rapport.",
+      "The guideline applies to all couples, not only married ones."
+    ],
+    "k": "Note family-of-origin issues early, but don't interpret them in the first session.",
+    "h": "Spot it, save it.",
+    "r": "Sommers-Flanagan Ch13 – Family of origin"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Lankton et al. say that when family members' goals contradict each other:",
+    "o": [
+      "Each input becomes the basis of a goal",
+      "Only the parents' goals count, since they hold authority",
+      "The therapist picks the goal most likely to succeed",
+      "Goals should be postponed until everyone agrees"
+    ],
+    "e": "Lankton and colleagues suggest that when family members' goals contradict each other, each person's input becomes the basis of a goal, rather than choosing one view. This emphasizes inclusion, ensures every member feels heard and invested, and minimizes scapegoating of the identified patient as 'the problem' everyone else wants fixed.",
+    "w": [
+      "Counting only parents' goals excludes children and invites resistance.",
+      "The therapist picking the goal ignores members' input.",
+      "Postponing goals until agreement can stall therapy."
+    ],
+    "k": "When family goals conflict, make each member's input the basis of a goal (Lankton).",
+    "h": "Everyone gets a goal.",
+    "r": "Sommers-Flanagan Ch13 – Gathering family therapy goals"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "How can willingness to change be assessed in session?",
+    "o": [
+      "Have them try a new behavior, e.g., 'Barney, could you take Betty's hand?'",
+      "Ask each family member to rate their motivation for change on a 1–10 scale",
+      "Give each family member a standardized personality test before the next session",
+      "Wait several sessions"
+    ],
+    "e": "Willingness to change can be assessed in session by having family members try a small new behaviour, for example 'Barney, could you take Betty's hand?' Their response shows readiness more clearly than self-report. If homework is agreed, ask exactly when and where it will occur.",
+    "w": [
+      "Self-rated motivation is less informative than actual behaviour.",
+      "Personality tests don't measure willingness to change.",
+      "Waiting several sessions loses useful early information."
+    ],
+    "k": "Assess willingness to change by asking clients to try a small new behaviour in session.",
+    "h": "Actions show readiness.",
+    "r": "Sommers-Flanagan Ch13 – Willingness to make changes"
+  },
+  {
+    "t": "Ch13 Common areas",
+    "d": 2,
+    "q": "Regarding drugs, alcohol and violence on intake forms, couples and families should be told:",
+    "o": [
+      "Issues on the forms aren't confidential within the system and may be discussed",
+      "The forms are kept secret from the partner",
+      "The forms are never reviewed in session, only filed in the clinical record",
+      "Forms go only to insurers"
+    ],
+    "e": "Couples and families should be told that issues they note on intake forms, such as drugs, alcohol and violence, aren't confidential within the system and may be discussed in session. Asking, verbally or in writing, signals openness to these topics, even if full answers come later with trust.",
+    "w": [
+      "Forms aren't kept secret from the partner in couple work.",
+      "Forms may be reviewed and discussed in session.",
+      "Forms aren't sent only to insurers."
+    ],
+    "k": "Tell couples and families that intake-form issues aren't confidential within the system.",
+    "h": "What's on the form is on the table.",
+    "r": "Sommers-Flanagan Ch13 – Drugs, alcohol and physical violence"
+  },
+  {
+    "t": "Ch13 Closing",
+    "d": 2,
+    "q": "Rosa raises her curfew in the last minute. Unless it's a crisis, the interviewer should:",
+    "o": [
+      "Acknowledge it and ask her to bring it up early next session",
+      "Extend the session so the family can resolve the curfew issue tonight",
+      "Solve the curfew question quickly with a compromise before they leave",
+      "Ignore it"
+    ],
+    "e": "When Rosa raises her curfew in the last minute, unless it's a crisis, the interviewer acknowledges it and asks her to bring it up early next session. This respects the issue while keeping the ending intact. Family sessions of 1.5–2 hours may be more appropriate, allowing time to 'put things back together' before leaving.",
+    "w": [
+      "Extending the session reinforces last-minute disclosures.",
+      "Solving it quickly risks a rushed, poor compromise.",
+      "Ignoring it dismisses Rosa's concern and may discourage her from speaking up."
+    ],
+    "k": "Late-raised family issues: acknowledge and schedule them early next session.",
+    "h": "Park it for next week.",
+    "r": "Sommers-Flanagan Ch13 – The closing"
+  },
+  {
+    "t": "Ch13 Closing",
+    "d": 2,
+    "q": "Why include a statement like 'This will be different at home' at closing?",
+    "o": [
+      "To acknowledge their lives intersect after the session and recall guidelines",
+      "To discourage any discussion of hard topics at home",
+      "To introduce and schedule the homework assignment for the coming week",
+      "To end therapy"
+    ],
+    "e": "A statement like 'This will be different at home' acknowledges that family members' lives intersect after the session, without the therapist's structure, and recalls the session's guidelines for how to talk. Closings also include a thorough, sensitive summary and possibly homework.",
+    "w": [
+      "It doesn't discourage discussing hard topics; it prepares for them.",
+      "Homework may be assigned, but this statement serves a different purpose.",
+      "It doesn't end therapy; it prepares the family for the week ahead."
+    ],
+    "k": "Acknowledge that home is different and remind families of session guidelines at closing.",
+    "h": "The therapist won't be in the car home.",
+    "r": "Sommers-Flanagan Ch13 – The closing"
+  },
+  {
+    "t": "Ch13 Conflict",
+    "d": 1,
+    "q": "Conflict content refers to ______; conflict process refers to ______.",
+    "o": [
+      "What is argued about; how everyone argues",
+      "How people argue; what they argue about and why",
+      "Who started it; who ended it",
+      "Past conflicts; current conflicts"
+    ],
+    "e": "Conflict content is what people argue about, such as money, sex and in-laws, the top areas for couples. Conflict process is how they argue: tone, escalation, interrupting, withdrawing. Most couples and families in therapy have destructive or inefficient conflict process, so process is often the main target.",
+    "w": [
+      "This reverses the definitions: content is what, process is how.",
+      "Who started or ended a fight isn't the content/process distinction.",
+      "Past versus current conflicts isn't the distinction."
+    ],
+    "k": "Conflict content = what's argued about; process = how they argue.",
+    "h": "Content is the topic; process is the tango.",
+    "r": "Sommers-Flanagan Ch13 – Conflict process versus content"
+  },
+  {
+    "t": "Ch13 Conflict",
+    "d": 2,
+    "q": "How much should couples and families be allowed to argue in session?",
+    "o": [
+      "Not much – only a brief glimpse for assessment, then analysis",
+      "As much as they need for catharsis, since venting relieves the built-up pressure",
+      "For the whole first session, to see the full pattern of their usual conflicts",
+      "Never, not even briefly"
+    ],
+    "e": "Couples and families should be allowed to argue only briefly in session, giving a glimpse for assessment, then the interviewer stops it and analyses the process: 'Okay, I'd like you two to stop your argument now.' Otherwise they recapitulate dysfunctional patterns, which can be damaging rather than cathartic.",
+    "w": [
+      "Venting until catharsis tends to repeat destructive patterns.",
+      "A whole session of fighting is harmful and unnecessary for assessment.",
+      "A brief glimpse is useful for assessment."
+    ],
+    "k": "Allow only a brief argument for assessment, then stop it and examine the process.",
+    "h": "A sample, not the full show.",
+    "r": "Sommers-Flanagan Ch13 – How much should you let people argue?"
+  },
+  {
+    "t": "Ch13 Conflict",
+    "d": 2,
+    "q": "With highly conflicted or abusive couples, interviewers in extreme cases may:",
+    "o": [
+      "Act as intermediary, paraphrasing nearly everything and limiting direct exchanges",
+      "Allow open fights to reveal patterns, then interpret them",
+      "Leave the room until the partners calm down enough to talk respectfully again",
+      "Meet only by phone"
+    ],
+    "e": "With highly conflicted or abusive couples, interviewers in extreme cases may act as an intermediary, paraphrasing nearly everything each partner says and limiting direct exchanges between them. More disturbed systems need more structure and control, both to keep sessions safe and to stop destructive patterns from repeating in the room.",
+    "w": [
+      "Allowing open fights risks harm and repeats patterns.",
+      "Leaving the room abandons control of the session.",
+      "Phone-only contact isn't the recommendation; more in-session structure is."
+    ],
+    "k": "With highly conflicted couples, act as intermediary and limit direct exchanges.",
+    "h": "Be the switchboard.",
+    "r": "Sommers-Flanagan Ch13 – Conflict"
+  },
+  {
+    "t": "Ch13 Conflict",
+    "d": 2,
+    "q": "An interviewer with strong conflict-avoidance qualities:",
+    "o": [
+      "May not be well-suited to couple or family counseling",
+      "Is ideal for high-conflict families because they stay calm",
+      "Should only do family work, never couple work",
+      "Needs no self-exploration if trained in a specific model"
+    ],
+    "e": "An interviewer with strong conflict-avoidance qualities may not be well suited to couple or family counseling, where conflict is constant and must be faced and managed. Interviewers should explore their own conflict buttons, idealistic biases and family-of-origin conflict styles (Putting It in Practice 13.2).",
+    "w": [
+      "Conflict avoidance isn't calmness; it hinders managing high-conflict families.",
+      "Family work involves as much conflict as couple work.",
+      "Training in a model doesn't remove the need for self-exploration."
+    ],
+    "k": "Strong conflict avoiders may not suit couple/family work; explore your own conflict style.",
+    "h": "If you fear the fire, don't fight it for others.",
+    "r": "Sommers-Flanagan Ch13 – How do you feel about conflict?"
+  },
+  {
+    "t": "Ch13 Diversity",
+    "d": 2,
+    "q": "When the receptionist assumed Ollie was female, how did Mary handle it with the gay couple?",
+    "o": [
+      "Warmly used the error to discuss stereotypes, her background, and invite correction",
+      "Ignored the mistake so as not to embarrass the couple",
+      "Referred them out immediately to a gay or lesbian therapist with more experience",
+      "Asked who plays which role"
+    ],
+    "e": "When the receptionist assumed Ollie was female, Mary warmly used the error to discuss stereotypes, share her own background, and invite the gay couple to correct her when needed. She explained her relationship enhancement approach, checked for her own blind spots, and planned supervision or referral if needed.",
+    "w": [
+      "Ignoring the mistake leaves the couple feeling unseen.",
+      "Immediate referral assumes she can't help, without exploring.",
+      "Asking who plays which role relies on heterosexual stereotypes."
+    ],
+    "k": "Address diversity errors openly and warmly, inviting correction and checking your blind spots.",
+    "h": "Own the slip, open the door.",
+    "r": "Sommers-Flanagan Ch13 – Diversity issues (Jim and Ollie)"
+  },
+  {
+    "t": "Ch13 Shifting",
+    "d": 2,
+    "q": "The authors' rule regarding individual clients and later couple or family work is:",
+    "o": [
+      "Once an individual client, always one – refer couple or family work",
+      "Shift freely to couple work whenever clients request it, since trust exists",
+      "Do individual and couple work simultaneously to keep continuity of care",
+      "Only shift after one year"
+    ],
+    "e": "The authors' rule: once an individual client, always an individual client. If an individual client wants couple or family work, refer it to another therapist. After couple or family work, they might rarely begin individual therapy with one member, but they never return from that to couple or family work.",
+    "w": [
+      "Shifting freely creates conflicts of loyalty between clients.",
+      "Doing both at once compounds the loyalty problem.",
+      "Waiting a year doesn't resolve the conflict of loyalties."
+    ],
+    "k": "Once someone's individual therapist, refer couple or family work elsewhere.",
+    "h": "Once their therapist, always theirs.",
+    "r": "Sommers-Flanagan Ch13 – Shifting from individual to couple or family therapy"
+  },
+  {
+    "t": "Ch13 Shifting",
+    "d": 2,
+    "q": "Perhaps the greatest reason to avoid shifting from individual to couple therapy is:",
+    "o": [
+      "Conflicts of loyalty inevitably ensue",
+      "Insurance companies won't pay for both",
+      "It takes too long to rebuild rapport",
+      "Clients don't want it once they've begun"
+    ],
+    "e": "Perhaps the greatest reason to avoid shifting from individual to couple therapy is that conflicts of loyalty inevitably ensue. The new partner suspects allegiance to the original client, and if the therapist sides with the new partner, the original client may feel betrayed.",
+    "w": [
+      "Insurance isn't the greatest reason given.",
+      "Rebuilding rapport isn't the main issue.",
+      "Clients may want it; the problem is loyalty conflicts."
+    ],
+    "k": "Shifting from individual to couple therapy creates inevitable loyalty conflicts.",
+    "h": "Whose therapist are you?",
+    "r": "Sommers-Flanagan Ch13 – Conflicts of loyalty"
+  },
+  {
+    "t": "Ch13 Shifting",
+    "d": 2,
+    "q": "Encouraging a client to try a different therapist for couple work can communicate:",
+    "o": [
+      "Confidence that the client can connect with another professional",
+      "Rejection of the client after a period of successful work together",
+      "Incompetence in couple and family therapy on the counselor's own part",
+      "Disinterest in the client's relationship problems"
+    ],
+    "e": "Encouraging a client to see a different therapist for couple work can communicate confidence that the client can connect with another professional, rather than rejection. Fostering dependence on one therapist is rarely justified, though in rural settings multiple roles may be unavoidable.",
+    "w": [
+      "Handled well, referral conveys confidence, not rejection.",
+      "Referral doesn't imply incompetence; it avoids loyalty conflicts.",
+      "It doesn't mean disinterest in their relationship."
+    ],
+    "k": "Referring for couple work can convey confidence in the client, not rejection.",
+    "h": "You're not the only therapist in town.",
+    "r": "Sommers-Flanagan Ch13 – You are not the only therapist in town"
+  },
+  {
+    "t": "Ch13 Joining",
+    "d": 2,
+    "q": "Minuchin and Fishman describe joining as:",
+    "o": [
+      "More an attitude than a technique – 'the glue' of the therapeutic system",
+      "A confrontation technique for breaking up rigid alliances and family coalitions",
+      "A form of triangulation that therapists use to gain power within the family system",
+      "A paradoxical intervention for families who resist change"
+    ],
+    "e": "Minuchin and Fishman describe joining as more an attitude than a technique: 'the glue' that holds the therapeutic system together, as the therapist connects with each family member. Counselors may 'overjoin' and lose perspective, or avoid joining and stay aloof, which feels safer but is less therapeutic.",
+    "w": [
+      "Joining builds connection rather than breaking alliances.",
+      "Joining isn't triangulation; it connects with everyone, not one side.",
+      "Joining isn't a paradoxical intervention; it builds alliance."
+    ],
+    "k": "Joining (Minuchin): an attitude of connection, the glue of the therapeutic system.",
+    "h": "Join to hold it together.",
+    "r": "Sommers-Flanagan Ch13 – Identification, projection, joining and avoiding"
+  },
+  {
+    "t": "Ch13 Joining",
+    "d": 2,
+    "q": "Peggy Papp's family choreography involves:",
+    "o": [
+      "Physically positioning people to represent family roles, then changing it",
+      "Drawing a multigenerational genogram",
+      "Writing a detailed family history and reading it aloud to the group",
+      "Role-playing a therapy session with classmates playing family members"
+    ],
+    "e": "Peggy Papp's family choreography involves physically positioning people in the room to represent family roles and relationships, then changing the arrangement to explore alternatives and their emotional impact. It's used, for instance, in training to explore one's own family dynamics, including cultural and ethnic differences.",
+    "w": [
+      "A genogram is a drawn family map, not choreography.",
+      "Writing and reading a history isn't choreography.",
+      "Role-playing a session isn't Papp's technique."
+    ],
+    "k": "Papp's family choreography: physically positioning people to represent and change family roles.",
+    "h": "Family as a dance you can rearrange.",
+    "r": "Sommers-Flanagan Ch13 – Multicultural Highlight 13.1"
+  },
+  {
+    "t": "Ch13 Countertransference",
+    "d": 2,
+    "q": "Which cultural example of family dynamics is cited as potentially challenging interviewers?",
+    "o": [
+      "Crow and Navajo teachings that son-in-law and mother-in-law shouldn't speak",
+      "All families speaking openly about conflicts, which overwhelms beginning interviewers",
+      "Families refusing to attend sessions when the identified patient is a teenager",
+      "Families preferring medication to talking therapy for children's problems"
+    ],
+    "e": "The chapter cites Crow and Navajo teachings that a son-in-law and mother-in-law shouldn't speak to each other as a family dynamic that may challenge interviewers' assumptions about healthy communication. The question is whether you can work with families in ways that accept their cultural ways. Seek supervision and personal therapy for 'hot' issues.",
+    "w": [
+      "Open discussion of conflict isn't the cultural example cited.",
+      "Refusing to attend isn't the cultural example cited.",
+      "Preferring medication isn't the cited example."
+    ],
+    "k": "Cultural norms (e.g., Crow/Navajo in-law avoidance) can challenge interviewers' assumptions.",
+    "h": "Silence between in-laws can be respect.",
+    "r": "Sommers-Flanagan Ch13 – Identification, projection, joining and avoiding"
+  }
+]

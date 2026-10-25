@@ -1,0 +1,422 @@
+[
+  {
+    "t": "Ch21 Why logistic",
+    "d": 2,
+    "q": "Why is ordinary linear regression inappropriate for a binary outcome such as relapse (yes/no)?",
+    "o": [
+      "Predictions can fall outside 0–1, and the linearity and normal-error assumptions fail",
+      "It cannot include more than one predictor when the outcome variable is coded as 0 and 1 in the data file",
+      "It always gives an R² of exactly zero when the outcome has only two possible values",
+      "It requires the predictors to be binary as well as the outcome, which is rarely the case"
+    ],
+    "e": "A straight line fitted to 0/1 data predicts probabilities below 0 or above 1, the relationship between predictors and probability is S-shaped rather than linear, and errors cannot be normal or homoscedastic. Logistic regression models the log odds instead, which keeps predicted probabilities between 0 and 1.",
+    "w": [
+      "Linear regression can include many predictors whatever the outcome coding.",
+      "R² isn't automatically zero for a 0/1 outcome; the problem is invalid predictions and assumptions.",
+      "Predictors can be of any type; only the outcome is binary here."
+    ],
+    "k": "Binary outcomes → logistic regression, because linear predictions escape 0–1 and assumptions fail.",
+    "h": "Straight lines can't bend to fit yes/no.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Why not linear regression"
+  },
+  {
+    "t": "Ch21 The model",
+    "d": 2,
+    "q": "Logistic regression is linear in which quantity?",
+    "o": [
+      "The logit, the natural log of the odds of the outcome",
+      "The probability of the outcome occurring, from 0 to 1",
+      "The odds ratio of the outcome for each predictor",
+      "The −2 log-likelihood of the model, step by step"
+    ],
+    "e": "ln[P/(1 − P)] = b0 + b1X1 + … The probability itself follows the S-shaped curve P = 1 / (1 + e^−(b0 + b1X1 + …)). Each b is the change in log odds per unit increase in its predictor.",
+    "w": [
+      "Probability follows an S-shaped curve, not a straight line.",
+      "Odds ratios are exponentiated coefficients, not the linear quantity.",
+      "−2LL measures fit, not the quantity the model is linear in."
+    ],
+    "k": "Logistic regression is linear in the logit, ln(odds).",
+    "h": "Log the odds, straighten the S.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · The logit"
+  },
+  {
+    "t": "Ch21 The model",
+    "d": 3,
+    "q": "A logistic model has b0 = −1 and b1 = 0.5. What is the predicted probability of the outcome when X = 4?",
+    "o": [
+      "About .73",
+      "About .50",
+      "About .27",
+      "About .62"
+    ],
+    "e": "Logit = −1 + 0.5 × 4 = 1. P = 1 / (1 + e^−1) = 1 / (1 + 0.368) = .73. At X = 2 the logit would be 0, giving P = .50.",
+    "w": [
+      ".50 is the probability when the logit is 0, which happens at X = 2.",
+      ".27 is the probability for a logit of −1, the reverse sign.",
+      ".62 uses a logit of 0.5, forgetting the intercept."
+    ],
+    "k": "Compute the logit, then P = 1 ÷ (1 + e^−logit).",
+    "h": "Logit first, then squash it.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Predicted probabilities"
+  },
+  {
+    "t": "Ch21 Coefficients",
+    "d": 2,
+    "q": "A predictor has B = 0.50 in SPSS's 'Variables in the Equation' table. What is Exp(B), and what does it mean?",
+    "o": [
+      "About 1.65: each one-unit increase multiplies the odds of the outcome by 1.65",
+      "About 0.50: each one-unit increase raises the probability of the outcome by 0.50",
+      "About 1.65: each one-unit increase raises the probability of the outcome by 65 percentage points",
+      "About 0.61: each one-unit increase cuts the odds of the outcome by about 39%"
+    ],
+    "e": "Exp(B) = e^0.5 = 1.65, the odds ratio: odds are multiplied by 1.65, a 65% increase in odds, per unit increase in the predictor. Odds ratios change odds, not probabilities. The effect on probability depends on where you start on the S-curve.",
+    "w": [
+      "B is a change in log odds, not in probability; Exp(B) is 1.65.",
+      "Odds ratios multiply odds; they don't add percentage points to probability.",
+      "0.61 is e^−0.5, which flips the sign of B."
+    ],
+    "k": "Exp(B) = odds ratio: odds multiply by Exp(B) per unit increase.",
+    "h": "Exponentiate B to get the odds multiplier.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Exp(B)"
+  },
+  {
+    "t": "Ch21 Coefficients",
+    "d": 2,
+    "q": "An Exp(B) of 0.50 means that a one-unit increase in the predictor:",
+    "o": [
+      "Halves the odds of the outcome",
+      "Halves the probability of the outcome",
+      "Reduces the probability by 50 percentage points",
+      "Has no effect, since Exp(B) is below 1"
+    ],
+    "e": "Exp(B) < 1 means the odds decrease: 0.50 means the odds are multiplied by 0.5, a 50% reduction in odds. Exp(B) = 1 means no effect. The 95% CI for Exp(B) should exclude 1 for a significant predictor.",
+    "w": [
+      "Odds ratios change odds, not probabilities.",
+      "Exp(B) doesn't subtract percentage points from probability.",
+      "Exp(B) below 1 means the odds decrease, which is an effect."
+    ],
+    "k": "Exp(B) < 1 = odds decrease; 1 = no effect; > 1 = odds increase.",
+    "h": "Below one, odds go down.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Odds ratios below 1"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 2,
+    "q": "−2LL is 154.08 for the constant-only model and 144.16 after adding one predictor. What is the model chi-square?",
+    "o": [
+      "χ²(1) = 9.92, p ≈ .002",
+      "χ²(1) = 298.24, p < .001",
+      "χ²(2) = 9.92, p ≈ .007",
+      "χ²(1) = 0.06, p ≈ .80"
+    ],
+    "e": "Model χ² = −2LL(baseline) − (−2LL(new)) = 154.08 − 144.16 = 9.92, with df equal to the number of parameters added (1). The predictor significantly improves on the baseline model, which predicts the most common category for everyone. SPSS shows this in the Omnibus Tests of Model Coefficients table.",
+    "w": [
+      "298.24 adds the two −2LLs instead of subtracting.",
+      "One predictor adds one parameter, so df = 1, not 2.",
+      "0.06 is roughly R²_L, not the model χ²."
+    ],
+    "k": "Model χ² = −2LL(baseline) − −2LL(new), df = parameters added.",
+    "h": "Drop in badness = model χ².",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · The likelihood ratio test"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 3,
+    "q": "For the same model, what is Hosmer and Lemeshow's R²_L?",
+    "o": [
+      "About .064",
+      "About .936",
+      "About .002",
+      "About .640"
+    ],
+    "e": "R²_L = model χ² / −2LL(baseline) = 9.92 / 154.08 = .064, the proportional reduction in badness of fit. Pseudo-R² values are typically much smaller than linear-regression R², and different versions (Cox & Snell, Nagelkerke) give different numbers.",
+    "w": [
+      ".936 is 1 − R²_L, the remaining badness of fit.",
+      ".002 is the p-value, not R²_L.",
+      ".640 misplaces the decimal; 9.92/154.08 ≈ .064."
+    ],
+    "k": "Hosmer and Lemeshow's R²_L = model χ² ÷ −2LL(baseline).",
+    "h": "Improvement over starting badness.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Pseudo-R²"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 2,
+    "q": "Why does SPSS report Nagelkerke's R² alongside Cox and Snell's?",
+    "o": [
+      "Cox and Snell's can never reach 1, so Nagelkerke rescales it to a 0–1 range",
+      "Cox and Snell's is used for categorical predictors and Nagelkerke's for continuous ones",
+      "Nagelkerke's is the only one that tests whether the model is significant",
+      "Cox and Snell's measures overdispersion, while Nagelkerke's measures fit"
+    ],
+    "e": "Cox and Snell's R² has a maximum below 1 (about .75 for some data), which makes it hard to interpret. Nagelkerke divides it by that maximum, so a perfect model reaches 1. Neither is a proportion of variance explained in the linear-regression sense.",
+    "w": [
+      "Neither R² depends on whether predictors are categorical or continuous.",
+      "Model significance comes from the model χ², not Nagelkerke's R².",
+      "Neither R² measures overdispersion; both describe fit."
+    ],
+    "k": "Nagelkerke rescales Cox and Snell's R² to reach 1.",
+    "h": "Nagelkerke stretches Cox and Snell to the top.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Cox and Snell vs Nagelkerke"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 2,
+    "q": "In the Hosmer–Lemeshow goodness-of-fit test, which result suggests the model fits well?",
+    "o": [
+      "A non-significant result (p > .05)",
+      "A significant result (p < .05)",
+      "A value of −2LL that is above 100",
+      "A Nagelkerke R² above .50"
+    ],
+    "e": "The test compares observed with predicted frequencies across groups of predicted risk. A significant result means they differ, indicating poor fit, so non-significance is what you want. Like other fit tests, it is affected by sample size.",
+    "w": [
+      "A significant result means observed and predicted differ: poor fit.",
+      "−2LL values don't indicate good fit by size alone.",
+      "Nagelkerke's R² isn't the Hosmer–Lemeshow test."
+    ],
+    "k": "A non-significant Hosmer–Lemeshow test indicates the model fits well.",
+    "h": "Here, non-significant is good news.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Hosmer–Lemeshow test"
+  },
+  {
+    "t": "Ch21 Coefficients",
+    "d": 3,
+    "q": "A predictor has B = 1.20 and SE = 0.40. What is its Wald statistic, and what is a known weakness of the Wald test?",
+    "o": [
+      "Wald = 9.00; with large b its SE inflates, making the test too conservative",
+      "Wald = 3.00; it is overly liberal in small samples, causing Type I errors",
+      "Wald = 9.00; it cannot be computed when predictors are categorical",
+      "Wald = 0.33; it ignores the standard error of the coefficient"
+    ],
+    "e": "Wald = (b / SE)² = (1.2 / 0.4)² = 9.00, compared with χ²(1), giving p ≈ .003. When b is large, its SE tends to be inflated, so Wald underestimates significance, raising Type II errors (Menard). The likelihood ratio test, comparing models with and without the predictor, is more reliable.",
+    "w": [
+      "3.00 is b/SE before squaring, and Wald is conservative, not liberal.",
+      "Wald can be computed for categorical predictors.",
+      "0.33 divides SE by b, and Wald does use the SE."
+    ],
+    "k": "Wald = (b/SE)²; it's conservative for large b, so prefer likelihood ratio tests.",
+    "h": "Wald wobbles when b is big.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · The Wald statistic"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 2,
+    "q": "The classification table in SPSS logistic regression output shows:",
+    "o": [
+      "How many cases the model classifies correctly, using a cut-off of .5 by default",
+      "The odds ratio for each predictor, together with its confidence interval",
+      "The −2LL at each step, showing whether the model is improving as it goes",
+      "The categories of each categorical predictor, together with their contrast codes"
+    ],
+    "e": "Cases with a predicted probability above the cut value (.5 by default) are classified as 1, and below as 0. Compare overall % correct with Block 0 (the constant-only model) to see whether the predictors improve classification, and look at sensitivity and specificity, not just the overall figure.",
+    "w": [
+      "Odds ratios appear in Variables in the Equation.",
+      "−2LL by step appears in the Iteration History and Model Summary.",
+      "Categorical coding appears in a separate coding table."
+    ],
+    "k": "Classification table: correct classifications at a .5 cut-off; compare with Block 0.",
+    "h": "How often did it guess right?",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Classification table"
+  },
+  {
+    "t": "Ch21 Assumptions",
+    "d": 3,
+    "q": "How is the assumption of linearity of the logit usually tested?",
+    "o": [
+      "Add each continuous predictor's interaction with its own log; significance means violation",
+      "Plot the predicted probabilities against each continuous predictor and check that they form a straight line",
+      "Compute VIF values for each predictor and check that all of them are below 10",
+      "Run the Hosmer–Lemeshow test separately for each continuous predictor in turn"
+    ],
+    "e": "The Box–Tidwell approach adds X × ln(X) for each continuous predictor. If that term is significant, the relationship between X and the logit is not linear. Probabilities are expected to be S-shaped, so a straight-line plot of them is not the right check.",
+    "w": [
+      "Probabilities are expected to be S-shaped, not straight.",
+      "VIF checks multicollinearity, not linearity of the logit.",
+      "Hosmer–Lemeshow tests overall fit, not linearity per predictor."
+    ],
+    "k": "Test linearity of the logit with X × ln(X) terms (Box–Tidwell).",
+    "h": "Log-interaction lie detector.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Linearity of the logit"
+  },
+  {
+    "t": "Ch21 Assumptions",
+    "d": 3,
+    "q": "Complete separation occurs when:",
+    "o": [
+      "A predictor (or combination) perfectly predicts the outcome, so estimates explode",
+      "Two of the predictors are perfectly correlated with each other in the sample being analysed",
+      "The two outcome categories have exactly equal numbers of cases in the sample",
+      "The model includes no constant term, so it cannot be estimated by maximum likelihood"
+    ],
+    "e": "If every case above some X value is a 1 and every case below is a 0, the maximum-likelihood b heads toward infinity and its SE becomes huge, often with a warning that estimation stopped. Remedies include more data, combining categories, or penalized (Firth) regression.",
+    "w": [
+      "Perfectly correlated predictors cause multicollinearity, not separation.",
+      "Equal numbers in the two outcome categories don't cause separation.",
+      "Omitting the constant isn't what complete separation means."
+    ],
+    "k": "Complete separation: a predictor perfectly predicts the outcome, so estimates blow up.",
+    "h": "Perfect prediction breaks the model.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Complete separation"
+  },
+  {
+    "t": "Ch21 Assumptions",
+    "d": 3,
+    "q": "In logistic regression, a dispersion parameter well above 1, say above 2, suggests:",
+    "o": [
+      "Overdispersion: variance exceeds what the binomial model expects, so SEs are too small",
+      "Underdispersion: the model is too conservative, so the standard errors and CIs are too large",
+      "Perfect fit: the model explains all of the variance in the binary outcome",
+      "Multicollinearity: two of the predictors explain the same variance in the outcome"
+    ],
+    "e": "When the variance exceeds the model's expectation (common with clustered or aggregated data), SEs and CIs are underestimated and significance is overstated. Values near 1 are fine, and above 2 are problematic. The dispersion parameter can be estimated by dividing the deviance (or Pearson) χ² by its df.",
+    "w": [
+      "Values below 1 would indicate underdispersion, not above 2.",
+      "A dispersion parameter doesn't indicate perfect fit.",
+      "Dispersion concerns outcome variance, not multicollinearity."
+    ],
+    "k": "Dispersion above 2 = overdispersion; SEs are too small.",
+    "h": "Over 2, overdispersed.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Overdispersion"
+  },
+  {
+    "t": "Ch21 Assumptions",
+    "d": 2,
+    "q": "How can multicollinearity be checked for a logistic regression in SPSS?",
+    "o": [
+      "Run a linear regression with the same predictors and inspect the VIF and tolerance",
+      "Tick 'Collinearity diagnostics' in the Binary Logistic dialog's Options box",
+      "Inspect the classification table for any cells with zero counts in them",
+      "Check whether the Hosmer–Lemeshow goodness-of-fit test is significant"
+    ],
+    "e": "Collinearity depends only on the predictors, not on the outcome, so the collinearity statistics from linear regression (VIF, tolerance) apply. SPSS's logistic procedure does not provide them directly.",
+    "w": [
+      "The Binary Logistic dialog has no collinearity option.",
+      "Zero-count cells relate to separation, not collinearity.",
+      "Hosmer–Lemeshow tests model fit, not collinearity."
+    ],
+    "k": "Check logistic collinearity by running a linear regression with the same predictors.",
+    "h": "Borrow VIF from linear regression.",
+    "r": "Stats & SPSS ch. 21 · SPSS · Collinearity in logistic regression"
+  },
+  {
+    "t": "Ch21 SPSS",
+    "d": 2,
+    "q": "In SPSS's Binary Logistic dialog, what does the 'Categorical' button do?",
+    "o": [
+      "Declares categorical predictors and sets their contrast, such as indicator with a reference",
+      "Declares that the outcome variable is categorical, which must be done before every logistic analysis",
+      "Converts continuous predictors into categories by splitting them at their medians",
+      "Sets the cut-off probability value used to build the classification table"
+    ],
+    "e": "Predictors listed as categorical are dummy-coded automatically. Indicator contrasts compare each category with a reference category (first or last, which you choose). Without this, a multi-category code would be treated as a continuous number.",
+    "w": [
+      "The outcome is already binary; Categorical concerns predictors.",
+      "The Categorical button doesn't median-split continuous predictors.",
+      "The cut-off is set under Options."
+    ],
+    "k": "The Categorical button dummy-codes predictors using chosen contrasts.",
+    "h": "Tell SPSS which predictors are groups.",
+    "r": "Stats & SPSS ch. 21 · SPSS · Categorical predictors"
+  },
+  {
+    "t": "Ch21 Methods",
+    "d": 3,
+    "q": "If a stepwise method must be used in logistic regression, which is preferred, and why?",
+    "o": [
+      "A likelihood-ratio method (such as Backward: LR), because the Wald statistic is unreliable",
+      "A Wald-based method (such as Forward: Wald), because likelihood-ratio tests are the unreliable ones",
+      "A conditional method, because it is the only stepwise method that SPSS can run",
+      "Enter, because stepwise methods cannot be used at all in logistic regression"
+    ],
+    "e": "Stepwise entry is best avoided for theory testing. When it is used for prediction or exploration, selection based on likelihood-ratio tests is more trustworthy than Wald-based selection, given the Wald statistic's inflated SEs.",
+    "w": [
+      "Wald-based methods are the unreliable ones.",
+      "SPSS offers several stepwise methods, not only conditional.",
+      "Stepwise methods can be used, though cautiously."
+    ],
+    "k": "If stepwise is used in logistic regression, prefer likelihood-ratio methods.",
+    "h": "LR over Wald.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Methods of entry"
+  },
+  {
+    "t": "Ch21 Multinomial",
+    "d": 2,
+    "q": "An outcome has three unordered categories (CBT, medication or no treatment chosen). Which analysis is appropriate?",
+    "o": [
+      "Multinomial logistic regression, comparing each category with a reference",
+      "Binary logistic regression, using the category codes 1–3 as the outcome",
+      "Ordinal regression, ranking the treatments from least to most effective",
+      "Linear regression with the treatment choice as the dependent variable"
+    ],
+    "e": "Multinomial logistic regression estimates a set of logistic equations, each comparing one category with the reference category (for example CBT vs none and medication vs none). In SPSS: Analyze → Regression → Multinomial Logistic. Ordinal regression would only fit if the categories were ordered.",
+    "w": [
+      "Binary logistic handles only two categories.",
+      "Ordinal regression requires ordered categories, which these aren't.",
+      "Linear regression can't model unordered categories."
+    ],
+    "k": "Unordered outcome with several categories → multinomial logistic regression.",
+    "h": "Many names, multinomial.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Multinomial logistic regression"
+  },
+  {
+    "t": "Ch21 Diagnostics",
+    "d": 2,
+    "q": "Which diagnostics can be saved from SPSS logistic regression to look for influential cases?",
+    "o": [
+      "Cook's distances, leverage values, DFBeta and standardized residuals",
+      "VIF, tolerance and Durbin–Watson values for every predictor in the model",
+      "Mauchly's W and the Greenhouse–Geisser estimates for each predictor",
+      "Box's M and Levene's statistics for each of the predictor variables"
+    ],
+    "e": "The Save button offers predicted probabilities, group membership, Cook's, leverage, DFBeta, and standardized, studentized and deviance residuals. Similar thresholds to linear regression apply: about 95% of standardized residuals within ±2, Cook's below 1, and DFBeta below 1.",
+    "w": [
+      "VIF and Durbin–Watson come from linear regression.",
+      "Mauchly's W is for repeated measures.",
+      "Box's M and Levene's are ANOVA/MANOVA checks."
+    ],
+    "k": "Save Cook's, leverage, DFBeta and residuals to find influential cases.",
+    "h": "Same suspects as linear regression.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Diagnostics"
+  },
+  {
+    "t": "Ch21 Reporting",
+    "d": 2,
+    "q": "Which is a well-reported logistic regression result for a predictor?",
+    "o": [
+      "b = 0.50, SE = 0.17, Wald χ²(1) = 8.65, p = .003, OR = 1.65, 95% CI [1.18, 2.30], plus model fit",
+      "R² = .64, so the model explains 64% of the variance in relapse, with b = 0.50 and p = .003 for the predictor",
+      "t(98) = 2.94 for the predictor, p = .003, with R² = .64 for the model as a whole",
+      "The predictor raised the probability of relapse by 65%, p = .003, so it is a strong risk factor"
+    ],
+    "e": "Report b, its SE, the test (Wald, or preferably LR), p, the odds ratio with its CI, and overall model fit (model χ², Hosmer–Lemeshow and Nagelkerke R²). Avoid describing odds ratios as changes in probability, and do not interpret pseudo-R² as variance explained.",
+    "w": [
+      "Pseudo-R² isn't variance explained, so '64% of the variance' misleads.",
+      "Logistic regression uses Wald or LR tests, not t.",
+      "Odds ratios change odds, not probability by 65%."
+    ],
+    "k": "Report b, SE, Wald/LR test, p, OR with CI, and model fit.",
+    "h": "Odds ratio with its interval.",
+    "r": "Stats & SPSS ch. 21 · Logistic regression · Reporting"
+  },
+  {
+    "t": "Ch21 Model fit",
+    "d": 2,
+    "q": "In SPSS output, Block 0 ('Beginning Block') shows the model with:",
+    "o": [
+      "Only the constant, which predicts the most frequent outcome for everyone",
+      "All of the predictors entered at once, before any of them are removed",
+      "Only the predictors that were significant in a previous analysis of the same data",
+      "The interaction terms only, entered without any of the main effects"
+    ],
+    "e": "Block 0 is the baseline: with only an intercept, every case is predicted to belong to the larger outcome category. Its −2LL and classification accuracy are the benchmark against which Block 1 (with the predictors) is compared.",
+    "w": [
+      "All predictors appear in Block 1.",
+      "Block 0 doesn't use previous analyses.",
+      "Block 0 has no interaction terms."
+    ],
+    "k": "Block 0 = constant only, predicting the most common outcome.",
+    "h": "Block 0: the baseline guess.",
+    "r": "Stats & SPSS ch. 21 · SPSS · Block 0"
+  }
+]

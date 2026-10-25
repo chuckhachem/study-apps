@@ -1,0 +1,802 @@
+[
+  {
+    "t": "Ch1 Object relations",
+    "d": 1,
+    "q": "In TFP's object relations theory, the basic building block of psychic structure is:",
+    "o": [
+      "A dyad: self-representation and object-representation linked by an affect",
+      "The tripartite structure of id, ego and superego from the start of life",
+      "A schema of automatic thoughts that selects and filters information",
+      "An attachment style formed in the first year with the main caregiver"
+    ],
+    "e": "Kernberg's object relations theory builds the mind from units called dyads. Each dyad links a representation of the self and a representation of the other (the 'object') through an affect, which is related to or represents a drive (Figure 1–1). Examples: a deprived self, a depriving other, fear; a satisfied self, an ideal other, love. In TFP the patient's experience, especially in the transference, is understood as the activation of such dyads, which is why the therapist keeps asking: who am I for you right now, and who are you?",
+    "w": [
+      "Id, ego and superego are Freud's structural model; in Kernberg's view they are built later from internalized dyads.",
+      "Automatic-thought schemas belong to cognitive therapy, not psychoanalytic object relations theory.",
+      "Attachment style is a concept from attachment theory; TFP's unit is the self–affect–object dyad."
+    ],
+    "k": "Object relations dyad = self-representation + object-representation + linking affect: the building block of the mind in TFP.",
+    "h": "Dyad = 'two' (Greek dyas): two people in the mind, glued together by a feeling.",
+    "r": "Clarkin Ch1 – Psychoanalytic object relations theory"
+  },
+  {
+    "t": "Ch1 Object relations",
+    "d": 2,
+    "q": "The 'self' and 'object' in an early dyad are:",
+    "o": [
+      "Partial representations of self and other as experienced at specific early moments",
+      "Accurate copies of the real parents as they were across the whole of childhood",
+      "Conscious memories of early events that can always be recalled on request",
+      "Purely cognitive images of self and other, stored without any linking affect"
+    ],
+    "e": "Early dyads are not snapshots of the real parents. They represent self and other as experienced at specific moments of early development, often moments of intense affect, so they are partial and coloured by the infant's feelings and fantasies. That is why a patient's internal 'mother' can be harsher or more ideal than the real mother. In therapy, the representations activated in the transference are internal templates, not reports of fact.",
+    "w": [
+      "Representations are partial and affect-coloured, not accurate copies of the parents across childhood.",
+      "They are often not available to conscious recall; they show up in behaviour and the transference.",
+      "Every dyad has a linking affect; the affect is what binds self and other together."
+    ],
+    "k": "Early self and object representations are partial, affect-coloured images of specific moments, not accurate copies of real people.",
+    "h": "A photo taken in a storm: it shows the moment's weather, not the whole person.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Normal personality",
+    "d": 2,
+    "q": "Which three structural features define normal personality organization?",
+    "o": [
+      "Integrated identity, broad well-modulated affect, and integrated internalized values",
+      "Splitting, projective identification and denial used flexibly under stress",
+      "Intact reality testing, high intelligence and a secure attachment history",
+      "Repression, reaction formation and sublimation as the dominant defenses"
+    ],
+    "e": "Normal personality, in the authors' structural view, rests on three achievements. First, an integrated identity: a coherent concept of self and of significant others that holds good and bad together. Second, a broad range of complex, well-modulated affects without loss of impulse control. Third, an integrated system of internalized, individualized values. Borderline organization is defined by failures in exactly these areas: identity diffusion, affect storms, and superego pathology.",
+    "w": [
+      "Splitting, projective identification and denial are primitive defenses, the mark of borderline organization.",
+      "Reality testing is necessary but not sufficient, and intelligence and attachment history are not the defining features.",
+      "Repression-based defenses characterize neurotic organization, not the definition of normality."
+    ],
+    "k": "Normal personality = integrated identity + well-modulated affect + integrated internalized values.",
+    "h": "Who I am, how I feel, what I value: all three integrated.",
+    "r": "Clarkin Ch1 – Normal personality"
+  },
+  {
+    "t": "Ch1 Development",
+    "d": 2,
+    "q": "According to Kernberg, peak-affect experiences in infancy:",
+    "o": [
+      "Facilitate internalizing object relations organized as all-good or all-bad",
+      "Are stored only as general cognitive learning without affective memory",
+      "Prevent memory structures from forming until language develops",
+      "Produce integrated good-and-bad representations right away"
+    ],
+    "e": "Kernberg distinguishes two kinds of infant experience. In peak-affect moments (intense hunger, rage, bliss), object relations are internalized strongly and organized along a simple axis: all-good (rewarding) or all-bad (aversive). In quiet, low-affect periods, the infant does general cognitive learning about the world. Peak affect thus creates the split, idealized and persecutory segments that later need to be integrated, and it explains why borderline patients' inner worlds are so black-and-white.",
+    "w": [
+      "General cognitive learning happens in quiet periods; peak affect creates strongly felt, affect-laden memories.",
+      "Affective memory structures form long before language.",
+      "Integration of good and bad comes later; peak affect first produces separate all-good and all-bad images."
+    ],
+    "k": "Peak-affect experiences lay down all-good or all-bad object relations; quiet periods support general cognitive learning.",
+    "h": "Peak moments burn in black or white; calm moments fill in the grey.",
+    "r": "Clarkin Ch1 – Developmental factors"
+  },
+  {
+    "t": "Ch1 Development",
+    "d": 3,
+    "q": "In Figure 1–2, which dyad is given as Example 3?",
+    "o": [
+      "Powerful, controlling self – weak, slave-like other – wrath",
+      "Hungry, deprived self – sadistic, depriving other – fear",
+      "Hungry then satisfied self – ideal, responsive other – love",
+      "Helpless self – rescuing other – gratitude"
+    ],
+    "e": "Figure 1–2 illustrates dyads with three examples. Example 1: a hungry, deprived self with a sadistic, depriving other, linked by fear. Example 2: a hungry-then-satisfied self with an ideal, responsive other, linked by love. Example 3: a powerful, controlling self with a weak, slave-like other, linked by wrath. Example 3 shows that a dyad can be lived from either side: the person who felt controlled can enact the controller, which is the basis of role reversals in the transference.",
+    "w": [
+      "Deprived self, depriving other, fear is Example 1.",
+      "Satisfied self, ideal other, love is Example 2.",
+      "A helpless self with a rescuing other is not one of the figure's examples."
+    ],
+    "k": "Figure 1–2: (1) deprived self/depriving other/fear; (2) satisfied self/ideal other/love; (3) controlling self/slave-like other/wrath.",
+    "h": "Fear, love, wrath: 1, 2, 3.",
+    "r": "Clarkin Ch1 – Figure 1–2"
+  },
+  {
+    "t": "Ch1 Development",
+    "d": 2,
+    "q": "Why can an infant with a generally attentive caregiver still internalize a sadistic, depriving object?",
+    "o": [
+      "Temporary frustration at peak affect is encoded as a partial representation",
+      "Attentive caregivers usually hide sadistic intentions the infant perceives",
+      "The infant's cognition is mature enough to judge the caregiver's whole character",
+      "Attachment plays no role, so representations come only from temperament"
+    ],
+    "e": "Because internal images represent specific moments rather than the whole person, a single intense moment of frustration, such as a delayed feed, can be encoded as a sadistic, depriving object, even if the caregiver is generally attentive. The reverse also happens: a neglected infant may form an idealized image from rare moments of satisfaction. This is why TFP does not take the patient's internal figures as accurate history; they mix real experience with affect and fantasy.",
+    "w": [
+      "The theory does not claim caregivers hide sadism; the image comes from the infant's momentary experience.",
+      "An infant cannot yet judge a caregiver's whole character; that is exactly why images are partial.",
+      "The authors stress both temperament and caregiving; the point is that moments, not whole persons, are encoded."
+    ],
+    "k": "Internal objects encode intense moments, so one frustrating moment can create a 'sadistic' image of a good caregiver.",
+    "h": "One bad minute can paint a whole portrait.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Affects & drives",
+    "d": 2,
+    "q": "In this model, the relationship between affects and drives is:",
+    "o": [
+      "Affects build drives: pleasurable ones form libido, aversive ones form aggression",
+      "Drives exist first and only later, in adulthood, give rise to specific affects",
+      "Affects and drives are independent systems with no developmental link",
+      "Aggression is built from positive affects that turn negative with frustration"
+    ],
+    "e": "Kernberg reverses Freud's order. Instead of drives coming first and producing affects, inborn affects come first and are gradually organized into the two drives. Pleasurable, gratifying affects are organized into libido; painful, aversive affects into aggression. Affects are the building blocks, drives the larger motivational systems built from them. This lets the theory link motivation to concrete relational experiences.",
+    "w": [
+      "The theory has affects come first, in infancy, and build the drives, not the reverse.",
+      "Affects and drives are developmentally linked: drives are organized from affects.",
+      "Aggression is built from aversive affects, not from positive ones."
+    ],
+    "k": "Kernberg: inborn affects build the drives; pleasurable ones form libido, aversive ones form aggression.",
+    "h": "Bricks (affects) build the houses (drives).",
+    "r": "Clarkin Ch1 – Motivational aspects"
+  },
+  {
+    "t": "Ch1 Splitting",
+    "d": 2,
+    "q": "What is the function of splitting in the primitive psyche?",
+    "o": [
+      "To protect idealized good representations from the hatred tied to bad ones",
+      "To integrate good and bad representations into a realistic whole",
+      "To repress forbidden wishes into the unconscious, as in neurosis",
+      "To improve reality testing by separating fantasy from perception"
+    ],
+    "e": "In the early mind, hatred aims to destroy what feels harmful. If good and bad images of the same person were joined, hatred of the bad image would threaten to destroy the good one too. So the psyche keeps them apart, protecting the idealized good segment from the aggression attached to the bad segment. This active separation is splitting. In borderline patients it persists into adulthood: people are experienced as all-good or all-bad, often switching suddenly.",
+    "w": [
+      "Integration is the opposite of splitting; it is the later developmental achievement.",
+      "Repressing forbidden wishes is the neurotic defense; splitting keeps contradictory states conscious but separate.",
+      "Splitting tends to distort perception of others; it doesn't improve reality testing."
+    ],
+    "k": "Splitting keeps all-good and all-bad images apart to protect the good from the hatred aimed at the bad.",
+    "h": "A firewall between love and hate, so hate can't burn the good image down.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Klein",
+    "d": 2,
+    "q": "Why is Klein's depressive position called 'depressive'?",
+    "o": [
+      "It involves mourning the lost ideal provider and guilt for past aggression",
+      "It describes the clinical depression seen in borderline patients",
+      "It is dominated by persecutory fears projected onto the outside world",
+      "It comes developmentally before the paranoid-schizoid position"
+    ],
+    "e": "In Klein's model, the paranoid-schizoid position keeps good and bad split. The depressive position begins when they integrate, and integration hurts. The person realizes that the one they hated and the one they loved are the same person. That brings mourning for the lost, perfect, ideal provider and guilt for the aggression directed at someone who was experienced as purely bad. 'Depressive' names this sadness and concern, not clinical depression; it is an achievement of development.",
+    "w": [
+      "It names a developmental position with mourning and guilt, not the clinical depression of borderline patients.",
+      "Persecutory fears projected outward characterize the paranoid-schizoid position.",
+      "The depressive position comes after the paranoid-schizoid position, not before."
+    ],
+    "k": "Depressive position = integrated good and bad, bringing mourning for the ideal object and guilt for past aggression.",
+    "h": "'Depressive' = the sadness of discovering the villain and the hero were the same person.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Klein",
+    "d": 1,
+    "q": "A goal of TFP is to help the patient move:",
+    "o": [
+      "From the paranoid-schizoid position to the depressive position",
+      "From the depressive to the paranoid-schizoid position",
+      "From neurotic to borderline organization",
+      "From repression to splitting"
+    ],
+    "e": "TFP aims to help the patient progress from the paranoid-schizoid position, where self and others are split into idealized and persecutory parts, toward the depressive position, where good and bad are integrated into whole, realistic images, with the capacity for ambivalence, guilt and concern. Then therapy works on depressive-position issues. Clinically this shows as a patient who can say 'I'm angry at you, and you've also helped me' instead of swinging between worship and hatred.",
+    "w": [
+      "Moving from depressive to paranoid-schizoid would be regression, the opposite of TFP's goal.",
+      "Moving from neurotic to borderline organization would also be regression.",
+      "Moving from repression to splitting goes backward; TFP aims to reduce splitting."
+    ],
+    "k": "TFP goal: move from the paranoid-schizoid position (splitting) to the depressive position (integration).",
+    "h": "From split screen to one full picture.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Temperament",
+    "d": 2,
+    "q": "'Effortful control' is defined as:",
+    "o": [
+      "The ability to inhibit a dominant response to perform a subdominant one",
+      "The ability to suppress all emotion so that behavior stays calm",
+      "A primitive defense that keeps good and bad representations apart",
+      "A form of transference in which the patient controls the therapist"
+    ],
+    "e": "Effortful control, a temperament dimension of self-regulation (Posner and Rothbart), is the ability to inhibit a dominant response in order to perform a subdominant one, for example stopping yourself from shouting and choosing to speak calmly. A person with it can voluntarily inhibit, activate or shift attention, and so modulate affect. The chapter links its development to affect regulation, social relations and conscience, and insecure attachment can interfere with it.",
+    "w": [
+      "Suppressing all emotion is not the definition; effortful control modulates responses through attention.",
+      "Keeping good and bad representations apart describes splitting, a defense.",
+      "Controlling the therapist would be omnipotent control in the transference, not a temperament trait."
+    ],
+    "k": "Effortful control = inhibiting a dominant response to perform a subdominant one (self-regulation of temperament).",
+    "h": "The brake pedal of temperament: stop the first impulse, choose the second.",
+    "r": "Clarkin Ch1 – Temperamental and cognitive aspects"
+  },
+  {
+    "t": "Ch1 Temperament",
+    "d": 3,
+    "q": "Kochanska's studies found that effortful control emerges as a trait-like attribute by about:",
+    "o": [
+      "45 months; more effortful control goes with lower affect intensity and better conscience",
+      "14 months; effortful control shows no link with later conscience development",
+      "10 years; greater effortful control goes with higher affect intensity",
+      "Adolescence; effortful control appears only after puberty and abstract thought"
+    ],
+    "e": "Kochanska and colleagues traced effortful control alongside the emergence of conscience. By about 45 months (almost 4 years) it appears as a trait-like attribute. Children with better effortful control show more advanced conscience development and fewer externalizing problems, and greater effortful control goes with lower affect intensity. For TFP this links temperament, self-regulation and the superego: the capacity to inhibit impulses supports internalized values.",
+    "w": [
+      "14 months is too early, and the studies did link effortful control to conscience.",
+      "10 years is too late, and greater effortful control goes with lower, not higher, affect intensity.",
+      "It appears in early childhood, long before adolescence."
+    ],
+    "k": "Effortful control is trait-like by about 45 months and predicts better conscience, fewer externalizing problems and lower affect intensity.",
+    "h": "45 months ≈ 4 years: the preschool brake is installed.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Character",
+    "d": 2,
+    "q": "In the authors' terms, 'character' is:",
+    "o": [
+      "The behavioral manifestation of identity",
+      "The constitutional disposition to react",
+      "The internalized system of moral values",
+      "The intensity and rhythm of affect"
+    ],
+    "e": "The authors define character as the behavioural manifestation of identity: the dynamic organization of behaviour patterns unique to a person, including how flexible or rigid those patterns are across situations. Identity (the concept of self and significant others) is the inner structure; character is how it shows in behaviour. Temperament is the constitutional disposition to react, and the moral value system is separate again.",
+    "w": [
+      "The constitutional disposition to react is temperament.",
+      "The internalized system of moral values is the superego or value system.",
+      "Intensity and rhythm of affect describe temperament, not character."
+    ],
+    "k": "Character = the behavioural expression of identity; temperament = the inborn disposition to react.",
+    "h": "Identity is the script; character is the performance.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Nosology",
+    "d": 2,
+    "q": "What do the authors say about avoidant personality disorder?",
+    "o": [
+      "They question its existence; these patients usually have another PD explaining the avoidance",
+      "It is the most severe disorder at the borderline level, close to the psychotic range",
+      "It is the prototype of neurotic organization, alongside obsessive-compulsive PD",
+      "It is identical to schizoid PD and should be merged with it in DSM revisions"
+    ],
+    "e": "Figure 1–5 includes avoidant personality disorder only in deference to DSM-IV-TR. In the authors' experience, such patients ultimately prove to have another personality disorder that accounts for the avoidance, so they question whether avoidant PD exists as a clinical entity (a controversial point, they add). The same surface timidity may reflect the cautiousness of a paranoid person or the reticence of a grandiose narcissistic person. It shows their structural approach: classify by underlying organization, not by surface behaviour.",
+    "w": [
+      "The authors don't place it as the most severe borderline disorder; they question its existence.",
+      "Neurotic organization's prototypes are hysterical, obsessive-compulsive and depressive-masochistic personalities.",
+      "They don't propose merging it with schizoid PD; they argue another PD usually explains the avoidance."
+    ],
+    "k": "The authors include avoidant PD only for DSM's sake; they doubt it is a distinct entity, since another PD usually explains the avoidance.",
+    "h": "Avoidance is a symptom of something else.",
+    "r": "Clarkin Ch1 – Figure 1–5 note"
+  },
+  {
+    "t": "Ch1 Nosology",
+    "d": 2,
+    "q": "Which disorder belongs to NEUROTIC personality organization in Figure 1–5?",
+    "o": [
+      "Obsessive-compulsive personality",
+      "Narcissistic personality (high-functioning type)",
+      "Schizotypal personality",
+      "Antisocial personality"
+    ],
+    "e": "Figure 1–5 places three personalities at the neurotic level: hysterical, obsessive-compulsive and depressive-masochistic. They have an integrated identity, repression-based defenses and intact reality testing. Narcissistic, schizotypal and antisocial personalities sit at the borderline level, with identity diffusion and primitive defenses. Note that even high-functioning narcissistic personality is borderline organization in Kernberg's scheme.",
+    "w": [
+      "Narcissistic personality is at the borderline level, even its higher-functioning form.",
+      "Schizotypal personality is at the low borderline level.",
+      "Antisocial personality is at the most severe borderline level."
+    ],
+    "k": "Neurotic personality organization: hysterical, obsessive-compulsive, depressive-masochistic personalities.",
+    "h": "Neurotic trio: Hysterical, Obsessive, Depressive-masochistic (HOD).",
+    "r": "Clarkin Ch1 – Figure 1–5"
+  },
+  {
+    "t": "Ch1 Nosology",
+    "d": 3,
+    "q": "Which is NOT among the 'other' BPO disorders that DSM-IV-TR does not name specifically?",
+    "o": [
+      "Obsessive-compulsive personality",
+      "Hypomanic personality",
+      "Sadomasochistic personality",
+      "Malignant narcissism"
+    ],
+    "e": "Besides the DSM personality disorders at the borderline level, the authors list four conditions at the BPO level that DSM-IV-TR does not name specifically: hypomanic personality, sadomasochistic personality, hypochondriasis and malignant narcissism. Obsessive-compulsive personality is named in DSM, and in the authors' scheme it belongs to neurotic organization.",
+    "w": [
+      "Hypomanic personality is one of the four unnamed BPO conditions.",
+      "Sadomasochistic personality is one of the four unnamed BPO conditions.",
+      "Malignant narcissism is one of the four unnamed BPO conditions."
+    ],
+    "k": "BPO conditions not named in DSM-IV-TR: hypomanic, sadomasochistic, hypochondriasis, malignant narcissism.",
+    "h": "'Happy Sad Hypochondriac Monster': hypomanic, sadomasochistic, hypochondriasis, malignant narcissism.",
+    "r": "Clarkin Ch1 – BPO"
+  },
+  {
+    "t": "Ch1 BPO",
+    "d": 1,
+    "q": "Identity diffusion is:",
+    "o": [
+      "Absence of an integrated concept of self and of significant others",
+      "A psychotic loss of reality testing affecting self and others",
+      "Use of repression to keep conflicts out of awareness",
+      "A mature defense that allows flexible adaptation"
+    ],
+    "e": "Identity diffusion is the absence of an integrated concept of self and of significant others, caused by the lack of integration of idealized and persecutory segments. The patient's sense of who they are and who others are shifts with whichever segment is active: a friend is wonderful today and a traitor tomorrow, and the self alternates between grandiose and worthless. It is the core of borderline personality organization, and its integration is TFP's central aim.",
+    "w": [
+      "Loss of reality testing defines psychotic organization; reality testing is intact in BPO.",
+      "Repression is the neurotic defense; identity diffusion comes from splitting.",
+      "Identity diffusion is a structural pathology, not a defense of any kind."
+    ],
+    "k": "Identity diffusion = no integrated concept of self and others: the core of BPO.",
+    "h": "Diffusion = scattered: the self in pieces that never join.",
+    "r": "Clarkin Ch1 – Constituent elements"
+  },
+  {
+    "t": "Ch1 Reality testing",
+    "d": 2,
+    "q": "How does reality testing in BPO compare with NPO?",
+    "o": [
+      "Intact in both, but fluctuating in BPO, especially under stress",
+      "Absent in BPO and intact in NPO, even when calm",
+      "Intact in BPO and absent in NPO, especially under stress",
+      "Identical and stable in both, regardless of stress"
+    ],
+    "e": "Reality testing is intact in both borderline and neurotic organization: in tactful confrontation, patients can recognize ordinary social criteria of reality. In BPO, however, it fluctuates, and under stress (including in the transference) these patients regress more easily to paranoid thinking or brief distortions. Loss of reality testing defines psychotic organization. This explains why a borderline patient can be very clear in one session and briefly convinced the therapist is plotting against them in the next.",
+    "w": [
+      "Reality testing is intact in BPO; it is lost only in psychotic organization.",
+      "Reality testing is not absent in NPO; neurotic patients have stable reality testing.",
+      "It is not identical: in BPO it fluctuates under stress."
+    ],
+    "k": "Reality testing: intact in both BPO and NPO, but fluctuating under stress in BPO; lost only in psychosis.",
+    "h": "BPO reality testing is a dimmer switch, not an off switch.",
+    "r": "Clarkin Ch1 – Reality testing"
+  },
+  {
+    "t": "Ch1 Defenses",
+    "d": 2,
+    "q": "Projective identification is characterized by:",
+    "o": [
+      "Unconsciously inducing in the other what is projected and trying to control that other",
+      "Simply attributing one's own repressed feeling to someone else, without any interaction with them",
+      "Turning an impulse into its opposite",
+      "Channeling impulses into creative work"
+    ],
+    "e": "Projective identification goes beyond ordinary projection. The patient unconsciously attributes a part of themselves (often hatred) to another, then behaves in ways that induce that very feeling or behaviour in the other, and tries to control the other, who is now experienced as dominated by the projected aspect. In therapy the therapist may suddenly feel irritated or punitive toward the patient. Recognizing this in the countertransference is a key TFP tool.",
+    "w": [
+      "Simply attributing a feeling to someone without any interaction is plain projection.",
+      "Turning an impulse into its opposite is reaction formation.",
+      "Channeling impulses into creative work is sublimation."
+    ],
+    "k": "Projective identification = project, induce the projected state in the other, and try to control them.",
+    "h": "Project, provoke, control: the other ends up playing your part.",
+    "r": "Clarkin Ch1 – Primitive defenses"
+  },
+  {
+    "t": "Ch1 Defenses",
+    "d": 2,
+    "q": "Neurotic personality organization is organized around which defense?",
+    "o": [
+      "Repression",
+      "Splitting",
+      "Projective identification",
+      "Omnipotent control"
+    ],
+    "e": "Neurotic personality organization uses more mature defenses organized around repression: unacceptable wishes are pushed out of awareness while the self stays integrated. Reaction formation is a typical example (turning an unacceptable impulse into its opposite). Borderline organization, by contrast, is organized around splitting and related primitive defenses (projective identification, omnipotent control, idealization and devaluation, denial).",
+    "w": [
+      "Splitting organizes borderline, not neurotic, personality organization.",
+      "Projective identification is a primitive defense of borderline organization.",
+      "Omnipotent control is a primitive defense of borderline organization."
+    ],
+    "k": "NPO is organized around repression; BPO around splitting.",
+    "h": "Neurotic = locked in the basement (repression); borderline = split into separate rooms.",
+    "r": "Clarkin Ch1 – NPO"
+  },
+  {
+    "t": "Ch1 Defenses",
+    "d": 3,
+    "q": "When split-off material reaches consciousness in BPO, compared with repressed material in a neurotic person, it:",
+    "o": [
+      "Comes with its full affect, producing emotional chaos",
+      "Appears only cognitively, without corresponding affect",
+      "Never reaches consciousness except through dreams",
+      "Is experienced only as vague, nonspecific anxiety"
+    ],
+    "e": "The difference lies in how the defended-against material returns. In a neurotic person, repressed material that breaks through tends to be experienced purely cognitively, as an idea without much feeling (for example a slip of the tongue). In BPO, split-off material is not unconscious; it is dissociated, and when it surfaces it comes with its full affect, producing the sudden emotional storms and chaos typical of borderline patients.",
+    "w": [
+      "Appearing only cognitively, without affect, describes repressed material in neurotic patients.",
+      "Split-off material does reach consciousness, often abruptly, not only in dreams.",
+      "It arrives as intense, specific affect, not vague anxiety."
+    ],
+    "k": "Repressed material returns as cool ideas; split-off material returns with its full, chaotic affect.",
+    "h": "Neurotic: a quiet thought slips out. Borderline: a storm walks in.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Superego",
+    "d": 3,
+    "q": "What is the order of the superego's developmental layers?",
+    "o": [
+      "Persecutory demands → ideal self/other images → integrated realistic values",
+      "Ideal self/other images → persecutory demands → integrated realistic values",
+      "Integrated realistic values → persecutory demands → ideal self/other images",
+      "Persecutory demands → integrated realistic values → ideal self/other images"
+    ],
+    "e": "Following Jacobson and Kernberg, the superego forms in three layers. First, persecutory demands: a harsh, primitive morality, as the child experiences caregivers' prohibitions of aggressive, sexual and dependent impulses. Second, ideal representations of self and other, reflecting early childhood ideals. Third, integration and toning down of the first two into a realistic internalized value system, which makes the person less dependent on external control.",
+    "w": [
+      "Persecutory demands come first; ideals form the second layer.",
+      "Integrated realistic values are the final achievement, not the first layer.",
+      "Ideal images come before integration; integration combines the first two layers."
+    ],
+    "k": "Superego layers: (1) persecutory demands → (2) ideal self and object images → (3) integrated realistic values.",
+    "h": "Punisher, then ideal, then wise adult.",
+    "r": "Clarkin Ch1 – Moral values"
+  },
+  {
+    "t": "Ch1 Prognosis",
+    "d": 2,
+    "q": "Which factor is the overriding NEGATIVE prognostic indicator across psychotherapies for personality disorders?",
+    "o": [
+      "The extent of superego pathology, especially antisocial behavior",
+      "The patient's age at the start of treatment and the duration of previous therapies",
+      "The use of medication alongside psychotherapy",
+      "The intensity of the patient's depressive symptoms"
+    ],
+    "e": "The chapter states that the extent of superego pathology, at its extreme antisocial behaviour, is the overriding negative prognostic indicator for all psychotherapies of personality disorders. It is matched in importance only by the presence or absence of intense relationships with significant others, however chaotic. The more antisocial and the more isolated the patient, the worse the outlook; severe personality disorders with maintained relationships and no antisocial features have a positive prognosis.",
+    "w": [
+      "Age and previous therapies are not named as the overriding indicator.",
+      "Medication use is not a prognostic indicator in the chapter.",
+      "Depressive symptoms are not the indicator; superego pathology is."
+    ],
+    "k": "Worst prognostic sign: superego pathology (antisocial behaviour); matched only by the absence of intense relationships.",
+    "h": "No conscience, no connection = no traction.",
+    "r": "Clarkin Ch1 – Moral values"
+  },
+  {
+    "t": "Ch1 Low vs high BPO",
+    "d": 2,
+    "q": "Low-level BPO, compared with high-level BPO, is characterized by:",
+    "o": [
+      "More aggression infusing mental life and more superego lacunae",
+      "Less aggression and a more stable investment in work",
+      "Neurotic defenses organized around repression",
+      "An integrated identity with fragile reality testing"
+    ],
+    "e": "Within borderline organization, severity rises with aggression and superego pathology. Low-level BPO shows more overt aggression invading mental life and relationships, and more serious superego lacunae, often borderline PD combined with narcissistic, paranoid and antisocial traits. High-level BPO has less aggression and a more stable investment in work and relationships. Severity matters for TFP, because more aggression means more acting out and more need for a firm contract.",
+    "w": [
+      "Less aggression and stable work investment describe high-level BPO.",
+      "Defenses organized around repression describe neurotic organization, which lies above all levels of BPO.",
+      "An integrated identity is not borderline organization at all."
+    ],
+    "k": "Low-level BPO = more aggression and more superego lacunae than high-level BPO.",
+    "h": "Lower level = more aggression, fewer moral brakes.",
+    "r": "Clarkin Ch1 – Aggression"
+  },
+  {
+    "t": "Ch1 Hatred",
+    "d": 2,
+    "q": "What distinguishes hatred from rage in this model?",
+    "o": [
+      "Rage is temporary; hatred is chronic and structured around a specific object relation",
+      "Hatred is temporary; rage is chronic and structured around a specific object relation",
+      "Rage and hatred are identical; both are the core affects of libido",
+      "Rage is pathological in itself, while hatred is always a healthy reaction"
+    ],
+    "e": "Rage is the basic, momentary affect of aggression: intense but temporary. Pathology lies in its transformation into hatred, a chronic, structured affect organized around a specific object relation: a suffering self and an object experienced as willfully inducing that suffering. Hatred lasts, seeks revenge, and shapes the personality. In therapy, the therapist may become that hated object in the transference, which TFP explores rather than avoids.",
+    "w": [
+      "This reverses them: rage is temporary and hatred is chronic and structured.",
+      "Rage and hatred are affects of aggression, not of libido, and they are not identical.",
+      "Rage itself is a normal basic affect; pathology lies in its chronic transformation into hatred."
+    ],
+    "k": "Rage = temporary basic affect; hatred = chronic, structured affect binding a suffering self to a willfully hurtful object.",
+    "h": "Rage is weather; hatred is climate.",
+    "r": "Clarkin Ch1 – Psychopathology of hatred"
+  },
+  {
+    "t": "Ch1 Hatred",
+    "d": 3,
+    "q": "What are the levels of the goals of hate, from most primitive to most advanced?",
+    "o": [
+      "Destroy the bad object → make it suffer → dominate and control it",
+      "Control the bad object → destroy it → make it suffer, as aggression becomes more advanced",
+      "Make the bad object suffer → destroy it → control it",
+      "Dominate the bad object → make it suffer → destroy it"
+    ],
+    "e": "The chapter orders the goals of hate by maturity. At the most primitive level, the aim is to destroy the bad object. At a more advanced level, fused with sexual excitement, the aim is to make it suffer (sadism). At a still more advanced level, the aim is to dominate and control it. Each step keeps the object alive in some form, which reflects more structure and some capacity for relationship.",
+    "w": [
+      "Control is the most advanced goal, not the most primitive.",
+      "Destruction is the most primitive aim, so it cannot come after suffering.",
+      "Domination is the most advanced level and destruction the most primitive."
+    ],
+    "k": "Goals of hate, primitive to advanced: destroy → make suffer (sadism) → dominate and control.",
+    "h": "Erase it, hurt it, own it.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Aggression",
+    "d": 2,
+    "q": "How do the authors view aggression?",
+    "o": [
+      "A constitutional, evolution-derived component of everyone, not simply 'badness'",
+      "Merely anger in reaction to real mistreatment, with no endogenous source",
+      "Always pathological, so the aim of TFP is to eliminate it completely",
+      "Unrelated to the capacity for love, so it can be left unexplored"
+    ],
+    "e": "The authors see aggression as a constitutional, evolution-derived component of everyone, embedded in neurobiology, not simply 'badness' or a reaction to mistreatment. Mastered and integrated, it serves self-affirmation, creativity and leadership. TFP therefore does not try to eliminate aggression; it helps the patient recognize and integrate it, which in turn frees the capacity for love that splitting had kept apart.",
+    "w": [
+      "They do not see aggression as only reactive; it has a constitutional source.",
+      "They do not aim to eliminate it; integrating it is the goal.",
+      "Integrating aggression frees the capacity for love, so it cannot be left unexplored."
+    ],
+    "k": "Aggression is a constitutional part of everyone; integrated, it supports assertion and creativity and frees love.",
+    "h": "Aggression is fire: dangerous loose, useful in the hearth.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Envy",
+    "d": 2,
+    "q": "The narcissistic personality structure may be considered:",
+    "o": [
+      "A massive characterological defense against inordinate envy",
+      "A neurotic defense organized around repression of envy",
+      "A psychotic structure with loss of reality testing",
+      "A healthy adaptation that protects self-esteem"
+    ],
+    "e": "The chapter suggests that the narcissistic personality structure as a whole may be a massive characterological defense against the activation of inordinate envy. If others are devalued and the self is grandiose and self-sufficient, there is nothing to envy and no one to need. In therapy, this shows as dismissing the therapist's help or feeling worse after being helped, because needing someone revives the unbearable envy.",
+    "w": [
+      "Narcissistic personality is at the borderline level, organized around splitting, not repression.",
+      "Reality testing is intact; it is not a psychotic structure.",
+      "It is a defensive structure, not a healthy adaptation."
+    ],
+    "k": "Narcissistic structure = a massive characterological defense against inordinate envy.",
+    "h": "If I need no one, I envy no one.",
+    "r": "Clarkin Ch1 – Trauma, hatred and envy"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "A patient feels emptier and more hopeless after a session in which real progress happened. What does Ch1 call this, and what usually lies behind it?",
+    "o": [
+      "Negative therapeutic reaction; unconscious envy of the therapist",
+      "Positive transference; gratitude for the therapist's help",
+      "Psychopathic transference; dishonesty about progress",
+      "Paranoid transference; fear the therapist will harm"
+    ],
+    "e": "Getting worse after real progress is a negative therapeutic reaction. In less severe narcissistic personalities it usually reflects hatred linked to unconscious envy: the therapist's help is experienced as humiliating proof of the patient's inferiority and the therapist's superiority, so it must be spoiled. Interpreting the envy, carefully and repeatedly, is part of the work. Recognizing the pattern prevents the therapist from concluding that the intervention was simply wrong.",
+    "w": [
+      "Gratitude after help would be the opposite of feeling worse.",
+      "Psychopathic transference involves dishonesty and deceit, not feeling worse after help.",
+      "Paranoid transference is fear of being harmed, not deterioration after being helped."
+    ],
+    "k": "Feeling worse after being helped = negative therapeutic reaction, often driven by unconscious envy.",
+    "h": "Help feels like a put-down, so the patient spits it out.",
+    "r": "Clarkin Ch1 – Narcissistic structure"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "'Perversity' in the transference refers to:",
+    "o": [
+      "Recruiting the love received from an object in the service of aggression",
+      "Recruiting aggression in the service of love, as in masochistic syndromes",
+      "Acting out sexual impulses toward the therapist outside the sessions",
+      "Lying to the therapist to avoid exposing sexual fantasies"
+    ],
+    "e": "Perversity, in Kernberg's sense, is recruiting the love received from an object in the service of aggression, for example using the therapist's care and concern as a tool to attack, exploit or destroy. It is the opposite of masochism, where aggression is recruited in the service of love. Perversity is most frequent in malignant narcissism and makes treatment especially difficult, because goodness itself becomes a weapon.",
+    "w": [
+      "Aggression in the service of love is masochism, the opposite of perversity.",
+      "Sexual acting out is not the definition; perversity is the corruption of love by aggression.",
+      "Lying about fantasies would be dishonesty, which is different from perversity."
+    ],
+    "k": "Perversity = love recruited in the service of aggression (opposite of masochism); typical of malignant narcissism.",
+    "h": "Turning a gift into a weapon.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Malignant narcissism",
+    "d": 2,
+    "q": "Malignant narcissism combines:",
+    "o": [
+      "Narcissistic personality, ego-syntonic aggression, paranoid traits, antisocial behavior",
+      "Narcissistic personality, depressive mood, chronic anxiety, somatization and social withdrawal",
+      "Narcissistic personality, avoidant traits, dependency and shyness",
+      "Narcissistic personality, psychosis, mania and hallucinations"
+    ],
+    "e": "Malignant narcissism combines narcissistic personality, ego-syntonic aggression (aggression that feels justified or even pleasurable), paranoid traits and antisocial behaviour. It differs from antisocial personality disorder because some capacity for guilt and some nonhateful investment in others remain, which is why some of these patients are still treatable, unlike those with ASPD.",
+    "w": [
+      "Depression, anxiety and somatization are not its defining features.",
+      "Avoidant traits, dependency and shyness don't describe malignant narcissism.",
+      "It is not a psychosis; reality testing is maintained."
+    ],
+    "k": "Malignant narcissism = narcissism + ego-syntonic aggression + paranoid traits + antisocial behaviour, with some capacity for guilt left.",
+    "h": "Malignant = narcissism that has turned aggressive, suspicious and rule-breaking.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Antisocial",
+    "d": 2,
+    "q": "Why is antisocial personality disorder considered practically untreatable by psychotherapy?",
+    "o": [
+      "Complete absence of superego functions, guilt, concern and nonexploitive investment",
+      "These patients are psychotic and lack reality testing in every relationship",
+      "These patients lack the intelligence needed to understand interpretations",
+      "These patients never attend sessions, so no relationship can develop"
+    ],
+    "e": "Psychotherapy relies on a relationship in which the patient can care, feel guilt and value another person. In ASPD, the authors note a complete absence of superego functions, guilt, concern and nonexploitive investment in others, so any relationship, including the therapeutic one, is used exploitatively. That practically precludes psychotherapy. This is the extreme end of the superego-pathology dimension that predicts poor prognosis across therapies.",
+    "w": [
+      "Patients with ASPD keep reality testing; they are not psychotic.",
+      "Intelligence is not the obstacle; many antisocial patients are intelligent.",
+      "The obstacle is not attendance; it is the absence of any non-exploitive relationship."
+    ],
+    "k": "ASPD is practically untreatable by psychotherapy: no superego, no guilt or concern, no non-exploitive bond.",
+    "h": "No conscience to talk to.",
+    "r": "Clarkin Ch1 – Antisocial structure"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "In the sequence of transferences, psychopathic transferences defend against ___, which later shift into ___.",
+    "o": [
+      "Paranoid transferences; depressive transferences",
+      "Depressive transferences; paranoid transferences",
+      "Erotic transferences; idealizing transferences",
+      "Neurotic transferences; psychotic transferences"
+    ],
+    "e": "The chapter describes a sequence in severe patients. Psychopathic transferences (deceit, manipulation, dishonesty) are a defense against paranoid transferences: the patient lies because they believe the therapist is dangerous. Analysing the psychopathic transference shifts it into the underlying paranoid one. In advanced treatment, paranoid transferences shift into depressive transferences, marked by guilt, concern, tolerance of ambivalence and wishes for reparation.",
+    "w": [
+      "The order is reversed: paranoid comes before depressive.",
+      "Erotic and idealizing transferences are not this sequence.",
+      "Neurotic and psychotic are levels of organization, not this transference sequence."
+    ],
+    "k": "Transference sequence: psychopathic (defending against) → paranoid → depressive.",
+    "h": "Liar → fearful → sorry.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "In analysing paranoid transferences, the therapist should avoid:",
+    "o": [
+      "Premature reassurance and premature interpretation of projective identification",
+      "Exploring the patient's view of the therapist as a dangerous enemy before correcting it",
+      "Keeping a clear frame",
+      "Technical neutrality"
+    ],
+    "e": "When the patient experiences the therapist as dangerous, two mistakes are tempting. Premature reassurance ('I'm not against you') drives the hate-dominated relation underground instead of exploring it. Premature interpretation of projective identification ('you're projecting your own hatred') confronts a patient not yet able to tolerate their projected hatred. Instead, the therapist explores the patient's view while keeping a clear frame, so aggression feels contained and safe to examine.",
+    "w": [
+      "Exploring the patient's view of the therapist as dangerous is what the therapist should do.",
+      "A clear frame provides the security that aggression is under control; it is essential.",
+      "Technical neutrality is a core TFP stance, not something to avoid."
+    ],
+    "k": "With paranoid transference, avoid premature reassurance and premature interpretation of projective identification.",
+    "h": "Don't soothe it away, don't throw it back too soon.",
+    "r": "Clarkin Ch1 – Analysis of paranoid transferences"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "A patient enters cursing because the therapist was 5 minutes late and paces menacingly. Which identification is conscious, and which is enacted?",
+    "o": [
+      "She consciously feels like the victim while unconsciously enacting the aggressive persecutor",
+      "She consciously feels like the aggressor, while unconsciously she experiences herself as the victim",
+      "Both are conscious",
+      "Neither is present"
+    ],
+    "e": "With rapid role reversals, the patient is usually conscious of being the victim ('you mistreated me by being late') while unconsciously enacting the aggressor, here cursing and pacing menacingly toward the therapist. The identification with the sadistic object shows in behaviour but is out of awareness. TFP helps the patient see both sides of the dyad, which they alternately live out, because recognizing the aggressor within is necessary for integration.",
+    "w": [
+      "This reverses it: the victim identification is the conscious one.",
+      "Typically only the victim side is conscious; the aggressor side is enacted.",
+      "Both identifications are present: one felt, the other acted out."
+    ],
+    "k": "In role reversals, the victim role is usually conscious while the aggressor role is enacted outside awareness.",
+    "h": "Says 'victim', acts 'villain'.",
+    "r": "Clarkin Ch1 – Hatred with rapid role reversals"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 2,
+    "q": "What practical, operational definition of transference does Ch1 offer?",
+    "o": [
+      "Any patient response differing from the ordinary expected response",
+      "Any feeling the therapist experiences toward the patient",
+      "Only the erotic feelings a patient develops toward the therapist",
+      "Only negative feelings about the parents displaced onto others"
+    ],
+    "e": "The chapter offers a practical definition: transference can be seen in any patient response that differs from the ordinary, expected response to the situation. If the therapist says 'Good morning' and the patient hears mockery, or treats it as a precious gift, an internal object relation is shaping the experience. This makes transference observable moment to moment, not something hidden that appears only occasionally.",
+    "w": [
+      "The therapist's feelings toward the patient are countertransference.",
+      "Transference is not limited to erotic feelings.",
+      "Transference is not limited to negative feelings about parents."
+    ],
+    "k": "Transference shows in any response that differs from the ordinary expected response to the situation.",
+    "h": "Look for the overreaction or the odd reaction: that's the transference talking.",
+    "r": "Clarkin Ch1 – end"
+  },
+  {
+    "t": "Ch1 Green",
+    "d": 3,
+    "q": "According to André Green, cited in Ch1, acting out and somatization are:",
+    "o": [
+      "Ways to avoid experiencing psychic reality; to be channeled and interpreted in the transference",
+      "Healthy coping strategies that should be supported until the patient is stronger",
+      "Signs of an underlying psychosis that require medication before therapy",
+      "Behaviors irrelevant to TFP, which should be handled only by other professionals"
+    ],
+    "e": "Green (1993) argued that acting out and somatization are the means by which a patient avoids consciously experiencing psychic reality: feelings are discharged through action or the body instead of being felt and thought. They must be transformed into psychic experience by channeling the affects into the treatment frame and interpreting them in the transference. In practice, when the patient reports an affect, the therapist explores which self–other dyad lies behind it.",
+    "w": [
+      "Green sees them as avoidance of psychic reality, not healthy coping to support.",
+      "They are not taken as signs of psychosis requiring medication first.",
+      "They are central in TFP: channeled into the frame and interpreted, not handed to others."
+    ],
+    "k": "Green: acting out and somatization avoid psychic reality; channel them into the frame and interpret them in the transference.",
+    "h": "Turn the action and the ache back into a feeling with a story.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Integration",
+    "d": 2,
+    "q": "Which two factors drive normal integration of split good and bad images?",
+    "o": [
+      "Cognitive development and predominance of good experiences",
+      "Medication and insight into early childhood memories",
+      "Punishment and reward from the parents over time",
+      "Repression and denial becoming the main defenses"
+    ],
+    "e": "Normal development integrates split images through two factors: cognitive development (the growing ability to hold complex, contradictory information) and the predominance of good, satisfying experiences over bad, frustrating ones. When good experiences dominate, the child can tolerate discovering that the frustrating parent is also the loving one. When aggression and bad experiences dominate, constitutionally or through trauma, splitting persists, which is the borderline pathway.",
+    "w": [
+      "Medication and insight are not the developmental drivers of integration.",
+      "Parental punishment and reward are not named as the integrating factors.",
+      "Repression replaces splitting after integration; it does not drive it."
+    ],
+    "k": "Integration of split images is driven by cognitive development and the predominance of good over bad experiences.",
+    "h": "A growing mind plus more good than bad lets the pieces fuse.",
+    "r": "Clarkin Ch1"
+  },
+  {
+    "t": "Ch1 Table 1–2",
+    "d": 3,
+    "q": "In Table 1–2, 'inhibited aggression; angry outbursts followed by guilt' describes which level?",
+    "o": [
+      "Neurotic organization",
+      "Borderline organization",
+      "Normal organization",
+      "Psychotic organization"
+    ],
+    "e": "Table 1–2 compares aggression across levels. At the neurotic level, aggression is inhibited, with occasional angry outbursts followed by guilt. The guilt shows an integrated superego and the inhibition a repression-based structure. At the borderline level, aggression is directed at self and others, and in severe cases organized as hatred. At the normal level, anger is modulated and used for appropriate self-assertion.",
+    "w": [
+      "Borderline aggression is self-directed and other-directed, with hatred in severe cases, and little guilt.",
+      "Normal aggression is modulated anger used for appropriate self-assertion.",
+      "Psychotic organization is not described by inhibited aggression followed by guilt."
+    ],
+    "k": "Table 1–2: neurotic = inhibited aggression with outbursts then guilt; borderline = self- and other-directed aggression, hatred; normal = modulated assertion.",
+    "h": "Guilt after the outburst = a working superego = neurotic.",
+    "r": "Clarkin Ch1 – Table 1–2"
+  },
+  {
+    "t": "Ch1 Transferences",
+    "d": 3,
+    "q": "An incest survivor idealizes the therapist as rescuer and sees the perpetrator as pure evil. What risk does Ch1 highlight?",
+    "o": [
+      "Her own identification with the aggressor stays 'out of the room', displaced elsewhere",
+      "She will soon become psychotic because the idealization is too intense to sustain",
+      "The therapist must confront the perpetrator directly to protect the patient",
+      "There is no risk, since idealizing the therapist is a healthy, positive transference"
+    ],
+    "e": "In this idealized transference, the therapist is the good rescuer and the perpetrator pure evil, so the aggressive object representation is split off and displaced outside the room. The risk the chapter highlights is that the patient's unconscious identification with both victim and perpetrator is never analysed. TFP expects the hated dyad to enter the transference eventually, and working with both sides, including the patient's own identification with the aggressor, is what allows integration.",
+    "w": [
+      "The chapter doesn't predict psychosis; it warns about split-off aggression.",
+      "The therapist's role is not to confront the perpetrator but to analyse the internal dyads.",
+      "Idealization here is a split, defensive transference that hides the aggressive side."
+    ],
+    "k": "In an idealized transference, the aggressive dyad stays 'out of the room'; it must eventually be brought in and analysed.",
+    "h": "If the villain is always elsewhere, half the story never enters therapy.",
+    "r": "Clarkin Ch1"
+  }
+]

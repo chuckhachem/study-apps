@@ -1,0 +1,322 @@
+[
+  {
+    "t": "Ch14 Purpose of ANCOVA",
+    "d": 2,
+    "q": "What are the two main benefits of adding a covariate to an ANOVA?",
+    "o": [
+      "It reduces error variance and adjusts group means for the covariate",
+      "It removes outliers and makes the outcome normally distributed",
+      "It increases the number of groups and the model degrees of freedom",
+      "It replaces post hoc tests and corrects for heterogeneity of variance"
+    ],
+    "e": "A covariate related to the outcome explains some of the within-group variance, shrinking SSR and raising power. ANCOVA also produces adjusted means, the group means estimated at the same covariate value (its mean). This only makes sense when the covariate is independent of the treatment.",
+    "w": [
+      "Covariates don't remove outliers or normalize the outcome; they explain variance.",
+      "Covariates don't add groups; each one actually costs a residual degree of freedom.",
+      "Covariates don't replace post hoc tests or fix unequal variances."
+    ],
+    "k": "Covariates reduce error variance and produce adjusted means, if independent of treatment.",
+    "h": "Less noise, fairer means.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Why ANCOVA"
+  },
+  {
+    "t": "Ch14 Assumptions",
+    "d": 3,
+    "q": "In a quasi-experiment, older clients ended up in the therapy group, and age also predicts the outcome. Why is entering age as a covariate not a fix for this group difference?",
+    "o": [
+      "When groups differ on the covariate, the variance it shares with group cannot be cleanly removed",
+      "ANCOVA requires the covariate to be a categorical variable, but age is measured continuously",
+      "Adding any covariate always makes the treatment effect look larger than it really is in the population",
+      "SPSS automatically excludes any covariate whose mean differs significantly between the groups"
+    ],
+    "e": "ANCOVA assumes the covariate is independent of the treatment effect. If groups differ on age, part of the variance attributed to age is entangled with group membership, and adjusting can remove part of the real effect or produce misleading adjusted means (Miller & Chapman, 2001). Randomization, not ANCOVA, solves pre-existing group differences.",
+    "w": [
+      "Covariates are usually continuous, so age being continuous isn't the problem.",
+      "Adding a covariate doesn't always inflate the effect; it can also remove real effect.",
+      "SPSS doesn't automatically drop covariates that differ between groups."
+    ],
+    "k": "ANCOVA can't fix pre-existing group differences on the covariate; randomization can.",
+    "h": "You can't statistically un-tangle what the design tangled.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Independence of covariate and treatment"
+  },
+  {
+    "t": "Ch14 Assumptions",
+    "d": 2,
+    "q": "How can you check whether the covariate is independent of the treatment in SPSS?",
+    "o": [
+      "Test whether groups differ on the covariate, for example with an ANOVA on it",
+      "Check whether the covariate correlates significantly with the outcome variable",
+      "Run Levene's test on the covariate across the treatment groups",
+      "Inspect a Q–Q plot of the covariate separately for each group"
+    ],
+    "e": "Run a one-way ANOVA (or t-test) with the covariate as the outcome and group as the predictor. Similar group means support independence. A large difference warns that the ANCOVA adjustment may be misleading.",
+    "w": [
+      "Covariate–outcome correlation shows usefulness, not independence from treatment.",
+      "Levene's test checks equal variances, not independence from treatment.",
+      "Q–Q plots check normality, not whether groups differ on the covariate."
+    ],
+    "k": "Check independence by testing group differences on the covariate.",
+    "h": "Do the groups start level on the covariate?",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Checking independence"
+  },
+  {
+    "t": "Ch14 Assumptions",
+    "d": 2,
+    "q": "The homogeneity of regression slopes assumption requires that:",
+    "o": [
+      "The covariate–outcome relationship has the same slope in each group",
+      "The covariate has the same mean value in each of the groups being compared",
+      "The outcome has the same variance in each of the groups being compared",
+      "The covariate is completely uncorrelated with the outcome variable"
+    ],
+    "e": "ANCOVA fits parallel lines, one per group with a common slope, and compares their heights. If the slopes differ, a single adjustment is wrong because the group difference depends on the covariate value, which is an interaction.",
+    "w": [
+      "Equal covariate means relate to independence, not slopes.",
+      "Equal outcome variance is homogeneity of variance.",
+      "The covariate should correlate with the outcome to be useful."
+    ],
+    "k": "Homogeneity of regression slopes: the covariate–outcome slope is the same in every group.",
+    "h": "Parallel lines, one adjustment.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Homogeneity of regression slopes"
+  },
+  {
+    "t": "Ch14 Assumptions",
+    "d": 3,
+    "q": "How is homogeneity of regression slopes tested in SPSS's GLM Univariate procedure?",
+    "o": [
+      "Build a custom model with group, covariate and group × covariate, then test that interaction",
+      "Tick 'Homogeneity tests' under Options, which runs Levene's test on the slopes",
+      "Run the ANCOVA twice, once with and once without the covariate, and compare the two F values for group",
+      "Compare the adjusted means with the unadjusted means using Bonferroni corrections"
+    ],
+    "e": "Under Model, choose Custom (Build terms), add the main effects and the factor × covariate interaction. A significant interaction means the slopes differ. Then return to the full-factorial model, which omits factor × covariate terms, for the ANCOVA proper. Levene's test concerns variances, not slopes.",
+    "w": [
+      "'Homogeneity tests' runs Levene's test on variances, not slopes.",
+      "Comparing F with and without the covariate doesn't test slopes.",
+      "Comparing adjusted and raw means doesn't test slopes."
+    ],
+    "k": "Test slopes with a custom model including the group × covariate interaction.",
+    "h": "Look for the factor-by-covariate interaction.",
+    "r": "Stats & SPSS ch. 14 · SPSS · Testing slopes"
+  },
+  {
+    "t": "Ch14 Adjusted means",
+    "d": 2,
+    "q": "In ANCOVA output, the 'Estimated Marginal Means' are:",
+    "o": [
+      "Group means adjusted to the value they would have if every group had the mean covariate score",
+      "Raw group means, computed after the covariate has been removed from the dataset entirely",
+      "Group medians, which are used because the covariate makes the outcome skewed",
+      "Means of the covariate within each group, which are used to check independence"
+    ],
+    "e": "Adjusted means estimate each group's outcome at the overall covariate mean, putting groups on an equal footing for the covariate. Post hoc comparisons in ANCOVA compare these adjusted means, not the raw ones.",
+    "w": [
+      "Covariates aren't removed from the dataset; means are adjusted.",
+      "Estimated marginal means are means, not medians.",
+      "Covariate means per group are used to check independence, not reported as EMMs."
+    ],
+    "k": "Estimated marginal means = group means adjusted to the mean covariate score.",
+    "h": "Everyone gets the average covariate.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Adjusted means"
+  },
+  {
+    "t": "Ch14 Follow-up",
+    "d": 3,
+    "q": "Which post hoc corrections are available in SPSS for comparing adjusted means in ANCOVA?",
+    "o": [
+      "LSD, Bonferroni and Šidák, via Options → Compare main effects",
+      "Tukey, REGWQ and Games–Howell, via the Post Hoc button",
+      "Only Dunnett's test, because the covariate defines a control",
+      "None at all, because adjusted means cannot be compared"
+    ],
+    "e": "The tests under the Post Hoc button compare unadjusted means and are not available once a covariate is in the model. Instead, display the factor's estimated marginal means, tick 'Compare main effects', and choose a confidence interval adjustment: LSD (none), Bonferroni or Šidák. Planned contrasts are also available.",
+    "w": [
+      "The Post Hoc button compares unadjusted means and is unavailable with covariates.",
+      "Dunnett isn't the only option, and covariates don't define a control.",
+      "Adjusted means can be compared via estimated marginal means."
+    ],
+    "k": "Compare adjusted means via EMMs: LSD, Bonferroni or Šidák.",
+    "h": "Options, not Post Hoc, for adjusted means.",
+    "r": "Stats & SPSS ch. 14 · SPSS · Comparing adjusted means"
+  },
+  {
+    "t": "Ch14 Effect sizes",
+    "d": 2,
+    "q": "Partial eta squared for the treatment effect in an ANCOVA is computed as:",
+    "o": [
+      "SS_effect / (SS_effect + SS_residual)",
+      "SS_effect / SS_total (all effects)",
+      "SS_residual / SS_total",
+      "SS_effect / (SS_covariate + SS_total)"
+    ],
+    "e": "Partial η² expresses the effect relative to itself plus error, ignoring variance explained by other terms such as the covariate. It is what SPSS reports under 'Estimates of effect size'. Because the denominators differ, partial η² values cannot be summed or compared like η².",
+    "w": [
+      "SS_effect/SS_total is plain η², not partial η².",
+      "SS_residual/SS_total is the unexplained proportion, not an effect size.",
+      "Adding SS_covariate to SS_total isn't a standard formula."
+    ],
+    "k": "Partial η² = SS_effect ÷ (SS_effect + SS_residual).",
+    "h": "Effect against effect plus error.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Partial eta squared"
+  },
+  {
+    "t": "Ch14 Interpretation",
+    "d": 2,
+    "q": "In the ANCOVA table, a significant F for the covariate itself means:",
+    "o": [
+      "The covariate significantly predicts the outcome, after accounting for group",
+      "The groups differ significantly from each other in their covariate scores",
+      "The homogeneity of regression slopes assumption has been violated",
+      "The treatment effect is no longer significant once the covariate is added"
+    ],
+    "e": "The covariate row tests whether the covariate explains outcome variance over and above the other terms. That is what makes it useful for reducing error. It is not a test of group differences on the covariate, which is a separate check.",
+    "w": [
+      "Group differences on the covariate are checked separately.",
+      "The covariate row doesn't test homogeneity of slopes.",
+      "The covariate row doesn't tell you the treatment effect vanished."
+    ],
+    "k": "Significant covariate F = covariate predicts outcome beyond group.",
+    "h": "The covariate earns its seat.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · The covariate effect"
+  },
+  {
+    "t": "Ch14 Interpretation",
+    "d": 3,
+    "q": "Adding a covariate makes a non-significant group effect significant. The most likely reason is that:",
+    "o": [
+      "The covariate absorbed within-group variance, shrinking the error term",
+      "The covariate artificially inflated the group means, creating a false effect",
+      "The covariate increased the model's residual degrees of freedom",
+      "The covariate corrected the group variances so they became equal"
+    ],
+    "e": "If the covariate correlates with the outcome but not with group, it explains part of SSR. MSR falls, so the same group difference produces a larger F. ANCOVA actually costs one residual df per covariate.",
+    "w": [
+      "Covariates don't inflate group means artificially when independent.",
+      "ANCOVA costs a residual df per covariate.",
+      "Covariates don't equalize group variances; they reduce error variance."
+    ],
+    "k": "Covariates shrink the error term, raising F for the same group difference.",
+    "h": "Quieter room, clearer signal.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Power gains"
+  },
+  {
+    "t": "Ch14 Design",
+    "d": 3,
+    "q": "For a randomized pre–post design, analysing post-test scores with pre-test as a covariate is generally:",
+    "o": [
+      "More powerful than comparing change scores, because the adjustment is estimated from the data",
+      "Exactly equivalent to running a paired t-test on the pre-test and post-test scores",
+      "Invalid, because the pre-test is measured before the treatment has begun",
+      "Less powerful than a simple ANOVA on the post-test scores on their own"
+    ],
+    "e": "ANCOVA estimates the optimal weight for the pre-test rather than fixing it at 1 as a change score does, and it removes baseline variance from the error. With randomization, the pre-test is independent of treatment, so the main ANCOVA assumption holds. Measuring the covariate before treatment is exactly what is recommended.",
+    "w": [
+      "ANCOVA isn't equivalent to a paired t-test.",
+      "Pre-test covariates measured before treatment are ideal.",
+      "Adding the pre-test usually increases power over post-only ANOVA."
+    ],
+    "k": "Randomized pre–post: ANCOVA with pre-test as covariate beats change scores.",
+    "h": "Let the data weigh the baseline.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Pre-test as covariate"
+  },
+  {
+    "t": "Ch14 SPSS",
+    "d": 1,
+    "q": "Where is ANCOVA run in SPSS?",
+    "o": [
+      "Analyze → General Linear Model → Univariate, with the covariate in 'Covariate(s)'",
+      "Analyze → Compare Means → One-Way ANOVA, entering the covariate as a second factor",
+      "Analyze → Regression → Linear, with the group variable as the dependent",
+      "Analyze → Correlate → Partial, with the group as a control variable"
+    ],
+    "e": "In Univariate, the outcome goes in Dependent Variable, the grouping variable in Fixed Factor(s) and continuous control variables in Covariate(s). One-Way ANOVA cannot include covariates.",
+    "w": [
+      "The One-Way ANOVA dialog has no slot for covariates.",
+      "Using group as the dependent reverses the model.",
+      "Partial correlations control variables but don't compare group means."
+    ],
+    "k": "ANCOVA: Analyze → General Linear Model → Univariate, covariates in Covariate(s).",
+    "h": "Univariate holds the covariates.",
+    "r": "Stats & SPSS ch. 14 · SPSS · Running ANCOVA"
+  },
+  {
+    "t": "Ch14 Sums of squares",
+    "d": 3,
+    "q": "SPSS's GLM uses Type III sums of squares by default. What do they represent?",
+    "o": [
+      "Each effect's contribution after adjusting for every other effect in the model",
+      "Each effect's contribution in the order in which the variables were entered into the model",
+      "Only the main effects in the model, ignoring any interactions it contains",
+      "The total variance explained by all of the model's effects combined together"
+    ],
+    "e": "Type III SS evaluate each term as if it were entered last, which suits unbalanced designs with interactions. Type I SS are sequential (order matters), and Type II adjust each effect for other effects but not for interactions that contain it.",
+    "w": [
+      "Sequential order describes Type I sums of squares.",
+      "Type III sums of squares do include the interaction terms.",
+      "Total variance explained is the model SS."
+    ],
+    "k": "Type III SS: each effect adjusted for all others, as if entered last.",
+    "h": "Type III: each term goes last.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Types of sums of squares"
+  },
+  {
+    "t": "Ch14 Design",
+    "d": 2,
+    "q": "Which variable makes the best covariate in a randomized experiment?",
+    "o": [
+      "One measured before treatment that correlates strongly with the outcome",
+      "One measured after treatment that the manipulation may have changed",
+      "One that is uncorrelated with the outcome but differs between groups",
+      "One that is a near-duplicate of the outcome measured at the same time"
+    ],
+    "e": "A good covariate explains outcome variance (to reduce error) and cannot be influenced by treatment (to preserve independence), so baseline measures are ideal. A covariate affected by treatment can remove part of the treatment effect.",
+    "w": [
+      "Post-treatment covariates can absorb the treatment effect.",
+      "A covariate uncorrelated with the outcome can't reduce error variance.",
+      "A near-duplicate of the outcome at the same time may be affected by treatment."
+    ],
+    "k": "Best covariate: measured before treatment and strongly related to the outcome.",
+    "h": "Baseline is best.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Choosing covariates"
+  },
+  {
+    "t": "Ch14 Reporting",
+    "d": 2,
+    "q": "Which report of an ANCOVA is most complete?",
+    "o": [
+      "Covariate effect, then group F(2, 26) = 4.14, p = .027, partial η² = .24, with adjusted means",
+      "Only the group F with the raw group means and SDs, plus the result of Levene's test",
+      "Only the covariate's correlation with the outcome and its significance level",
+      "Group F(2, 29) = 4.14, p = .027, η² = .24 from a one-way ANOVA ignoring the covariate, with raw means"
+    ],
+    "e": "Report the covariate's effect, the group effect with its df (residual df = N − k − number of covariates: 30 − 3 − 1 = 26 here), an effect size, the adjusted means with their CIs, and follow-up comparisons. Note any checks of the independence and homogeneity-of-slopes assumptions.",
+    "w": [
+      "Raw means ignore the covariate adjustment.",
+      "The covariate's correlation alone omits the group effect.",
+      "A one-way ANOVA ignores the covariate entirely."
+    ],
+    "k": "ANCOVA report: covariate effect, group F with df, partial η² and adjusted means.",
+    "h": "Report the adjusted story.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · Reporting"
+  },
+  {
+    "t": "Ch14 Purpose of ANCOVA",
+    "d": 2,
+    "q": "How is ANCOVA related to regression?",
+    "o": [
+      "It is a linear model with dummy-coded group predictors plus continuous covariates",
+      "It is a regression in which the covariate is used as the outcome variable instead of the predictor",
+      "It is a regression with no intercept and one predictor per group",
+      "It is unrelated, because regression cannot include categorical variables"
+    ],
+    "e": "All of these are versions of one general linear model: outcome = b0 + b(dummies) + b(covariates) + error. Seeing it this way clarifies why the assumptions are the same as in regression, plus homogeneity of slopes, which simply means there is no group × covariate interaction.",
+    "w": [
+      "The covariate is a predictor, not the outcome.",
+      "ANCOVA keeps an intercept with k − 1 dummies.",
+      "Regression handles categorical variables via dummy coding."
+    ],
+    "k": "ANCOVA = linear model with dummy-coded groups plus covariates.",
+    "h": "One general linear model rules them all.",
+    "r": "Stats & SPSS ch. 14 · GLM 2 (ANCOVA) · ANCOVA as a linear model"
+  }
+]

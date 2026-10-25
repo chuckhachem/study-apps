@@ -1,0 +1,242 @@
+[
+  {
+    "t": "Ch17 Mixed designs",
+    "d": 1,
+    "q": "A design in which clients are randomly assigned to CBT or waitlist and measured at baseline, post-treatment and follow-up is a:",
+    "o": [
+      "Mixed design (one between- and one within-subjects factor)",
+      "Two-way independent (between-subjects) factorial design",
+      "Two-way repeated-measures (fully within-subjects) design",
+      "One-way ANCOVA with time entered as the covariate"
+    ],
+    "e": "Group is between subjects (each person is in one group), and time is within subjects (everyone is measured three times). Combining both kinds of factor makes it a mixed design, analysed with a mixed ANOVA or a multilevel model.",
+    "w": [
+      "A fully independent factorial would need different people at each time point.",
+      "A fully within design would need every client to receive both CBT and waitlist.",
+      "Time is a repeated factor here, not a covariate measured once."
+    ],
+    "k": "Mixed design = at least one between-subjects and one within-subjects factor.",
+    "h": "Mixed: some factors split people, others follow them.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Mixed designs"
+  },
+  {
+    "t": "Ch17 Interpretation",
+    "d": 2,
+    "q": "In a group (CBT vs waitlist) × time (pre, post) mixed design, which effect directly tests whether CBT produced more improvement than waitlist?",
+    "o": [
+      "The group × time interaction",
+      "The main effect of group (CBT)",
+      "The main effect of time (pre–post)",
+      "The between-subjects error term"
+    ],
+    "e": "Improvement is change over time, so a greater improvement for CBT means the time effect differs by group, which is the interaction. The main effect of group compares groups averaged over time, and the main effect of time averages change over both groups.",
+    "w": [
+      "The group main effect averages over time, so it mixes baseline and outcome.",
+      "The time main effect averages change across both groups.",
+      "The between-subjects error term is a denominator, not a test of improvement."
+    ],
+    "k": "In treatment trials, the group × time interaction tests differential improvement.",
+    "h": "Did the lines pull apart over time?",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · The key interaction"
+  },
+  {
+    "t": "Ch17 Partitioning variance",
+    "d": 3,
+    "q": "Three groups of 10 participants are each measured at 3 time points. What are the df for group, between-subjects error, time, the interaction and within-subjects error?",
+    "o": [
+      "2, 27, 2, 4 and 54",
+      "2, 29, 2, 4 and 58",
+      "3, 27, 3, 9 and 54",
+      "2, 27, 2, 4 and 81"
+    ],
+    "e": "Group: g − 1 = 2. Between-subjects error: N − g = 30 − 3 = 27. Time: k − 1 = 2. Time × group: (k − 1)(g − 1) = 4. Within error: (k − 1)(N − g) = 2 × 27 = 54. Between and within effects have different error terms.",
+    "w": [
+      "Error df use N − g, not N − 1, so 29 and 58 are wrong.",
+      "df use levels minus 1, so group and time each have 2, and the interaction 4.",
+      "Within error df is (k − 1)(N − g) = 54, not 81."
+    ],
+    "k": "Mixed df: between error N − g; within error (k − 1)(N − g).",
+    "h": "Between and within each have their own error.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Degrees of freedom"
+  },
+  {
+    "t": "Ch17 Assumptions",
+    "d": 2,
+    "q": "Which set of assumptions applies to a mixed ANOVA?",
+    "o": [
+      "Sphericity for within effects, plus homogeneity of variances and covariances across groups",
+      "Sphericity for the between-subjects effects only, plus normality of the raw scores",
+      "Homogeneity of regression slopes, plus independence of the covariate from the groups",
+      "Equal group sizes, plus the absence of any correlation between the repeated time points"
+    ],
+    "e": "Within-subjects effects with three or more levels need sphericity (check Mauchly's test and ε). The between-subjects factor needs similar variances at each level of the within factor (Levene's test per time point), and similar covariance matrices across groups (Box's M).",
+    "w": [
+      "Sphericity applies to within-subjects effects, and raw-score normality isn't required.",
+      "Homogeneity of slopes and covariate independence are ANCOVA assumptions.",
+      "Equal group sizes aren't required, and time points are expected to correlate."
+    ],
+    "k": "Mixed ANOVA: sphericity (within), equal variances per time (Levene's), equal covariance matrices (Box's M).",
+    "h": "Sphere within, Levene and Box between.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Assumptions"
+  },
+  {
+    "t": "Ch17 Assumptions",
+    "d": 3,
+    "q": "What does Field advise about Box's test of equality of covariance matrices in a mixed design?",
+    "o": [
+      "It is unreliable, and if group sizes are equal it can largely be disregarded",
+      "It must be non-significant, or else the whole mixed analysis is invalid",
+      "It replaces Mauchly's test whenever the design includes a between-subjects factor",
+      "It is only relevant when the design has no repeated measures"
+    ],
+    "e": "Box's M is very sensitive to non-normality and to large samples. When groups are equal in size, the analysis is robust to unequal covariance matrices, so a significant Box's test is less worrying. With unequal groups, take it more seriously and consider robust methods.",
+    "w": [
+      "A significant Box's test doesn't automatically invalidate the analysis.",
+      "Box's test doesn't replace Mauchly's test for sphericity.",
+      "Box's test is relevant precisely because there are repeated measures."
+    ],
+    "k": "Box's M is unreliable; with equal group sizes it can largely be disregarded.",
+    "h": "Equal groups box clever.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Box's test"
+  },
+  {
+    "t": "Ch17 SPSS",
+    "d": 2,
+    "q": "How is a mixed ANOVA set up in SPSS?",
+    "o": [
+      "Repeated Measures: define the within factor, then add the group variable as a between-subjects factor",
+      "Univariate: put the grouping variable in Fixed Factor and the time variable in Random Factor",
+      "Repeated Measures: define both group and time as within-subjects factors, each with its own levels",
+      "Univariate: enter the grouping variable as a covariate and the time points as the dependent"
+    ],
+    "e": "Analyze → General Linear Model → Repeated Measures. Define the within factor (for example time with 3 levels), assign the three columns, and then add the coding variable (for example group) to Between-Subjects Factor(s). SPSS then fits the full mixed model.",
+    "w": [
+      "Univariate can't handle wide-format repeated columns, and time isn't a random factor here.",
+      "Group is between subjects, so it can't be a within-subjects factor.",
+      "Group isn't a covariate, and time points can't all be one dependent."
+    ],
+    "k": "Mixed ANOVA in SPSS: Repeated Measures, define the within factor, add group as between-subjects.",
+    "h": "Define within, then add between.",
+    "r": "Stats & SPSS ch. 17 · SPSS · Mixed ANOVA"
+  },
+  {
+    "t": "Ch17 SPSS",
+    "d": 2,
+    "q": "In mixed ANOVA output, where is the main effect of the between-subjects factor found?",
+    "o": [
+      "Tests of Between-Subjects Effects",
+      "Tests of Within-Subjects Effects",
+      "Mauchly's Test of Sphericity",
+      "Tests of Within-Subjects Contrasts"
+    ],
+    "e": "The between-subjects table tests the group main effect against the between-subjects error, using each person's average across time. The within-subjects table holds time and time × group, tested against the within-subjects error.",
+    "w": [
+      "Tests of Within-Subjects Effects hold time and the interaction, not group.",
+      "Mauchly's test checks sphericity; it tests no main effects.",
+      "Within-subjects contrasts test trends over time, not the group effect."
+    ],
+    "k": "Group main effect appears in Tests of Between-Subjects Effects.",
+    "h": "Between effects live in the between table.",
+    "r": "Stats & SPSS ch. 17 · SPSS · Reading mixed ANOVA output"
+  },
+  {
+    "t": "Ch17 Follow-up",
+    "d": 3,
+    "q": "The group × time interaction is significant. Which follow-up analysis directly shows where the groups differ?",
+    "o": [
+      "Simple effects of group at each time point, with Bonferroni-adjusted comparisons",
+      "Post hoc tests on the main effect of time, collapsing the scores across both groups",
+      "Separate Levene's tests on the outcome for each of the time points",
+      "Re-running the whole analysis with time entered as a covariate instead"
+    ],
+    "e": "Use EMMEANS = TABLES(group*time) COMPARE(group) to test group differences at each time point (or COMPARE(time) to test change within each group). Interaction contrasts, such as comparing pre-to-post change between groups, are also useful.",
+    "w": [
+      "Post hoc tests on time collapse groups, hiding the interaction.",
+      "Levene's tests check assumptions, not where groups differ.",
+      "Time as a covariate misrepresents the design."
+    ],
+    "k": "Follow a group × time interaction with simple effects of group at each time.",
+    "h": "Compare groups at each moment.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Simple effects"
+  },
+  {
+    "t": "Ch17 Interpretation",
+    "d": 2,
+    "q": "In a mixed design, a significant main effect of time but a non-significant group × time interaction means:",
+    "o": [
+      "Scores changed over time, and there is no evidence the change differed between groups",
+      "The intervention group improved significantly more than the control group over time",
+      "Neither group changed over time, but the groups already differed at baseline",
+      "The groups differed overall, regardless of the time point at which they were measured"
+    ],
+    "e": "The time main effect shows change averaged across groups (perhaps natural recovery or practice). Without an interaction, the data do not show that the intervention changed that trajectory, which is often a disappointing result in trials.",
+    "w": [
+      "Greater improvement for one group would show as an interaction.",
+      "A significant time effect means scores did change.",
+      "An overall group difference is the group main effect, not time."
+    ],
+    "k": "Time effect without interaction = change occurred, but not differently by group.",
+    "h": "Everyone moved, no one moved more.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Interpreting main effects"
+  },
+  {
+    "t": "Ch17 Alternatives",
+    "d": 3,
+    "q": "For a pre–post design with two randomized groups, an alternative to the mixed ANOVA is often more powerful. Which?",
+    "o": [
+      "An ANCOVA on post-test scores with pre-test as the covariate",
+      "An independent t-test on the pre-test scores, ignoring the post-test",
+      "A paired t-test on pre versus post that ignores group membership",
+      "A chi-square test on how many clients improved versus did not improve"
+    ],
+    "e": "With randomization, ANCOVA on the post-test adjusts for baseline and generally has more power than the group × time interaction (which is equivalent to a t-test on change scores). It answers the same question: do groups differ at post-test, given the same baseline?",
+    "w": [
+      "Pre-test scores alone can't show treatment effects.",
+      "Ignoring group membership loses the comparison.",
+      "Counting improvers versus non-improvers throws away information and power."
+    ],
+    "k": "Randomized pre–post: ANCOVA on post-test with pre-test covariate is usually more powerful.",
+    "h": "Adjust for baseline, gain power.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · ANCOVA alternative"
+  },
+  {
+    "t": "Ch17 Assumptions",
+    "d": 2,
+    "q": "Why is Levene's test reported for each time point in a mixed design?",
+    "o": [
+      "The between-subjects comparison at each time point assumes equal group variances",
+      "The within-subjects factor needs equal variances at every one of its levels",
+      "Levene's test replaces Mauchly's test for checking the within-subjects factor",
+      "SPSS cannot compute sphericity without Levene's results"
+    ],
+    "e": "Comparisons of groups use variances within each group at each level of the repeated factor, so homogeneity is checked separately at every time point. Sphericity, for the within factor, is a different assumption tested by Mauchly's test.",
+    "w": [
+      "Equal variances across levels of the within factor relate to sphericity, not Levene's.",
+      "Levene's test doesn't replace Mauchly's test.",
+      "Sphericity is computed independently of Levene's test."
+    ],
+    "k": "Mixed designs: Levene's test at each time point checks between-group variances.",
+    "h": "Levene at every stop.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Levene's test"
+  },
+  {
+    "t": "Ch17 Alternatives",
+    "d": 3,
+    "q": "Many clients drop out before follow-up in a three-wave trial. Why is a multilevel model preferable to a mixed ANOVA?",
+    "o": [
+      "It can use all available observations, whereas mixed ANOVA drops anyone with a missing wave",
+      "It imputes missing values with each group's mean, which keeps the sample size constant",
+      "It requires no assumptions at all about the residuals or random effects",
+      "It gives exactly the same results as the mixed ANOVA, so the choice is purely about preference"
+    ],
+    "e": "Repeated-measures and mixed ANOVA use listwise deletion, losing everyone missing any time point and potentially biasing results. Multilevel (mixed-effects) models estimate from all the data and also relax sphericity. Their estimates remain unbiased under the 'missing at random' assumption.",
+    "w": [
+      "Multilevel models don't impute group means; they estimate from all observations.",
+      "Multilevel models still make assumptions about residuals and random effects.",
+      "Results can differ, especially when data are missing."
+    ],
+    "k": "Multilevel models use all available data; mixed ANOVA drops anyone with a missing wave.",
+    "h": "Keep the dropouts' data.",
+    "r": "Stats & SPSS ch. 17 · GLM 5 (mixed designs) · Missing data"
+  }
+]
